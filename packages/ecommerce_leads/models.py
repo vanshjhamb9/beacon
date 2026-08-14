@@ -186,6 +186,7 @@ class EnrichedEcommerceLead:
     pain_points: list[dict[str, Any]] = field(default_factory=list)
     growth_signals: list[dict[str, Any]] = field(default_factory=list)
     buying_signals: list[dict[str, Any]] = field(default_factory=list)
+    technologies: list[str] = field(default_factory=list)
 
     # === SCORING ===
     buyability_score: float = 0.0

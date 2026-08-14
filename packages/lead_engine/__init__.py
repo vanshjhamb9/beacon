@@ -751,22 +751,30 @@ async def _live_discover_new(
         if cities and city and not _city_match(city, cities):
             continue
         why_bits = []
-        wa_absent = False
-        wa_present = False
-        wa = getattr(e, "whatsapp_state", None) or getattr(e, "whatsapp_detection", None)
-        if wa is not None and "ABSENT" in str(wa).upper():
-            why_bits.append("No WhatsApp chat on site")
-            wa_absent = True
-        elif wa is not None and "PRESENT" in str(wa).upper():
-            why_bits.append("WhatsApp already present on site")
-            wa_present = True
         chat = getattr(e, "chatbot_state", None)
+        chat_absent = False
         if chat is not None and "ABSENT" in str(chat).upper():
-            why_bits.append("No chatbot on site")
+            why_bits.append("No chatbot automation on site")
+            chat_absent = True
+        elif chat is not None and "PRESENT" in str(chat).upper():
+            why_bits.append("Web chatbot present on site")
+
+        # WhatsApp chat links are ignored. Only note true WA *bot* vendors.
+        techs_early = [str(t).lower() for t in (getattr(e, "technologies", None) or []) if t]
+        wa_ev = str(getattr(e, "whatsapp_evidence", "") or "").lower()
+        has_wa_bot = "whatsapp_bot" in techs_early or (
+            "bot" in wa_ev and "PRESENT" in str(getattr(e, "whatsapp_state", "") or "").upper()
+        )
+        if has_wa_bot:
+            why_bits.append("WhatsApp bot/automation vendor detected")
+
         pains = getattr(e, "pain_points", None) or []
-        for p in pains[:3]:
+        pain_types: list[str] = []
+        for p in pains[:5]:
             if isinstance(p, dict):
                 ptype = str(p.get("type") or "")
+                if ptype:
+                    pain_types.append(ptype)
                 if ptype == "faq_volume":
                     continue
                 ev = str(p.get("evidence") or ptype)[:80]
@@ -777,20 +785,51 @@ async def _live_discover_new(
                 if "faq" in s.lower() and "whatsapp" not in s.lower():
                     continue
                 why_bits.append(s[:80])
+
+        growth_raw = getattr(e, "growth_signals", None) or []
+        growth_signals: list[dict[str, Any]] = [g for g in growth_raw if isinstance(g, dict)]
+        buying_raw = getattr(e, "buying_signals", None) or []
+        buying_signals: list[dict[str, Any]] = [b for b in buying_raw if isinstance(b, dict)]
+        for g in growth_signals[:4]:
+            gtype = str(g.get("type") or "")
+            gev = str(g.get("evidence") or gtype)[:80]
+            if gtype and gev:
+                why_bits.append(f"{gtype}: {gev}")
+        for b in buying_signals[:3]:
+            bev = str(b.get("evidence") or b.get("type") or "")[:80]
+            if bev:
+                why_bits.append(bev)
+
+        techs_list = getattr(e, "technologies", None) or []
+        if isinstance(techs_list, list) and techs_list:
+            technologies = [str(t).lower() for t in techs_list if t]
+        else:
+            technologies = list(techs_early)
         platform = ""
-        techs = getattr(e, "technologies", None) or getattr(e, "tech_stack", None) or []
-        if isinstance(techs, list) and techs:
-            platform = str(techs[0])
-        elif getattr(e, "platform", None):
+        if getattr(e, "platform", None):
             platform = str(e.platform)
+            if platform and platform not in technologies:
+                technologies = [platform] + technologies
+        elif technologies:
+            platform = next((t for t in technologies if t in ("shopify", "woocommerce")), technologies[0])
+        if technologies:
+            why_bits.append("stack: " + ", ".join(technologies[:6]))
+
         emp = getattr(e, "employee_count", None)
         size = str(emp) if isinstance(emp, int) and emp > 0 else ""
         founder = _sanitize_founder_name(e.founder_name or "", company)
-        base_intent = 44.0
-        if wa_absent:
-            base_intent = 50.0
-        elif wa_present:
-            base_intent = 40.0
+        # Base intent from growth / chat automation — WhatsApp links ignored
+        base_intent = 46.0
+        if chat_absent:
+            base_intent += 5
+        if any(str(g.get("type")) == "hiring" for g in growth_signals):
+            base_intent += 5
+        if any(str(g.get("type")) == "funding" for g in growth_signals):
+            base_intent += 6
+        if any(str(g.get("type")) == "advertising" for g in growth_signals):
+            base_intent += 4
+        if any(str(g.get("type")) in ("expansion", "new_products") for g in growth_signals):
+            base_intent += 3
         if founder:
             base_intent += 3
         if _is_weak_outreach_email(email):
@@ -811,13 +850,20 @@ async def _live_discover_new(
                 "category": (e.raw.industry if e.raw else "") or "",
                 "size": size,
                 "platform": platform,
+                "technologies": technologies,
+                "pain_types": pain_types,
+                "growth_signals": growth_signals,
+                "buying_signals": buying_signals,
+                "chat_gap": chat_absent,
+                "whatsapp_bot": has_wa_bot,
                 "why": " · ".join(why_bits) or "Live-enriched Indian D2C contact",
                 "signal": "live_discovery",
-                "intent_score": base_intent,
+                "intent_score": min(58.0, base_intent),
                 "source": "live_verified_enrichment",
                 "company_type": "d2c_brand",
                 "enriched": True,
-                "whatsapp_already": wa_present,
+                # Legacy flag kept false — WA chat links no longer demote
+                "whatsapp_already": False,
                 "weak_outreach_email": _is_weak_outreach_email(email),
                 "year_founded": yf if isinstance(yf, int) else None,
             }
@@ -1027,7 +1073,9 @@ def _is_garbage_email(email: str) -> bool:
     local = _email_local(e)
     if "u003e" in e or "u003c" in e or "&lt;" in e or "&gt;" in e or "%3c" in e:
         return True
-    if local.startswith(("http", "www", "img", "png", "jpg", "css", "js")):
+    if local.startswith(("http", "www", "img", "png", "jpg", "css", "js", ".")):
+        return True
+    if local in {"unknown", "null", "undefined", "n/a", "na", "none", "test", "sample", "email", "user"}:
         return True
     if len(local) > 40:
         return True
@@ -1619,6 +1667,10 @@ def _dedupe(leads: list[dict[str, Any]]) -> list[dict[str, Any]]:
             score += 10
         if lead.get("size"):
             score += 5
+        if lead.get("source") == "live_verified_enrichment":
+            score += 35  # prefer fresh structured intent over stale CSV
+        if lead.get("growth_signals") or lead.get("technologies"):
+            score += 8
         lead["_dedupe_rank"] = score
         prev = best.get(email)
         if not prev or score > float(prev.get("_dedupe_rank") or 0):
@@ -1630,9 +1682,9 @@ def _strong_comai_signals(lead: dict[str, Any], product: str) -> list[str]:
     """Strong pitch signals only — FAQ volume alone never qualifies.
 
     Intelligence rules:
-    - WhatsApp ABSENT = buy gap; WhatsApp PRESENT is not a buy signal
-    - ops_pain needs real ops words (not 'chat' substring inside 'chatbot')
-    - stack_plus only when commerce stack + a real gap (not double-count noise)
+    - WhatsApp *chat links* are ignored (not a bot / not a buy gate)
+    - Primary gaps: missing chatbot automation, ops pain, growth+ads without CX stack
+    - Prefer structured growth/tech/pain fields over fragile why-text alone
     """
     why = str(lead.get("why") or lead.get("signal") or "").lower()
     platform = str(lead.get("platform") or "").lower()
@@ -1641,43 +1693,110 @@ def _strong_comai_signals(lead: dict[str, Any], product: str) -> list[str]:
     local = _email_local(email)
     out: list[str] = []
 
-    wa_absent = False
-    if "whatsapp already present" in why or lead.get("whatsapp_already"):
-        lead["whatsapp_already"] = True
-        wa_absent = False
-    elif "no whatsapp" in why:
-        wa_absent = True
+    techs = {
+        str(t).lower()
+        for t in (lead.get("technologies") or [])
+        if t
+    }
+    if platform:
+        techs.add(platform)
+    for part in re.split(r"[,|/]", platform):
+        if part.strip():
+            techs.add(part.strip().lower())
 
-    if wa_absent:
-        out.append("whatsapp_gap")
+    growth = lead.get("growth_signals") or []
+    growth_types = {
+        str(g.get("type") or "").lower()
+        for g in growth
+        if isinstance(g, dict)
+    }
+    buying = lead.get("buying_signals") or []
+    buying_types = {
+        str(b.get("type") or "").lower()
+        for b in buying
+        if isinstance(b, dict)
+    }
+    pain_types = {
+        str(p).lower()
+        for p in (lead.get("pain_types") or [])
+        if p
+    }
+    for p in lead.get("pain_points") or []:
+        if isinstance(p, dict) and p.get("type"):
+            pain_types.add(str(p.get("type")).lower())
 
-    chat_absent = "no chatbot" in why or ("chatbot" in why and "absent" in why)
+    # Ignore legacy WA chat-link flags entirely for ranking
+    lead["whatsapp_already"] = False
+
+    chat_absent = bool(lead.get("chat_gap")) or "no chatbot" in why or (
+        "chatbot" in why and "absent" in why
+    ) or "without chatbot" in why or "no chatbot automation" in why
     if chat_absent:
         out.append("chat_gap")
 
-    if any(k in why for k in ("hiring", "sla", "slow support")) or re.search(
-        r"\b(24|48)\s*(h|hr|hrs|hour|hours)\b", why
+    if "hiring" in growth_types or "cx_hiring" in growth_types:
+        out.append("hiring_intent")
+    if (
+        "cx_hiring" in growth_types
+        or any(k in why for k in ("sla", "slow support"))
+        or re.search(r"\b(24|48)\s*(h|hr|hrs|hour|hours)\b", why)
     ):
         out.append("slow_support_sla")
 
-    # Word-boundary ops cues — avoid 'chat' matching inside 'chatbot'
-    if re.search(r"\b(returns?|refunds?|cod)\b", why) and re.search(
-        r"\b(customer\s*support|support\s*team|support\s*sla)\b", why
-    ):
+    if "funding" in growth_types or "recent_funding_window" in buying_types:
+        out.append("funding_intent")
+
+    if "expansion" in growth_types or "new_products" in growth_types:
+        out.append("growth_motion")
+
+    if "advertising" in growth_types or techs & {"meta_pixel", "google_ads", "gtm"}:
+        out.append("ads_active")
+
+    if techs & {"shiprocket", "razorpay", "klaviyo", "judgeme", "yotpo"}:
+        out.append("ops_stack")
+
+    if lead.get("whatsapp_bot") or "whatsapp_bot" in techs:
+        out.append("whatsapp_bot_present")  # soft evidence only — not a gate
+
+    ops_pain_hit = bool(
+        pain_types & {"return_policy", "shipping_info", "cod_available"}
+        or "ops_support_gap" in buying_types
+        or (
+            re.search(r"\b(returns?|refunds?|cod|return_policy)\b", why)
+            and (
+                re.search(r"\b(customer\s*support|support\s*team|support\s*sla)\b", why)
+                or chat_absent
+            )
+        )
+    )
+    if ops_pain_hit:
         out.append("ops_pain")
 
     has_commerce = bool(
         product == "comai"
         and (
             any(k in why or k in platform for k in ("shopify", "woocommerce"))
+            or "shopify" in techs
+            or "woocommerce" in techs
             or lead.get("tech_match")
         )
     )
     if has_commerce:
-        if wa_absent or chat_absent or "slow_support_sla" in out:
+        if chat_absent or "slow_support_sla" in out or "hiring_intent" in out or "ops_pain" in out:
             out.append("stack_plus_gap")
         else:
             out.append("commerce_stack")
+
+    if ("ads_active" in out and chat_absent and has_commerce) or (
+        "automation_gap_on_ads_brand" in buying_types
+    ):
+        out.append("ads_plus_automation_gap")
+
+    if (
+        ("hiring_intent" in out or "funding_intent" in out or "growth_motion" in out or "ads_active" in out)
+        and (chat_absent or "ops_pain" in out)
+    ):
+        out.append("high_intent_composite")
 
     if product == "inowix" and any(k in why for k in ("engineer", "flutter", "ios", "saas", "api")):
         out.append("inowix_signal")
@@ -1691,18 +1810,19 @@ def _strong_comai_signals(lead: dict[str, Any], product: str) -> list[str]:
 
     if local in ("hello", "hi", "care", "wecare", "contact", "info") and not _is_generic_email(email):
         out.append("brand_inbox")
-        if founder or lead.get("phone") or "shopify" in platform or "woocommerce" in platform:
+        if founder or lead.get("phone") or "shopify" in platform or "woocommerce" in platform or "shopify" in techs:
             out.append("brand_inbox_plus_cue")
 
     if local in ("support", "help") and not _is_generic_email(email):
-        if founder or lead.get("phone") or lead.get("tech_match") or "shopify" in platform:
+        if founder or lead.get("phone") or lead.get("tech_match") or "shopify" in platform or "shopify" in techs:
             out.append("brand_support_plus_cue")
 
-    if lead.get("phone") and (founder or wa_absent or local in ("hello", "care", "info")):
+    if lead.get("phone") and (founder or chat_absent or local in ("hello", "care", "info")):
         out.append("phone_plus_context")
 
-    # Live enrichment is corroboration only when a real gap exists
-    if lead.get("source") == "live_verified_enrichment" and (wa_absent or chat_absent or founder):
+    if lead.get("source") == "live_verified_enrichment" and (
+        chat_absent or founder or "hiring_intent" in out or "funding_intent" in out or "ads_active" in out
+    ):
         out.append("live_gap_corroborated")
 
     return list(dict.fromkeys(out))
@@ -1711,7 +1831,14 @@ def _strong_comai_signals(lead: dict[str, Any], product: str) -> list[str]:
 def _signal_families(strong: list[str]) -> set[str]:
     """Collapse overlapping signals into intelligence families for grade gates."""
     mapping = {
-        "gap": {"whatsapp_gap", "chat_gap", "stack_plus_gap", "slow_support_sla", "ops_pain"},
+        "gap": {
+            "chat_gap",
+            "stack_plus_gap",
+            "slow_support_sla",
+            "ops_pain",
+            "ads_plus_automation_gap",
+            "high_intent_composite",
+        },
         "reach": {
             "founder_reachable",
             "named_founder_inbox",
@@ -1721,7 +1848,20 @@ def _signal_families(strong: list[str]) -> set[str]:
             "brand_support_plus_cue",
             "phone_plus_context",
         },
-        "stack": {"commerce_stack", "stack_plus_gap"},
+        "stack": {
+            "commerce_stack",
+            "stack_plus_gap",
+            "ads_active",
+            "ops_stack",
+            "ads_plus_automation_gap",
+        },
+        "growth": {
+            "hiring_intent",
+            "funding_intent",
+            "ads_active",
+            "growth_motion",
+            "high_intent_composite",
+        },
         "product": {"inowix_signal"},
         "live": {"live_gap_corroborated"},
     }
@@ -1756,22 +1896,35 @@ def _score_leads(leads: list[dict[str, Any]], product: str) -> list[dict[str, An
         lead["strong_signals"] = strong
         lead["signal_families"] = sorted(families)
 
-        # Family-aware boosts (no 96-wall from redundant stack)
+        # Family-aware boosts — chatbot/ops/growth first; WhatsApp links ignored
         gap_boost = 0
-        if "whatsapp_gap" in strong:
-            gap_boost += 12
         if "chat_gap" in strong:
-            gap_boost += 5
+            gap_boost += 10
         if "slow_support_sla" in strong:
             gap_boost += 6
         if "ops_pain" in strong:
-            gap_boost += 4
-        score += min(18, gap_boost)
+            gap_boost += 6
+        if "high_intent_composite" in strong:
+            gap_boost += 8
+        score += min(22, gap_boost)
 
         if "stack_plus_gap" in strong:
-            score += 6
+            score += 7
         elif "commerce_stack" in strong:
-            score += 3
+            score += 4
+
+        if "hiring_intent" in strong:
+            score += 10
+        if "funding_intent" in strong:
+            score += 11
+        if "growth_motion" in strong:
+            score += 5
+        if "ads_plus_automation_gap" in strong:
+            score += 9
+        elif "ads_active" in strong:
+            score += 5
+        if "ops_stack" in strong and ("chat_gap" in strong or "ops_pain" in strong):
+            score += 4
 
         if "founder_reachable" in strong:
             score += 12
@@ -1813,8 +1966,7 @@ def _score_leads(leads: list[dict[str, Any]], product: str) -> list[dict[str, An
             score -= 6
         if lead.get("type_soft_miss"):
             score -= 8
-        if lead.get("whatsapp_already"):
-            score -= 8  # already has WA — lower COMAI urgency
+        # WhatsApp chat links intentionally ignored — no demotion
 
         faq_only = (not strong) and ("faq" in why or not why.strip())
         if faq_only or (lead.get("soft_generic_email") and not strong):
@@ -1825,23 +1977,29 @@ def _score_leads(leads: list[dict[str, Any]], product: str) -> list[dict[str, An
         if not strong:
             score = min(score, 54.0)
 
-        # Need gap + reach (or gap + stack) for top grades — not inbox-only stacks
+        # Need gap + reach (or gap + stack/growth) for top grades — not inbox-only stacks
         family_count = len(families - {"live"})
         score = min(88.0, max(0.0, score))
         if family_count >= 2 and "gap" in families and score >= 72:
             score = min(94.0, score + 4)
         if family_count >= 3 and score >= 80:
             score = min(96.0, score + 2)
+        # Growth + gap is premium "why now" — allow ceiling bump
+        if "growth" in families and "gap" in families and score >= 78:
+            score = min(96.0, score + 2)
 
         sales_ready = (
-            score >= 75
+            score >= 72
             and strong
             and family_count >= 2
-            and ("gap" in families or "founder_reachable" in strong)
+            and (
+                "gap" in families
+                or "growth" in families
+                or "founder_reachable" in strong
+            )
             and not lead.get("weak_outreach_email")
-            and not lead.get("whatsapp_already")
         )
-        qualified = score >= 60 and strong and not lead.get("weak_outreach_email")
+        qualified = score >= 58 and strong and not lead.get("weak_outreach_email")
         grade = "SALES_READY" if sales_ready else "QUALIFIED" if qualified else "NURTURE"
         lead["intent_score"] = round(score, 1)
         lead["grade"] = grade
@@ -1868,8 +2026,8 @@ def _score_leads(leads: list[dict[str, Any]], product: str) -> list[dict[str, An
     scored.sort(
         key=lambda x: (
             0 if x.get("icp_tier") == "core" else 1 if x.get("industry_adjacent") else 2,
+            0 if "growth" in set(x.get("signal_families") or []) else 1,
             0 if "gap" in set(x.get("signal_families") or []) else 1,
-            1 if x.get("whatsapp_already") else 0,
             1 if x.get("weak_outreach_email") else 0,
             -len(x.get("signal_families") or []),
             -int(x.get("intent_signals") or 0),
@@ -1901,32 +2059,37 @@ def _select_volume_icp_intent(
         if signals < 1 or not strong:
             rejects["low_intent"] = rejects.get("low_intent", 0) + 1
             continue
-        if lead.get("weak_outreach_email") and "gap" not in families:
+        if lead.get("weak_outreach_email") and "gap" not in families and "growth" not in families:
             rejects["low_intent"] = rejects.get("low_intent", 0) + 1
             continue
 
-        # Prefer real COMAI gaps; allow brand-inbox core fill for volume
+        # High-intent: growth and/or automation gap — WhatsApp links ignored
         core_hi_ok = (
             tier == "core"
-            and score >= 68
+            and score >= 65
             and signals >= 1
-            and ("gap" in families or "founder_reachable" in strong)
             and lead.get("grade") != "NURTURE"
+            and (
+                "high_intent_composite" in strong
+                or "ads_plus_automation_gap" in strong
+                or ("growth" in families and "gap" in families)
+                or ("gap" in families and score >= 70)
+                or "founder_reachable" in strong
+            )
         )
         core_ok = (
             tier == "core"
             and signals >= 1
-            and score >= 58
+            and score >= 55
             and lead.get("grade") != "NURTURE"
-            and not lead.get("whatsapp_already")
+            and ("gap" in families or "growth" in families or "stack" in families)
         )
         adj_ok = (
             bool(lead.get("industry_adjacent"))
-            and score >= 68
-            and "gap" in families
+            and score >= 64
             and len(families) >= 2
+            and ("gap" in families or "growth" in families)
             and lead.get("grade") != "NURTURE"
-            and not lead.get("whatsapp_already")
         )
 
         if core_hi_ok:
@@ -1969,10 +2132,14 @@ def _export_run(run_id: str, job: dict[str, Any]) -> None:
         "employee_estimate",
         "employee_estimate_source",
         "platform",
+        "technologies",
         "intent_score",
         "grade",
         "signal_families",
         "strong_signals",
+        "growth_signals",
+        "buying_signals",
+        "pain_types",
         "why",
         "signal",
         "subject",
@@ -2039,9 +2206,9 @@ async def run_pipeline(run_id: str) -> None:
         surfaced = _load_surfaced_emails()
         # Multi-wave live discovery until we have enough NEW contacts or waves exhaust
         live_all: list[dict[str, Any]] = []
-        known_emails = {
-            (x.get("email") or x.get("to_email") or "").lower().strip() for x in seeds if x.get("email") or x.get("to_email")
-        } | sent
+        # Only exclude truly-sent + already-collected live emails.
+        # Do NOT exclude CSV seed emails — live enrichment is fresher intent evidence.
+        known_emails = set(sent)
         for wave in range(1, 4):
             need = max(12, min(24, limit - len(live_all)))
             batch = await _live_discover_new(

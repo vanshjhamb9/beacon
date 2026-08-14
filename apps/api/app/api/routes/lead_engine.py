@@ -17,7 +17,8 @@ logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/lead-engine", tags=["lead-engine"])
 
-ROOT = Path(__file__).resolve().parents[4]
+# routes → api → app → api → apps → repo root
+ROOT = Path(__file__).resolve().parents[5]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 

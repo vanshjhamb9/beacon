@@ -47,6 +47,31 @@ CHATBOT_SIGNATURES = [
 
 WHATSAPP_SIGNATURES = ["wa.me", "whatsapp", "api.whatsapp", "whatsapp.com/send"]
 
+# True WhatsApp *bot/automation* vendors — NOT a simple wa.me chat link
+WHATSAPP_BOT_SIGNATURES = (
+    "wati.io",
+    "wati.com",
+    "interakt",
+    "aisensy",
+    "ai sensy",
+    "gallabox",
+    "doubletick",
+    "gupshup",
+    "360dialog",
+    "maytapi",
+    "respond.io",
+    "yellow.ai",
+    "yellowai",
+    "haptik",
+    "verloop",
+    "limechat",
+    "zoko.io",
+    "getzoko",
+    "whatsapp business api",
+    "waba",
+    "cloud api whatsapp",
+)
+
 CRM_SIGNATURES = ["salesforce", "hubspot", "zoho", "freshsales", "pipedrive"]
 
 FOUNDER_PATTERNS = [
@@ -81,6 +106,49 @@ PAIN_EVIDENCE_PATTERNS = {
     "cod_available": re.compile(r'cash on delivery|cod|pay on delivery', re.IGNORECASE),
     "contact_page": re.compile(r'contact us|reach us|get in touch', re.IGNORECASE),
     "large_catalog": re.compile(r'(\d{2,})\s*(?:products?|items?|variants?)', re.IGNORECASE),
+}
+
+# Indian mid-D2C growth / ads / ops stack — homepage + careers HTML signatures
+TECH_STACK_SIGNATURES: dict[str, tuple[str, ...]] = {
+    "meta_pixel": ("fbevents.js", "connect.facebook.net", "fbq(", "facebook.net/tr"),
+    "google_ads": ("googleadservices", "gtag/js?id=aw-", "google_conversion_id"),
+    "gtm": ("googletagmanager.com/gtm.js", "gtm.js?id=gtm-"),
+    "klaviyo": ("klaviyo.com", "static.klaviyo.com", "_learnq"),
+    "shiprocket": ("shiprocket", "sr-cdn"),
+    "razorpay": ("checkout.razorpay", "razorpay.com"),
+    "judgeme": ("judge.me", "judgeme"),
+    "gorgias": ("gorgias.chat", "gorgias.com"),
+    "yotpo": ("yotpo.com", "staticw2.yotpo"),
+    "whatsapp_business_api": ("whatsapp business api", "graph.facebook.com", "waba"),
+}
+
+GROWTH_SIGNAL_PATTERNS: dict[str, re.Pattern[str]] = {
+    "hiring": re.compile(
+        r"(we['’]?re hiring|join our team|open positions|/careers\b|/jobs\b|"
+        r"hiring (?:for|a|an)|work with us|now hiring|career opportunities|"
+        r"we're growing our team)",
+        re.IGNORECASE,
+    ),
+    "funding": re.compile(
+        r"(series [a-d]\b|seed round|raised\s*(?:\$|₹|inr|usd)?\s*[\d.,]+|"
+        r"backed by|venture capital|funding round|investors? include)",
+        re.IGNORECASE,
+    ),
+    "expansion": re.compile(
+        r"(expanding to|new (?:store|flagship)|now available in|launching in|"
+        r"opened in|pan[- ]india)",
+        re.IGNORECASE,
+    ),
+    "new_products": re.compile(
+        r"(just launched|new launch|introducing (?:our|the)|new collection|"
+        r"now live|fresh drop)",
+        re.IGNORECASE,
+    ),
+    "cx_hiring": re.compile(
+        r"(customer (?:support|success|experience|care) (?:executive|associate|manager|lead)|"
+        r"hiring.{0,40}(?:support|cx|care)|whatsapp (?:support|agent))",
+        re.IGNORECASE,
+    ),
 }
 
 
@@ -119,15 +187,25 @@ async def enrich_lead(
             enriched.chatbot_evidence = "Checked homepage HTML — no chatbot signatures found"
             enriched.chatbot_source = "homepage_html"
 
-        # === WHATSAPP DETECTION (three-state) ===
-        whatsapp_found = [s for s in WHATSAPP_SIGNATURES if s in body_lower]
-        if whatsapp_found:
+        # === WHATSAPP LINK vs BOT ===
+        # Simple wa.me / "whatsapp" chat links are NOT buying signals for COMAI.
+        # Only true WhatsApp bot/automation vendors are recorded (optional soft cue).
+        whatsapp_bot_found = [s for s in WHATSAPP_BOT_SIGNATURES if s in body_lower]
+        whatsapp_link_found = [s for s in WHATSAPP_SIGNATURES if s in body_lower]
+        if whatsapp_bot_found:
             enriched.whatsapp_state = DetectionState.VERIFIED_PRESENT
-            enriched.whatsapp_evidence = f"Detected: {', '.join(whatsapp_found[:3])}"
+            enriched.whatsapp_evidence = f"WhatsApp bot/automation: {', '.join(whatsapp_bot_found[:3])}"
+            enriched.whatsapp_source = "homepage_html"
+        elif whatsapp_link_found:
+            # Link/widget only — ignore for ranking (not a bot)
+            enriched.whatsapp_state = DetectionState.VERIFIED_ABSENT
+            enriched.whatsapp_evidence = (
+                f"WhatsApp chat link only (not a bot): {', '.join(whatsapp_link_found[:2])}"
+            )
             enriched.whatsapp_source = "homepage_html"
         else:
             enriched.whatsapp_state = DetectionState.VERIFIED_ABSENT
-            enriched.whatsapp_evidence = "Checked homepage HTML — no WhatsApp signatures found"
+            enriched.whatsapp_evidence = "Checked homepage HTML — no WhatsApp bot signatures found"
             enriched.whatsapp_source = "homepage_html"
 
         # === CRM DETECTION (three-state) ===
@@ -158,6 +236,11 @@ async def enrich_lead(
         # === PAIN POINT EVIDENCE ===
         _extract_pain_evidence(enriched, body)
 
+        # === TECH STACK + GROWTH / BUYING INTENT ===
+        _extract_tech_stack(enriched, body_lower)
+        _extract_growth_signals(enriched, body, source="homepage_html")
+        _derive_buying_signals(enriched)
+
         # === DESCRIPTION ===
         desc_match = re.search(
             r'<meta[^>]*name="description"[^>]*content="([^"]+)"',
@@ -168,6 +251,9 @@ async def enrich_lead(
 
         # === EMPLOYEE COUNT (from About page) ===
         await _extract_about_page_info(client, lead, enriched)
+
+        # === CAREERS / PRESS intent pages (hiring + funding) ===
+        await _probe_intent_pages(client, lead, enriched)
 
     except Exception as e:
         logger.debug("Enrichment failed for %s: %s", lead.website, e)
@@ -400,6 +486,181 @@ def _extract_pain_evidence(enriched: EnrichedEcommerceLead, html: str) -> None:
                 })
 
     enriched.pain_points = pain_evidence
+
+
+def _extract_tech_stack(enriched: EnrichedEcommerceLead, body_lower: str) -> None:
+    """Detect ads / ops / commerce stack signatures used for intent ranking."""
+    found: list[str] = []
+    if enriched.platform:
+        found.append(enriched.platform)
+    for name, signatures in TECH_STACK_SIGNATURES.items():
+        if any(sig in body_lower for sig in signatures):
+            found.append(name)
+    # True WhatsApp bot only (links ignored)
+    if any(sig in body_lower for sig in WHATSAPP_BOT_SIGNATURES):
+        found.append("whatsapp_bot")
+    # de-dupe preserve order
+    enriched.technologies = list(dict.fromkeys(found))
+
+
+def _append_growth_signal(
+    enriched: EnrichedEcommerceLead,
+    *,
+    signal_type: str,
+    evidence: str,
+    confidence: float,
+    source: str,
+) -> None:
+    existing = {
+        (str(s.get("type") or ""), str(s.get("evidence") or "")[:60])
+        for s in (enriched.growth_signals or [])
+        if isinstance(s, dict)
+    }
+    key = (signal_type, evidence[:60])
+    if key in existing:
+        return
+    enriched.growth_signals.append(
+        {
+            "type": signal_type,
+            "evidence": evidence[:160],
+            "confidence": round(min(0.95, max(0.4, confidence)), 2),
+            "source": source,
+        }
+    )
+
+
+def _extract_growth_signals(
+    enriched: EnrichedEcommerceLead,
+    html: str,
+    *,
+    source: str,
+) -> None:
+    """Extract hiring / funding / expansion / launch cues from HTML text."""
+    for signal_type, pattern in GROWTH_SIGNAL_PATTERNS.items():
+        match = pattern.search(html)
+        if not match:
+            continue
+        # cx_hiring is a specialized hiring cue
+        mapped = "hiring" if signal_type == "cx_hiring" else signal_type
+        conf = 0.85 if signal_type == "cx_hiring" else 0.75
+        if source.startswith("careers"):
+            conf = min(0.95, conf + 0.1)
+        _append_growth_signal(
+            enriched,
+            signal_type=mapped,
+            evidence=match.group(0).strip()[:120],
+            confidence=conf,
+            source=source,
+        )
+
+    # Ads active = growth via paid acquisition
+    techs = {t.lower() for t in (enriched.technologies or [])}
+    if techs & {"meta_pixel", "google_ads", "gtm"}:
+        _append_growth_signal(
+            enriched,
+            signal_type="advertising",
+            evidence="Paid ads stack detected: " + ", ".join(sorted(techs & {"meta_pixel", "google_ads", "gtm"})),
+            confidence=0.8,
+            source=source,
+        )
+
+
+def _derive_buying_signals(enriched: EnrichedEcommerceLead) -> None:
+    """Compose COMAI-relevant buying intent from stack + gaps + growth."""
+    buying: list[dict[str, Any]] = list(enriched.buying_signals or [])
+    seen = {str(b.get("type") or "") for b in buying if isinstance(b, dict)}
+
+    def add(signal_type: str, evidence: str, confidence: float) -> None:
+        if signal_type in seen:
+            return
+        seen.add(signal_type)
+        buying.append(
+            {
+                "type": signal_type,
+                "evidence": evidence[:160],
+                "confidence": confidence,
+                "source": "derived",
+            }
+        )
+
+    chat = str(enriched.chatbot_state or "").upper()
+    techs = {t.lower() for t in (enriched.technologies or [])}
+    growth_types = {
+        str(g.get("type") or "")
+        for g in (enriched.growth_signals or [])
+        if isinstance(g, dict)
+    }
+    pain_types = {
+        str(p.get("type") or "")
+        for p in (enriched.pain_points or [])
+        if isinstance(p, dict)
+    }
+    has_wa_bot = "whatsapp_bot" in techs or (
+        "PRESENT" in str(enriched.whatsapp_state or "").upper()
+        and "bot" in str(enriched.whatsapp_evidence or "").lower()
+    )
+
+    # Ignore WhatsApp *chat links* — intent is chatbot automation + growth + ops
+    if "ABSENT" in chat and (techs & {"meta_pixel", "google_ads", "shopify", "woocommerce", "gtm"}):
+        add("automation_gap_on_ads_brand", "Growing commerce/ads brand without chatbot automation", 0.9)
+    if "ABSENT" in chat and ("return_policy" in pain_types or "cod_available" in pain_types):
+        add("ops_support_gap", "Returns/COD friction without chatbot coverage", 0.82)
+    if "hiring" in growth_types and "ABSENT" in chat:
+        add("hiring_with_support_gap", "Hiring while support automation gap exists", 0.92)
+    if "funding" in growth_types:
+        add("recent_funding_window", "Funding / investor signal on site", 0.85)
+    if techs & {"shiprocket", "razorpay", "klaviyo"} and "ABSENT" in chat:
+        add("ops_stack_without_automation", "Ops/CRM stack present but no chatbot automation", 0.78)
+    if has_wa_bot and "ABSENT" in chat:
+        add("wa_bot_without_web_chat", "Has WhatsApp bot vendor but no web chatbot", 0.55)
+
+    enriched.buying_signals = buying
+
+
+async def _probe_intent_pages(
+    client: httpx.AsyncClient,
+    lead: RawEcommerceLead,
+    enriched: EnrichedEcommerceLead,
+) -> None:
+    """Light fan-out to careers/press pages for hiring + funding intent."""
+    base = (lead.website or "").rstrip("/")
+    if not base:
+        return
+    growth_types = {
+        str(g.get("type") or "")
+        for g in (enriched.growth_signals or [])
+        if isinstance(g, dict)
+    }
+    # Skip if we already have both hiring and funding
+    if "hiring" in growth_types and "funding" in growth_types:
+        return
+
+    paths = (
+        "/pages/careers",
+        "/careers",
+        "/pages/jobs",
+        "/blogs/news",
+        "/blogs/press",
+        "/pages/press",
+    )
+    for path in paths:
+        try:
+            resp = await client.get(f"{base}{path}", follow_redirects=True, timeout=8.0)
+            if resp.status_code != 200 or len(resp.text) < 400:
+                continue
+            src = f"intent_page:{path}"
+            _extract_growth_signals(enriched, resp.text, source=src)
+            growth_types = {
+                str(g.get("type") or "")
+                for g in (enriched.growth_signals or [])
+                if isinstance(g, dict)
+            }
+            if "hiring" in growth_types and "funding" in growth_types:
+                break
+        except Exception:  # noqa: BLE001
+            continue
+    # Refresh derived buying signals after page probes
+    _derive_buying_signals(enriched)
 
 
 async def _extract_about_page_info(

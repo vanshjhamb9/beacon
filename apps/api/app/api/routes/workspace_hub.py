@@ -20,7 +20,8 @@ logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/workspace", tags=["workspace-hub"])
 
-ROOT = Path(__file__).resolve().parents[4]
+# routes → api → app → api → apps → repo root
+ROOT = Path(__file__).resolve().parents[5]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
@@ -55,8 +56,22 @@ def _load_json(path: Path, default: Any) -> Any:
 
 
 def _save_json(path: Path, data: Any) -> None:
+    """Atomic write with short retries — avoids Windows Errno 22 on locked files."""
     EXPORT_ROOT.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+    payload = json.dumps(data, indent=2, ensure_ascii=False)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    last_exc: OSError | None = None
+    for attempt in range(4):
+        try:
+            tmp.write_text(payload, encoding="utf-8")
+            tmp.replace(path)
+            return
+        except OSError as exc:
+            last_exc = exc
+            logger.warning("save_json attempt %s failed for %s: %s", attempt + 1, path, exc)
+            time.sleep(0.05 * (attempt + 1))
+    if last_exc:
+        raise last_exc
 
 
 def _load_stages() -> dict[str, str]:
