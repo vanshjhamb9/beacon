@@ -1,0 +1,69 @@
+{
+  "audit_name": "V8.1 Contactability Audit",
+  "audit_date": "2026-08-08T22:32:22.414053",
+  "total_opportunities": 1,
+  "contacts": [
+    {
+      "opportunity_id": "V8-002",
+      "company": "Kilova",
+      "contactability": "LOW",
+      "email_status": "PUBLIC_UNVERIFIED",
+      "linkedin_status": "UNKNOWN",
+      "linkedin_decision_maker_match": false,
+      "linkedin_company_match": false,
+      "channels": [
+        {
+          "channel": "EMAIL",
+          "value": "kilova.app@gmail.com",
+          "status": "PUBLIC_UNVERIFIED",
+          "associated_with_person": false,
+          "associated_with_company": true,
+          "evidence": [
+            {
+              "claim": "Email status",
+              "value": "PUBLIC_UNVERIFIED",
+              "source": "Existing data",
+              "source_url": "",
+              "confidence": "PUBLIC_UNVERIFIED",
+              "observed_at": "2026-08-08T22:32:18.870675"
+            }
+          ]
+        },
+        {
+          "channel": "LINKEDIN",
+          "value": "https://linkedin.com/in/paloma-chiara",
+          "status": "UNKNOWN",
+          "associated_with_person": false,
+          "associated_with_company": false,
+          "evidence": [
+            {
+              "claim": "LinkedIn profile accessibility",
+              "value": "HTTP 999",
+              "source": "Direct URL access",
+              "source_url": "https://linkedin.com/in/paloma-chiara",
+              "confidence": "NOT_VERIFIED",
+              "observed_at": "2026-08-08T22:32:20.226345"
+            }
+          ]
+        },
+        {
+          "channel": "WEBSITE",
+          "value": "https://kilova.app/contact",
+          "status": "VERIFIED",
+          "associated_with_person": false,
+          "associated_with_company": true,
+          "evidence": [
+            {
+              "claim": "Company contact page exists",
+              "value": "https://kilova.app/contact",
+              "source": "Direct URL access",
+              "source_url": "https://kilova.app/contact",
+              "confidence": "VERIFIED",
+              "observed_at": "2026-08-08T22:32:22.406409"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

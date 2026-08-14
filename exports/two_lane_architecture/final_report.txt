@@ -1,0 +1,41 @@
+======================================================================
+  BEACON TWO-LANE ARCHITECTURE REPORT
+  Generated: 2026-08-10 21:21:33 UTC
+======================================================================
+
+--- PIPELINE SUMMARY ---
+  Total buying events:        12
+
+--- COMAI PIPELINE ---
+  Direct Customers:           3
+  Partner Opportunities:      0
+  Verified Pain:              1
+  Nurture:                    2
+  Rejected:                   0
+
+--- INOWIX PIPELINE ---
+  Direct Customers:           3
+  Partner Opportunities:      1
+  Verified Pain:              0
+  Nurture:                    2
+  Rejected:                   0
+
+--- FINAL OUTREACH QUEUE ---
+  COMAI SALES_READY:          0
+  INOWIX SALES_READY:         0
+  TOTAL SALES_READY:          0
+
+--- TOP OPPORTUNITIES ---
+
+--- QUALITY GATES ---
+  Two-lane architecture:      PASS
+  6-level classification:     PASS
+  ICP evaluation:             PASS
+  Pain vs buying intent:      PASS
+  Partner verification:       PASS
+  CTO 15-minute test:         APPLIED
+
+--- PRINCIPLE ---
+  QUALITY + RELEVANCE + CONTACTABILITY + OUTREACHABILITY
+  Then STOP.
+======================================================================

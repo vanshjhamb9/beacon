@@ -1,0 +1,42 @@
+[
+  {
+    "gate": "outreach_draft",
+    "status": "PASS",
+    "channel_type": "REDDIT_DM",
+    "recipient": "u/Nishchay_Jaiswal",
+    "subject": "Help with your app, API",
+    "message": "Hi u/Nishchay_Jaiswal,\n\nI came across your post about your project and noticed you're looking for development help. \n\nAt Inowix, we specialize in SAAS_DEVELOPMENT and have helped startups build similar solutions.\n\nWe'd be happy to discuss how we can help bring your vision to life. Would you be open to a quick chat?\n\nBest regards,\nVansh",
+    "project_details": [
+      "app",
+      "API",
+      "backend"
+    ],
+    "primary_service": "SAAS_DEVELOPMENT",
+    "requires_approval": true,
+    "timestamp": "2026-08-08T20:05:15.765434"
+  },
+  {
+    "gate": "outreach_draft",
+    "status": "PASS",
+    "channel_type": "INDIEHACKERS_DM",
+    "recipient": "u/kevin222",
+    "subject": "Help with your project",
+    "message": "Hi u/kevin222,\n\nSaw your post and wanted to reach out. We at Inowix help founders build software solutions - looks like we could help with your project.\n\nWould love to learn more about what you're building. Open to a quick conversation?\n\nBest,\nVansh",
+    "project_details": [],
+    "primary_service": null,
+    "requires_approval": true,
+    "timestamp": "2026-08-08T20:05:15.765559"
+  },
+  {
+    "gate": "outreach_draft",
+    "status": "PASS",
+    "channel_type": "REDDIT_DM",
+    "recipient": "u/New_Meaning4589",
+    "subject": "Help with your project",
+    "message": "Hi u/New_Meaning4589,\n\nI came across your post about your project and noticed you're looking for development help. \n\nAt Inowix, we specialize in custom software development and have helped startups build similar solutions.\n\nWe'd be happy to discuss how we can help bring your vision to life. Would you be open to a quick chat?\n\nBest regards,\nVansh",
+    "project_details": [],
+    "primary_service": null,
+    "requires_approval": true,
+    "timestamp": "2026-08-08T20:05:15.765706"
+  }
+]

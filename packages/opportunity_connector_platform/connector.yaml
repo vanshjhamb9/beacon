@@ -1,0 +1,35 @@
+github:
+  enabled: true
+  interval: 300
+  priority: high
+  rate_limit: "5000/hour"
+  authentication: token
+  timeout: 30
+  max_concurrency: 2
+
+google_news:
+  enabled: true
+  interval: 900
+  priority: high
+  rate_limit: "configured-by-provider"
+  authentication: none
+  timeout: 30
+  max_concurrency: 2
+
+rss:
+  enabled: true
+  interval: 900
+  priority: normal
+  rate_limit: "best-effort"
+  authentication: none
+  timeout: 20
+  max_concurrency: 1
+
+linkedin:
+  enabled: false
+  interval: 1800
+  priority: high
+  rate_limit: "provider-approved-only"
+  authentication: oauth
+  timeout: 30
+  max_concurrency: 1

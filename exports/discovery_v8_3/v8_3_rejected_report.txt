@@ -1,0 +1,98 @@
+{
+  "audit_name": "V8.3 Rejected Opportunities",
+  "audit_date": "2026-08-08",
+  "total_rejected": 1,
+  "rejected": [
+    {
+      "opportunity_id": "V8-007",
+      "person_name": "UNKNOWN (Reddit poster)",
+      "person_role": "Founder",
+      "company_name": "AI Business (profitable, unnamed)",
+      "company_url": "UNKNOWN",
+      "product_url": "UNKNOWN",
+      "requirement": "Built a profitable AI business. Can't code. Need someone who can.",
+      "requirement_verified": false,
+      "requirement_evidence": [
+        {
+          "claim": "Reddit post from founder with profitable AI business needing technical help",
+          "source": "Reddit r/cofounderhunt",
+          "source_url": "https://www.reddit.com/r/cofounderhunt/comments/1u9h1bj/",
+          "confidence": "UNVERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "source_name": "Reddit r/cofounderhunt",
+      "source_url": "https://www.reddit.com/r/cofounderhunt/comments/1u9h1bj/",
+      "source_status": "ACCESS_BLOCKED",
+      "source_post_id": "1u9h1bj",
+      "published_at": "2026-08-02",
+      "observed_at": "2026-08-08",
+      "identity_confidence": "LOW",
+      "identity_evidence": [
+        {
+          "claim": "Reddit post claims profitable AI business but no verification",
+          "source": "Search results",
+          "confidence": "LOW"
+        }
+      ],
+      "company_status": "UNVERIFIED",
+      "company_evidence": [],
+      "currentness_status": "CURRENT",
+      "age_days": 6,
+      "currentness_evidence": [
+        {
+          "claim": "Post observed ~6 days old",
+          "source": "Search results",
+          "confidence": "APPROXIMATE"
+        }
+      ],
+      "outsourcing_intent": "COFOUNDER_SEARCH",
+      "outsourcing_confidence": "LOW",
+      "outsourcing_evidence": [
+        {
+          "claim": "Posted in r/cofounderhunt - seeking equity-based partnership, not agency services",
+          "source": "Subreddit context",
+          "confidence": "HIGH"
+        }
+      ],
+      "service_match": "AI Development",
+      "service_match_confidence": "LOW",
+      "service_match_evidence": [
+        {
+          "claim": "AI business could match AI development services, but intent is co-founder search",
+          "source": "Post context",
+          "confidence": "LOW"
+        }
+      ],
+      "email": "UNKNOWN",
+      "email_status": "UNKNOWN",
+      "email_evidence": [],
+      "linkedin_url": "UNKNOWN",
+      "linkedin_status": "UNKNOWN",
+      "linkedin_evidence": [],
+      "platform_contact": "Reddit DM (presumed)",
+      "platform_contact_status": "UNKNOWN",
+      "contactability": "LOW",
+      "contactability_discovery_priority": "LOW",
+      "contactability_evidence": [
+        {
+          "claim": "Co-founder search, not agency engagement",
+          "source": "Subreddit context",
+          "confidence": "HIGH"
+        }
+      ],
+      "contact_owner_match": "UNKNOWN",
+      "evidence_reproducibility": false,
+      "competitor": false,
+      "safety_clear": true,
+      "opportunity_verdict": "REJECT",
+      "final_salesability": "REJECT",
+      "cto_15_minute_test": "NO",
+      "cto_decision_reason": "Co-founder search, NOT outsourcing. CTO rule: cofounder/equity requests are REJECT.",
+      "rejection_reasons": [
+        "REJECT: Co-founder search (not outsourcing)",
+        "Failed gate: outsourcing_intent (COFOUNDER_SEARCH, not EXPLICIT agency request)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "audit_name": "V8.3 Source Quality Report",
+  "audit_date": "2026-08-08",
+  "sources_analyzed": [
+    {
+      "source": "Reddit r/forhire",
+      "tier": "TIER_2",
+      "buying_events_found": 0,
+      "quality": "LOW",
+      "reason": "Mostly job seekers posting [For Hire], not buyers posting [Hiring]"
+    },
+    {
+      "source": "Reddit r/startups",
+      "tier": "TIER_2",
+      "buying_events_found": 0,
+      "quality": "LOW",
+      "reason": "Mostly cofounder searches and business advice requests"
+    },
+    {
+      "source": "Reddit r/SaaS",
+      "tier": "TIER_2",
+      "buying_events_found": 0,
+      "quality": "LOW",
+      "reason": "Mostly SaaS discussions, few explicit hiring posts"
+    },
+    {
+      "source": "Reddit r/Entrepreneur",
+      "tier": "TIER_2",
+      "buying_events_found": 0,
+      "quality": "LOW",
+      "reason": "Mostly business advice, few development requests"
+    },
+    {
+      "source": "Reddit r/AppDevelopers",
+      "tier": "TIER_2",
+      "buying_events_found": 1,
+      "quality": "MEDIUM",
+      "reason": "Some hiring posts, but anonymous posters, no contact details"
+    },
+    {
+      "source": "Reddit r/jobsdubai",
+      "tier": "TIER_2",
+      "buying_events_found": 1,
+      "quality": "MEDIUM",
+      "reason": "AI automation request from business owner, but contact details unknown"
+    },
+    {
+      "source": "Reddit r/developers_hire",
+      "tier": "TIER_2",
+      "buying_events_found": 1,
+      "quality": "LOW",
+      "reason": "Hiring posts exist but requirements are vague, no contact details"
+    },
+    {
+      "source": "Reddit r/cofounderhunt",
+      "tier": "TIER_2",
+      "buying_events_found": 1,
+      "quality": "REJECT",
+      "reason": "Cofounder searches - NOT outsourcing. CTO rule: REJECT"
+    },
+    {
+      "source": "Reddit r/smallbusiness",
+      "tier": "TIER_2",
+      "buying_events_found": 1,
+      "quality": "LOW",
+      "reason": "Advice-seeking post, not explicit agency request"
+    },
+    {
+      "source": "Indie Hackers",
+      "tier": "TIER_2",
+      "buying_events_found": 0,
+      "quality": "LOW",
+      "reason": "Mostly job seekers and agency promotions"
+    },
+    {
+      "source": "Product Hunt",
+      "tier": "TIER_2",
+      "buying_events_found": 0,
+      "quality": "LOW",
+      "reason": "Hiring threads, not buying events"
+    },
+    {
+      "source": "Wellfound",
+      "tier": "TIER_3",
+      "buying_events_found": 0,
+      "quality": "LOW",
+      "reason": "Job board for startup hiring, not outsourcing"
+    },
+    {
+      "source": "Google Search",
+      "tier": "TIER_3",
+      "buying_events_found": 0,
+      "quality": "LOW",
+      "reason": "Saturated with agency listings and articles about development"
+    }
+  ],
+  "source_performance_summary": {
+    "total_sources_analyzed": 13,
+    "sources_with_buying_events": 5,
+    "sources_without_buying_events": 8,
+    "best_source": "Reddit r/jobsdubai (1 AI automation request)",
+    "worst_source": "Google Search (0 buying events, only agency listings)"
+  },
+  "recommendation": "Public search sources are insufficient for finding contactable buying events. Need access to channels where identifiable buyers post explicit requests with verified contact information."
+}

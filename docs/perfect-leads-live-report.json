@@ -1,0 +1,1440 @@
+{
+  "generated_at": "2026-07-28T23:43:58.509877+00:00",
+  "scoring_version": "lqs-v1",
+  "outbound_threshold": 78.0,
+  "perfect_threshold": 85.0,
+  "counts": {
+    "scored": 25,
+    "pipeline_worthy": 25,
+    "with_website": 4,
+    "with_email": 2,
+    "with_dm": 1,
+    "outbound": 2,
+    "perfect": 1
+  },
+  "perfect_leads": [
+    {
+      "company_name": "Rise Reforming",
+      "source": "hacker_news",
+      "website": "https://rise-reforming.com",
+      "official_website": "https://rise-reforming.com",
+      "primary_domain": "rise-reforming.com",
+      "industry": "Technology",
+      "description": "Hi HN! This is George, Lucas, and Jona from Rise Reforming ( https://www.rise-reforming.com/ ). We\u2019re developing a process to convert gas produced at landfills, farms, and wastewater plants (\u201cbiogas\u201d) into higher value chemicals. Our techno",
+      "business_email": "contact@rise-reforming.com",
+      "decision_maker": "George Rose (Co-Founder)",
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Launch signal: Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals",
+        "HN launch signal: Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals"
+      ],
+      "evidence": [
+        "Launch signal: Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals",
+        "HN launch signal: Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals"
+      ],
+      "website_verified": true,
+      "published_at": "2026-07-27T19:58:22+00:00",
+      "title": "Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals",
+      "content": "Hi HN! This is George, Lucas, and Jona from Rise Reforming ( https://www.rise-reforming.com/ ). We\u2019re developing a process to convert gas produced at landfills, farms, and wastewater plants (\u201cbiogas\u201d) into higher value chemicals. Our technology is modular, designed to be deployed and operated on-site. Think of us as a chemical project developer; we sit between biogas producers (suppliers) and chemical end users (customers). We pay biogas producers for their gas and we make money from selling our",
+      "url": "https://www.rise-reforming.com",
+      "attributes": {
+        "source": "hacker_news",
+        "domain": "rise-reforming.com",
+        "emails": [
+          "contact@rise-reforming.com"
+        ],
+        "decision_makers": [
+          {
+            "name": "George Rose",
+            "role": "Co-Founder",
+            "source": "https://rise-reforming.com/team"
+          },
+          {
+            "name": "Lucas Zubillaga",
+            "role": "Co-Founder",
+            "source": "https://rise-reforming.com/team"
+          }
+        ]
+      },
+      "lead_quality": {
+        "total": 87.0,
+        "freshness": 20.0,
+        "trigger": 23.0,
+        "identity": 20.0,
+        "contactability": 15.0,
+        "evidence": 9.0,
+        "penalties": 0.0,
+        "grade": "A",
+        "outbound_ready": true,
+        "perfect": true,
+        "pipeline_worthy": true,
+        "blockers": [],
+        "reasons": [
+          "LQS 87.0 >= outbound 78.0",
+          "LQS 87.0 >= perfect 85.0",
+          "pipeline_worthy",
+          "age_hours=27.8",
+          "trigger=23.0",
+          "freshness=20.0"
+        ],
+        "age_hours": 27.75471785666667,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 87.0,
+      "lead_quality_grade": "A",
+      "outbound_ready": true,
+      "perfect_lead": true,
+      "pipeline_worthy": true
+    }
+  ],
+  "outbound_leads": [
+    {
+      "company_name": "Rise Reforming",
+      "source": "hacker_news",
+      "website": "https://rise-reforming.com",
+      "official_website": "https://rise-reforming.com",
+      "primary_domain": "rise-reforming.com",
+      "industry": "Technology",
+      "description": "Hi HN! This is George, Lucas, and Jona from Rise Reforming ( https://www.rise-reforming.com/ ). We\u2019re developing a process to convert gas produced at landfills, farms, and wastewater plants (\u201cbiogas\u201d) into higher value chemicals. Our techno",
+      "business_email": "contact@rise-reforming.com",
+      "decision_maker": "George Rose (Co-Founder)",
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Launch signal: Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals",
+        "HN launch signal: Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals"
+      ],
+      "evidence": [
+        "Launch signal: Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals",
+        "HN launch signal: Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals"
+      ],
+      "website_verified": true,
+      "published_at": "2026-07-27T19:58:22+00:00",
+      "title": "Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals",
+      "content": "Hi HN! This is George, Lucas, and Jona from Rise Reforming ( https://www.rise-reforming.com/ ). We\u2019re developing a process to convert gas produced at landfills, farms, and wastewater plants (\u201cbiogas\u201d) into higher value chemicals. Our technology is modular, designed to be deployed and operated on-site. Think of us as a chemical project developer; we sit between biogas producers (suppliers) and chemical end users (customers). We pay biogas producers for their gas and we make money from selling our",
+      "url": "https://www.rise-reforming.com",
+      "attributes": {
+        "source": "hacker_news",
+        "domain": "rise-reforming.com",
+        "emails": [
+          "contact@rise-reforming.com"
+        ],
+        "decision_makers": [
+          {
+            "name": "George Rose",
+            "role": "Co-Founder",
+            "source": "https://rise-reforming.com/team"
+          },
+          {
+            "name": "Lucas Zubillaga",
+            "role": "Co-Founder",
+            "source": "https://rise-reforming.com/team"
+          }
+        ]
+      },
+      "lead_quality": {
+        "total": 87.0,
+        "freshness": 20.0,
+        "trigger": 23.0,
+        "identity": 20.0,
+        "contactability": 15.0,
+        "evidence": 9.0,
+        "penalties": 0.0,
+        "grade": "A",
+        "outbound_ready": true,
+        "perfect": true,
+        "pipeline_worthy": true,
+        "blockers": [],
+        "reasons": [
+          "LQS 87.0 >= outbound 78.0",
+          "LQS 87.0 >= perfect 85.0",
+          "pipeline_worthy",
+          "age_hours=27.8",
+          "trigger=23.0",
+          "freshness=20.0"
+        ],
+        "age_hours": 27.75471785666667,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 87.0,
+      "lead_quality_grade": "A",
+      "outbound_ready": true,
+      "perfect_lead": true,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "Latest Q2 AI SaaS Trends Report",
+      "source": "hacker_news",
+      "website": "https://relvehq.com",
+      "official_website": "https://relvehq.com",
+      "primary_domain": "relvehq.com",
+      "industry": "Technology",
+      "description": "About Relve: Our Mission, Our Why, and Who We Serve New Report The State of AI for SaaS Companies, Q2 2026 is here. Read the report \u2192 106\u00b0 AI Weather AI News Tools Events New By Function MCP Beta Submit Tool Relve Pro Login Home / About About us About Relve Relve exists to make AI easier to follow, act on, and build with. Who we are, why we built this, and who we built it for. The Name Relve /r\u025blv",
+      "business_email": "media@relvehq.com",
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Launch signal: Show HN: Latest Q2 AI SaaS Trends Report",
+        "HN launch signal: Show HN: Latest Q2 AI SaaS Trends Report"
+      ],
+      "evidence": [
+        "Launch signal: Show HN: Latest Q2 AI SaaS Trends Report",
+        "HN launch signal: Show HN: Latest Q2 AI SaaS Trends Report"
+      ],
+      "website_verified": true,
+      "published_at": "2026-07-27T20:36:54+00:00",
+      "title": "Show HN: Latest Q2 AI SaaS Trends Report",
+      "content": "Article URL: https://relvehq.com/ai-reports/2026-q2-the-state-of-ai-for-saas-companies-fullview Comments URL: https://news.ycombinator.com/item?id=49075191 Points: 1 # Comments: 1",
+      "url": "https://relvehq.com/ai-reports/2026-q2-the-state-of-ai-for-saas-companies-fullview",
+      "attributes": {
+        "source": "hacker_news",
+        "domain": "relvehq.com",
+        "emails": [
+          "media@relvehq.com"
+        ],
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 80.0,
+        "freshness": 20.0,
+        "trigger": 23.0,
+        "identity": 20.0,
+        "contactability": 8.0,
+        "evidence": 9.0,
+        "penalties": 0.0,
+        "grade": "B",
+        "outbound_ready": true,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [],
+        "reasons": [
+          "LQS 80.0 >= outbound 78.0",
+          "pipeline_worthy",
+          "age_hours=27.1",
+          "trigger=23.0",
+          "freshness=20.0"
+        ],
+        "age_hours": 27.11249560527778,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 80.0,
+      "lead_quality_grade": "B",
+      "outbound_ready": true,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    }
+  ],
+  "top_20": [
+    {
+      "company_name": "Rise Reforming",
+      "source": "hacker_news",
+      "website": "https://rise-reforming.com",
+      "official_website": "https://rise-reforming.com",
+      "primary_domain": "rise-reforming.com",
+      "industry": "Technology",
+      "description": "Hi HN! This is George, Lucas, and Jona from Rise Reforming ( https://www.rise-reforming.com/ ). We\u2019re developing a process to convert gas produced at landfills, farms, and wastewater plants (\u201cbiogas\u201d) into higher value chemicals. Our techno",
+      "business_email": "contact@rise-reforming.com",
+      "decision_maker": "George Rose (Co-Founder)",
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Launch signal: Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals",
+        "HN launch signal: Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals"
+      ],
+      "evidence": [
+        "Launch signal: Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals",
+        "HN launch signal: Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals"
+      ],
+      "website_verified": true,
+      "published_at": "2026-07-27T19:58:22+00:00",
+      "title": "Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals",
+      "content": "Hi HN! This is George, Lucas, and Jona from Rise Reforming ( https://www.rise-reforming.com/ ). We\u2019re developing a process to convert gas produced at landfills, farms, and wastewater plants (\u201cbiogas\u201d) into higher value chemicals. Our technology is modular, designed to be deployed and operated on-site. Think of us as a chemical project developer; we sit between biogas producers (suppliers) and chemical end users (customers). We pay biogas producers for their gas and we make money from selling our",
+      "url": "https://www.rise-reforming.com",
+      "attributes": {
+        "source": "hacker_news",
+        "domain": "rise-reforming.com",
+        "emails": [
+          "contact@rise-reforming.com"
+        ],
+        "decision_makers": [
+          {
+            "name": "George Rose",
+            "role": "Co-Founder",
+            "source": "https://rise-reforming.com/team"
+          },
+          {
+            "name": "Lucas Zubillaga",
+            "role": "Co-Founder",
+            "source": "https://rise-reforming.com/team"
+          }
+        ]
+      },
+      "lead_quality": {
+        "total": 87.0,
+        "freshness": 20.0,
+        "trigger": 23.0,
+        "identity": 20.0,
+        "contactability": 15.0,
+        "evidence": 9.0,
+        "penalties": 0.0,
+        "grade": "A",
+        "outbound_ready": true,
+        "perfect": true,
+        "pipeline_worthy": true,
+        "blockers": [],
+        "reasons": [
+          "LQS 87.0 >= outbound 78.0",
+          "LQS 87.0 >= perfect 85.0",
+          "pipeline_worthy",
+          "age_hours=27.8",
+          "trigger=23.0",
+          "freshness=20.0"
+        ],
+        "age_hours": 27.75471785666667,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 87.0,
+      "lead_quality_grade": "A",
+      "outbound_ready": true,
+      "perfect_lead": true,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "Latest Q2 AI SaaS Trends Report",
+      "source": "hacker_news",
+      "website": "https://relvehq.com",
+      "official_website": "https://relvehq.com",
+      "primary_domain": "relvehq.com",
+      "industry": "Technology",
+      "description": "About Relve: Our Mission, Our Why, and Who We Serve New Report The State of AI for SaaS Companies, Q2 2026 is here. Read the report \u2192 106\u00b0 AI Weather AI News Tools Events New By Function MCP Beta Submit Tool Relve Pro Login Home / About About us About Relve Relve exists to make AI easier to follow, act on, and build with. Who we are, why we built this, and who we built it for. The Name Relve /r\u025blv",
+      "business_email": "media@relvehq.com",
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Launch signal: Show HN: Latest Q2 AI SaaS Trends Report",
+        "HN launch signal: Show HN: Latest Q2 AI SaaS Trends Report"
+      ],
+      "evidence": [
+        "Launch signal: Show HN: Latest Q2 AI SaaS Trends Report",
+        "HN launch signal: Show HN: Latest Q2 AI SaaS Trends Report"
+      ],
+      "website_verified": true,
+      "published_at": "2026-07-27T20:36:54+00:00",
+      "title": "Show HN: Latest Q2 AI SaaS Trends Report",
+      "content": "Article URL: https://relvehq.com/ai-reports/2026-q2-the-state-of-ai-for-saas-companies-fullview Comments URL: https://news.ycombinator.com/item?id=49075191 Points: 1 # Comments: 1",
+      "url": "https://relvehq.com/ai-reports/2026-q2-the-state-of-ai-for-saas-companies-fullview",
+      "attributes": {
+        "source": "hacker_news",
+        "domain": "relvehq.com",
+        "emails": [
+          "media@relvehq.com"
+        ],
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 80.0,
+        "freshness": 20.0,
+        "trigger": 23.0,
+        "identity": 20.0,
+        "contactability": 8.0,
+        "evidence": 9.0,
+        "penalties": 0.0,
+        "grade": "B",
+        "outbound_ready": true,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [],
+        "reasons": [
+          "LQS 80.0 >= outbound 78.0",
+          "pipeline_worthy",
+          "age_hours=27.1",
+          "trigger=23.0",
+          "freshness=20.0"
+        ],
+        "age_hours": 27.11249560527778,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 80.0,
+      "lead_quality_grade": "B",
+      "outbound_ready": true,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "Permanym",
+      "source": "hacker_news",
+      "website": "https://permanym.com",
+      "official_website": "https://permanym.com",
+      "primary_domain": "permanym.com",
+      "industry": "Technology",
+      "description": "Permanym: Beat the bots. Hire the humans. PERM \u039b NYM How it works Benefits Pricing FAQ Sign in Create account summary::-webkit-details-marker]:hidden\" data-public-mobile-menu=\"true\"> How it works Benefits Pricing FAQ Sign in Create account Beat the bots. Hire the humans. Automated resume spam is overwhelming hiring teams and filling pipelines with noise. Permanym helps you cut through application ",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Hiring / growth signal",
+      "buying_signals": [
+        "Hiring signal: Show HN: Permanym \u2013 for hiring teams overwhelmed by AI resume spam",
+        "Launch signal: Show HN: Permanym \u2013 for hiring teams overwhelmed by AI resume spam",
+        "HN hiring signal: Show HN: Permanym \u2013 for hiring teams overwhelmed by AI resume spam",
+        "HN launch signal: Show HN: Permanym \u2013 for hiring teams overwhelmed by AI resume spam"
+      ],
+      "evidence": [
+        "Hiring signal: Show HN: Permanym \u2013 for hiring teams overwhelmed by AI resume spam",
+        "Launch signal: Show HN: Permanym \u2013 for hiring teams overwhelmed by AI resume spam",
+        "HN hiring signal: Show HN: Permanym \u2013 for hiring teams overwhelmed by AI resume spam",
+        "HN launch signal: Show HN: Permanym \u2013 for hiring teams overwhelmed by AI resume spam"
+      ],
+      "website_verified": true,
+      "published_at": "2026-07-28T15:05:55+00:00",
+      "title": "Show HN: Permanym \u2013 for hiring teams overwhelmed by AI resume spam",
+      "content": "Employers are facing a growing wave of automated AI submissions, fake applications, and low-effort spam. It\u2019s not unusual for recruiters and hiring managers to receive thousands of resumes within hours of posting a job. Qualified candidates can easily get drowned out by all the noise. Permanym brings just enough friction to the application process to make automated abuse impractical, without getting too much in the way of legitimate applicants. As a former hiring manager, the idea of adding fric",
+      "url": "https://permanym.com",
+      "attributes": {
+        "source": "hacker_news",
+        "domain": "permanym.com",
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 82.0,
+        "freshness": 27.0,
+        "trigger": 25.0,
+        "identity": 20.0,
+        "contactability": 0.0,
+        "evidence": 10.0,
+        "penalties": 0.0,
+        "grade": "B",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=8.6",
+          "trigger=25.0",
+          "freshness=27.0"
+        ],
+        "age_hours": 8.628884412222222,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 82.0,
+      "lead_quality_grade": "B",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "Hiring Method",
+      "source": "hacker_news",
+      "website": "https://hiring-method.com",
+      "official_website": "https://hiring-method.com",
+      "primary_domain": "hiring-method.com",
+      "industry": "Technology",
+      "description": "Hi hackers! My partner and I got tired of nontransparent hiring processes and \"AI-native\" HR software that just wrap an LLM around CVs (or even simply claims doing so) so we built Hiring Method to do the opposite. It converts CVs and job re",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Hiring / growth signal",
+      "buying_signals": [
+        "Hiring signal: Show HN: Hiring Method \u2013 a deterministic, math-driven recruitment platform",
+        "Launch signal: Show HN: Hiring Method \u2013 a deterministic, math-driven recruitment platform",
+        "HN hiring signal: Show HN: Hiring Method \u2013 a deterministic, math-driven recruitment platform",
+        "HN launch signal: Show HN: Hiring Method \u2013 a deterministic, math-driven recruitment platform"
+      ],
+      "evidence": [
+        "Hiring signal: Show HN: Hiring Method \u2013 a deterministic, math-driven recruitment platform",
+        "Launch signal: Show HN: Hiring Method \u2013 a deterministic, math-driven recruitment platform",
+        "HN hiring signal: Show HN: Hiring Method \u2013 a deterministic, math-driven recruitment platform",
+        "HN launch signal: Show HN: Hiring Method \u2013 a deterministic, math-driven recruitment platform"
+      ],
+      "website_verified": true,
+      "published_at": "2026-07-28T13:58:02+00:00",
+      "title": "Show HN: Hiring Method \u2013 a deterministic, math-driven recruitment platform",
+      "content": "Hi hackers! My partner and I got tired of nontransparent hiring processes and \"AI-native\" HR software that just wrap an LLM around CVs (or even simply claims doing so) so we built Hiring Method to do the opposite. It converts CVs and job requirements into structured data, then uses a transparent math engine to score the match. Instead of trusting a black box you get a clear, audit-ready scorecard that shows exactly why a candidate is a good fit. We are currently building a sourcing feature to he",
+      "url": "https://hiring-method.com/",
+      "attributes": {
+        "source": "hacker_news",
+        "domain": "hiring-method.com",
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 82.0,
+        "freshness": 27.0,
+        "trigger": 25.0,
+        "identity": 20.0,
+        "contactability": 0.0,
+        "evidence": 10.0,
+        "penalties": 0.0,
+        "grade": "B",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=9.8",
+          "trigger=25.0",
+          "freshness=27.0"
+        ],
+        "age_hours": 9.760273343888889,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 82.0,
+      "lead_quality_grade": "B",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "I was tired of opening 2 tabs for every HN link, so I made a userscript",
+      "source": "hacker_news",
+      "website": null,
+      "official_website": null,
+      "primary_domain": null,
+      "industry": "Technology",
+      "description": "HN is great for the links people share, but a big part of the value I get comes from reading the discussion around them. I realized I was always opening the article in one tab and the comments in another, constantly switching back and forth",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Launch signal: Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript",
+        "HN launch signal: Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript"
+      ],
+      "evidence": [
+        "Launch signal: Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript",
+        "HN launch signal: Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript"
+      ],
+      "website_verified": false,
+      "published_at": "2026-07-28T22:09:06+00:00",
+      "title": "Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript",
+      "content": "HN is great for the links people share, but a big part of the value I get comes from reading the discussion around them. I realized I was always opening the article in one tab and the comments in another, constantly switching back and forth. I figured there was probably a simpler way, so I threw together this userscript to merge the two. 1. Clicking a link from Hacker News opens the article with a side panel containing the discussion. It doesn't require your credentials, is resizable, and is eas",
+      "url": "https://github.com/twalichiewicz/HNewhere",
+      "attributes": {
+        "source": "hacker_news",
+        "domain": null,
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 49.0,
+        "freshness": 30.0,
+        "trigger": 23.0,
+        "identity": 8.0,
+        "contactability": 0.0,
+        "evidence": 9.0,
+        "penalties": 0.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=1.6",
+          "trigger=23.0",
+          "freshness=30.0"
+        ],
+        "age_hours": 1.57582899,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 49.0,
+      "lead_quality_grade": "F",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "Cercle",
+      "source": "product_hunt",
+      "website": null,
+      "official_website": null,
+      "primary_domain": null,
+      "industry": "Technology",
+      "description": "The bat signal for your closest friends. Discussion | Link",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Product Hunt launch signal: Cercle"
+      ],
+      "evidence": [
+        "Product Hunt launch signal: Cercle"
+      ],
+      "website_verified": false,
+      "published_at": "2026-07-28T23:41:43+00:00",
+      "title": "Cercle",
+      "content": "The bat signal for your closest friends. Discussion | Link",
+      "url": "https://www.producthunt.com/products/cercle",
+      "attributes": {
+        "source": "product_hunt",
+        "domain": null,
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 49.0,
+        "freshness": 30.0,
+        "trigger": 23.5,
+        "identity": 8.0,
+        "contactability": 0.0,
+        "evidence": 5.5,
+        "penalties": 0.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=0.0",
+          "trigger=23.5",
+          "freshness=30.0"
+        ],
+        "age_hours": 0.03740767638888889,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 49.0,
+      "lead_quality_grade": "F",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "Jotform Website Widgets",
+      "source": "product_hunt",
+      "website": null,
+      "official_website": null,
+      "primary_domain": null,
+      "industry": "Technology",
+      "description": "Build and embed no-code website widgets in minutes Discussion | Link",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Product Hunt launch signal: Jotform Website Widgets"
+      ],
+      "evidence": [
+        "Product Hunt launch signal: Jotform Website Widgets"
+      ],
+      "website_verified": false,
+      "published_at": "2026-07-28T22:38:57+00:00",
+      "title": "Jotform Website Widgets",
+      "content": "Build and embed no-code website widgets in minutes Discussion | Link",
+      "url": "https://www.producthunt.com/products/jotform",
+      "attributes": {
+        "source": "product_hunt",
+        "domain": null,
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 49.0,
+        "freshness": 30.0,
+        "trigger": 23.5,
+        "identity": 8.0,
+        "contactability": 0.0,
+        "evidence": 5.5,
+        "penalties": 0.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=1.1",
+          "trigger=23.5",
+          "freshness=30.0"
+        ],
+        "age_hours": 1.0835294686111112,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 49.0,
+      "lead_quality_grade": "F",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "Prefactor",
+      "source": "product_hunt",
+      "website": null,
+      "official_website": null,
+      "primary_domain": null,
+      "industry": "Technology",
+      "description": "Evaluate your AI Agents in real-time Discussion | Link",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Product Hunt launch signal: Prefactor"
+      ],
+      "evidence": [
+        "Product Hunt launch signal: Prefactor"
+      ],
+      "website_verified": false,
+      "published_at": "2026-07-28T23:42:42+00:00",
+      "title": "Prefactor",
+      "content": "Evaluate your AI Agents in real-time Discussion | Link",
+      "url": "https://www.producthunt.com/products/prefactor",
+      "attributes": {
+        "source": "product_hunt",
+        "domain": null,
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 49.0,
+        "freshness": 30.0,
+        "trigger": 23.5,
+        "identity": 8.0,
+        "contactability": 0.0,
+        "evidence": 5.5,
+        "penalties": 0.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=0.0",
+          "trigger=23.5",
+          "freshness=30.0"
+        ],
+        "age_hours": 0.021039726944444444,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 49.0,
+      "lead_quality_grade": "F",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "Lottie Creator 2.0",
+      "source": "product_hunt",
+      "website": null,
+      "official_website": null,
+      "primary_domain": null,
+      "industry": "Technology",
+      "description": "After Effects for the web, built on Lottie Discussion | Link",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Product Hunt launch signal: Lottie Creator 2.0"
+      ],
+      "evidence": [
+        "Product Hunt launch signal: Lottie Creator 2.0"
+      ],
+      "website_verified": false,
+      "published_at": "2026-07-28T23:42:31+00:00",
+      "title": "Lottie Creator 2.0",
+      "content": "After Effects for the web, built on Lottie Discussion | Link",
+      "url": "https://www.producthunt.com/products/lottiefiles",
+      "attributes": {
+        "source": "product_hunt",
+        "domain": null,
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 49.0,
+        "freshness": 30.0,
+        "trigger": 23.5,
+        "identity": 8.0,
+        "contactability": 0.0,
+        "evidence": 5.5,
+        "penalties": 0.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=0.0",
+          "trigger=23.5",
+          "freshness=30.0"
+        ],
+        "age_hours": 0.02410570611111111,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 49.0,
+      "lead_quality_grade": "F",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "Pinery Prose",
+      "source": "product_hunt",
+      "website": null,
+      "official_website": null,
+      "primary_domain": null,
+      "industry": "Technology",
+      "description": "AI co-author for books + every edit is a diff you approve Discussion | Link",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Product Hunt launch signal: Pinery Prose"
+      ],
+      "evidence": [
+        "Product Hunt launch signal: Pinery Prose"
+      ],
+      "website_verified": false,
+      "published_at": "2026-07-28T23:25:26+00:00",
+      "title": "Pinery Prose",
+      "content": "AI co-author for books + every edit is a diff you approve Discussion | Link",
+      "url": "https://www.producthunt.com/products/pinery",
+      "attributes": {
+        "source": "product_hunt",
+        "domain": null,
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 49.0,
+        "freshness": 30.0,
+        "trigger": 23.5,
+        "identity": 8.0,
+        "contactability": 0.0,
+        "evidence": 5.5,
+        "penalties": 0.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=0.3",
+          "trigger=23.5",
+          "freshness=30.0"
+        ],
+        "age_hours": 0.3088376941666667,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 49.0,
+      "lead_quality_grade": "F",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "qsa.sh",
+      "source": "product_hunt",
+      "website": null,
+      "official_website": null,
+      "primary_domain": null,
+      "industry": "Technology",
+      "description": "External security scan of your own IP, in your terminal Discussion | Link",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Product Hunt launch signal: qsa.sh"
+      ],
+      "evidence": [
+        "Product Hunt launch signal: qsa.sh"
+      ],
+      "website_verified": false,
+      "published_at": "2026-07-28T23:02:10+00:00",
+      "title": "qsa.sh",
+      "content": "External security scan of your own IP, in your terminal Discussion | Link",
+      "url": "https://www.producthunt.com/products/qsa-sh-quick-security-audit",
+      "attributes": {
+        "source": "product_hunt",
+        "domain": null,
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 49.0,
+        "freshness": 30.0,
+        "trigger": 23.5,
+        "identity": 8.0,
+        "contactability": 0.0,
+        "evidence": 5.5,
+        "penalties": 0.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=0.7",
+          "trigger=23.5",
+          "freshness=30.0"
+        ],
+        "age_hours": 0.6966308602777779,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 49.0,
+      "lead_quality_grade": "F",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "FlowTask 2.0",
+      "source": "product_hunt",
+      "website": null,
+      "official_website": null,
+      "primary_domain": null,
+      "industry": "Technology",
+      "description": "Company brain for AI Agents Discussion | Link",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Product Hunt launch signal: FlowTask 2.0"
+      ],
+      "evidence": [
+        "Product Hunt launch signal: FlowTask 2.0"
+      ],
+      "website_verified": false,
+      "published_at": "2026-07-28T22:38:57+00:00",
+      "title": "FlowTask 2.0",
+      "content": "Company brain for AI Agents Discussion | Link",
+      "url": "https://www.producthunt.com/products/flowtask",
+      "attributes": {
+        "source": "product_hunt",
+        "domain": null,
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 49.0,
+        "freshness": 30.0,
+        "trigger": 23.5,
+        "identity": 8.0,
+        "contactability": 0.0,
+        "evidence": 5.5,
+        "penalties": 0.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=1.1",
+          "trigger=23.5",
+          "freshness=30.0"
+        ],
+        "age_hours": 1.083587561111111,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 49.0,
+      "lead_quality_grade": "F",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "Superunit",
+      "source": "product_hunt",
+      "website": null,
+      "official_website": null,
+      "primary_domain": null,
+      "industry": "Technology",
+      "description": "AI agents that verify employment by phone, email & fax Discussion | Link",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Product Hunt launch signal: Superunit"
+      ],
+      "evidence": [
+        "Product Hunt launch signal: Superunit"
+      ],
+      "website_verified": false,
+      "published_at": "2026-07-28T22:38:57+00:00",
+      "title": "Superunit",
+      "content": "AI agents that verify employment by phone, email & fax Discussion | Link",
+      "url": "https://www.producthunt.com/products/superunit",
+      "attributes": {
+        "source": "product_hunt",
+        "domain": null,
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 49.0,
+        "freshness": 30.0,
+        "trigger": 23.5,
+        "identity": 8.0,
+        "contactability": 0.0,
+        "evidence": 5.5,
+        "penalties": 0.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=1.1",
+          "trigger=23.5",
+          "freshness=30.0"
+        ],
+        "age_hours": 1.0836042163888888,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 49.0,
+      "lead_quality_grade": "F",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "Conduit",
+      "source": "product_hunt",
+      "website": null,
+      "official_website": null,
+      "primary_domain": null,
+      "industry": "Technology",
+      "description": "AI agents purpose-built for Hospitality Discussion | Link",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Product Hunt launch signal: Conduit"
+      ],
+      "evidence": [
+        "Product Hunt launch signal: Conduit"
+      ],
+      "website_verified": false,
+      "published_at": "2026-07-28T23:41:22+00:00",
+      "title": "Conduit",
+      "content": "AI agents purpose-built for Hospitality Discussion | Link",
+      "url": "https://www.producthunt.com/products/conduit-ai",
+      "attributes": {
+        "source": "product_hunt",
+        "domain": null,
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 49.0,
+        "freshness": 30.0,
+        "trigger": 23.5,
+        "identity": 8.0,
+        "contactability": 0.0,
+        "evidence": 5.5,
+        "penalties": 0.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=0.0",
+          "trigger=23.5",
+          "freshness=30.0"
+        ],
+        "age_hours": 0.043337945833333336,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 49.0,
+      "lead_quality_grade": "F",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "Firstpass",
+      "source": "product_hunt",
+      "website": null,
+      "official_website": null,
+      "primary_domain": null,
+      "industry": "Technology",
+      "description": "Actionable input so you nail every launch Discussion | Link",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Product Hunt launch signal: Firstpass",
+        "Launch signal: Firstpass"
+      ],
+      "evidence": [
+        "Product Hunt launch signal: Firstpass",
+        "Launch signal: Firstpass"
+      ],
+      "website_verified": false,
+      "published_at": "2026-07-28T23:02:00+00:00",
+      "title": "Firstpass",
+      "content": "Actionable input so you nail every launch Discussion | Link",
+      "url": "https://www.producthunt.com/products/glaze-4",
+      "attributes": {
+        "source": "product_hunt",
+        "domain": null,
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 49.0,
+        "freshness": 30.0,
+        "trigger": 25.0,
+        "identity": 8.0,
+        "contactability": 0.0,
+        "evidence": 9.0,
+        "penalties": 0.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=0.7",
+          "trigger=25.0",
+          "freshness=30.0"
+        ],
+        "age_hours": 0.6994613116666667,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 49.0,
+      "lead_quality_grade": "F",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "Leaping AI",
+      "source": "product_hunt",
+      "website": null,
+      "official_website": null,
+      "primary_domain": null,
+      "industry": "Technology",
+      "description": "AI agents that call and text in multi-day campaigns Discussion | Link",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Product Hunt launch signal: Leaping AI"
+      ],
+      "evidence": [
+        "Product Hunt launch signal: Leaping AI"
+      ],
+      "website_verified": false,
+      "published_at": "2026-07-28T23:37:31+00:00",
+      "title": "Leaping AI",
+      "content": "AI agents that call and text in multi-day campaigns Discussion | Link",
+      "url": "https://www.producthunt.com/products/leaping-ai",
+      "attributes": {
+        "source": "product_hunt",
+        "domain": null,
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 49.0,
+        "freshness": 30.0,
+        "trigger": 23.5,
+        "identity": 8.0,
+        "contactability": 0.0,
+        "evidence": 5.5,
+        "penalties": 0.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=0.1",
+          "trigger=23.5",
+          "freshness=30.0"
+        ],
+        "age_hours": 0.10753974638888888,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 49.0,
+      "lead_quality_grade": "F",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "Lamoom",
+      "source": "product_hunt",
+      "website": null,
+      "official_website": null,
+      "primary_domain": null,
+      "industry": "Technology",
+      "description": "Run agent apps inside your Claude or sell your own Discussion | Link",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Product Hunt launch signal: Lamoom"
+      ],
+      "evidence": [
+        "Product Hunt launch signal: Lamoom"
+      ],
+      "website_verified": false,
+      "published_at": "2026-07-28T23:31:12+00:00",
+      "title": "Lamoom",
+      "content": "Run agent apps inside your Claude or sell your own Discussion | Link",
+      "url": "https://www.producthunt.com/products/lamoom",
+      "attributes": {
+        "source": "product_hunt",
+        "domain": null,
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 49.0,
+        "freshness": 30.0,
+        "trigger": 23.5,
+        "identity": 8.0,
+        "contactability": 0.0,
+        "evidence": 5.5,
+        "penalties": 0.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=0.2",
+          "trigger=23.5",
+          "freshness=30.0"
+        ],
+        "age_hours": 0.21282746972222222,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 49.0,
+      "lead_quality_grade": "F",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "Cekura",
+      "source": "product_hunt",
+      "website": null,
+      "official_website": null,
+      "primary_domain": null,
+      "industry": "Technology",
+      "description": "The self-improvement loop for voice agents Discussion | Link",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Product Hunt launch signal: Cekura"
+      ],
+      "evidence": [
+        "Product Hunt launch signal: Cekura"
+      ],
+      "website_verified": false,
+      "published_at": "2026-07-28T23:27:39+00:00",
+      "title": "Cekura",
+      "content": "The self-improvement loop for voice agents Discussion | Link",
+      "url": "https://www.producthunt.com/products/vocera",
+      "attributes": {
+        "source": "product_hunt",
+        "domain": null,
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 49.0,
+        "freshness": 30.0,
+        "trigger": 23.5,
+        "identity": 8.0,
+        "contactability": 0.0,
+        "evidence": 5.5,
+        "penalties": 0.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=0.3",
+          "trigger=23.5",
+          "freshness=30.0"
+        ],
+        "age_hours": 0.27200672527777775,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 49.0,
+      "lead_quality_grade": "F",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "Ycode AI Agents",
+      "source": "product_hunt",
+      "website": null,
+      "official_website": null,
+      "primary_domain": null,
+      "industry": "Technology",
+      "description": "Build websites with AI Discussion | Link",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Product Hunt launch signal: Ycode AI Agents"
+      ],
+      "evidence": [
+        "Product Hunt launch signal: Ycode AI Agents"
+      ],
+      "website_verified": false,
+      "published_at": "2026-07-28T23:21:21+00:00",
+      "title": "Ycode AI Agents",
+      "content": "Build websites with AI Discussion | Link",
+      "url": "https://www.producthunt.com/products/ycode",
+      "attributes": {
+        "source": "product_hunt",
+        "domain": null,
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 49.0,
+        "freshness": 30.0,
+        "trigger": 23.5,
+        "identity": 8.0,
+        "contactability": 0.0,
+        "evidence": 5.5,
+        "penalties": 0.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=0.4",
+          "trigger=23.5",
+          "freshness=30.0"
+        ],
+        "age_hours": 0.3770183680555556,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 49.0,
+      "lead_quality_grade": "F",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    },
+    {
+      "company_name": "Hardbook",
+      "source": "product_hunt",
+      "website": null,
+      "official_website": null,
+      "primary_domain": null,
+      "industry": "Technology",
+      "description": "The freelancer booking link that signs the contract for you Discussion | Link",
+      "business_email": null,
+      "decision_maker": null,
+      "why_now": "Recent product launch signal",
+      "buying_signals": [
+        "Product Hunt launch signal: Hardbook"
+      ],
+      "evidence": [
+        "Product Hunt launch signal: Hardbook"
+      ],
+      "website_verified": false,
+      "published_at": "2026-07-28T22:51:37+00:00",
+      "title": "Hardbook",
+      "content": "The freelancer booking link that signs the contract for you Discussion | Link",
+      "url": "https://www.producthunt.com/products/hardbook",
+      "attributes": {
+        "source": "product_hunt",
+        "domain": null,
+        "emails": null,
+        "decision_makers": null
+      },
+      "lead_quality": {
+        "total": 49.0,
+        "freshness": 30.0,
+        "trigger": 23.5,
+        "identity": 8.0,
+        "contactability": 0.0,
+        "evidence": 5.5,
+        "penalties": 0.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=0.9",
+          "trigger=23.5",
+          "freshness=30.0"
+        ],
+        "age_hours": 0.8725827983333333,
+        "scoring_version": "lqs-v1"
+      },
+      "lead_quality_score": 49.0,
+      "lead_quality_grade": "F",
+      "outbound_ready": false,
+      "perfect_lead": false,
+      "pipeline_worthy": true
+    }
+  ],
+  "persist": {
+    "created": 0,
+    "updated": 2,
+    "skipped": false
+  },
+  "complete": true
+}

@@ -1,0 +1,91 @@
+{
+  "run_id": "f6b66d98-45b2-4525-aadd-15f88065b4a2",
+  "product": "comai",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 188,
+    "enriched": 177,
+    "scored": 0,
+    "ready": 0,
+    "sent": 0,
+    "rejected": 188
+  },
+  "rejects": {
+    "mega_brand": 32,
+    "headcount": 27,
+    "unknown_size": 10,
+    "industry": 43,
+    "city": 58,
+    "country": 0,
+    "domain": 0,
+    "name": 0,
+    "type": 0,
+    "generic_email": 0,
+    "no_email": 0,
+    "no_founder": 0,
+    "tech": 18
+  },
+  "icp": {
+    "key": "comai",
+    "name": "COMAI \u00e2\u20ac\u201d Buyability-First Discovery",
+    "service_match": "COMAI",
+    "employee_count_min": 5,
+    "employee_count_max": 2,
+    "company_size_min": null,
+    "company_size_max": null,
+    "industries": [
+      "fashion",
+      "beauty",
+      "skincare",
+      "cosmetics",
+      "jewellery",
+      "jewelry",
+      "home decor",
+      "home_goods"
+    ],
+    "specialties": [
+      "fashion",
+      "beauty",
+      "skincare",
+      "cosmetics",
+      "jewellery",
+      "jewelry",
+      "home decor",
+      "home_goods"
+    ],
+    "countries": [
+      "India"
+    ],
+    "headquarters_cities": [
+      "Mumbai",
+      "Delhi",
+      "Bangalore",
+      "Chennai",
+      "Hyderabad",
+      "Pune",
+      "Kolkata",
+      "Ahmedabad"
+    ],
+    "technology_stack": [
+      "shopify",
+      "woocommerce"
+    ],
+    "company_types": [
+      "d2c_brand"
+    ],
+    "year_founded_min": 2018,
+    "year_founded_max": 2026,
+    "linkedin_url_required": true,
+    "company_name_contains": [],
+    "domains": [],
+    "lists": [
+      "COMAI Buyability-First Discovery"
+    ],
+    "funding_stages": [],
+    "hiring_signals": [],
+    "negative_signals": []
+  },
+  "generated_at": "2026-08-14T19:27:01.514715+00:00",
+  "lead_count": 0
+}

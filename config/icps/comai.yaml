@@ -1,0 +1,372 @@
+business_unit: comai
+name: "COMAI — Buyability-First Discovery"
+description: "Find companies that are SMALL ENOUGH TO NEED US, GROWING ENOUGH TO AFFORD US, PAINFUL ENOUGH TO BUY, ACCESSIBLE ENOUGH TO REACH"
+
+# ============================================================
+# TARGET CUSTOMER PROFILE
+# ============================================================
+
+target_customer:
+  size: "5-100 employees (prefer 10-50)"
+  age: "1-7 years old"
+  geography: "India-first"
+  access: "Founder accessible"
+  activity: "Actively marketing, growing catalogue, growing social presence"
+  technology: "Using WhatsApp, running ads, WITHOUT sophisticated AI/customer-support automation"
+
+# ============================================================
+# INDUSTRY TARGETING
+# ============================================================
+
+target_industries:
+  - fashion
+  - beauty
+  - skincare
+  - cosmetics
+  - jewellery
+  - jewelry
+  - home decor
+  - home_goods
+  - pets
+  - health
+  - supplements
+  - food_beverage
+  - food
+  - beverages
+  - footwear
+  - electronics accessories
+  - baby_products
+  - kids
+  - grooming
+  - personal care
+  - lifestyle
+  - organic
+  - natural
+  - wellness
+
+# ============================================================
+# COMPANY SIZE
+# ============================================================
+
+min_employees: 5
+max_employees: 100
+prefer_employees_min: 10
+prefer_employees_max: 50
+
+min_revenue: 1000000   # 10L
+max_revenue: 50000000  # 50Cr
+
+min_product_count: 20
+max_product_count: 2000
+
+# ============================================================
+# GEOGRAPHY
+# ============================================================
+
+target_countries:
+  - India
+
+target_cities:
+  - Mumbai
+  - Delhi
+  - Bangalore
+  - Chennai
+  - Hyderabad
+  - Pune
+  - Kolkata
+  - Ahmedabad
+  - Gurugram
+  - Coimbatore
+  - Kochi
+  - Jaipur
+  - Indore
+  - Lucknow
+  - Chandigarh
+
+# ============================================================
+# TECHNOLOGY SIGNALS
+# ============================================================
+
+target_platforms:
+  - shopify
+  - woocommerce
+
+# ============================================================
+# HARD EXCLUSIONS — REJECT IMMEDIATELY
+# ============================================================
+
+exclusion_rules:
+  marketplaces:
+    - amazon
+    - flipkart
+    - myntra
+    - meesho
+    - jiomart
+    - snapdeal
+    - AJIO
+
+  enterprise_brands:
+    - reliance
+    - tata
+    - aditya birla
+    - future group
+    - walmart
+    - amazon
+    - ipo
+    - "public limited"
+    - listed
+
+  corporate_groups:
+    - tata group
+    - reliance industries
+    - aditya birla group
+    - itc limited
+    - hul
+    - hindustan unilever
+    - godrej
+    - dabur
+    - marico
+    - bajaj
+    - mahindra
+    - tata consumer
+
+  unicorn_keywords:
+    - unicorn
+    - series c
+    - series d
+    - series e
+
+  enterprise_tools:
+    - intercom
+    - zendesk
+    - salesforce
+    - hubspot enterprise
+    - freshdesk
+    - freshchat
+    - drift
+
+  company_size:
+    min_employees_exclude: 200
+
+# ============================================================
+# BUSINESS STAGE CLASSIFICATION
+# ============================================================
+
+business_stages:
+  early:
+    min_age_years: 0
+    max_age_years: 2
+    max_employees: 10
+    max_revenue: 5000000
+    weight: 0.7  # Secondary priority
+
+  growing:
+    min_age_years: 1
+    max_age_years: 5
+    min_employees: 10
+    max_employees: 50
+    min_revenue: 5000000
+    max_revenue: 30000000
+    weight: 1.0  # PRIMARY TARGET
+
+  mid_size:
+    min_age_years: 3
+    max_age_years: 10
+    min_employees: 50
+    max_employees: 200
+    min_revenue: 30000000
+    max_revenue: 100000000
+    weight: 0.8  # Secondary
+
+  enterprise:
+    min_employees: 200
+    min_revenue: 100000000
+    weight: 0.0  # REJECT
+
+# ============================================================
+# BUYABILITY SCORE — 100 POINTS
+# ============================================================
+
+buyability_scoring:
+  business_stage: 15
+  growth_signals: 20
+  founder_accessibility: 15
+  support_pain: 15
+  whatsapp: 10
+  technology_gap: 10
+  marketing_activity: 5
+  buying_intent: 10
+
+# ============================================================
+# HIGH-VALUE SIGNALS (bonus points)
+# ============================================================
+
+high_value_signals:
+  founder_publicly_identifiable: 3
+  founder_linkedin: 2
+  business_phone: 2
+  business_email: 2
+  shopify: 3
+  woocommerce: 3
+  active_instagram: 2
+  recent_instagram_activity: 2
+  meta_ads: 3
+  google_ads: 2
+  new_product_launches: 2
+  large_growing_catalogue: 2
+  hiring: 3
+  customer_support_hiring: 3
+  ecommerce_hiring: 2
+  marketing_hiring: 2
+  whatsapp_detected: 3
+  large_faq: 2
+  return_shipping_complexity: 2
+  no_ai_chatbot: 5
+  no_enterprise_helpdesk: 3
+  recent_company_launch: 2
+  recent_funding: 3
+  recent_expansion: 2
+
+# ============================================================
+# QUALIFICATION THRESHOLDS
+# ============================================================
+
+thresholds:
+  sales_ready: 75
+  qualified: 55
+  nurture: 35
+  reject: 0
+  needs_enrichment: -1  # Special state — not enough data
+
+# ============================================================
+# QUALIFICATION STATES
+# ============================================================
+
+qualification_states:
+  SALES_READY: "Evidence of business fit + growth + pain + accessibility + technology gap + buying potential"
+  QUALIFIED: "Good fit but missing 1-2 key signals — needs enrichment"
+  NURTURE: "Potential fit but too early or too uncertain"
+  NEEDS_ENRICHMENT: "Not enough data to qualify — do NOT guess"
+  REJECT: "Does not fit ICP or excluded"
+
+# ============================================================
+# SERVICE CATALOG
+# ============================================================
+
+services:
+  - service_key: comai_chatbot
+    name: "AI Chatbot for Commerce"
+    category: "automation"
+    description: "24/7 AI-powered customer support for ecommerce"
+    base_price: 500
+    monthly_price: 200
+  - service_key: comai_whatsapp
+    name: "WhatsApp AI Automation"
+    category: "automation"
+    description: "Automate WhatsApp conversations with AI"
+    base_price: 1000
+    monthly_price: 300
+  - service_key: comai_crm
+    name: "CRM Integration"
+    category: "integration"
+    description: "Integrate AI with existing CRM systems"
+    base_price: 2000
+    monthly_price: 300
+  - service_key: comai_workflow
+    name: "Workflow Automation"
+    category: "automation"
+    description: "Automate repetitive commerce tasks"
+    base_price: 1500
+    monthly_price: 250
+
+# ============================================================
+# FOLLOW-UP CADENCE
+# ============================================================
+
+follow_up_config:
+  day_1: "introduction"
+  day_3: "case_study"
+  day_6: "value_proposition"
+  day_10: "final_followup"
+  day_14: "whatsapp_nudge"
+  day_20: "archive"
+
+# ============================================================
+# DECISION MAKER ROLES
+# ============================================================
+
+decision_maker_roles:
+  - founder
+  - ceo
+  - coo
+  - head_of_ecommerce
+  - head_of_marketing
+  - vp_operations
+  - owner
+  - director
+
+# ============================================================
+# DISCOVERY SOURCES
+# ============================================================
+
+discovery_sources:
+  - type: search
+    name: "Shopify India D2C brands"
+    queries:
+      - "site:myshopify.com India D2C brand"
+      - "shopify store India fashion growing"
+      - "new D2C brand India 2024 2025"
+      - "Indian startup ecommerce Shopify"
+      - "D2C brand India funding 2025"
+
+  - type: search
+    name: "Growing Indian ecommerce"
+    queries:
+      - "Indian D2C brand hiring 2025"
+      - "D2C brand India Instagram growing"
+      - "Indian ecommerce brand Meta ads"
+      - "new Indian beauty brand Shopify"
+      - "Indian fashion brand growing social"
+
+  - type: directory
+    name: "D2C brand directories"
+    urls:
+      - "https://www.d2cbrands.in"
+      - "https://yourstory.com/tag/d2c"
+      - "https://entrackr.com/tag/d2c"
+
+  - type: social
+    name: "Instagram discovery"
+    hashtags:
+      - "#indianbrand"
+      - "#d2cindia"
+      - "#shopindian"
+      - "#indianfashion"
+      - "#indianbeauty"
+
+  - type: hiring
+    name: "Job boards"
+    sources:
+      - "https://www.linkedin.com/jobs/"
+      - "https://www.naukri.com/"
+    signals:
+      - "customer support"
+      - "ecommerce manager"
+      - "marketing"
+      - "social media"
+
+# ============================================================
+# OUTPUT REQUIREMENTS
+# ============================================================
+
+output_requirements:
+  every_lead_must_answer:
+    - "WHO are they?"
+    - "HOW BIG are they?"
+    - "ARE they growing?"
+    - "WHO owns the company?"
+    - "CAN we reach the owner?"
+    - "WHAT problem do they likely have?"
+    - "WHY would they buy COMAI?"
+    - "WHY NOW?"
+    - "WHAT should we say?"

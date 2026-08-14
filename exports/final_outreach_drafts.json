@@ -1,0 +1,21 @@
+[
+  {
+    "company": "Benovymed Healthcare",
+    "channel": "email",
+    "to": "contact@benovymed.com",
+    "to_status": "PUBLIC_UNVERIFIED",
+    "subject": "Engineering support for your chatbot hiring initiative",
+    "body": "Hi Mahendra Singh,\n\nI noticed Benovymed is hiring an AI Conversational Chatbot Developer across 3 cities with 1-4 years experience in Python, deep learning, Rasa, and Dialogflow.\n\nInstead of waiting through the hiring cycle for this specialized healthcare AI role, we could explore whether an external engineering team could support this requirement immediately.\n\nWe've built production-grade conversational AI for healthcare applications — including HIPAA-compliant chatbots, patient engagement systems, and clinical workflow automation.\n\nOur healthcare AI team has delivered:\n- Rasa-based symptom assessment chatbots\n- Dialogflow-powered patient intake systems\n- HIPAA-compliant conversational interfaces\n- Integration with EHR/EMR systems\n\nWould you be open to a 15-minute call to discuss whether this could accelerate your healthcare AI initiative?\n\nBest regards,\nVansh Jamb\nInowix\nvansh@inowix.in",
+    "generated_at": "2026-08-08T14:13:53.759033",
+    "requires_verification": true
+  },
+  {
+    "company": "Benovymed Healthcare",
+    "channel": "linkedin",
+    "to": "Mahendra Singh",
+    "to_linkedin": "https://www.linkedin.com/in/mahendrasingh1",
+    "message": "Hi Mahendra Singh,\n\nI noticed Benovymed is hiring an AI Chatbot Developer across 3 cities. We specialize in healthcare conversational AI — Rasa, Dialogflow, HIPAA-compliant systems.\n\nInstead of waiting through the hiring cycle for this specialized role, we could explore whether an external team could support this requirement immediately.\n\nWould you be open to a brief conversation?\n\nBest,\nVansh",
+    "generated_at": "2026-08-08T14:13:53.759102",
+    "connection_note": "Send connection request with personalized note first"
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "unique_id": "b03b1800f690",
+    "candidate": {
+      "author": "u/Nishchay_Jaiswal",
+      "source_url": "https://www.reddit.com/r/SaaS/comments/1vh5tah/looking_for_a_developer_small_studio_that_wants/",
+      "source_type": "REDDIT",
+      "project_name": "Tavyn - SEO Agent for SaaS Founders"
+    },
+    "channel_type": "REDDIT_DM",
+    "recipient": "u/Nishchay_Jaiswal",
+    "subject": "Tavyn - SaaS Development Partnership",
+    "message": "Hey Nishchay,\n\nSaw your post on r/SaaS about Tavyn - an SEO agent for SaaS founders. Impressive that you're already at $500 MRR before public launch.\n\nWe at Inowix specialize in SaaS development (TypeScript, Next.js, Supabase) and have helped startups ship production features quickly. We understand bootstrapped constraints and are open to case study partnerships.\n\nWe could help you:\n- Increase dev velocity before your 3-week launch\n- Ship a scoped feature (email-native workflow, API integrations)\n- Scale infrastructure as you grow\n\nWould you be open to a quick chat about how we might help?\n\nBest,\nVansh\nInowix",
+    "personalization_notes": [
+      "Mentioned $500 MRR traction",
+      "Referenced TypeScript/Next.js/Supabase stack",
+      "Acknowledged 3-week launch timeline",
+      "Offered case study partnership model"
+    ],
+    "requires_approval": true,
+    "priority": "HIGH",
+    "confidence": 0.85
+  },
+  {
+    "unique_id": "fbbaa1a9200e",
+    "candidate": {
+      "author": "u/New_Meaning4589",
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1vb0wpg/last_day_as_an_employee_probably_forever/",
+      "source_type": "REDDIT",
+      "project_name": "Serial Entrepreneur - Multiple Business Ideas"
+    },
+    "channel_type": "REDDIT_DM",
+    "recipient": "u/New_Meaning4589",
+    "subject": "Technical Partner for Your Businesses",
+    "message": "Hey,\n\nCongrats on taking the leap! Going full-time on your businesses is a big move.\n\nIf you're looking for a technical partner to help build out your ideas, we at Inowix specialize in turning business concepts into production software - SaaS platforms, AI automation, custom apps.\n\nWe've helped startups go from idea to launch. Would love to hear what you're working on.\n\nBest,\nVansh\nInowix",
+    "personalization_notes": [
+      "Acknowledged career transition",
+      "Offered technical partnership",
+      "Mentioned idea-to-launch capability"
+    ],
+    "requires_approval": true,
+    "priority": "MEDIUM",
+    "confidence": 0.6
+  }
+]

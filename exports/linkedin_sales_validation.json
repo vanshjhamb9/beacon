@@ -1,0 +1,491 @@
+{
+  "generated_at": "2026-08-08T16:18:43.411932",
+  "total_opportunities": 5,
+  "linkedin_ready": 3,
+  "needs_research": 2,
+  "sales_intelligence_cards": [
+    {
+      "company": "Oliv AI",
+      "requirement": "Hiring Full Stack Engineer (3+ Yrs, Remote India, 25-45 LPA + equity) for AI Agents for Sales Teams platform",
+      "intent_score": 100,
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "outsourcing_fit": "MEDIUM",
+      "outsourcing_fit_reason": "Early-stage startup hiring remote India engineers — may prefer dedicated team over full-time hires",
+      "decision_maker": {
+        "name": "Ishan Chhabra",
+        "role": "Founder",
+        "source": "wellfound.com/company/oliv-ai/people",
+        "confidence": "HIGH",
+        "linkedin_url": "https://www.linkedin.com/company/oliv-ai",
+        "linkedin_source": "VERIFIED",
+        "why_this_person": "Relevant role (Founder) for SAAS opportunity. Founder-led engineering hiring. Full Stack Engineer role posted directly."
+      },
+      "service_match": "SaaS Development — Full-Stack Engineering / AI Engineering",
+      "why_now": "Actively hiring Full Stack Engineer for AI platform. Remote India role suggests openness to distributed engineering.",
+      "evidence": [
+        {
+          "claim": "Active hiring requirement",
+          "value": "Hiring Full Stack Engineer (3+ Yrs, Remote India, 25-45 LPA + equity) for AI Agents for Sales Teams platform",
+          "source": "wellfound.com/company/oliv-ai/people",
+          "source_url": "",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T16:18:43.411482"
+        },
+        {
+          "claim": "Active requirement signal detected",
+          "value": "Intent score: 100",
+          "source": "Beacon Intent Engine",
+          "source_url": "",
+          "confidence": "HIGH",
+          "observed_at": "2026-08-08T16:18:43.411523"
+        },
+        {
+          "claim": "Outsourcing fit assessed",
+          "value": "MEDIUM",
+          "source": "Beacon Multi-ICP Scorer",
+          "source_url": "",
+          "confidence": "HIGH",
+          "observed_at": "2026-08-08T16:18:43.411526"
+        }
+      ],
+      "recommended_service": "SaaS Development — Full-Stack Engineering / AI Engineering",
+      "recommended_pitch": "AI engineering team augmentation for sales agent platform",
+      "likely_objection": "Budget constraints or preference for in-house team",
+      "objection_response": "We can start with a small project to demonstrate value before committing to larger engagement.",
+      "linkedin_message": {
+        "connection_request": "Hi Ishan Chhabra, saw you're hiring for Full Stack Engineer at Oliv AI. We help teams add delivery capacity around engineering without waiting through the full hiring cycle. Thought it may be worth connecting.",
+        "follow_up_1": "Thanks for connecting, Ishan Chhabra. Noticed Oliv AI is building engineering capabilities. We've delivered similar projects for startups scaling their engineering teams. If useful, happy to share how we've approached this.",
+        "follow_up_2": "Quick thought on Oliv AI's Full Stack Engineer hiring: we've helped teams accelerate delivery while they build their permanent team. If exploring external capacity could be useful, open to a brief chat.",
+        "character_count_connection": 209,
+        "character_count_followup_1": 223,
+        "character_count_followup_2": 202
+      },
+      "recommended_cta": "Schedule a brief call to discuss how an external engineering team could support this requirement",
+      "quality_gate_status": "PASSED",
+      "quality_gate_failures": [],
+      "outreach_state": "LINKEDIN_DRAFT_READY"
+    },
+    {
+      "company": "Neverinstall",
+      "requirement": "Hiring Full Stack Engineer (3+ Yrs, Bengaluru, 25-30 LPA) for virtual desktop platform",
+      "intent_score": 100,
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "outsourcing_fit": "MEDIUM",
+      "outsourcing_fit_reason": "Seed-stage startup building complex cloud infrastructure — dedicated team can accelerate",
+      "decision_maker": {
+        "name": "Lakshman Pasala",
+        "role": "Co-Founder & CEO",
+        "source": "tracxn.com, crunchbase.com, itvoice.in",
+        "confidence": "HIGH",
+        "linkedin_url": "https://www.linkedin.com/company/neverinstall",
+        "linkedin_source": "VERIFIED",
+        "why_this_person": "Relevant role (Co-Founder & CEO) for SAAS opportunity. CEO leading product and engineering. IIT Kharagpur, 25+ year Microsoft/Meta/Salesforce CRO just joined."
+      },
+      "service_match": "SaaS Development — Cloud Architecture / Full-Stack Engineering",
+      "why_now": "Seed-funded, building core infrastructure, small team. Engineering augmentation accelerates product development.",
+      "evidence": [
+        {
+          "claim": "Active hiring requirement",
+          "value": "Hiring Full Stack Engineer (3+ Yrs, Bengaluru, 25-30 LPA) for virtual desktop platform",
+          "source": "tracxn.com, crunchbase.com, itvoice.in",
+          "source_url": "",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T16:18:43.411612"
+        },
+        {
+          "claim": "Active requirement signal detected",
+          "value": "Intent score: 100",
+          "source": "Beacon Intent Engine",
+          "source_url": "",
+          "confidence": "HIGH",
+          "observed_at": "2026-08-08T16:18:43.411617"
+        },
+        {
+          "claim": "Outsourcing fit assessed",
+          "value": "MEDIUM",
+          "source": "Beacon Multi-ICP Scorer",
+          "source_url": "",
+          "confidence": "HIGH",
+          "observed_at": "2026-08-08T16:18:43.411620"
+        }
+      ],
+      "recommended_service": "SaaS Development — Cloud Architecture / Full-Stack Engineering",
+      "recommended_pitch": "Cloud infrastructure / full-stack engineering team augmentation",
+      "likely_objection": "Budget constraints or preference for in-house team",
+      "objection_response": "We can start with a small project to demonstrate value before committing to larger engagement.",
+      "linkedin_message": {
+        "connection_request": "Hi Lakshman Pasala, saw you're hiring for Full Stack Engineer at Neverinstall. We help teams add delivery capacity around engineering without waiting through the full hiring cycle. Thought it may be worth connecting.",
+        "follow_up_1": "Thanks for connecting, Lakshman Pasala. Noticed Neverinstall is building engineering capabilities. We've delivered similar projects for startups scaling their engineering teams. If useful, happy to share how we've approached this.",
+        "follow_up_2": "Quick thought on Neverinstall's Full Stack Engineer hiring: we've helped teams accelerate delivery while they build their permanent team. If exploring external capacity could be useful, open to a brief chat.",
+        "character_count_connection": 216,
+        "character_count_followup_1": 230,
+        "character_count_followup_2": 207
+      },
+      "recommended_cta": "Schedule a brief call to discuss how an external engineering team could support this requirement",
+      "quality_gate_status": "PASSED",
+      "quality_gate_failures": [],
+      "outreach_state": "LINKEDIN_DRAFT_READY"
+    },
+    {
+      "company": "Twixor",
+      "requirement": "Hiring Chatbot Developer (1-5 Yrs, Chennai) — DialogflowCX, Microsoft Bot Framework, Rasa, Azure",
+      "intent_score": 100,
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "outsourcing_fit": "MEDIUM",
+      "outsourcing_fit_reason": "Enterprise CX platform with Fortune 500 clients — may need specialized chatbot development capacity",
+      "decision_maker": {
+        "name": "Ashok Anand",
+        "role": "Founder & CEO",
+        "source": "tracxn.com, dealroom.co, cbinsights.com",
+        "confidence": "HIGH",
+        "linkedin_url": "https://www.linkedin.com/company/twixor",
+        "linkedin_source": "VERIFIED",
+        "why_this_person": "Relevant role (Founder & CEO) for COMAI opportunity. Founder running the company since 2013. Enterprise CX platform — CEO is appropriate buyer for engineering augmentation."
+      },
+      "service_match": "COMAI — Enterprise Chatbot Development (Dialogflow/Bot Framework)",
+      "why_now": "Hiring junior chatbot developers for enterprise clients. Experienced chatbot team can handle complex Dialogflow/Bot Framework work immediately.",
+      "evidence": [
+        {
+          "claim": "Active hiring requirement",
+          "value": "Hiring Chatbot Developer (1-5 Yrs, Chennai) — DialogflowCX, Microsoft Bot Framework, Rasa, Azure",
+          "source": "tracxn.com, dealroom.co, cbinsights.com",
+          "source_url": "",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T16:18:43.411663"
+        },
+        {
+          "claim": "Active requirement signal detected",
+          "value": "Intent score: 100",
+          "source": "Beacon Intent Engine",
+          "source_url": "",
+          "confidence": "HIGH",
+          "observed_at": "2026-08-08T16:18:43.411666"
+        },
+        {
+          "claim": "Outsourcing fit assessed",
+          "value": "MEDIUM",
+          "source": "Beacon Multi-ICP Scorer",
+          "source_url": "",
+          "confidence": "HIGH",
+          "observed_at": "2026-08-08T16:18:43.411668"
+        }
+      ],
+      "recommended_service": "COMAI — Enterprise Chatbot Development (Dialogflow/Bot Framework)",
+      "recommended_pitch": "Enterprise chatbot development augmentation — DialogflowCX, Bot Framework, Azure expertise",
+      "likely_objection": "Budget constraints or preference for in-house team",
+      "objection_response": "We can start with a small project to demonstrate value before committing to larger engagement.",
+      "linkedin_message": {
+        "connection_request": "Hi Ashok Anand, saw you're hiring for Chatbot Developer at Twixor. We help teams add delivery capacity around conversational AI without waiting through the full hiring cycle. Thought it may be worth connecting.",
+        "follow_up_1": "Thanks for connecting, Ashok Anand. Noticed Twixor is building conversational AI capabilities. We've delivered similar projects for startups scaling their engineering teams. If useful, happy to share how we've approached this.",
+        "follow_up_2": "Quick thought on Twixor's Chatbot Developer hiring: we've helped teams accelerate delivery while they build their permanent team. If exploring external capacity could be useful, open to a brief chat.",
+        "character_count_connection": 210,
+        "character_count_followup_1": 226,
+        "character_count_followup_2": 199
+      },
+      "recommended_cta": "Schedule a brief call to discuss how an external engineering team could support this requirement",
+      "quality_gate_status": "PASSED",
+      "quality_gate_failures": [],
+      "outreach_state": "LINKEDIN_DRAFT_READY"
+    },
+    {
+      "company": "BotSpace",
+      "requirement": "Hiring Full Stack Engineer (3+ Yrs, Remote India, 6-9 LPA) for WhatsApp growth platform",
+      "intent_score": 100,
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "outsourcing_fit": "MEDIUM",
+      "outsourcing_fit_reason": "Early-stage WhatsApp platform — building core product",
+      "decision_maker": {
+        "name": "Founder/CEO",
+        "role": "Founder",
+        "source": "wellfound.com/company/botspace",
+        "confidence": "MEDIUM",
+        "linkedin_url": "https://www.linkedin.com/company/botspace",
+        "linkedin_source": "VERIFIED",
+        "why_this_person": "Relevant role (Founder) for COMAI opportunity. Early-stage startup (11-50). Founder likely making all hiring decisions."
+      },
+      "service_match": "COMAI — WhatsApp Automation Platform Development",
+      "why_now": "Building WhatsApp growth platform. WhatsApp API integration is specialized — dedicated team can accelerate.",
+      "evidence": [
+        {
+          "claim": "Active hiring requirement",
+          "value": "Hiring Full Stack Engineer (3+ Yrs, Remote India, 6-9 LPA) for WhatsApp growth platform",
+          "source": "wellfound.com/company/botspace",
+          "source_url": "",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T16:18:43.411694"
+        },
+        {
+          "claim": "Active requirement signal detected",
+          "value": "Intent score: 100",
+          "source": "Beacon Intent Engine",
+          "source_url": "",
+          "confidence": "HIGH",
+          "observed_at": "2026-08-08T16:18:43.411699"
+        },
+        {
+          "claim": "Outsourcing fit assessed",
+          "value": "MEDIUM",
+          "source": "Beacon Multi-ICP Scorer",
+          "source_url": "",
+          "confidence": "HIGH",
+          "observed_at": "2026-08-08T16:18:43.411701"
+        }
+      ],
+      "recommended_service": "COMAI — WhatsApp Automation Platform Development",
+      "recommended_pitch": "WhatsApp platform development — API integration, chatbot flows, commerce pipelines",
+      "likely_objection": "Budget constraints or preference for in-house team",
+      "objection_response": "We can start with a small project to demonstrate value before committing to larger engagement.",
+      "linkedin_message": {
+        "connection_request": "Hi Founder/CEO, saw you're hiring for Full Stack Engineer at BotSpace. We help teams add delivery capacity around engineering without waiting through the full hiring cycle. Thought it may be worth connecting.",
+        "follow_up_1": "Thanks for connecting, Founder/CEO. Noticed BotSpace is building engineering capabilities. We've delivered similar projects for startups scaling their engineering teams. If useful, happy to share how we've approached this.",
+        "follow_up_2": "Quick thought on BotSpace's Full Stack Engineer hiring: we've helped teams accelerate delivery while they build their permanent team. If exploring external capacity could be useful, open to a brief chat.",
+        "character_count_connection": 208,
+        "character_count_followup_1": 222,
+        "character_count_followup_2": 203
+      },
+      "recommended_cta": "Schedule a brief call to discuss how an external engineering team could support this requirement",
+      "quality_gate_status": "FAILED",
+      "quality_gate_failures": [
+        "Decision maker confidence is MEDIUM. Required: HIGH"
+      ],
+      "outreach_state": "QUALIFIED"
+    },
+    {
+      "company": "Autodraft",
+      "requirement": "Hiring Full-Stack Engineer + Front-End Engineer (1+ Yrs, Bengaluru, 10-14 LPA) for AI platform",
+      "intent_score": 100,
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "outsourcing_fit": "MEDIUM",
+      "outsourcing_fit_reason": "Hiring 2 engineers simultaneously — urgent capacity need",
+      "decision_maker": {
+        "name": "Founder/CTO",
+        "role": "Founder",
+        "source": "wellfound.com/company/autodraft",
+        "confidence": "MEDIUM",
+        "linkedin_url": "https://www.linkedin.com/company/autodraft",
+        "linkedin_source": "VERIFIED",
+        "why_this_person": "Relevant role (Founder) for SAAS opportunity. Early-stage AI platform startup. Founder making engineering hiring decisions."
+      },
+      "service_match": "SaaS Development — Full-Stack + Frontend Engineering",
+      "why_now": "Hiring 2 engineers simultaneously for AI creative platform. Dedicated team fills both gaps faster.",
+      "evidence": [
+        {
+          "claim": "Active hiring requirement",
+          "value": "Hiring Full-Stack Engineer + Front-End Engineer (1+ Yrs, Bengaluru, 10-14 LPA) for AI platform",
+          "source": "wellfound.com/company/autodraft",
+          "source_url": "",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T16:18:43.411728"
+        },
+        {
+          "claim": "Active requirement signal detected",
+          "value": "Intent score: 100",
+          "source": "Beacon Intent Engine",
+          "source_url": "",
+          "confidence": "HIGH",
+          "observed_at": "2026-08-08T16:18:43.411731"
+        },
+        {
+          "claim": "Outsourcing fit assessed",
+          "value": "MEDIUM",
+          "source": "Beacon Multi-ICP Scorer",
+          "source_url": "",
+          "confidence": "HIGH",
+          "observed_at": "2026-08-08T16:18:43.411733"
+        }
+      ],
+      "recommended_service": "SaaS Development — Full-Stack + Frontend Engineering",
+      "recommended_pitch": "AI platform development — full-stack + frontend for creative tools",
+      "likely_objection": "Budget constraints or preference for in-house team",
+      "objection_response": "We can start with a small project to demonstrate value before committing to larger engagement.",
+      "linkedin_message": {
+        "connection_request": "Hi Founder/CTO, saw you're hiring for Frontend Engineer at Autodraft. We help teams add delivery capacity around engineering without waiting through the full hiring cycle. Thought it may be worth connecting.",
+        "follow_up_1": "Thanks for connecting, Founder/CTO. Noticed Autodraft is building engineering capabilities. We've delivered similar projects for startups scaling their engineering teams. If useful, happy to share how we've approached this.",
+        "follow_up_2": "Quick thought on Autodraft's Frontend Engineer hiring: we've helped teams accelerate delivery while they build their permanent team. If exploring external capacity could be useful, open to a brief chat.",
+        "character_count_connection": 207,
+        "character_count_followup_1": 223,
+        "character_count_followup_2": 202
+      },
+      "recommended_cta": "Schedule a brief call to discuss how an external engineering team could support this requirement",
+      "quality_gate_status": "FAILED",
+      "quality_gate_failures": [
+        "Decision maker confidence is MEDIUM. Required: HIGH"
+      ],
+      "outreach_state": "QUALIFIED"
+    }
+  ],
+  "tracking_records": [
+    {
+      "company": "Oliv AI",
+      "opportunity_id": "oliv_ai_20260808",
+      "approved_at": null,
+      "approved_by": null,
+      "sent_at": null,
+      "sent_by": null,
+      "connection_status": "PENDING",
+      "reply_status": "NO_REPLY",
+      "reply_date": null,
+      "reply_type": null,
+      "meeting_booked": false,
+      "meeting_date": null,
+      "outcome": "PENDING",
+      "notes": ""
+    },
+    {
+      "company": "Neverinstall",
+      "opportunity_id": "neverinstall_20260808",
+      "approved_at": null,
+      "approved_by": null,
+      "sent_at": null,
+      "sent_by": null,
+      "connection_status": "PENDING",
+      "reply_status": "NO_REPLY",
+      "reply_date": null,
+      "reply_type": null,
+      "meeting_booked": false,
+      "meeting_date": null,
+      "outcome": "PENDING",
+      "notes": ""
+    },
+    {
+      "company": "Twixor",
+      "opportunity_id": "twixor_20260808",
+      "approved_at": null,
+      "approved_by": null,
+      "sent_at": null,
+      "sent_by": null,
+      "connection_status": "PENDING",
+      "reply_status": "NO_REPLY",
+      "reply_date": null,
+      "reply_type": null,
+      "meeting_booked": false,
+      "meeting_date": null,
+      "outcome": "PENDING",
+      "notes": ""
+    },
+    {
+      "company": "BotSpace",
+      "opportunity_id": "botspace_20260808",
+      "approved_at": null,
+      "approved_by": null,
+      "sent_at": null,
+      "sent_by": null,
+      "connection_status": "PENDING",
+      "reply_status": "NO_REPLY",
+      "reply_date": null,
+      "reply_type": null,
+      "meeting_booked": false,
+      "meeting_date": null,
+      "outcome": "PENDING",
+      "notes": ""
+    },
+    {
+      "company": "Autodraft",
+      "opportunity_id": "autodraft_20260808",
+      "approved_at": null,
+      "approved_by": null,
+      "sent_at": null,
+      "sent_by": null,
+      "connection_status": "PENDING",
+      "reply_status": "NO_REPLY",
+      "reply_date": null,
+      "reply_type": null,
+      "meeting_booked": false,
+      "meeting_date": null,
+      "outcome": "PENDING",
+      "notes": ""
+    }
+  ],
+  "learning_loop_data": [
+    {
+      "source": "Beacon Intent Engine",
+      "intent_type": "ACTIVE_REQUIREMENT",
+      "requirement_type": "Hiring Full Stack Engineer (3+ Yrs, Remote India, 25-45 LPA + equity) for AI Agents for Sales Teams platform",
+      "business_unit": "SAAS",
+      "service": "SaaS Development — Full-Stack Engineering / AI Engineering",
+      "outsourcing_fit": "MEDIUM",
+      "decision_maker_role": "Founder",
+      "channel": "LinkedIn",
+      "message_variant": "Connection Request + 2 Follow-ups",
+      "connection_accepted": null,
+      "reply": null,
+      "positive_reply": null,
+      "meeting": null,
+      "proposal": null,
+      "won": null,
+      "lost": null
+    },
+    {
+      "source": "Beacon Intent Engine",
+      "intent_type": "ACTIVE_REQUIREMENT",
+      "requirement_type": "Hiring Full Stack Engineer (3+ Yrs, Bengaluru, 25-30 LPA) for virtual desktop platform",
+      "business_unit": "SAAS",
+      "service": "SaaS Development — Cloud Architecture / Full-Stack Engineering",
+      "outsourcing_fit": "MEDIUM",
+      "decision_maker_role": "Co-Founder & CEO",
+      "channel": "LinkedIn",
+      "message_variant": "Connection Request + 2 Follow-ups",
+      "connection_accepted": null,
+      "reply": null,
+      "positive_reply": null,
+      "meeting": null,
+      "proposal": null,
+      "won": null,
+      "lost": null
+    },
+    {
+      "source": "Beacon Intent Engine",
+      "intent_type": "ACTIVE_REQUIREMENT",
+      "requirement_type": "Hiring Chatbot Developer (1-5 Yrs, Chennai) — DialogflowCX, Microsoft Bot Framework, Rasa, Azure",
+      "business_unit": "COMAI",
+      "service": "COMAI — Enterprise Chatbot Development (Dialogflow/Bot Framework)",
+      "outsourcing_fit": "MEDIUM",
+      "decision_maker_role": "Founder & CEO",
+      "channel": "LinkedIn",
+      "message_variant": "Connection Request + 2 Follow-ups",
+      "connection_accepted": null,
+      "reply": null,
+      "positive_reply": null,
+      "meeting": null,
+      "proposal": null,
+      "won": null,
+      "lost": null
+    },
+    {
+      "source": "Beacon Intent Engine",
+      "intent_type": "ACTIVE_REQUIREMENT",
+      "requirement_type": "Hiring Full Stack Engineer (3+ Yrs, Remote India, 6-9 LPA) for WhatsApp growth platform",
+      "business_unit": "COMAI",
+      "service": "COMAI — WhatsApp Automation Platform Development",
+      "outsourcing_fit": "MEDIUM",
+      "decision_maker_role": "Founder",
+      "channel": "LinkedIn",
+      "message_variant": "Connection Request + 2 Follow-ups",
+      "connection_accepted": null,
+      "reply": null,
+      "positive_reply": null,
+      "meeting": null,
+      "proposal": null,
+      "won": null,
+      "lost": null
+    },
+    {
+      "source": "Beacon Intent Engine",
+      "intent_type": "ACTIVE_REQUIREMENT",
+      "requirement_type": "Hiring Full-Stack Engineer + Front-End Engineer (1+ Yrs, Bengaluru, 10-14 LPA) for AI platform",
+      "business_unit": "SAAS",
+      "service": "SaaS Development — Full-Stack + Frontend Engineering",
+      "outsourcing_fit": "MEDIUM",
+      "decision_maker_role": "Founder",
+      "channel": "LinkedIn",
+      "message_variant": "Connection Request + 2 Follow-ups",
+      "connection_accepted": null,
+      "reply": null,
+      "positive_reply": null,
+      "meeting": null,
+      "proposal": null,
+      "won": null,
+      "lost": null
+    }
+  ]
+}

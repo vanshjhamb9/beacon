@@ -1,0 +1,104 @@
+======================================================================
+V7 CONTACT + CURRENTNESS VERIFICATION REPORT
+Generated: 2026-08-08T21:43:27.826907
+======================================================================
+
+EXECUTIVE SUMMARY:
+  Total Leads: 5
+  SALES_READY: 0
+  NEEDS_RESEARCH: 1
+  REJECT: 4
+
+======================================================================
+SALES_READY LEADS
+======================================================================
+
+  NO SALES_READY LEADS
+
+======================================================================
+NEEDS_RESEARCH LEADS
+======================================================================
+
+V6-REDDIT-003: Kilova
+  Person: Paloma Chiara
+  Rejection Reasons:
+    - Email status: PUBLIC_UNVERIFIED (not confirmed deliverable)
+
+======================================================================
+REJECTED LEADS
+======================================================================
+
+V6-REDDIT-001: MarylandBid
+  Person: betapunch
+  Rejection Reasons:
+    - Decision maker identity not verified (Reddit username only)
+    - No email address found
+    - No LinkedIn profile found
+    - Missing info: Real name, Email address, LinkedIn profile, Phone number
+
+V6-REDDIT-002: Entertainment News Publisher
+  Person: jason23a
+  Rejection Reasons:
+    - Decision maker identity not verified
+    - Company/publishing business not identified
+    - No email address found
+    - No LinkedIn profile found
+
+V6-REDDIT-004: Zolly
+  Person: Evening_Acadia_6021
+  Rejection Reasons:
+    - Decision maker identity not verified
+    - SaaS application 'Zolly' not found
+    - No email address found
+    - No LinkedIn profile found
+    - Low budget ($300)
+
+V6-REDDIT-005: Neurodivergent Products Startup
+  Person: Anonymous
+  Rejection Reasons:
+    - Anonymous identity - cannot verify decision maker
+    - No contact information available
+    - No company information available
+    - Cannot proceed without identity
+
+======================================================================
+CTO AUDIT
+======================================================================
+
+FINAL GATE REQUIREMENTS FOR SALES_READY:
+  1. requirement_verified = True
+  2. currentness_verified = True
+  3. decision_maker_verified = True
+  4. outsourcing_intent_explicit = True
+  5. service_match_verified = True
+  6. contact_channel_verified = True
+  7. competitor_free = True
+  8. safety_clear = True
+
+WHY NO LEADS ARE SALES_READY:
+
+V6-REDDIT-001: MarylandBid
+  Failed gates:
+    - decision_maker_verified: UNVERIFIED
+    - contact_channel_verified: email=UNKNOWN, linkedin=UNKNOWN
+
+V6-REDDIT-003: Kilova
+  Failed gates:
+    - decision_maker_verified: VERIFIED
+    - contact_channel_verified: email=PUBLIC_UNVERIFIED, linkedin=UNVERIFIED
+
+V6-REDDIT-002: Entertainment News Publisher
+  Failed gates:
+    - decision_maker_verified: UNKNOWN
+    - contact_channel_verified: email=UNKNOWN, linkedin=UNKNOWN
+
+V6-REDDIT-004: Zolly
+  Failed gates:
+    - decision_maker_verified: UNKNOWN
+    - contact_channel_verified: email=UNKNOWN, linkedin=UNKNOWN
+
+V6-REDDIT-005: Neurodivergent Products Startup
+  Failed gates:
+    - decision_maker_verified: UNKNOWN
+    - contact_channel_verified: email=UNKNOWN, linkedin=UNKNOWN
+

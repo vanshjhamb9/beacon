@@ -1,0 +1,292 @@
+{
+  "mission": "Sprint 32 \u2014 ICE v1 live audit",
+  "generated_at": "2026-07-25T12:36:39.531778+00:00",
+  "before": {
+    "companies": 26,
+    "verified_companies": 26,
+    "official_websites": 26,
+    "business_emails": 11,
+    "decision_makers": 0,
+    "sales_ready": 0,
+    "revenue_ready": 0
+  },
+  "after": {
+    "companies": 44,
+    "verified_companies": 44,
+    "official_websites": 44,
+    "business_emails": 15,
+    "decision_makers": 3,
+    "sales_ready": 0,
+    "revenue_ready": 0,
+    "signals": 1349,
+    "companies_created": 18,
+    "github_live_fetches": 54
+  },
+  "created": 18,
+  "github_live_fetches": 54,
+  "audit": {
+    "before": {
+      "companies": 26,
+      "verified_companies": 26,
+      "official_websites": 26,
+      "business_emails": 11,
+      "decision_makers": 0,
+      "sales_ready": 0,
+      "revenue_ready": 0
+    },
+    "after": {
+      "companies": 44,
+      "verified_companies": 44,
+      "official_websites": 44,
+      "business_emails": 15,
+      "decision_makers": 3,
+      "sales_ready": 0,
+      "revenue_ready": 0,
+      "signals": 1349,
+      "companies_created": 18,
+      "github_live_fetches": 54
+    },
+    "funnel": {
+      "stages": [
+        {
+          "name": "Signals",
+          "count": 1349,
+          "conversion_pct": 100.0,
+          "drop_pct": 0.0,
+          "reasons": []
+        },
+        {
+          "name": "Candidates",
+          "count": 1349,
+          "conversion_pct": 100.0,
+          "drop_pct": 0.0,
+          "reasons": []
+        },
+        {
+          "name": "Website Found",
+          "count": 34,
+          "conversion_pct": 2.52,
+          "drop_pct": 97.48,
+          "reasons": [
+            "No Official Website"
+          ]
+        },
+        {
+          "name": "Website Verified",
+          "count": 34,
+          "conversion_pct": 100.0,
+          "drop_pct": 0.0,
+          "reasons": []
+        },
+        {
+          "name": "Company Created",
+          "count": 44,
+          "conversion_pct": 129.41,
+          "drop_pct": 0.0,
+          "reasons": []
+        },
+        {
+          "name": "Business Email",
+          "count": 15,
+          "conversion_pct": 34.09,
+          "drop_pct": 65.91,
+          "reasons": [
+            "No Contact"
+          ]
+        },
+        {
+          "name": "Decision Maker",
+          "count": 3,
+          "conversion_pct": 20.0,
+          "drop_pct": 80.0,
+          "reasons": [
+            "No Decision Maker"
+          ]
+        },
+        {
+          "name": "Sales Ready",
+          "count": 0,
+          "conversion_pct": 0.0,
+          "drop_pct": 100.0,
+          "reasons": []
+        },
+        {
+          "name": "Revenue Ready",
+          "count": 0,
+          "conversion_pct": 0.0,
+          "drop_pct": 100.0,
+          "reasons": []
+        }
+      ],
+      "scoring_version": "ice-v1"
+    },
+    "collectors": [
+      {
+        "collector": "github_trending",
+        "signals": 70,
+        "candidates": 70,
+        "companies": 34,
+        "official_websites": 34,
+        "business_emails": 0,
+        "decision_makers": 0,
+        "sales_ready": 0,
+        "revenue_ready": 0,
+        "duplicate_rate": 22.86,
+        "identity_precision": 100.0,
+        "identity_recall": 48.57,
+        "average_confidence": 69.66,
+        "recommendation": "KEEP"
+      },
+      {
+        "collector": "devto",
+        "signals": 200,
+        "candidates": 200,
+        "companies": 0,
+        "official_websites": 0,
+        "business_emails": 0,
+        "decision_makers": 0,
+        "sales_ready": 0,
+        "revenue_ready": 0,
+        "duplicate_rate": 0.0,
+        "identity_precision": 0.0,
+        "identity_recall": 0.0,
+        "average_confidence": 25.0,
+        "recommendation": "DISABLE"
+      },
+      {
+        "collector": "product_hunt",
+        "signals": 787,
+        "candidates": 787,
+        "companies": 0,
+        "official_websites": 0,
+        "business_emails": 0,
+        "decision_makers": 0,
+        "sales_ready": 0,
+        "revenue_ready": 0,
+        "duplicate_rate": 0.0,
+        "identity_precision": 0.0,
+        "identity_recall": 0.0,
+        "average_confidence": 45.0,
+        "recommendation": "DISABLE"
+      },
+      {
+        "collector": "hacker_news",
+        "signals": 118,
+        "candidates": 118,
+        "companies": 0,
+        "official_websites": 0,
+        "business_emails": 0,
+        "decision_makers": 0,
+        "sales_ready": 0,
+        "revenue_ready": 0,
+        "duplicate_rate": 0.0,
+        "identity_precision": 0.0,
+        "identity_recall": 0.0,
+        "average_confidence": 25.0,
+        "recommendation": "DISABLE"
+      },
+      {
+        "collector": "rss",
+        "signals": 110,
+        "candidates": 110,
+        "companies": 0,
+        "official_websites": 0,
+        "business_emails": 0,
+        "decision_makers": 0,
+        "sales_ready": 0,
+        "revenue_ready": 0,
+        "duplicate_rate": 0.0,
+        "identity_precision": 0.0,
+        "identity_recall": 0.0,
+        "average_confidence": 25.0,
+        "recommendation": "DISABLE"
+      },
+      {
+        "collector": "reddit",
+        "signals": 39,
+        "candidates": 39,
+        "companies": 0,
+        "official_websites": 0,
+        "business_emails": 0,
+        "decision_makers": 0,
+        "sales_ready": 0,
+        "revenue_ready": 0,
+        "duplicate_rate": 0.0,
+        "identity_precision": 0.0,
+        "identity_recall": 0.0,
+        "average_confidence": 25.0,
+        "recommendation": "DISABLE"
+      },
+      {
+        "collector": "sec_edgar",
+        "signals": 25,
+        "candidates": 25,
+        "companies": 0,
+        "official_websites": 0,
+        "business_emails": 0,
+        "decision_makers": 0,
+        "sales_ready": 0,
+        "revenue_ready": 0,
+        "duplicate_rate": 0.0,
+        "identity_precision": 0.0,
+        "identity_recall": 0.0,
+        "average_confidence": 30.0,
+        "recommendation": "DISABLE"
+      }
+    ],
+    "recovery_success_rate": 2.4,
+    "coverage_pct": 3.26,
+    "duplicate_pct": 0.0,
+    "top_rejections": {
+      "Website Missing": 1315,
+      "No Official Website": 1315,
+      "Homepage Missing": 36,
+      "No Contact": 34,
+      "No Decision Maker": 34
+    },
+    "business_impact": {
+      "revenue_ready": 0,
+      "emails_ready": 15,
+      "decision_makers_ready": 3,
+      "meetings_possible": 0,
+      "pipeline_value": "$0",
+      "revenue_yield": 0.0
+    },
+    "top_revenue_ready": [],
+    "vansh_ready_answer": "NO",
+    "scoring_version": "ice-v1"
+  },
+  "acceptance": {
+    "verified_companies": {
+      "target": 200,
+      "actual": 44
+    },
+    "official_websites": {
+      "target": 200,
+      "actual": 44
+    },
+    "business_emails": {
+      "target": 100,
+      "actual": 15
+    },
+    "decision_makers": {
+      "target": 50,
+      "actual": 3
+    },
+    "sales_ready": {
+      "target": 40,
+      "actual": 0
+    },
+    "revenue_ready": {
+      "target": 20,
+      "actual": 0
+    },
+    "vansh_ready_answer": "NO",
+    "fabricated": 0
+  },
+  "blockers": [
+    "PRODUCT_HUNT_DEVELOPER_TOKEN not set \u2192 PH stays signal-only (Cloudflare blocks HTML)",
+    "GITHUB_TOKEN optional; unauthenticated per-repo fetch capped",
+    "Revenue Ready requires downstream CIR/REV gates + buying intent"
+  ]
+}

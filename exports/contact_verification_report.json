@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-08-08T14:24:29.185827",
+  "total_companies": 9,
+  "queues": {
+    "OUTREACH_READY": 5,
+    "NEEDS_RESEARCH": 4,
+    "DO_NOT_CONTACT": 0
+  },
+  "email_status_summary": {
+    "UNKNOWN": 8,
+    "PUBLIC_UNVERIFIED": 1
+  },
+  "decision_maker_summary": {
+    "HIGH": 3,
+    "MEDIUM": 3,
+    "LOW": 3
+  },
+  "outsourcing_fit_summary": {
+    "MEDIUM": 5,
+    "HIGH": 4
+  }
+}

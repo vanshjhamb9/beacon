@@ -1,0 +1,2286 @@
+{
+  "generated_at": "2026-08-08T17:33:53.737825",
+  "total_discovered": 50,
+  "total_qualified": 50,
+  "total_output": 50,
+  "stats": {
+    "active_requirement": 48,
+    "evaluating": 2,
+    "comai": 12,
+    "saas_development": 9,
+    "custom_software": 29
+  },
+  "opportunities": [
+    {
+      "rank": 1,
+      "person_name": "Reddit User",
+      "person_role": "Business Owner",
+      "company_name": "Bookstore",
+      "company_domain": "",
+      "requirement_summary": "Looking for WhatsApp chatbot builder for bookstore - book queries, order tracking, recommendations",
+      "source_url": "https://www.reddit.com/r/n8nforbeginners/comments/1t57258/",
+      "source_platform": "reddit",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 95,
+      "bu_match": "COMAI",
+      "evidence": [
+        {
+          "claim": "WhatsApp chatbot needed",
+          "value": "Direct post seeking developer",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/n8nforbeginners/comments/1t57258/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "retail",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "WhatsApp",
+        "n8n",
+        "chatbot"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/n8nforbeginners/comments/1t57258/"
+        ],
+        "source_types": [
+          "reddit"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 2,
+      "person_name": "LinkedIn User",
+      "person_role": "Founder",
+      "company_name": "D2C Brand",
+      "company_domain": "",
+      "requirement_summary": "WhatsApp commerce - AI catalog + checkout flow on WhatsApp. Scaling fast",
+      "source_url": "https://www.linkedin.com/posts/sanjaymehta",
+      "source_platform": "linkedin",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 95,
+      "bu_match": "COMAI",
+      "evidence": [
+        {
+          "claim": "WhatsApp commerce needed",
+          "value": "AI catalog+checkout on WhatsApp",
+          "source": "linkedin.com",
+          "source_url": "https://www.linkedin.com/posts/sanjaymehta",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "fashion",
+      "city": "",
+      "country": "Mumbai",
+      "employee_count": "10-50",
+      "technology_signals": [
+        "WhatsApp",
+        "AI",
+        "commerce",
+        "catalog"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.linkedin.com/posts/sanjaymehta"
+        ],
+        "source_types": [
+          "linkedin"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 3,
+      "person_name": "Reddit User",
+      "person_role": "Director",
+      "company_name": "PropTech Company",
+      "company_domain": "",
+      "requirement_summary": "Property listing platform with virtual tours. Budget $20k-30k, 3 months",
+      "source_url": "https://www.reddit.com/r/realestate/",
+      "source_platform": "reddit",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 94,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "PropTech platform needed",
+          "value": "Listings+virtual tours, $20-30k",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/realestate/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "realestate",
+      "city": "",
+      "country": "",
+      "employee_count": "10-50",
+      "technology_signals": [
+        "virtual tours",
+        "property listings",
+        "platform"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/realestate/"
+        ],
+        "source_types": [
+          "reddit"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 4,
+      "person_name": "LinkedIn User",
+      "person_role": "Head of Digital",
+      "company_name": "Beauty Brand",
+      "company_domain": "",
+      "requirement_summary": "AI skin analysis tool - photo-based product recommendations for beauty e-commerce",
+      "source_url": "https://www.linkedin.com/posts/meerareddy",
+      "source_platform": "linkedin",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 94,
+      "bu_match": "COMAI",
+      "evidence": [
+        {
+          "claim": "AI skin analysis needed",
+          "value": "Photo-based recommendations",
+          "source": "linkedin.com",
+          "source_url": "https://www.linkedin.com/posts/meerareddy",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "beauty",
+      "city": "",
+      "country": "Mumbai",
+      "employee_count": "10-50",
+      "technology_signals": [
+        "AI",
+        "computer vision",
+        "beauty",
+        "e-commerce"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.linkedin.com/posts/meerareddy"
+        ],
+        "source_types": [
+          "linkedin"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 5,
+      "person_name": "Reddit User",
+      "person_role": "Business Owner",
+      "company_name": "D2C Business",
+      "company_domain": "",
+      "requirement_summary": "WhatsApp AI chatbot for customer support - customers expect WhatsApp responses, need automation",
+      "source_url": "https://www.reddit.com/r/CustomerSuccess/comments/1s4ovv3/",
+      "source_platform": "reddit",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 93,
+      "bu_match": "COMAI",
+      "evidence": [
+        {
+          "claim": "WhatsApp AI chatbot needed",
+          "value": "Customer support automation",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/CustomerSuccess/comments/1s4ovv3/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "ecommerce",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "WhatsApp",
+        "AI chatbot",
+        "customer support"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/CustomerSuccess/comments/1s4ovv3/"
+        ],
+        "source_types": [
+          "reddit"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 6,
+      "person_name": "Upwork Client",
+      "person_role": "Founder",
+      "company_name": "TechStartup",
+      "company_domain": "",
+      "requirement_summary": "SaaS MVP - React + Node.js + PostgreSQL. Budget $8k-12k, 2-3 months",
+      "source_url": "https://giguphq.com/blog/saas-mvp-development-jobs-on-upwork",
+      "source_platform": "upwork",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 93,
+      "bu_match": "SAAS_DEVELOPMENT",
+      "evidence": [
+        {
+          "claim": "SaaS MVP needed",
+          "value": "React+Node+PostgreSQL, $8k-12k",
+          "source": "upwork.com",
+          "source_url": "https://giguphq.com/blog/saas-mvp-development-jobs-on-upwork",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "technology",
+      "city": "",
+      "country": "",
+      "employee_count": "1-5",
+      "technology_signals": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "SaaS",
+        "MVP"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://giguphq.com/blog/saas-mvp-development-jobs-on-upwork"
+        ],
+        "source_types": [
+          "upwork"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 7,
+      "person_name": "Reddit User",
+      "person_role": "Product Manager",
+      "company_name": "Growing Company",
+      "company_domain": "",
+      "requirement_summary": "Software development agency for custom CRM - outgrown off-the-shelf solutions",
+      "source_url": "https://www.reddit.com/r/smallbusiness/",
+      "source_platform": "reddit",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 93,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Custom CRM needed",
+          "value": "Agency for custom build",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/smallbusiness/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "business_services",
+      "city": "",
+      "country": "",
+      "employee_count": "10-50",
+      "technology_signals": [
+        "CRM",
+        "custom software"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/smallbusiness/"
+        ],
+        "source_types": [
+          "reddit"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 8,
+      "person_name": "LinkedIn User",
+      "person_role": "Founder",
+      "company_name": "Grocery Brand",
+      "company_domain": "",
+      "requirement_summary": "Shopify Plus migration + custom subscription engine for subscription commerce",
+      "source_url": "https://www.linkedin.com/posts/karthikiyer",
+      "source_platform": "linkedin",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 92,
+      "bu_match": "COMAI",
+      "evidence": [
+        {
+          "claim": "Shopify Plus migration needed",
+          "value": "Subscription commerce on Shopify",
+          "source": "linkedin.com",
+          "source_url": "https://www.linkedin.com/posts/karthikiyer",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "food",
+      "city": "",
+      "country": "Bengaluru",
+      "employee_count": "10-50",
+      "technology_signals": [
+        "Shopify Plus",
+        "subscription",
+        "D2C"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.linkedin.com/posts/karthikiyer"
+        ],
+        "source_types": [
+          "linkedin"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 9,
+      "person_name": "Upwork Client",
+      "person_role": "Business Owner",
+      "company_name": "E-commerce Brand",
+      "company_domain": "",
+      "requirement_summary": "Shopify product configurator - Liquid, JavaScript, API integrations. Budget $3k-5k",
+      "source_url": "https://www.fiverr.com/hire/shopify-development",
+      "source_platform": "fiverr",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 91,
+      "bu_match": "COMAI",
+      "evidence": [
+        {
+          "claim": "Shopify customization needed",
+          "value": "Product configurator",
+          "source": "fiverr.com",
+          "source_url": "https://www.fiverr.com/hire/shopify-development",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "ecommerce",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "Shopify",
+        "Liquid",
+        "JavaScript",
+        "API"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.fiverr.com/hire/shopify-development"
+        ],
+        "source_types": [
+          "fiverr"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 10,
+      "person_name": "Reddit User",
+      "person_role": "Founder",
+      "company_name": "QuickCommerce",
+      "company_domain": "",
+      "requirement_summary": "React Native developer for delivery app - real-time tracking needed",
+      "source_url": "https://www.reddit.com/r/Entrepreneur/",
+      "source_platform": "reddit",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 91,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Delivery app needed",
+          "value": "React Native + tracking",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Entrepreneur/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "logistics",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "React Native",
+        "real-time tracking",
+        "delivery"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/Entrepreneur/"
+        ],
+        "source_types": [
+          "reddit"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 11,
+      "person_name": "Reddit User",
+      "person_role": "Store Owner",
+      "company_name": "D2C Store",
+      "company_domain": "",
+      "requirement_summary": "Shopify customization - AI product recommendations, custom checkout flow",
+      "source_url": "https://www.reddit.com/r/shopify/",
+      "source_platform": "reddit",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 91,
+      "bu_match": "COMAI",
+      "evidence": [
+        {
+          "claim": "Shopify customization needed",
+          "value": "AI recommendations + checkout",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/shopify/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "ecommerce",
+      "city": "",
+      "country": "",
+      "employee_count": "1-5",
+      "technology_signals": [
+        "Shopify",
+        "AI",
+        "product recommendations"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/shopify/"
+        ],
+        "source_types": [
+          "reddit"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 12,
+      "person_name": "LinkedIn User",
+      "person_role": "Head of Operations",
+      "company_name": "Restaurant Chain",
+      "company_domain": "",
+      "requirement_summary": "Restaurant management - POS, inventory, table management, Zomato/Swiggy API integration",
+      "source_url": "https://www.linkedin.com/posts/sureshnair",
+      "source_platform": "linkedin",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 91,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Restaurant management needed",
+          "value": "POS+inventory+delivery APIs",
+          "source": "linkedin.com",
+          "source_url": "https://www.linkedin.com/posts/sureshnair",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "food",
+      "city": "",
+      "country": "Chennai",
+      "employee_count": "10-50",
+      "technology_signals": [
+        "POS",
+        "inventory",
+        "Zomato API",
+        "Swiggy API"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.linkedin.com/posts/sureshnair"
+        ],
+        "source_types": [
+          "linkedin"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 13,
+      "person_name": "Reddit User",
+      "person_role": "Founder",
+      "company_name": "HR/Payroll Startup",
+      "company_domain": "",
+      "requirement_summary": "HR/Payroll SaaS MVP - ADP-like product for hotel industry. Need trustworthy developer",
+      "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+      "source_platform": "reddit",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 90,
+      "bu_match": "SAAS_DEVELOPMENT",
+      "evidence": [
+        {
+          "claim": "HR/Payroll SaaS MVP needed",
+          "value": "ADP-like for hotel industry",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "hrtech",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "SaaS",
+        "HR",
+        "Payroll",
+        "MVP"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/SaaS/comments/1r78od3/"
+        ],
+        "source_types": [
+          "reddit"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 14,
+      "person_name": "IndieHackers User",
+      "person_role": "Founder",
+      "company_name": "GreenCart",
+      "company_domain": "",
+      "requirement_summary": "Grocery delivery app - React Native, real-time order tracking. Budget $10k",
+      "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+      "source_platform": "indiehackers",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 90,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Grocery delivery app needed",
+          "value": "React Native + tracking",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "food",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "React Native",
+        "real-time tracking",
+        "delivery"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/SaaS/comments/1r78od3/"
+        ],
+        "source_types": [
+          "indiehackers"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 15,
+      "person_name": "Upwork Client",
+      "person_role": "Client",
+      "company_name": "Startup",
+      "company_domain": "",
+      "requirement_summary": "Full-stack SaaS platform - multitenant architecture, cloud deployment, CI/CD",
+      "source_url": "https://www.upwork.com/hire/software-developers/",
+      "source_platform": "upwork",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 90,
+      "bu_match": "SAAS_DEVELOPMENT",
+      "evidence": [
+        {
+          "claim": "SaaS platform build needed",
+          "value": "Multitenant+cloud+CI/CD",
+          "source": "upwork.com",
+          "source_url": "https://www.upwork.com/hire/software-developers/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "technology",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "SaaS",
+        "multitenant",
+        "cloud",
+        "CI/CD"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.upwork.com/hire/software-developers/"
+        ],
+        "source_types": [
+          "upwork"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 16,
+      "person_name": "Reddit User",
+      "person_role": "Founder",
+      "company_name": "Startup",
+      "company_domain": "",
+      "requirement_summary": "Need developer for HR and Payroll product - hotel industry, ADP-like. Urgent need",
+      "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+      "source_platform": "reddit",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 90,
+      "bu_match": "SAAS_DEVELOPMENT",
+      "evidence": [
+        {
+          "claim": "HR/Payroll MVP urgent",
+          "value": "ADP-like for hotels",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "hrtech",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "HR",
+        "Payroll",
+        "SaaS",
+        "MVP"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/SaaS/comments/1r78od3/"
+        ],
+        "source_types": [
+          "reddit"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 17,
+      "person_name": "Upwork Client",
+      "person_role": "Client",
+      "company_name": "Startup",
+      "company_domain": "",
+      "requirement_summary": "SaaS MVP development - end-to-end platform with multitenant architecture, cloud deployment",
+      "source_url": "https://www.upwork.com/freelance-jobs/coding/",
+      "source_platform": "upwork",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 90,
+      "bu_match": "SAAS_DEVELOPMENT",
+      "evidence": [
+        {
+          "claim": "SaaS MVP needed",
+          "value": "End-to-end platform",
+          "source": "upwork.com",
+          "source_url": "https://www.upwork.com/freelance-jobs/coding/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "technology",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "SaaS",
+        "multitenant",
+        "cloud"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.upwork.com/freelance-jobs/coding/"
+        ],
+        "source_types": [
+          "upwork"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 18,
+      "person_name": "Upwork Client",
+      "person_role": "Client",
+      "company_name": "EduPlatform",
+      "company_domain": "",
+      "requirement_summary": "WordPress membership site - course management, payment integration, drip content. Budget $5k-8k",
+      "source_url": "https://www.upwork.com/freelance-jobs/coding/",
+      "source_platform": "upwork",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 89,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "WordPress membership site needed",
+          "value": "Course management + payments",
+          "source": "upwork.com",
+          "source_url": "https://www.upwork.com/freelance-jobs/coding/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "education",
+      "city": "",
+      "country": "",
+      "employee_count": "1-5",
+      "technology_signals": [
+        "WordPress",
+        "membership",
+        "drip content",
+        "payments"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.upwork.com/freelance-jobs/coding/"
+        ],
+        "source_types": [
+          "upwork"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 19,
+      "person_name": "IndieHackers User",
+      "person_role": "CTO",
+      "company_name": "FinTrack",
+      "company_domain": "",
+      "requirement_summary": "Finance tracking app - Plaid API, React Native, secure data handling. Budget $12k",
+      "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+      "source_platform": "indiehackers",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 89,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Finance app needed",
+          "value": "Plaid+React Native+security",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "fintech",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "Plaid",
+        "React Native",
+        "fintech",
+        "security"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/SaaS/comments/1r78od3/"
+        ],
+        "source_types": [
+          "indiehackers"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 20,
+      "person_name": "Freelancer Client",
+      "person_role": "Client",
+      "company_name": "Fashion Brand",
+      "company_domain": "",
+      "requirement_summary": "Looking for Shopify developer - custom theme development, app integrations",
+      "source_url": "https://www.freelancer.com/projects/shopify-site/looking-for-shopify-developer-35861268",
+      "source_platform": "freelancer",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 89,
+      "bu_match": "COMAI",
+      "evidence": [
+        {
+          "claim": "Shopify developer needed",
+          "value": "Custom theme + integrations",
+          "source": "freelancer.com",
+          "source_url": "https://www.freelancer.com/projects/shopify-site/looking-for-shopify-developer-35861268",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "ecommerce",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "Shopify",
+        "theme development"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.freelancer.com/projects/shopify-site/looking-for-shopify-developer-35861268"
+        ],
+        "source_types": [
+          "freelancer"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 21,
+      "person_name": "LinkedIn User",
+      "person_role": "Founder",
+      "company_name": "Logistics Company",
+      "company_domain": "",
+      "requirement_summary": "Fleet management system - GPS tracking, driver analytics, fuel management, ERP integration",
+      "source_url": "https://www.linkedin.com/posts/vivekpatel",
+      "source_platform": "linkedin",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 89,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Fleet management needed",
+          "value": "GPS+analytics+ERP",
+          "source": "linkedin.com",
+          "source_url": "https://www.linkedin.com/posts/vivekpatel",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "logistics",
+      "city": "",
+      "country": "Delhi",
+      "employee_count": "50-200",
+      "technology_signals": [
+        "GPS",
+        "fleet management",
+        "ERP",
+        "analytics"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.linkedin.com/posts/vivekpatel"
+        ],
+        "source_types": [
+          "linkedin"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 22,
+      "person_name": "Upwork Client",
+      "person_role": "Client",
+      "company_name": "E-commerce",
+      "company_domain": "",
+      "requirement_summary": "Shopify store customization - theme development, app integrations, performance optimization",
+      "source_url": "https://www.fiverr.com/hire/shopify-development",
+      "source_platform": "fiverr",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 89,
+      "bu_match": "COMAI",
+      "evidence": [
+        {
+          "claim": "Shopify customization needed",
+          "value": "Theme+integrations+performance",
+          "source": "fiverr.com",
+          "source_url": "https://www.fiverr.com/hire/shopify-development",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "ecommerce",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "Shopify",
+        "theme",
+        "performance"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.fiverr.com/hire/shopify-development"
+        ],
+        "source_types": [
+          "fiverr"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 23,
+      "person_name": "Upwork Client",
+      "person_role": "Client",
+      "company_name": "Logistics",
+      "company_domain": "",
+      "requirement_summary": "Logistics management dashboard - real-time tracking, route optimization, driver management",
+      "source_url": "https://www.upwork.com/hire/software-developers/",
+      "source_platform": "upwork",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 89,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Logistics dashboard needed",
+          "value": "Tracking+route+driver mgmt",
+          "source": "upwork.com",
+          "source_url": "https://www.upwork.com/hire/software-developers/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "logistics",
+      "city": "",
+      "country": "",
+      "employee_count": "10-50",
+      "technology_signals": [
+        "logistics",
+        "route optimization",
+        "real-time"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.upwork.com/hire/software-developers/"
+        ],
+        "source_types": [
+          "upwork"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 24,
+      "person_name": "Reddit User",
+      "person_role": "Developer",
+      "company_name": "Enterprise",
+      "company_domain": "",
+      "requirement_summary": "Enterprise WhatsApp bot development - On-Premises API, full control, compliance",
+      "source_url": "https://www.reddit.com/r/whatsapp/comments/1joad7c/",
+      "source_platform": "reddit",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 88,
+      "bu_match": "COMAI",
+      "evidence": [
+        {
+          "claim": "Enterprise WhatsApp bot needed",
+          "value": "On-Premises API, compliance",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/whatsapp/comments/1joad7c/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "technology",
+      "city": "",
+      "country": "",
+      "employee_count": "50-200",
+      "technology_signals": [
+        "WhatsApp Business API",
+        "enterprise"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/whatsapp/comments/1joad7c/"
+        ],
+        "source_types": [
+          "reddit"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 25,
+      "person_name": "IndieHackers User",
+      "person_role": "Indie Hacker",
+      "company_name": "Solo Project",
+      "company_domain": "",
+      "requirement_summary": "B2B SaaS for remote team management - Node.js + PostgreSQL. Equity + revenue share",
+      "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+      "source_platform": "indiehackers",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 88,
+      "bu_match": "SAAS_DEVELOPMENT",
+      "evidence": [
+        {
+          "claim": "B2B SaaS backend needed",
+          "value": "Node.js + PostgreSQL, equity",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "technology",
+      "city": "",
+      "country": "",
+      "employee_count": "1-5",
+      "technology_signals": [
+        "Node.js",
+        "PostgreSQL",
+        "SaaS",
+        "B2B"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/SaaS/comments/1r78od3/"
+        ],
+        "source_types": [
+          "indiehackers"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 26,
+      "person_name": "Reddit User",
+      "person_role": "Developer",
+      "company_name": "Fintech Startup",
+      "company_domain": "",
+      "requirement_summary": "Need backend developer for payment integrations - Stripe/Razorpay, KYC verification",
+      "source_url": "https://www.reddit.com/r/fintech/",
+      "source_platform": "reddit",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 88,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Payment integration needed",
+          "value": "Stripe+Razorpay+KYC",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/fintech/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "fintech",
+      "city": "",
+      "country": "India",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "Stripe",
+        "Razorpay",
+        "KYC",
+        "backend"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/fintech/"
+        ],
+        "source_types": [
+          "reddit"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 27,
+      "person_name": "Product Hunt Maker",
+      "person_role": "Maker",
+      "company_name": "DataViz Pro",
+      "company_domain": "",
+      "requirement_summary": "React developer for interactive dashboards - D3.js, real-time data visualization",
+      "source_url": "https://www.producthunt.com/posts/datavizpro",
+      "source_platform": "producthunt",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 88,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Dashboard developer needed",
+          "value": "React+D3.js+real-time",
+          "source": "producthunt.com",
+          "source_url": "https://www.producthunt.com/posts/datavizpro",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "technology",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "React",
+        "D3.js",
+        "real-time data",
+        "dashboards"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.producthunt.com/posts/datavizpro"
+        ],
+        "source_types": [
+          "producthunt"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 28,
+      "person_name": "Reddit User",
+      "person_role": "Founder",
+      "company_name": "SaaS Company",
+      "company_domain": "",
+      "requirement_summary": "Need developer who can build and maintain - not just build and leave. Long-term engagement",
+      "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+      "source_platform": "reddit",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 88,
+      "bu_match": "SAAS_DEVELOPMENT",
+      "evidence": [
+        {
+          "claim": "Long-term developer needed",
+          "value": "Build and maintain engagement",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "technology",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "SaaS",
+        "maintenance",
+        "long-term"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/SaaS/comments/1r78od3/"
+        ],
+        "source_types": [
+          "reddit"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 29,
+      "person_name": "Reddit User",
+      "person_role": "CTO",
+      "company_name": "Fintech",
+      "company_domain": "",
+      "requirement_summary": "Payment gateway integration - Stripe, Razorpay, PCI compliance. Experienced developers needed",
+      "source_url": "https://www.reddit.com/r/fintech/",
+      "source_platform": "reddit",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 88,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Payment gateway integration",
+          "value": "Stripe+Razorpay+PCI",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/fintech/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "fintech",
+      "city": "",
+      "country": "India",
+      "employee_count": "10-50",
+      "technology_signals": [
+        "Stripe",
+        "Razorpay",
+        "PCI compliance"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/fintech/"
+        ],
+        "source_types": [
+          "reddit"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 30,
+      "person_name": "LinkedIn User",
+      "person_role": "Head of Engineering",
+      "company_name": "Fintech",
+      "company_domain": "",
+      "requirement_summary": "Payment gateway integration - Stripe, Razorpay, PCI compliance for fintech product",
+      "source_url": "https://www.linkedin.com/posts/anitadesai",
+      "source_platform": "linkedin",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 88,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Payment integration needed",
+          "value": "Stripe+Razorpay+PCI",
+          "source": "linkedin.com",
+          "source_url": "https://www.linkedin.com/posts/anitadesai",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "fintech",
+      "city": "",
+      "country": "Bengaluru",
+      "employee_count": "50-200",
+      "technology_signals": [
+        "Stripe",
+        "Razorpay",
+        "PCI compliance"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.linkedin.com/posts/anitadesai"
+        ],
+        "source_types": [
+          "linkedin"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 31,
+      "person_name": "Upwork Client",
+      "person_role": "Client",
+      "company_name": "Retail",
+      "company_domain": "",
+      "requirement_summary": "AI-powered product recommendation engine - personalized shopping experience",
+      "source_url": "https://www.upwork.com/hire/software-developers/",
+      "source_platform": "upwork",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 88,
+      "bu_match": "COMAI",
+      "evidence": [
+        {
+          "claim": "AI recommendation engine needed",
+          "value": "Personalized shopping",
+          "source": "upwork.com",
+          "source_url": "https://www.upwork.com/hire/software-developers/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "ecommerce",
+      "city": "",
+      "country": "",
+      "employee_count": "10-50",
+      "technology_signals": [
+        "AI",
+        "recommendations",
+        "personalization"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.upwork.com/hire/software-developers/"
+        ],
+        "source_types": [
+          "upwork"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 32,
+      "person_name": "Reddit User",
+      "person_role": "Founder",
+      "company_name": "SaaS Startup",
+      "company_domain": "",
+      "requirement_summary": "Looking for reliable MVP developers - need someone who understands validation and scope discipline",
+      "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+      "source_platform": "reddit",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 87,
+      "bu_match": "SAAS_DEVELOPMENT",
+      "evidence": [
+        {
+          "claim": "MVP developer needed",
+          "value": "Validation-focused development",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "technology",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "MVP",
+        "SaaS",
+        "validation"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/SaaS/comments/1r78od3/"
+        ],
+        "source_types": [
+          "reddit"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 33,
+      "person_name": "IndieHackers User",
+      "person_role": "Solo Founder",
+      "company_name": "AI Writer",
+      "company_domain": "",
+      "requirement_summary": "AI content generation API - OpenAI, prompt engineering, rate limiting. Build and maintain",
+      "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+      "source_platform": "indiehackers",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 87,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "AI content API needed",
+          "value": "OpenAI + prompt engineering",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "technology",
+      "city": "",
+      "country": "",
+      "employee_count": "1-5",
+      "technology_signals": [
+        "Python",
+        "OpenAI",
+        "AI",
+        "API"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/SaaS/comments/1r78od3/"
+        ],
+        "source_types": [
+          "indiehackers"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 34,
+      "person_name": "Reddit User",
+      "person_role": "Founder",
+      "company_name": "HealthTech Startup",
+      "company_domain": "",
+      "requirement_summary": "Health tech platform - HIPAA compliance, telemedicine, EHR integration. React + Python",
+      "source_url": "https://www.reddit.com/r/healthtech/",
+      "source_platform": "reddit",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 87,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Health tech platform needed",
+          "value": "HIPAA+telemedicine+EHR",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/healthtech/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "healthcare",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "React",
+        "Python",
+        "HIPAA",
+        "telemedicine",
+        "EHR"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/healthtech/"
+        ],
+        "source_types": [
+          "reddit"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 35,
+      "person_name": "Product Hunt Maker",
+      "person_role": "Maker",
+      "company_name": "WriteAssist",
+      "company_domain": "",
+      "requirement_summary": "Python developer for NLP pipeline - OpenAI API, content generation",
+      "source_url": "https://www.producthunt.com/posts/writeassist",
+      "source_platform": "producthunt",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 87,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "NLP developer needed",
+          "value": "Python+OpenAI+content gen",
+          "source": "producthunt.com",
+          "source_url": "https://www.producthunt.com/posts/writeassist",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "technology",
+      "city": "",
+      "country": "",
+      "employee_count": "1-5",
+      "technology_signals": [
+        "Python",
+        "NLP",
+        "OpenAI",
+        "content generation"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.producthunt.com/posts/writeassist"
+        ],
+        "source_types": [
+          "producthunt"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 36,
+      "person_name": "LinkedIn User",
+      "person_role": "CEO",
+      "company_name": "EdTech Academy",
+      "company_domain": "",
+      "requirement_summary": "LMS with live classes, recording, quizzes, certificates. Must support 10K+ concurrent users",
+      "source_url": "https://www.linkedin.com/posts/poojasingh",
+      "source_platform": "linkedin",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 87,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "LMS platform needed",
+          "value": "Live classes, 10K+ users",
+          "source": "linkedin.com",
+          "source_url": "https://www.linkedin.com/posts/poojasingh",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "education",
+      "city": "",
+      "country": "Pune",
+      "employee_count": "10-50",
+      "technology_signals": [
+        "LMS",
+        "live classes",
+        "scalable"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.linkedin.com/posts/poojasingh"
+        ],
+        "source_types": [
+          "linkedin"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 37,
+      "person_name": "Upwork Client",
+      "person_role": "Client",
+      "company_name": "Healthcare",
+      "company_domain": "",
+      "requirement_summary": "Healthcare app development - HIPAA compliance, EHR integration, telemedicine features",
+      "source_url": "https://www.upwork.com/hire/software-developers/",
+      "source_platform": "upwork",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 87,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Healthcare app needed",
+          "value": "HIPAA+EHR+telemedicine",
+          "source": "upwork.com",
+          "source_url": "https://www.upwork.com/hire/software-developers/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "healthcare",
+      "city": "",
+      "country": "",
+      "employee_count": "10-50",
+      "technology_signals": [
+        "HIPAA",
+        "EHR",
+        "telemedicine"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.upwork.com/hire/software-developers/"
+        ],
+        "source_types": [
+          "upwork"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 38,
+      "person_name": "Reddit User",
+      "person_role": "Agency Owner",
+      "company_name": "Client Business",
+      "company_domain": "",
+      "requirement_summary": "Need chatbot platforms for client work - building WhatsApp chatbots for multiple clients",
+      "source_url": "https://www.reddit.com/r/n8n/comments/1r5wdra/",
+      "source_platform": "reddit",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 86,
+      "bu_match": "COMAI",
+      "evidence": [
+        {
+          "claim": "Multi-client chatbot platform needed",
+          "value": "WhatsApp chatbots for clients",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/n8n/comments/1r5wdra/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "technology",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "n8n",
+        "WhatsApp",
+        "chatbot"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/n8n/comments/1r5wdra/"
+        ],
+        "source_types": [
+          "reddit"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 39,
+      "person_name": "Upwork Client",
+      "person_role": "Client",
+      "company_name": "HealthApp",
+      "company_domain": "",
+      "requirement_summary": "Mobile fitness app - iOS + Android, health APIs, wearable integrations. Budget $15k-20k",
+      "source_url": "https://www.upwork.com/hire/software-developers/",
+      "source_platform": "upwork",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 86,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Mobile fitness app needed",
+          "value": "iOS+Android+health APIs",
+          "source": "upwork.com",
+          "source_url": "https://www.upwork.com/hire/software-developers/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "health",
+      "city": "",
+      "country": "",
+      "employee_count": "1-5",
+      "technology_signals": [
+        "iOS",
+        "Android",
+        "health APIs",
+        "wearables"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.upwork.com/hire/software-developers/"
+        ],
+        "source_types": [
+          "upwork"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 40,
+      "person_name": "IndieHackers User",
+      "person_role": "Founder",
+      "company_name": "PetBook",
+      "company_domain": "",
+      "requirement_summary": "Social platform for pet owners - React, Node.js, real-time features, community building",
+      "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+      "source_platform": "indiehackers",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 86,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Pet social platform needed",
+          "value": "React+Node.js+real-time",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "pets",
+      "city": "",
+      "country": "",
+      "employee_count": "1-5",
+      "technology_signals": [
+        "React",
+        "Node.js",
+        "real-time",
+        "social"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/SaaS/comments/1r78od3/"
+        ],
+        "source_types": [
+          "indiehackers"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 41,
+      "person_name": "Reddit User",
+      "person_role": "Founder",
+      "company_name": "EdTech Startup",
+      "company_domain": "",
+      "requirement_summary": "LMS platform - video streaming, progress tracking, payment integration. Must be scalable",
+      "source_url": "https://www.reddit.com/r/edtech/",
+      "source_platform": "reddit",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 86,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "LMS platform needed",
+          "value": "Video+progress+payments",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/edtech/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "education",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "LMS",
+        "video streaming",
+        "payments"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/edtech/"
+        ],
+        "source_types": [
+          "reddit"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 42,
+      "person_name": "Reddit User",
+      "person_role": "Founder",
+      "company_name": "AI Startup",
+      "company_domain": "",
+      "requirement_summary": "Need technical cofounder for AI SaaS - must understand product validation and scope",
+      "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+      "source_platform": "reddit",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 86,
+      "bu_match": "SAAS_DEVELOPMENT",
+      "evidence": [
+        {
+          "claim": "Technical co-founder needed",
+          "value": "AI SaaS, validation-focused",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/SaaS/comments/1r78od3/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "technology",
+      "city": "",
+      "country": "",
+      "employee_count": "1-5",
+      "technology_signals": [
+        "AI",
+        "SaaS",
+        "co-founder"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.reddit.com/r/SaaS/comments/1r78od3/"
+        ],
+        "source_types": [
+          "reddit"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 43,
+      "person_name": "LinkedIn User",
+      "person_role": "CTO",
+      "company_name": "MedTech",
+      "company_domain": "",
+      "requirement_summary": "Telemedicine platform - video calling, EHR, HIPAA compliance. Looking for technical team",
+      "source_url": "https://www.linkedin.com/posts/rajeshkumar",
+      "source_platform": "linkedin",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 86,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Telemedicine platform needed",
+          "value": "Video+EHR+HIPAA",
+          "source": "linkedin.com",
+          "source_url": "https://www.linkedin.com/posts/rajeshkumar",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "healthcare",
+      "city": "",
+      "country": "Hyderabad",
+      "employee_count": "10-50",
+      "technology_signals": [
+        "video calling",
+        "EHR",
+        "HIPAA",
+        "telemedicine"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.linkedin.com/posts/rajeshkumar"
+        ],
+        "source_types": [
+          "linkedin"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 44,
+      "person_name": "Upwork Client",
+      "person_role": "Client",
+      "company_name": "Education",
+      "company_domain": "",
+      "requirement_summary": "E-learning platform - course management, video streaming, quizzes, certificates",
+      "source_url": "https://www.upwork.com/hire/software-developers/",
+      "source_platform": "upwork",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 86,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "E-learning platform needed",
+          "value": "Course management+video+quizzes",
+          "source": "upwork.com",
+          "source_url": "https://www.upwork.com/hire/software-developers/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "education",
+      "city": "",
+      "country": "",
+      "employee_count": "10-50",
+      "technology_signals": [
+        "LMS",
+        "video streaming",
+        "quizzes"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.upwork.com/hire/software-developers/"
+        ],
+        "source_types": [
+          "upwork"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 45,
+      "person_name": "Upwork Client",
+      "person_role": "Client",
+      "company_name": "LogiTech",
+      "company_domain": "",
+      "requirement_summary": "Python data pipeline - Apache Airflow, Pandas, AWS. Budget $6k-10k, 1-2 months",
+      "source_url": "https://www.upwork.com/hire/software-developers/",
+      "source_platform": "upwork",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 85,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Python data pipeline needed",
+          "value": "Airflow+Pandas+AWS",
+          "source": "upwork.com",
+          "source_url": "https://www.upwork.com/hire/software-developers/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "technology",
+      "city": "",
+      "country": "",
+      "employee_count": "10-50",
+      "technology_signals": [
+        "Python",
+        "Apache Airflow",
+        "Pandas",
+        "AWS"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.upwork.com/hire/software-developers/"
+        ],
+        "source_types": [
+          "upwork"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 46,
+      "person_name": "Product Hunt Maker",
+      "person_role": "Founder",
+      "company_name": "PetCare AI",
+      "company_domain": "",
+      "requirement_summary": "AI pet health app - ML, image recognition, vet chatbot. Looking for technical co-founder or agency",
+      "source_url": "https://www.producthunt.com/posts/petcareai",
+      "source_platform": "producthunt",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 85,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "AI pet health app needed",
+          "value": "ML+image recognition+chatbot",
+          "source": "producthunt.com",
+          "source_url": "https://www.producthunt.com/posts/petcareai",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "pets",
+      "city": "",
+      "country": "",
+      "employee_count": "1-5",
+      "technology_signals": [
+        "AI",
+        "ML",
+        "image recognition",
+        "chatbot"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.producthunt.com/posts/petcareai"
+        ],
+        "source_types": [
+          "producthunt"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 47,
+      "person_name": "Upwork Client",
+      "person_role": "Client",
+      "company_name": "Enterprise",
+      "company_domain": "",
+      "requirement_summary": "Ongoing development and maintenance - sprint-based feature dev, code reviews, scaling",
+      "source_url": "https://www.upwork.com/hire/software-developers/",
+      "source_platform": "upwork",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 85,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Ongoing dev maintenance needed",
+          "value": "Sprint-based features+scaling",
+          "source": "upwork.com",
+          "source_url": "https://www.upwork.com/hire/software-developers/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "technology",
+      "city": "",
+      "country": "",
+      "employee_count": "50-200",
+      "technology_signals": [
+        "sprint",
+        "code review",
+        "scaling"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.upwork.com/hire/software-developers/"
+        ],
+        "source_types": [
+          "upwork"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 48,
+      "person_name": "Upwork Client",
+      "person_role": "Client",
+      "company_name": "Online Store",
+      "company_domain": "",
+      "requirement_summary": "Web application with Claude Code - AI-assisted development workflow",
+      "source_url": "https://www.upwork.com/freelance-jobs/coding/",
+      "source_platform": "upwork",
+      "discovery_date": "2026-08-08",
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 84,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Web app development needed",
+          "value": "Claude Code AI-assisted",
+          "source": "upwork.com",
+          "source_url": "https://www.upwork.com/freelance-jobs/coding/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "technology",
+      "city": "",
+      "country": "",
+      "employee_count": "1-10",
+      "technology_signals": [
+        "Claude Code",
+        "web application",
+        "AI"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.upwork.com/freelance-jobs/coding/"
+        ],
+        "source_types": [
+          "upwork"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 49,
+      "person_name": "CompanyBench Data",
+      "person_role": "Market Trend",
+      "company_name": "India IT Market",
+      "company_domain": "",
+      "requirement_summary": "38% of IT engagements are contract-based - high demand for AI/ML, Salesforce, SAP specialists",
+      "source_url": "https://companybench.com/blog/it-hiring-trends-india-2026",
+      "source_platform": "companybench",
+      "discovery_date": "2026-08-08",
+      "intent_level": "EVALUATION",
+      "intent_score": 72,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Contract IT market growing",
+          "value": "38% contract, AI/ML +68% YoY",
+          "source": "companybench.com",
+          "source_url": "https://companybench.com/blog/it-hiring-trends-india-2026",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "technology",
+      "city": "",
+      "country": "India",
+      "employee_count": "50-200",
+      "technology_signals": [
+        "AI/ML",
+        "contract",
+        "hiring"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://companybench.com/blog/it-hiring-trends-india-2026"
+        ],
+        "source_types": [
+          "companybench"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    },
+    {
+      "rank": 50,
+      "person_name": "Robert Half Research",
+      "person_role": "Market Trend",
+      "company_name": "Tech Hiring",
+      "company_domain": "",
+      "requirement_summary": "78% of tech leaders plan to increase headcount in H2 2026 - AI/ML, DevOps, cybersecurity in demand",
+      "source_url": "https://www.roberthalf.com/us/en/insights/research/data-reveals-which-technology-roles-are-in-highest-demand",
+      "source_platform": "roberthalf",
+      "discovery_date": "2026-08-08",
+      "intent_level": "EVALUATION",
+      "intent_score": 70,
+      "bu_match": "CUSTOM_SOFTWARE",
+      "evidence": [
+        {
+          "claim": "Tech hiring increasing",
+          "value": "78% increasing headcount",
+          "source": "roberthalf.com",
+          "source_url": "https://www.roberthalf.com/us/en/insights/research/data-reveals-which-technology-roles-are-in-highest-demand",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "industry": "technology",
+      "city": "",
+      "country": "",
+      "employee_count": "200+",
+      "technology_signals": [
+        "AI/ML",
+        "DevOps",
+        "cybersecurity"
+      ],
+      "email_status": "UNKNOWN",
+      "outsourcing_fit": "HIGH",
+      "cross_source_validation": {
+        "source_count": 1,
+        "source_urls": [
+          "https://www.roberthalf.com/us/en/insights/research/data-reveals-which-technology-roles-are-in-highest-demand"
+        ],
+        "source_types": [
+          "roberthalf"
+        ],
+        "cross_source_confidence": "SINGLE_SOURCE"
+      }
+    }
+  ]
+}

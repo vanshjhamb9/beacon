@@ -1,0 +1,73 @@
+{
+  "run_id": "115afbcb-2435-4436-89af-c73cdfa042ec",
+  "product": "comai",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 261,
+    "enriched": 223,
+    "scored": 17,
+    "ready": 0,
+    "sent": 0,
+    "rejected": 244,
+    "new_unique": 0
+  },
+  "rejects": {
+    "mega_brand": 48,
+    "headcount": 17,
+    "unknown_size": 17,
+    "industry": 91,
+    "city": 0,
+    "country": 0,
+    "domain": 0,
+    "name": 0,
+    "type": 0,
+    "generic_email": 54,
+    "no_email": 0,
+    "no_founder": 0,
+    "tech": 0,
+    "already_seen": 0,
+    "already_sent": 0,
+    "prior_run": 17
+  },
+  "icp": {
+    "key": null,
+    "name": null,
+    "service_match": null,
+    "employee_count_min": 5,
+    "employee_count_max": 40,
+    "company_size_min": null,
+    "company_size_max": null,
+    "industries": [
+      "fashion",
+      "beauty",
+      "skincare",
+      "jewellery"
+    ],
+    "specialties": [
+      "fashion",
+      "beauty",
+      "skincare",
+      "jewellery"
+    ],
+    "countries": [
+      "India"
+    ],
+    "headquarters_cities": [],
+    "technology_stack": [],
+    "company_types": [
+      "d2c_brand"
+    ],
+    "year_founded_min": null,
+    "year_founded_max": null,
+    "linkedin_url_required": false,
+    "company_name_contains": [],
+    "domains": [],
+    "lists": [],
+    "funding_stages": [],
+    "hiring_signals": [],
+    "negative_signals": []
+  },
+  "generated_at": "2026-08-14T19:43:56.730793+00:00",
+  "lead_count": 17
+}

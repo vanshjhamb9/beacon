@@ -1,0 +1,139 @@
+business_unit: inowix
+name: "INOWIX — High-Intent SaaS / Build Capacity"
+description: "Mid-size and tiny-eng product companies that need custom software, AI, apps, or overflow engineering capacity"
+
+target_customer:
+  size: "2-70 employees (prefer 3-25 eng)"
+  age: "0-7 years"
+  geography: "Global with India co-delivery fit"
+  access: "Founder / CEO / CTO email public"
+  activity: "Hiring engineers OR shipping product with thin bench"
+  technology: "SaaS / AI / mobile product companies"
+
+target_industries:
+  - saas
+  - software
+  - artificial intelligence
+  - mobile apps
+  - fintech
+  - healthtech
+  - ecommerce tooling
+  - developer tools
+  - productivity
+  - marketplace
+
+min_employees: 2
+max_employees: 100
+prefer_employees_min: 3
+prefer_employees_max: 40
+
+min_revenue: 0
+max_revenue: 100000000
+
+target_countries:
+  - India
+  - United States
+  - United Kingdom
+  - Germany
+  - Israel
+  - Singapore
+
+target_cities:
+  - Bangalore
+  - Bengaluru
+  - Mumbai
+  - Delhi
+  - Hyderabad
+  - Pune
+  - San Francisco
+  - New York
+  - London
+  - Tel Aviv
+
+target_platforms:
+  - react
+  - nextjs
+  - flutter
+  - react native
+  - ios
+  - python
+  - typescript
+
+exclusion_rules:
+  mega_enterprises:
+    - google
+    - microsoft
+    - amazon
+    - meta
+    - apple
+  competitor_agencies:
+    - pure staffing mill
+  company_size:
+    min_employees_exclude: 250
+
+business_stages:
+  tiny_eng:
+    max_employees: 10
+    weight: 1.0
+  mid_product:
+    min_employees: 10
+    max_employees: 70
+    weight: 0.95
+
+buyability_scoring:
+  capacity_overflow: 30
+  product_build: 25
+  founder_access: 20
+  hiring_signal: 15
+  size_fit: 10
+
+high_value_signals:
+  founding_engineer_hire: 25
+  ios_flutter_hire: 20
+  founders_at_email: 15
+  public_ceo_email: 15
+
+thresholds:
+  sales_ready: 70
+  qualified: 50
+  nurture: 30
+
+qualification_states:
+  SALES_READY: "Pitch capacity / build partner now"
+  QUALIFIED: "Worth a founder intro"
+  NURTURE: "Watch hiring signal"
+  REJECT: "Too large or no access"
+
+services:
+  - name: Custom SaaS / MVP
+    pitch: "Ship SaaS features and MVPs while you hire"
+  - name: AI agents / automation
+    pitch: "Custom AI product engineering overflow"
+  - name: Mobile Flutter / iOS
+    pitch: "Native and cross-platform mobile delivery"
+  - name: White-label eng bench
+    pitch: "Quiet engineering capacity under your brand"
+
+decision_maker_roles:
+  - CEO
+  - Founder
+  - Co-Founder
+  - CTO
+
+discovery_sources:
+  - type: hiring
+    queries:
+      - founding engineer
+      - founding iOS
+      - full stack product engineer
+      - flutter developer D2C OR SaaS
+  - type: ycombinator
+    queries:
+      - team size under 25 hiring engineer
+
+output_requirements:
+  must_answer:
+    - Who is the founder/CEO contact?
+    - What is the verified public email?
+    - What is the hiring or build signal?
+    - Why Inowix capacity fits now?

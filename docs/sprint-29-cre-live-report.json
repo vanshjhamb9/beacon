@@ -1,0 +1,250 @@
+{
+  "total_raw_signals": 1000,
+  "resolved_companies": 0,
+  "verified_companies": 0,
+  "sales_ready": 0,
+  "companies_created": 0,
+  "companies_rejected": 1000,
+  "resolution_success_rate": 0.0,
+  "rejection_reasons": {
+    "Low Identity Confidence": 1000,
+    "No Organization": 935,
+    "No Domain": 935,
+    "Source Policy Block": 410,
+    "News Site": 4,
+    "Website Invalid": 2,
+    "GitHub Pages": 2
+  },
+  "identity_confidence_distribution": {
+    "0-49": 935,
+    "50-69": 58,
+    "70-89": 7,
+    "90-100": 0
+  },
+  "source_precision": {
+    "rss": {
+      "signals": 77,
+      "admitted": 0,
+      "precision_pct": 0.0
+    },
+    "devto": {
+      "signals": 147,
+      "admitted": 0,
+      "precision_pct": 0.0
+    },
+    "product_hunt": {
+      "signals": 590,
+      "admitted": 0,
+      "precision_pct": 0.0
+    },
+    "hacker_news": {
+      "signals": 92,
+      "admitted": 0,
+      "precision_pct": 0.0
+    },
+    "reddit": {
+      "signals": 39,
+      "admitted": 0,
+      "precision_pct": 0.0
+    },
+    "github_trending": {
+      "signals": 30,
+      "admitted": 0,
+      "precision_pct": 0.0
+    },
+    "sec_edgar": {
+      "signals": 25,
+      "admitted": 0,
+      "precision_pct": 0.0
+    }
+  },
+  "top_verified": [],
+  "rejected_examples": [
+    {
+      "title": "Insurance startup Corgi reportedly raised more money at $4B \u2014 its third round in 8 weeks",
+      "source": "rss",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence \u2192 Source Policy Block",
+      "identity_score": 28.0,
+      "domain": null
+    },
+    {
+      "title": "The Echo Show 21 is a great smart home hub that\u2019s $80 off",
+      "source": "rss",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence \u2192 Source Policy Block",
+      "identity_score": 28.0,
+      "domain": null
+    },
+    {
+      "title": "Your logs are leaking secrets in 24 languages",
+      "source": "devto",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence \u2192 Source Policy Block",
+      "identity_score": 28.0,
+      "domain": null
+    },
+    {
+      "title": "PromptQL",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 33.0,
+      "domain": null
+    },
+    {
+      "title": "PodcastorAI",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 33.0,
+      "domain": null
+    },
+    {
+      "title": "AskCodi",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 33.0,
+      "domain": null
+    },
+    {
+      "title": "Wispro",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 33.0,
+      "domain": null
+    },
+    {
+      "title": "Quaso",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 37.0,
+      "domain": null
+    },
+    {
+      "title": "Moxie Docs: Knowledgebases",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 33.0,
+      "domain": null
+    },
+    {
+      "title": "CrawlRaven",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 33.0,
+      "domain": null
+    },
+    {
+      "title": "AMD takes on Nvidia with its Helios AI rack scale system",
+      "source": "rss",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence \u2192 Source Policy Block",
+      "identity_score": 28.0,
+      "domain": null
+    },
+    {
+      "title": "Patreon lays off off 20% of its workforce",
+      "source": "rss",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence \u2192 Source Policy Block",
+      "identity_score": 28.0,
+      "domain": null
+    },
+    {
+      "title": "What Happens If You Lose Your Gmail Account Tomorrow?",
+      "source": "devto",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence \u2192 Source Policy Block",
+      "identity_score": 28.0,
+      "domain": null
+    },
+    {
+      "title": "Cosyra 2.0",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 33.0,
+      "domain": null
+    },
+    {
+      "title": "PromptQL",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 33.0,
+      "domain": null
+    },
+    {
+      "title": "PodcastorAI",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 33.0,
+      "domain": null
+    },
+    {
+      "title": "AgentLoop",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 33.0,
+      "domain": null
+    },
+    {
+      "title": "Megaphone",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 33.0,
+      "domain": null
+    },
+    {
+      "title": "Quaso",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 37.0,
+      "domain": null
+    },
+    {
+      "title": "RunEvr",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 33.0,
+      "domain": null
+    },
+    {
+      "title": "Wispro",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 33.0,
+      "domain": null
+    },
+    {
+      "title": "Rehello",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 33.0,
+      "domain": null
+    },
+    {
+      "title": "PromptScout",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 33.0,
+      "domain": null
+    },
+    {
+      "title": "Basedash AI Kit",
+      "source": "product_hunt",
+      "reason": "No Organization \u2192 No Domain \u2192 Low Identity Confidence",
+      "identity_score": 37.0,
+      "domain": null
+    },
+    {
+      "title": "Big Tech Isn't Hiding $1.65T of Debt",
+      "source": "hacker_news",
+      "reason": "Low Identity Confidence \u2192 Source Policy Block",
+      "identity_score": 69.0,
+      "domain": "finterm.ai"
+    }
+  ],
+  "scoring_version": "cre-v1",
+  "evidence": [
+    "signals:1000",
+    "created:0",
+    "verified:0",
+    "success_rate:0.0"
+  ],
+  "db_total_raw_signals": 1113,
+  "evaluated": 1000,
+  "generated_at": "2026-07-23T20:46:14.085770+00:00",
+  "note": "Offline CRE evaluation of up to 1000 latest raw signals. Companies are not written unless /company-resolution/rebuild is run after alembic 0036."
+}

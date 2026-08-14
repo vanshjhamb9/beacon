@@ -1,0 +1,72 @@
+{
+  "run_id": "276de1bc-737a-43bc-988d-d120af887203",
+  "product": "comai",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 572,
+    "enriched": 508,
+    "scored": 31,
+    "ready": 31,
+    "sent": 0,
+    "rejected": 160,
+    "new_unique": 31,
+    "live_discovered": 6,
+    "pooled_added": 6
+  },
+  "rejects": {
+    "mega_brand": 67,
+    "headcount": 1,
+    "unknown_size": 0,
+    "industry": 0,
+    "industry_soft": 172,
+    "city": 0,
+    "country": 0,
+    "domain": 0,
+    "name": 0,
+    "type": 0,
+    "generic_email": 0,
+    "no_email": 33,
+    "no_founder": 0,
+    "tech": 0,
+    "already_seen": 0,
+    "already_sent": 59,
+    "prior_run": 0,
+    "already_surfaced": 0
+  },
+  "icp": {
+    "key": null,
+    "name": null,
+    "service_match": null,
+    "employee_count_min": 5,
+    "employee_count_max": 50,
+    "company_size_min": null,
+    "company_size_max": null,
+    "industries": [],
+    "specialties": [
+      "beauty",
+      "electronics",
+      "fashion",
+      "skincare"
+    ],
+    "countries": [
+      "India"
+    ],
+    "headquarters_cities": [],
+    "technology_stack": [],
+    "company_types": [
+      "d2c_brand"
+    ],
+    "year_founded_min": null,
+    "year_founded_max": null,
+    "linkedin_url_required": false,
+    "company_name_contains": [],
+    "domains": [],
+    "lists": [],
+    "funding_stages": [],
+    "hiring_signals": [],
+    "negative_signals": []
+  },
+  "generated_at": "2026-08-14T20:12:46.603515+00:00",
+  "lead_count": 31
+}

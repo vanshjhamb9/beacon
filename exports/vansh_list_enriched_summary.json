@@ -1,0 +1,24 @@
+{
+  "total": 100,
+  "domain_found": 50,
+  "domain_found_pct": 50.0,
+  "with_email": 21,
+  "with_email_pct": 21.0,
+  "with_phone": 50,
+  "with_phone_pct": 50.0,
+  "linkedin_person": 2,
+  "linkedin_person_pct": 2.0,
+  "linkedin_company": 24,
+  "linkedin_company_pct": 24.0,
+  "status_counts": {
+    "enriched": 50,
+    "domain_not_found": 50
+  },
+  "qa_note": "Post-filtered mismatched/blocklisted domains; contacts cleared when domain rejected",
+  "elapsed_seconds": 2015.0,
+  "qa_rejected_count": 1,
+  "polluted_phones_removed": [
+    "+917326059369",
+    "+917496969728"
+  ]
+}

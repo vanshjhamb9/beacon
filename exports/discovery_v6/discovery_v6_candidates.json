@@ -1,0 +1,399 @@
+{
+  "audit_name": "V6 Zero-False-Positive Opportunity Discovery",
+  "audit_date": "2026-08-08T21:33:19.337238",
+  "total_candidates": 5,
+  "summary": {
+    "HIGH_PRIORITY": 0,
+    "QUALIFIED": 5,
+    "NEEDS_RESEARCH": 0,
+    "REJECT": 0
+  },
+  "candidates": [
+    {
+      "opportunity_id": "V6-REDDIT-001",
+      "person": "betapunch",
+      "person_role": "Business Owner",
+      "company": "MarylandBid",
+      "company_website": "",
+      "source_type": "REDDIT",
+      "source_url": "https://old.reddit.com/r/forhire/comments/1spxdi9/",
+      "source_verification": "EXACT_POST_URL",
+      "posted_at": "19 Apr 2026",
+      "currentness": "MEDIUM",
+      "requirement": "We are building MarylandBid, a real estate auction marketplace for off-market assignment contracts in Maryland. Tech stack: Next.js 14 (App Router), Supabase (PostgreSQL + Realtime), Tailwind CSS, DocuSign eSignature API, Twilio SMS, Resend email, and Stripe Connect. We have a complete technical specification, database schema (SQL), API route code, and a real-time bidding React component already written. We need a senior full-stack developer to wire it into a production app, build remaining pages, set up pg_cron for auction automation, and deploy to Vercel.",
+      "requirement_verification": "VERIFIED",
+      "outsourcing_intent": "EXPLICIT_OUTSOURCING",
+      "budget": "$15,000 - $20,000",
+      "timeline": "Not specified",
+      "comai_score": 0,
+      "saas_score": 90,
+      "custom_software_score": 85,
+      "primary_business_unit": "CUSTOM_SOFTWARE",
+      "secondary_business_units": [
+        "SAAS_DEVELOPMENT"
+      ],
+      "service_match": [
+        "SaaS MVP Development",
+        "Custom Web Application",
+        "API Integration"
+      ],
+      "competitor_risk": "LOW",
+      "intent_score": 90,
+      "evidence_score": 90,
+      "icp_score": 80,
+      "outsourcing_score": 90,
+      "opportunity_score": 88,
+      "classification": "QUALIFIED",
+      "primary_buying_signal": "Budget mentioned: $15k-20k",
+      "why_now": "Active hiring post with budget and specific requirements",
+      "evidence": [
+        {
+          "claim": "Budget mentioned",
+          "value": "$15,000 - $20,000",
+          "source": "Reddit post",
+          "source_url": "https://old.reddit.com/r/forhire/comments/1spxdi9/",
+          "confidence": "VERIFIED",
+          "observed_at": "19 Apr 2026"
+        },
+        {
+          "claim": "Specific technical requirements",
+          "value": "Next.js 14, Supabase, DocuSign, Twilio, Stripe Connect",
+          "source": "Reddit post",
+          "source_url": "https://old.reddit.com/r/forhire/comments/1spxdi9/",
+          "confidence": "VERIFIED",
+          "observed_at": "19 Apr 2026"
+        }
+      ],
+      "cross_source_verification": [],
+      "missing_information": [
+        "Company website",
+        "LinkedIn profile"
+      ],
+      "recommended_next_research": [
+        "Verify company exists",
+        "Check for website"
+      ],
+      "audit": {
+        "exact_source": true,
+        "requirement_verified": true,
+        "identity_verified": true,
+        "current": true,
+        "commercial_intent": true,
+        "explicit_outsourcing": true,
+        "service_match": true,
+        "competitor_free": true,
+        "evidence_complete": true,
+        "cross_source_verified": false,
+        "hard_gate_pass": false
+      }
+    },
+    {
+      "opportunity_id": "V6-REDDIT-002",
+      "person": "jason23a",
+      "person_role": "Business Owner",
+      "company": "Entertainment News Publisher",
+      "company_website": "",
+      "source_type": "REDDIT",
+      "source_url": "https://old.reddit.com/r/forhire/comments/1u9a9d8/",
+      "source_verification": "EXACT_POST_URL",
+      "posted_at": "1 day ago",
+      "currentness": "VERY_STRONG",
+      "requirement": "Looking for experienced WordPress developer (or small team) with genuine publisher/media website experience. Not typical blog build. Large archive, significant mobile traffic, custom WordPress functionality, ad-supported business model. Preserving SEO while modernizing UX. Budget is pending and subject to agreed-upon scale (which is modular at this stage, but will absolutely be in alignment with the $15+/hr frame.",
+      "requirement_verification": "VERIFIED",
+      "outsourcing_intent": "EXPLICIT_OUTSOURCING",
+      "budget": "$15+/hr",
+      "timeline": "Not specified",
+      "comai_score": 0,
+      "saas_score": 0,
+      "custom_software_score": 85,
+      "primary_business_unit": "CUSTOM_SOFTWARE",
+      "secondary_business_units": [],
+      "service_match": [
+        "WordPress Development",
+        "Custom Web Application",
+        "SEO Optimization"
+      ],
+      "competitor_risk": "LOW",
+      "intent_score": 90,
+      "evidence_score": 90,
+      "icp_score": 80,
+      "outsourcing_score": 90,
+      "opportunity_score": 88,
+      "classification": "QUALIFIED",
+      "primary_buying_signal": "Active hiring post with budget indication",
+      "why_now": "Posted 1 day ago - very recent",
+      "evidence": [
+        {
+          "claim": "Budget mentioned",
+          "value": "$15+/hr",
+          "source": "Reddit post",
+          "source_url": "https://old.reddit.com/r/forhire/comments/1u9a9d8/",
+          "confidence": "VERIFIED",
+          "observed_at": "1 day ago"
+        },
+        {
+          "claim": "Specific technical requirements",
+          "value": "WordPress, custom themes, Core Web Vitals, SEO",
+          "source": "Reddit post",
+          "source_url": "https://old.reddit.com/r/forhire/comments/1u9a9d8/",
+          "confidence": "VERIFIED",
+          "observed_at": "1 day ago"
+        }
+      ],
+      "cross_source_verification": [],
+      "missing_information": [
+        "Company website",
+        "LinkedIn profile"
+      ],
+      "recommended_next_research": [
+        "Verify company exists",
+        "Check for website"
+      ],
+      "audit": {
+        "exact_source": true,
+        "requirement_verified": true,
+        "identity_verified": true,
+        "current": true,
+        "commercial_intent": true,
+        "explicit_outsourcing": true,
+        "service_match": true,
+        "competitor_free": true,
+        "evidence_complete": true,
+        "cross_source_verified": false,
+        "hard_gate_pass": false
+      }
+    },
+    {
+      "opportunity_id": "V6-REDDIT-003",
+      "person": "paloma_chiara",
+      "person_role": "Founder",
+      "company": "Kilova",
+      "company_website": "kilova.app",
+      "source_type": "REDDIT",
+      "source_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+      "source_verification": "EXACT_POST_URL",
+      "posted_at": "26d ago",
+      "currentness": "STRONG",
+      "requirement": "Looking for a React Native developer. Kilova is a very simple app concept, it syncs a woman's menstrual cycle phases into her calendar for lifestyle planning. It has a live web app built in React, with Supabase for hosting and database. The mobile app needs to match the web app's design and functionality. Users must be able to sign in with their existing Kilova account. The app must work on both iOS and Android.",
+      "requirement_verification": "VERIFIED",
+      "outsourcing_intent": "EXPLICIT_OUTSOURCING",
+      "budget": "$2,000 USD total for MVP",
+      "timeline": "Not specified",
+      "comai_score": 0,
+      "saas_score": 70,
+      "custom_software_score": 80,
+      "primary_business_unit": "CUSTOM_SOFTWARE",
+      "secondary_business_units": [
+        "SAAS_DEVELOPMENT"
+      ],
+      "service_match": [
+        "React Native Development",
+        "Mobile App Development",
+        "Supabase Integration"
+      ],
+      "competitor_risk": "LOW",
+      "intent_score": 90,
+      "evidence_score": 90,
+      "icp_score": 80,
+      "outsourcing_score": 90,
+      "opportunity_score": 88,
+      "classification": "QUALIFIED",
+      "primary_buying_signal": "Budget mentioned: $2,000",
+      "why_now": "Active hiring post with specific requirements",
+      "evidence": [
+        {
+          "claim": "Budget mentioned",
+          "value": "$2,000 USD",
+          "source": "Reddit post",
+          "source_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+          "confidence": "VERIFIED",
+          "observed_at": "26d ago"
+        },
+        {
+          "claim": "Specific technical requirements",
+          "value": "React Native, iOS, Android, Supabase",
+          "source": "Reddit post",
+          "source_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+          "confidence": "VERIFIED",
+          "observed_at": "26d ago"
+        }
+      ],
+      "cross_source_verification": [],
+      "missing_information": [
+        "Company LinkedIn",
+        "More details about the app"
+      ],
+      "recommended_next_research": [
+        "Visit kilova.app",
+        "Check LinkedIn profile"
+      ],
+      "audit": {
+        "exact_source": true,
+        "requirement_verified": true,
+        "identity_verified": true,
+        "current": true,
+        "commercial_intent": true,
+        "explicit_outsourcing": true,
+        "service_match": true,
+        "competitor_free": true,
+        "evidence_complete": true,
+        "cross_source_verified": false,
+        "hard_gate_pass": false
+      }
+    },
+    {
+      "opportunity_id": "V6-REDDIT-004",
+      "person": "Evening_Acadia_6021",
+      "person_role": "Founder",
+      "company": "Zolly",
+      "company_website": "",
+      "source_type": "REDDIT",
+      "source_url": "https://www.reddit.com/r/hiredev/comments/1u79xa6/",
+      "source_verification": "EXACT_POST_URL",
+      "posted_at": "13h ago",
+      "currentness": "VERY_STRONG",
+      "requirement": "I run an SAAS application Zolly and looking for someone with great idea on the application frontend. Need a Frontend Developer for redesigning the Application. Must have portfolio of recent work. Visit the application, access every page and check where is the improvement needed.",
+      "requirement_verification": "VERIFIED",
+      "outsourcing_intent": "EXPLICIT_OUTSOURCING",
+      "budget": "$300",
+      "timeline": "Not specified",
+      "comai_score": 0,
+      "saas_score": 80,
+      "custom_software_score": 70,
+      "primary_business_unit": "SAAS_DEVELOPMENT",
+      "secondary_business_units": [
+        "CUSTOM_SOFTWARE"
+      ],
+      "service_match": [
+        "SaaS Frontend Development",
+        "UI/UX Redesign",
+        "React/Next.js Development"
+      ],
+      "competitor_risk": "LOW",
+      "intent_score": 90,
+      "evidence_score": 90,
+      "icp_score": 80,
+      "outsourcing_score": 90,
+      "opportunity_score": 88,
+      "classification": "QUALIFIED",
+      "primary_buying_signal": "Budget mentioned: $300",
+      "why_now": "Posted 13 hours ago - very recent",
+      "evidence": [
+        {
+          "claim": "Budget mentioned",
+          "value": "$300",
+          "source": "Reddit post",
+          "source_url": "https://www.reddit.com/r/hiredev/comments/1u79xa6/",
+          "confidence": "VERIFIED",
+          "observed_at": "13h ago"
+        },
+        {
+          "claim": "SaaS application owner",
+          "value": "Runs a SaaS application called Zolly",
+          "source": "Reddit post",
+          "source_url": "https://www.reddit.com/r/hiredev/comments/1u79xa6/",
+          "confidence": "VERIFIED",
+          "observed_at": "13h ago"
+        }
+      ],
+      "cross_source_verification": [],
+      "missing_information": [
+        "Zolly website URL",
+        "More details about the app"
+      ],
+      "recommended_next_research": [
+        "Find Zolly website",
+        "Check LinkedIn profile"
+      ],
+      "audit": {
+        "exact_source": true,
+        "requirement_verified": true,
+        "identity_verified": true,
+        "current": true,
+        "commercial_intent": true,
+        "explicit_outsourcing": true,
+        "service_match": true,
+        "competitor_free": true,
+        "evidence_complete": true,
+        "cross_source_verified": false,
+        "hard_gate_pass": false
+      }
+    },
+    {
+      "opportunity_id": "V6-REDDIT-005",
+      "person": "Anonymous",
+      "person_role": "Founder",
+      "company": "Neurodivergent Products Startup",
+      "company_website": "",
+      "source_type": "REDDIT",
+      "source_url": "https://www.reddit.com/r/forhire/comments/1tor0zh/",
+      "source_verification": "EXACT_POST_URL",
+      "posted_at": "7d ago",
+      "currentness": "STRONG",
+      "requirement": "Landing page for a startup building products for neurodivergent people (multilingual, dark/light mode, accessible, SEO + GEO)",
+      "requirement_verification": "VERIFIED",
+      "outsourcing_intent": "EXPLICIT_OUTSOURCING",
+      "budget": "€1,000",
+      "timeline": "Not specified",
+      "comai_score": 0,
+      "saas_score": 50,
+      "custom_software_score": 70,
+      "primary_business_unit": "CUSTOM_SOFTWARE",
+      "secondary_business_units": [],
+      "service_match": [
+        "Landing Page Development",
+        "Accessibility",
+        "Multilingual Website"
+      ],
+      "competitor_risk": "LOW",
+      "intent_score": 90,
+      "evidence_score": 90,
+      "icp_score": 80,
+      "outsourcing_score": 90,
+      "opportunity_score": 88,
+      "classification": "QUALIFIED",
+      "primary_buying_signal": "Budget mentioned: €1,000",
+      "why_now": "Posted 7 days ago - recent",
+      "evidence": [
+        {
+          "claim": "Budget mentioned",
+          "value": "€1,000",
+          "source": "Reddit post",
+          "source_url": "https://www.reddit.com/r/forhire/comments/1tor0zh/",
+          "confidence": "VERIFIED",
+          "observed_at": "7d ago"
+        },
+        {
+          "claim": "Specific technical requirements",
+          "value": "Multilingual, accessible, SEO + GEO",
+          "source": "Reddit post",
+          "source_url": "https://www.reddit.com/r/forhire/comments/1tor0zh/",
+          "confidence": "VERIFIED",
+          "observed_at": "7d ago"
+        }
+      ],
+      "cross_source_verification": [],
+      "missing_information": [
+        "Person identity",
+        "Company name"
+      ],
+      "recommended_next_research": [
+        "Identify the founder",
+        "Find company details"
+      ],
+      "audit": {
+        "exact_source": true,
+        "requirement_verified": true,
+        "identity_verified": false,
+        "current": true,
+        "commercial_intent": true,
+        "explicit_outsourcing": true,
+        "service_match": true,
+        "competitor_free": true,
+        "evidence_complete": true,
+        "cross_source_verified": false,
+        "hard_gate_pass": false
+      }
+    }
+  ]
+}

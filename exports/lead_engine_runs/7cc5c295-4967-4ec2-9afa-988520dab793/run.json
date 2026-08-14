@@ -1,0 +1,69 @@
+{
+  "run_id": "7cc5c295-4967-4ec2-9afa-988520dab793",
+  "product": "comai",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 188,
+    "enriched": 177,
+    "scored": 14,
+    "ready": 4,
+    "sent": 0,
+    "rejected": 160
+  },
+  "rejects": {
+    "mega_brand": 32,
+    "headcount": 37,
+    "unknown_size": 19,
+    "industry": 15,
+    "city": 19,
+    "country": 0,
+    "domain": 0,
+    "name": 0,
+    "type": 0,
+    "generic_email": 38,
+    "no_email": 0,
+    "no_founder": 0,
+    "tech": 0
+  },
+  "icp": {
+    "employee_count_min": 5,
+    "employee_count_max": 12,
+    "industries": [
+      "ecommerce",
+      "retail",
+      "d2c"
+    ],
+    "specialties": [
+      "fashion",
+      "beauty",
+      "skincare",
+      "jewellery",
+      "food"
+    ],
+    "company_types": [
+      "d2c_brand"
+    ],
+    "countries": [
+      "India"
+    ],
+    "headquarters_cities": [
+      "Mumbai",
+      "Delhi",
+      "Bangalore",
+      "Hyderabad",
+      "Pune",
+      "Surat",
+      "Ahmedabad",
+      "Chennai"
+    ],
+    "technology_stack": [
+      "shopify",
+      "whatsapp",
+      "meta ads"
+    ],
+    "linkedin_url_required": true
+  },
+  "generated_at": "2026-08-14T19:30:34.413024+00:00",
+  "lead_count": 14
+}

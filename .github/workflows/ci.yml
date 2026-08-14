@@ -1,0 +1,55 @@
+name: Beacon CI Quality Gates
+
+on:
+  push:
+    branches: [main, master, develop]
+  pull_request:
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+          pip install pytest-cov
+      - name: Compile
+        run: python -m compileall apps packages tests -q
+      - name: Ruff
+        run: ruff check apps packages tests
+      - name: Black
+        run: black --check apps packages tests
+      - name: isort
+        run: isort --check-only apps packages tests
+      - name: Pytest core suites
+        run: |
+          pytest tests/revenue_optimization tests/account_intelligence tests/global_opportunity_acquisition tests/client_execution tests/account_journey tests/revenue_operations tests/autonomous_sales_agent tests/production_validation tests/live_revenue_execution tests/sales_intelligence tests/e2e tests/security tests/recovery tests/performance -q --tb=short
+      - name: Coverage gate (revenue_optimization)
+        run: |
+          pytest tests/revenue_optimization -q --cov=packages/revenue_optimization --cov-fail-under=85
+      - name: Coverage gate (account_intelligence)
+        run: |
+          pytest tests/account_intelligence -q --cov=packages/account_intelligence --cov-fail-under=85
+      - name: Coverage gate (global_opportunity_acquisition)
+        run: |
+          pytest tests/global_opportunity_acquisition -q --cov=packages/global_opportunity_acquisition --cov-fail-under=85
+      - name: Coverage gate (client_execution)
+        run: |
+          pytest tests/client_execution -q --cov=packages/client_execution --cov-fail-under=85
+      - name: Coverage gate (account_journey)
+        run: |
+          pytest tests/account_journey -q --cov=packages/account_journey --cov-fail-under=85
+      - name: Coverage gate (revenue_operations)
+        run: |
+          pytest tests/revenue_operations -q --cov=packages/revenue_operations --cov-fail-under=85
+      - name: Coverage gate (autonomous_sales_agent)
+        run: |
+          pytest tests/autonomous_sales_agent -q --cov=packages/autonomous_sales_agent --cov-fail-under=85
+      - name: Coverage gate (production_validation)
+        run: |
+          pytest tests/production_validation -q --cov=packages/production_validation --cov-fail-under=90

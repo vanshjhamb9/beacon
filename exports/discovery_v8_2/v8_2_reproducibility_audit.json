@@ -1,0 +1,49 @@
+{
+  "audit_name": "V8.2 Reproducibility Audit",
+  "audit_date": "2026-08-08T22:39:59.449063",
+  "total_opportunities": 1,
+  "audits": [
+    {
+      "opportunity_id": "V8-002",
+      "reproducible": true,
+      "claims": [
+        {
+          "claim": "Requirement verified from source",
+          "primary_source": "Original source",
+          "primary_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+          "secondary_source": "Company website",
+          "secondary_url": "https://kilova.app",
+          "reproducible": true,
+          "verified_at": "2026-08-08T22:39:57.992667"
+        },
+        {
+          "claim": "Person identity verified",
+          "primary_source": "Direct URL access",
+          "primary_url": "https://www.reddit.com/user/paloma_chiara/",
+          "secondary_source": "Reddit",
+          "secondary_url": "https://linkedin.com/in/paloma-chiara",
+          "reproducible": true,
+          "verified_at": "2026-08-08T22:39:57.992694"
+        },
+        {
+          "claim": "Company website verified",
+          "primary_source": "Direct URL access",
+          "primary_url": "https://kilova.app",
+          "secondary_source": "Evidence",
+          "secondary_url": "https://kilova.app",
+          "reproducible": true,
+          "verified_at": "2026-08-08T22:39:58.402410"
+        },
+        {
+          "claim": "Contact channel available",
+          "primary_source": "Email",
+          "primary_url": "kilova.app@gmail.com",
+          "secondary_source": "None",
+          "secondary_url": "",
+          "reproducible": true,
+          "verified_at": "2026-08-08T22:39:58.402431"
+        }
+      ]
+    }
+  ]
+}

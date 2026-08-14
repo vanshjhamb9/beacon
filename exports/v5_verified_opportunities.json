@@ -1,0 +1,287 @@
+{
+  "audit_name": "V5 Verified Opportunity Discovery",
+  "audit_date": "2026-08-08T21:16:42.204534",
+  "total_opportunities": 4,
+  "summary": {
+    "HIGH_PRIORITY": 2,
+    "QUALIFIED": 2,
+    "NEEDS_RESEARCH": 0,
+    "REJECT": 0
+  },
+  "opportunities": [
+    {
+      "opportunity_id": "V5-REDDIT-001",
+      "source_type": "REDDIT",
+      "source_url": "https://old.reddit.com/r/forhire/comments/1spxdi9/",
+      "source_title": "[Hiring] Launch auction website with frameworks already built with AI. Budget 15k - 20k",
+      "source_access_status": "ACCESSIBLE",
+      "source_verification_method": "EXACT_POST_URL",
+      "source_discovered_at": "2026-08-08T21:16:42.203620",
+      "source_published_at": "3 months ago",
+      "person_name": "betapunch",
+      "person_role": "Business Owner",
+      "person_profile_url": "https://www.reddit.com/user/betapunch",
+      "person_identity_confidence": "MEDIUM",
+      "company_name": "MarylandBid",
+      "company_domain": "",
+      "company_linkedin": "",
+      "company_description": "Real estate auction marketplace for off-market assignment contracts in Maryland",
+      "company_stage": "MVP Development",
+      "company_size": "1-5",
+      "industry": "Real Estate",
+      "country": "USA",
+      "prospect_type": "BUSINESS_OWNER",
+      "requirement_text": "We are building MarylandBid, a real estate auction marketplace. Tech stack: Next.js 14, Supabase, Tailwind CSS, DocuSign API, Twilio SMS, Resend email, Stripe Connect. Need senior full-stack developer to wire it into production app, build remaining pages, set up pg_cron for auction automation, deploy to Vercel.",
+      "requirement_source_url": "https://old.reddit.com/r/forhire/comments/1spxdi9/",
+      "requirement_confidence": "VERIFIED",
+      "requirement_observed_at": "3 months ago",
+      "outsourcing_intent": "EXPLICIT_OUTSOURCING",
+      "outsourcing_fit": 90,
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 90,
+      "icp_fit": 80,
+      "buyability": 85,
+      "evidence_quality": 95,
+      "service_match": 85,
+      "comai_score": 0,
+      "saas_score": 90,
+      "custom_software_score": 85,
+      "primary_business_unit": "CUSTOM_SOFTWARE",
+      "secondary_business_units": [
+        "SAAS_DEVELOPMENT"
+      ],
+      "budget_status": "VERIFIED",
+      "evidence": [
+        {
+          "claim": "Budget mentioned",
+          "value": "$15,000 - $20,000",
+          "source": "Reddit post",
+          "source_url": "https://old.reddit.com/r/forhire/comments/1spxdi9/",
+          "confidence": "VERIFIED",
+          "observed_at": "3 months ago"
+        }
+      ],
+      "cross_source_validation": [],
+      "missing_information": [
+        "Company website",
+        "LinkedIn profile"
+      ],
+      "next_research": [
+        "Verify company exists",
+        "Check for website"
+      ],
+      "currentness": "RECENT",
+      "qualification_status": "HIGH_PRIORITY",
+      "v5_audit_score": 84.8,
+      "audit_verdict": "PASS",
+      "audit_reasons": []
+    },
+    {
+      "opportunity_id": "V5-REDDIT-002",
+      "source_type": "REDDIT",
+      "source_url": "https://old.reddit.com/r/forhire/comments/1u9a9d8/",
+      "source_title": "[HIRING] WordPress Developer for Entertainment News Publisher Redesign",
+      "source_access_status": "ACCESSIBLE",
+      "source_verification_method": "EXACT_POST_URL",
+      "source_discovered_at": "2026-08-08T21:16:42.203935",
+      "source_published_at": "1 day ago",
+      "person_name": "jason23a",
+      "person_role": "Business Owner",
+      "person_profile_url": "https://www.reddit.com/user/jason23a",
+      "person_identity_confidence": "MEDIUM",
+      "company_name": "Entertainment News Publisher",
+      "company_domain": "",
+      "company_linkedin": "",
+      "company_description": "Long-running entertainment news publisher planning major redesign",
+      "company_stage": "Redesign",
+      "company_size": "10-50",
+      "industry": "Media & Entertainment",
+      "country": "USA",
+      "prospect_type": "BUSINESS_OWNER",
+      "requirement_text": "Looking for experienced WordPress developer (or small team) with genuine publisher/media website experience. Not typical blog build. Large archive, significant mobile traffic, custom WordPress functionality, ad-supported business model. Preserving SEO while modernizing UX.",
+      "requirement_source_url": "https://old.reddit.com/r/forhire/comments/1u9a9d8/",
+      "requirement_confidence": "VERIFIED",
+      "requirement_observed_at": "1 day ago",
+      "outsourcing_intent": "EXPLICIT_OUTSOURCING",
+      "outsourcing_fit": 85,
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 85,
+      "icp_fit": 75,
+      "buyability": 80,
+      "evidence_quality": 90,
+      "service_match": 80,
+      "comai_score": 0,
+      "saas_score": 0,
+      "custom_software_score": 85,
+      "primary_business_unit": "CUSTOM_SOFTWARE",
+      "secondary_business_units": [],
+      "budget_status": "INDICATED",
+      "evidence": [
+        {
+          "claim": "Budget mentioned",
+          "value": "$15+/hr",
+          "source": "Reddit post",
+          "source_url": "https://old.reddit.com/r/forhire/comments/1u9a9d8/",
+          "confidence": "INDICATED",
+          "observed_at": "1 day ago"
+        }
+      ],
+      "cross_source_validation": [],
+      "missing_information": [
+        "Company website",
+        "LinkedIn profile"
+      ],
+      "next_research": [
+        "Verify company exists",
+        "Check for website"
+      ],
+      "currentness": "CURRENT",
+      "qualification_status": "HIGH_PRIORITY",
+      "v5_audit_score": 80.0,
+      "audit_verdict": "PASS",
+      "audit_reasons": []
+    },
+    {
+      "opportunity_id": "V5-UPWORK-001",
+      "source_type": "UPWORK",
+      "source_url": "https://www.upwork.com/freelance-jobs/apply/WhatsApp-Messaging-Automation-Bot-Development_~022031402836105408559/",
+      "source_title": "WhatsApp Messaging Automation Bot Development",
+      "source_access_status": "BLOCKED_BUT_URL_VALID",
+      "source_verification_method": "EXACT_JOB_URL",
+      "source_discovered_at": "2026-08-08T21:16:42.203965",
+      "source_published_at": "UNKNOWN",
+      "person_name": "Anonymous Upwork Client",
+      "person_role": "Client",
+      "person_profile_url": "",
+      "person_identity_confidence": "ANONYMOUS",
+      "company_name": "UNKNOWN",
+      "company_domain": "",
+      "company_linkedin": "",
+      "company_description": "",
+      "company_stage": "",
+      "company_size": "",
+      "industry": "",
+      "country": "",
+      "prospect_type": "UNKNOWN",
+      "requirement_text": "We are looking for a skilled developer to create a WhatsApp messaging automation program that follows a predefined 5-message script. This bot should efficiently send messages in a timely manner and handle responses appropriately.",
+      "requirement_source_url": "https://www.upwork.com/freelance-jobs/apply/WhatsApp-Messaging-Automation-Bot-Development_~022031402836105408559/",
+      "requirement_confidence": "UNVERIFIED",
+      "requirement_observed_at": "UNKNOWN",
+      "outsourcing_intent": "EXPLICIT_OUTSOURCING",
+      "outsourcing_fit": 80,
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 70,
+      "icp_fit": 70,
+      "buyability": 60,
+      "evidence_quality": 50,
+      "service_match": 70,
+      "comai_score": 70,
+      "saas_score": 0,
+      "custom_software_score": 50,
+      "primary_business_unit": "COMAI",
+      "secondary_business_units": [
+        "CUSTOM_SOFTWARE"
+      ],
+      "budget_status": "UNKNOWN",
+      "evidence": [
+        {
+          "claim": "Job posting exists",
+          "value": "Exact URL with job ID",
+          "source": "Upwork",
+          "source_url": "https://www.upwork.com/freelance-jobs/apply/WhatsApp-Messaging-Automation-Bot-Development_~022031402836105408559/",
+          "confidence": "MEDIUM",
+          "observed_at": "UNKNOWN"
+        }
+      ],
+      "cross_source_validation": [],
+      "missing_information": [
+        "Person name",
+        "Company",
+        "Budget",
+        "Timeline"
+      ],
+      "next_research": [
+        "Verify job content via human",
+        "Verify client identity"
+      ],
+      "currentness": "UNKNOWN",
+      "qualification_status": "QUALIFIED",
+      "v5_audit_score": 54.5,
+      "audit_verdict": "CONDITIONAL",
+      "audit_reasons": [
+        "SOURCE: Upwork blocks access, cannot verify content"
+      ]
+    },
+    {
+      "opportunity_id": "V5-FREELANCER-001",
+      "source_type": "FREELANCER",
+      "source_url": "https://www.freelancer.com/jobs/chatbot/",
+      "source_title": "WhatsApp Advisor Chatbot Dashboard",
+      "source_access_status": "CATEGORY_PAGE",
+      "source_verification_method": "CATEGORY_PAGE",
+      "source_discovered_at": "2026-08-08T21:16:42.203989",
+      "source_published_at": "6 days left",
+      "person_name": "Anonymous Client",
+      "person_role": "Client",
+      "person_profile_url": "",
+      "person_identity_confidence": "ANONYMOUS",
+      "company_name": "UNKNOWN",
+      "company_domain": "",
+      "company_linkedin": "",
+      "company_description": "",
+      "company_stage": "",
+      "company_size": "",
+      "industry": "",
+      "country": "",
+      "prospect_type": "UNKNOWN",
+      "requirement_text": "I need a full-stack solution that brings together a WhatsApp-based advisory chatbot and a web dashboard. The bot will live on the WhatsApp Business API and deliver real-time advice to my users; the dashboard will let me control everything that happens behind the scenes.",
+      "requirement_source_url": "https://www.freelancer.com/jobs/chatbot/",
+      "requirement_confidence": "UNVERIFIED",
+      "requirement_observed_at": "6 days left",
+      "outsourcing_intent": "EXPLICIT_OUTSOURCING",
+      "outsourcing_fit": 80,
+      "intent_level": "ACTIVE_REQUIREMENT",
+      "intent_score": 70,
+      "icp_fit": 70,
+      "buyability": 60,
+      "evidence_quality": 50,
+      "service_match": 70,
+      "comai_score": 70,
+      "saas_score": 50,
+      "custom_software_score": 50,
+      "primary_business_unit": "COMAI",
+      "secondary_business_units": [
+        "CUSTOM_SOFTWARE"
+      ],
+      "budget_status": "INDICATED",
+      "evidence": [
+        {
+          "claim": "Job listing exists",
+          "value": "Category page with job listings",
+          "source": "Freelancer.com",
+          "source_url": "https://www.freelancer.com/jobs/chatbot/",
+          "confidence": "LOW",
+          "observed_at": "6 days left"
+        }
+      ],
+      "cross_source_validation": [],
+      "missing_information": [
+        "Exact job URL",
+        "Person name",
+        "Company",
+        "Budget"
+      ],
+      "next_research": [
+        "Find exact job URL",
+        "Verify job content"
+      ],
+      "currentness": "CURRENT",
+      "qualification_status": "QUALIFIED",
+      "v5_audit_score": 54.5,
+      "audit_verdict": "CONDITIONAL",
+      "audit_reasons": [
+        "SOURCE: Category page, not exact job posting"
+      ]
+    }
+  ]
+}

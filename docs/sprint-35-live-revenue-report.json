@@ -1,0 +1,335 @@
+{
+  "mission": "Sprint 36 \u2014 Communication Readiness Gate & Truthful Execution (er-v1 + clr-v1)",
+  "generated_at": "2026-07-25T16:48:41.921390+00:00",
+  "scoring_version": "clr-v1",
+  "execution_status": {
+    "mode": "PLANNING",
+    "reason": "No verified communication provider connected.",
+    "messages_sent": 0,
+    "deliveries": 0,
+    "open_tracking": "Disabled",
+    "reply_tracking": "Disabled",
+    "learning_mode": "Offline",
+    "email_ready": false,
+    "whatsapp_ready": false,
+    "communication_ready": false,
+    "recommendation": "Connect Gmail to begin outreach."
+  },
+  "revenue_ready_companies": 10,
+  "contacted": 0,
+  "replies": 0,
+  "meetings": 0,
+  "won": 0,
+  "lost": 0,
+  "revenue": 0.0,
+  "pipeline_value": 82350.0,
+  "average_reply_rate": 0.0,
+  "average_meeting_rate": 0.0,
+  "average_win_rate": 0.0,
+  "prediction_accuracy": 0.0,
+  "most_successful_connector": "n/a \u2014 learning offline",
+  "most_successful_industry": "n/a \u2014 learning offline",
+  "most_successful_service": "n/a \u2014 learning offline",
+  "most_successful_why_now": "n/a \u2014 learning offline",
+  "biggest_blocker": "No communication provider connected",
+  "continue_outreach_tomorrow": true,
+  "contact_first_tomorrow": {
+    "company": "Heroic Labs",
+    "company_id": "43f250b4-34c0-41ca-8a53-bb9ea665c1b3",
+    "why": "YC portfolio company (Summer 2015) \u2014 expansion / growth context",
+    "email": "sales@heroiclabs.com",
+    "status": "READY TO SEND",
+    "reason": "No verified communication provider connected.",
+    "next_step": "Connect Gmail or Meta WhatsApp Business.",
+    "next_action": "Connect Gmail or Meta WhatsApp Business.",
+    "tracking": "Disabled until first successful delivery."
+  },
+  "todays_target": {
+    "company": "Heroic Labs",
+    "status": "READY TO SEND",
+    "reason": "No verified communication provider connected.",
+    "next_action": "Connect Gmail or Meta WhatsApp Business.",
+    "tracking": "Disabled until first successful delivery."
+  },
+  "cto_morning": {
+    "question": "What should Vansh do today to maximize the probability of closing the next customer, based entirely on verified evidence and the outcomes of previous outreach?",
+    "answer": "Today's Target: Heroic Labs \u2014 Status: READY TO SEND. Reason: No verified communication provider connected. Next Action: Connect Gmail or Meta WhatsApp Business. Tracking: Disabled until first successful delivery.",
+    "learned_yesterday": "Learning offline until a verified delivery occurs."
+  },
+  "outcome_tracking_coverage": 100.0,
+  "revenue_attribution_coverage": 100.0,
+  "prediction_validation_coverage": 0.0,
+  "fabricated_data": 0,
+  "append_only": true,
+  "backward_compatible": true,
+  "executive": {
+    "revenue_ready": 10,
+    "companies_contacted": 0,
+    "replies": 0,
+    "meetings": 0,
+    "proposals": 0,
+    "negotiations": 0,
+    "won": 0,
+    "lost": 0,
+    "revenue": 0.0,
+    "pipeline_value": 82350.0,
+    "reply_rate": 0.0,
+    "meeting_rate": 0.0,
+    "proposal_rate": 0.0,
+    "win_rate": 0.0,
+    "average_deal_size": 0.0,
+    "average_sales_cycle": null,
+    "funnel": [
+      {
+        "name": "Revenue Ready",
+        "count": 10
+      },
+      {
+        "name": "Contacted",
+        "count": 0
+      },
+      {
+        "name": "Replies",
+        "count": 0
+      },
+      {
+        "name": "Meetings",
+        "count": 0
+      },
+      {
+        "name": "Proposals",
+        "count": 0
+      },
+      {
+        "name": "Won",
+        "count": 0
+      },
+      {
+        "name": "Lost",
+        "count": 0
+      }
+    ],
+    "conversion_rates": {
+      "contact_rate": 0.0,
+      "reply_rate": 0.0,
+      "meeting_rate": 0.0,
+      "proposal_rate": 0.0,
+      "win_rate": 0.0
+    },
+    "attribution": {},
+    "execution_mode": "PLANNING",
+    "execution_status": {
+      "mode": "PLANNING",
+      "reason": "No verified communication provider connected.",
+      "messages_sent": 0,
+      "deliveries": 0,
+      "open_tracking": "Disabled",
+      "reply_tracking": "Disabled",
+      "learning_mode": "Offline",
+      "email_ready": false,
+      "whatsapp_ready": false,
+      "communication_ready": false,
+      "recommendation": "Connect Gmail to begin outreach."
+    }
+  },
+  "daily_brief": {
+    "question": "Who should Vansh contact today, why, and what did Beacon learn from yesterday?",
+    "execution_mode": "PLANNING",
+    "todays_priority": [
+      {
+        "company": "Heroic Labs",
+        "company_id": "43f250b4-34c0-41ca-8a53-bb9ea665c1b3",
+        "decision_maker": "Chris Molozian (Founder / CEO)",
+        "email": "sales@heroiclabs.com",
+        "why_today": "YC portfolio company (Summer 2015) \u2014 expansion / growth context",
+        "last_activity": null,
+        "suggested_next_step": "Connect Gmail or Meta WhatsApp Business.",
+        "priority": 1
+      },
+      {
+        "company": "Giveffect",
+        "company_id": "8d12a4b6-6d70-4d7b-8bd2-10350fd8ab11",
+        "decision_maker": "Abbey Scott (Chief Executive Officer)",
+        "email": "support@giveffect.com",
+        "why_today": "YC portfolio company (Winter 2015) \u2014 expansion / growth context",
+        "last_activity": null,
+        "suggested_next_step": "Connect Gmail or Meta WhatsApp Business.",
+        "priority": 1
+      },
+      {
+        "company": "Amplitude",
+        "company_id": "bf5105f2-be96-460c-a9c1-b364a726d7e7",
+        "decision_maker": "Spenser Skates (Founder / CEO)",
+        "email": "sales@amplitude.com",
+        "why_today": "YC portfolio company (Winter 2012) \u2014 expansion / growth context",
+        "last_activity": null,
+        "suggested_next_step": "Connect Gmail or Meta WhatsApp Business.",
+        "priority": 1
+      },
+      {
+        "company": "Ambient.ai",
+        "company_id": "3c83b422-9a8a-4cf4-8226-05ba2b77f585",
+        "decision_maker": "Shikhar Shrestha (Founder / CEO)",
+        "email": "sales@ambient.ai",
+        "why_today": "YC portfolio company (Winter 2017) \u2014 expansion / growth context",
+        "last_activity": null,
+        "suggested_next_step": "Connect Gmail or Meta WhatsApp Business.",
+        "priority": 1
+      },
+      {
+        "company": "Verge Genomics",
+        "company_id": "172c1791-4004-4e85-abf5-6ffc9e6d28b1",
+        "decision_maker": "Alice Zhang (Founder / CEO)",
+        "email": "info@vergegenomics.com",
+        "why_today": "YC portfolio company (Summer 2015) \u2014 expansion / growth context",
+        "last_activity": null,
+        "suggested_next_step": "Connect Gmail or Meta WhatsApp Business.",
+        "priority": 1
+      }
+    ],
+    "follow_ups_due": [],
+    "meetings_today": [],
+    "replies_waiting": [],
+    "proposals_pending": [],
+    "revenue_closing_soon": [],
+    "yesterday_summary": {
+      "replies": 0,
+      "meetings": 0,
+      "wins": 0,
+      "losses": 0,
+      "pipeline_added": 0,
+      "revenue_added": 0
+    },
+    "contact_first": {
+      "company": "Heroic Labs",
+      "company_id": "43f250b4-34c0-41ca-8a53-bb9ea665c1b3",
+      "why": "YC portfolio company (Summer 2015) \u2014 expansion / growth context",
+      "email": "sales@heroiclabs.com",
+      "status": "READY TO SEND",
+      "reason": "No verified communication provider connected.",
+      "next_step": "Connect Gmail or Meta WhatsApp Business.",
+      "next_action": "Connect Gmail or Meta WhatsApp Business.",
+      "tracking": "Disabled until first successful delivery."
+    },
+    "learned_yesterday": "Learning offline until a verified delivery occurs.",
+    "todays_target": {
+      "company": "Heroic Labs",
+      "status": "READY TO SEND",
+      "reason": "No verified communication provider connected.",
+      "next_action": "Connect Gmail or Meta WhatsApp Business.",
+      "tracking": "Disabled until first successful delivery."
+    },
+    "execution_status": {
+      "mode": "PLANNING",
+      "reason": "No verified communication provider connected.",
+      "messages_sent": 0,
+      "deliveries": 0,
+      "open_tracking": "Disabled",
+      "reply_tracking": "Disabled",
+      "learning_mode": "Offline",
+      "email_ready": false,
+      "whatsapp_ready": false,
+      "communication_ready": false,
+      "recommendation": "Connect Gmail to begin outreach."
+    }
+  },
+  "weekly": {
+    "best_industries": [],
+    "best_company_sizes": [
+      {
+        "label": "unknown",
+        "count": 0
+      }
+    ],
+    "best_services": [],
+    "best_why_now": [],
+    "best_dm_titles": [],
+    "average_reply_time_days": null,
+    "average_sales_cycle_days": null,
+    "biggest_objections": [],
+    "largest_deal": 0,
+    "highest_roi_connector": "yc",
+    "lowest_quality_connector": "product_hunt",
+    "incorrectly_marked_revenue_ready": [],
+    "incorrectly_rejected": [],
+    "revenue_rows": 0,
+    "prediction_n": 0,
+    "execution_mode": "PLANNING",
+    "learning_mode": "Offline"
+  },
+  "learning": {
+    "note": "Learning engine offline \u2014 ignoring unsent / unverified campaigns.",
+    "best_industries": [],
+    "best_services": [],
+    "best_why_now": [],
+    "most_common_objection": []
+  },
+  "production_readiness": [
+    {
+      "metric": "Revenue Ready",
+      "value": 10,
+      "tone": "GREEN",
+      "detail": ""
+    },
+    {
+      "metric": "Contacted",
+      "value": 0,
+      "tone": "RED",
+      "detail": ""
+    },
+    {
+      "metric": "Replies",
+      "value": 0,
+      "tone": "RED",
+      "detail": ""
+    },
+    {
+      "metric": "Meetings",
+      "value": 0,
+      "tone": "RED",
+      "detail": ""
+    },
+    {
+      "metric": "Won",
+      "value": 0,
+      "tone": "YELLOW",
+      "detail": ""
+    },
+    {
+      "metric": "Revenue",
+      "value": 0.0,
+      "tone": "RED",
+      "detail": "Actual closed revenue only"
+    },
+    {
+      "metric": "Duplicate %",
+      "value": 0.0,
+      "tone": "GREEN",
+      "detail": ""
+    },
+    {
+      "metric": "Fabricated Data",
+      "value": 0,
+      "tone": "GREEN",
+      "detail": "Must remain 0"
+    },
+    {
+      "metric": "Prediction Accuracy",
+      "value": 0.0,
+      "tone": "YELLOW",
+      "detail": "0 until founder validates predictions"
+    },
+    {
+      "metric": "Decision Maker Accuracy",
+      "value": 0.0,
+      "tone": "YELLOW",
+      "detail": ""
+    },
+    {
+      "metric": "Revenue Attribution Coverage",
+      "value": 100.0,
+      "tone": "GREEN",
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+
+BEACON — Indian Ecommerce Revenue Database Summary
+===================================================
+
+Total Qualified Companies: 14
+
+Contact Availability:
+  With Email:    1 (7%)
+  With Phone:    14 (100%)
+  With LinkedIn: 4 (28%)
+
+Revenue Tiers:
+  growth: 13
+  scale: 1
+
+Industry Breakdown:
+  Fashion: 6
+  Jewellery: 3
+  Health & Wellness: 2
+  Bags: 1
+  Home Decor: 1
+  Gifts: 1
+
+Average Pain Count: 9.6/11
+Average Growth Count: 3.5/6
+
+Generated: 2026-07-31 13:25 UTC

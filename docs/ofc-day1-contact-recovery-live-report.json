@@ -1,0 +1,151 @@
+{
+  "mission": "OFC Day 1b \u2014 contact recovery on verified-domain companies",
+  "generated_at": "2026-07-23T22:47:50.684581+00:00",
+  "companies_scanned": 11,
+  "with_business_email": 6,
+  "with_decision_maker": 0,
+  "with_phone": 1,
+  "with_linkedin": 4,
+  "results": [
+    {
+      "company_id": "77e2e5dd-9791-414c-9d19-589c742c9fbb",
+      "company": "palmier-io",
+      "website": "https://palmier.io",
+      "emails": [
+        "founders@palmier.io"
+      ],
+      "phones": [],
+      "linkedin": [
+        "https://www.linkedin.com/company/palmierio/"
+      ],
+      "decision_makers": [],
+      "about": "Company | Palmier Limited-time launch pricing Pro $29 /mo $49 \u00b7 Max $69 /mo $99 Book a demo Download Work Pricing Docs B"
+    },
+    {
+      "company_id": "87ace1aa-50fc-4808-8581-6e3928ed0cc6",
+      "company": "Tangled",
+      "website": "https://tangled.org",
+      "emails": [
+        "team@tangled.org",
+        "security@tangled.org"
+      ],
+      "phones": [],
+      "linkedin": [],
+      "decision_makers": [],
+      "about": ""
+    },
+    {
+      "company_id": "d09813ea-0a79-4dea-abcc-4ecefd31292f",
+      "company": "MCP",
+      "website": "https://dosync.dev",
+      "emails": [
+        "rgiuliani@dosync.dev"
+      ],
+      "phones": [],
+      "linkedin": [],
+      "decision_makers": [],
+      "about": ""
+    },
+    {
+      "company_id": "d797508c-93e8-4e1e-b2da-2c3b5e851a5b",
+      "company": "Monday.com",
+      "website": "https://monday.com",
+      "emails": [
+        "support@monday.com",
+        "u003esupport@monday.com"
+      ],
+      "phones": [],
+      "linkedin": [
+        "https://www.linkedin.com/company/2525169",
+        "https://www.linkedin.com/company/2525169/",
+        "https://www.linkedin.com/company/monday"
+      ],
+      "decision_makers": [],
+      "about": "Our Story - monday.com Skip to main content Skip to footer AI platform ONE PLATFORM FOR ANY USE CASE Built for teams and"
+    },
+    {
+      "company_id": "de2511ec-e8b8-4fa0-aefd-28f3511859df",
+      "company": "Screenpipe",
+      "website": "https://screenpipe.com",
+      "emails": [],
+      "phones": [],
+      "linkedin": [
+        "https://www.linkedin.com/in/louis030195",
+        "https://www.linkedin.com/company/screenpipe"
+      ],
+      "decision_makers": [],
+      "about": "About screenpipe | Open source AI screen memory for your desktop What is screenpipe? screenpipe is a local-first memory "
+    },
+    {
+      "company_id": "e6497a93-5ccb-4664-84be-7a6d131301bb",
+      "company": "BorgShield",
+      "website": "https://backup.sh",
+      "emails": [],
+      "phones": [],
+      "linkedin": [],
+      "decision_makers": [],
+      "about": "TrackIP - Check Your IP Address and Country You need to enable JavaScript to run this app."
+    },
+    {
+      "company_id": "03d528d0-c29d-40ed-8e40-b312466c0290",
+      "company": "Reotrucks",
+      "website": "https://reotrucks.com",
+      "emails": [
+        "hello@reotrucks.com",
+        "press@reotrucks.com",
+        "partners@reotrucks.com"
+      ],
+      "phones": [],
+      "linkedin": [],
+      "decision_makers": [],
+      "about": ""
+    },
+    {
+      "company_id": "f191b22c-bfb2-43b8-8bc8-b9db9ed4d053",
+      "company": "Beyond",
+      "website": "https://fluctara.com",
+      "emails": [],
+      "phones": [],
+      "linkedin": [],
+      "decision_makers": [],
+      "about": ""
+    },
+    {
+      "company_id": "51b468e0-8c11-4858-b91b-aa5ef3069bbb",
+      "company": "onecli",
+      "website": "https://onecli.sh",
+      "emails": [],
+      "phones": [],
+      "linkedin": [
+        "https://www.linkedin.com/company/onecli"
+      ],
+      "decision_makers": [],
+      "about": ""
+    },
+    {
+      "company_id": "3812f83f-da89-4811-863c-7af4b0ef177b",
+      "company": "I made YAFL",
+      "website": "https://yafl.dev",
+      "emails": [],
+      "phones": [],
+      "linkedin": [],
+      "decision_makers": [],
+      "about": ""
+    },
+    {
+      "company_id": "8cdc6a35-3dc1-4357-9df5-416d63396677",
+      "company": "Deep",
+      "website": "https://pagewatch.tech",
+      "emails": [
+        "support@pagewatch.tech"
+      ],
+      "phones": [
+        "+44 7732 211237"
+      ],
+      "linkedin": [],
+      "decision_makers": [],
+      "about": ""
+    }
+  ],
+  "run_id": "18c90db0-7be4-4c5e-8122-da5f953330c5"
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "company": "Partnac",
+    "person": "spatocode",
+    "role": "Contact",
+    "buying_event": "mvp_build_request",
+    "problem": "Founder needs to build MVP/SaaS/product",
+    "why_now": "Product development is critical next step",
+    "service_match": "SaaS MVP Development",
+    "opportunity_type": "DIRECT_CUSTOMER",
+    "source_url": "https://partnac.com",
+    "source_date": "2026-07-31T13:49:36+00:00",
+    "contact": "help@partnac.com",
+    "contact_type": "LINKEDIN_DIRECT",
+    "contact_evidence": "Found via hacker_news: spatocode",
+    "outreach_channel": "email",
+    "outreach_reason": "Partnac has a verified need: Founder needs to build MVP/SaaS/product. They are actively looking for a solution (SaaS MVP Development). Source: hacker_news",
+    "personalization_points": [
+      "Author: spatocode",
+      "Direct need: Founder needs to build MVP/SaaS/product"
+    ],
+    "confidence": 1.0,
+    "freshness": "NEEDS_RESEARCH",
+    "days_old": 10,
+    "is_high_contactability": false,
+    "sales_ready_checks": {
+      "requirement_verified": true,
+      "currentness": false,
+      "buyer_identified": true,
+      "company_verified": true,
+      "evidence_verified": true,
+      "correct_opp_type": true,
+      "service_match_verified": true,
+      "contactability_high": false,
+      "evidence_consistency": true,
+      "competitor": false,
+      "safety_clear": true
+    },
+    "cto_test": "NO"
+  },
+  {
+    "company": "Shipbob",
+    "person": "N/A",
+    "role": "Contact",
+    "buying_event": "ecommerce_pain",
+    "problem": "Ecommerce business with customer engagement/retention challenges",
+    "why_now": "Growth is creating operational pressure on customer support",
+    "service_match": "COMAI -- AI Chatbot for Commerce",
+    "opportunity_type": "DIRECT_CUSTOMER",
+    "source_url": "https://www.ycombinator.com/companies/shipbob",
+    "source_date": "2026-07-28T16:39:03.687645+00:00",
+    "contact": "N/A",
+    "contact_type": "UNKNOWN",
+    "contact_evidence": "Company website: shipbob.com",
+    "outreach_channel": "unknown",
+    "outreach_reason": "Shipbob has a verified need: Ecommerce business with customer engagement/retention challenges. They are actively looking for a solution (COMAI -- AI Chatbot for Commerce). Source: yc",
+    "personalization_points": [
+      "Direct need: Ecommerce business with customer engagement/retention challenges"
+    ],
+    "confidence": 0.98,
+    "freshness": "NEEDS_RESEARCH",
+    "days_old": 13,
+    "is_high_contactability": false,
+    "sales_ready_checks": {
+      "requirement_verified": true,
+      "currentness": false,
+      "buyer_identified": false,
+      "company_verified": true,
+      "evidence_verified": true,
+      "correct_opp_type": true,
+      "service_match_verified": true,
+      "contactability_high": false,
+      "evidence_consistency": true,
+      "competitor": false,
+      "safety_clear": true
+    },
+    "cto_test": "NO"
+  }
+]

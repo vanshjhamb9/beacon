@@ -1,0 +1,308 @@
+{
+  "mission": "Operation Dataset Unlock \u2014 live operational audit",
+  "generated_at": "2026-07-25T15:30:56.790866+00:00",
+  "impact_statement": "This change increased Revenue Ready companies from 0 to 0; Verified Companies 44\u2192194; outreach-ready 2\u219214.",
+  "before": {
+    "verified_companies": 44,
+    "official_websites": 44,
+    "business_emails": 15,
+    "decision_makers": 3,
+    "sales_ready": 1,
+    "revenue_ready": 0,
+    "outreach_ready": 2
+  },
+  "after": {
+    "verified_companies": 194,
+    "official_websites": 194,
+    "business_emails": 55,
+    "decision_makers": 24,
+    "sales_ready": 13,
+    "revenue_ready": 0,
+    "outreach_ready": 14
+  },
+  "cto_answers": {
+    "1_official_websites_recovered": 150,
+    "2_highest_revenue_yield_connector": "yc",
+    "3_disable_connectors": [
+      "product_hunt (Missing Token / Cloudflare until PRODUCT_HUNT_DEVELOPER_TOKEN)"
+    ],
+    "4_business_emails_recovered": 40,
+    "5_decision_makers_recovered": 21,
+    "6_sales_ready": 13,
+    "7_revenue_ready": 0,
+    "8_vansh_contact_10": "YES"
+  },
+  "acceptance": {
+    "verified_companies": {
+      "target": 100,
+      "actual": 194
+    },
+    "business_emails": {
+      "target": 50,
+      "actual": 55
+    },
+    "decision_makers": {
+      "target": 25,
+      "actual": 24
+    },
+    "sales_ready": {
+      "target": 15,
+      "actual": 13
+    },
+    "revenue_ready": {
+      "target": 10,
+      "actual": 0
+    },
+    "vansh_contact_10": {
+      "target": 10,
+      "actual": 14
+    }
+  },
+  "connectors": [
+    {
+      "connector": "yc",
+      "signals": 120,
+      "websites": 119,
+      "companies": 119,
+      "emails": 55,
+      "decision_makers": 24,
+      "revenue_ready": 0,
+      "yield_pct": 0
+    },
+    {
+      "connector": "app_store",
+      "signals": 40,
+      "websites": 31,
+      "companies": 31,
+      "emails": 0,
+      "decision_makers": 0,
+      "revenue_ready": 0,
+      "yield_pct": 0
+    },
+    {
+      "connector": "github_trending",
+      "signals": 200,
+      "websites": 33,
+      "companies": 33,
+      "emails": 15,
+      "decision_makers": 3,
+      "revenue_ready": 0,
+      "yield_pct": 0
+    },
+    {
+      "connector": "product_hunt",
+      "signals": 787,
+      "websites": 0,
+      "companies": 0,
+      "emails": 0,
+      "decision_makers": 0,
+      "revenue_ready": 0,
+      "yield_pct": 0,
+      "health": "Missing Token"
+    }
+  ],
+  "top_failures": {
+    "Missing Token": 787,
+    "Cloudflare": 787,
+    "No Email": 139,
+    "No DM": 170
+  },
+  "top_companies": [
+    {
+      "company": "CircuitHub",
+      "website": "https://circuithub.com",
+      "email": "support@circuithub.com",
+      "decision_maker": "Pete Staples (CEO)",
+      "why_today": "YC company directory: Winter 2012",
+      "evidence": [
+        "Official website verified: https://circuithub.com",
+        "Business email recovered: support@circuithub.com",
+        "Decision maker: Pete Staples (CEO) via https://circuithub.com/about"
+      ],
+      "revenue_ready": false,
+      "sales_ready": true
+    },
+    {
+      "company": "Quartzy",
+      "website": "https://quartzy.com",
+      "email": "support@quartzy.com",
+      "decision_maker": "Eisenfrats Co (Founder)",
+      "why_today": "YC company directory: Summer 2011",
+      "evidence": [
+        "Official website verified: https://quartzy.com",
+        "Business email recovered: support@quartzy.com",
+        "Decision maker: Eisenfrats Co (Founder) via https://quartzy.com/about"
+      ],
+      "revenue_ready": false,
+      "sales_ready": true
+    },
+    {
+      "company": "tiimo ApS",
+      "website": "https://tiimoapp.com",
+      "email": "support@tiimoapp.com",
+      "decision_maker": "Melissa (Co-Founder)",
+      "why_today": "App Store listing: Tiimo: To Do List & AI Planner",
+      "evidence": [
+        "Official website verified: https://tiimoapp.com",
+        "Business email recovered: support@tiimoapp.com",
+        "Decision maker: Melissa (Co-Founder) via https://tiimoapp.com/about"
+      ],
+      "revenue_ready": false,
+      "sales_ready": true
+    },
+    {
+      "company": "Stripe",
+      "website": "https://stripe.com",
+      "email": "jane.diaz@stripe.com",
+      "decision_maker": "Dax Dasilva (Founder)",
+      "why_today": "YC company directory: Summer 2009",
+      "evidence": [
+        "Official website verified: https://stripe.com",
+        "Business email recovered: jane.diaz@stripe.com",
+        "Decision maker: Dax Dasilva (Founder) via https://stripe.com/about"
+      ],
+      "revenue_ready": false,
+      "sales_ready": true
+    },
+    {
+      "company": "GitHub: zapier/wade-skills",
+      "website": "https://zapier.com",
+      "email": "privacy@zapier.com",
+      "decision_maker": "Marcelo Lebre (Co-Founder)",
+      "why_today": "Verified identity",
+      "evidence": [
+        "Official website verified: https://zapier.com",
+        "Business email recovered: privacy@zapier.com",
+        "Decision maker: Marcelo Lebre (Co-Founder) via https://zapier.com/about"
+      ],
+      "revenue_ready": false,
+      "sales_ready": true
+    },
+    {
+      "company": "SmartAsset",
+      "website": "https://smartasset.com",
+      "email": "info@smartasset.com",
+      "decision_maker": "Co (Founder)",
+      "why_today": "YC company directory: Summer 2012",
+      "evidence": [
+        "Official website verified: https://smartasset.com",
+        "Business email recovered: info@smartasset.com",
+        "Decision maker: Co (Founder) via https://smartasset.com/about"
+      ],
+      "revenue_ready": false,
+      "sales_ready": true
+    },
+    {
+      "company": "Multiply Labs",
+      "website": "https://multiplylabs.com",
+      "email": "marketing@multiplylabs.com",
+      "decision_maker": "Melocchi Co (Founder)",
+      "why_today": "YC company directory: Summer 2016",
+      "evidence": [
+        "Official website verified: https://multiplylabs.com",
+        "Business email recovered: marketing@multiplylabs.com",
+        "Decision maker: Melocchi Co (Founder) via https://multiplylabs.com/about"
+      ],
+      "revenue_ready": false,
+      "sales_ready": true
+    },
+    {
+      "company": "PiinPoint",
+      "website": "https://piinpoint.com",
+      "email": "info@piinpoint.com",
+      "decision_maker": "Jim Robeson (CEO)",
+      "why_today": "YC company directory: Winter 2014",
+      "evidence": [
+        "Official website verified: https://piinpoint.com",
+        "Business email recovered: info@piinpoint.com",
+        "Decision maker: Jim Robeson (CEO) via https://piinpoint.com/about"
+      ],
+      "revenue_ready": false,
+      "sales_ready": true
+    },
+    {
+      "company": "Heroic Labs",
+      "website": "https://heroiclabs.com",
+      "email": "sales@heroiclabs.com",
+      "decision_maker": "Mo Co (Founder)",
+      "why_today": "YC company directory: Summer 2015",
+      "evidence": [
+        "Official website verified: https://heroiclabs.com",
+        "Business email recovered: sales@heroiclabs.com",
+        "Decision maker: Mo Co (Founder) via https://heroiclabs.com/about"
+      ],
+      "revenue_ready": false,
+      "sales_ready": true
+    },
+    {
+      "company": "Verge Genomics",
+      "website": "https://vergegenomics.com",
+      "email": "info@vergegenomics.com",
+      "decision_maker": "Alice Zhang (CEO)",
+      "why_today": "YC company directory: Summer 2015",
+      "evidence": [
+        "Official website verified: https://vergegenomics.com",
+        "Business email recovered: info@vergegenomics.com",
+        "Decision maker: Alice Zhang (CEO) via https://vergegenomics.com/about"
+      ],
+      "revenue_ready": false,
+      "sales_ready": true
+    },
+    {
+      "company": "Giveffect",
+      "website": "https://giveffect.com",
+      "email": "support@giveffect.com",
+      "decision_maker": "Abbey Scott (Chief Executive Officer)",
+      "why_today": "YC company directory: Winter 2015",
+      "evidence": [
+        "Official website verified: https://giveffect.com",
+        "Business email recovered: support@giveffect.com",
+        "Decision maker: Abbey Scott (Chief Executive Officer) via https://giveffect.com/about"
+      ],
+      "revenue_ready": false,
+      "sales_ready": true
+    },
+    {
+      "company": "Ambient.ai",
+      "website": "https://ambient.ai",
+      "email": "sales@ambient.ai",
+      "decision_maker": "Executive Officer (Co-Founder)",
+      "why_today": "YC company directory: Winter 2017",
+      "evidence": [
+        "Official website verified: https://ambient.ai",
+        "Business email recovered: sales@ambient.ai",
+        "Decision maker: Executive Officer (Co-Founder) via https://ambient.ai/about"
+      ],
+      "revenue_ready": false,
+      "sales_ready": true
+    },
+    {
+      "company": "Amplitude",
+      "website": "https://amplitude.com",
+      "email": "sales@amplitude.com",
+      "decision_maker": "Wang Co (Founder)",
+      "why_today": "YC company directory: Winter 2012",
+      "evidence": [
+        "Official website verified: https://amplitude.com",
+        "Business email recovered: sales@amplitude.com",
+        "Decision maker: Wang Co (Founder) via https://amplitude.com/about"
+      ],
+      "revenue_ready": false,
+      "sales_ready": true
+    },
+    {
+      "company": "Monday.com",
+      "website": "https://monday.com",
+      "email": "support@monday.com",
+      "decision_maker": "Senior Director (CTO)",
+      "why_today": "Verified identity",
+      "evidence": [
+        "Official website verified: https://monday.com",
+        "Business email recovered: support@monday.com",
+        "Decision maker: Senior Director (CTO) via https://monday.com/about"
+      ],
+      "revenue_ready": false,
+      "sales_ready": false
+    }
+  ]
+}

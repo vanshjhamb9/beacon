@@ -1,0 +1,372 @@
+[
+  {
+    "id": "ac31a585-7db0-4100-9fc3-057f6b4370d6",
+    "company": "LogisticsAI",
+    "domain": "logisticsai.com",
+    "classification": "ICP_OPPORTUNITY",
+    "business_type": "DIRECT_CUSTOMER",
+    "problem": "Company with Hiring technical leadership",
+    "why_now": "Growing company that may need technical support",
+    "solution": "INOWIX -- SaaS + Custom Software Development",
+    "outreach_reason": "LogisticsAI has Hiring technical leadership. They may need additional technical capacity.",
+    "contact": {
+      "email": null,
+      "author": "founder_tech_88",
+      "twitter": null,
+      "linkedin": null
+    },
+    "evidence": [
+      {
+        "type": "content",
+        "value": "Funded startup looking for a CTO or technical co-founder. We have the business side covered but need technical leadership.",
+        "source": "reddit"
+      },
+      {
+        "type": "supporting_signal",
+        "signal": "technical_hiring",
+        "confidence": 0.7,
+        "description": "Hiring technical leadership"
+      }
+    ],
+    "freshness": "CURRENT",
+    "days_old": 0,
+    "contact_type": "UNKNOWN",
+    "is_high_contactability": false,
+    "source_url": "https://www.reddit.com/r/startups/comments/6fdce480",
+    "source": "reddit",
+    "published_at": "2026-08-10T08:53:35.665138+00:00",
+    "pain_signals": [],
+    "buying_signals": [],
+    "partner_signals": [],
+    "icp_score": 1.0,
+    "outreach_preparation": {
+      "company": "LogisticsAI",
+      "contact": "N/A",
+      "problem": "Company with Hiring technical leadership",
+      "why_now": "Growing company that may need technical support",
+      "evidence": [
+        {
+          "type": "content",
+          "value": "Funded startup looking for a CTO or technical co-founder. We have the business side covered but need technical leadership.",
+          "source": "reddit"
+        },
+        {
+          "type": "supporting_signal",
+          "signal": "technical_hiring",
+          "confidence": 0.7,
+          "description": "Hiring technical leadership"
+        }
+      ],
+      "solution": "INOWIX -- SaaS + Custom Software Development",
+      "why_comai": null,
+      "buyer_name": "founder_tech_88",
+      "buyer_role": "founder",
+      "why_inowix": "INOWIX can help LogisticsAI ship their technical projects faster with our experienced development team.",
+      "business_type": "UNKNOWN",
+      "outreach_angle": "icp",
+      "opportunity_type": "ICP_OPPORTUNITY",
+      "outreach_message": {
+        "email": {
+          "body": "Hi founder_tech_88,\n\nGiven LogisticsAI's growth,\n\nBased on what I've seen, Company with Hiring technical leadership is a challenge you're facing.\n\nWe help startups and growing businesses ship software faster. Our team has built MVPs, SaaS platforms, and mobile apps for companies at every stage.\n\nHappy to share more about how we've helped similar companies.\n\nBest,\nVansh Jhamb\nFounder\nInowix Technologies\nvansh@inowix.in\nhttps://www.inowix.in/",
+          "style": "founder_to_founder",
+          "channel": "email",
+          "subject": "Quick question about LogisticsAI",
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "Funded startup looking for a CTO or technical co-founder. We have the business side covered but need technical leadership.",
+              "source": "reddit"
+            },
+            {
+              "type": "supporting_signal",
+              "signal": "technical_hiring",
+              "confidence": 0.7,
+              "description": "Hiring technical leadership"
+            }
+          ],
+          "quality_scores": {
+            "readability": 0.9,
+            "personalization": 0.8,
+            "evidence_coverage": 0.7,
+            "professional_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: LogisticsAI",
+            "Problem: Company with Hiring technical leadership"
+          ]
+        },
+        "linkedin": {
+          "body": "Hi founder_tech_88,\n\ninterested in what you're building at LogisticsAI.\n\nWould love to connect and learn more about what you're building at LogisticsAI.\n\nBest,\nVansh",
+          "style": "founder_to_founder",
+          "channel": "linkedin",
+          "subject": null,
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "Funded startup looking for a CTO or technical co-founder. We have the business side covered but need technical leadership.",
+              "source": "reddit"
+            },
+            {
+              "type": "supporting_signal",
+              "signal": "technical_hiring",
+              "confidence": 0.7,
+              "description": "Hiring technical leadership"
+            }
+          ],
+          "quality_scores": {
+            "brevity": 0.9,
+            "personalization": 0.7,
+            "professional_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: LogisticsAI",
+            "Problem: Company with Hiring technical leadership"
+          ]
+        },
+        "whatsapp": {
+          "body": "Hi founder_tech_88, I noticed Company with Hiring technical leadership. We help businesses like LogisticsAI with INOWIX -- SaaS + Custom Software Development. Would love to chat! - Vansh, Inowix",
+          "style": "founder_to_founder",
+          "channel": "whatsapp",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "brevity": 0.9,
+            "casual_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: LogisticsAI",
+            "Problem: Company with Hiring technical leadership"
+          ]
+        },
+        "reddit_dm": {
+          "body": "Hey founder_tech_88,\n\nSaw your post about Company with Hiring technical leadership. I've helped similar companies with INOWIX -- SaaS + Custom Software Development.\n\nHappy to share some insights if you're interested. No pitch, just useful info.\n\nBest,\nVansh",
+          "style": "founder_to_founder",
+          "channel": "reddit_dm",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "non_salesy": 0.9,
+            "helpful_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: LogisticsAI",
+            "Problem: Company with Hiring technical leadership"
+          ]
+        }
+      },
+      "follow_up_sequence": [
+        {
+          "day": "0",
+          "body": "Initial outreach to LogisticsAI",
+          "channel": "email"
+        },
+        {
+          "day": "2",
+          "body": "Follow-up: Any thoughts on my previous email about Company with Hiring technical leadership?",
+          "channel": "email"
+        },
+        {
+          "day": "5",
+          "body": "LinkedIn connection request with note about LogisticsAI",
+          "channel": "linkedin"
+        },
+        {
+          "day": "7",
+          "body": "Final follow-up: Happy to chat whenever works for you.",
+          "channel": "email"
+        }
+      ],
+      "recommended_channel": "email",
+      "personalization_points": [
+        "Company: LogisticsAI",
+        "Problem: Company with Hiring technical leadership"
+      ]
+    },
+    "cto_test": false
+  },
+  {
+    "id": "edd48fd3-ad5d-4f4d-96dc-9d6065e2bd2a",
+    "company": "LogisticsAI",
+    "domain": "mobileapp.dev",
+    "classification": "ICP_OPPORTUNITY",
+    "business_type": "DIRECT_CUSTOMER",
+    "problem": "Company with Hiring technical leadership",
+    "why_now": "Growing company that may need technical support",
+    "solution": "INOWIX -- SaaS + Custom Software Development",
+    "outreach_reason": "LogisticsAI has Hiring technical leadership. They may need additional technical capacity.",
+    "contact": {
+      "email": null,
+      "author": "founder_tech_88",
+      "twitter": null,
+      "linkedin": null
+    },
+    "evidence": [
+      {
+        "type": "content",
+        "value": "We're building an AI-powered analytics platform. Need help with the backend architecture and ML pipeline. Looking for a technical partner.",
+        "source": "reddit"
+      },
+      {
+        "type": "supporting_signal",
+        "signal": "technical_hiring",
+        "confidence": 0.7,
+        "description": "Hiring technical leadership"
+      }
+    ],
+    "freshness": "CURRENT",
+    "days_old": 0,
+    "contact_type": "UNKNOWN",
+    "is_high_contactability": false,
+    "source_url": "https://www.reddit.com/r/startups/comments/847ff84d",
+    "source": "reddit",
+    "published_at": "2026-08-10T07:53:35.665127+00:00",
+    "pain_signals": [],
+    "buying_signals": [],
+    "partner_signals": [],
+    "icp_score": 1.0,
+    "outreach_preparation": {
+      "company": "LogisticsAI",
+      "contact": "N/A",
+      "problem": "Company with Hiring technical leadership",
+      "why_now": "Growing company that may need technical support",
+      "evidence": [
+        {
+          "type": "content",
+          "value": "We're building an AI-powered analytics platform. Need help with the backend architecture and ML pipeline. Looking for a technical partner.",
+          "source": "reddit"
+        },
+        {
+          "type": "supporting_signal",
+          "signal": "technical_hiring",
+          "confidence": 0.7,
+          "description": "Hiring technical leadership"
+        }
+      ],
+      "solution": "INOWIX -- SaaS + Custom Software Development",
+      "why_comai": null,
+      "buyer_name": "founder_tech_88",
+      "buyer_role": "founder",
+      "why_inowix": "INOWIX can help LogisticsAI ship their technical projects faster with our experienced development team.",
+      "business_type": "UNKNOWN",
+      "outreach_angle": "icp",
+      "opportunity_type": "ICP_OPPORTUNITY",
+      "outreach_message": {
+        "email": {
+          "body": "Hi founder_tech_88,\n\nGiven LogisticsAI's growth,\n\nBased on what I've seen, Company with Hiring technical leadership is a challenge you're facing.\n\nWe help startups and growing businesses ship software faster. Our team has built MVPs, SaaS platforms, and mobile apps for companies at every stage.\n\nHappy to share more about how we've helped similar companies.\n\nBest,\nVansh Jhamb\nFounder\nInowix Technologies\nvansh@inowix.in\nhttps://www.inowix.in/",
+          "style": "founder_to_founder",
+          "channel": "email",
+          "subject": "Quick question about LogisticsAI",
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "We're building an AI-powered analytics platform. Need help with the backend architecture and ML pipeline. Looking for a technical partner.",
+              "source": "reddit"
+            },
+            {
+              "type": "supporting_signal",
+              "signal": "technical_hiring",
+              "confidence": 0.7,
+              "description": "Hiring technical leadership"
+            }
+          ],
+          "quality_scores": {
+            "readability": 0.9,
+            "personalization": 0.8,
+            "evidence_coverage": 0.7,
+            "professional_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: LogisticsAI",
+            "Problem: Company with Hiring technical leadership"
+          ]
+        },
+        "linkedin": {
+          "body": "Hi founder_tech_88,\n\ninterested in what you're building at LogisticsAI.\n\nWould love to connect and learn more about what you're building at LogisticsAI.\n\nBest,\nVansh",
+          "style": "founder_to_founder",
+          "channel": "linkedin",
+          "subject": null,
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "We're building an AI-powered analytics platform. Need help with the backend architecture and ML pipeline. Looking for a technical partner.",
+              "source": "reddit"
+            },
+            {
+              "type": "supporting_signal",
+              "signal": "technical_hiring",
+              "confidence": 0.7,
+              "description": "Hiring technical leadership"
+            }
+          ],
+          "quality_scores": {
+            "brevity": 0.9,
+            "personalization": 0.7,
+            "professional_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: LogisticsAI",
+            "Problem: Company with Hiring technical leadership"
+          ]
+        },
+        "whatsapp": {
+          "body": "Hi founder_tech_88, I noticed Company with Hiring technical leadership. We help businesses like LogisticsAI with INOWIX -- SaaS + Custom Software Development. Would love to chat! - Vansh, Inowix",
+          "style": "founder_to_founder",
+          "channel": "whatsapp",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "brevity": 0.9,
+            "casual_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: LogisticsAI",
+            "Problem: Company with Hiring technical leadership"
+          ]
+        },
+        "reddit_dm": {
+          "body": "Hey founder_tech_88,\n\nSaw your post about Company with Hiring technical leadership. I've helped similar companies with INOWIX -- SaaS + Custom Software Development.\n\nHappy to share some insights if you're interested. No pitch, just useful info.\n\nBest,\nVansh",
+          "style": "founder_to_founder",
+          "channel": "reddit_dm",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "non_salesy": 0.9,
+            "helpful_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: LogisticsAI",
+            "Problem: Company with Hiring technical leadership"
+          ]
+        }
+      },
+      "follow_up_sequence": [
+        {
+          "day": "0",
+          "body": "Initial outreach to LogisticsAI",
+          "channel": "email"
+        },
+        {
+          "day": "2",
+          "body": "Follow-up: Any thoughts on my previous email about Company with Hiring technical leadership?",
+          "channel": "email"
+        },
+        {
+          "day": "5",
+          "body": "LinkedIn connection request with note about LogisticsAI",
+          "channel": "linkedin"
+        },
+        {
+          "day": "7",
+          "body": "Final follow-up: Happy to chat whenever works for you.",
+          "channel": "email"
+        }
+      ],
+      "recommended_channel": "email",
+      "personalization_points": [
+        "Company: LogisticsAI",
+        "Problem: Company with Hiring technical leadership"
+      ]
+    },
+    "cto_test": false
+  }
+]

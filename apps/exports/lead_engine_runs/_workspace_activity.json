@@ -1,0 +1,217 @@
+{
+  "updated_at": "2026-08-14T21:46:45.025331+00:00",
+  "feed": [
+    {
+      "id": "b7041c0d-ea5f-431f-9cba-d131f684034d",
+      "event": "stage_move",
+      "detail": "Bevzilla → lost",
+      "meta": {
+        "email": "info@bevzilla.com",
+        "stage": "lost"
+      },
+      "at": "2026-08-14T21:46:45.025306+00:00"
+    },
+    {
+      "id": "6334effe-8928-48eb-aa00-94719389ac9e",
+      "event": "outreach_sent",
+      "detail": "Marked sent to Carmesi <care@mycarmesi.com>",
+      "meta": {
+        "email": "care@mycarmesi.com",
+        "subject": "Carmesi — WhatsApp replies before the cart goes cold"
+      },
+      "at": "2026-08-14T21:46:44.938724+00:00"
+    },
+    {
+      "id": "18b410f7-cf62-4b25-a250-194bbc58a945",
+      "event": "draft_generated",
+      "detail": "Draft ready for Carmesi",
+      "meta": {
+        "email": "care@mycarmesi.com",
+        "hook": "WhatsApp present on site · No chatbot on site · Found 83 instances of return_policy references · Found 51 instances of shipping_info…"
+      },
+      "at": "2026-08-14T21:46:44.815615+00:00"
+    },
+    {
+      "id": "51aebb2d-d683-46b8-a68a-00888cded9aa",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Vaaree",
+      "meta": {
+        "id": "93078a9b-a927-56bb-986a-70d641624d60"
+      },
+      "at": "2026-08-14T21:39:11.827903+00:00"
+    },
+    {
+      "id": "2f659694-8f62-45c3-9e1b-0649eccef6d5",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to AND Designs",
+      "meta": {
+        "id": "a2f50765-51ac-5ced-9e9b-00298a226785"
+      },
+      "at": "2026-08-14T21:39:10.465459+00:00"
+    },
+    {
+      "id": "52e849cf-5121-4357-9408-d19aaa6e6658",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to The Beard Club",
+      "meta": {
+        "id": "d856b0e7-8eee-58b7-b252-7c5a1272e05a"
+      },
+      "at": "2026-08-14T21:39:09.258572+00:00"
+    },
+    {
+      "id": "dbfeb96e-50cb-40a6-afb7-cf83acca26bf",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Caprese",
+      "meta": {
+        "id": "fefb4315-9e33-57fd-a8f6-56d040d981bc"
+      },
+      "at": "2026-08-14T21:39:08.164374+00:00"
+    },
+    {
+      "id": "6e029629-4434-41ac-803a-8d0db85227dd",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to The Moms Co",
+      "meta": {
+        "id": "16bbab90-a6ab-5bf9-8ec8-63c00a774287"
+      },
+      "at": "2026-08-14T21:39:06.192252+00:00"
+    },
+    {
+      "id": "7e272408-161c-4699-abbb-8a520749b640",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Tjori",
+      "meta": {
+        "id": "3477c7ff-bccc-5484-8041-b15821bff6ba"
+      },
+      "at": "2026-08-14T21:39:04.829717+00:00"
+    },
+    {
+      "id": "f1d3772d-dc41-413a-b05a-5dc213cdfe6c",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Nua Woman",
+      "meta": {
+        "id": "ee1ec84f-0675-5140-8725-5f44f187a052"
+      },
+      "at": "2026-08-14T21:39:01.480732+00:00"
+    },
+    {
+      "id": "2260f6fd-c27b-4cfa-bb25-b8c2167a476a",
+      "event": "stage_move",
+      "detail": "Amrapali Jewels Mid → replied",
+      "meta": {
+        "email": "info@amrapalijewels.com",
+        "stage": "replied"
+      },
+      "at": "2026-08-14T21:38:07.981480+00:00"
+    },
+    {
+      "id": "a89fa768-a2b8-4012-aba0-d67e96622f8f",
+      "event": "stage_move",
+      "detail": "Amrapali Jewels Mid → lost",
+      "meta": {
+        "email": "info@amrapalijewels.com",
+        "stage": "lost"
+      },
+      "at": "2026-08-14T21:38:02.405658+00:00"
+    },
+    {
+      "id": "36749a55-a337-498d-b602-ac945b048102",
+      "event": "stage_move",
+      "detail": "Amrapali Jewels Mid → meeting",
+      "meta": {
+        "email": "info@amrapalijewels.com",
+        "stage": "meeting"
+      },
+      "at": "2026-08-14T21:37:57.133749+00:00"
+    },
+    {
+      "id": "764438ae-fa25-44b2-a69b-f036dd22f4f2",
+      "event": "stage_move",
+      "detail": "Amrapali Jewels Mid → replied",
+      "meta": {
+        "email": "info@amrapalijewels.com",
+        "stage": "replied"
+      },
+      "at": "2026-08-14T21:37:48.757096+00:00"
+    },
+    {
+      "id": "d5a02715-5009-49a4-90e7-cff3fcfc581e",
+      "event": "stage_move",
+      "detail": "Carmesi → contacted",
+      "meta": {
+        "email": "care@mycarmesi.com",
+        "stage": "contacted"
+      },
+      "at": "2026-08-14T21:37:35.637437+00:00"
+    },
+    {
+      "id": "0fca9e2f-70bc-43d4-8ff5-e3bd510a242f",
+      "event": "stage_move",
+      "detail": "Carmesi → contacted",
+      "meta": {
+        "email": "care@mycarmesi.com",
+        "stage": "contacted"
+      },
+      "at": "2026-08-14T21:37:35.139052+00:00"
+    },
+    {
+      "id": "d990d01f-cd7b-400e-a21b-f8f248bb55d1",
+      "event": "stage_move",
+      "detail": "Carmesi → contacted",
+      "meta": {
+        "email": "care@mycarmesi.com",
+        "stage": "contacted"
+      },
+      "at": "2026-08-14T21:37:19.974603+00:00"
+    },
+    {
+      "id": "f156fcb8-9c70-481c-86df-7d2ec146c90e",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Bevzilla",
+      "meta": {
+        "id": "85df5233-c9a1-55a2-9b16-79e102c82bbf"
+      },
+      "at": "2026-08-14T21:35:08.878230+00:00"
+    },
+    {
+      "id": "3e66416a-7538-45dd-afc3-285307af4dd3",
+      "event": "workspace_sync",
+      "detail": "Synced 15 Lead Engine leads into Home / Leads / Pipeline / Outreach",
+      "meta": {
+        "lead_count": 15,
+        "campaign_count": 15
+      },
+      "at": "2026-08-14T21:35:08.625273+00:00"
+    },
+    {
+      "id": "a275ab11-c75e-4349-8c93-c7c02e81db82",
+      "event": "workspace_sync",
+      "detail": "Synced 15 Lead Engine leads into Home / Leads / Pipeline / Outreach",
+      "meta": {
+        "lead_count": 15,
+        "campaign_count": 15
+      },
+      "at": "2026-08-14T21:34:20.354817+00:00"
+    },
+    {
+      "id": "664c750e-fbd6-48dd-9dcf-f9e5db47c918",
+      "event": "stage_move",
+      "detail": "Amrapali Jewels Mid → contacted",
+      "meta": {
+        "email": "info@amrapalijewels.com",
+        "stage": "contacted"
+      },
+      "at": "2026-08-14T21:33:57.572937+00:00"
+    },
+    {
+      "id": "c4315821-2d8d-4873-8409-009f2043663b",
+      "event": "workspace_sync",
+      "detail": "Synced 15 Lead Engine leads into Home / Leads / Pipeline / Outreach",
+      "meta": {
+        "lead_count": 15,
+        "campaign_count": 15
+      },
+      "at": "2026-08-14T21:33:57.029971+00:00"
+    }
+  ]
+}

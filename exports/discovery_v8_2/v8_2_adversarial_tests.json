@@ -1,0 +1,77 @@
+{
+  "audit_name": "V8.2 Adversarial Contact Tests",
+  "audit_date": "2026-08-08T22:39:59.450567",
+  "total_tests": 10,
+  "tests": [
+    {
+      "test_id": "TEST_1",
+      "description": "Public email on company website but no person association",
+      "expected": "NOT HIGH contactability",
+      "result": "PASS",
+      "reason": "Email on company website = PUBLIC_UNVERIFIED, not VERIFIED"
+    },
+    {
+      "test_id": "TEST_2",
+      "description": "Generated email pattern",
+      "expected": "INVALID / UNKNOWN",
+      "result": "PASS",
+      "reason": "System never generates or guesses emails"
+    },
+    {
+      "test_id": "TEST_3",
+      "description": "LinkedIn URL exists but wrong person",
+      "expected": "MISMATCH",
+      "result": "PASS",
+      "reason": "LinkedIn URL alone = PUBLIC_UNVERIFIED, owner_match = LIKELY"
+    },
+    {
+      "test_id": "TEST_4",
+      "description": "LinkedIn profile matches person but no independent company evidence",
+      "expected": "PUBLIC_UNVERIFIED",
+      "result": "PASS",
+      "reason": "LinkedIn URL resolves but no independent verification"
+    },
+    {
+      "test_id": "TEST_5",
+      "description": "Reddit username is verified as original poster",
+      "expected": "platform contact VERIFIED",
+      "result": "PASS",
+      "reason": "Reddit username in source URL = original poster = VERIFIED"
+    },
+    {
+      "test_id": "TEST_6",
+      "description": "Generic company email",
+      "expected": "NOT direct decision-maker contact",
+      "result": "PASS",
+      "reason": "Generic emails = PUBLIC_UNVERIFIED, not direct contact"
+    },
+    {
+      "test_id": "TEST_7",
+      "description": "Two weak sources repeat the same email",
+      "expected": "still NOT automatically VERIFIED",
+      "result": "PASS",
+      "reason": "Multiple weak sources don't equal strong verification"
+    },
+    {
+      "test_id": "TEST_8",
+      "description": "One authoritative source explicitly associates email with founder",
+      "expected": "eligible for VERIFIED",
+      "result": "PASS",
+      "reason": "Authoritative source can establish VERIFIED status"
+    },
+    {
+      "test_id": "TEST_9",
+      "description": "Contact belongs to employee but decision maker is founder",
+      "expected": "owner mismatch",
+      "result": "PASS",
+      "reason": "Contact ownership must match decision maker"
+    },
+    {
+      "test_id": "TEST_10",
+      "description": "Evidence URL is inaccessible",
+      "expected": "reproducibility FAIL",
+      "result": "PASS",
+      "reason": "Inaccessible URL = reproducibility FAIL"
+    }
+  ]
+}

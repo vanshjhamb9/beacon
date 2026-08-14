@@ -1,0 +1,418 @@
+{
+  "mission": "Sprint 33 \u2014 RDAP v1 live audit",
+  "generated_at": "2026-07-25T13:00:04.870291+00:00",
+  "before": {
+    "companies": 44,
+    "verified_companies": 44,
+    "official_websites": 44,
+    "business_emails": 15,
+    "decision_makers": 3,
+    "sales_ready": 0,
+    "revenue_ready": 0,
+    "outreach_ready": 2
+  },
+  "after": {
+    "companies": 44,
+    "verified_companies": 44,
+    "official_websites": 44,
+    "business_emails": 15,
+    "decision_makers": 3,
+    "sales_ready": 1,
+    "revenue_ready": 0,
+    "outreach_ready": 2,
+    "signals": 1349,
+    "companies_created": 0,
+    "github_live_fetches": 54,
+    "companies_crawled": 44
+  },
+  "created": 0,
+  "github_live_fetches": 54,
+  "companies_crawled": 44,
+  "audit": {
+    "before": {
+      "companies": 44,
+      "verified_companies": 44,
+      "official_websites": 44,
+      "business_emails": 15,
+      "decision_makers": 3,
+      "sales_ready": 0,
+      "revenue_ready": 0,
+      "outreach_ready": 2
+    },
+    "after": {
+      "companies": 44,
+      "verified_companies": 44,
+      "official_websites": 44,
+      "business_emails": 15,
+      "decision_makers": 3,
+      "sales_ready": 1,
+      "revenue_ready": 0,
+      "outreach_ready": 2,
+      "signals": 1349,
+      "companies_created": 0,
+      "github_live_fetches": 54,
+      "companies_crawled": 44
+    },
+    "funnel": [
+      {
+        "name": "Signals",
+        "count": 1349,
+        "conversion_pct": 100.0
+      },
+      {
+        "name": "Identity Candidates",
+        "count": 857,
+        "conversion_pct": 63.53
+      },
+      {
+        "name": "Official Websites",
+        "count": 16,
+        "conversion_pct": 1.87
+      },
+      {
+        "name": "Verified Companies",
+        "count": 44,
+        "conversion_pct": 275.0
+      },
+      {
+        "name": "Business Emails",
+        "count": 15,
+        "conversion_pct": 34.09
+      },
+      {
+        "name": "Decision Makers",
+        "count": 3,
+        "conversion_pct": 20.0
+      },
+      {
+        "name": "Sales Ready",
+        "count": 1,
+        "conversion_pct": 33.33
+      },
+      {
+        "name": "Revenue Ready",
+        "count": 0,
+        "conversion_pct": 0.0
+      }
+    ],
+    "connectors": [
+      {
+        "connector": "github_trending",
+        "grade": "Excellent",
+        "signals": 103,
+        "candidates": 103,
+        "verified_companies": 33,
+        "official_websites": 49,
+        "business_emails": 22,
+        "decision_makers": 18,
+        "sales_ready": 17,
+        "revenue_ready": 0,
+        "duplicate_pct": 0.0,
+        "website_recovery_pct": 47.57,
+        "email_recovery_pct": 66.67,
+        "dm_recovery_pct": 54.55,
+        "average_confidence": 44.76,
+        "revenue_yield": 0.0,
+        "roles": [
+          "IDENTITY",
+          "TECH"
+        ]
+      },
+      {
+        "connector": "devto",
+        "grade": "Average",
+        "signals": 204,
+        "candidates": 4,
+        "verified_companies": 4,
+        "official_websites": 4,
+        "business_emails": 3,
+        "decision_makers": 0,
+        "sales_ready": 0,
+        "revenue_ready": 0,
+        "duplicate_pct": 0.0,
+        "website_recovery_pct": 1.96,
+        "email_recovery_pct": 75.0,
+        "dm_recovery_pct": 0.0,
+        "average_confidence": 30.66,
+        "revenue_yield": 0.0,
+        "roles": [
+          "COMMUNITY",
+          "TECH"
+        ]
+      },
+      {
+        "connector": "hacker_news",
+        "grade": "Average",
+        "signals": 122,
+        "candidates": 4,
+        "verified_companies": 4,
+        "official_websites": 4,
+        "business_emails": 3,
+        "decision_makers": 0,
+        "sales_ready": 0,
+        "revenue_ready": 0,
+        "duplicate_pct": 0.0,
+        "website_recovery_pct": 3.28,
+        "email_recovery_pct": 75.0,
+        "dm_recovery_pct": 0.0,
+        "average_confidence": 31.07,
+        "revenue_yield": 0.0,
+        "roles": [
+          "COMMUNITY"
+        ]
+      },
+      {
+        "connector": "unknown",
+        "grade": "Good",
+        "signals": 2,
+        "candidates": 2,
+        "verified_companies": 2,
+        "official_websites": 2,
+        "business_emails": 2,
+        "decision_makers": 0,
+        "sales_ready": 0,
+        "revenue_ready": 0,
+        "duplicate_pct": 0.0,
+        "website_recovery_pct": 100.0,
+        "email_recovery_pct": 100.0,
+        "dm_recovery_pct": 0.0,
+        "average_confidence": 70.0,
+        "revenue_yield": 0.0,
+        "roles": [
+          "COMMUNITY"
+        ]
+      },
+      {
+        "connector": "rss",
+        "grade": "Average",
+        "signals": 111,
+        "candidates": 1,
+        "verified_companies": 1,
+        "official_websites": 1,
+        "business_emails": 1,
+        "decision_makers": 1,
+        "sales_ready": 0,
+        "revenue_ready": 0,
+        "duplicate_pct": 0.0,
+        "website_recovery_pct": 0.9,
+        "email_recovery_pct": 100.0,
+        "dm_recovery_pct": 100.0,
+        "average_confidence": 30.5,
+        "revenue_yield": 0.0,
+        "roles": [
+          "NEWS"
+        ]
+      },
+      {
+        "connector": "product_hunt",
+        "grade": "Poor",
+        "signals": 787,
+        "candidates": 787,
+        "verified_companies": 0,
+        "official_websites": 0,
+        "business_emails": 0,
+        "decision_makers": 0,
+        "sales_ready": 0,
+        "revenue_ready": 0,
+        "duplicate_pct": 0.0,
+        "website_recovery_pct": 0.0,
+        "email_recovery_pct": 0.0,
+        "dm_recovery_pct": 0.0,
+        "average_confidence": 30.0,
+        "revenue_yield": 0.0,
+        "roles": [
+          "IDENTITY"
+        ]
+      },
+      {
+        "connector": "reddit",
+        "grade": "Disabled",
+        "signals": 39,
+        "candidates": 0,
+        "verified_companies": 0,
+        "official_websites": 0,
+        "business_emails": 0,
+        "decision_makers": 0,
+        "sales_ready": 0,
+        "revenue_ready": 0,
+        "duplicate_pct": 0.0,
+        "website_recovery_pct": 0.0,
+        "email_recovery_pct": 0.0,
+        "dm_recovery_pct": 0.0,
+        "average_confidence": 30.0,
+        "revenue_yield": 0.0,
+        "roles": [
+          "COMMUNITY"
+        ]
+      },
+      {
+        "connector": "sec_edgar",
+        "grade": "Disabled",
+        "signals": 25,
+        "candidates": 0,
+        "verified_companies": 0,
+        "official_websites": 0,
+        "business_emails": 0,
+        "decision_makers": 0,
+        "sales_ready": 0,
+        "revenue_ready": 0,
+        "duplicate_pct": 0.0,
+        "website_recovery_pct": 0.0,
+        "email_recovery_pct": 0.0,
+        "dm_recovery_pct": 0.0,
+        "average_confidence": 30.0,
+        "revenue_yield": 0.0,
+        "roles": [
+          "FUNDING",
+          "NEWS"
+        ]
+      }
+    ],
+    "yields": [
+      {
+        "connector": "github_trending",
+        "signals": 103,
+        "websites": 49,
+        "companies": 33,
+        "emails": 22,
+        "decision_makers": 18,
+        "revenue_ready": 0,
+        "yield_pct": 0.0
+      },
+      {
+        "connector": "devto",
+        "signals": 204,
+        "websites": 4,
+        "companies": 4,
+        "emails": 3,
+        "decision_makers": 0,
+        "revenue_ready": 0,
+        "yield_pct": 0.0
+      },
+      {
+        "connector": "hacker_news",
+        "signals": 122,
+        "websites": 4,
+        "companies": 4,
+        "emails": 3,
+        "decision_makers": 0,
+        "revenue_ready": 0,
+        "yield_pct": 0.0
+      },
+      {
+        "connector": "unknown",
+        "signals": 2,
+        "websites": 2,
+        "companies": 2,
+        "emails": 2,
+        "decision_makers": 0,
+        "revenue_ready": 0,
+        "yield_pct": 0.0
+      },
+      {
+        "connector": "rss",
+        "signals": 111,
+        "websites": 1,
+        "companies": 1,
+        "emails": 1,
+        "decision_makers": 1,
+        "revenue_ready": 0,
+        "yield_pct": 0.0
+      },
+      {
+        "connector": "product_hunt",
+        "signals": 787,
+        "websites": 0,
+        "companies": 0,
+        "emails": 0,
+        "decision_makers": 0,
+        "revenue_ready": 0,
+        "yield_pct": 0.0
+      },
+      {
+        "connector": "reddit",
+        "signals": 39,
+        "websites": 0,
+        "companies": 0,
+        "emails": 0,
+        "decision_makers": 0,
+        "revenue_ready": 0,
+        "yield_pct": 0.0
+      },
+      {
+        "connector": "sec_edgar",
+        "signals": 25,
+        "websites": 0,
+        "companies": 0,
+        "emails": 0,
+        "decision_makers": 0,
+        "revenue_ready": 0,
+        "yield_pct": 0.0
+      }
+    ],
+    "top_rejections": {
+      "Website Missing": 1333,
+      "Email Missing": 16,
+      "Decision Maker Missing": 16
+    },
+    "top_revenue_ready": [
+      {
+        "company_id": "741c6b44-c62e-4e63-b14f-b846bd9ce88a",
+        "name": "GitHub: zapier/wade-skills",
+        "domain": "zapier.com",
+        "website": "https://zapier.com",
+        "email": "privacy@zapier.com",
+        "decision_maker": "Marcelo Lebre (Co-Founder)",
+        "sales_ready": true,
+        "revenue_ready": false,
+        "trust_score": 95.0,
+        "evidence": [
+          "Official website verified: https://zapier.com",
+          "Business email recovered: privacy@zapier.com",
+          "Decision maker: Marcelo Lebre (Co-Founder) via https://zapier.com/about"
+        ]
+      }
+    ],
+    "vansh_ready_answer": "NO",
+    "scoring_version": "rdap-v1"
+  },
+  "acceptance": {
+    "verified_companies": {
+      "current_baseline": 44,
+      "target": 75,
+      "actual": 44
+    },
+    "official_websites": {
+      "current_baseline": 44,
+      "target": 75,
+      "actual": 44
+    },
+    "business_emails": {
+      "current_baseline": 15,
+      "target": 40,
+      "actual": 15
+    },
+    "decision_makers": {
+      "current_baseline": 3,
+      "target": 15,
+      "actual": 3
+    },
+    "sales_ready": {
+      "current_baseline": 0,
+      "target": 10,
+      "actual": 1
+    },
+    "revenue_ready": {
+      "current_baseline": 0,
+      "target": 5,
+      "actual": 0
+    },
+    "vansh_ready_answer": "NO",
+    "fabricated": 0
+  },
+  "blockers": [
+    "PRODUCT_HUNT_DEVELOPER_TOKEN not set \u2192 PH GraphQL website recovery unavailable",
+    "GITHUB_TOKEN optional; unauthenticated per-repo fetch capped",
+    "Revenue Ready still gated by REV definition (service match + intent + evidence)"
+  ]
+}

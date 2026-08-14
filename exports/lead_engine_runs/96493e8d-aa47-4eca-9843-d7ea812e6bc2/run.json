@@ -1,0 +1,15 @@
+{
+  "run_id": "96493e8d-aa47-4eca-9843-d7ea812e6bc2",
+  "product": "comai",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 188,
+    "enriched": 188,
+    "scored": 10,
+    "ready": 10,
+    "sent": 0
+  },
+  "generated_at": "2026-08-14T18:57:43.048299+00:00",
+  "lead_count": 10
+}

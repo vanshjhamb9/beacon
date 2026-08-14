@@ -1,0 +1,43 @@
+
+COMAI LEAD GENERATOR — Summary
+================================
+
+Total Leads: 400
+
+Priority Breakdown:
+  HOT:     20
+  WARM:    380
+  NURTURE: 0
+
+Contact Availability:
+  With Email:    23 (5%)
+  With Phone:    177 (44%)
+  With LinkedIn: 38 (9%)
+  With Instagram:61 (15%)
+
+Platform Breakdown:
+  Shopify/Plus: 11
+  WooCommerce:  5
+  Magento:      25
+
+Average Scores:
+  ICP Score:        97.9/100
+  Sales Readiness:  67.2/100
+
+Category Breakdown:
+  Electronics: 102
+  Footwear: 42
+  Beauty: 42
+  Fashion: 39
+  Food & Snacks: 28
+  Bags: 28
+  Home Decor: 24
+  Health & Wellness: 23
+  Baby Products: 22
+  Tea/Coffee: 16
+  Pet Products: 15
+  Jewellery: 13
+  Gifts: 4
+  Lifestyle: 2
+
+Generated: 2026-07-31 10:31 UTC

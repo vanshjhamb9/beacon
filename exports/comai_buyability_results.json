@@ -1,0 +1,4308 @@
+[
+  {
+    "company": "SuperBottoms",
+    "website": "https://superbottoms.com",
+    "domain": "superbottoms.com",
+    "industry": "baby",
+    "city": "Mumbai",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": 12,
+    "product_count_source": "html_text",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "resolutions@superbottoms.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "917091609272",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp, api.whatsapp, whatsapp.com/send",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/superbottoms/",
+      "facebook": "https://www.facebook.com/superbottoms/",
+      "twitter": "https://x.com/Superbottoms?s=20",
+      "linkedin": "https://www.linkedin.com/company/superbottoms/",
+      "youtube": "https://www.youtube.com/@SuperbottomsClothDiapersIndia"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 2 instances of faq_volume references",
+        "confidence": 0.7,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 149 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 62 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 91 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 12 instances of contact_page references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "large_catalog",
+        "evidence": "Catalog contains 12+ products",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: SuperBottoms",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 58.0,
+    "buying_intent_score": 20.0,
+    "grade": "QUALIFIED",
+    "business_stage": "EARLY",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "SuperBottoms \u2014 baby brand based in Mumbai",
+    "how_big": "12 products",
+    "are_growing": "Verified Indian D2C brand: SuperBottoms; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: resolutions@superbottoms.com; phone: 917091609272",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no CRM integration; Found 2 instances of faq_volume references",
+    "why_buy_comai": "No chatbot \u2014 COMAI can automate customer support",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, SuperBottoms has great WhatsApp presence. But are you handling support manually? We can add AI chatbot to your Shopify store in 48 hours."
+  },
+  {
+    "company": "Mamaearth",
+    "website": "https://mamaearth.in",
+    "domain": "mamaearth.in",
+    "industry": "beauty",
+    "city": "Gurugram",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": 26,
+    "product_count_source": "html_text",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "support@mamaearth.in",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "+91-8800778017",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/mamaearth.in/?hl=en",
+      "facebook": "https://www.facebook.com/Mamaearthindia/",
+      "twitter": "https://twitter.com/mamaearthindia?lang=en",
+      "linkedin": "https://www.linkedin.com/company/mama-earth-in/",
+      "youtube": "https://www.youtube.com/channel/UC5qhqSIcahBKKMEdLPFqeVA"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 1 instances of faq_volume references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 327 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 137 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 61 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 2 instances of contact_page references",
+        "confidence": 0.7,
+        "source": "homepage_html"
+      },
+      {
+        "type": "large_catalog",
+        "evidence": "Catalog contains 26+ products",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Mamaearth",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 57.2,
+    "buying_intent_score": 30.0,
+    "grade": "QUALIFIED",
+    "business_stage": "EARLY",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Mamaearth \u2014 beauty brand based in Gurugram",
+    "how_big": "26 products",
+    "are_growing": "Verified Indian D2C brand: Mamaearth; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: support@mamaearth.in; phone: +91-8800778017",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; no CRM integration",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed Mamaearth is growing. With 26 products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "Dot & Key",
+    "website": "https://dotandkey.com",
+    "domain": "dotandkey.com",
+    "industry": "skincare",
+    "city": "Kolkata",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": 2,
+    "product_count_source": "html_text",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "care@dotandkey.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "+918044132967",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/dotandkey.skincare/",
+      "facebook": "https://www.facebook.com/tr?id=231998284253755&ev=PageView&noscript=1",
+      "youtube": "https://www.youtube.com/channel/UCD7U0EUBYg9YlL-zVZjkjfA"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 5 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 126 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 59 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 139 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 3 instances of contact_page references",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      },
+      {
+        "type": "large_catalog",
+        "evidence": "Catalog contains 8522147692709+ products",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Dot & Key",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 57.2,
+    "buying_intent_score": 30.0,
+    "grade": "QUALIFIED",
+    "business_stage": "EARLY",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Dot & Key \u2014 skincare brand based in Kolkata",
+    "how_big": "2 products",
+    "are_growing": "Verified Indian D2C brand: Dot & Key; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: care@dotandkey.com; phone: +918044132967",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; no CRM integration",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed Dot & Key is growing. With 2 products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "Foxtale",
+    "website": "https://foxtale.in",
+    "domain": "foxtale.in",
+    "industry": "skincare",
+    "city": "Mumbai",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": 3,
+    "product_count_source": "html_text",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "info@foxtale.in",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "+91 8976715867",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/foxtaleskin/",
+      "facebook": "https://www.facebook.com/foxtaleskin/",
+      "twitter": "https://x.com/foxtaleskin",
+      "linkedin": "https://www.linkedin.com/company/foxtale-skin/\\",
+      "youtube": "https://www.youtube.com/c/FoxtaleSkin"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 10 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 48 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 51 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 1539 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 6 instances of contact_page references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Foxtale",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 56.9,
+    "buying_intent_score": 20.0,
+    "grade": "QUALIFIED",
+    "business_stage": "EARLY",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Foxtale \u2014 skincare brand based in Mumbai",
+    "how_big": "3 products",
+    "are_growing": "Verified Indian D2C brand: Foxtale; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: info@foxtale.in; phone: +91 8976715867",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no CRM integration; Found 10 instances of faq_volume references",
+    "why_buy_comai": "No chatbot \u2014 COMAI can automate customer support",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, Foxtale has great WhatsApp presence. But are you handling support manually? We can add AI chatbot to your Shopify store in 48 hours."
+  },
+  {
+    "company": "Bellavita",
+    "website": "https://bellavita.in",
+    "domain": "bellavita.in",
+    "industry": "beauty",
+    "city": "New Delhi",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "shop@bellavitaorganic.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "+919810154380",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp, api.whatsapp, whatsapp.com/send",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/bellavita.official",
+      "facebook": "https://www.facebook.com/bellavitaorganic",
+      "twitter": "https://twitter.com/bellavita_org?s=08",
+      "youtube": "https://www.youtube.com/c/BellaVitaOrganicIndia"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 7 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 784 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 466 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 432 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 10 instances of contact_page references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Bellavita",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 50.9,
+    "buying_intent_score": 20.0,
+    "grade": "QUALIFIED",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Bellavita \u2014 beauty brand based in New Delhi",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Bellavita; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: shop@bellavitaorganic.com; phone: +919810154380",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no CRM integration; Found 7 instances of faq_volume references",
+    "why_buy_comai": "No chatbot \u2014 COMAI can automate customer support",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, Bellavita has great WhatsApp presence. But are you handling support manually? We can add AI chatbot to your Shopify store in 48 hours."
+  },
+  {
+    "company": "GIVA",
+    "website": "https://giva.co",
+    "domain": "giva.co",
+    "industry": "jewellery",
+    "city": "Bengaluru",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "care@giva.co",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "917624816998",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/giva.co/",
+      "facebook": "https://www.facebook.com/GIVA.official",
+      "linkedin": "https://www.linkedin.com/company/giva-co/",
+      "youtube": "https://www.youtube.com/c/GIVAOfficial"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 6 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 250 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 37 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 180 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 2 instances of contact_page references",
+        "confidence": 0.7,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: GIVA",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 50.9,
+    "buying_intent_score": 20.0,
+    "grade": "QUALIFIED",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "GIVA \u2014 jewellery brand based in Bengaluru",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: GIVA; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: care@giva.co; phone: 917624816998",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no CRM integration; Found 6 instances of faq_volume references",
+    "why_buy_comai": "No chatbot \u2014 COMAI can automate customer support",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, GIVA has great WhatsApp presence. But are you handling support manually? We can add AI chatbot to your Shopify store in 48 hours."
+  },
+  {
+    "company": "Palmonas",
+    "website": "https://palmonas.com",
+    "domain": "palmonas.com",
+    "industry": "jewellery",
+    "city": "Mumbai",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "care@palmonas.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "+91 9356103736",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/palmonas_official/",
+      "facebook": "https://www.facebook.com/tr?id=1070257017296831&ev=PageView&noscript=1",
+      "linkedin": "https://www.linkedin.com/company/palmonas/",
+      "youtube": "https://www.youtube.com/@palmonas/videos"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 5 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 2111 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 661 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 1664 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 14 instances of contact_page references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Palmonas",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 50.9,
+    "buying_intent_score": 20.0,
+    "grade": "QUALIFIED",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Palmonas \u2014 jewellery brand based in Mumbai",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Palmonas; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: care@palmonas.com; phone: +91 9356103736",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no CRM integration; Found 5 instances of faq_volume references",
+    "why_buy_comai": "No chatbot \u2014 COMAI can automate customer support",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, Palmonas has great WhatsApp presence. But are you handling support manually? We can add AI chatbot to your Shopify store in 48 hours."
+  },
+  {
+    "company": "Sugar Cosmetics",
+    "website": "https://sugarcosmetics.com",
+    "domain": "sugarcosmetics.com",
+    "industry": "beauty",
+    "city": "Mumbai",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "hello@sugarcosmetics.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "913661825107",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/sugarcosmetics/",
+      "facebook": "https://www.facebook.com/sugarcosmetics/",
+      "twitter": "https://twitter.com/sugarcosmetics",
+      "youtube": "https://www.youtube.com/@sugarcosmetics"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 3 instances of faq_volume references",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 76 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 26 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 1225 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 1 instances of contact_page references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Sugar Cosmetics",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 50.7,
+    "buying_intent_score": 20.0,
+    "grade": "QUALIFIED",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Sugar Cosmetics \u2014 beauty brand based in Mumbai",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Sugar Cosmetics; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: hello@sugarcosmetics.com; phone: 913661825107",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no CRM integration; Found 3 instances of faq_volume references",
+    "why_buy_comai": "No chatbot \u2014 COMAI can automate customer support",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, Sugar Cosmetics has great WhatsApp presence. But are you handling support manually? We can add AI chatbot to your Shopify store in 48 hours."
+  },
+  {
+    "company": "Earth Rhythm",
+    "website": "https://earthrhythm.com",
+    "domain": "earthrhythm.com",
+    "industry": "skincare",
+    "city": "Noida",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "support@earthrhythm.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "+91 9667797376",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp, api.whatsapp, whatsapp.com/send",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/theearthrhythm/",
+      "facebook": "https://www.facebook.com/theearthrhythm",
+      "twitter": "https://twitter.com/theearthrhythm",
+      "linkedin": "https://www.linkedin.com/company/earth-rhythm/mycompany/",
+      "youtube": "https://www.youtube.com/c/EarthRhythm"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 3 instances of faq_volume references",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 124 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 56 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 141 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 3 instances of contact_page references",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Earth Rhythm",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 50.7,
+    "buying_intent_score": 20.0,
+    "grade": "QUALIFIED",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Earth Rhythm \u2014 skincare brand based in Noida",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Earth Rhythm; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: support@earthrhythm.com; phone: +91 9667797376",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no CRM integration; Found 3 instances of faq_volume references",
+    "why_buy_comai": "No chatbot \u2014 COMAI can automate customer support",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, Earth Rhythm has great WhatsApp presence. But are you handling support manually? We can add AI chatbot to your Shopify store in 48 hours."
+  },
+  {
+    "company": "Plum Goodness",
+    "website": "https://plumgoodness.com",
+    "domain": "plumgoodness.com",
+    "industry": "beauty",
+    "city": "Thane",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "hello@plumgoodness.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "910995017860",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp, api.whatsapp, whatsapp.com/send",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/plumgoodness/",
+      "youtube": "https://www.youtube.com/channel/UC6tQtwAuADVKuxIRKfwMZfw"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 10 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 112 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 105 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 49 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 16 instances of contact_page references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Plum Goodness",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 50.4,
+    "buying_intent_score": 20.0,
+    "grade": "QUALIFIED",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Plum Goodness \u2014 beauty brand based in Thane",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Plum Goodness; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: hello@plumgoodness.com; phone: 910995017860",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no CRM integration; Found 10 instances of faq_volume references",
+    "why_buy_comai": "No chatbot \u2014 COMAI can automate customer support",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, Plum Goodness has great WhatsApp presence. But are you handling support manually? We can add AI chatbot to your Shopify store in 48 hours."
+  },
+  {
+    "company": "Fae Beauty",
+    "website": "https://faebeauty.in",
+    "domain": "faebeauty.in",
+    "industry": "beauty",
+    "city": "Mumbai",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": 2,
+    "product_count_source": "html_text",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "support@faebeauty.in",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "911786013411",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_PRESENT",
+    "chatbot_evidence": "Detected: intercom, crisp, crisp.chat",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/faebeautyofficial/",
+      "facebook": "https://www.facebook.com/tr?id=250526483195188&ev=PageView&noscript=1",
+      "youtube": "https://www.youtube.com/channel/UCaAOLxArm30T1UwGsUNj0Hg"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 7 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 268 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 97 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 224 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 5 instances of contact_page references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "large_catalog",
+        "evidence": "Catalog contains 27+ products",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Fae Beauty",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 50.0,
+    "buying_intent_score": 15.0,
+    "grade": "QUALIFIED",
+    "business_stage": "EARLY",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Fae Beauty \u2014 beauty brand based in Mumbai",
+    "how_big": "2 products",
+    "are_growing": "Verified Indian D2C brand: Fae Beauty; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: support@faebeauty.in; phone: 911786013411",
+    "what_problem": "no WhatsApp automation; no CRM integration; Found 7 instances of faq_volume references",
+    "why_buy_comai": "No WhatsApp automation \u2014 COMAI can scale engagement",
+    "why_now": "Growing business",
+    "what_to_say": "Hi there, love what Fae Beauty is building. Quick question \u2014 how are you handling customer support at scale?"
+  },
+  {
+    "company": "Slurrp Farm",
+    "website": "https://slurrpfarm.com",
+    "domain": "slurrpfarm.com",
+    "industry": "food",
+    "city": "New Delhi",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": 4,
+    "product_count_source": "json_ld",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "mail@slurrpfarm.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "+91-9318318000",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_PRESENT",
+    "chatbot_evidence": "Detected: crisp, tidio, chatbot",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/slurrpfarm",
+      "facebook": "https://www.facebook.com/SlurrpFarm",
+      "twitter": "https://twitter.com/slurrpfarm",
+      "linkedin": "https://www.linkedin.com/company/slurrp-farm",
+      "youtube": "https://www.youtube.com/c/SlurrpFarm"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 108 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 214 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 145 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 122 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 3 instances of contact_page references",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Slurrp Farm",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 48.9,
+    "buying_intent_score": 5.0,
+    "grade": "NURTURE",
+    "business_stage": "EARLY",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Slurrp Farm \u2014 food brand based in New Delhi",
+    "how_big": "4 products",
+    "are_growing": "Verified Indian D2C brand: Slurrp Farm; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: mail@slurrpfarm.com; phone: +91-9318318000",
+    "what_problem": "no CRM integration; Found 108 instances of faq_volume references; Found 214 instances of return_policy references",
+    "why_buy_comai": "Existing automation may need upgrade",
+    "why_now": "Growing business",
+    "what_to_say": "Hi there, love what Slurrp Farm is building. Quick question \u2014 how are you handling customer support at scale?"
+  },
+  {
+    "company": "Farmley",
+    "website": "https://farmley.com",
+    "domain": "farmley.com",
+    "industry": "food",
+    "city": "New Delhi",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "wecare@farmley.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "912852459156",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {},
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 1 instances of faq_volume references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 68 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 21 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 105 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Farmley",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 48.2,
+    "buying_intent_score": 30.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Farmley \u2014 food brand based in New Delhi",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Farmley; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: wecare@farmley.com; phone: 912852459156",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; no CRM integration",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed Farmley is growing. With many products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "mCaffeine",
+    "website": "https://mcaffeine.com",
+    "domain": "mcaffeine.com",
+    "industry": "beauty",
+    "city": "Mumbai",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "info@stagheaddesigns.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "915804813004",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_PRESENT",
+    "crm_evidence": "Detected: hubspot",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/mcaffeineofficial/",
+      "facebook": "https://www.facebook.com/mcaffeine/",
+      "youtube": "https://www.youtube.com/@mcaffeine3716"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 5 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 456 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 218 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 80 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 4 instances of contact_page references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: mCaffeine",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 46.6,
+    "buying_intent_score": 15.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "mCaffeine \u2014 beauty brand based in Mumbai",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: mCaffeine; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: info@stagheaddesigns.com; phone: 915804813004",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; Found 5 instances of faq_volume references; Found 456 instances of return_policy references",
+    "why_buy_comai": "No chatbot \u2014 COMAI can automate customer support",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, mCaffeine has great WhatsApp presence. But are you handling support manually? We can add AI chatbot to your Shopify store in 48 hours."
+  },
+  {
+    "company": "The Label Life",
+    "website": "https://thelabellife.com",
+    "domain": "thelabellife.com",
+    "industry": "home_decor",
+    "city": "Mumbai",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "",
+    "email_valid": false,
+    "email_source": "",
+    "phone": "915374217817",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/thelabellife/",
+      "facebook": "https://www.facebook.com/thelabellife/"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 5 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 116 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 25 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 7 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 2 instances of contact_page references",
+        "confidence": 0.7,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: The Label Life",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 45.9,
+    "buying_intent_score": 20.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "B",
+    "missing_signals": [],
+    "who_they_are": "The Label Life \u2014 home_decor brand based in Mumbai",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: The Label Life; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "phone: 915374217817",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no CRM integration; Found 5 instances of faq_volume references",
+    "why_buy_comai": "No chatbot \u2014 COMAI can automate customer support",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, The Label Life has great WhatsApp presence. But are you handling support manually? We can add AI chatbot to your Shopify store in 48 hours."
+  },
+  {
+    "company": "Rage Coffee",
+    "website": "https://ragecoffee.com",
+    "domain": "ragecoffee.com",
+    "industry": "food",
+    "city": "New Delhi",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "",
+    "email_valid": false,
+    "email_source": "",
+    "phone": "916789783217",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "http://instagram.com/ragecoffee_",
+      "facebook": "https://www.facebook.com/tr?id=1557403289427678&ev=PageView&noscript=1",
+      "twitter": "https://twitter.com/theragecoffee",
+      "youtube": "https://www.youtube.com/c/RageCoffee"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 1 instances of faq_volume references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 206 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 52 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 244 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 12 instances of contact_page references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Rage Coffee",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 45.9,
+    "buying_intent_score": 20.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "B",
+    "missing_signals": [],
+    "who_they_are": "Rage Coffee \u2014 food brand based in New Delhi",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Rage Coffee; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "phone: 916789783217",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no CRM integration; Found 1 instances of faq_volume references",
+    "why_buy_comai": "No chatbot \u2014 COMAI can automate customer support",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, Rage Coffee has great WhatsApp presence. But are you handling support manually? We can add AI chatbot to your Shopify store in 48 hours."
+  },
+  {
+    "company": "DaMENSCH",
+    "website": "https://damensch.com",
+    "domain": "damensch.com",
+    "industry": "fashion",
+    "city": "Mumbai",
+    "country": "India",
+    "platform": "",
+    "platform_source": "",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "support@damensch.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "+917829966655",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp, api.whatsapp, whatsapp.com/send",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/damenschofficial/",
+      "facebook": "https://www.facebook.com/Damenschofficial/",
+      "twitter": "https://twitter.com/damensch_in?lang=en",
+      "linkedin": "https://www.linkedin.com/company/damensch",
+      "youtube": "https://www.youtube.com/channel/UCmHTYSGgtCijnH82npTrCJw"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 14 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 39 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 365 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 146 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 4 instances of contact_page references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "large_catalog",
+        "evidence": "Catalog contains 11+ products",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: DaMENSCH",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 45.8,
+    "buying_intent_score": 20.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "DaMENSCH \u2014 fashion brand based in Mumbai",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: DaMENSCH; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: support@damensch.com; phone: +917829966655",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no CRM integration; Found 14 instances of faq_volume references",
+    "why_buy_comai": "No chatbot \u2014 COMAI can automate customer support",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, DaMENSCH has great WhatsApp presence. But are you handling support manually? We can add AI chatbot to your Shopify store in 48 hours."
+  },
+  {
+    "company": "Vaaree",
+    "website": "https://vaaree.com",
+    "domain": "vaaree.com",
+    "industry": "home_decor",
+    "city": "Bengaluru",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "",
+    "email_valid": false,
+    "email_source": "",
+    "phone": "+918068084868",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/vaareehome",
+      "facebook": "https://www.facebook.com/vaareehome",
+      "twitter": "https://twitter.com/vaareehome",
+      "linkedin": "https://www.linkedin.com/company/vaareehome",
+      "youtube": "https://www.youtube.com/channel/UCGW-YhVqqn11TgamrNNPVqw"
+    },
+    "pain_points": [
+      {
+        "type": "return_policy",
+        "evidence": "Found 60 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 55 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 350 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 8 instances of contact_page references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Vaaree",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 44.8,
+    "buying_intent_score": 30.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "B",
+    "missing_signals": [],
+    "who_they_are": "Vaaree \u2014 home_decor brand based in Bengaluru",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Vaaree; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "phone: +918068084868",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; no CRM integration",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed Vaaree is growing. With many products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "BlueStone",
+    "website": "https://bluestone.com",
+    "domain": "bluestone.com",
+    "industry": "jewellery",
+    "city": "Bengaluru",
+    "country": "India",
+    "platform": "",
+    "platform_source": "",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "cs@bluestone.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "913445666794",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/bluestone_jewellery/",
+      "facebook": "https://www.facebook.com/bluestonejewels",
+      "twitter": "https://twitter.com/bluestone_com"
+    },
+    "pain_points": [
+      {
+        "type": "return_policy",
+        "evidence": "Found 15 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 126 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 198 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "large_catalog",
+        "evidence": "Catalog contains 12+ products",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: BlueStone",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 44.2,
+    "buying_intent_score": 30.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "BlueStone \u2014 jewellery brand based in Bengaluru",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: BlueStone; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: cs@bluestone.com; phone: 913445666794",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; no CRM integration",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed BlueStone is growing. With many products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "Nutrabay",
+    "website": "https://nutrabay.com",
+    "domain": "nutrabay.com",
+    "industry": "health",
+    "city": "New Delhi",
+    "country": "India",
+    "platform": "woocommerce",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "friends@nutrabay.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "+91 1161196333",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_PRESENT",
+    "chatbot_evidence": "Detected: crisp",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/nutrabay/",
+      "facebook": "https://www.facebook.com/nutrabay",
+      "youtube": "https://www.youtube.com/c/nutrabaycom"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 3 instances of faq_volume references",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 9 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 17 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 328 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "large_catalog",
+        "evidence": "Catalog contains 10+ products",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Nutrabay",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 44.1,
+    "buying_intent_score": 5.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Nutrabay \u2014 health brand based in New Delhi",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Nutrabay; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: friends@nutrabay.com; phone: +91 1161196333",
+    "what_problem": "no CRM integration; Found 3 instances of faq_volume references; Found 9 instances of return_policy references",
+    "why_buy_comai": "Existing automation may need upgrade",
+    "why_now": "Growing business",
+    "what_to_say": "Hi there, love what Nutrabay is building. Quick question \u2014 how are you handling customer support at scale?"
+  },
+  {
+    "company": "RAAYA",
+    "website": "https://raaya.in",
+    "domain": "raaya.in",
+    "industry": "beauty",
+    "city": "Mumbai",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "",
+    "email_valid": false,
+    "email_source": "",
+    "phone": "911674359793",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {},
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 1 instances of faq_volume references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 67 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 12 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 8 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 3 instances of contact_page references",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: RAAYA",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 43.9,
+    "buying_intent_score": 20.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "B",
+    "missing_signals": [],
+    "who_they_are": "RAAYA \u2014 beauty brand based in Mumbai",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: RAAYA; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "phone: 911674359793",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no CRM integration; Found 1 instances of faq_volume references",
+    "why_buy_comai": "No chatbot \u2014 COMAI can automate customer support",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, RAAYA has great WhatsApp presence. But are you handling support manually? We can add AI chatbot to your Shopify store in 48 hours."
+  },
+  {
+    "company": "Boldfit",
+    "website": "https://boldfit.in",
+    "domain": "boldfit.in",
+    "industry": "health",
+    "city": "Bengaluru",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": 4,
+    "product_count_source": "json_ld",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "",
+    "email_valid": false,
+    "email_source": "",
+    "phone": "916178592127",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_PRESENT",
+    "chatbot_evidence": "Detected: drift, tidio, chatbot",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/boldfit_official",
+      "twitter": "https://x.com/Boldfit_India?lang=en",
+      "linkedin": "https://www.linkedin.com/company/68580728/admin/",
+      "youtube": "https://www.youtube.com/@boldfitofficial"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 1 instances of faq_volume references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 164 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 349 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 327 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 2 instances of contact_page references",
+        "confidence": 0.7,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Boldfit",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 43.9,
+    "buying_intent_score": 5.0,
+    "grade": "NURTURE",
+    "business_stage": "EARLY",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Boldfit \u2014 health brand based in Bengaluru",
+    "how_big": "4 products",
+    "are_growing": "Verified Indian D2C brand: Boldfit; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "phone: 916178592127",
+    "what_problem": "no CRM integration; Found 1 instances of faq_volume references; Found 164 instances of return_policy references",
+    "why_buy_comai": "Existing automation may need upgrade",
+    "why_now": "Growing business",
+    "what_to_say": "Hi there, love what Boldfit is building. Quick question \u2014 how are you handling customer support at scale?"
+  },
+  {
+    "company": "Noise",
+    "website": "https://gonoise.com",
+    "domain": "gonoise.com",
+    "industry": "electronics",
+    "city": "Gurugram",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": 3,
+    "product_count_source": "html_text",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "",
+    "email_valid": false,
+    "email_source": "",
+    "phone": "+91 8882132132",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_PRESENT",
+    "chatbot_evidence": "Detected: drift, crisp",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/go_noise",
+      "facebook": "https://www.facebook.com/gonoise",
+      "twitter": "https://twitter.com/shopify",
+      "linkedin": "https://www.linkedin.com/company/gonoise-com/",
+      "youtube": "https://www.youtube.com/@gonoise_official"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 1 instances of faq_volume references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 103 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 1481 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 1150 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 1 instances of contact_page references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Noise",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 43.9,
+    "buying_intent_score": 5.0,
+    "grade": "NURTURE",
+    "business_stage": "EARLY",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Noise \u2014 electronics brand based in Gurugram",
+    "how_big": "3 products",
+    "are_growing": "Verified Indian D2C brand: Noise; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "phone: +91 8882132132",
+    "what_problem": "no CRM integration; Found 1 instances of faq_volume references; Found 103 instances of return_policy references",
+    "why_buy_comai": "Existing automation may need upgrade",
+    "why_now": "Growing business",
+    "what_to_say": "Hi there, love what Noise is building. Quick question \u2014 how are you handling customer support at scale?"
+  },
+  {
+    "company": "Chumbak",
+    "website": "https://chumbak.com",
+    "domain": "chumbak.com",
+    "industry": "home_decor",
+    "city": "Bengaluru",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "help@chumbak.in",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "+91-9980127955",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_PRESENT",
+    "chatbot_evidence": "Detected: chatbot",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp, api.whatsapp, whatsapp.com/send",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/chumbak/",
+      "facebook": "https://www.facebook.com/Chumbak"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 5 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 184 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 80 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 40 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 4 instances of contact_page references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "large_catalog",
+        "evidence": "Catalog contains 26+ products",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Chumbak",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 43.8,
+    "buying_intent_score": 5.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Chumbak \u2014 home_decor brand based in Bengaluru",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Chumbak; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: help@chumbak.in; phone: +91-9980127955",
+    "what_problem": "no CRM integration; Found 5 instances of faq_volume references; Found 184 instances of return_policy references",
+    "why_buy_comai": "Existing automation may need upgrade",
+    "why_now": "Growing business",
+    "what_to_say": "Hi there, love what Chumbak is building. Quick question \u2014 how are you handling customer support at scale?"
+  },
+  {
+    "company": "Bevzilla",
+    "website": "https://bevzilla.com",
+    "domain": "bevzilla.com",
+    "industry": "food",
+    "city": "New Delhi",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "",
+    "email_valid": false,
+    "email_source": "",
+    "phone": "917180176327",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {},
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 1 instances of faq_volume references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 58 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 9 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 4 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 4 instances of contact_page references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Bevzilla",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 43.7,
+    "buying_intent_score": 30.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "B",
+    "missing_signals": [],
+    "who_they_are": "Bevzilla \u2014 food brand based in New Delhi",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Bevzilla; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "phone: 917180176327",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; no CRM integration",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed Bevzilla is growing. With many products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "Supertails",
+    "website": "https://supertails.com",
+    "domain": "supertails.com",
+    "industry": "pets",
+    "city": "Bengaluru",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "support@supertails.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "916917634892",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_PRESENT",
+    "chatbot_evidence": "Detected: freshchat",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/supertails.official/",
+      "facebook": "https://www.facebook.com/tr?id=7188557817849442&ev=PageView&noscript=1",
+      "twitter": "https://twitter.com/supertails_ind",
+      "linkedin": "https://www.linkedin.com/company/supertails/",
+      "youtube": "https://www.youtube.com/@supertails_"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 10 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 612 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 606 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 1097 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 4 instances of contact_page references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Supertails",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 42.9,
+    "buying_intent_score": 5.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Supertails \u2014 pets brand based in Bengaluru",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Supertails; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: support@supertails.com; phone: 916917634892",
+    "what_problem": "no CRM integration; Found 10 instances of faq_volume references; Found 612 instances of return_policy references",
+    "why_buy_comai": "Existing automation may need upgrade",
+    "why_now": "Growing business",
+    "what_to_say": "Hi there, love what Supertails is building. Quick question \u2014 how are you handling customer support at scale?"
+  },
+  {
+    "company": "Berrylush",
+    "website": "https://berrylush.com",
+    "domain": "berrylush.com",
+    "industry": "fashion",
+    "city": "Noida",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "",
+    "email_valid": false,
+    "email_source": "",
+    "phone": "917938575138",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {},
+    "pain_points": [
+      {
+        "type": "return_policy",
+        "evidence": "Found 51 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 10 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 6 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Berrylush",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 42.8,
+    "buying_intent_score": 30.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "B",
+    "missing_signals": [],
+    "who_they_are": "Berrylush \u2014 fashion brand based in Noida",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Berrylush; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "phone: 917938575138",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; no CRM integration",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed Berrylush is growing. With many products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "Minimalist",
+    "website": "https://beminimalist.co",
+    "domain": "beminimalist.co",
+    "industry": "skincare",
+    "city": "Delhi",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "help@beminimalist.co",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "911281493504",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_PRESENT",
+    "chatbot_evidence": "Detected: intercom, crisp, crisp.chat",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp, api.whatsapp, whatsapp.com/send",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/beminimalist__/",
+      "facebook": "https://www.facebook.com/minimalistinc",
+      "youtube": "https://www.youtube.com/@beminimalist"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 3 instances of faq_volume references",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 292 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 198 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 101 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 2 instances of contact_page references",
+        "confidence": 0.7,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Minimalist",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 42.7,
+    "buying_intent_score": 5.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Minimalist \u2014 skincare brand based in Delhi",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Minimalist; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: help@beminimalist.co; phone: 911281493504",
+    "what_problem": "no CRM integration; Found 3 instances of faq_volume references; Found 292 instances of return_policy references",
+    "why_buy_comai": "Existing automation may need upgrade",
+    "why_now": "Growing business",
+    "what_to_say": "Hi there, love what Minimalist is building. Quick question \u2014 how are you handling customer support at scale?"
+  },
+  {
+    "company": "WYO",
+    "website": "https://wyo.in",
+    "domain": "wyo.in",
+    "industry": "fashion",
+    "city": "New Delhi",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "support@wyo.in",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "910621174635",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_PRESENT",
+    "chatbot_evidence": "Detected: drift",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/wearyouropinion/",
+      "facebook": "https://www.facebook.com/WYO.in",
+      "twitter": "https://twitter.com/WYONOW"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 5 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 72 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 31 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 14 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 3 instances of contact_page references",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: WYO",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 42.6,
+    "buying_intent_score": 15.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "WYO \u2014 fashion brand based in New Delhi",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: WYO; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: support@wyo.in; phone: 910621174635",
+    "what_problem": "no WhatsApp automation; no CRM integration; Found 5 instances of faq_volume references",
+    "why_buy_comai": "No WhatsApp automation \u2014 COMAI can scale engagement",
+    "why_now": "Growing business",
+    "what_to_say": "Hi there, love what WYO is building. Quick question \u2014 how are you handling customer support at scale?"
+  },
+  {
+    "company": "Juicy Chemistry",
+    "website": "https://juicychemistry.com",
+    "domain": "juicychemistry.com",
+    "industry": "beauty",
+    "city": "Coimbatore",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "sales@juicychemistry.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "910050967520",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_PRESENT",
+    "chatbot_evidence": "Detected: chatbot",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/juicy_chemistry",
+      "facebook": "https://www.facebook.com/JuicyChemistry/",
+      "twitter": "https://twitter.com/chemistry_juicy",
+      "linkedin": "https://www.linkedin.com/company/juicy-chemistry",
+      "youtube": "https://www.youtube.com/channel/UCNkBtAfx0b2Gs4_eMXE6qcw/featured"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 1 instances of faq_volume references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 99 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 89 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 48 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 2 instances of contact_page references",
+        "confidence": 0.7,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Juicy Chemistry",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 42.4,
+    "buying_intent_score": 5.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Juicy Chemistry \u2014 beauty brand based in Coimbatore",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Juicy Chemistry; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: sales@juicychemistry.com; phone: 910050967520",
+    "what_problem": "no CRM integration; Found 1 instances of faq_volume references; Found 99 instances of return_policy references",
+    "why_buy_comai": "Existing automation may need upgrade",
+    "why_now": "Growing business",
+    "what_to_say": "Hi there, love what Juicy Chemistry is building. Quick question \u2014 how are you handling customer support at scale?"
+  },
+  {
+    "company": "House of EM5",
+    "website": "https://houseofem5.com",
+    "domain": "houseofem5.com",
+    "industry": "beauty",
+    "city": "Indore",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "em5support@indiainfotech.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "914217733917",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_PRESENT",
+    "chatbot_evidence": "Detected: chatbot",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/house_of_em5/",
+      "facebook": "https://www.facebook.com/profile.php?id=61553313190841"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 1 instances of faq_volume references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 290 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 67 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 56 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 3 instances of contact_page references",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: House of EM5",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 41.9,
+    "buying_intent_score": 5.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "House of EM5 \u2014 beauty brand based in Indore",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: House of EM5; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: em5support@indiainfotech.com; phone: 914217733917",
+    "what_problem": "no CRM integration; Found 1 instances of faq_volume references; Found 290 instances of return_policy references",
+    "why_buy_comai": "Existing automation may need upgrade",
+    "why_now": "Growing business",
+    "what_to_say": "Hi there, love what House of EM5 is building. Quick question \u2014 how are you handling customer support at scale?"
+  },
+  {
+    "company": "Country Delight",
+    "website": "https://countrydelight.in",
+    "domain": "countrydelight.in",
+    "industry": "food",
+    "city": "Gurugram",
+    "country": "India",
+    "platform": "",
+    "platform_source": "",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": 4,
+    "product_count_source": "html_text",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "",
+    "email_valid": false,
+    "email_source": "",
+    "phone": "",
+    "phone_source": "",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "facebook": "https://www.facebook.com/CountryDelightNatural/"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 2 instances of faq_volume references",
+        "confidence": 0.7,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 1 instances of return_policy references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 12 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 54 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Country Delight",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 41.4,
+    "buying_intent_score": 30.0,
+    "grade": "NURTURE",
+    "business_stage": "EARLY",
+    "evidence_grade": "B",
+    "missing_signals": [],
+    "who_they_are": "Country Delight \u2014 food brand based in Gurugram",
+    "how_big": "4 products",
+    "are_growing": "Verified Indian D2C brand: Country Delight; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "No contact info",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; no CRM integration",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed Country Delight is growing. With 4 products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "Baaya Design",
+    "website": "https://baayadesign.com",
+    "domain": "baayadesign.com",
+    "industry": "home_decor",
+    "city": "Mumbai",
+    "country": "India",
+    "platform": "woocommerce",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "info@baayadesign.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "+918928420056",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_PRESENT",
+    "chatbot_evidence": "Detected: crisp",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/baayadesign/",
+      "facebook": "https://www.facebook.com/baayadesign",
+      "twitter": "https://x.com/baayadesign",
+      "linkedin": "https://www.linkedin.com/company/baaya-design",
+      "youtube": "https://www.youtube.com/channel/UCuvNfN-miq6i3-AvKE51g3w"
+    },
+    "pain_points": [
+      {
+        "type": "return_policy",
+        "evidence": "Found 11 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 1 instances of shipping_info references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 53 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Baaya Design",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 41.3,
+    "buying_intent_score": 5.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Baaya Design \u2014 home_decor brand based in Mumbai",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Baaya Design; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: info@baayadesign.com; phone: +918928420056",
+    "what_problem": "no CRM integration; Found 11 instances of return_policy references; Found 1 instances of shipping_info references",
+    "why_buy_comai": "Existing automation may need upgrade",
+    "why_now": "Growing business",
+    "what_to_say": "Hi there, love what Baaya Design is building. Quick question \u2014 how are you handling customer support at scale?"
+  },
+  {
+    "company": "Sar\u0625\u0636\u0627\u0641",
+    "website": "https://sarishta.com",
+    "domain": "sarishta.com",
+    "industry": "home_decor",
+    "city": "Mumbai",
+    "country": "India",
+    "platform": "",
+    "platform_source": "",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "imagetextile@gmail.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "",
+    "phone_source": "",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/sarishta.uz/",
+      "facebook": "https://www.facebook.com/profile.php?id=100091902343162"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 39 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 3 instances of return_policy references",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 1 instances of shipping_info references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Sar\u0625\u0636\u0627\u0641",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 41.0,
+    "buying_intent_score": 30.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "B",
+    "missing_signals": [],
+    "who_they_are": "Sar\u0625\u0636\u0627\u0641 \u2014 home_decor brand based in Mumbai",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Sar\u0625\u0636\u0627\u0641; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: imagetextile@gmail.com",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; no CRM integration",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed Sar\u0625\u0636\u0627\u0641 is growing. With many products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "Heads Up For Tails",
+    "website": "https://headsupfortails.com",
+    "domain": "headsupfortails.com",
+    "industry": "pets",
+    "city": "New Delhi",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "aa4cacd33be28673d7e69be559ce7ad7@o4506196830715904.ingest.us.sentry.io",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "911687216890",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_PRESENT",
+    "chatbot_evidence": "Detected: chatbot",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp, api.whatsapp, whatsapp.com/send",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_PRESENT",
+    "crm_evidence": "Detected: hubspot",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://instagram.com/headsupfortails",
+      "facebook": "https://facebook.com/headsupfortails",
+      "twitter": "https://twitter.com/huftindia",
+      "youtube": "https://www.youtube.com/c/HeadsUpForTailsOfficial"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 8 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 849 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 149 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 414 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 35 instances of contact_page references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Heads Up For Tails",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 38.6,
+    "buying_intent_score": 0.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Heads Up For Tails \u2014 pets brand based in New Delhi",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Heads Up For Tails; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: aa4cacd33be28673d7e69be559ce7ad7@o4506196830715904.ingest.us.sentry.io; phone: 911687216890",
+    "what_problem": "Found 8 instances of faq_volume references; Found 849 instances of return_policy references",
+    "why_buy_comai": "Existing automation may need upgrade",
+    "why_now": "Growing business",
+    "what_to_say": "Hi there, love what Heads Up For Tails is building. Quick question \u2014 how are you handling customer support at scale?"
+  },
+  {
+    "company": "Senco Gold",
+    "website": "https://sencogold.com",
+    "domain": "sencogold.com",
+    "industry": "jewellery",
+    "city": "Kolkata",
+    "country": "India",
+    "platform": "",
+    "platform_source": "",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "customerfeedback@sencogold.co.in",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "",
+    "phone_source": "",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {},
+    "pain_points": [
+      {
+        "type": "return_policy",
+        "evidence": "Found 5 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 2 instances of cod_available references",
+        "confidence": 0.7,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 1 instances of contact_page references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Senco Gold",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 37.8,
+    "buying_intent_score": 30.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "B",
+    "missing_signals": [],
+    "who_they_are": "Senco Gold \u2014 jewellery brand based in Kolkata",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Senco Gold; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: customerfeedback@sencogold.co.in",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; no CRM integration",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed Senco Gold is growing. With many products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "Deconstruct",
+    "website": "https://deconstruct.in",
+    "domain": "deconstruct.in",
+    "industry": "skincare",
+    "city": "Hyderabad",
+    "country": "India",
+    "platform": "",
+    "platform_source": "",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "admin@deconstruct.in",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "",
+    "phone_source": "",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {},
+    "pain_points": [
+      {
+        "type": "return_policy",
+        "evidence": "Found 3 instances of return_policy references",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 3 instances of cod_available references",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Deconstruct",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 37.7,
+    "buying_intent_score": 30.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "B",
+    "missing_signals": [],
+    "who_they_are": "Deconstruct \u2014 skincare brand based in Hyderabad",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Deconstruct; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: admin@deconstruct.in",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; no CRM integration",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed Deconstruct is growing. With many products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "FirstCry",
+    "website": "https://firstcry.com",
+    "domain": "firstcry.com",
+    "industry": "baby",
+    "city": "Pune",
+    "country": "India",
+    "platform": "",
+    "platform_source": "",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "",
+    "email_valid": false,
+    "email_source": "",
+    "phone": "",
+    "phone_source": "",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/firstcryindia",
+      "facebook": "https://www.facebook.com/FirstCryIndia/",
+      "twitter": "https://twitter.com/firstcryindia",
+      "linkedin": "https://www.linkedin.com/company/firstcry",
+      "youtube": "https://www.youtube.com/channel/UCXQjmZLatydSOHhbOA8-kqw"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 1 instances of faq_volume references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 49 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 74 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 88 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 1 instances of contact_page references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: FirstCry",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 36.9,
+    "buying_intent_score": 30.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "B",
+    "missing_signals": [],
+    "who_they_are": "FirstCry \u2014 baby brand based in Pune",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: FirstCry; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "No contact info",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; no CRM integration",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed FirstCry is growing. With many products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "FabAlley",
+    "website": "https://faballey.com",
+    "domain": "faballey.com",
+    "industry": "fashion",
+    "city": "New Delhi",
+    "country": "India",
+    "platform": "",
+    "platform_source": "",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "customercare@houseofindya.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "+91-8929987349",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_PRESENT",
+    "chatbot_evidence": "Detected: crisp",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/indya",
+      "facebook": "https://www.facebook.com/houseofindya",
+      "twitter": "https://twitter.com/houseofindya",
+      "youtube": "https://www.youtube.com/channel/UCBwiBrn7wBNsvjZyeq23Dpg"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 5 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 105 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 16 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 20 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 2 instances of contact_page references",
+        "confidence": 0.7,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: FabAlley",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 36.4,
+    "buying_intent_score": 5.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "FabAlley \u2014 fashion brand based in New Delhi",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: FabAlley; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: customercare@houseofindya.com; phone: +91-8929987349",
+    "what_problem": "no CRM integration; Found 5 instances of faq_volume references; Found 105 instances of return_policy references",
+    "why_buy_comai": "Existing automation may need upgrade",
+    "why_now": "Growing business",
+    "what_to_say": "Hi there, love what FabAlley is building. Quick question \u2014 how are you handling customer support at scale?"
+  },
+  {
+    "company": "Marching Ants",
+    "website": "https://marchingants.in",
+    "domain": "marchingants.in",
+    "industry": "fashion",
+    "city": "Bengaluru",
+    "country": "India",
+    "platform": "",
+    "platform_source": "",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "",
+    "email_valid": false,
+    "email_source": "",
+    "phone": "+919886011115",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {},
+    "pain_points": [
+      {
+        "type": "return_policy",
+        "evidence": "Found 3 instances of return_policy references",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 3 instances of cod_available references",
+        "confidence": 0.8,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 2 instances of contact_page references",
+        "confidence": 0.7,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Marching Ants",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 35.5,
+    "buying_intent_score": 30.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "B",
+    "missing_signals": [],
+    "who_they_are": "Marching Ants \u2014 fashion brand based in Bengaluru",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Marching Ants; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "phone: +919886011115",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; no CRM integration",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed Marching Ants is growing. With many products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "HealthKart",
+    "website": "https://healthkart.com",
+    "domain": "healthkart.com",
+    "industry": "health",
+    "city": "Gurugram",
+    "country": "India",
+    "platform": "",
+    "platform_source": "",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "",
+    "email_valid": false,
+    "email_source": "",
+    "phone": "916864608076",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_PRESENT",
+    "crm_evidence": "Detected: zoho",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/healthkart",
+      "facebook": "https://www.facebook.com/healthkart",
+      "twitter": "https://x.com/healthkart",
+      "linkedin": "https://www.linkedin.com/company/healthkart",
+      "youtube": "https://www.youtube.com/@HealthKart"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 11 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 49 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 36 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 113 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 2 instances of contact_page references",
+        "confidence": 0.7,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: HealthKart",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 35.4,
+    "buying_intent_score": 25.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "B",
+    "missing_signals": [],
+    "who_they_are": "HealthKart \u2014 health brand based in Gurugram",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: HealthKart; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "phone: 916864608076",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; Found 11 instances of faq_volume references",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed HealthKart is growing. With many products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "Fittr",
+    "website": "https://fittr.com",
+    "domain": "fittr.com",
+    "industry": "health",
+    "city": "Pune",
+    "country": "India",
+    "platform": "",
+    "platform_source": "",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "support@fittr.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "",
+    "phone_source": "",
+    "chatbot_state": "VERIFIED_PRESENT",
+    "chatbot_evidence": "Detected: crisp, chatbot",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/fittrwithsquats/",
+      "facebook": "https://www.facebook.com/Fittrwithsquats",
+      "linkedin": "https://www.linkedin.com/in/jitendrachouksey/"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 1 instances of faq_volume references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 6 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 91 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 40 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 1 instances of contact_page references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Fittr",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 33.7,
+    "buying_intent_score": 5.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "B",
+    "missing_signals": [],
+    "who_they_are": "Fittr \u2014 health brand based in Pune",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Fittr; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: support@fittr.com",
+    "what_problem": "no CRM integration; Found 1 instances of faq_volume references; Found 6 instances of return_policy references",
+    "why_buy_comai": "Existing automation may need upgrade",
+    "why_now": "Growing business",
+    "what_to_say": "Hi there, love what Fittr is building. Quick question \u2014 how are you handling customer support at scale?"
+  },
+  {
+    "company": "Snitch",
+    "website": "https://snitch.com",
+    "domain": "snitch.com",
+    "industry": "fashion",
+    "city": "Bengaluru",
+    "country": "India",
+    "platform": "shopify",
+    "platform_source": "homepage_html",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "",
+    "email_valid": false,
+    "email_source": "",
+    "phone": "",
+    "phone_source": "",
+    "chatbot_state": "VERIFIED_PRESENT",
+    "chatbot_evidence": "Detected: crisp",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "facebook": "https://www.facebook.com/tr?id=1635115906661725&amp;ev=PageView&amp;noscript=1"
+    },
+    "pain_points": [
+      {
+        "type": "return_policy",
+        "evidence": "Found 6 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 14 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 608 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Snitch",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 33.3,
+    "buying_intent_score": 15.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "B",
+    "missing_signals": [],
+    "who_they_are": "Snitch \u2014 fashion brand based in Bengaluru",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Snitch; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "No contact info",
+    "what_problem": "no WhatsApp automation; no CRM integration; Found 6 instances of return_policy references",
+    "why_buy_comai": "No WhatsApp automation \u2014 COMAI can scale engagement",
+    "why_now": "Growing business",
+    "what_to_say": "Hi there, love what Snitch is building. Quick question \u2014 how are you handling customer support at scale?"
+  },
+  {
+    "company": "The Souled Store",
+    "website": "https://thesouledstore.com",
+    "domain": "thesouledstore.com",
+    "industry": "fashion",
+    "city": "Mumbai",
+    "country": "India",
+    "platform": "",
+    "platform_source": "",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "",
+    "email_valid": false,
+    "email_source": "",
+    "phone": "",
+    "phone_source": "",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {},
+    "pain_points": [
+      {
+        "type": "shipping_info",
+        "evidence": "Found 8 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 1 instances of cod_available references",
+        "confidence": 0.6,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: The Souled Store",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 32.9,
+    "buying_intent_score": 30.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "C",
+    "missing_signals": [],
+    "who_they_are": "The Souled Store \u2014 fashion brand based in Mumbai",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: The Souled Store; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "No contact info",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; no CRM integration",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed The Souled Store is growing. With many products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "WishCare",
+    "website": "https://wishcare.com",
+    "domain": "wishcare.com",
+    "industry": "skincare",
+    "city": "Mumbai",
+    "country": "India",
+    "platform": "",
+    "platform_source": "",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "",
+    "email_valid": false,
+    "email_source": "",
+    "phone": "",
+    "phone_source": "",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {},
+    "pain_points": [],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: WishCare",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 32.2,
+    "buying_intent_score": 30.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "C",
+    "missing_signals": [],
+    "who_they_are": "WishCare \u2014 skincare brand based in Mumbai",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: WishCare; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "No contact info",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; no CRM integration",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed WishCare is growing. With many products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "Paws & Claws",
+    "website": "https://pawsandclaws.in",
+    "domain": "pawsandclaws.in",
+    "industry": "pets",
+    "city": "Mumbai",
+    "country": "India",
+    "platform": "",
+    "platform_source": "",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "",
+    "email_valid": false,
+    "email_source": "",
+    "phone": "",
+    "phone_source": "",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {},
+    "pain_points": [],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Paws & Claws",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 32.2,
+    "buying_intent_score": 30.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "C",
+    "missing_signals": [],
+    "who_they_are": "Paws & Claws \u2014 pets brand based in Mumbai",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Paws & Claws; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "No contact info",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; no CRM integration",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed Paws & Claws is growing. With many products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "boAt",
+    "website": "https://boatlifestyle.com",
+    "domain": "boatlifestyle.com",
+    "industry": "electronics",
+    "city": "New Delhi",
+    "country": "India",
+    "platform": "",
+    "platform_source": "",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "",
+    "email_valid": false,
+    "email_source": "",
+    "phone": "",
+    "phone_source": "",
+    "chatbot_state": "VERIFIED_ABSENT",
+    "chatbot_evidence": "Checked homepage HTML \u2014 no chatbot signatures found",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_ABSENT",
+    "whatsapp_evidence": "Checked homepage HTML \u2014 no WhatsApp signatures found",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_ABSENT",
+    "crm_evidence": "Checked homepage HTML \u2014 no CRM signatures found",
+    "crm_source": "homepage_html",
+    "social_links": {},
+    "pain_points": [],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: boAt",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 32.2,
+    "buying_intent_score": 30.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "C",
+    "missing_signals": [],
+    "who_they_are": "boAt \u2014 electronics brand based in New Delhi",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: boAt; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "No contact info",
+    "what_problem": "no AI chatbot \u2014 handling queries manually; no WhatsApp automation; no CRM integration",
+    "why_buy_comai": "No AI automation \u2014 COMAI can provide 24/7 support + WhatsApp",
+    "why_now": "manual support is unsustainable",
+    "what_to_say": "Hi there, noticed boAt is growing. With many products, customer queries must be overwhelming. We helped similar brands automate 80% of support. Can we show you how?"
+  },
+  {
+    "company": "Melorra",
+    "website": "https://melorra.com",
+    "domain": "melorra.com",
+    "industry": "jewellery",
+    "city": "Bengaluru",
+    "country": "India",
+    "platform": "",
+    "platform_source": "",
+    "employee_count": null,
+    "employee_source": "",
+    "product_count": null,
+    "product_count_source": "",
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "founder_linkedin": "",
+    "email": "cs@melorra.com",
+    "email_valid": true,
+    "email_source": "homepage_html",
+    "phone": "919653298577",
+    "phone_source": "homepage_html",
+    "chatbot_state": "VERIFIED_PRESENT",
+    "chatbot_evidence": "Detected: crisp",
+    "chatbot_source": "homepage_html",
+    "whatsapp_state": "VERIFIED_PRESENT",
+    "whatsapp_evidence": "Detected: whatsapp",
+    "whatsapp_source": "homepage_html",
+    "crm_state": "VERIFIED_PRESENT",
+    "crm_evidence": "Detected: zoho",
+    "crm_source": "homepage_html",
+    "social_links": {
+      "instagram": "https://www.instagram.com/melorra_com",
+      "facebook": "https://www.facebook.com/melorrajewellery",
+      "twitter": "https://twitter.com/melorra_com",
+      "linkedin": "https://www.linkedin.com/company/melorra/",
+      "youtube": "https://www.youtube.com/channel/UC7AvsEISkPXmdph2SULPm3g"
+    },
+    "pain_points": [
+      {
+        "type": "faq_volume",
+        "evidence": "Found 16 instances of faq_volume references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "return_policy",
+        "evidence": "Found 18 instances of return_policy references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "shipping_info",
+        "evidence": "Found 32 instances of shipping_info references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "cod_available",
+        "evidence": "Found 139 instances of cod_available references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      },
+      {
+        "type": "contact_page",
+        "evidence": "Found 4 instances of contact_page references",
+        "confidence": 0.9,
+        "source": "homepage_html"
+      }
+    ],
+    "growth_signals": [
+      {
+        "type": "discovery",
+        "evidence": "Verified Indian D2C brand: Melorra",
+        "confidence": 1.0,
+        "source": "verified_seed_list"
+      }
+    ],
+    "buying_signals": [],
+    "buyability_score": 32.1,
+    "buying_intent_score": 0.0,
+    "grade": "NURTURE",
+    "business_stage": "UNKNOWN",
+    "evidence_grade": "A",
+    "missing_signals": [],
+    "who_they_are": "Melorra \u2014 jewellery brand based in Bengaluru",
+    "how_big": "Size unknown \u2014 needs enrichment",
+    "are_growing": "Verified Indian D2C brand: Melorra; identified as growing brand",
+    "who_owns": "Founder not identified",
+    "can_reach": "email: cs@melorra.com; phone: 919653298577",
+    "what_problem": "Found 16 instances of faq_volume references; Found 18 instances of return_policy references",
+    "why_buy_comai": "Existing automation may need upgrade",
+    "why_now": "Growing business",
+    "what_to_say": "Hi there, love what Melorra is building. Quick question \u2014 how are you handling customer support at scale?"
+  }
+]

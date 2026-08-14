@@ -1,0 +1,574 @@
+{
+  "generated_at": "2026-08-13T22:50:33.028474+00:00",
+  "from": "vansh@inowix.in",
+  "cc": "vanshjhamb9@gmail.com",
+  "total": 26,
+  "sent": 10,
+  "failed": 16,
+  "by_lane": {
+    "COMAI_DIRECT": {
+      "sent": 10,
+      "failed": 8
+    },
+    "COMAI_PARTNER": {
+      "sent": 0,
+      "failed": 7
+    },
+    "INOWIX_DIRECT": {
+      "sent": 0,
+      "failed": 1
+    }
+  },
+  "results": [
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "SuperBottoms",
+      "founder_name": "",
+      "to_email": "resolutions@superbottoms.com",
+      "website": "https://superbottoms.com",
+      "city": "Mumbai",
+      "industry": "baby",
+      "subject": "SuperBottoms — WhatsApp AI that replies before customers bounce",
+      "body": "Hi there,\n\nI came across SuperBottoms (Mumbai) — no chatbot — comai can automate customer support.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for SuperBottoms on shopify?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": 58.0,
+      "why": "No chatbot — COMAI can automate customer support",
+      "angle": null,
+      "send_result": {
+        "success": true,
+        "to": "resolutions@superbottoms.com",
+        "cc": [
+          "vanshjhamb9@gmail.com"
+        ],
+        "subject": "SuperBottoms — WhatsApp AI that replies before customers bounce"
+      },
+      "sent_at": "2026-08-13T22:49:28.406345+00:00"
+    },
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "Dot & Key",
+      "founder_name": "",
+      "to_email": "care@dotandkey.com",
+      "website": "https://dotandkey.com",
+      "city": "Kolkata",
+      "industry": "skincare",
+      "subject": "Dot & Key — WhatsApp AI that replies before customers bounce",
+      "body": "Hi there,\n\nI came across Dot & Key (Kolkata) — no ai automation — comai can provide 24/7 support + whatsapp.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for Dot & Key on shopify?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": 57.2,
+      "why": "No AI automation — COMAI can provide 24/7 support + WhatsApp",
+      "angle": null,
+      "send_result": {
+        "success": true,
+        "to": "care@dotandkey.com",
+        "cc": [
+          "vanshjhamb9@gmail.com"
+        ],
+        "subject": "Dot & Key — WhatsApp AI that replies before customers bounce"
+      },
+      "sent_at": "2026-08-13T22:49:30.787068+00:00"
+    },
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "Foxtale",
+      "founder_name": "",
+      "to_email": "info@foxtale.in",
+      "website": "https://foxtale.in",
+      "city": "Mumbai",
+      "industry": "skincare",
+      "subject": "Foxtale — WhatsApp AI that replies before customers bounce",
+      "body": "Hi there,\n\nI came across Foxtale (Mumbai) — no chatbot — comai can automate customer support.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for Foxtale on shopify?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": 56.9,
+      "why": "No chatbot — COMAI can automate customer support",
+      "angle": null,
+      "send_result": {
+        "success": true,
+        "to": "info@foxtale.in",
+        "cc": [
+          "vanshjhamb9@gmail.com"
+        ],
+        "subject": "Foxtale — WhatsApp AI that replies before customers bounce"
+      },
+      "sent_at": "2026-08-13T22:49:33.392853+00:00"
+    },
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "Bellavita",
+      "founder_name": "",
+      "to_email": "shop@bellavitaorganic.com",
+      "website": "https://bellavita.in",
+      "city": "New Delhi",
+      "industry": "beauty",
+      "subject": "Bellavita — WhatsApp AI that replies before customers bounce",
+      "body": "Hi there,\n\nI came across Bellavita (New Delhi) — no chatbot — comai can automate customer support.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for Bellavita on shopify?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": 50.9,
+      "why": "No chatbot — COMAI can automate customer support",
+      "angle": null,
+      "send_result": {
+        "success": true,
+        "to": "shop@bellavitaorganic.com",
+        "cc": [
+          "vanshjhamb9@gmail.com"
+        ],
+        "subject": "Bellavita — WhatsApp AI that replies before customers bounce"
+      },
+      "sent_at": "2026-08-13T22:49:35.956391+00:00"
+    },
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "GIVA",
+      "founder_name": "",
+      "to_email": "care@giva.co",
+      "website": "https://giva.co",
+      "city": "Bengaluru",
+      "industry": "jewellery",
+      "subject": "GIVA — WhatsApp AI that replies before customers bounce",
+      "body": "Hi there,\n\nI came across GIVA (Bengaluru) — no chatbot — comai can automate customer support.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for GIVA on shopify?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": 50.9,
+      "why": "No chatbot — COMAI can automate customer support",
+      "angle": null,
+      "send_result": {
+        "success": true,
+        "to": "care@giva.co",
+        "cc": [
+          "vanshjhamb9@gmail.com"
+        ],
+        "subject": "GIVA — WhatsApp AI that replies before customers bounce"
+      },
+      "sent_at": "2026-08-13T22:49:38.557079+00:00"
+    },
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "Palmonas",
+      "founder_name": "",
+      "to_email": "care@palmonas.com",
+      "website": "https://palmonas.com",
+      "city": "Mumbai",
+      "industry": "jewellery",
+      "subject": "Palmonas — WhatsApp AI that replies before customers bounce",
+      "body": "Hi there,\n\nI came across Palmonas (Mumbai) — no chatbot — comai can automate customer support.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for Palmonas on shopify?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": 50.9,
+      "why": "No chatbot — COMAI can automate customer support",
+      "angle": null,
+      "send_result": {
+        "success": true,
+        "to": "care@palmonas.com",
+        "cc": [
+          "vanshjhamb9@gmail.com"
+        ],
+        "subject": "Palmonas — WhatsApp AI that replies before customers bounce"
+      },
+      "sent_at": "2026-08-13T22:49:41.064776+00:00"
+    },
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "Sugar Cosmetics",
+      "founder_name": "",
+      "to_email": "hello@sugarcosmetics.com",
+      "website": "https://sugarcosmetics.com",
+      "city": "Mumbai",
+      "industry": "beauty",
+      "subject": "Sugar Cosmetics — WhatsApp AI that replies before customers bounce",
+      "body": "Hi there,\n\nI came across Sugar Cosmetics (Mumbai) — no chatbot — comai can automate customer support.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for Sugar Cosmetics on shopify?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": 50.7,
+      "why": "No chatbot — COMAI can automate customer support",
+      "angle": null,
+      "send_result": {
+        "success": true,
+        "to": "hello@sugarcosmetics.com",
+        "cc": [
+          "vanshjhamb9@gmail.com"
+        ],
+        "subject": "Sugar Cosmetics — WhatsApp AI that replies before customers bounce"
+      },
+      "sent_at": "2026-08-13T22:49:44.000899+00:00"
+    },
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "Earth Rhythm",
+      "founder_name": "",
+      "to_email": "support@earthrhythm.com",
+      "website": "https://earthrhythm.com",
+      "city": "Noida",
+      "industry": "skincare",
+      "subject": "Earth Rhythm — WhatsApp AI that replies before customers bounce",
+      "body": "Hi there,\n\nI came across Earth Rhythm (Noida) — no chatbot — comai can automate customer support.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for Earth Rhythm on shopify?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": 50.7,
+      "why": "No chatbot — COMAI can automate customer support",
+      "angle": null,
+      "send_result": {
+        "success": true,
+        "to": "support@earthrhythm.com",
+        "cc": [
+          "vanshjhamb9@gmail.com"
+        ],
+        "subject": "Earth Rhythm — WhatsApp AI that replies before customers bounce"
+      },
+      "sent_at": "2026-08-13T22:49:46.599247+00:00"
+    },
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "Plum Goodness",
+      "founder_name": "",
+      "to_email": "hello@plumgoodness.com",
+      "website": "https://plumgoodness.com",
+      "city": "Thane",
+      "industry": "beauty",
+      "subject": "Plum Goodness — WhatsApp AI that replies before customers bounce",
+      "body": "Hi there,\n\nI came across Plum Goodness (Thane) — no chatbot — comai can automate customer support.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for Plum Goodness on shopify?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": 50.4,
+      "why": "No chatbot — COMAI can automate customer support",
+      "angle": null,
+      "send_result": {
+        "success": true,
+        "to": "hello@plumgoodness.com",
+        "cc": [
+          "vanshjhamb9@gmail.com"
+        ],
+        "subject": "Plum Goodness — WhatsApp AI that replies before customers bounce"
+      },
+      "sent_at": "2026-08-13T22:49:49.113623+00:00"
+    },
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "Fae Beauty",
+      "founder_name": "",
+      "to_email": "support@faebeauty.in",
+      "website": "https://faebeauty.in",
+      "city": "Mumbai",
+      "industry": "beauty",
+      "subject": "Fae Beauty — WhatsApp AI that replies before customers bounce",
+      "body": "Hi there,\n\nI came across Fae Beauty (Mumbai) — no whatsapp automation — comai can scale engagement.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for Fae Beauty on shopify?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": 50.0,
+      "why": "No WhatsApp automation — COMAI can scale engagement",
+      "angle": null,
+      "send_result": {
+        "success": true,
+        "to": "support@faebeauty.in",
+        "cc": [
+          "vanshjhamb9@gmail.com"
+        ],
+        "subject": "Fae Beauty — WhatsApp AI that replies before customers bounce"
+      },
+      "sent_at": "2026-08-13T22:49:51.638680+00:00"
+    },
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "Slurrp Farm",
+      "founder_name": "",
+      "to_email": "mail@slurrpfarm.com",
+      "website": "https://slurrpfarm.com",
+      "city": "New Delhi",
+      "industry": "food",
+      "subject": "Slurrp Farm — WhatsApp AI that replies before customers bounce",
+      "body": "Hi there,\n\nI came across Slurrp Farm (New Delhi) — existing automation may need upgrade.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for Slurrp Farm on shopify?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": 48.9,
+      "why": "Existing automation may need upgrade",
+      "angle": null,
+      "send_result": {
+        "success": false,
+        "to": "mail@slurrpfarm.com",
+        "error": "Connection unexpectedly closed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      },
+      "sent_at": "2026-08-13T22:49:53.992759+00:00"
+    },
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "Farmley",
+      "founder_name": "",
+      "to_email": "wecare@farmley.com",
+      "website": "https://farmley.com",
+      "city": "New Delhi",
+      "industry": "food",
+      "subject": "Farmley — WhatsApp AI that replies before customers bounce",
+      "body": "Hi there,\n\nI came across Farmley (New Delhi) — no ai automation — comai can provide 24/7 support + whatsapp.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for Farmley on shopify?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": 48.2,
+      "why": "No AI automation — COMAI can provide 24/7 support + WhatsApp",
+      "angle": null,
+      "send_result": {
+        "success": false,
+        "to": "wecare@farmley.com",
+        "error": "Connection unexpectedly closed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      },
+      "sent_at": "2026-08-13T22:49:56.470322+00:00"
+    },
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "DaMENSCH",
+      "founder_name": "",
+      "to_email": "support@damensch.com",
+      "website": "https://damensch.com",
+      "city": "Mumbai",
+      "industry": "fashion",
+      "subject": "DaMENSCH — WhatsApp AI that replies before customers bounce",
+      "body": "Hi there,\n\nI came across DaMENSCH (Mumbai) — no chatbot — comai can automate customer support.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for DaMENSCH on your store?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": 45.8,
+      "why": "No chatbot — COMAI can automate customer support",
+      "angle": null,
+      "send_result": {
+        "success": false,
+        "to": "support@damensch.com",
+        "error": "Connection unexpectedly closed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      },
+      "sent_at": "2026-08-13T22:49:58.799807+00:00"
+    },
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "BlueStone",
+      "founder_name": "",
+      "to_email": "cs@bluestone.com",
+      "website": "https://bluestone.com",
+      "city": "Bengaluru",
+      "industry": "jewellery",
+      "subject": "BlueStone — WhatsApp AI that replies before customers bounce",
+      "body": "Hi there,\n\nI came across BlueStone (Bengaluru) — no ai automation — comai can provide 24/7 support + whatsapp.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for BlueStone on your store?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": 44.2,
+      "why": "No AI automation — COMAI can provide 24/7 support + WhatsApp",
+      "angle": null,
+      "send_result": {
+        "success": false,
+        "to": "cs@bluestone.com",
+        "error": "Connection unexpectedly closed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      },
+      "sent_at": "2026-08-13T22:50:01.184004+00:00"
+    },
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "Nutrabay",
+      "founder_name": "",
+      "to_email": "friends@nutrabay.com",
+      "website": "https://nutrabay.com",
+      "city": "New Delhi",
+      "industry": "health",
+      "subject": "Nutrabay — WhatsApp AI that replies before customers bounce",
+      "body": "Hi there,\n\nI came across Nutrabay (New Delhi) — existing automation may need upgrade.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for Nutrabay on woocommerce?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": 44.1,
+      "why": "Existing automation may need upgrade",
+      "angle": null,
+      "send_result": {
+        "success": false,
+        "to": "friends@nutrabay.com",
+        "error": "Connection unexpectedly closed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      },
+      "sent_at": "2026-08-13T22:50:03.519512+00:00"
+    },
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "Chumbak",
+      "founder_name": "",
+      "to_email": "help@chumbak.in",
+      "website": "https://chumbak.com",
+      "city": "Bengaluru",
+      "industry": "home_decor",
+      "subject": "Chumbak — WhatsApp AI that replies before customers bounce",
+      "body": "Hi there,\n\nI came across Chumbak (Bengaluru) — existing automation may need upgrade.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for Chumbak on shopify?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": 43.8,
+      "why": "Existing automation may need upgrade",
+      "angle": null,
+      "send_result": {
+        "success": false,
+        "to": "help@chumbak.in",
+        "error": "Connection unexpectedly closed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      },
+      "sent_at": "2026-08-13T22:50:06.010403+00:00"
+    },
+    {
+      "lane": "COMAI_PARTNER",
+      "company_name": "Resultiq Digital",
+      "founder_name": "Akash Saini",
+      "to_email": "info@resultiqdigital.com",
+      "website": "https://resultiqdigital.com",
+      "city": "Delhi NCR",
+      "industry": "Performance marketing for D2C",
+      "subject": "Resultiq Digital × COMAI Agency Partner — white-label WhatsApp AI",
+      "body": "Hi Akash,\n\nAlready runs Email & WhatsApp marketing for D2C — white-label COMAI deepens conversion layer.\n\nI'm Vansh from Inowix. COMAI is our AI commerce layer (WhatsApp + chat) — instant replies, product recommendations, lead capture, automated follow-ups for ecommerce/D2C clients.\n\nThrough the Agency Partner Program, agencies like Resultiq Digital white-label COMAI: you keep the client relationship and add a recurring AI/WhatsApp revenue line — we run the tech. Especially strong when your ads already create WhatsApp intent that currently goes cold.\n\nWorth a 15-minute partner intro this week?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": null,
+      "why": null,
+      "angle": "Already runs Email & WhatsApp marketing for D2C — white-label COMAI deepens conversion layer",
+      "send_result": {
+        "success": false,
+        "to": "info@resultiqdigital.com",
+        "error": "Connection unexpectedly closed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      },
+      "sent_at": "2026-08-13T22:50:08.391173+00:00"
+    },
+    {
+      "lane": "COMAI_PARTNER",
+      "company_name": "Brandscalez",
+      "founder_name": "Rohit Raj",
+      "to_email": "info@brandscalez.com",
+      "website": "https://brandscalez.com",
+      "city": "Noida",
+      "industry": "Fashion/lifestyle D2C performance agency",
+      "subject": "Brandscalez × COMAI Agency Partner — white-label WhatsApp AI",
+      "body": "Hi Rohit,\n\nScales D2C fashion brands on Meta/Google/WhatsApp Ads — COMAI converts post-click chats.\n\nI'm Vansh from Inowix. COMAI is our AI commerce layer (WhatsApp + chat) — instant replies, product recommendations, lead capture, automated follow-ups for ecommerce/D2C clients.\n\nThrough the Agency Partner Program, agencies like Brandscalez white-label COMAI: you keep the client relationship and add a recurring AI/WhatsApp revenue line — we run the tech. Especially strong when your ads already create WhatsApp intent that currently goes cold.\n\nWorth a 15-minute partner intro this week?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": null,
+      "why": null,
+      "angle": "Scales D2C fashion brands on Meta/Google/WhatsApp Ads — COMAI converts post-click chats",
+      "send_result": {
+        "success": false,
+        "to": "info@brandscalez.com",
+        "error": "Connection unexpectedly closed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      },
+      "sent_at": "2026-08-13T22:50:10.741413+00:00"
+    },
+    {
+      "lane": "COMAI_PARTNER",
+      "company_name": "Per4mance Guru",
+      "founder_name": "",
+      "to_email": "hello@per4mance.guru",
+      "website": "https://per4mance.guru",
+      "city": "Delhi",
+      "industry": "Performance marketing agency",
+      "subject": "Per4mance Guru × COMAI Agency Partner — white-label WhatsApp AI",
+      "body": "Hi there,\n\nD2C Meta/Google agency — add white-label WhatsApp AI as retention/conversion offer.\n\nI'm Vansh from Inowix. COMAI is our AI commerce layer (WhatsApp + chat) — instant replies, product recommendations, lead capture, automated follow-ups for ecommerce/D2C clients.\n\nThrough the Agency Partner Program, agencies like Per4mance Guru white-label COMAI: you keep the client relationship and add a recurring AI/WhatsApp revenue line — we run the tech. Especially strong when your ads already create WhatsApp intent that currently goes cold.\n\nWorth a 15-minute partner intro this week?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": null,
+      "why": null,
+      "angle": "D2C Meta/Google agency — add white-label WhatsApp AI as retention/conversion offer",
+      "send_result": {
+        "success": false,
+        "to": "hello@per4mance.guru",
+        "error": "Connection unexpectedly closed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      },
+      "sent_at": "2026-08-13T22:50:13.086770+00:00"
+    },
+    {
+      "lane": "COMAI_PARTNER",
+      "company_name": "PERFORMAKS",
+      "founder_name": "",
+      "to_email": "growth@performaks.com",
+      "website": "https://performaks.com",
+      "city": "India",
+      "industry": "D2C performance & growth agency",
+      "subject": "PERFORMAKS × COMAI Agency Partner — white-label WhatsApp AI",
+      "body": "Hi there,\n\nShopify + performance stack for D2C — COMAI plugs conversation commerce gap.\n\nI'm Vansh from Inowix. COMAI is our AI commerce layer (WhatsApp + chat) — instant replies, product recommendations, lead capture, automated follow-ups for ecommerce/D2C clients.\n\nThrough the Agency Partner Program, agencies like PERFORMAKS white-label COMAI: you keep the client relationship and add a recurring AI/WhatsApp revenue line — we run the tech. Especially strong when your ads already create WhatsApp intent that currently goes cold.\n\nWorth a 15-minute partner intro this week?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": null,
+      "why": null,
+      "angle": "Shopify + performance stack for D2C — COMAI plugs conversation commerce gap",
+      "send_result": {
+        "success": false,
+        "to": "growth@performaks.com",
+        "error": "Connection unexpectedly closed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      },
+      "sent_at": "2026-08-13T22:50:15.407254+00:00"
+    },
+    {
+      "lane": "COMAI_PARTNER",
+      "company_name": "PurpleChalk",
+      "founder_name": "",
+      "to_email": "hello@purplechalk.in",
+      "website": "https://www.purplechalk.in",
+      "city": "Chennai",
+      "industry": "Shopify + branding + WhatsApp/email automation agency",
+      "subject": "PurpleChalk × COMAI Agency Partner — white-label WhatsApp AI",
+      "body": "Hi there,\n\nAlready offers WhatsApp automation — COMAI white-label upgrades to AI commerce employee.\n\nI'm Vansh from Inowix. COMAI is our AI commerce layer (WhatsApp + chat) — instant replies, product recommendations, lead capture, automated follow-ups for ecommerce/D2C clients.\n\nThrough the Agency Partner Program, agencies like PurpleChalk white-label COMAI: you keep the client relationship and add a recurring AI/WhatsApp revenue line — we run the tech. Especially strong when your ads already create WhatsApp intent that currently goes cold.\n\nWorth a 15-minute partner intro this week?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": null,
+      "why": null,
+      "angle": "Already offers WhatsApp automation — COMAI white-label upgrades to AI commerce employee",
+      "send_result": {
+        "success": false,
+        "to": "hello@purplechalk.in",
+        "error": "Connection unexpectedly closed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      },
+      "sent_at": "2026-08-13T22:50:18.243220+00:00"
+    },
+    {
+      "lane": "COMAI_PARTNER",
+      "company_name": "Gravmo",
+      "founder_name": "Afzal Anis",
+      "to_email": "mail@gravmo.in",
+      "website": "https://www.gravmo.in",
+      "city": "Delhi / Mumbai / Bangalore",
+      "industry": "Performance marketing",
+      "subject": "Gravmo × COMAI Agency Partner — white-label WhatsApp AI",
+      "body": "Hi Afzal,\n\neCommerce performance agency — partner lane for WhatsApp AI conversion.\n\nI'm Vansh from Inowix. COMAI is our AI commerce layer (WhatsApp + chat) — instant replies, product recommendations, lead capture, automated follow-ups for ecommerce/D2C clients.\n\nThrough the Agency Partner Program, agencies like Gravmo white-label COMAI: you keep the client relationship and add a recurring AI/WhatsApp revenue line — we run the tech. Especially strong when your ads already create WhatsApp intent that currently goes cold.\n\nWorth a 15-minute partner intro this week?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": null,
+      "why": null,
+      "angle": "eCommerce performance agency — partner lane for WhatsApp AI conversion",
+      "send_result": {
+        "success": false,
+        "to": "mail@gravmo.in",
+        "error": "Connection unexpectedly closed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      },
+      "sent_at": "2026-08-13T22:50:20.544284+00:00"
+    },
+    {
+      "lane": "COMAI_PARTNER",
+      "company_name": "Mobyink Innovations",
+      "founder_name": "Kapil Thakkar",
+      "to_email": "info@mobyink.com",
+      "website": "https://mobyink.com",
+      "city": "Jaipur / UAE",
+      "industry": "D2C growth / Shopify partner agency",
+      "subject": "Mobyink Innovations × COMAI Agency Partner — white-label WhatsApp AI",
+      "body": "Hi Kapil,\n\n150+ D2C brands, Shopify partner — natural reseller for COMAI.\n\nI'm Vansh from Inowix. COMAI is our AI commerce layer (WhatsApp + chat) — instant replies, product recommendations, lead capture, automated follow-ups for ecommerce/D2C clients.\n\nThrough the Agency Partner Program, agencies like Mobyink Innovations white-label COMAI: you keep the client relationship and add a recurring AI/WhatsApp revenue line — we run the tech. Especially strong when your ads already create WhatsApp intent that currently goes cold.\n\nWorth a 15-minute partner intro this week?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": null,
+      "why": null,
+      "angle": "150+ D2C brands, Shopify partner — natural reseller for COMAI",
+      "send_result": {
+        "success": false,
+        "to": "info@mobyink.com",
+        "error": "Connection unexpectedly closed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      },
+      "sent_at": "2026-08-13T22:50:23.034670+00:00"
+    },
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "Premkala",
+      "founder_name": "Khyati Radadiya",
+      "to_email": "care@premakala.in",
+      "website": "https://premkala.in",
+      "city": "Surat",
+      "industry": "Women's apparel D2C",
+      "subject": "Premkala — WhatsApp AI that replies before customers bounce",
+      "body": "Hi Khyati,\n\nI came across Premkala (Surat) — active whatsapp support channel; apparel d2c fit.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for Premkala on your store?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": null,
+      "why": "Active WhatsApp support channel; apparel D2C fit",
+      "angle": "WhatsApp-heavy support (+91 70692 06000) — COMAI automates order/style queries 24/7",
+      "send_result": {
+        "success": false,
+        "to": "care@premakala.in",
+        "error": "Connection unexpectedly closed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      },
+      "sent_at": "2026-08-13T22:50:25.724636+00:00"
+    },
+    {
+      "lane": "COMAI_DIRECT",
+      "company_name": "Naitra Jewelry",
+      "founder_name": "",
+      "to_email": "collab@naitra.in",
+      "website": "https://www.naitra.in",
+      "city": "Hyderabad",
+      "industry": "Jewellery D2C",
+      "subject": "Naitra Jewelry — WhatsApp AI that replies before customers bounce",
+      "body": "Hi there,\n\nI came across Naitra Jewelry (Hyderabad) — jewellery d2c with whatsapp support published.\n\nI'm Vansh from Inowix. We built COMAI — an AI commerce employee for WhatsApp/chat that replies in seconds, answers product/order questions, captures leads, and runs follow-ups 24/7. Built for Indian D2C brands where WhatsApp is the real storefront after the ad click.\n\nMost teams we speak to are losing sales to slow replies (especially COD confirmations and “where is my order?”). COMAI plugs that gap without hiring a night support shift.\n\nOpen to a quick 15-minute look at how this would work for Naitra Jewelry on your store?\n\nBest,\nVansh Jhamb\nFounder, Inowix | COMAI\nvansh@inowix.in\nhttps://inowix.in",
+      "score": null,
+      "why": "Jewellery D2C with WhatsApp support published",
+      "angle": "WhatsApp-first customer care — AI commerce replies for order/size/return questions",
+      "send_result": {
+        "success": false,
+        "to": "collab@naitra.in",
+        "error": "Connection unexpectedly closed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      },
+      "sent_at": "2026-08-13T22:50:28.256058+00:00"
+    },
+    {
+      "lane": "INOWIX_DIRECT",
+      "company_name": "Graxi Tech Solutions",
+      "founder_name": "Sarankumar M",
+      "to_email": "info@graxitechs.com",
+      "website": "https://graxitechs.com",
+      "city": "Bangalore / Chennai",
+      "industry": "Offshore / IT solutions for US-UK startups",
+      "subject": "Graxi Tech Solutions × Inowix — co-delivery on AI & custom SaaS",
+      "body": "Hi Sarankumar,\n\nHelps US/UK startups build teams — co-delivery / overflow partnership on AI agents & custom SaaS with Inowix.\n\nI'm Vansh from Inowix. We ship SaaS MVPs, AI agents/automation, and custom product engineering for startups and growth teams — often as a co-delivery partner for firms that already have client relationships but need extra senior build capacity.\n\nIf there's interest in a quiet co-delivery or overflow partnership (India/US/UK scopes), I'd love a short intro call.\n\nBest,\nVansh Jhamb\nFounder, Inowix\nvansh@inowix.in\nhttps://inowix.in",
+      "score": null,
+      "why": null,
+      "angle": "Helps US/UK startups build teams — co-delivery / overflow partnership on AI agents & custom SaaS with Inowix",
+      "send_result": {
+        "success": false,
+        "to": "info@graxitechs.com",
+        "error": "Connection unexpectedly closed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      },
+      "sent_at": "2026-08-13T22:50:31.027986+00:00"
+    }
+  ]
+}

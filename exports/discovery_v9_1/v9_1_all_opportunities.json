@@ -1,0 +1,752 @@
+[
+  {
+    "id": "V9-08082309",
+    "source": "Reddit r/AppDevelopers",
+    "post_url": "https://reddit.com/r/AppDevelopers/comments/1uxjnto/",
+    "post_date": "2026-07-15",
+    "title": "Senior Full-Stack Developer for AI-powered Compliance Platform MVP",
+    "body_snippet": "Looking for dev to build MVP, has Figma designs, $15K-$35K budget, Stripe integration needed",
+    "final_classification": "NEEDS_RESEARCH",
+    "final_salesability": "MEDIUM",
+    "requirement_verified": true,
+    "requirement_evidence": [
+      {
+        "claim": "requirement_verified",
+        "value": true,
+        "source": "Reddit",
+        "source_url": "https://reddit.com/r/AppDevelopers/comments/1uxjnto/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "source_status": "VERIFIED",
+    "source_evidence": [
+      {
+        "claim": "source_status",
+        "value": "VERIFIED",
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/AppDevelopers/comments/1uxjnto/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "identity_confidence": "HIGH",
+    "identity_evidence": [
+      {
+        "claim": "budget",
+        "value": "$15K-$35K",
+        "source": "Reddit",
+        "source_url": "https://reddit.com/r/AppDevelopers/comments/1uxjnto/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "company_verified": true,
+    "company_evidence": [
+      {
+        "claim": "company_verified",
+        "value": true,
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/AppDevelopers/comments/1uxjnto/",
+        "confidence": "MEDIUM",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "currentness_status": "CURRENT",
+    "currentness_evidence": [
+      {
+        "claim": "currentness_status",
+        "value": "CURRENT",
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/AppDevelopers/comments/1uxjnto/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "outsourcing_intent": "EXPLICIT",
+    "outsourcing_confidence": "HIGH",
+    "outsourcing_evidence": [
+      {
+        "claim": "outsourcing_intent",
+        "value": "EXPLICIT",
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/AppDevelopers/comments/1uxjnto/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "service_match": "SaaS MVP development",
+    "service_match_confidence": "HIGH",
+    "service_match_evidence": [
+      {
+        "claim": "service_match",
+        "value": "SaaS MVP development",
+        "source": "Analysis",
+        "source_url": "internal",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "email": null,
+    "email_status": "UNKNOWN",
+    "email_evidence": [],
+    "linkedin_url": null,
+    "linkedin_verification_status": "UNKNOWN",
+    "linkedin_evidence": [],
+    "phone": null,
+    "phone_status": "UNKNOWN",
+    "phone_evidence": [],
+    "contact_channel_type": "PLATFORM_DM",
+    "contactability_level": "MEDIUM",
+    "contact_owner_match": "LIKELY",
+    "contact_owner_evidence": [],
+    "competitor": false,
+    "safety_clear": true,
+    "evidence_consistency_status": "FAIL",
+    "reproducibility_status": "FAIL",
+    "duplicate_status": "UNIQUE",
+    "cto_15_minute_test": "YES",
+    "cto_decision_reason": "All gates passed",
+    "rejection_reason": null,
+    "rejection_gate": null
+  },
+  {
+    "id": "V9-08082309",
+    "source": "Reddit r/AppDevelopers",
+    "post_url": "https://reddit.com/r/AppDevelopers/comments/1uxdelc/",
+    "post_date": "2026-07-14",
+    "title": "Mobile Developer for AI-driven camera app",
+    "body_snippet": "Hiring mobile dev, clear budget $8K-$15K",
+    "final_classification": "NEEDS_RESEARCH",
+    "final_salesability": "MEDIUM",
+    "requirement_verified": true,
+    "requirement_evidence": [
+      {
+        "claim": "requirement_verified",
+        "value": true,
+        "source": "Reddit",
+        "source_url": "https://reddit.com/r/AppDevelopers/comments/1uxdelc/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "source_status": "VERIFIED",
+    "source_evidence": [
+      {
+        "claim": "source_status",
+        "value": "VERIFIED",
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/AppDevelopers/comments/1uxdelc/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "identity_confidence": "HIGH",
+    "identity_evidence": [
+      {
+        "claim": "budget",
+        "value": "$8K-$15K",
+        "source": "Reddit",
+        "source_url": "https://reddit.com/r/AppDevelopers/comments/1uxdelc/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "company_verified": true,
+    "company_evidence": [
+      {
+        "claim": "company_verified",
+        "value": true,
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/AppDevelopers/comments/1uxdelc/",
+        "confidence": "MEDIUM",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "currentness_status": "CURRENT",
+    "currentness_evidence": [
+      {
+        "claim": "currentness_status",
+        "value": "CURRENT",
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/AppDevelopers/comments/1uxdelc/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "outsourcing_intent": "EXPLICIT",
+    "outsourcing_confidence": "HIGH",
+    "outsourcing_evidence": [
+      {
+        "claim": "outsourcing_intent",
+        "value": "EXPLICIT",
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/AppDevelopers/comments/1uxdelc/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "service_match": "Mobile app development",
+    "service_match_confidence": "HIGH",
+    "service_match_evidence": [
+      {
+        "claim": "service_match",
+        "value": "Mobile app development",
+        "source": "Analysis",
+        "source_url": "internal",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "email": null,
+    "email_status": "UNKNOWN",
+    "email_evidence": [],
+    "linkedin_url": null,
+    "linkedin_verification_status": "UNKNOWN",
+    "linkedin_evidence": [],
+    "phone": null,
+    "phone_status": "UNKNOWN",
+    "phone_evidence": [],
+    "contact_channel_type": "PLATFORM_DM",
+    "contactability_level": "MEDIUM",
+    "contact_owner_match": "LIKELY",
+    "contact_owner_evidence": [],
+    "competitor": false,
+    "safety_clear": true,
+    "evidence_consistency_status": "FAIL",
+    "reproducibility_status": "FAIL",
+    "duplicate_status": "UNIQUE",
+    "cto_15_minute_test": "YES",
+    "cto_decision_reason": "All gates passed",
+    "rejection_reason": null,
+    "rejection_gate": null
+  },
+  {
+    "id": "V9-08082309",
+    "source": "Reddit r/WebDevJobs",
+    "post_url": "https://reddit.com/r/WebDevJobs/comments/1mpcpjr/",
+    "post_date": "2026-07-10",
+    "title": "Web Dev for High-Converting Service Website",
+    "body_snippet": "Paid ads specialist starting agency, needs SEO-optimized website, $540 budget",
+    "final_classification": "NEEDS_RESEARCH",
+    "final_salesability": "MEDIUM",
+    "requirement_verified": true,
+    "requirement_evidence": [
+      {
+        "claim": "requirement_verified",
+        "value": true,
+        "source": "Reddit",
+        "source_url": "https://reddit.com/r/WebDevJobs/comments/1mpcpjr/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "source_status": "VERIFIED",
+    "source_evidence": [
+      {
+        "claim": "source_status",
+        "value": "VERIFIED",
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/WebDevJobs/comments/1mpcpjr/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "identity_confidence": "HIGH",
+    "identity_evidence": [
+      {
+        "claim": "budget",
+        "value": "$540",
+        "source": "Reddit",
+        "source_url": "https://reddit.com/r/WebDevJobs/comments/1mpcpjr/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "company_verified": true,
+    "company_evidence": [
+      {
+        "claim": "company_verified",
+        "value": true,
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/WebDevJobs/comments/1mpcpjr/",
+        "confidence": "MEDIUM",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "currentness_status": "CURRENT",
+    "currentness_evidence": [
+      {
+        "claim": "currentness_status",
+        "value": "CURRENT",
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/WebDevJobs/comments/1mpcpjr/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "outsourcing_intent": "EXPLICIT",
+    "outsourcing_confidence": "HIGH",
+    "outsourcing_evidence": [
+      {
+        "claim": "outsourcing_intent",
+        "value": "EXPLICIT",
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/WebDevJobs/comments/1mpcpjr/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "service_match": "Website development",
+    "service_match_confidence": "MEDIUM",
+    "service_match_evidence": [
+      {
+        "claim": "service_match",
+        "value": "Website development",
+        "source": "Analysis",
+        "source_url": "internal",
+        "confidence": "MEDIUM",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "email": null,
+    "email_status": "UNKNOWN",
+    "email_evidence": [],
+    "linkedin_url": null,
+    "linkedin_verification_status": "UNKNOWN",
+    "linkedin_evidence": [],
+    "phone": null,
+    "phone_status": "UNKNOWN",
+    "phone_evidence": [],
+    "contact_channel_type": "PLATFORM_DM",
+    "contactability_level": "MEDIUM",
+    "contact_owner_match": "LIKELY",
+    "contact_owner_evidence": [],
+    "competitor": false,
+    "safety_clear": true,
+    "evidence_consistency_status": "FAIL",
+    "reproducibility_status": "FAIL",
+    "duplicate_status": "UNIQUE",
+    "cto_15_minute_test": "NO",
+    "cto_decision_reason": "Failed: service_match_confidence",
+    "rejection_reason": null,
+    "rejection_gate": null
+  },
+  {
+    "id": "V9-08082309",
+    "source": "Reddit r/WebDevJobs",
+    "post_url": "https://reddit.com/r/WebDevJobs/comments/1mp2xsa/",
+    "post_date": "2026-07-09",
+    "title": "Web Developers for Multiple Upcoming Projects",
+    "body_snippet": "Hiring freelance web dev, $15/hr or project basis",
+    "final_classification": "NEEDS_RESEARCH",
+    "final_salesability": "MEDIUM",
+    "requirement_verified": true,
+    "requirement_evidence": [
+      {
+        "claim": "requirement_verified",
+        "value": true,
+        "source": "Reddit",
+        "source_url": "https://reddit.com/r/WebDevJobs/comments/1mp2xsa/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "source_status": "VERIFIED",
+    "source_evidence": [
+      {
+        "claim": "source_status",
+        "value": "VERIFIED",
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/WebDevJobs/comments/1mp2xsa/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "identity_confidence": "MEDIUM",
+    "identity_evidence": [],
+    "company_verified": true,
+    "company_evidence": [
+      {
+        "claim": "company_verified",
+        "value": true,
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/WebDevJobs/comments/1mp2xsa/",
+        "confidence": "MEDIUM",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "currentness_status": "CURRENT",
+    "currentness_evidence": [
+      {
+        "claim": "currentness_status",
+        "value": "CURRENT",
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/WebDevJobs/comments/1mp2xsa/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "outsourcing_intent": "EXPLICIT",
+    "outsourcing_confidence": "HIGH",
+    "outsourcing_evidence": [
+      {
+        "claim": "outsourcing_intent",
+        "value": "EXPLICIT",
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/WebDevJobs/comments/1mp2xsa/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "service_match": "Multiple web projects",
+    "service_match_confidence": "MEDIUM",
+    "service_match_evidence": [
+      {
+        "claim": "service_match",
+        "value": "Multiple web projects",
+        "source": "Analysis",
+        "source_url": "internal",
+        "confidence": "MEDIUM",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "email": null,
+    "email_status": "UNKNOWN",
+    "email_evidence": [],
+    "linkedin_url": null,
+    "linkedin_verification_status": "UNKNOWN",
+    "linkedin_evidence": [],
+    "phone": null,
+    "phone_status": "UNKNOWN",
+    "phone_evidence": [],
+    "contact_channel_type": "PLATFORM_DM",
+    "contactability_level": "MEDIUM",
+    "contact_owner_match": "LIKELY",
+    "contact_owner_evidence": [],
+    "competitor": false,
+    "safety_clear": true,
+    "evidence_consistency_status": "FAIL",
+    "reproducibility_status": "FAIL",
+    "duplicate_status": "UNIQUE",
+    "cto_15_minute_test": "NO",
+    "cto_decision_reason": "Failed: identity_confidence, service_match_confidence",
+    "rejection_reason": null,
+    "rejection_gate": null
+  },
+  {
+    "id": "V9-08082309",
+    "source": "IndieHackers",
+    "post_url": "https://indiehackers.com/post/jobAd-a62cd21801",
+    "post_date": "2026-07-08",
+    "title": "Full-Stack Developer for Fast-growing SaaS (MyArchitectAI)",
+    "body_snippet": "Bootstrapped SaaS hiring full-stack, $20-$50/hr, Next.js/Supabase/TypeScript, long-term, 15+ hrs/week",
+    "final_classification": "NEEDS_RESEARCH",
+    "final_salesability": "MEDIUM",
+    "requirement_verified": true,
+    "requirement_evidence": [
+      {
+        "claim": "requirement_verified",
+        "value": true,
+        "source": "IndieHackers",
+        "source_url": "https://indiehackers.com/post/jobAd-a62cd21801",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "source_status": "VERIFIED",
+    "source_evidence": [
+      {
+        "claim": "source_status",
+        "value": "VERIFIED",
+        "source": "V9.1",
+        "source_url": "https://indiehackers.com/post/jobAd-a62cd21801",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "identity_confidence": "HIGH",
+    "identity_evidence": [
+      {
+        "claim": "budget",
+        "value": "$20-$50/hr",
+        "source": "IndieHackers",
+        "source_url": "https://indiehackers.com/post/jobAd-a62cd21801",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "company_verified": true,
+    "company_evidence": [
+      {
+        "claim": "company_verified",
+        "value": true,
+        "source": "V9.1",
+        "source_url": "https://indiehackers.com/post/jobAd-a62cd21801",
+        "confidence": "MEDIUM",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "currentness_status": "CURRENT",
+    "currentness_evidence": [
+      {
+        "claim": "currentness_status",
+        "value": "CURRENT",
+        "source": "V9.1",
+        "source_url": "https://indiehackers.com/post/jobAd-a62cd21801",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "outsourcing_intent": "EXPLICIT",
+    "outsourcing_confidence": "HIGH",
+    "outsourcing_evidence": [
+      {
+        "claim": "outsourcing_intent",
+        "value": "EXPLICIT",
+        "source": "V9.1",
+        "source_url": "https://indiehackers.com/post/jobAd-a62cd21801",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "service_match": "SaaS development",
+    "service_match_confidence": "HIGH",
+    "service_match_evidence": [
+      {
+        "claim": "service_match",
+        "value": "SaaS development",
+        "source": "Analysis",
+        "source_url": "internal",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "email": null,
+    "email_status": "UNKNOWN",
+    "email_evidence": [],
+    "linkedin_url": null,
+    "linkedin_verification_status": "UNKNOWN",
+    "linkedin_evidence": [],
+    "phone": null,
+    "phone_status": "UNKNOWN",
+    "phone_evidence": [],
+    "contact_channel_type": "PLATFORM_DM",
+    "contactability_level": "MEDIUM",
+    "contact_owner_match": "LIKELY",
+    "contact_owner_evidence": [],
+    "competitor": false,
+    "safety_clear": true,
+    "evidence_consistency_status": "FAIL",
+    "reproducibility_status": "FAIL",
+    "duplicate_status": "UNIQUE",
+    "cto_15_minute_test": "YES",
+    "cto_decision_reason": "All gates passed",
+    "rejection_reason": null,
+    "rejection_gate": null
+  },
+  {
+    "id": "V9-08082309",
+    "source": "Upwork",
+    "post_url": "https://upwork.com/freelance-jobs/chatbot-development",
+    "post_date": "2026-07-12",
+    "title": "Build a Centralized Custom WhatsApp Chatbot System (PHP/MySQL)",
+    "body_snippet": "Client seeking WhatsApp chatbot developer",
+    "final_classification": "NEEDS_RESEARCH",
+    "final_salesability": "MEDIUM",
+    "requirement_verified": true,
+    "requirement_evidence": [
+      {
+        "claim": "requirement_verified",
+        "value": true,
+        "source": "Upwork",
+        "source_url": "https://upwork.com/freelance-jobs/chatbot-development",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "source_status": "VERIFIED",
+    "source_evidence": [
+      {
+        "claim": "source_status",
+        "value": "VERIFIED",
+        "source": "V9.1",
+        "source_url": "https://upwork.com/freelance-jobs/chatbot-development",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "identity_confidence": "MEDIUM",
+    "identity_evidence": [],
+    "company_verified": true,
+    "company_evidence": [
+      {
+        "claim": "company_verified",
+        "value": true,
+        "source": "V9.1",
+        "source_url": "https://upwork.com/freelance-jobs/chatbot-development",
+        "confidence": "MEDIUM",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "currentness_status": "CURRENT",
+    "currentness_evidence": [
+      {
+        "claim": "currentness_status",
+        "value": "CURRENT",
+        "source": "V9.1",
+        "source_url": "https://upwork.com/freelance-jobs/chatbot-development",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "outsourcing_intent": "EXPLICIT",
+    "outsourcing_confidence": "HIGH",
+    "outsourcing_evidence": [
+      {
+        "claim": "outsourcing_intent",
+        "value": "EXPLICIT",
+        "source": "V9.1",
+        "source_url": "https://upwork.com/freelance-jobs/chatbot-development",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "service_match": "WhatsApp chatbot development",
+    "service_match_confidence": "HIGH",
+    "service_match_evidence": [
+      {
+        "claim": "service_match",
+        "value": "WhatsApp chatbot development",
+        "source": "Analysis",
+        "source_url": "internal",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "email": null,
+    "email_status": "UNKNOWN",
+    "email_evidence": [],
+    "linkedin_url": null,
+    "linkedin_verification_status": "UNKNOWN",
+    "linkedin_evidence": [],
+    "phone": null,
+    "phone_status": "UNKNOWN",
+    "phone_evidence": [],
+    "contact_channel_type": "PLATFORM_DM",
+    "contactability_level": "MEDIUM",
+    "contact_owner_match": "LIKELY",
+    "contact_owner_evidence": [],
+    "competitor": false,
+    "safety_clear": true,
+    "evidence_consistency_status": "FAIL",
+    "reproducibility_status": "FAIL",
+    "duplicate_status": "UNIQUE",
+    "cto_15_minute_test": "NO",
+    "cto_decision_reason": "Failed: identity_confidence",
+    "rejection_reason": null,
+    "rejection_gate": null
+  },
+  {
+    "id": "V9-08082309",
+    "source": "Reddit r/SaaS",
+    "post_url": "https://reddit.com/r/SaaS/comments/14dhgmh/",
+    "post_date": "2026-06-20",
+    "title": "Non-tech guy needing SaaS built",
+    "body_snippet": "Non-technical founder exploring SaaS build costs",
+    "final_classification": "NEEDS_RESEARCH",
+    "final_salesability": "MEDIUM",
+    "requirement_verified": true,
+    "requirement_evidence": [
+      {
+        "claim": "requirement_verified",
+        "value": true,
+        "source": "Reddit",
+        "source_url": "https://reddit.com/r/SaaS/comments/14dhgmh/",
+        "confidence": "MEDIUM",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "source_status": "VERIFIED",
+    "source_evidence": [
+      {
+        "claim": "source_status",
+        "value": "VERIFIED",
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/SaaS/comments/14dhgmh/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "identity_confidence": "MEDIUM",
+    "identity_evidence": [],
+    "company_verified": true,
+    "company_evidence": [
+      {
+        "claim": "company_verified",
+        "value": true,
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/SaaS/comments/14dhgmh/",
+        "confidence": "MEDIUM",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "currentness_status": "CURRENT",
+    "currentness_evidence": [
+      {
+        "claim": "currentness_status",
+        "value": "CURRENT",
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/SaaS/comments/14dhgmh/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "outsourcing_intent": "EXPLICIT",
+    "outsourcing_confidence": "HIGH",
+    "outsourcing_evidence": [
+      {
+        "claim": "outsourcing_intent",
+        "value": "EXPLICIT",
+        "source": "V9.1",
+        "source_url": "https://reddit.com/r/SaaS/comments/14dhgmh/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "service_match": "SaaS development",
+    "service_match_confidence": "HIGH",
+    "service_match_evidence": [
+      {
+        "claim": "service_match",
+        "value": "SaaS development",
+        "source": "Analysis",
+        "source_url": "internal",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ],
+    "email": null,
+    "email_status": "UNKNOWN",
+    "email_evidence": [],
+    "linkedin_url": null,
+    "linkedin_verification_status": "UNKNOWN",
+    "linkedin_evidence": [],
+    "phone": null,
+    "phone_status": "UNKNOWN",
+    "phone_evidence": [],
+    "contact_channel_type": "PLATFORM_DM",
+    "contactability_level": "MEDIUM",
+    "contact_owner_match": "LIKELY",
+    "contact_owner_evidence": [],
+    "competitor": false,
+    "safety_clear": true,
+    "evidence_consistency_status": "FAIL",
+    "reproducibility_status": "FAIL",
+    "duplicate_status": "UNIQUE",
+    "cto_15_minute_test": "NO",
+    "cto_decision_reason": "Failed: identity_confidence",
+    "rejection_reason": null,
+    "rejection_gate": null
+  }
+]

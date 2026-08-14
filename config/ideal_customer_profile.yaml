@@ -1,0 +1,101 @@
+# Ideal Customer Profile (ICP) Configuration
+# Change this file to adjust quality gate behavior without code changes.
+
+industries:
+  - technology
+  - software
+  - saas
+  - fintech
+  - healthtech
+  - edtech
+  - ecommerce
+  - retail
+  - manufacturing
+  - healthcare
+  - finance
+  - insurance
+  - professional services
+  - consulting
+  - marketing
+  - advertising
+  - telecommunications
+  - media
+  - entertainment
+  - logistics
+  - transportation
+  - energy
+
+countries:
+  - US
+  - CA
+  - UK
+  - GB
+  - DE
+  - FR
+  - NL
+  - SE
+  - NO
+  - DK
+  - FI
+  - IE
+  - ES
+  - IT
+  - AU
+  - AE
+  - SA
+  - IN
+  - SG
+
+employee_range:
+  min: 10
+  max: 50000
+
+funding_stages:
+  - seed
+  - series_a
+  - series_b
+  - series_c
+  - series_d
+  - growth
+  - public
+
+revenue_range:
+  min_annual_revenue: 1000000
+  max_annual_revenue: 10000000000
+
+company_age:
+  min_days: 30
+  max_days: 36500
+
+technology:
+  reject_ai_companies: true
+  ai_keywords:
+    - ai model
+    - llm
+    - ai startup
+    - open source ai
+    - ai developer tools
+    - ai infrastructure
+    - llm sdk
+    - model hosting
+    - prompt engineering
+    - inference platform
+    - ai framework
+
+business_models:
+  - b2b
+  - b2b2c
+  - enterprise
+  - mid-market
+  - smb
+
+decision_maker_types:
+  - cto
+  - vp engineering
+  - head of engineering
+  - ciso
+  - vp sales
+  - cmo
+  - coo
+  - ceo
+  - founder

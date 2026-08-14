@@ -1,0 +1,12 @@
+{
+  "total": 19,
+  "with_ceo_name": 14,
+  "with_ceo_or_company_email": 12,
+  "with_phone": 9,
+  "with_domain": 11,
+  "high_confidence": 9,
+  "medium_confidence": 7,
+  "low_confidence": 3,
+  "generated_at": "2026-08-13T22:22:11Z",
+  "method": "Enrichment modal/pipeline + public MCA/registry + company sites + LinkedIn SERP (no invented contacts)"
+}

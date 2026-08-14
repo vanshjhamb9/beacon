@@ -1,0 +1,41 @@
+{
+  "run_id": "b8d9e4ca-058c-4882-87bf-7cb721886fd4",
+  "product": "comai",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 188,
+    "enriched": 177,
+    "scored": 27,
+    "ready": 10,
+    "sent": 0,
+    "rejected": 138
+  },
+  "rejects": {
+    "mega_brand": 32,
+    "headcount": 11,
+    "unknown_size": 34,
+    "industry": 0,
+    "city": 0,
+    "country": 0,
+    "domain": 0,
+    "name": 0,
+    "type": 0,
+    "generic_email": 61,
+    "no_email": 0,
+    "no_founder": 0,
+    "tech": 0
+  },
+  "icp": {
+    "employee_count_min": 1,
+    "employee_count_max": 40,
+    "industries": [],
+    "company_types": [],
+    "countries": [],
+    "headquarters_cities": [],
+    "technology_stack": [],
+    "linkedin_url_required": false
+  },
+  "generated_at": "2026-08-14T19:29:00.233794+00:00",
+  "lead_count": 27
+}

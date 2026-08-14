@@ -1,0 +1,802 @@
+[
+  {
+    "founder_name": "Praneeth Reddy",
+    "job_title": "Founder and CEO",
+    "company_name": "Tall Bunny",
+    "location": "Telangana, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Naaz Mistry",
+    "job_title": "Founder",
+    "company_name": "Design District Graphics",
+    "location": "Ahmedabad, Gujarat, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Dhruv T.",
+    "job_title": "Founder",
+    "company_name": "Digitally Dhruv Solutions",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Rashmi Tewari",
+    "job_title": "Founder",
+    "company_name": "KredWorks",
+    "location": "India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Yuvaraja Rajendran",
+    "job_title": "Founder",
+    "company_name": "YUcorp Digitech Solution",
+    "location": "Coimbatore, Tamil Nadu, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Mehak Kohli",
+    "job_title": "Founder",
+    "company_name": "Graffex Media",
+    "location": "New Delhi, Delhi, India, Asia",
+    "company_size": 5,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Arvinder Singh",
+    "job_title": "Founder",
+    "company_name": "Marketing Walas",
+    "location": "Uttar Pradesh, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Diana Dsouza",
+    "job_title": "Founder",
+    "company_name": "AstraWeb MediaWorks",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Sushmita Guha",
+    "job_title": "Founder & CEO",
+    "company_name": "Dygic",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Mustafa Sayed",
+    "job_title": "Founder",
+    "company_name": "Alif Media House",
+    "location": "Pune, Maharashtra, India, Asia",
+    "company_size": 4,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Vandan Doshi",
+    "job_title": "Founder & Ceo",
+    "company_name": "reelmonkk",
+    "location": "Telangana, India, Asia",
+    "company_size": 6,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Arpit Sarupria",
+    "job_title": "Founder",
+    "company_name": "Howdy Digital Solutions",
+    "location": "Udaipur, Rajasthan, India, Asia",
+    "company_size": 3,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Rohit Raj",
+    "job_title": "Founder CEO",
+    "company_name": "Discounts Deck",
+    "location": "Chennai, Tamil Nadu, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Evangelin Gladys",
+    "job_title": "Founder",
+    "company_name": "The Bot Agency",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "company_size": 13,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Rahool Thadani",
+    "job_title": "Founder",
+    "company_name": "TheSalesPlus",
+    "location": "Surat, Gujarat, India, Asia",
+    "company_size": 5,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Anhad Tiwari",
+    "job_title": "Founder & CEO",
+    "company_name": "Brand Saga",
+    "location": "Bhopal, Madhya Pradesh, India, Asia",
+    "company_size": 5,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Vinit Sharma",
+    "job_title": "Founder",
+    "company_name": "GraphiiCraft Studios",
+    "location": "Pune, Maharashtra, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Piran Tarapore",
+    "job_title": "Founder",
+    "company_name": "Point Of",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "company_size": 7,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Sakthi Sri Selvam",
+    "job_title": "Founder",
+    "company_name": "Senthil Velan Media",
+    "location": "Tiruchirappalli, Tamil Nadu, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Vijaya Kumar B",
+    "job_title": "Founder",
+    "company_name": "Adsspace",
+    "location": "Chennai, Tamil Nadu, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Nischal Reddy",
+    "job_title": "Founder",
+    "company_name": "Anirva Resources Private Limited",
+    "location": "Telangana, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Nishant Darji",
+    "job_title": "Founder",
+    "company_name": "SAI Branding",
+    "location": "Gandhinagar, Gujarat, India, Asia",
+    "company_size": 30,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Anushi Agarwal",
+    "job_title": "Founder",
+    "company_name": "Sterling Promotions",
+    "location": "New Delhi, Delhi, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Abhay Mandloi",
+    "job_title": "Founder CEO",
+    "company_name": "LBI Media",
+    "location": "Karnataka, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Vaibhav D.",
+    "job_title": "Founder",
+    "company_name": "Vellora By Vaedra Global",
+    "location": "Kolkata, West Bengal, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Sabyasachi",
+    "job_title": "Founder",
+    "company_name": "VibeCraft Media",
+    "location": "West Bengal, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Priyabrata Aruk",
+    "job_title": "Founder & CEO",
+    "company_name": "Geinca Futuristic Tech",
+    "location": "Bhubaneswar, Orissa, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Lokesh Chand",
+    "job_title": "Founder",
+    "company_name": "Digi Taurent",
+    "location": "India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Shivani Patil",
+    "job_title": "Founder",
+    "company_name": "Reset Marketing",
+    "location": "Pune, Maharashtra, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Sneha Malbari",
+    "job_title": "Founder",
+    "company_name": "Mulberry Leaf",
+    "location": "Pune, Maharashtra, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Mohammad",
+    "job_title": "Founder",
+    "company_name": "Clickwave Solution",
+    "location": "Indore, Madhya Pradesh, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Augustus",
+    "job_title": "Founder",
+    "company_name": "Fable Audio",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Aakanksha S",
+    "job_title": "Founder",
+    "company_name": "BuzzBeann",
+    "location": "Ahmedabad, Gujarat, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Jay Kumar",
+    "job_title": "Founder",
+    "company_name": "Jaxsan Bio Meds",
+    "location": "Gurugram, Haryana, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Prerana Jain",
+    "job_title": "Founder",
+    "company_name": "Digital Aura - The Digital Marketing Agency",
+    "location": "Halli Mysore, Karnataka, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Vansh Patel",
+    "job_title": "Founder",
+    "company_name": "Dilatio & Co.",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Madangopal",
+    "job_title": "Founder",
+    "company_name": "Brandola",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Shivangi Jain",
+    "job_title": "Founder",
+    "company_name": "By Gen.",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Saakaar Bhatia",
+    "job_title": "Founder",
+    "company_name": "Socialties",
+    "location": "Delhi, Delhi, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Jitesh Jaiswal",
+    "job_title": "Founder",
+    "company_name": "Denken Technologies",
+    "location": "Aurangabad, Maharashtra, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Akshat Mathur",
+    "job_title": "Co-Founder & CEO",
+    "company_name": "Better Collab",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Aishwarya Tyagi",
+    "job_title": "Founder",
+    "company_name": "Path Mapper",
+    "location": "Noida, Uttar Pradesh, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Prachi Jain",
+    "job_title": "Founder",
+    "company_name": "Nexsocialhubb",
+    "location": "Pune, Maharashtra, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Dr Shubhangi",
+    "job_title": "Founder- CEO",
+    "company_name": "SARK Promotions",
+    "location": "Ghaziabad, Uttar Pradesh, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Vinayak Aggarwal",
+    "job_title": "Founder",
+    "company_name": "Marwari Ventures",
+    "location": "Gurugram, Haryana, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Juhi Sacheti",
+    "job_title": "Founder",
+    "company_name": "Handle With Care",
+    "location": "Bengaluru, Karnataka, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Nithin Mukund",
+    "job_title": "Founder",
+    "company_name": "TouchCraft Digital",
+    "location": "Bengaluru, Karnataka, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Ayushi Sarnot",
+    "job_title": "Founder",
+    "company_name": "BuzzBetter India",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Bharat Alawa",
+    "job_title": "Founder",
+    "company_name": "Marketer Baba - Digital Marketing Agency",
+    "location": "New Delhi, Delhi, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Nishi Makkar",
+    "job_title": "Founder",
+    "company_name": "Light Buzz Media",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Sweksha Singh",
+    "job_title": "Founder",
+    "company_name": "Brand Saarthi",
+    "location": "Bhopal, Madhya Pradesh, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Vidya Bhushan",
+    "job_title": "Founder and CEO",
+    "company_name": "Million Mark Club (MMC)",
+    "location": "India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Rishabh Diwan",
+    "job_title": "Founder",
+    "company_name": "NexAdvent Digital Solutions",
+    "location": "New Delhi, Delhi, India, Asia",
+    "company_size": 6,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Nisarg Dhadiwal",
+    "job_title": "Founder",
+    "company_name": "1group",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "company_size": 3,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Amal P S",
+    "job_title": "Founder & CEO",
+    "company_name": "Low-Key Loud.",
+    "location": "Bengaluru, Karnataka, India, Asia",
+    "company_size": 3,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Nihharika",
+    "job_title": "Founder",
+    "company_name": "Nihharika Digiiworld",
+    "location": "Delhi, Delhi, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Manik Ratn",
+    "job_title": "Founder",
+    "company_name": "Knerd Media",
+    "location": "Gurugram, Haryana, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Sadhick Basha",
+    "job_title": "Founder",
+    "company_name": "The Lead Nest",
+    "location": "Coimbatore, Tamil Nadu, India, Asia",
+    "company_size": 2,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Karan Yadav",
+    "job_title": "Founder",
+    "company_name": "ITL MEDIA",
+    "location": "New Delhi, Delhi, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Pritpal Singh",
+    "job_title": "Founder",
+    "company_name": "Prosper Flight",
+    "location": "Chandigarh, Chandigarh, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Sanjana",
+    "job_title": "Founder",
+    "company_name": "Frick",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "company_size": 22,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Trishi Jain",
+    "job_title": "Founder",
+    "company_name": "Tea Rose",
+    "location": "Kurla, Maharashtra, India, Asia",
+    "company_size": 9,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Anjali Bisht",
+    "job_title": "Founder",
+    "company_name": "Hustle Media",
+    "location": "Dehradun, Uttarakhand, India, Asia",
+    "company_size": 2,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Sohail Choudhary",
+    "job_title": "Founder",
+    "company_name": "Markpert",
+    "location": "Bengaluru, Karnataka, India, Asia",
+    "company_size": 2,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Karthik Dass",
+    "job_title": "Founder",
+    "company_name": "Digitell Evolution",
+    "location": "Karnataka, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Arun S",
+    "job_title": "CEO and Co-Founder",
+    "company_name": "Startyfy",
+    "location": "Bengaluru, Karnataka, India, Asia",
+    "company_size": 4,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Komal Sanganeria",
+    "job_title": "Owner",
+    "company_name": "Market Minds",
+    "location": "Kolkata, West Bengal, India, Asia",
+    "company_size": 2,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Anjani Agarwal",
+    "job_title": "Founder",
+    "company_name": "Eleven Eleven Media",
+    "location": "Telangana, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Abhishek Patil",
+    "job_title": "Founder",
+    "company_name": "Wings on Fire Marketing",
+    "location": "Noida, Uttar Pradesh, India, Asia",
+    "company_size": 6,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Himalya Sharma",
+    "job_title": "Founder",
+    "company_name": "The Empire Vision",
+    "location": "New Delhi, Delhi, India, Asia",
+    "company_size": 8,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Puneet Kardam",
+    "job_title": "Founder",
+    "company_name": "Meg Creatives",
+    "location": "Ghaziabad, Uttar Pradesh, India, Asia",
+    "company_size": 2,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Akash Dobariya",
+    "job_title": "Founder",
+    "company_name": "Global Surat",
+    "location": "Surat, Gujarat, India, Asia",
+    "company_size": 14,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Pratiti Bhadra",
+    "job_title": "Founder",
+    "company_name": "The Third Act Studios",
+    "location": "Bengaluru, Karnataka, India, Asia",
+    "company_size": 4,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Gowtham Jadaw",
+    "job_title": "Founder",
+    "company_name": "Ginger Services",
+    "location": "Karnataka, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Anand Shah",
+    "job_title": "Founder",
+    "company_name": "Social Corner",
+    "location": "India, Asia",
+    "company_size": 5,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Beena Jakhmola",
+    "job_title": "Founder",
+    "company_name": "Dial Rishikesh",
+    "location": "Rishikesh, Uttarakhand, India, Asia",
+    "company_size": 4,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Rahul Sukirana",
+    "job_title": "Founder",
+    "company_name": "SUKIRANA STUDIOS",
+    "location": "Bengaluru, Karnataka, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Aishwarya Kasliwal",
+    "job_title": "Founder",
+    "company_name": "Twist Media",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Arijit Roy",
+    "job_title": "Founder",
+    "company_name": "Doshomik",
+    "location": "West Bengal, India, Asia",
+    "company_size": 3,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Atharva Jha",
+    "job_title": "Founder",
+    "company_name": "The Marketing Trek",
+    "location": "Ahmedabad, Gujarat, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Dr. M Jyotsana S",
+    "job_title": "Founder and CEO",
+    "company_name": "Evidencea Scientific Solutions",
+    "location": "Pune, Maharashtra, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Md Shakib Bader",
+    "job_title": "Founder",
+    "company_name": "Udaan Sathi",
+    "location": "New Delhi, Delhi, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Pranshu Bansal",
+    "job_title": "Founder",
+    "company_name": "InstantAppointment AI",
+    "location": "India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Divyanshu Raj",
+    "job_title": "Founder",
+    "company_name": "adiv.",
+    "location": "New Delhi, Delhi, India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Chhavi Saklani",
+    "job_title": "Founder",
+    "company_name": "Tale A Weave",
+    "location": "India, Asia",
+    "company_size": 1,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Farah Bandukwalla",
+    "job_title": "Founder",
+    "company_name": "The B.Brave Company",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Rohan Goyal",
+    "job_title": "Founder",
+    "company_name": "ONE7 Ventures",
+    "location": "Lucknow, Uttar Pradesh, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Dhaval Chan",
+    "job_title": "Founder",
+    "company_name": "Brandingdad",
+    "location": "Ahmedabad, Gujarat, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Saif Ali",
+    "job_title": "Founder",
+    "company_name": "Oppikka Concept",
+    "location": "Kozhikode, Kerala, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Veena Reddy",
+    "job_title": "Founder and CEO",
+    "company_name": "NovaTales Media",
+    "location": "Telangana, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Anuj Chhabra",
+    "job_title": "Founder",
+    "company_name": "ODD MEDIA",
+    "location": "Bengaluru, Karnataka, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Keval Thakar",
+    "job_title": "Founder",
+    "company_name": "Conversifyit",
+    "location": "Ahmedabad, Gujarat, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Neha Gupta",
+    "job_title": "Founder",
+    "company_name": "BHeard",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Narendra Maind",
+    "job_title": "Founder",
+    "company_name": "Golden Pixel Solutions",
+    "location": "Pune, Maharashtra, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Himanshu Dogra",
+    "job_title": "Founder",
+    "company_name": "Tejas-Just Digital",
+    "location": "New Delhi, Delhi, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Harsh Verma",
+    "job_title": "Founder",
+    "company_name": "Command Ads - Performance Marketing Agency",
+    "location": "Gurugram, Haryana, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Siddhi Ambekar",
+    "job_title": "Founder",
+    "company_name": "Nashik in a Nutshell",
+    "location": "Nashik, Maharashtra, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Sanjay Singh",
+    "job_title": "Founder",
+    "company_name": "SnowSEO",
+    "location": "Gurugram, Haryana, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Shivangi Singh",
+    "job_title": "Founder",
+    "company_name": "The Amor Media",
+    "location": "Ludhiana, Punjab, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  },
+  {
+    "founder_name": "Sooraj Verma",
+    "job_title": "Co-Founder and CEO",
+    "company_name": "Icnofy Technologies",
+    "location": "Chandigarh, Chandigarh, India, Asia",
+    "company_size": null,
+    "industry": "Marketing Services"
+  }
+]

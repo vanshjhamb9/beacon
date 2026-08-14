@@ -1,0 +1,46 @@
+
+COMAI REVENUE DATASET — Sprint 43 Summary
+==========================================
+
+Total Leads: 368
+
+Priority Breakdown:
+  HOT:     29
+  WARM:    220
+  NURTURE: 119
+
+Contact Availability:
+  With Email:    91 (24%)
+  With Phone:    151 (41%)
+  With LinkedIn: 28 (7%)
+  With Instagram:211 (57%)
+
+Platform Breakdown:
+  Shopify/Plus: 6
+  WooCommerce:  9
+  Magento:      16
+
+Average Scores:
+  ICP Score:        67.7/100
+  Sales Readiness:  55.4/100
+  Close Probability: 53%
+
+Category Breakdown:
+  Fashion: 79
+  Beauty: 52
+  Home Decor: 35
+  Health & Wellness: 29
+  Electronics: 27
+  Food & Snacks: 21
+  Jewellery: 18
+  Baby Products: 18
+  Organic Food: 14
+  Pet Products: 14
+  Tea/Coffee: 13
+  Sports: 12
+  Footwear: 12
+  Bags: 11
+  Lifestyle: 7
+  Gifts: 6
+
+Generated: 2026-07-31 09:00 UTC

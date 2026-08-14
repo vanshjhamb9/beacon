@@ -1,0 +1,1793 @@
+{
+  "scoring_version": "m1-v1",
+  "generated_at": "2026-07-23T18:57:07.459135+00:00",
+  "north_star": "If 100 real companies enter Beacon today, how many become high-confidence, outreach-ready accounts you would personally contact?",
+  "estimated_qualified_per_100": 0.0,
+  "phases": [
+    {
+      "phase": "1",
+      "title": "Collection Validation",
+      "status": "PASS",
+      "summary": "6/8 sources healthy with recent success",
+      "metrics": {
+        "healthy_sources": 6,
+        "configured_sources": 8
+      },
+      "rows": [
+        {
+          "source": "reddit",
+          "status": "healthy",
+          "today_collected": 1200,
+          "today_emitted": 39,
+          "today_duplicates": 1161,
+          "today_failed_runs": 1,
+          "today_runs": 49,
+          "qualified_estimate": 0,
+          "rejected_estimate": 0,
+          "reject_reasons": [],
+          "avg_quality_score": null,
+          "avg_intent_score": null,
+          "duplicate_rate": 96.75,
+          "freshness_minutes": 1.8,
+          "last_successful_run": "2026-07-23T18:55:19.440809+00:00",
+          "error_rate": 2.04,
+          "avg_latency_ms": 6025.05,
+          "last_error": null,
+          "evidence": [
+            "runs_today:49",
+            "emitted:39",
+            "status:healthy"
+          ]
+        },
+        {
+          "source": "rss",
+          "status": "healthy",
+          "today_collected": 1200,
+          "today_emitted": 53,
+          "today_duplicates": 1147,
+          "today_failed_runs": 0,
+          "today_runs": 48,
+          "qualified_estimate": 0,
+          "rejected_estimate": 0,
+          "reject_reasons": [],
+          "avg_quality_score": null,
+          "avg_intent_score": null,
+          "duplicate_rate": 95.58,
+          "freshness_minutes": 2.0,
+          "last_successful_run": "2026-07-23T18:55:07.416752+00:00",
+          "error_rate": 0.0,
+          "avg_latency_ms": 1311.01,
+          "last_error": null,
+          "evidence": [
+            "runs_today:48",
+            "emitted:53",
+            "status:healthy"
+          ]
+        },
+        {
+          "source": "hacker_news",
+          "status": "healthy",
+          "today_collected": 1580,
+          "today_emitted": 65,
+          "today_duplicates": 1515,
+          "today_failed_runs": 5,
+          "today_runs": 84,
+          "qualified_estimate": 0,
+          "rejected_estimate": 0,
+          "reject_reasons": [],
+          "avg_quality_score": null,
+          "avg_intent_score": null,
+          "duplicate_rate": 95.89,
+          "freshness_minutes": 2.2,
+          "last_successful_run": "2026-07-23T18:54:53.305253+00:00",
+          "error_rate": 5.95,
+          "avg_latency_ms": 6123.06,
+          "last_error": null,
+          "evidence": [
+            "runs_today:84",
+            "emitted:65",
+            "status:healthy"
+          ]
+        },
+        {
+          "source": "product_hunt",
+          "status": "healthy",
+          "today_collected": 600,
+          "today_emitted": 360,
+          "today_duplicates": 240,
+          "today_failed_runs": 0,
+          "today_runs": 24,
+          "qualified_estimate": 0,
+          "rejected_estimate": 0,
+          "reject_reasons": [],
+          "avg_quality_score": null,
+          "avg_intent_score": null,
+          "duplicate_rate": 40.0,
+          "freshness_minutes": 7.0,
+          "last_successful_run": "2026-07-23T18:50:07.265970+00:00",
+          "error_rate": 0.0,
+          "avg_latency_ms": 1823.85,
+          "last_error": null,
+          "evidence": [
+            "runs_today:24",
+            "emitted:360",
+            "status:healthy"
+          ]
+        },
+        {
+          "source": "github_trending",
+          "status": "healthy",
+          "today_collected": 1152,
+          "today_emitted": 24,
+          "today_duplicates": 1128,
+          "today_failed_runs": 0,
+          "today_runs": 48,
+          "qualified_estimate": 0,
+          "rejected_estimate": 0,
+          "reject_reasons": [],
+          "avg_quality_score": null,
+          "avg_intent_score": null,
+          "duplicate_rate": 97.92,
+          "freshness_minutes": 1.9,
+          "last_successful_run": "2026-07-23T18:55:12.621392+00:00",
+          "error_rate": 0.0,
+          "avg_latency_ms": 3125.56,
+          "last_error": null,
+          "evidence": [
+            "runs_today:48",
+            "emitted:24",
+            "status:healthy"
+          ]
+        },
+        {
+          "source": "indie_hackers",
+          "status": "down",
+          "today_collected": 0,
+          "today_emitted": 0,
+          "today_duplicates": 0,
+          "today_failed_runs": 24,
+          "today_runs": 24,
+          "qualified_estimate": 0,
+          "rejected_estimate": 0,
+          "reject_reasons": [],
+          "avg_quality_score": null,
+          "avg_intent_score": null,
+          "duplicate_rate": 0.0,
+          "freshness_minutes": null,
+          "last_successful_run": null,
+          "error_rate": 100.0,
+          "avg_latency_ms": 7489.85,
+          "last_error": "Indie Hackers feed unavailable or returned non-RSS content (likely bot protection). Last error: Feed URL returned HTML instead of RSS/Atom: https://www.indiehackers.com/posts.rss",
+          "evidence": [
+            "runs_today:24",
+            "emitted:0",
+            "status:down"
+          ]
+        },
+        {
+          "source": "sec_edgar",
+          "status": "down",
+          "today_collected": 0,
+          "today_emitted": 0,
+          "today_duplicates": 0,
+          "today_failed_runs": 63,
+          "today_runs": 63,
+          "qualified_estimate": 0,
+          "rejected_estimate": 0,
+          "reject_reasons": [],
+          "avg_quality_score": null,
+          "avg_intent_score": null,
+          "duplicate_rate": 0.0,
+          "freshness_minutes": 7013.1,
+          "last_successful_run": "2026-07-18T22:03:59.088388+00:00",
+          "error_rate": 100.0,
+          "avg_latency_ms": 2671.19,
+          "last_error": "Feed URL returned HTML instead of RSS/Atom: https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=&company=&dateb=&owner=include&count=40&output=atom",
+          "evidence": [
+            "runs_today:63",
+            "emitted:0",
+            "status:down"
+          ]
+        },
+        {
+          "source": "devto",
+          "status": "healthy",
+          "today_collected": 288,
+          "today_emitted": 83,
+          "today_duplicates": 205,
+          "today_failed_runs": 0,
+          "today_runs": 24,
+          "qualified_estimate": 0,
+          "rejected_estimate": 0,
+          "reject_reasons": [],
+          "avg_quality_score": null,
+          "avg_intent_score": null,
+          "duplicate_rate": 71.18,
+          "freshness_minutes": 7.0,
+          "last_successful_run": "2026-07-23T18:50:09.653163+00:00",
+          "error_rate": 0.0,
+          "avg_latency_ms": 2175.71,
+          "last_error": null,
+          "evidence": [
+            "runs_today:24",
+            "emitted:83",
+            "status:healthy"
+          ]
+        }
+      ],
+      "blockers": [
+        "indie_hackers",
+        "sec_edgar"
+      ],
+      "evidence": [
+        "healthy:6"
+      ]
+    },
+    {
+      "phase": "2",
+      "title": "Opportunity Validation",
+      "status": "PASS",
+      "summary": "80/80 explainable; hide 0",
+      "metrics": {
+        "sampled": 80,
+        "explainable": 80,
+        "hide": 0,
+        "explainable_rate": 100.0
+      },
+      "rows": [
+        {
+          "opportunity_id": "46fcf929-136d-47d8-b20c-eeb051eae622",
+          "company_id": "918fb1de-4a00-4e83-8893-6dc5fd4d4573",
+          "company_name": "Evaluation",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "hacker_news",
+          "why_interesting": "Evaluation is evaluated as an opportunity with score 41.2. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "15.0",
+          "evidence_count": 5,
+          "source": "hacker_news",
+          "collector": "hacker_news",
+          "collected_at": "2026-07-23T18:55:52.202736Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "39b79f4e-f8a9-4717-b641-0cd40a0d3eeb",
+          "company_id": "b91aaacf-39a7-47d4-bb36-2e814e428703",
+          "company_name": "Geekbench",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "rss",
+          "why_interesting": "Geekbench is evaluated as an opportunity with score 41.0. The decision is based on 2 context record(s), 2 signal(s), and 10 evidence item(s). Score direction: increased.",
+          "why_now": "15.0",
+          "evidence_count": 10,
+          "source": "rss",
+          "collector": "rss",
+          "collected_at": "2026-07-23T18:40:53.453582Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "e0fa8b00-a0ff-4e1b-abc1-ebfc78ab048e",
+          "company_id": "9fa5ea4d-627c-4ac4-93e1-0fa3ec1d55c9",
+          "company_name": "Article",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "hacker_news",
+          "why_interesting": "Article is evaluated as an opportunity with score 49.2. The decision is based on 5 context record(s), 5 signal(s), and 25 evidence item(s). Score direction: increased.",
+          "why_now": "60.0",
+          "evidence_count": 20,
+          "source": "hacker_news",
+          "collector": "hacker_news",
+          "collected_at": "2026-07-23T18:40:53.405393Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "79f3f867-5b34-4178-98b9-ba85ffb5c73d",
+          "company_id": "298ba5ea-3f4d-45b1-8484-96480ffd0daa",
+          "company_name": "Building",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Building is evaluated as an opportunity with score 50.4. The decision is based on 7 context record(s), 7 signal(s), and 38 evidence item(s). Score direction: increased.",
+          "why_now": "70.0",
+          "evidence_count": 20,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T18:40:53.352603Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "1e608ed8-5542-48fe-ac3f-def93c83b400",
+          "company_id": "1b6f50f2-2661-4607-9f93-e19ae6fca682",
+          "company_name": "Vue",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Vue is evaluated as an opportunity with score 50.3. The decision is based on 1 context record(s), 1 signal(s), and 6 evidence item(s). Score direction: increased.",
+          "why_now": "70.0",
+          "evidence_count": 6,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T18:40:53.315857Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "bb593941-a615-482e-98cd-1f79c2e7f4ad",
+          "company_id": "df423a81-9841-4c6d-8228-257f968b35cf",
+          "company_name": "Dictionary",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Dictionary is evaluated as an opportunity with score 40.8. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "15.0",
+          "evidence_count": 5,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T18:40:53.283334Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "b7f02640-8a9f-48f4-9734-2bf70ba667c4",
+          "company_id": "e012c441-1b8f-4a8f-8372-bd4afea6e065",
+          "company_name": "AegisAI",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "rss",
+          "why_interesting": "AegisAI is evaluated as an opportunity with score 52.5. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "15.0",
+          "evidence_count": 5,
+          "source": "rss",
+          "collector": "rss",
+          "collected_at": "2026-07-23T18:40:53.219826Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "c4b716b9-3ed2-4fef-8887-7724c54e84b8",
+          "company_id": "4486cc06-156a-488e-8abf-47c445bf31f0",
+          "company_name": "There",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "There is evaluated as an opportunity with score 61.5. The decision is based on 3 context record(s), 3 signal(s), and 24 evidence item(s). Score direction: increased.",
+          "why_now": "70.0",
+          "evidence_count": 20,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T18:32:04.160328Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "c1c3467b-a25e-457d-8195-bf4983048103",
+          "company_id": "786aff35-25d3-483a-9c98-ca8c00ce95e7",
+          "company_name": "Patreon",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "rss",
+          "why_interesting": "Patreon is evaluated as an opportunity with score 58.9. The decision is based on 7 context record(s), 7 signal(s), and 40 evidence item(s). Score direction: decreased.",
+          "why_now": "70.0",
+          "evidence_count": 20,
+          "source": "rss",
+          "collector": "rss",
+          "collected_at": "2026-07-23T18:25:52.133500Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "f4880d01-1be6-4642-bd70-941a0e04e45d",
+          "company_id": "28fd8d0d-5cda-490c-83aa-bf3ae78b150f",
+          "company_name": "Started",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Started is evaluated as an opportunity with score 44.8. The decision is based on 2 context record(s), 2 signal(s), and 12 evidence item(s). Score direction: increased.",
+          "why_now": "15.0",
+          "evidence_count": 12,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T18:20:52.486850Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "e58e0a52-6b4c-40c2-b128-abd6cd3da95a",
+          "company_id": "d70506cf-9120-4397-990b-534a5cdee2c8",
+          "company_name": "Run",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Run is evaluated as an opportunity with score 50.8. The decision is based on 7 context record(s), 7 signal(s), and 35 evidence item(s). Score direction: increased.",
+          "why_now": "70.0",
+          "evidence_count": 20,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T18:20:52.446073Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "3a392917-f0ff-4c5c-a899-fd87ff34b3e7",
+          "company_id": "64a85f4f-a6e6-45cf-9f8f-36e2ba3a6bd0",
+          "company_name": "Learned",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Learned is evaluated as an opportunity with score 50.4. The decision is based on 2 context record(s), 2 signal(s), and 10 evidence item(s). Score direction: increased.",
+          "why_now": "70.0",
+          "evidence_count": 10,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T18:20:52.413034Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "b1e8cc22-c707-4e98-b1eb-81be4f520c38",
+          "company_id": "91dc1a25-44b8-4887-9a1f-ce30ce4a2069",
+          "company_name": "Don",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Don is evaluated as an opportunity with score 58.3. The decision is based on 1 context record(s), 1 signal(s), and 9 evidence item(s). Score direction: increased.",
+          "why_now": "70.0",
+          "evidence_count": 9,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T18:20:52.362365Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "67dd6031-debe-40d4-8e82-dd822fb18198",
+          "company_id": "76b21eb4-445e-4dce-8802-76ea1ad0ef0c",
+          "company_name": "Qubes",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "hacker_news",
+          "why_interesting": "Qubes is evaluated as an opportunity with score 50.3. The decision is based on 14 context record(s), 14 signal(s), and 73 evidence item(s). Score direction: increased.",
+          "why_now": "45.0",
+          "evidence_count": 20,
+          "source": "hacker_news",
+          "collector": "hacker_news",
+          "collected_at": "2026-07-23T18:10:52.223337Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "244b33ab-f7e1-4800-b0d9-4b113b85c5b4",
+          "company_id": "5e79560f-6857-47b6-8706-663c13b95a1f",
+          "company_name": "Python",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Python is evaluated as an opportunity with score 53.6. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "60.0",
+          "evidence_count": 5,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T18:10:52.194069Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "06e629e1-66c9-4984-8c8a-11aedad590fb",
+          "company_id": "c3e1f2bc-e2fb-4fdd-9369-82f9343a8de3",
+          "company_name": "TanStack",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "TanStack is evaluated as an opportunity with score 41.1. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "15.0",
+          "evidence_count": 5,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T18:10:52.171396Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "36c88ab3-4220-4a05-a584-9fbc60084bb9",
+          "company_id": "a0bbd013-6af1-4b0f-8b50-f41df7e3a7a9",
+          "company_name": "Red",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Red is evaluated as an opportunity with score 48.5. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "50.0",
+          "evidence_count": 5,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T18:10:52.124521Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "56130f45-d34a-40d8-bf02-ed5309be1281",
+          "company_id": "bc08ef73-0dc2-466f-b7e6-b67cfb2cd0af",
+          "company_name": "Next-Token",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Next-Token is evaluated as an opportunity with score 53.6. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "60.0",
+          "evidence_count": 5,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T18:01:48.007428Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "73a6132d-60ca-4138-ad7b-08ceaeb97038",
+          "company_id": "2754a0ac-9d45-452e-a37a-f01bb8405b3e",
+          "company_name": "Dark",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Dark is evaluated as an opportunity with score 40.9. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "15.0",
+          "evidence_count": 5,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T18:01:47.983095Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "3178e602-932b-4562-bca7-19608f2e0f3b",
+          "company_id": "e6497a93-5ccb-4664-84be-7a6d131301bb",
+          "company_name": "BorgShield",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "BorgShield is evaluated as an opportunity with score 44.8. The decision is based on 1 context record(s), 1 signal(s), and 8 evidence item(s). Score direction: increased.",
+          "why_now": "15.0",
+          "evidence_count": 8,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T18:01:47.952154Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "a33d63ee-a0a9-402e-a3f0-55c30381bb9d",
+          "company_id": "0a910312-c5a6-4c85-b044-d5efd3bdd3c7",
+          "company_name": "Frontend-Only",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Frontend-Only is evaluated as an opportunity with score 53.2. The decision is based on 3 context record(s), 3 signal(s), and 15 evidence item(s). Score direction: increased.",
+          "why_now": "70.0",
+          "evidence_count": 15,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T17:50:47.900178Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "de899e76-a0ab-4b87-9c52-7e4f1f5bfd86",
+          "company_id": "5601d537-02f1-4373-a346-58c384276673",
+          "company_name": "Stop",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Stop is evaluated as an opportunity with score 54.2. The decision is based on 3 context record(s), 3 signal(s), and 18 evidence item(s). Score direction: increased.",
+          "why_now": "70.0",
+          "evidence_count": 18,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T17:40:48.199852Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "0523ac71-b324-41e6-9d6c-73298cb5a278",
+          "company_id": "ee85ad76-8f5f-4600-8b22-d4419609914d",
+          "company_name": "Kubernetes",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Kubernetes is evaluated as an opportunity with score 48.5. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "50.0",
+          "evidence_count": 5,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T17:40:48.177296Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "226e49d2-3607-43d1-9ed3-2efbcb0bf147",
+          "company_id": "2eecc69b-8c25-468d-ab6d-a7c885a9705e",
+          "company_name": "Two",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Two is evaluated as an opportunity with score 50.8. The decision is based on 2 context record(s), 2 signal(s), and 12 evidence item(s). Score direction: increased.",
+          "why_now": "70.0",
+          "evidence_count": 12,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T17:40:48.153818Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "feac21fc-6b6b-4654-aa18-01451866e14e",
+          "company_id": "64113fe0-8368-40db-9d50-c0fb07325b96",
+          "company_name": "Backtracking",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Backtracking is evaluated as an opportunity with score 42.4. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "25.0",
+          "evidence_count": 5,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T17:40:48.129330Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "9db3c9d3-5413-4499-b857-0c96e6da4a4b",
+          "company_id": "2cf3fd81-e242-4be6-83b7-30a0e3b232bc",
+          "company_name": "Part",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Part is evaluated as an opportunity with score 55.9. The decision is based on 1 context record(s), 1 signal(s), and 6 evidence item(s). Score direction: increased.",
+          "why_now": "60.0",
+          "evidence_count": 6,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T17:40:48.106764Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "46b4ef42-4ea4-4a47-8bff-65a56333ddc8",
+          "company_id": "28fd8d0d-5cda-490c-83aa-bf3ae78b150f",
+          "company_name": "Started",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Started is evaluated as an opportunity with score 41.1. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "15.0",
+          "evidence_count": 5,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T17:40:48.084255Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "ab78c9d1-71e1-49fd-8108-c72a1998fe52",
+          "company_id": "61955045-f8ac-4ce4-808f-738444de8d63",
+          "company_name": "Build",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Build is evaluated as an opportunity with score 55.0. The decision is based on 2 context record(s), 2 signal(s), and 13 evidence item(s). Score direction: increased.",
+          "why_now": "70.0",
+          "evidence_count": 13,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T17:40:48.062923Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "303ebcf5-abbc-4aa0-b39a-a937ce41a4bc",
+          "company_id": "df5a26c4-5e14-41f2-9988-bff9e5156a72",
+          "company_name": "Shipping",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Shipping is evaluated as an opportunity with score 50.5. The decision is based on 2 context record(s), 2 signal(s), and 10 evidence item(s). Score direction: increased.",
+          "why_now": "70.0",
+          "evidence_count": 10,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T17:40:48.039170Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "0e554867-18c5-4a73-926c-64abfbc0be59",
+          "company_id": "64a85f4f-a6e6-45cf-9f8f-36e2ba3a6bd0",
+          "company_name": "Learned",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Learned is evaluated as an opportunity with score 42.3. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "25.0",
+          "evidence_count": 5,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T17:40:47.997705Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "723aaa38-3d26-401f-bdae-52012a6ff5f9",
+          "company_id": "de344c05-e0e8-42ce-91ae-7359706a228d",
+          "company_name": "Arguments",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "hacker_news",
+          "why_interesting": "Arguments is evaluated as an opportunity with score 41.3. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "15.0",
+          "evidence_count": 5,
+          "source": "hacker_news",
+          "collector": "hacker_news",
+          "collected_at": "2026-07-23T17:37:47.911332Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "a95d9317-2480-4e63-babc-c3ac48ec3075",
+          "company_id": "b8b099b3-e508-40c5-9bc7-57aba671688c",
+          "company_name": "Resilient",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Resilient is evaluated as an opportunity with score 42.3. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "25.0",
+          "evidence_count": 5,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T17:31:48.619480Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "0dac5aa6-459e-4847-b43d-6db2c5adf532",
+          "company_id": "7777ac2b-2212-4842-b58c-01ee78d7bf92",
+          "company_name": "AznanSeyam",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "github_trending",
+          "why_interesting": "AznanSeyam is evaluated as an opportunity with score 41.0. The decision is based on 3 context record(s), 3 signal(s), and 15 evidence item(s). Score direction: increased.",
+          "why_now": "15.0",
+          "evidence_count": 15,
+          "source": "github_trending",
+          "collector": "github_trending",
+          "collected_at": "2026-07-23T17:31:48.601764Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "15bd534f-309f-45e3-bcf2-51afb063df13",
+          "company_id": "3f9cee40-418f-4ce8-87bf-1422c072114d",
+          "company_name": "Teaching",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Teaching is evaluated as an opportunity with score 56.9. The decision is based on 2 context record(s), 2 signal(s), and 16 evidence item(s). Score direction: increased.",
+          "why_now": "60.0",
+          "evidence_count": 16,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T17:31:48.577711Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "462df76f-6a97-4d17-96c9-4fbc2580bd17",
+          "company_id": "51944761-e619-4b52-9362-e266c9c99e7e",
+          "company_name": "Six",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "devto",
+          "why_interesting": "Six is evaluated as an opportunity with score 42.8. The decision is based on 1 context record(s), 1 signal(s), and 6 evidence item(s). Score direction: increased.",
+          "why_now": "25.0",
+          "evidence_count": 6,
+          "source": "devto",
+          "collector": "devto",
+          "collected_at": "2026-07-23T17:31:48.554586Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "27634aaf-b6f1-4757-95fd-12cb072e021f",
+          "company_id": "23c1cb80-c39a-473f-834c-907437c2ba3d",
+          "company_name": "Iran-linked",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "rss",
+          "why_interesting": "Iran-linked is evaluated as an opportunity with score 40.8. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "15.0",
+          "evidence_count": 5,
+          "source": "rss",
+          "collector": "rss",
+          "collected_at": "2026-07-23T17:31:48.519695Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "16a4a9f6-4f71-4d58-a101-49f3217c8855",
+          "company_id": "22476096-670b-4226-a183-d7f3210dab24",
+          "company_name": "Corsair",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "rss",
+          "why_interesting": "Corsair is evaluated as an opportunity with score 41.2. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "15.0",
+          "evidence_count": 5,
+          "source": "rss",
+          "collector": "rss",
+          "collected_at": "2026-07-23T17:26:47.781025Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "8c845983-3245-419c-9289-96f2b671022f",
+          "company_id": "161337ca-c16a-41b6-8898-7affdd2754d0",
+          "company_name": "Fields",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "hacker_news",
+          "why_interesting": "Fields is evaluated as an opportunity with score 40.9. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "15.0",
+          "evidence_count": 5,
+          "source": "hacker_news",
+          "collector": "hacker_news",
+          "collected_at": "2026-07-23T17:25:47.982137Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "b7309ead-480c-4868-be70-c73e1424c044",
+          "company_id": "76b21eb4-445e-4dce-8802-76ea1ad0ef0c",
+          "company_name": "Qubes",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "hacker_news",
+          "why_interesting": "Qubes is evaluated as an opportunity with score 47.3. The decision is based on 13 context record(s), 13 signal(s), and 67 evidence item(s). Score direction: decreased.",
+          "why_now": "45.0",
+          "evidence_count": 20,
+          "source": "hacker_news",
+          "collector": "hacker_news",
+          "collected_at": "2026-07-23T17:25:47.911766Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        },
+        {
+          "opportunity_id": "f2f9b497-7145-4cb1-ae71-d90f2a8c15c5",
+          "company_id": "a75112fc-b15f-4f21-9d1f-9bc4a7f68201",
+          "company_name": "TheNumbers.com",
+          "explainable": true,
+          "hide": false,
+          "why_collected": "hacker_news",
+          "why_interesting": "TheNumbers.com is evaluated as an opportunity with score 40.8. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+          "why_now": "15.0",
+          "evidence_count": 5,
+          "source": "hacker_news",
+          "collector": "hacker_news",
+          "collected_at": "2026-07-23T17:25:47.870202Z",
+          "rules_matched": [
+            "growth_score",
+            "timing_score",
+            "urgency_score",
+            "confidence_score",
+            "ai_readiness_score",
+            "technology_fit_score",
+            "budget_probability_score",
+            "decision_confidence_score",
+            "automation_readiness_score"
+          ],
+          "missing": []
+        }
+      ],
+      "blockers": [],
+      "evidence": [
+        "explainable_rate:100.0"
+      ]
+    },
+    {
+      "phase": "3",
+      "title": "Identity Validation",
+      "status": "FAIL",
+      "summary": "1/404 identity-complete; fake=43",
+      "metrics": {
+        "sampled": 404,
+        "valid_companies": 1,
+        "identity_completeness_pct": 0.25,
+        "missing_website": 249,
+        "missing_industry": 403,
+        "missing_source_attribution": 5,
+        "fake_companies": 43
+      },
+      "rows": [],
+      "blockers": [
+        "fake_companies_present",
+        "identity_below_95"
+      ],
+      "evidence": [
+        "completeness:0.25",
+        "fake:43"
+      ]
+    },
+    {
+      "phase": "4",
+      "title": "Contact Validation",
+      "status": "FAIL",
+      "summary": "0 companies with verified email; 396 without decision makers",
+      "metrics": {
+        "companies_with_decision_makers": 8,
+        "companies_with_verified_email": 0,
+        "missing_contacts": 396,
+        "contact_email_rate_pct": 0.0,
+        "empty_card_policy": "No verified public contact available."
+      },
+      "rows": [],
+      "blockers": [
+        "contact_ready_below_60"
+      ],
+      "evidence": [
+        "email_rate:0.0"
+      ]
+    },
+    {
+      "phase": "5",
+      "title": "Sales Readiness Audit",
+      "status": "FAIL",
+      "summary": "Sales-ready 0.0% \u00b7 Contact-ready 0.0% of SRE-evaluated companies",
+      "metrics": {
+        "sales_ready_pct": 0.0,
+        "contact_ready_pct": 0.0,
+        "sre_companies": 0,
+        "status_SALES READY": 0,
+        "status_ENTERPRISE READY": 0,
+        "status_CONTACT READY": 0,
+        "status_NOT READY": 0,
+        "status_RESEARCH REQUIRED": 0
+      },
+      "rows": [
+        {
+          "stage": "Companies collected",
+          "count": 404
+        },
+        {
+          "stage": "Valid companies (with website)",
+          "count": 155
+        },
+        {
+          "stage": "Sales Ready",
+          "count": 0
+        },
+        {
+          "stage": "Enterprise Ready",
+          "count": 0
+        },
+        {
+          "stage": "Contact Ready",
+          "count": 0
+        },
+        {
+          "stage": "Missing contacts (NOT READY+RESEARCH)",
+          "count": 0
+        },
+        {
+          "stage": "Missing website",
+          "count": 249
+        },
+        {
+          "stage": "SRE snapshots (latest companies)",
+          "count": 0
+        },
+        {
+          "stage": "Hidden by PH-1 (not visible)",
+          "count": 0
+        },
+        {
+          "stage": "PH-1 rejected admissions",
+          "count": 0
+        }
+      ],
+      "blockers": [],
+      "evidence": [
+        "sales_ready_pct:0.0",
+        "contact_ready_pct:0.0"
+      ]
+    },
+    {
+      "phase": "6",
+      "title": "Revenue Hunter Audit",
+      "status": "PASS",
+      "summary": "0 A+/A dossiers; unexplained=0",
+      "metrics": {
+        "a_plus_or_a": 0,
+        "unexplained_a_plus": 0
+      },
+      "rows": [],
+      "blockers": [],
+      "evidence": [
+        "unexplained:0"
+      ]
+    },
+    {
+      "phase": "7",
+      "title": "Founder UX Audit",
+      "status": "FAIL",
+      "summary": "0/6 workday questions answerable from queue; evidence rate 0.0%",
+      "metrics": {
+        "founder_queue_items": 0,
+        "founder_queue_with_evidence_pct": 0.0,
+        "workday_questions_answered": 0,
+        "checklist": {
+          "who_to_contact": false,
+          "why_them": false,
+          "what_to_sell": false,
+          "deal_value": false,
+          "verified_contact": false,
+          "next_action": false
+        },
+        "sales_ready_context": 0.0,
+        "rh_a_accounts": 0
+      },
+      "rows": [
+        {
+          "question": "who_to_contact",
+          "answered": false
+        },
+        {
+          "question": "why_them",
+          "answered": false
+        },
+        {
+          "question": "what_to_sell",
+          "answered": false
+        },
+        {
+          "question": "deal_value",
+          "answered": false
+        },
+        {
+          "question": "verified_contact",
+          "answered": false
+        },
+        {
+          "question": "next_action",
+          "answered": false
+        }
+      ],
+      "blockers": [
+        "who_to_contact",
+        "why_them",
+        "what_to_sell",
+        "deal_value",
+        "verified_contact",
+        "next_action"
+      ],
+      "evidence": [
+        "answered:0",
+        "evidence_rate:0.0"
+      ]
+    },
+    {
+      "phase": "8",
+      "title": "Live Outreach Readiness",
+      "status": "WARN",
+      "summary": "6/11 checks; production_allowed=False",
+      "metrics": {
+        "checks": {
+          "gmail_oauth": {
+            "ok": false,
+            "value": "oauth_rows=0",
+            "evidence": [
+              "gmail_oauth:false"
+            ]
+          },
+          "whatsapp_business": {
+            "ok": false,
+            "value": "not_configured",
+            "evidence": [
+              "whatsapp_business:false"
+            ]
+          },
+          "calendly": {
+            "ok": false,
+            "value": "not_configured",
+            "evidence": [
+              "calendly:false"
+            ]
+          },
+          "domain_auth_spf_dkim_dmarc": {
+            "ok": false,
+            "value": "manual_dns_check_required",
+            "evidence": [
+              "domain_auth_spf_dkim_dmarc:false"
+            ]
+          },
+          "email_sandbox": {
+            "ok": true,
+            "value": "configured",
+            "evidence": [
+              "email_sandbox:true"
+            ]
+          },
+          "rate_limits": {
+            "ok": true,
+            "value": "daily_email_quota=500",
+            "evidence": [
+              "rate_limits:true"
+            ]
+          },
+          "unsubscribe_handling": {
+            "ok": true,
+            "value": "configured",
+            "evidence": [
+              "unsubscribe_handling:true"
+            ]
+          },
+          "bounce_handling": {
+            "ok": true,
+            "value": "configured",
+            "evidence": [
+              "bounce_handling:true"
+            ]
+          },
+          "reply_threading": {
+            "ok": true,
+            "value": "configured",
+            "evidence": [
+              "reply_threading:true"
+            ]
+          },
+          "stop_on_reply": {
+            "ok": true,
+            "value": "configured",
+            "evidence": [
+              "stop_on_reply:true"
+            ]
+          },
+          "production_send_flag": {
+            "ok": false,
+            "value": "mode=sandbox allow=False",
+            "evidence": [
+              "production_send_flag:false"
+            ]
+          }
+        },
+        "passed": 6,
+        "total": 11,
+        "production_allowed": false,
+        "status": "WARN",
+        "blockers": [
+          "gmail_oauth",
+          "whatsapp_business",
+          "calendly",
+          "domain_auth_spf_dkim_dmarc",
+          "production_send_flag"
+        ]
+      },
+      "rows": [
+        {
+          "check": "gmail_oauth",
+          "ok": false,
+          "value": "oauth_rows=0",
+          "evidence": [
+            "gmail_oauth:false"
+          ]
+        },
+        {
+          "check": "whatsapp_business",
+          "ok": false,
+          "value": "not_configured",
+          "evidence": [
+            "whatsapp_business:false"
+          ]
+        },
+        {
+          "check": "calendly",
+          "ok": false,
+          "value": "not_configured",
+          "evidence": [
+            "calendly:false"
+          ]
+        },
+        {
+          "check": "domain_auth_spf_dkim_dmarc",
+          "ok": false,
+          "value": "manual_dns_check_required",
+          "evidence": [
+            "domain_auth_spf_dkim_dmarc:false"
+          ]
+        },
+        {
+          "check": "email_sandbox",
+          "ok": true,
+          "value": "configured",
+          "evidence": [
+            "email_sandbox:true"
+          ]
+        },
+        {
+          "check": "rate_limits",
+          "ok": true,
+          "value": "daily_email_quota=500",
+          "evidence": [
+            "rate_limits:true"
+          ]
+        },
+        {
+          "check": "unsubscribe_handling",
+          "ok": true,
+          "value": "configured",
+          "evidence": [
+            "unsubscribe_handling:true"
+          ]
+        },
+        {
+          "check": "bounce_handling",
+          "ok": true,
+          "value": "configured",
+          "evidence": [
+            "bounce_handling:true"
+          ]
+        },
+        {
+          "check": "reply_threading",
+          "ok": true,
+          "value": "configured",
+          "evidence": [
+            "reply_threading:true"
+          ]
+        },
+        {
+          "check": "stop_on_reply",
+          "ok": true,
+          "value": "configured",
+          "evidence": [
+            "stop_on_reply:true"
+          ]
+        },
+        {
+          "check": "production_send_flag",
+          "ok": false,
+          "value": "mode=sandbox allow=False",
+          "evidence": [
+            "production_send_flag:false"
+          ]
+        }
+      ],
+      "blockers": [
+        "gmail_oauth",
+        "whatsapp_business",
+        "calendly",
+        "domain_auth_spf_dkim_dmarc",
+        "production_send_flag"
+      ],
+      "evidence": [
+        "production_allowed:False"
+      ]
+    }
+  ],
+  "success_metrics": [
+    {
+      "name": "collector_uptime",
+      "target": 99.0,
+      "actual": 75.0,
+      "unit": "%",
+      "hit": false,
+      "evidence": [
+        "target:99.0%",
+        "actual:75.0"
+      ]
+    },
+    {
+      "name": "identity_completeness",
+      "target": 95.0,
+      "actual": 0.25,
+      "unit": "%",
+      "hit": false,
+      "evidence": [
+        "target:95.0%",
+        "actual:0.25"
+      ]
+    },
+    {
+      "name": "contact_ready_accounts",
+      "target": 60.0,
+      "actual": 0.0,
+      "unit": "%",
+      "hit": false,
+      "evidence": [
+        "target:60.0%",
+        "actual:0.0"
+      ]
+    },
+    {
+      "name": "sales_ready_accounts",
+      "target": 40.0,
+      "actual": 0.0,
+      "unit": "%",
+      "hit": false,
+      "evidence": [
+        "target:40.0%",
+        "actual:0.0"
+      ]
+    },
+    {
+      "name": "duplicate_rate",
+      "target": 5.0,
+      "actual": 62.16,
+      "unit": "%",
+      "hit": false,
+      "evidence": [
+        "target:5.0%",
+        "actual:62.16"
+      ]
+    },
+    {
+      "name": "fake_companies",
+      "target": 0.0,
+      "actual": 43.0,
+      "unit": "count",
+      "hit": false,
+      "evidence": [
+        "target:0.0count",
+        "actual:43.0"
+      ]
+    },
+    {
+      "name": "missing_source_attribution",
+      "target": 0.0,
+      "actual": 5.0,
+      "unit": "count",
+      "hit": false,
+      "evidence": [
+        "target:0.0count",
+        "actual:5.0"
+      ]
+    },
+    {
+      "name": "founder_queue_with_evidence",
+      "target": 100.0,
+      "actual": 0.0,
+      "unit": "%",
+      "hit": false,
+      "evidence": [
+        "target:100.0%",
+        "actual:0.0"
+      ]
+    },
+    {
+      "name": "unexplained_a_plus",
+      "target": 0.0,
+      "actual": 0.0,
+      "unit": "count",
+      "hit": true,
+      "evidence": [
+        "target:0.0count",
+        "actual:0.0"
+      ]
+    },
+    {
+      "name": "end_to_end_pipeline_success",
+      "target": 95.0,
+      "actual": 87.5,
+      "unit": "%",
+      "hit": false,
+      "evidence": [
+        "target:95.0%",
+        "actual:87.5"
+      ]
+    }
+  ],
+  "production_allowed": false,
+  "overall_status": "FAIL",
+  "recommendations": [
+    "North-star estimate is 0.0/100 outreach-ready \u2014 focus on contact enrichment + identity before new features.",
+    "Missed target collector_uptime: actual=75.0 target=99.0%",
+    "Missed target identity_completeness: actual=0.25 target=95.0%",
+    "Missed target contact_ready_accounts: actual=0.0 target=60.0%",
+    "Missed target sales_ready_accounts: actual=0.0 target=40.0%",
+    "Missed target duplicate_rate: actual=62.16 target=5.0%",
+    "Missed target fake_companies: actual=43.0 target=0.0count",
+    "Missed target missing_source_attribution: actual=5.0 target=0.0count",
+    "Missed target founder_queue_with_evidence: actual=0.0 target=100.0%",
+    "Missed target end_to_end_pipeline_success: actual=87.5 target=95.0%",
+    "Phase 3 (Identity Validation): resolve fake_companies_present, identity_below_95",
+    "Phase 4 (Contact Validation): resolve contact_ready_below_60",
+    "Phase 7 (Founder UX Audit): resolve who_to_contact, why_them, what_to_sell, deal_value, verified_contact"
+  ]
+}

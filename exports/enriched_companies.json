@@ -1,0 +1,1179 @@
+[
+  {
+    "company_name": "HyugaLife",
+    "domain": "hyugalife.com",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 100 Cr Series A (Apr 2026) led by IvyCap Ventures. Bengaluru-based nutrition marketplace with 450+ brands, 10K+ products, 1.5M+ registered users.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "Sachin Parikh",
+    "founder_role": "Co-founder",
+    "founder_source": "entrackr.com, businessorbital.com",
+    "founder_confidence": 0.9,
+    "growth_signals": [
+      "Raised Rs 100 Cr Series A",
+      "Expanding into offline retail",
+      "Building dark store network",
+      "AI personalisation engine"
+    ],
+    "growth_signal_sources": [
+      "https://entrackr.com/news/hyugalife-raises-105-mn-in-series-a-round-led-by-ivycap-ventures-11773511"
+    ],
+    "buying_signals": [
+      "Series A funding (April 2026)",
+      "Expanding offline + dark stores",
+      "Building private label"
+    ],
+    "buying_signal_sources": [
+      "https://entrackr.com/news/hyugalife-raises-105-mn-in-series-a-round-led-by-ivycap-ventures-11773511"
+    ],
+    "technology_signals": [],
+    "industry": "health_nutrition",
+    "city": "Bengaluru",
+    "country": "India",
+    "discovery_text": "Raised Rs 100 Cr Series A (Apr 2026). Mumbai-based nutrition marketplace. Has software engineer on team (React Native, Fullstack). Founded 2022. Active jobs on Jobaaj (Marketing Communications Manager). 1.5M+ registered users, 450+ brands, 10K+ products. Hiring for marketing roles. Expanding into offline retail and dark store network. Building AI personalisation engine. 60+ salary records on AmbitionBox.",
+    "evidence": [
+      {
+        "claim": "Has software engineer (React Native/Fullstack)",
+        "value": "Mohak Muskan, Software Engineer since Sep 2024",
+        "source": "linkedin",
+        "source_url": "https://linkedin.com/in/mohak-muskan-0a7a7b16a",
+        "confidence": "VERIFIED",
+        "observed_at": "2026-08-08"
+      },
+      {
+        "claim": "Active marketing hiring",
+        "value": "Marketing Communications Manager role posted",
+        "source": "jobaaj.com",
+        "source_url": "https://www.jobaaj.com/company/hyugalife-careers",
+        "confidence": "VERIFIED",
+        "observed_at": "2026-08-08"
+      },
+      {
+        "claim": "Building AI personalisation engine",
+        "value": "Growth signal from discovery",
+        "source": "funding_announcement",
+        "source_url": "",
+        "confidence": "MEDIUM",
+        "observed_at": "2026-08-08"
+      },
+      {
+        "claim": "1.5M+ registered users",
+        "value": "Significant user base",
+        "source": "funding_announcement",
+        "source_url": "",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ]
+  },
+  {
+    "company_name": "BeastLife",
+    "domain": "beastlife.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 20 Cr Pre-Series A (Mar 2026) at Rs 320 Cr valuation. Revenue grew from Rs 36 Cr (FY25) to Rs 100 Cr (FY26). Sports nutrition brand.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "Gaurav Taneja",
+    "founder_role": "Founder",
+    "founder_source": "inforcapital.com, indianretailer.com",
+    "founder_confidence": 0.95,
+    "growth_signals": [
+      "Revenue Rs 36 Cr to Rs 100 Cr in 1 year",
+      "Raised Rs 20 Cr at Rs 320 Cr valuation",
+      "Planning offline expansion"
+    ],
+    "growth_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-beastlife-raises-rs-20-cr-scale-operations-and-expand-distribution"
+    ],
+    "buying_signals": [
+      "Pre-Series A funding (Mar 2026)",
+      "Expanding to offline retail",
+      "Team expansion planned"
+    ],
+    "buying_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-beastlife-raises-rs-20-cr-scale-operations-and-expand-distribution"
+    ],
+    "technology_signals": [],
+    "industry": "sports_nutrition",
+    "city": "Gurugram",
+    "country": "India",
+    "discovery_text": "Raised Rs 20 Cr Pre-Series A (Mar 2026). Sports nutrition brand. Self-funded (bootstrapped) company without external investments per Uplers. Founded 2024 by Gaurav Taneja (The Flying Beast). Hiring for Copy Content Writer. New Product Development intern positions. Food Technology roles. No explicit tech/software hiring signals. Revenue grew from Rs 36 Cr (FY25) to Rs 100 Cr (FY26).",
+    "evidence": [
+      {
+        "claim": "Bootstrapped / self-funded",
+        "value": "No external investments per Uplers profile",
+        "source": "uplers.com",
+        "source_url": "https://www.uplers.com/company/beastlife-8936",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      },
+      {
+        "claim": "Hiring content and product roles",
+        "value": "Copy Content Writer, New Product Development intern",
+        "source": "indeed.com",
+        "source_url": "https://in.indeed.com/q-beastlife-jobs.html",
+        "confidence": "VERIFIED",
+        "observed_at": "2026-08-08"
+      },
+      {
+        "claim": "No tech/software hiring signals",
+        "value": "No developer or engineer roles found",
+        "source": "websearch",
+        "source_url": "",
+        "confidence": "MEDIUM",
+        "observed_at": "2026-08-08"
+      }
+    ]
+  },
+  {
+    "company_name": "Anmasa",
+    "domain": "anmasa.com",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 30 Cr Seed (Jul 2026) led by Fireside Ventures. Hyperlocal fresh staples startup, manufactures after order placed, 90-minute delivery. Founded 2023.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "early",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "Yatish Talvadia",
+    "founder_role": "Founder & CEO",
+    "founder_source": "retail.economictimes.indiatimes.com",
+    "founder_confidence": 0.95,
+    "growth_signals": [
+      "Raised Rs 30 Cr Seed",
+      "Expanding to Bengaluru and metros",
+      "Targeting Rs 150 Cr ARR"
+    ],
+    "growth_signal_sources": [
+      "https://retail.economictimes.indiatimes.com/news/food-entertainment/personal-care-pet-supplies-liquor/anmasa-raises-rs-30-crore-from-fireside-ventures-blume-ventures-to-scale-hyperlocal-fresh-staples-network/132409509"
+    ],
+    "buying_signals": [
+      "Seed funding (Jul 2026)",
+      "Expanding to new cities",
+      "Building supply chain technology"
+    ],
+    "buying_signal_sources": [
+      "https://retail.economictimes.indiatimes.com/news/food-entertainment/personal-care-pet-supplies-liquor/anmasa-raises-rs-30-crore-from-fireside-ventures-blume-ventures-to-scale-hyperlocal-fresh-staples-network/132409509"
+    ],
+    "technology_signals": [],
+    "industry": "food_grocery",
+    "city": "Gurugram",
+    "country": "India",
+    "discovery_text": "Raised Rs 30 Cr Seed (Jul 2026) led by Fireside Ventures. Hyperlocal fresh staples startup, manufactures after order placed, 90-minute delivery. Founded 2023."
+  },
+  {
+    "company_name": "Asaya",
+    "domain": "asaya.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 28 Cr Pre-Series A (Sep 2025) led by RPSG Capital. 400% YoY growth, 5 lakh+ customers, science-driven skincare for hyperpigmentation. Patented MelaMe molecule.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "Neeraj Biyani",
+    "founder_role": "Co-founder",
+    "founder_source": "retail.economictimes.indiatimes.com, entrackr.com",
+    "founder_confidence": 0.9,
+    "growth_signals": [
+      "400% YoY revenue growth",
+      "5 lakh+ customers",
+      "45% repeat purchase rate (6-month)",
+      "Expanding to quick commerce"
+    ],
+    "growth_signal_sources": [
+      "https://retail.economictimes.indiatimes.com/news/health-and-beauty/skincare-brand-asaya-raises-rs-28-crore-in-pre-series-a-funding-led-by-rpsg-capital/123785837"
+    ],
+    "buying_signals": [
+      "Pre-Series A funding (Sep 2025)",
+      "Building innovation center",
+      "6 new products in 12 months",
+      "Quick commerce expansion"
+    ],
+    "buying_signal_sources": [
+      "https://retail.economictimes.indiatimes.com/news/health-and-beauty/skincare-brand-asaya-raises-rs-28-crore-in-pre-series-a-funding-led-by-rpsg-capital/123785837"
+    ],
+    "technology_signals": [],
+    "industry": "skincare",
+    "city": "Bengaluru",
+    "country": "India",
+    "discovery_text": "Raised Rs 28 Cr Pre-Series A (Sep 2025) led by RPSG Capital. 400% YoY growth, 5 lakh+ customers, science-driven skincare for hyperpigmentation. Patented MelaMe molecule."
+  },
+  {
+    "company_name": "MyDesignation",
+    "domain": "mydesignation.com",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 40 Cr Series A (Feb 2026) led by RPSG Capital Ventures. Kerala-based D2C fashion, 1M+ customers, high repeat purchase rates. Founded 2020.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "Swaroop Krishnan",
+    "founder_role": "Co-founder",
+    "founder_source": "india.entrepreneur.com, thestartupflash.in",
+    "founder_confidence": 0.9,
+    "growth_signals": [
+      "1M+ customers",
+      "High repeat purchase rates",
+      "Expanding offline retail in Bengaluru, Kochi"
+    ],
+    "growth_signal_sources": [
+      "https://thestartupflash.in/mydesignation-secures-%E2%82%B940-crore-series-a-to-scale-its-d2c-fashion-brand-across-india/"
+    ],
+    "buying_signals": [
+      "Series A funding (Feb 2026)",
+      "Expanding company-owned stores",
+      "Launching new product categories",
+      "Senior leadership hiring"
+    ],
+    "buying_signal_sources": [
+      "https://thestartupflash.in/mydesignation-secures-%E2%82%B940-crore-series-a-to-scale-its-d2c-fashion-brand-across-india/"
+    ],
+    "technology_signals": [],
+    "industry": "fashion",
+    "city": "Kerala",
+    "country": "India",
+    "discovery_text": "Raised Rs 40 Cr Series A (Feb 2026) led by RPSG Capital Ventures. Kerala-based D2C fashion brand, 1M+ customers, high repeat purchase rates. Founded 2017 by Gopika Menon (CEO). 11-50 employees. Uses 20 technologies for website per BuiltWith (DNSSEC, Amazon, etc). Self-funded historically, now Series A. Fast-growing unisex fashion brand. Monthly web visits 400K+.",
+    "evidence": [
+      {
+        "claim": "20 technologies on website",
+        "value": "DNSSEC, Mobile Non Scaleable Content, Amazon per BuiltWith",
+        "source": "crunchbase.com",
+        "source_url": "https://www.crunchbase.com/organization/mydesignation",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      },
+      {
+        "claim": "RPSG Capital Ventures led Series A",
+        "value": "4 investors including RPSG Capital Ventures and Veltis Capital",
+        "source": "crunchbase.com",
+        "source_url": "https://www.crunchbase.com/organization/mydesignation",
+        "confidence": "VERIFIED",
+        "observed_at": "2026-08-08"
+      },
+      {
+        "claim": "400K+ monthly web visits",
+        "value": "-35.68% in past month per SemRush",
+        "source": "crunchbase.com",
+        "source_url": "https://www.crunchbase.com/organization/mydesignation",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      }
+    ]
+  },
+  {
+    "company_name": "Open Secret",
+    "domain": "opensecret.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 50 Cr (2026) led by Desai Brothers Group. Mumbai-based D2C healthy snacking brand expanding offline retail and product portfolio.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "growth_signals": [
+      "Raised Rs 50 Cr",
+      "Expanding offline retail network",
+      "Broadening product portfolio"
+    ],
+    "growth_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-open-secret-raises-over-rs-50-cr-expand-healthy-snacking-business"
+    ],
+    "buying_signals": [
+      "Funding round (2026)",
+      "Offline expansion",
+      "New product categories"
+    ],
+    "buying_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-open-secret-raises-over-rs-50-cr-expand-healthy-snacking-business"
+    ],
+    "technology_signals": [],
+    "industry": "food_snacks",
+    "city": "Mumbai",
+    "country": "India",
+    "discovery_text": "Raised Rs 50 Cr (2026) led by Desai Brothers Group. Mumbai-based D2C healthy snacking brand expanding offline retail and product portfolio. No explicit tech hiring or technology need signals found. Expanding into offline retail channels.",
+    "evidence": [
+      {
+        "claim": "Expanding offline retail",
+        "value": "Growing offline presence alongside D2C",
+        "source": "funding_announcement",
+        "source_url": "",
+        "confidence": "MEDIUM",
+        "observed_at": "2026-08-08"
+      },
+      {
+        "claim": "No tech/software hiring signals",
+        "value": "No developer or engineer roles found",
+        "source": "websearch",
+        "source_url": "",
+        "confidence": "MEDIUM",
+        "observed_at": "2026-08-08"
+      }
+    ]
+  },
+  {
+    "company_name": "Good Monk",
+    "domain": "goodmonk.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 33 Cr (2026) at Rs 175 Cr valuation. Nutrition brand with tasteless mixes for everyday food. Rapid growth, expanded across online marketplaces.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "growth_signals": [
+      "Raised Rs 33 Cr at Rs 175 Cr valuation",
+      "Rapid growth",
+      "Expanded across online marketplaces"
+    ],
+    "growth_signal_sources": [
+      "https://www.medboundtimes.com/diet-and-nutrition/d2c-healthcare-nutrition-startups-india-2026"
+    ],
+    "buying_signals": [
+      "Funding round (2026)",
+      "Marketplace expansion"
+    ],
+    "buying_signal_sources": [
+      "https://www.medboundtimes.com/diet-and-nutrition/d2c-healthcare-nutrition-startups-india-2026"
+    ],
+    "technology_signals": [],
+    "industry": "nutrition",
+    "city": "India",
+    "country": "India",
+    "discovery_text": "Raised Rs 33 Cr (2026) at Rs 175 Cr valuation. Nutrition brand with tasteless mixes for everyday food. Rapid growth, expanded across online marketplaces."
+  },
+  {
+    "company_name": "Nester",
+    "domain": "nesterstore.com",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 19 Cr Pre-Series A (Feb 2026) led by Fireside Ventures. Design-led home appliance brand, stainless steel kitchen products. Founded Jan 2025 — very early stage.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "early",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "Abhinav Singh",
+    "founder_role": "Founder & CEO",
+    "founder_source": "foundersday.co",
+    "founder_confidence": 0.95,
+    "growth_signals": [
+      "Raised Rs 19 Cr Pre-Series A",
+      "Founded Jan 2025 (7 months old)",
+      "Ex-McKinsey founder"
+    ],
+    "growth_signal_sources": [
+      "https://foundersday.co/india-startup-funding-for-series-a-deals/india-d2c-startups-series-a"
+    ],
+    "buying_signals": [
+      "Pre-Series A funding (Feb 2026)",
+      "Product portfolio expansion"
+    ],
+    "buying_signal_sources": [
+      "https://foundersday.co/india-startup-funding-for-series-a-deals/india-d2c-startups-series-a"
+    ],
+    "technology_signals": [],
+    "industry": "home_appliances",
+    "city": "Gurugram",
+    "country": "India",
+    "discovery_text": "Raised Rs 19 Cr Pre-Series A (Feb 2026) led by Fireside Ventures. Design-led home appliance brand, stainless steel kitchen products. Founded Jan 2025. Very early stage. No explicit technology hiring or need signals found.",
+    "evidence": [
+      {
+        "claim": "Very early stage",
+        "value": "Founded Jan 2025",
+        "source": "funding_announcement",
+        "source_url": "",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-08"
+      },
+      {
+        "claim": "No tech/software hiring signals",
+        "value": "No developer or engineer roles found",
+        "source": "websearch",
+        "source_url": "",
+        "confidence": "MEDIUM",
+        "observed_at": "2026-08-08"
+      }
+    ]
+  },
+  {
+    "company_name": "Agilitas Sports",
+    "domain": "agilitassports.com",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 225 Cr (Jun 2026) from Nexus + Rainmatter. Sportswear and athleisure, vertically integrated. Founded 2023 by ex-Puma MD Abhishek Ganguly.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "Abhishek Ganguly",
+    "founder_role": "Founder",
+    "founder_source": "indianretailer.com",
+    "founder_confidence": 0.95,
+    "growth_signals": [
+      "Raised Rs 225 Cr",
+      "Vertically integrated platform",
+      "Ex-Puma MD founder",
+      "Manufacturing + retail expansion"
+    ],
+    "growth_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-agilitas-sports-targets-growth-after-rs-225-cr-funding-round"
+    ],
+    "buying_signals": [
+      "Rs 225 Cr funding (Jun 2026)",
+      "Manufacturing expansion",
+      "Retail growth",
+      "Talent acquisition"
+    ],
+    "buying_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-agilitas-sports-targets-growth-after-rs-225-cr-funding-round"
+    ],
+    "technology_signals": [],
+    "industry": "sportswear",
+    "city": "India",
+    "country": "India",
+    "discovery_text": "Raised Rs 225 Cr (Jun 2026) from Nexus + Rainmatter. Sportswear and athleisure, vertically integrated. Founded 2023 by ex-Puma MD Abhishek Ganguly."
+  },
+  {
+    "company_name": "CUNIN",
+    "domain": "cunin.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised $450K Pre-Seed (2026) co-led by All In Capital and Huddle Ventures. Culture-led lifestyle brand in fragrance segment. Very early stage.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "early",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "Kunal Shukla",
+    "founder_role": "Co-founder",
+    "founder_source": "indianretailer.com",
+    "founder_confidence": 0.85,
+    "growth_signals": [
+      "Raised $450K Pre-Seed",
+      "Expanding into lifestyle category",
+      "Building global lifestyle brand"
+    ],
+    "growth_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-cunin-raises-450k-in-pre-seed-funding-to-expand-lifestyle-brand"
+    ],
+    "buying_signals": [
+      "Pre-Seed funding (2026)",
+      "Product development",
+      "Offline retail expansion planned"
+    ],
+    "buying_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-cunin-raises-450k-in-pre-seed-funding-to-expand-lifestyle-brand"
+    ],
+    "technology_signals": [],
+    "industry": "fragrance_lifestyle",
+    "city": "India",
+    "country": "India",
+    "discovery_text": "Raised $450K Pre-Seed (2026) co-led by All In Capital and Huddle Ventures. Culture-led lifestyle brand in fragrance segment. Very early stage."
+  },
+  {
+    "company_name": "Basil",
+    "domain": "yourbasil.com",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised $2M Pre-Series A (Feb 2026) led by Prime Venture Partners. Kids essentials — bento boxes, lunchboxes, insulated jars. Rs 36 Cr ARR, targeting Rs 100 Cr FY27.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "Harini Rajagopalan",
+    "founder_role": "Co-founder",
+    "founder_source": "foundersday.co",
+    "founder_confidence": 0.9,
+    "growth_signals": [
+      "Rs 36 Cr ARR",
+      "Targeting Rs 100 Cr FY27",
+      "Ex-Amazon/J&J founder"
+    ],
+    "growth_signal_sources": [
+      "https://foundersday.co/india-startup-funding-for-series-a-deals/india-d2c-startups-series-a"
+    ],
+    "buying_signals": [
+      "Pre-Series A funding (Feb 2026)",
+      "Expanding product categories"
+    ],
+    "buying_signal_sources": [
+      "https://foundersday.co/india-startup-funding-for-series-a-deals/india-d2c-startups-series-a"
+    ],
+    "technology_signals": [],
+    "industry": "kids_essentials",
+    "city": "India",
+    "country": "India",
+    "discovery_text": "Raised $2M Pre-Series A (Feb 2026) led by Prime Venture Partners. Kids essentials — bento boxes, lunchboxes, insulated jars. Rs 36 Cr ARR, targeting Rs 100 Cr FY27."
+  },
+  {
+    "company_name": "Bonkers Corner",
+    "domain": "bonkerscorner.com",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Series A at Rs 48M valuation (Mar 2026). Streetwear brand, Rs 123 Cr revenue FY25 with Rs 4 Cr profit. Mumbai-based, Gen Z focused.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "Shubham",
+    "founder_role": "Founder",
+    "founder_source": "foundersday.co",
+    "founder_confidence": 0.8,
+    "growth_signals": [
+      "Rs 123 Cr revenue FY25",
+      "Profitable (Rs 4 Cr profit)",
+      "Series A at Rs 48M valuation"
+    ],
+    "growth_signal_sources": [
+      "https://foundersday.co/india-startup-funding-for-series-a-deals/india-d2c-startups-series-a"
+    ],
+    "buying_signals": [
+      "Series A funding (Mar 2026)",
+      "Profitable business"
+    ],
+    "buying_signal_sources": [
+      "https://foundersday.co/india-startup-funding-for-series-a-deals/india-d2c-startups-series-a"
+    ],
+    "technology_signals": [],
+    "industry": "fashion_streetwear",
+    "city": "Mumbai",
+    "country": "India",
+    "discovery_text": "Raised Series A at Rs 48M valuation (Mar 2026). Streetwear brand, Rs 123 Cr revenue FY25 with Rs 4 Cr profit. Mumbai-based, Gen Z focused."
+  },
+  {
+    "company_name": "Zeroharm Sciences",
+    "domain": "zeroharm.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 40 Cr (Feb 2026) from Kotak Alternate Asset. Nutraceutical company with patented nanotechnology for supplement efficacy. Hyderabad-based.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "Sachin",
+    "founder_role": "Founder & CEO",
+    "founder_source": "foundersday.co",
+    "founder_confidence": 0.8,
+    "growth_signals": [
+      "Raised Rs 40 Cr",
+      "Patented nanotechnology",
+      "Plant-based ingredients"
+    ],
+    "growth_signal_sources": [
+      "https://foundersday.co/india-startup-funding-for-series-a-deals/india-d2c-startups-series-a"
+    ],
+    "buying_signals": [
+      "Rs 40 Cr investment (Feb 2026)",
+      "Technology expansion"
+    ],
+    "buying_signal_sources": [
+      "https://foundersday.co/india-startup-funding-for-series-a-deals/india-d2c-startups-series-a"
+    ],
+    "technology_signals": [
+      "Patented nanotechnology"
+    ],
+    "industry": "nutraceuticals",
+    "city": "Hyderabad",
+    "country": "India",
+    "discovery_text": "Raised Rs 40 Cr (Feb 2026) from Kotak Alternate Asset. Nutraceutical company with patented nanotechnology for supplement efficacy. Hyderabad-based."
+  },
+  {
+    "company_name": "Anveshan",
+    "domain": "anveshan.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 150 Cr Series B (Jun 2026). Farm-to-fork D2C food brand. Building supply chain from farm to consumer.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "growth_signals": [
+      "Raised Rs 150 Cr Series B",
+      "Farm-to-fork model",
+      "Supply chain expansion"
+    ],
+    "growth_signal_sources": [
+      "https://thed2cpulse.com/d2c-news/anveshan-d2c-funding-valuation-analysis/"
+    ],
+    "buying_signals": [
+      "Series B funding (Jun 2026)",
+      "Supply chain expansion"
+    ],
+    "buying_signal_sources": [
+      "https://thed2cpulse.com/d2c-news/anveshan-d2c-funding-valuation-analysis/"
+    ],
+    "technology_signals": [],
+    "industry": "food_organic",
+    "city": "India",
+    "country": "India",
+    "discovery_text": "Raised Rs 150 Cr Series B (Jun 2026). Farm-to-fork D2C food brand. Building supply chain from farm to consumer."
+  },
+  {
+    "company_name": "Salad Days",
+    "domain": "saladdays.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 30 Cr Series A (2026) co-led by V3 Ventures and Client Associates. Healthy food brand.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "growth_signals": [
+      "Raised Rs 30 Cr Series A"
+    ],
+    "growth_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-open-secret-raises-over-rs-50-cr-expand-healthy-snacking-business"
+    ],
+    "buying_signals": [
+      "Series A funding (2026)"
+    ],
+    "buying_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-open-secret-raises-over-rs-50-cr-expand-healthy-snacking-business"
+    ],
+    "technology_signals": [],
+    "industry": "food_health",
+    "city": "India",
+    "country": "India",
+    "discovery_text": "Raised Rs 30 Cr Series A (2026) co-led by V3 Ventures and Client Associates. Healthy food brand."
+  },
+  {
+    "company_name": "Promom",
+    "domain": "promom.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 30 Cr (Jul 2026) led by Fireside Ventures. D2C brand in promotion/marketing space.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "growth_signals": [
+      "Raised Rs 30 Cr led by Fireside Ventures"
+    ],
+    "growth_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-promom-raises-rs-30-cr-funding-round-led-fireside-ventures"
+    ],
+    "buying_signals": [
+      "Funding round (Jul 2026)"
+    ],
+    "buying_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-promom-raises-rs-30-cr-funding-round-led-fireside-ventures"
+    ],
+    "technology_signals": [],
+    "industry": "d2c",
+    "city": "India",
+    "country": "India",
+    "discovery_text": "Raised Rs 30 Cr (Jul 2026) led by Fireside Ventures. D2C brand in promotion/marketing space."
+  },
+  {
+    "company_name": "Sotrue",
+    "domain": "sotrue.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Achieved Rs 100 Cr ARR (Jul 2026). D2C beauty brand with digital-first growth strategy.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "growth_signals": [
+      "Rs 100 Cr ARR achieved",
+      "Digital-first growth"
+    ],
+    "growth_signal_sources": [
+      "https://www.indianretailer.com/news/d2c-beauty-brand-sotrue-achieves-rs-100-cr-arr-with-digital-first-growth"
+    ],
+    "buying_signals": [
+      "Rs 100 Cr ARR milestone"
+    ],
+    "buying_signal_sources": [
+      "https://www.indianretailer.com/news/d2c-beauty-brand-sotrue-achieves-rs-100-cr-arr-with-digital-first-growth"
+    ],
+    "technology_signals": [],
+    "industry": "beauty",
+    "city": "India",
+    "country": "India",
+    "discovery_text": "Achieved Rs 100 Cr ARR (Jul 2026). D2C beauty brand with digital-first growth strategy."
+  },
+  {
+    "company_name": "DrinkPrime",
+    "domain": "drinkprime.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised $18M (Apr 2026). Water purification subscription startup. IoT-enabled water purifiers on subscription model.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "growth_signals": [
+      "Raised $18M",
+      "Subscription model growth",
+      "IoT-enabled purifiers"
+    ],
+    "growth_signal_sources": [
+      "https://startupory.com/article/d2c-brands-funding-april-2026-mamaearth-boat-mcaffeine"
+    ],
+    "buying_signals": [
+      "$18M funding (Apr 2026)",
+      "Subscription expansion"
+    ],
+    "buying_signal_sources": [
+      "https://startupory.com/article/d2c-brands-funding-april-2026-mamaearth-boat-mcaffeine"
+    ],
+    "technology_signals": [
+      "IoT-enabled water purifiers"
+    ],
+    "industry": "water_purification",
+    "city": "India",
+    "country": "India",
+    "discovery_text": "Raised $18M (Apr 2026). Water purification subscription startup. IoT-enabled water purifiers on subscription model."
+  },
+  {
+    "company_name": "Supply6",
+    "domain": "supply6.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised $1.1M Seed (2025) led by ZeroPearl VC. Daily nutrition brand with 200K+ customers, 45% repeat purchase rate.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "early",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "growth_signals": [
+      "200K+ customers",
+      "45% repeat purchase rate",
+      "Seed funding"
+    ],
+    "growth_signal_sources": [
+      "https://www.medboundtimes.com/diet-and-nutrition/d2c-healthcare-nutrition-startups-india-2026"
+    ],
+    "buying_signals": [
+      "Seed funding (2025)",
+      "Customer base growth"
+    ],
+    "buying_signal_sources": [
+      "https://www.medboundtimes.com/diet-and-nutrition/d2c-healthcare-nutrition-startups-india-2026"
+    ],
+    "technology_signals": [],
+    "industry": "nutrition",
+    "city": "India",
+    "country": "India",
+    "discovery_text": "Raised $1.1M Seed (2025) led by ZeroPearl VC. Daily nutrition brand with 200K+ customers, 45% repeat purchase rate."
+  },
+  {
+    "company_name": "TruNativ",
+    "domain": "trunativ.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Clean-label functional nutrition brand. Everyday nutrition including protein, fiber, collagen. Growing market presence.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "growth_signals": [
+      "Clean-label positioning",
+      "Growing product portfolio"
+    ],
+    "growth_signal_sources": [
+      "https://www.medboundtimes.com/diet-and-nutrition/d2c-healthcare-nutrition-startups-india-2026"
+    ],
+    "buying_signals": [],
+    "buying_signal_sources": [],
+    "technology_signals": [],
+    "industry": "nutrition",
+    "city": "India",
+    "country": "India",
+    "discovery_text": "Clean-label functional nutrition brand. Everyday nutrition including protein, fiber, collagen. Growing market presence."
+  },
+  {
+    "company_name": "Cookie Cartel",
+    "domain": "cookiecartel.in",
+    "source": "funding_announcements",
+    "discovery_reason": "D2C dessert brand, raised funding on Shark Tank India (2026). Gurugram-based, expanding into more markets.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "early",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "growth_signals": [
+      "Shark Tank funded",
+      "Market expansion"
+    ],
+    "growth_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-d2c-dessert-brand-cookie-cartel-raises-funding-shark-tank-india"
+    ],
+    "buying_signals": [
+      "Shark Tank funding",
+      "Expanding to more markets"
+    ],
+    "buying_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-d2c-dessert-brand-cookie-cartel-raises-funding-shark-tank-india"
+    ],
+    "technology_signals": [],
+    "industry": "food_dessert",
+    "city": "Gurugram",
+    "country": "India",
+    "discovery_text": "D2C dessert brand, raised funding on Shark Tank India (2026). Gurugram-based, expanding into more markets."
+  },
+  {
+    "company_name": "Khoya",
+    "domain": "khoya.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Secured strategic investment from Atelier Expressions (Jul 2026). Premium Indian sweets brand, D2C website + retail stores in Delhi.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "Sid Mathur",
+    "founder_role": "Founder",
+    "founder_source": "indianretailer.com",
+    "founder_confidence": 0.85,
+    "growth_signals": [
+      "Strategic investment",
+      "Premium positioning",
+      "D2C + offline retail"
+    ],
+    "growth_signal_sources": [
+      "https://www.indianretailer.com/news/premium-d2c-brand-khoya-secures-strategic-investment-atelier-expressions"
+    ],
+    "buying_signals": [
+      "Strategic investment (Jul 2026)",
+      "Expanding across India"
+    ],
+    "buying_signal_sources": [
+      "https://www.indianretailer.com/news/premium-d2c-brand-khoya-secures-strategic-investment-atelier-expressions"
+    ],
+    "technology_signals": [],
+    "industry": "food_sweets",
+    "city": "Delhi",
+    "country": "India",
+    "discovery_text": "Secured strategic investment from Atelier Expressions (Jul 2026). Premium Indian sweets brand, D2C website + retail stores in Delhi."
+  },
+  {
+    "company_name": "The Sweet Change",
+    "domain": "thesweetchange.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Natural sugar alternatives brand, 70% revenue from D2C channel. Monk fruit-based formulations. Growing D2C-first business.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "growth_signals": [
+      "70% revenue from D2C",
+      "Growing D2C-first model",
+      "Product differentiation"
+    ],
+    "growth_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-hyperlocal-staples-startup-anmasa-secures-rs-30-cr-fuel-expansion"
+    ],
+    "buying_signals": [
+      "D2C growth",
+      "Product expansion"
+    ],
+    "buying_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-hyperlocal-staples-startup-anmasa-secures-rs-30-cr-fuel-expansion"
+    ],
+    "technology_signals": [],
+    "industry": "food_health",
+    "city": "India",
+    "country": "India",
+    "discovery_text": "Natural sugar alternatives brand, 70% revenue from D2C channel. Monk fruit-based formulations. Growing D2C-first business."
+  },
+  {
+    "company_name": "WishCare",
+    "domain": "wishcare.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 20 Cr (2023) led by Unilever Ventures. Skincare brand with accelerating revenue. Institutional backing from Unilever.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "growth_signals": [
+      "Unilever Ventures backed",
+      "Revenue acceleration"
+    ],
+    "growth_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-hyperlocal-staples-startup-anmasa-secures-rs-30-cr-fuel-expansion"
+    ],
+    "buying_signals": [
+      "Institutional backing",
+      "Revenue growth"
+    ],
+    "buying_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-hyperlocal-staples-startup-anmasa-secures-rs-30-cr-fuel-expansion"
+    ],
+    "technology_signals": [],
+    "industry": "skincare",
+    "city": "Mumbai",
+    "country": "India",
+    "discovery_text": "Raised Rs 20 Cr (2023) led by Unilever Ventures. Skincare brand with accelerating revenue. Institutional backing from Unilever."
+  },
+  {
+    "company_name": "Age Care Labs",
+    "domain": "agecarelabs.com",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 85 Cr Series B1 (Jul 2026) led by Rainmatter. Elder care startup operating Emoha and Epoch Elder Care brands. Building tech platform.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "growth_signals": [
+      "Raised Rs 85 Cr Series B1",
+      "Two brand portfolio",
+      "Tech platform development",
+      "Expansion planned"
+    ],
+    "growth_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-age-care-labs-raises-rs-85-cr-forms-joint-venture-shrem-group"
+    ],
+    "buying_signals": [
+      "Series B1 funding (Jul 2026)",
+      "Larger Rs 250 Cr round planned",
+      "Technology platform"
+    ],
+    "buying_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-age-care-labs-raises-rs-85-cr-forms-joint-venture-shrem-group"
+    ],
+    "technology_signals": [
+      "App-based elder care",
+      "Technology platform"
+    ],
+    "industry": "elder_care",
+    "city": "Gurugram",
+    "country": "India",
+    "discovery_text": "Raised Rs 85 Cr Series B1 (Jul 2026) led by Rainmatter. Elder care startup operating Emoha and Epoch Elder Care brands. Building tech platform."
+  },
+  {
+    "company_name": "PlayBlue",
+    "domain": "playblue.in",
+    "source": "funding_announcements",
+    "discovery_reason": "D2C brand targeting Rs 100 Cr revenue, focusing on operational profitability before next funding round.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "growth_signals": [
+      "Targeting Rs 100 Cr revenue",
+      "Profitability focus"
+    ],
+    "growth_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-hyperlocal-staples-startup-anmasa-secures-rs-30-cr-fuel-expansion"
+    ],
+    "buying_signals": [
+      "Revenue scaling",
+      "Pre-profitability optimization"
+    ],
+    "buying_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-hyperlocal-staples-startup-anmasa-secures-rs-30-cr-fuel-expansion"
+    ],
+    "technology_signals": [],
+    "industry": "sports",
+    "city": "India",
+    "country": "India",
+    "discovery_text": "D2C brand targeting Rs 100 Cr revenue, focusing on operational profitability before next funding round."
+  },
+  {
+    "company_name": "Econovus Packaging",
+    "domain": "econovus.com",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 40 Cr Pre-Series A (Jul 2026) led by Rainmatter (Zerodha). Sustainable packaging company for D2C brands.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "growth_signals": [
+      "Raised Rs 40 Cr Pre-Series A",
+      "Sustainable packaging focus",
+      "Rainmatter backed"
+    ],
+    "growth_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-econovus-packaging-raises-rs-40-cr-pre-series-round-led-rainmatter"
+    ],
+    "buying_signals": [
+      "Pre-Series A funding (Jul 2026)",
+      "D2C packaging demand"
+    ],
+    "buying_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-econovus-packaging-raises-rs-40-cr-pre-series-round-led-rainmatter"
+    ],
+    "technology_signals": [],
+    "industry": "packaging",
+    "city": "India",
+    "country": "India",
+    "discovery_text": "Raised Rs 40 Cr Pre-Series A (Jul 2026) led by Rainmatter (Zerodha). Sustainable packaging company for D2C brands."
+  },
+  {
+    "company_name": "Suminter India Organics",
+    "domain": "suminter.com",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 25 Cr (Jul 2026). Organic food ingredient sourcing company scaling operations.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "growing",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "growth_signals": [
+      "Raised Rs 25 Cr",
+      "Organic ingredient sourcing"
+    ],
+    "growth_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-suminter-india-organics-secures-rs-25-cr-to-scale-organic-food-ingredient-sourcing"
+    ],
+    "buying_signals": [
+      "Funding (Jul 2026)",
+      "Scaling operations"
+    ],
+    "buying_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-suminter-india-organics-secures-rs-25-cr-to-scale-organic-food-ingredient-sourcing"
+    ],
+    "technology_signals": [],
+    "industry": "food_organic",
+    "city": "India",
+    "country": "India",
+    "discovery_text": "Raised Rs 25 Cr (Jul 2026). Organic food ingredient sourcing company scaling operations."
+  },
+  {
+    "company_name": "Neothera",
+    "domain": "neothera.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 9 Cr Pre-Seed (Jul 2026). Skin health startup, very early stage with institutional backing.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "early",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "",
+    "founder_role": "",
+    "founder_source": "",
+    "founder_confidence": 0.0,
+    "growth_signals": [
+      "Raised Rs 9 Cr Pre-Seed",
+      "Institutional backing"
+    ],
+    "growth_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-skin-health-startup-neothera-secures-rs-9-cr-pre-seed-investment"
+    ],
+    "buying_signals": [
+      "Pre-Seed funding (Jul 2026)"
+    ],
+    "buying_signal_sources": [
+      "https://www.indianretailer.com/news/funding-alert-skin-health-startup-neothera-secures-rs-9-cr-pre-seed-investment"
+    ],
+    "technology_signals": [],
+    "industry": "skincare",
+    "city": "India",
+    "country": "India",
+    "discovery_text": "Raised Rs 9 Cr Pre-Seed (Jul 2026). Skin health startup, very early stage with institutional backing."
+  },
+  {
+    "company_name": "Grabox",
+    "domain": "grabox.in",
+    "source": "funding_announcements",
+    "discovery_reason": "Raised Rs 40 Cr (Mar 2026) from 8i Ventures, Titan Capital Winners Fund. Data-driven sampling platform. Founded Oct 2023, Bangalore.",
+    "discovery_date": "2026-08-08",
+    "business_stage": "early",
+    "employee_count": null,
+    "employee_source": "",
+    "employee_confidence": 0.0,
+    "founder_name": "Dhruv",
+    "founder_role": "Founder",
+    "founder_source": "foundersday.co",
+    "founder_confidence": 0.8,
+    "growth_signals": [
+      "Raised Rs 40 Cr",
+      "Data-driven sampling platform",
+      "Founded Oct 2023"
+    ],
+    "growth_signal_sources": [
+      "https://foundersday.co/india-startup-funding-for-series-a-deals/india-d2c-startups-series-a"
+    ],
+    "buying_signals": [
+      "Series A funding (Mar 2026)",
+      "Building sampling platform"
+    ],
+    "buying_signal_sources": [
+      "https://foundersday.co/india-startup-funding-for-series-a-deals/india-d2c-startups-series-a"
+    ],
+    "technology_signals": [
+      "Data-driven platform"
+    ],
+    "industry": "ecommerce_enabler",
+    "city": "Bengaluru",
+    "country": "India",
+    "discovery_text": "Raised Rs 40 Cr (Mar 2026) from 8i Ventures, Titan Capital Winners Fund. Data-driven sampling platform. Founded Oct 2023, Bangalore."
+  }
+]

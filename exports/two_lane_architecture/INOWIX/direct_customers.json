@@ -1,0 +1,637 @@
+[
+  {
+    "id": "666511be-3249-43e5-b888-f504ce8dac2d",
+    "company": "TaskFlow AI",
+    "domain": "taskflowai.com",
+    "classification": "ACTIVE_BUYING_EVENT",
+    "business_type": "DIRECT_CUSTOMER",
+    "problem": "Needs MVP built",
+    "why_now": "Actively seeking a development partner",
+    "solution": "INOWIX -- SaaS + Custom Software Development",
+    "outreach_reason": "TaskFlow AI has an explicit development requirement. They are actively looking for a technical partner.",
+    "contact": {
+      "email": null,
+      "author": "founder_john",
+      "twitter": null,
+      "linkedin": null
+    },
+    "evidence": [
+      {
+        "type": "content",
+        "value": "I'm a non-technical founder with a validated SaaS idea and 100+ waitlist signups. Need to build MVP in 8 weeks. Looking for a development agency or technical co-founder. Budget: $15K. Any recommendations?",
+        "source": "reddit"
+      },
+      {
+        "type": "buying_signal",
+        "signal": "need_mvp_built",
+        "confidence": 0.8,
+        "description": "Needs MVP built"
+      },
+      {
+        "type": "partner_signal",
+        "services": [
+          "software_agency"
+        ],
+        "confidence": 0.7
+      }
+    ],
+    "freshness": "CURRENT",
+    "days_old": 0,
+    "contact_type": "UNKNOWN",
+    "is_high_contactability": false,
+    "source_url": "https://reddit.com/r/startups/test4",
+    "source": "reddit",
+    "published_at": "2026-08-10T20:25:36.638396+00:00",
+    "pain_signals": [],
+    "buying_signals": [
+      {
+        "type": "need_mvp_built",
+        "description": "Needs MVP built"
+      }
+    ],
+    "partner_signals": [
+      {
+        "type": "agency_partner",
+        "services": [
+          "software_agency"
+        ]
+      }
+    ],
+    "icp_score": 1.0,
+    "outreach_preparation": {
+      "company": "TaskFlow AI",
+      "contact": "N/A",
+      "problem": "Needs MVP built",
+      "why_now": "Actively seeking a development partner",
+      "evidence": [
+        {
+          "type": "content",
+          "value": "I'm a non-technical founder with a validated SaaS idea and 100+ waitlist signups. Need to build MVP in 8 weeks. Looking for a development agency or technical co-founder. Budget: $15K. Any recommendations?",
+          "source": "reddit"
+        },
+        {
+          "type": "buying_signal",
+          "signal": "need_mvp_built",
+          "confidence": 0.8,
+          "description": "Needs MVP built"
+        },
+        {
+          "type": "partner_signal",
+          "services": [
+            "software_agency"
+          ],
+          "confidence": 0.7
+        }
+      ],
+      "solution": "INOWIX -- SaaS + Custom Software Development",
+      "why_comai": null,
+      "buyer_name": "founder_john",
+      "buyer_role": "founder",
+      "why_inowix": "INOWIX can help TaskFlow AI ship their technical projects faster with our experienced development team.",
+      "business_type": "UNKNOWN",
+      "outreach_angle": "active_buyer",
+      "opportunity_type": "ACTIVE_BUYING_EVENT",
+      "outreach_message": {
+        "email": {
+          "body": "Hi founder_john,\n\nI noticed you're looking for Needs MVP built.\n\nBased on what I've seen, Needs MVP built is a challenge you're facing.\n\nWe help startups and growing businesses ship software faster. Our team has built MVPs, SaaS platforms, and mobile apps for companies at every stage.\n\nWould you be open to a quick 15-minute call to discuss how we can help?\n\nBest,\nVansh Jhamb\nFounder\nInowix Technologies\nvansh@inowix.in\nhttps://www.inowix.in/",
+          "style": "founder_to_founder",
+          "channel": "email",
+          "subject": "Helping TaskFlow AI with Needs MVP built",
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "I'm a non-technical founder with a validated SaaS idea and 100+ waitlist signups. Need to build MVP in 8 weeks. Looking for a development agency or technical co-founder. Budget: $15K. Any recommendations?",
+              "source": "reddit"
+            },
+            {
+              "type": "buying_signal",
+              "signal": "need_mvp_built",
+              "confidence": 0.8,
+              "description": "Needs MVP built"
+            },
+            {
+              "type": "partner_signal",
+              "services": [
+                "software_agency"
+              ],
+              "confidence": 0.7
+            }
+          ],
+          "quality_scores": {
+            "readability": 0.9,
+            "personalization": 0.8,
+            "evidence_coverage": 0.7,
+            "professional_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: TaskFlow AI",
+            "Problem: Needs MVP built",
+            "Signal: Needs MVP built"
+          ]
+        },
+        "linkedin": {
+          "body": "Hi founder_john,\n\nSaw you're looking for help with Needs MVP built.\n\nWould love to connect and learn more about what you're building at TaskFlow AI.\n\nBest,\nVansh",
+          "style": "founder_to_founder",
+          "channel": "linkedin",
+          "subject": null,
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "I'm a non-technical founder with a validated SaaS idea and 100+ waitlist signups. Need to build MVP in 8 weeks. Looking for a development agency or technical co-founder. Budget: $15K. Any recommendations?",
+              "source": "reddit"
+            },
+            {
+              "type": "buying_signal",
+              "signal": "need_mvp_built",
+              "confidence": 0.8,
+              "description": "Needs MVP built"
+            }
+          ],
+          "quality_scores": {
+            "brevity": 0.9,
+            "personalization": 0.7,
+            "professional_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: TaskFlow AI",
+            "Problem: Needs MVP built",
+            "Signal: Needs MVP built"
+          ]
+        },
+        "whatsapp": {
+          "body": "Hi founder_john, I noticed Needs MVP built. We help businesses like TaskFlow AI with INOWIX -- SaaS + Custom Software Development. Would love to chat! - Vansh, Inowix",
+          "style": "founder_to_founder",
+          "channel": "whatsapp",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "brevity": 0.9,
+            "casual_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: TaskFlow AI",
+            "Problem: Needs MVP built"
+          ]
+        },
+        "reddit_dm": {
+          "body": "Hey founder_john,\n\nSaw your post about Needs MVP built. I've helped similar companies with INOWIX -- SaaS + Custom Software Development.\n\nHappy to share some insights if you're interested. No pitch, just useful info.\n\nBest,\nVansh",
+          "style": "founder_to_founder",
+          "channel": "reddit_dm",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "non_salesy": 0.9,
+            "helpful_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: TaskFlow AI",
+            "Problem: Needs MVP built"
+          ]
+        }
+      },
+      "follow_up_sequence": [
+        {
+          "day": "0",
+          "body": "Initial outreach to TaskFlow AI",
+          "channel": "email"
+        },
+        {
+          "day": "2",
+          "body": "Follow-up: Any thoughts on my previous email about Needs MVP built?",
+          "channel": "email"
+        },
+        {
+          "day": "5",
+          "body": "LinkedIn connection request with note about TaskFlow AI",
+          "channel": "linkedin"
+        },
+        {
+          "day": "7",
+          "body": "Final follow-up: Happy to chat whenever works for you.",
+          "channel": "email"
+        }
+      ],
+      "recommended_channel": "email",
+      "personalization_points": [
+        "Company: TaskFlow AI",
+        "Problem: Needs MVP built",
+        "Signal: Needs MVP built"
+      ]
+    },
+    "cto_test": false
+  },
+  {
+    "id": "e14c0379-3cda-48a6-aefb-27d720c55d69",
+    "company": "DataPulse",
+    "domain": "datapulse.io",
+    "classification": "ACTIVE_BUYING_EVENT",
+    "business_type": "DIRECT_CUSTOMER",
+    "problem": "Existing team overloaded",
+    "why_now": "Actively seeking a development partner",
+    "solution": "INOWIX -- SaaS + Custom Software Development",
+    "outreach_reason": "DataPulse has an explicit development requirement. They are actively looking for a technical partner.",
+    "contact": {
+      "email": null,
+      "author": "cto_saaS",
+      "twitter": null,
+      "linkedin": null
+    },
+    "evidence": [
+      {
+        "type": "content",
+        "value": "We're a Series A SaaS company and our 3-person engineering team is completely overloaded. We need to ship 3 features by Q4 but can't hire fast enough. Looking for a reliable development agency for white-label work.",
+        "source": "hacker_news"
+      },
+      {
+        "type": "buying_signal",
+        "signal": "team_overloaded",
+        "confidence": 0.8,
+        "description": "Existing team overloaded"
+      },
+      {
+        "type": "partner_signal",
+        "services": [
+          "software_agency"
+        ],
+        "confidence": 0.7
+      }
+    ],
+    "freshness": "CURRENT",
+    "days_old": 0,
+    "contact_type": "UNKNOWN",
+    "is_high_contactability": false,
+    "source_url": "https://news.ycombinator.com/item?id=test5",
+    "source": "hacker_news",
+    "published_at": "2026-08-10T20:25:36.638396+00:00",
+    "pain_signals": [],
+    "buying_signals": [
+      {
+        "type": "team_overloaded",
+        "description": "Existing team overloaded"
+      }
+    ],
+    "partner_signals": [
+      {
+        "type": "agency_partner",
+        "services": [
+          "software_agency"
+        ]
+      }
+    ],
+    "icp_score": 0.8500000000000001,
+    "outreach_preparation": {
+      "company": "DataPulse",
+      "contact": "N/A",
+      "problem": "Existing team overloaded",
+      "why_now": "Actively seeking a development partner",
+      "evidence": [
+        {
+          "type": "content",
+          "value": "We're a Series A SaaS company and our 3-person engineering team is completely overloaded. We need to ship 3 features by Q4 but can't hire fast enough. Looking for a reliable development agency for white-label work.",
+          "source": "hacker_news"
+        },
+        {
+          "type": "buying_signal",
+          "signal": "team_overloaded",
+          "confidence": 0.8,
+          "description": "Existing team overloaded"
+        },
+        {
+          "type": "partner_signal",
+          "services": [
+            "software_agency"
+          ],
+          "confidence": 0.7
+        }
+      ],
+      "solution": "INOWIX -- SaaS + Custom Software Development",
+      "why_comai": null,
+      "buyer_name": "cto_saaS",
+      "buyer_role": "cto",
+      "why_inowix": "INOWIX can help DataPulse ship their technical projects faster with our experienced development team.",
+      "business_type": "UNKNOWN",
+      "outreach_angle": "active_buyer",
+      "opportunity_type": "ACTIVE_BUYING_EVENT",
+      "outreach_message": {
+        "email": {
+          "body": "Hi cto_saaS,\n\nI noticed you're looking for Existing team overloaded.\n\nBased on what I've seen, Existing team overloaded is a challenge you're facing.\n\nWe help startups and growing businesses ship software faster. Our team has built MVPs, SaaS platforms, and mobile apps for companies at every stage.\n\nWould you be open to a quick 15-minute call to discuss how we can help?\n\nBest,\nVansh Jhamb\nFounder\nInowix Technologies\nvansh@inowix.in\nhttps://www.inowix.in/",
+          "style": "technical",
+          "channel": "email",
+          "subject": "Helping DataPulse with Existing team overloaded",
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "We're a Series A SaaS company and our 3-person engineering team is completely overloaded. We need to ship 3 features by Q4 but can't hire fast enough. Looking for a reliable development agency for white-label work.",
+              "source": "hacker_news"
+            },
+            {
+              "type": "buying_signal",
+              "signal": "team_overloaded",
+              "confidence": 0.8,
+              "description": "Existing team overloaded"
+            },
+            {
+              "type": "partner_signal",
+              "services": [
+                "software_agency"
+              ],
+              "confidence": 0.7
+            }
+          ],
+          "quality_scores": {
+            "readability": 0.9,
+            "personalization": 0.8,
+            "evidence_coverage": 0.7,
+            "professional_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: DataPulse",
+            "Problem: Existing team overloaded",
+            "Signal: Existing team overloaded"
+          ]
+        },
+        "linkedin": {
+          "body": "Hi cto_saaS,\n\nSaw you're looking for help with Existing team overloaded.\n\nWould love to connect and learn more about what you're building at DataPulse.\n\nBest,\nVansh",
+          "style": "technical",
+          "channel": "linkedin",
+          "subject": null,
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "We're a Series A SaaS company and our 3-person engineering team is completely overloaded. We need to ship 3 features by Q4 but can't hire fast enough. Looking for a reliable development agency for white-label work.",
+              "source": "hacker_news"
+            },
+            {
+              "type": "buying_signal",
+              "signal": "team_overloaded",
+              "confidence": 0.8,
+              "description": "Existing team overloaded"
+            }
+          ],
+          "quality_scores": {
+            "brevity": 0.9,
+            "personalization": 0.7,
+            "professional_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: DataPulse",
+            "Problem: Existing team overloaded",
+            "Signal: Existing team overloaded"
+          ]
+        },
+        "whatsapp": {
+          "body": "Hi cto_saaS, I noticed Existing team overloaded. We help businesses like DataPulse with INOWIX -- SaaS + Custom Software Development. Would love to chat! - Vansh, Inowix",
+          "style": "technical",
+          "channel": "whatsapp",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "brevity": 0.9,
+            "casual_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: DataPulse",
+            "Problem: Existing team overloaded"
+          ]
+        },
+        "reddit_dm": {
+          "body": "Hey cto_saaS,\n\nSaw your post about Existing team overloaded. I've helped similar companies with INOWIX -- SaaS + Custom Software Development.\n\nHappy to share some insights if you're interested. No pitch, just useful info.\n\nBest,\nVansh",
+          "style": "technical",
+          "channel": "reddit_dm",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "non_salesy": 0.9,
+            "helpful_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: DataPulse",
+            "Problem: Existing team overloaded"
+          ]
+        }
+      },
+      "follow_up_sequence": [
+        {
+          "day": "0",
+          "body": "Initial outreach to DataPulse",
+          "channel": "email"
+        },
+        {
+          "day": "2",
+          "body": "Follow-up: Any thoughts on my previous email about Existing team overloaded?",
+          "channel": "email"
+        },
+        {
+          "day": "5",
+          "body": "LinkedIn connection request with note about DataPulse",
+          "channel": "linkedin"
+        },
+        {
+          "day": "7",
+          "body": "Final follow-up: Happy to chat whenever works for you.",
+          "channel": "email"
+        }
+      ],
+      "recommended_channel": "email",
+      "personalization_points": [
+        "Company: DataPulse",
+        "Problem: Existing team overloaded",
+        "Signal: Existing team overloaded"
+      ]
+    },
+    "cto_test": false
+  },
+  {
+    "id": "68421e35-9503-4b98-a0fc-5d999626943e",
+    "company": "FitTrack Pro",
+    "domain": "fittrackpro.com",
+    "classification": "ACTIVE_BUYING_EVENT",
+    "business_type": "DIRECT_CUSTOMER",
+    "problem": "Project delayed due to technical limitations",
+    "why_now": "Actively seeking a development partner",
+    "solution": "INOWIX -- SaaS + Custom Software Development",
+    "outreach_reason": "FitTrack Pro has an explicit development requirement. They are actively looking for a technical partner.",
+    "contact": {
+      "email": null,
+      "author": "product_manager",
+      "twitter": null,
+      "linkedin": null
+    },
+    "evidence": [
+      {
+        "type": "content",
+        "value": "We hired a freelancer to build our React Native app but they've been delaying for 3 months. Project is stuck. Need a professional agency to take over and deliver in 6 weeks. Anyone available?",
+        "source": "reddit"
+      },
+      {
+        "type": "buying_signal",
+        "signal": "project_delayed",
+        "confidence": 0.8,
+        "description": "Project delayed due to technical limitations"
+      }
+    ],
+    "freshness": "CURRENT",
+    "days_old": 0,
+    "contact_type": "UNKNOWN",
+    "is_high_contactability": false,
+    "source_url": "https://reddit.com/r/reactnative/test6",
+    "source": "reddit",
+    "published_at": "2026-08-10T20:25:36.638396+00:00",
+    "pain_signals": [],
+    "buying_signals": [
+      {
+        "type": "project_delayed",
+        "description": "Project delayed due to technical limitations"
+      }
+    ],
+    "partner_signals": [],
+    "icp_score": 0.7,
+    "outreach_preparation": {
+      "company": "FitTrack Pro",
+      "contact": "N/A",
+      "problem": "Project delayed due to technical limitations",
+      "why_now": "Actively seeking a development partner",
+      "evidence": [
+        {
+          "type": "content",
+          "value": "We hired a freelancer to build our React Native app but they've been delaying for 3 months. Project is stuck. Need a professional agency to take over and deliver in 6 weeks. Anyone available?",
+          "source": "reddit"
+        },
+        {
+          "type": "buying_signal",
+          "signal": "project_delayed",
+          "confidence": 0.8,
+          "description": "Project delayed due to technical limitations"
+        }
+      ],
+      "solution": "INOWIX -- SaaS + Custom Software Development",
+      "why_comai": null,
+      "buyer_name": "product_manager",
+      "buyer_role": "manager",
+      "why_inowix": "INOWIX can help FitTrack Pro ship their technical projects faster with our experienced development team.",
+      "business_type": "UNKNOWN",
+      "outreach_angle": "active_buyer",
+      "opportunity_type": "ACTIVE_BUYING_EVENT",
+      "outreach_message": {
+        "email": {
+          "body": "Hi product_manager,\n\nI noticed you're looking for Project delayed due to technical limitations.\n\nBased on what I've seen, Project delayed due to technical limitations is a challenge you're facing.\n\nWe help startups and growing businesses ship software faster. Our team has built MVPs, SaaS platforms, and mobile apps for companies at every stage.\n\nWould you be open to a quick 15-minute call to discuss how we can help?\n\nBest,\nVansh Jhamb\nFounder\nInowix Technologies\nvansh@inowix.in\nhttps://www.inowix.in/",
+          "style": "professional",
+          "channel": "email",
+          "subject": "Helping FitTrack Pro with Project delayed due to technical limitations",
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "We hired a freelancer to build our React Native app but they've been delaying for 3 months. Project is stuck. Need a professional agency to take over and deliver in 6 weeks. Anyone available?",
+              "source": "reddit"
+            },
+            {
+              "type": "buying_signal",
+              "signal": "project_delayed",
+              "confidence": 0.8,
+              "description": "Project delayed due to technical limitations"
+            }
+          ],
+          "quality_scores": {
+            "readability": 0.9,
+            "personalization": 0.8,
+            "evidence_coverage": 0.7,
+            "professional_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: FitTrack Pro",
+            "Problem: Project delayed due to technical limitations",
+            "Signal: Project delayed due to technical limitations"
+          ]
+        },
+        "linkedin": {
+          "body": "Hi product_manager,\n\nSaw you're looking for help with Project delayed due to technical limitations.\n\nWould love to connect and learn more about what you're building at FitTrack Pro.\n\nBest,\nVansh",
+          "style": "professional",
+          "channel": "linkedin",
+          "subject": null,
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "We hired a freelancer to build our React Native app but they've been delaying for 3 months. Project is stuck. Need a professional agency to take over and deliver in 6 weeks. Anyone available?",
+              "source": "reddit"
+            },
+            {
+              "type": "buying_signal",
+              "signal": "project_delayed",
+              "confidence": 0.8,
+              "description": "Project delayed due to technical limitations"
+            }
+          ],
+          "quality_scores": {
+            "brevity": 0.9,
+            "personalization": 0.7,
+            "professional_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: FitTrack Pro",
+            "Problem: Project delayed due to technical limitations",
+            "Signal: Project delayed due to technical limitations"
+          ]
+        },
+        "whatsapp": {
+          "body": "Hi product_manager, I noticed Project delayed due to technical limitations. We help businesses like FitTrack Pro with INOWIX -- SaaS + Custom Software Development. Would love to chat! - Vansh, Inowix",
+          "style": "professional",
+          "channel": "whatsapp",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "brevity": 0.9,
+            "casual_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: FitTrack Pro",
+            "Problem: Project delayed due to technical limitations"
+          ]
+        },
+        "reddit_dm": {
+          "body": "Hey product_manager,\n\nSaw your post about Project delayed due to technical limitations. I've helped similar companies with INOWIX -- SaaS + Custom Software Development.\n\nHappy to share some insights if you're interested. No pitch, just useful info.\n\nBest,\nVansh",
+          "style": "professional",
+          "channel": "reddit_dm",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "non_salesy": 0.9,
+            "helpful_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: FitTrack Pro",
+            "Problem: Project delayed due to technical limitations"
+          ]
+        }
+      },
+      "follow_up_sequence": [
+        {
+          "day": "0",
+          "body": "Initial outreach to FitTrack Pro",
+          "channel": "email"
+        },
+        {
+          "day": "2",
+          "body": "Follow-up: Any thoughts on my previous email about Project delayed due to technical limitations?",
+          "channel": "email"
+        },
+        {
+          "day": "5",
+          "body": "LinkedIn connection request with note about FitTrack Pro",
+          "channel": "linkedin"
+        },
+        {
+          "day": "7",
+          "body": "Final follow-up: Happy to chat whenever works for you.",
+          "channel": "email"
+        }
+      ],
+      "recommended_channel": "email",
+      "personalization_points": [
+        "Company: FitTrack Pro",
+        "Problem: Project delayed due to technical limitations",
+        "Signal: Project delayed due to technical limitations"
+      ]
+    },
+    "cto_test": false
+  }
+]

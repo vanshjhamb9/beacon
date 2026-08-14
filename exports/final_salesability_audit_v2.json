@@ -1,0 +1,2533 @@
+{
+  "audit_name": "Adversarial Salesability Audit V2",
+  "audit_date": "2026-08-08T19:18:45.899636",
+  "total_audited": 20,
+  "summary": {
+    "HIGH_PRIORITY": 0,
+    "QUALIFIED": 0,
+    "NEEDS_RESEARCH": 0,
+    "REJECT": 20
+  },
+  "leads": [
+    {
+      "id": "HI-008",
+      "original_title": "Finance App Developer Needed",
+      "original_classification": "HIGH_PRIORITY",
+      "original_score": 84.3,
+      "source_validation": {
+        "source_url": "https://www.reddit.com/r/AppDevelopers/comments/1thtcwj/",
+        "source_type": "EXACT_POST",
+        "source_title": "Finance App Developer Needed",
+        "source_date": "2-3 months ago",
+        "source_access_status": "PUBLICLY_ACCESSIBLE",
+        "source_evidence": "Reddit post with exact comment ID. Publicly accessible.",
+        "is_exact_post": true,
+        "is_search_page": false
+      },
+      "person_identity": {
+        "person_name": "FlyFunny8902",
+        "role": "Startup founder",
+        "company": "Finance app startup",
+        "profile_url": "https://www.reddit.com/user/FlyFunny8902",
+        "identity_confidence": "REDDIT_USERNAME"
+      },
+      "actual_requirement": {
+        "requirement_text": "REQUIRES_VERIFICATION — Finance app developer needed",
+        "required_technology": [
+          "mobile app",
+          "finance",
+          "iOS",
+          "android"
+        ],
+        "project_type": "Mobile App",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "UNKNOWN",
+        "outsourcing_language": "Explicitly seeking developer — POSSIBLE outsourcing"
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "EXPLICIT",
+        "hiring_type": "UNKNOWN",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": false
+      },
+      "service_match": {
+        "services_needed": [
+          "mobile app",
+          "finance",
+          "iOS",
+          "android"
+        ],
+        "matched_services": [
+          "Custom: mobile app",
+          "Custom: iOS",
+          "Custom: android"
+        ],
+        "service_match_score": 60,
+        "service_mismatch_reason": ""
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "EARLY",
+        "industry": "Finance",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "STALE",
+        "date_reported": "2-3 months ago"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "PUBLIC_UNVERIFIED",
+        "email": "NOT_GUESSED",
+        "email_status": "UNKNOWN",
+        "linkedin": "https://www.reddit.com/user/FlyFunny8902"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Post exists at https://www.reddit.com/r/AppDevelopers/comments/1thtcwj/",
+            "value": "Verified via websearch",
+            "source": "Reddit",
+            "source_url": "https://www.reddit.com/r/AppDevelopers/comments/1thtcwj/",
+            "confidence": "HIGH",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 88,
+        "evidence_quality": 85,
+        "icp_fit": 50,
+        "outsourcing_fit": 100,
+        "service_match": 0,
+        "contactability": 50,
+        "commercial_fit": 30,
+        "salesability_score": 20
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "STATUS: Opportunity is STALE",
+        "REQUIREMENT: No verified specific requirement"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: STATUS: Opportunity is STALE; REQUIREMENT: No verified specific requirement"
+    },
+    {
+      "id": "HI-006",
+      "original_title": "WhatsApp Chatbot for Customer Service",
+      "original_classification": "HIGH_PRIORITY",
+      "original_score": 82.2,
+      "source_validation": {
+        "source_url": "https://www.reddit.com/r/n8n/comments/1k6f7cd/",
+        "source_type": "EXACT_POST",
+        "source_title": "WhatsApp Chatbot for Customer Service",
+        "source_date": "3+ months ago",
+        "source_access_status": "PUBLICLY_ACCESSIBLE",
+        "source_evidence": "Reddit post with exact comment ID. Publicly accessible.",
+        "is_exact_post": true,
+        "is_search_page": false
+      },
+      "person_identity": {
+        "person_name": "GENERICO_____",
+        "role": "n8n user",
+        "company": "UNKNOWN",
+        "profile_url": "https://www.reddit.com/user/GENERICO_____",
+        "identity_confidence": "REDDIT_USERNAME"
+      },
+      "actual_requirement": {
+        "requirement_text": "REQUIRES_VERIFICATION — WhatsApp chatbot for customer service using n8n",
+        "required_technology": [
+          "WhatsApp",
+          "chatbot",
+          "n8n"
+        ],
+        "project_type": "Automation",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "UNKNOWN",
+        "outsourcing_language": "Needs help building — POSSIBLE outsourcing"
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "EXPLICIT",
+        "hiring_type": "UNKNOWN",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": false
+      },
+      "service_match": {
+        "services_needed": [
+          "WhatsApp",
+          "chatbot",
+          "customer support",
+          "n8n"
+        ],
+        "matched_services": [
+          "COMAI: WhatsApp",
+          "COMAI: chatbot",
+          "COMAI: customer support"
+        ],
+        "service_match_score": 60,
+        "service_mismatch_reason": ""
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "EARLY",
+        "industry": "Customer Service",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "STALE",
+        "date_reported": "3+ months ago"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "PUBLIC_UNVERIFIED",
+        "email": "NOT_GUESSED",
+        "email_status": "UNKNOWN",
+        "linkedin": "https://www.reddit.com/user/GENERICO_____"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Post exists at https://www.reddit.com/r/n8n/comments/1k6f7cd/",
+            "value": "Verified via websearch",
+            "source": "Reddit",
+            "source_url": "https://www.reddit.com/r/n8n/comments/1k6f7cd/",
+            "confidence": "HIGH",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 85,
+        "evidence_quality": 80,
+        "icp_fit": 50,
+        "outsourcing_fit": 100,
+        "service_match": 0,
+        "contactability": 50,
+        "commercial_fit": 30,
+        "salesability_score": 20
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "STATUS: Opportunity is STALE",
+        "REQUIREMENT: No verified specific requirement"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: STATUS: Opportunity is STALE; REQUIREMENT: No verified specific requirement"
+    },
+    {
+      "id": "HI-007",
+      "original_title": "First-Time Builder, WhatsApp API Banned",
+      "original_classification": "QUALIFIED",
+      "original_score": 77.8,
+      "source_validation": {
+        "source_url": "https://www.reddit.com/r/WhatsappBusinessAPI/comments/1ukimj2/",
+        "source_type": "EXACT_POST",
+        "source_title": "First-Time Builder, WhatsApp API Banned",
+        "source_date": "2-3 months ago",
+        "source_access_status": "PUBLICLY_ACCESSIBLE",
+        "source_evidence": "Reddit post with exact comment ID. Publicly accessible.",
+        "is_exact_post": true,
+        "is_search_page": false
+      },
+      "person_identity": {
+        "person_name": "Fair-Resort8854",
+        "role": "First-time builder",
+        "company": "UNKNOWN",
+        "profile_url": "https://www.reddit.com/user/Fair-Resort8854",
+        "identity_confidence": "REDDIT_USERNAME"
+      },
+      "actual_requirement": {
+        "requirement_text": "REQUIRES_VERIFICATION — First-time builder, WhatsApp API got banned",
+        "required_technology": [
+          "WhatsApp",
+          "API integration"
+        ],
+        "project_type": "WhatsApp Business",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "HIGH",
+        "outsourcing_language": "Needs help — POSSIBLE outsourcing"
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "STRONG",
+        "hiring_type": "UNKNOWN",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": false
+      },
+      "service_match": {
+        "services_needed": [
+          "WhatsApp",
+          "chatbot",
+          "API integration"
+        ],
+        "matched_services": [
+          "COMAI: WhatsApp",
+          "COMAI: chatbot",
+          "SaaS Dev: API integration"
+        ],
+        "service_match_score": 60,
+        "service_mismatch_reason": ""
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "EARLY",
+        "industry": "WhatsApp Business",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "STALE",
+        "date_reported": "2-3 months ago"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "PUBLIC_UNVERIFIED",
+        "email": "NOT_GUESSED",
+        "email_status": "UNKNOWN",
+        "linkedin": "https://www.reddit.com/user/Fair-Resort8854"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Post exists at https://www.reddit.com/r/WhatsappBusinessAPI/comments/1ukimj2/",
+            "value": "Verified via websearch",
+            "source": "Reddit",
+            "source_url": "https://www.reddit.com/r/WhatsappBusinessAPI/comments/1ukimj2/",
+            "confidence": "HIGH",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 82,
+        "evidence_quality": 78,
+        "icp_fit": 50,
+        "outsourcing_fit": 50,
+        "service_match": 0,
+        "contactability": 50,
+        "commercial_fit": 30,
+        "salesability_score": 20
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "STATUS: Opportunity is STALE",
+        "REQUIREMENT: No verified specific requirement"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: STATUS: Opportunity is STALE; REQUIREMENT: No verified specific requirement"
+    },
+    {
+      "id": "HI-011",
+      "original_title": "Healthcare SaaS Bootstrapping",
+      "original_classification": "QUALIFIED",
+      "original_score": 77.2,
+      "source_validation": {
+        "source_url": "https://www.reddit.com/r/startups/comments/1tzxh1l/",
+        "source_type": "EXACT_POST",
+        "source_title": "Healthcare SaaS Bootstrapping",
+        "source_date": "2-3 months ago",
+        "source_access_status": "PUBLICLY_ACCESSIBLE",
+        "source_evidence": "Reddit post with exact comment ID. Publicly accessible.",
+        "is_exact_post": true,
+        "is_search_page": false
+      },
+      "person_identity": {
+        "person_name": "neb2357",
+        "role": "Healthcare SaaS founder",
+        "company": "Healthcare SaaS",
+        "profile_url": "https://www.reddit.com/user/neb2357",
+        "identity_confidence": "REDDIT_USERNAME"
+      },
+      "actual_requirement": {
+        "requirement_text": "REQUIRES_VERIFICATION — Healthcare SaaS bootstrapping",
+        "required_technology": [
+          "SaaS",
+          "healthcare"
+        ],
+        "project_type": "SaaS",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "UNKNOWN",
+        "outsourcing_language": "Bootstrapping — POSSIBLE outsourcing"
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "STRONG",
+        "hiring_type": "UNKNOWN",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": false
+      },
+      "service_match": {
+        "services_needed": [
+          "SaaS",
+          "healthcare",
+          "backend",
+          "API"
+        ],
+        "matched_services": [
+          "SaaS Dev: SaaS",
+          "SaaS Dev: backend",
+          "SaaS Dev: API"
+        ],
+        "service_match_score": 60,
+        "service_mismatch_reason": ""
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "EARLY",
+        "industry": "Healthcare",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "STALE",
+        "date_reported": "2-3 months ago"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "PUBLIC_UNVERIFIED",
+        "email": "NOT_GUESSED",
+        "email_status": "UNKNOWN",
+        "linkedin": "https://www.reddit.com/user/neb2357"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Post exists at https://www.reddit.com/r/startups/comments/1tzxh1l/",
+            "value": "Verified via websearch",
+            "source": "Reddit",
+            "source_url": "https://www.reddit.com/r/startups/comments/1tzxh1l/",
+            "confidence": "HIGH",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 83,
+        "evidence_quality": 78,
+        "icp_fit": 50,
+        "outsourcing_fit": 50,
+        "service_match": 0,
+        "contactability": 50,
+        "commercial_fit": 30,
+        "salesability_score": 20
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "STATUS: Opportunity is STALE",
+        "REQUIREMENT: No verified specific requirement"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: STATUS: Opportunity is STALE; REQUIREMENT: No verified specific requirement"
+    },
+    {
+      "id": "HI-004",
+      "original_title": "Revenue SaaS Hiring Full-Stack Engineer",
+      "original_classification": "HIGH_PRIORITY",
+      "original_score": 90.8,
+      "source_validation": {
+        "source_url": "https://www.reddit.com/r/cofounderhunt/comments/1ul570p/",
+        "source_type": "EXACT_POST",
+        "source_title": "Revenue SaaS Hiring Full-Stack Engineer",
+        "source_date": "2-3 months ago",
+        "source_access_status": "PUBLICLY_ACCESSIBLE",
+        "source_evidence": "Reddit post with exact comment ID. Publicly accessible.",
+        "is_exact_post": true,
+        "is_search_page": false
+      },
+      "person_identity": {
+        "person_name": "Unknown (r/cofounderhunt)",
+        "role": "Reddit user (unidentified)",
+        "company": "UNKNOWN",
+        "profile_url": "UNKNOWN",
+        "identity_confidence": "UNKNOWN"
+      },
+      "actual_requirement": {
+        "requirement_text": "Revenue SaaS hiring full-stack engineer",
+        "required_technology": [
+          "SaaS",
+          "full stack",
+          "backend",
+          "API"
+        ],
+        "project_type": "SaaS",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "UNKNOWN",
+        "outsourcing_language": "HIRING FULL-TIME EMPLOYEE — NOT outsourcing"
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "Hiring full-time engineer — NOT an outsourcing opportunity",
+        "hiring_type": "FULL_TIME_HIRING",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": true,
+        "is_cofounder_search": false
+      },
+      "service_match": {
+        "services_needed": [
+          "SaaS",
+          "full stack",
+          "backend",
+          "API"
+        ],
+        "matched_services": [
+          "SaaS Dev: SaaS",
+          "SaaS Dev: full stack",
+          "SaaS Dev: backend",
+          "SaaS Dev: API"
+        ],
+        "service_match_score": 80,
+        "service_mismatch_reason": ""
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "GROWING",
+        "industry": "SaaS",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "STALE",
+        "date_reported": "2-3 months ago"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "UNKNOWN",
+        "email": "NOT_GUESSED",
+        "email_status": "UNKNOWN",
+        "linkedin": "UNKNOWN"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Post exists at https://www.reddit.com/r/cofounderhunt/comments/1ul570p/",
+            "value": "Verified via websearch",
+            "source": "Reddit",
+            "source_url": "https://www.reddit.com/r/cofounderhunt/comments/1ul570p/",
+            "confidence": "HIGH",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 0,
+        "evidence_quality": 88,
+        "icp_fit": 0,
+        "outsourcing_fit": 0,
+        "service_match": 0,
+        "contactability": 0,
+        "commercial_fit": 0,
+        "salesability_score": 17.6
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "IDENTITY: Person is anonymous/unknown",
+        "OUTSOURCING: Full-time hiring — NOT an outsourcing opportunity",
+        "STATUS: Opportunity is STALE"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: IDENTITY: Person is anonymous/unknown; OUTSOURCING: Full-time hiring — NOT an outsourcing opportunity; STATUS: Opportunity is STALE"
+    },
+    {
+      "id": "HI-001",
+      "original_title": "AI Systems Technical Cofounder Needed",
+      "original_classification": "HIGH_PRIORITY",
+      "original_score": 85.0,
+      "source_validation": {
+        "source_url": "https://www.reddit.com/r/cofounderhunt/comments/1tt8lgf/",
+        "source_type": "EXACT_POST",
+        "source_title": "AI Systems Technical Cofounder Needed",
+        "source_date": "2-3 months ago",
+        "source_access_status": "PUBLICLY_ACCESSIBLE",
+        "source_evidence": "Reddit post with exact comment ID. Publicly accessible.",
+        "is_exact_post": true,
+        "is_search_page": false
+      },
+      "person_identity": {
+        "person_name": "Aggressive_Buy_4411",
+        "role": "First-time founder (non-engineer)",
+        "company": "Project G-Bridge",
+        "profile_url": "https://www.reddit.com/user/Aggressive_Buy_4411",
+        "identity_confidence": "REDDIT_USERNAME"
+      },
+      "actual_requirement": {
+        "requirement_text": "Seeking technical cofounder / CTO for AI systems, interoperability, cross-platform device bridge. Patent pending concept. Needs production-grade prototype.",
+        "required_technology": [
+          "AI",
+          "full stack",
+          "backend",
+          "cross-platform"
+        ],
+        "project_type": "AI Systems / Cross-platform",
+        "budget": "UNKNOWN (equity offered)",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "MEDIUM",
+        "outsourcing_language": "Seeking cofounder/CTO — NOT explicitly seeking outsourced development"
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "Looking for cofounder/CTO — this is equity partnership, NOT paid outsourcing",
+        "hiring_type": "COFOUNDER_SEARCH",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": true
+      },
+      "service_match": {
+        "services_needed": [
+          "AI",
+          "full stack",
+          "backend"
+        ],
+        "matched_services": [
+          "SaaS Dev: full stack",
+          "SaaS Dev: backend"
+        ],
+        "service_match_score": 40,
+        "service_mismatch_reason": ""
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "EARLY",
+        "industry": "AI/ML",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN (equity offered)",
+        "budget_status": "STATED",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "STALE",
+        "date_reported": "2-3 months ago"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "PUBLIC_UNVERIFIED",
+        "email": "NOT_GUESSED",
+        "email_status": "UNKNOWN",
+        "linkedin": "https://www.reddit.com/user/Aggressive_Buy_4411"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Post exists at https://www.reddit.com/r/cofounderhunt/comments/1tt8lgf/",
+            "value": "Verified via websearch",
+            "source": "Reddit",
+            "source_url": "https://www.reddit.com/r/cofounderhunt/comments/1tt8lgf/",
+            "confidence": "HIGH",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 0,
+        "evidence_quality": 85,
+        "icp_fit": 0,
+        "outsourcing_fit": 0,
+        "service_match": 0,
+        "contactability": 0,
+        "commercial_fit": 0,
+        "salesability_score": 17.0
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "OUTSOURCING: Cofounder search — equity partnership, NOT paid outsourcing",
+        "STATUS: Opportunity is STALE"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: OUTSOURCING: Cofounder search — equity partnership, NOT paid outsourcing; STATUS: Opportunity is STALE"
+    },
+    {
+      "id": "HI-005",
+      "original_title": "AI Video/Animation Technical Cofounder",
+      "original_classification": "HIGH_PRIORITY",
+      "original_score": 81.5,
+      "source_validation": {
+        "source_url": "https://www.reddit.com/r/cofounderhunt/comments/1v31w66/",
+        "source_type": "EXACT_POST",
+        "source_title": "AI Video/Animation Technical Cofounder",
+        "source_date": "1 month ago",
+        "source_access_status": "PUBLICLY_ACCESSIBLE",
+        "source_evidence": "Reddit post with exact comment ID. Publicly accessible.",
+        "is_exact_post": true,
+        "is_search_page": false
+      },
+      "person_identity": {
+        "person_name": "Authority0fReddit",
+        "role": "AI/Animation founder",
+        "company": "UNKNOWN",
+        "profile_url": "https://www.reddit.com/user/Authority0fReddit",
+        "identity_confidence": "REDDIT_USERNAME"
+      },
+      "actual_requirement": {
+        "requirement_text": "REQUIRES_VERIFICATION — AI video/animation technical cofounder",
+        "required_technology": [
+          "AI",
+          "video",
+          "animation"
+        ],
+        "project_type": "AI/Media",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "UNKNOWN",
+        "outsourcing_language": "Seeking cofounder — NOT explicitly seeking outsourced development"
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "Looking for cofounder/CTO — this is equity partnership, NOT paid outsourcing",
+        "hiring_type": "COFOUNDER_SEARCH",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": true
+      },
+      "service_match": {
+        "services_needed": [
+          "AI",
+          "video",
+          "animation",
+          "backend"
+        ],
+        "matched_services": [
+          "SaaS Dev: backend"
+        ],
+        "service_match_score": 20,
+        "service_mismatch_reason": ""
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "EARLY",
+        "industry": "AI/Media",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "RECENT_BUT_STALE",
+        "date_reported": "1 month ago"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "PUBLIC_UNVERIFIED",
+        "email": "NOT_GUESSED",
+        "email_status": "UNKNOWN",
+        "linkedin": "https://www.reddit.com/user/Authority0fReddit"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Post exists at https://www.reddit.com/r/cofounderhunt/comments/1v31w66/",
+            "value": "Verified via websearch",
+            "source": "Reddit",
+            "source_url": "https://www.reddit.com/r/cofounderhunt/comments/1v31w66/",
+            "confidence": "HIGH",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 0,
+        "evidence_quality": 83,
+        "icp_fit": 0,
+        "outsourcing_fit": 0,
+        "service_match": 0,
+        "contactability": 0,
+        "commercial_fit": 0,
+        "salesability_score": 16.6
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "OUTSOURCING: Cofounder search — equity partnership, NOT paid outsourcing",
+        "REQUIREMENT: No verified specific requirement"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: OUTSOURCING: Cofounder search — equity partnership, NOT paid outsourcing; REQUIREMENT: No verified specific requirement"
+    },
+    {
+      "id": "HI-003",
+      "original_title": "Retail Tech Cofounder Needed",
+      "original_classification": "HIGH_PRIORITY",
+      "original_score": 86.7,
+      "source_validation": {
+        "source_url": "https://www.reddit.com/r/cofounderhunt/comments/1uh95i9/",
+        "source_type": "EXACT_POST",
+        "source_title": "Retail Tech Cofounder Needed",
+        "source_date": "2-3 months ago",
+        "source_access_status": "PUBLICLY_ACCESSIBLE",
+        "source_evidence": "Reddit post with exact comment ID. Publicly accessible.",
+        "is_exact_post": true,
+        "is_search_page": false
+      },
+      "person_identity": {
+        "person_name": "Unknown (r/cofounderhunt)",
+        "role": "Reddit user (unidentified)",
+        "company": "UNKNOWN",
+        "profile_url": "UNKNOWN",
+        "identity_confidence": "UNKNOWN"
+      },
+      "actual_requirement": {
+        "requirement_text": "REQUIRES_VERIFICATION — retail tech cofounder post",
+        "required_technology": [
+          "SaaS MVP",
+          "retail tech"
+        ],
+        "project_type": "UNKNOWN",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "UNKNOWN",
+        "outsourcing_language": "Seeking cofounder — NOT explicitly seeking outsourced development"
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "Looking for cofounder/CTO — this is equity partnership, NOT paid outsourcing",
+        "hiring_type": "COFOUNDER_SEARCH",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": true
+      },
+      "service_match": {
+        "services_needed": [
+          "SaaS MVP",
+          "retail tech",
+          "full stack"
+        ],
+        "matched_services": [
+          "SaaS Dev: SaaS MVP",
+          "SaaS Dev: SaaS MVP",
+          "SaaS Dev: SaaS MVP",
+          "SaaS Dev: full stack"
+        ],
+        "service_match_score": 80,
+        "service_mismatch_reason": ""
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "EARLY",
+        "industry": "Retail/E-commerce",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "STALE",
+        "date_reported": "2-3 months ago"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "UNKNOWN",
+        "email": "NOT_GUESSED",
+        "email_status": "UNKNOWN",
+        "linkedin": "UNKNOWN"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Post exists at https://www.reddit.com/r/cofounderhunt/comments/1uh95i9/",
+            "value": "Verified via websearch",
+            "source": "Reddit",
+            "source_url": "https://www.reddit.com/r/cofounderhunt/comments/1uh95i9/",
+            "confidence": "HIGH",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 0,
+        "evidence_quality": 82,
+        "icp_fit": 0,
+        "outsourcing_fit": 0,
+        "service_match": 0,
+        "contactability": 0,
+        "commercial_fit": 0,
+        "salesability_score": 16.4
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "IDENTITY: Person is anonymous/unknown",
+        "OUTSOURCING: Cofounder search — equity partnership, NOT paid outsourcing",
+        "STATUS: Opportunity is STALE",
+        "REQUIREMENT: No verified specific requirement"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: IDENTITY: Person is anonymous/unknown; OUTSOURCING: Cofounder search — equity partnership, NOT paid outsourcing; STATUS: Opportunity is STALE"
+    },
+    {
+      "id": "HI-009",
+      "original_title": "Agency Hiring Web Developer",
+      "original_classification": "HIGH_PRIORITY",
+      "original_score": 84.9,
+      "source_validation": {
+        "source_url": "https://www.reddit.com/r/WebDeveloperJobs/comments/1u6nmyq/",
+        "source_type": "EXACT_POST",
+        "source_title": "Agency Hiring Web Developer",
+        "source_date": "3+ months ago",
+        "source_access_status": "PUBLICLY_ACCESSIBLE",
+        "source_evidence": "Reddit post with exact comment ID. Publicly accessible.",
+        "is_exact_post": true,
+        "is_search_page": false
+      },
+      "person_identity": {
+        "person_name": "sine-si",
+        "role": "US agency owner",
+        "company": "US website agency",
+        "profile_url": "https://www.reddit.com/user/sine-si",
+        "identity_confidence": "REDDIT_USERNAME"
+      },
+      "actual_requirement": {
+        "requirement_text": "US agency needs web developer. 20% commission. WordPress/Elementor or Webflow. 24-48 hour turnaround.",
+        "required_technology": [
+          "WordPress",
+          "Elementor",
+          "Webflow",
+          "web development"
+        ],
+        "project_type": "Web development (agency sub-contracting)",
+        "budget": "20% commission per project",
+        "timeline": "24-48 hours for demo, 5-8 pages",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "HIGH",
+        "outsourcing_language": "Agency seeking freelance developer for sub-contracting"
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "Agency seeking freelance developer for sub-contracting — NOT buying development services",
+        "hiring_type": "AGENCY_SUBCONTRACTING",
+        "is_implicit_outsourcing": true,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": false
+      },
+      "service_match": {
+        "services_needed": [
+          "web development",
+          "frontend",
+          "backend"
+        ],
+        "matched_services": [
+          "SaaS Dev: backend"
+        ],
+        "service_match_score": 20,
+        "service_mismatch_reason": ""
+      },
+      "competitor_check": {
+        "is_competitor": true,
+        "competitor_type": "AGENCY"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "GROWING",
+        "industry": "Agency",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "20% commission per project",
+        "budget_status": "STATED",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "STALE",
+        "date_reported": "3+ months ago"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "PUBLIC_UNVERIFIED",
+        "email": "NOT_GUESSED",
+        "email_status": "UNKNOWN",
+        "linkedin": "https://www.reddit.com/user/sine-si"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Post exists at https://www.reddit.com/r/WebDeveloperJobs/comments/1u6nmyq/",
+            "value": "Verified via websearch",
+            "source": "Reddit",
+            "source_url": "https://www.reddit.com/r/WebDeveloperJobs/comments/1u6nmyq/",
+            "confidence": "HIGH",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 0,
+        "evidence_quality": 82,
+        "icp_fit": 0,
+        "outsourcing_fit": 0,
+        "service_match": 0,
+        "contactability": 0,
+        "commercial_fit": 0,
+        "salesability_score": 16.4
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "COMPETITOR: Prospect is a AGENCY — not a customer",
+        "STATUS: Opportunity is STALE"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: COMPETITOR: Prospect is a AGENCY — not a customer; STATUS: Opportunity is STALE"
+    },
+    {
+      "id": "HI-002",
+      "original_title": "iOS App Cofounder Needed",
+      "original_classification": "HIGH_PRIORITY",
+      "original_score": 82.2,
+      "source_validation": {
+        "source_url": "https://www.reddit.com/r/cofounderhunt/comments/1sjnpg5/",
+        "source_type": "EXACT_POST",
+        "source_title": "iOS App Cofounder Needed",
+        "source_date": "2-3 months ago",
+        "source_access_status": "PUBLICLY_ACCESSIBLE",
+        "source_evidence": "Reddit post with exact comment ID. Publicly accessible.",
+        "is_exact_post": true,
+        "is_search_page": false
+      },
+      "person_identity": {
+        "person_name": "Unknown (r/cofounderhunt)",
+        "role": "Reddit user (unidentified)",
+        "company": "UNKNOWN",
+        "profile_url": "UNKNOWN",
+        "identity_confidence": "UNKNOWN"
+      },
+      "actual_requirement": {
+        "requirement_text": "REQUIRES_VERIFICATION — iOS app cofounder post",
+        "required_technology": [
+          "iOS",
+          "mobile app",
+          "react native"
+        ],
+        "project_type": "Mobile App",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "UNKNOWN",
+        "outsourcing_language": "Seeking cofounder — NOT explicitly seeking outsourced development"
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "Looking for cofounder/CTO — this is equity partnership, NOT paid outsourcing",
+        "hiring_type": "COFOUNDER_SEARCH",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": true
+      },
+      "service_match": {
+        "services_needed": [
+          "iOS",
+          "mobile app",
+          "react native"
+        ],
+        "matched_services": [
+          "Custom: iOS",
+          "Custom: mobile app"
+        ],
+        "service_match_score": 40,
+        "service_mismatch_reason": ""
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "EARLY",
+        "industry": "Mobile App",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "STALE",
+        "date_reported": "2-3 months ago"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "UNKNOWN",
+        "email": "NOT_GUESSED",
+        "email_status": "UNKNOWN",
+        "linkedin": "UNKNOWN"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Post exists at https://www.reddit.com/r/cofounderhunt/comments/1sjnpg5/",
+            "value": "Verified via websearch",
+            "source": "Reddit",
+            "source_url": "https://www.reddit.com/r/cofounderhunt/comments/1sjnpg5/",
+            "confidence": "HIGH",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 0,
+        "evidence_quality": 80,
+        "icp_fit": 0,
+        "outsourcing_fit": 0,
+        "service_match": 0,
+        "contactability": 0,
+        "commercial_fit": 0,
+        "salesability_score": 16.0
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "IDENTITY: Person is anonymous/unknown",
+        "OUTSOURCING: Cofounder search — equity partnership, NOT paid outsourcing",
+        "STATUS: Opportunity is STALE",
+        "REQUIREMENT: No verified specific requirement"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: IDENTITY: Person is anonymous/unknown; OUTSOURCING: Cofounder search — equity partnership, NOT paid outsourcing; STATUS: Opportunity is STALE"
+    },
+    {
+      "id": "HI-010",
+      "original_title": "Developer Building Micro-SaaS",
+      "original_classification": "QUALIFIED",
+      "original_score": 65.8,
+      "source_validation": {
+        "source_url": "https://www.reddit.com/r/SaaS/comments/1qvg6dc/",
+        "source_type": "EXACT_POST",
+        "source_title": "Developer Building Micro-SaaS",
+        "source_date": "4+ months ago",
+        "source_access_status": "PUBLICLY_ACCESSIBLE",
+        "source_evidence": "Reddit post with exact comment ID. Publicly accessible.",
+        "is_exact_post": true,
+        "is_search_page": false
+      },
+      "person_identity": {
+        "person_name": "Specialist-Step1314",
+        "role": "SaaS builder",
+        "company": "UNKNOWN",
+        "profile_url": "https://www.reddit.com/user/Specialist-Step1314",
+        "identity_confidence": "REDDIT_USERNAME"
+      },
+      "actual_requirement": {
+        "requirement_text": "REQUIRES_VERIFICATION — Developer building micro-SaaS",
+        "required_technology": [
+          "SaaS",
+          "micro-saaS"
+        ],
+        "project_type": "SaaS",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "UNKNOWN",
+        "outsourcing_language": "Building own product — NOT seeking outsourcing"
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "POSSIBLE",
+        "hiring_type": "UNKNOWN",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": false
+      },
+      "service_match": {
+        "services_needed": [
+          "SaaS",
+          "micro-saaS",
+          "full stack"
+        ],
+        "matched_services": [
+          "SaaS Dev: SaaS",
+          "SaaS Dev: micro-saaS",
+          "SaaS Dev: full stack"
+        ],
+        "service_match_score": 60,
+        "service_mismatch_reason": ""
+      },
+      "competitor_check": {
+        "is_competitor": true,
+        "competitor_type": "FREELANCER/DEVELOPER"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "EARLY",
+        "industry": "SaaS",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "STALE",
+        "date_reported": "4+ months ago"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "PUBLIC_UNVERIFIED",
+        "email": "NOT_GUESSED",
+        "email_status": "UNKNOWN",
+        "linkedin": "https://www.reddit.com/user/Specialist-Step1314"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Post exists at https://www.reddit.com/r/SaaS/comments/1qvg6dc/",
+            "value": "Verified via websearch",
+            "source": "Reddit",
+            "source_url": "https://www.reddit.com/r/SaaS/comments/1qvg6dc/",
+            "confidence": "HIGH",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 0,
+        "evidence_quality": 70,
+        "icp_fit": 0,
+        "outsourcing_fit": 0,
+        "service_match": 0,
+        "contactability": 0,
+        "commercial_fit": 0,
+        "salesability_score": 14.0
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "COMPETITOR: Prospect is a FREELANCER/DEVELOPER — not a customer",
+        "STATUS: Opportunity is STALE",
+        "REQUIREMENT: No verified specific requirement"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: COMPETITOR: Prospect is a FREELANCER/DEVELOPER — not a customer; STATUS: Opportunity is STALE; REQUIREMENT: No verified specific requirement"
+    },
+    {
+      "id": "HI-018",
+      "original_title": "Shopify WhatsApp Chatbot Developer (Upwork)",
+      "original_classification": "HIGH_PRIORITY",
+      "original_score": 93.5,
+      "source_validation": {
+        "source_url": "https://www.upwork.com/nx/search/jobs/?q=Shopify+WhatsApp+chatbot+developer",
+        "source_type": "SEARCH_PAGE",
+        "source_title": "Shopify WhatsApp Chatbot Developer (Upwork)",
+        "source_date": "Active",
+        "source_access_status": "INACCESSIBLE",
+        "source_evidence": "Search result page — returns 403 or shows multiple jobs. NOT a specific job/project.",
+        "is_exact_post": false,
+        "is_search_page": true
+      },
+      "person_identity": {
+        "person_name": "Upwork Client",
+        "role": "Client (anonymous)",
+        "company": "Anonymous Upwork client",
+        "profile_url": "UNKNOWN",
+        "identity_confidence": "ANONYMOUS"
+      },
+      "actual_requirement": {
+        "requirement_text": "GENERIC SEARCH PAGE — no specific requirement visible",
+        "required_technology": [],
+        "project_type": "UNKNOWN",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "UNKNOWN",
+        "outsourcing_language": ""
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "N/A — search page, no specific person",
+        "hiring_type": "N/A",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": false
+      },
+      "service_match": {
+        "services_needed": [
+          "Shopify",
+          "WhatsApp",
+          "chatbot",
+          "e-commerce"
+        ],
+        "matched_services": [],
+        "service_match_score": 0,
+        "service_mismatch_reason": "No specific service needed — search page"
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "GROWING",
+        "industry": "E-commerce",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "GENERIC_SEARCH",
+        "date_reported": "Active"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "INACCESSIBLE",
+        "email": "NOT_GUESSED",
+        "email_status": "NOT_AVAILABLE",
+        "linkedin": "UNKNOWN"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Multiple jobs match search query",
+            "value": "GENERIC — no specific opportunity identified",
+            "source": "Upwork search page",
+            "source_url": "https://www.upwork.com/nx/search/jobs/?q=Shopify+WhatsApp+chatbot+developer",
+            "confidence": "LOW",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 0,
+        "evidence_quality": 0,
+        "icp_fit": 0,
+        "outsourcing_fit": 0,
+        "service_match": 0,
+        "contactability": 0,
+        "commercial_fit": 0,
+        "salesability_score": 0.0
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "SOURCE: URL is a search/category page, not an exact post/job/project",
+        "SOURCE: Page is not publicly accessible (403 or requires auth)",
+        "IDENTITY: Person is anonymous/unknown",
+        "REQUIREMENT: No verified specific requirement"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: SOURCE: URL is a search/category page, not an exact post/job/project; SOURCE: Page is not publicly accessible (403 or requires auth); IDENTITY: Person is anonymous/unknown"
+    },
+    {
+      "id": "HI-012",
+      "original_title": "SaaS MVP Development (Upwork)",
+      "original_classification": "HIGH_PRIORITY",
+      "original_score": 92.8,
+      "source_validation": {
+        "source_url": "https://www.upwork.com/nx/search/jobs/?q=SaaS+MVP+development",
+        "source_type": "SEARCH_PAGE",
+        "source_title": "SaaS MVP Development (Upwork)",
+        "source_date": "Active",
+        "source_access_status": "INACCESSIBLE",
+        "source_evidence": "Search result page — returns 403 or shows multiple jobs. NOT a specific job/project.",
+        "is_exact_post": false,
+        "is_search_page": true
+      },
+      "person_identity": {
+        "person_name": "Upwork Client",
+        "role": "Client (anonymous)",
+        "company": "Anonymous Upwork client",
+        "profile_url": "UNKNOWN",
+        "identity_confidence": "ANONYMOUS"
+      },
+      "actual_requirement": {
+        "requirement_text": "GENERIC SEARCH PAGE — no specific requirement visible",
+        "required_technology": [],
+        "project_type": "UNKNOWN",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "UNKNOWN",
+        "outsourcing_language": ""
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "N/A — search page, no specific person",
+        "hiring_type": "N/A",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": false
+      },
+      "service_match": {
+        "services_needed": [
+          "SaaS MVP",
+          "full stack",
+          "backend",
+          "API"
+        ],
+        "matched_services": [],
+        "service_match_score": 0,
+        "service_mismatch_reason": "No specific service needed — search page"
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "EARLY",
+        "industry": "SaaS",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "GENERIC_SEARCH",
+        "date_reported": "Active"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "INACCESSIBLE",
+        "email": "NOT_GUESSED",
+        "email_status": "NOT_AVAILABLE",
+        "linkedin": "UNKNOWN"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Multiple jobs match search query",
+            "value": "GENERIC — no specific opportunity identified",
+            "source": "Upwork search page",
+            "source_url": "https://www.upwork.com/nx/search/jobs/?q=SaaS+MVP+development",
+            "confidence": "LOW",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 0,
+        "evidence_quality": 0,
+        "icp_fit": 0,
+        "outsourcing_fit": 0,
+        "service_match": 0,
+        "contactability": 0,
+        "commercial_fit": 0,
+        "salesability_score": 0.0
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "SOURCE: URL is a search/category page, not an exact post/job/project",
+        "SOURCE: Page is not publicly accessible (403 or requires auth)",
+        "IDENTITY: Person is anonymous/unknown",
+        "REQUIREMENT: No verified specific requirement"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: SOURCE: URL is a search/category page, not an exact post/job/project; SOURCE: Page is not publicly accessible (403 or requires auth); IDENTITY: Person is anonymous/unknown"
+    },
+    {
+      "id": "HI-020",
+      "original_title": "WhatsApp Customer Service Bot (Upwork)",
+      "original_classification": "HIGH_PRIORITY",
+      "original_score": 92.8,
+      "source_validation": {
+        "source_url": "https://www.upwork.com/nx/search/jobs/?q=WhatsApp+customer+service+bot",
+        "source_type": "SEARCH_PAGE",
+        "source_title": "WhatsApp Customer Service Bot (Upwork)",
+        "source_date": "Active",
+        "source_access_status": "INACCESSIBLE",
+        "source_evidence": "Search result page — returns 403 or shows multiple jobs. NOT a specific job/project.",
+        "is_exact_post": false,
+        "is_search_page": true
+      },
+      "person_identity": {
+        "person_name": "Upwork Client",
+        "role": "Client (anonymous)",
+        "company": "Anonymous Upwork client",
+        "profile_url": "UNKNOWN",
+        "identity_confidence": "ANONYMOUS"
+      },
+      "actual_requirement": {
+        "requirement_text": "GENERIC SEARCH PAGE — no specific requirement visible",
+        "required_technology": [],
+        "project_type": "UNKNOWN",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "UNKNOWN",
+        "outsourcing_language": ""
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "N/A — search page, no specific person",
+        "hiring_type": "N/A",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": false
+      },
+      "service_match": {
+        "services_needed": [
+          "WhatsApp",
+          "chatbot",
+          "customer support",
+          "automation"
+        ],
+        "matched_services": [],
+        "service_match_score": 0,
+        "service_mismatch_reason": "No specific service needed — search page"
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "GROWING",
+        "industry": "Customer Service",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "GENERIC_SEARCH",
+        "date_reported": "Active"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "INACCESSIBLE",
+        "email": "NOT_GUESSED",
+        "email_status": "NOT_AVAILABLE",
+        "linkedin": "UNKNOWN"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Multiple jobs match search query",
+            "value": "GENERIC — no specific opportunity identified",
+            "source": "Upwork search page",
+            "source_url": "https://www.upwork.com/nx/search/jobs/?q=WhatsApp+customer+service+bot",
+            "confidence": "LOW",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 0,
+        "evidence_quality": 0,
+        "icp_fit": 0,
+        "outsourcing_fit": 0,
+        "service_match": 0,
+        "contactability": 0,
+        "commercial_fit": 0,
+        "salesability_score": 0.0
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "SOURCE: URL is a search/category page, not an exact post/job/project",
+        "SOURCE: Page is not publicly accessible (403 or requires auth)",
+        "IDENTITY: Person is anonymous/unknown",
+        "REQUIREMENT: No verified specific requirement"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: SOURCE: URL is a search/category page, not an exact post/job/project; SOURCE: Page is not publicly accessible (403 or requires auth); IDENTITY: Person is anonymous/unknown"
+    },
+    {
+      "id": "HI-019",
+      "original_title": "WhatsApp Chatbot for E-commerce (Upwork)",
+      "original_classification": "HIGH_PRIORITY",
+      "original_score": 92.2,
+      "source_validation": {
+        "source_url": "https://www.upwork.com/nx/search/jobs/?q=WhatsApp+chatbot+for+e-commerce",
+        "source_type": "SEARCH_PAGE",
+        "source_title": "WhatsApp Chatbot for E-commerce (Upwork)",
+        "source_date": "Active",
+        "source_access_status": "INACCESSIBLE",
+        "source_evidence": "Search result page — returns 403 or shows multiple jobs. NOT a specific job/project.",
+        "is_exact_post": false,
+        "is_search_page": true
+      },
+      "person_identity": {
+        "person_name": "Upwork Client",
+        "role": "Client (anonymous)",
+        "company": "Anonymous Upwork client",
+        "profile_url": "UNKNOWN",
+        "identity_confidence": "ANONYMOUS"
+      },
+      "actual_requirement": {
+        "requirement_text": "GENERIC SEARCH PAGE — no specific requirement visible",
+        "required_technology": [],
+        "project_type": "UNKNOWN",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "UNKNOWN",
+        "outsourcing_language": ""
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "N/A — search page, no specific person",
+        "hiring_type": "N/A",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": false
+      },
+      "service_match": {
+        "services_needed": [
+          "WhatsApp",
+          "chatbot",
+          "e-commerce",
+          "customer support"
+        ],
+        "matched_services": [],
+        "service_match_score": 0,
+        "service_mismatch_reason": "No specific service needed — search page"
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "GROWING",
+        "industry": "E-commerce",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "GENERIC_SEARCH",
+        "date_reported": "Active"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "INACCESSIBLE",
+        "email": "NOT_GUESSED",
+        "email_status": "NOT_AVAILABLE",
+        "linkedin": "UNKNOWN"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Multiple jobs match search query",
+            "value": "GENERIC — no specific opportunity identified",
+            "source": "Upwork search page",
+            "source_url": "https://www.upwork.com/nx/search/jobs/?q=WhatsApp+chatbot+for+e-commerce",
+            "confidence": "LOW",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 0,
+        "evidence_quality": 0,
+        "icp_fit": 0,
+        "outsourcing_fit": 0,
+        "service_match": 0,
+        "contactability": 0,
+        "commercial_fit": 0,
+        "salesability_score": 0.0
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "SOURCE: URL is a search/category page, not an exact post/job/project",
+        "SOURCE: Page is not publicly accessible (403 or requires auth)",
+        "IDENTITY: Person is anonymous/unknown",
+        "REQUIREMENT: No verified specific requirement"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: SOURCE: URL is a search/category page, not an exact post/job/project; SOURCE: Page is not publicly accessible (403 or requires auth); IDENTITY: Person is anonymous/unknown"
+    },
+    {
+      "id": "HI-015",
+      "original_title": "Build SaaS MVP in 5 Days (Upwork)",
+      "original_classification": "HIGH_PRIORITY",
+      "original_score": 91.5,
+      "source_validation": {
+        "source_url": "https://www.upwork.com/nx/search/jobs/?q=build+SaaS+MVP+in+5+days",
+        "source_type": "SEARCH_PAGE",
+        "source_title": "Build SaaS MVP in 5 Days (Upwork)",
+        "source_date": "Active",
+        "source_access_status": "INACCESSIBLE",
+        "source_evidence": "Search result page — returns 403 or shows multiple jobs. NOT a specific job/project.",
+        "is_exact_post": false,
+        "is_search_page": true
+      },
+      "person_identity": {
+        "person_name": "Upwork Client",
+        "role": "Client (anonymous)",
+        "company": "Anonymous Upwork client",
+        "profile_url": "UNKNOWN",
+        "identity_confidence": "ANONYMOUS"
+      },
+      "actual_requirement": {
+        "requirement_text": "GENERIC SEARCH PAGE — no specific requirement visible",
+        "required_technology": [],
+        "project_type": "UNKNOWN",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "UNKNOWN",
+        "outsourcing_language": ""
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "N/A — search page, no specific person",
+        "hiring_type": "N/A",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": false
+      },
+      "service_match": {
+        "services_needed": [
+          "SaaS MVP",
+          "rapid development",
+          "full stack"
+        ],
+        "matched_services": [],
+        "service_match_score": 0,
+        "service_mismatch_reason": "No specific service needed — search page"
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "EARLY",
+        "industry": "SaaS",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "GENERIC_SEARCH",
+        "date_reported": "Active"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "INACCESSIBLE",
+        "email": "NOT_GUESSED",
+        "email_status": "NOT_AVAILABLE",
+        "linkedin": "UNKNOWN"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Multiple jobs match search query",
+            "value": "GENERIC — no specific opportunity identified",
+            "source": "Upwork search page",
+            "source_url": "https://www.upwork.com/nx/search/jobs/?q=build+SaaS+MVP+in+5+days",
+            "confidence": "LOW",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 0,
+        "evidence_quality": 0,
+        "icp_fit": 0,
+        "outsourcing_fit": 0,
+        "service_match": 0,
+        "contactability": 0,
+        "commercial_fit": 0,
+        "salesability_score": 0.0
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "SOURCE: URL is a search/category page, not an exact post/job/project",
+        "SOURCE: Page is not publicly accessible (403 or requires auth)",
+        "IDENTITY: Person is anonymous/unknown",
+        "REQUIREMENT: No verified specific requirement"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: SOURCE: URL is a search/category page, not an exact post/job/project; SOURCE: Page is not publicly accessible (403 or requires auth); IDENTITY: Person is anonymous/unknown"
+    },
+    {
+      "id": "HI-017",
+      "original_title": "Full-Stack SaaS MVP Developer (Upwork)",
+      "original_classification": "HIGH_PRIORITY",
+      "original_score": 90.2,
+      "source_validation": {
+        "source_url": "https://www.upwork.com/nx/search/jobs/?q=full-stack+SaaS+MVP+developer",
+        "source_type": "SEARCH_PAGE",
+        "source_title": "Full-Stack SaaS MVP Developer (Upwork)",
+        "source_date": "Active",
+        "source_access_status": "INACCESSIBLE",
+        "source_evidence": "Search result page — returns 403 or shows multiple jobs. NOT a specific job/project.",
+        "is_exact_post": false,
+        "is_search_page": true
+      },
+      "person_identity": {
+        "person_name": "Upwork Client",
+        "role": "Client (anonymous)",
+        "company": "Anonymous Upwork client",
+        "profile_url": "UNKNOWN",
+        "identity_confidence": "ANONYMOUS"
+      },
+      "actual_requirement": {
+        "requirement_text": "GENERIC SEARCH PAGE — no specific requirement visible",
+        "required_technology": [],
+        "project_type": "UNKNOWN",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "UNKNOWN",
+        "outsourcing_language": ""
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "N/A — search page, no specific person",
+        "hiring_type": "N/A",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": false
+      },
+      "service_match": {
+        "services_needed": [
+          "SaaS MVP",
+          "full stack",
+          "backend",
+          "frontend"
+        ],
+        "matched_services": [],
+        "service_match_score": 0,
+        "service_mismatch_reason": "No specific service needed — search page"
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "EARLY",
+        "industry": "SaaS",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "GENERIC_SEARCH",
+        "date_reported": "Active"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "INACCESSIBLE",
+        "email": "NOT_GUESSED",
+        "email_status": "NOT_AVAILABLE",
+        "linkedin": "UNKNOWN"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Multiple jobs match search query",
+            "value": "GENERIC — no specific opportunity identified",
+            "source": "Upwork search page",
+            "source_url": "https://www.upwork.com/nx/search/jobs/?q=full-stack+SaaS+MVP+developer",
+            "confidence": "LOW",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 0,
+        "evidence_quality": 0,
+        "icp_fit": 0,
+        "outsourcing_fit": 0,
+        "service_match": 0,
+        "contactability": 0,
+        "commercial_fit": 0,
+        "salesability_score": 0.0
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "SOURCE: URL is a search/category page, not an exact post/job/project",
+        "SOURCE: Page is not publicly accessible (403 or requires auth)",
+        "IDENTITY: Person is anonymous/unknown",
+        "REQUIREMENT: No verified specific requirement"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: SOURCE: URL is a search/category page, not an exact post/job/project; SOURCE: Page is not publicly accessible (403 or requires auth); IDENTITY: Person is anonymous/unknown"
+    },
+    {
+      "id": "HI-014",
+      "original_title": "WhatsApp Inventory Management Bot (Upwork)",
+      "original_classification": "HIGH_PRIORITY",
+      "original_score": 90.1,
+      "source_validation": {
+        "source_url": "https://www.upwork.com/nx/search/jobs/?q=WhatsApp+inventory+management+bot",
+        "source_type": "SEARCH_PAGE",
+        "source_title": "WhatsApp Inventory Management Bot (Upwork)",
+        "source_date": "Active",
+        "source_access_status": "INACCESSIBLE",
+        "source_evidence": "Search result page — returns 403 or shows multiple jobs. NOT a specific job/project.",
+        "is_exact_post": false,
+        "is_search_page": true
+      },
+      "person_identity": {
+        "person_name": "Upwork Client",
+        "role": "Client (anonymous)",
+        "company": "Anonymous Upwork client",
+        "profile_url": "UNKNOWN",
+        "identity_confidence": "ANONYMOUS"
+      },
+      "actual_requirement": {
+        "requirement_text": "GENERIC SEARCH PAGE — no specific requirement visible",
+        "required_technology": [],
+        "project_type": "UNKNOWN",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "UNKNOWN",
+        "outsourcing_language": ""
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "N/A — search page, no specific person",
+        "hiring_type": "N/A",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": false
+      },
+      "service_match": {
+        "services_needed": [
+          "WhatsApp",
+          "chatbot",
+          "inventory management",
+          "automation"
+        ],
+        "matched_services": [],
+        "service_match_score": 0,
+        "service_mismatch_reason": "No specific service needed — search page"
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "GROWING",
+        "industry": "E-commerce",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "GENERIC_SEARCH",
+        "date_reported": "Active"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "INACCESSIBLE",
+        "email": "NOT_GUESSED",
+        "email_status": "NOT_AVAILABLE",
+        "linkedin": "UNKNOWN"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Multiple jobs match search query",
+            "value": "GENERIC — no specific opportunity identified",
+            "source": "Upwork search page",
+            "source_url": "https://www.upwork.com/nx/search/jobs/?q=WhatsApp+inventory+management+bot",
+            "confidence": "LOW",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 0,
+        "evidence_quality": 0,
+        "icp_fit": 0,
+        "outsourcing_fit": 0,
+        "service_match": 0,
+        "contactability": 0,
+        "commercial_fit": 0,
+        "salesability_score": 0.0
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "SOURCE: URL is a search/category page, not an exact post/job/project",
+        "SOURCE: Page is not publicly accessible (403 or requires auth)",
+        "IDENTITY: Person is anonymous/unknown",
+        "REQUIREMENT: No verified specific requirement"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: SOURCE: URL is a search/category page, not an exact post/job/project; SOURCE: Page is not publicly accessible (403 or requires auth); IDENTITY: Person is anonymous/unknown"
+    },
+    {
+      "id": "HI-013",
+      "original_title": "Fast SaaS MVP Builder (Upwork)",
+      "original_classification": "HIGH_PRIORITY",
+      "original_score": 89.7,
+      "source_validation": {
+        "source_url": "https://www.upwork.com/nx/search/jobs/?q=fast+SaaS+MVP+builder",
+        "source_type": "SEARCH_PAGE",
+        "source_title": "Fast SaaS MVP Builder (Upwork)",
+        "source_date": "Active",
+        "source_access_status": "INACCESSIBLE",
+        "source_evidence": "Search result page — returns 403 or shows multiple jobs. NOT a specific job/project.",
+        "is_exact_post": false,
+        "is_search_page": true
+      },
+      "person_identity": {
+        "person_name": "Upwork Client",
+        "role": "Client (anonymous)",
+        "company": "Anonymous Upwork client",
+        "profile_url": "UNKNOWN",
+        "identity_confidence": "ANONYMOUS"
+      },
+      "actual_requirement": {
+        "requirement_text": "GENERIC SEARCH PAGE — no specific requirement visible",
+        "required_technology": [],
+        "project_type": "UNKNOWN",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "UNKNOWN",
+        "outsourcing_language": ""
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "N/A — search page, no specific person",
+        "hiring_type": "N/A",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": false
+      },
+      "service_match": {
+        "services_needed": [
+          "SaaS MVP",
+          "rapid development",
+          "full stack"
+        ],
+        "matched_services": [],
+        "service_match_score": 0,
+        "service_mismatch_reason": "No specific service needed — search page"
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "EARLY",
+        "industry": "SaaS",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "GENERIC_SEARCH",
+        "date_reported": "Active"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "INACCESSIBLE",
+        "email": "NOT_GUESSED",
+        "email_status": "NOT_AVAILABLE",
+        "linkedin": "UNKNOWN"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Multiple jobs match search query",
+            "value": "GENERIC — no specific opportunity identified",
+            "source": "Upwork search page",
+            "source_url": "https://www.upwork.com/nx/search/jobs/?q=fast+SaaS+MVP+builder",
+            "confidence": "LOW",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 0,
+        "evidence_quality": 0,
+        "icp_fit": 0,
+        "outsourcing_fit": 0,
+        "service_match": 0,
+        "contactability": 0,
+        "commercial_fit": 0,
+        "salesability_score": 0.0
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "SOURCE: URL is a search/category page, not an exact post/job/project",
+        "SOURCE: Page is not publicly accessible (403 or requires auth)",
+        "IDENTITY: Person is anonymous/unknown",
+        "REQUIREMENT: No verified specific requirement"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: SOURCE: URL is a search/category page, not an exact post/job/project; SOURCE: Page is not publicly accessible (403 or requires auth); IDENTITY: Person is anonymous/unknown"
+    },
+    {
+      "id": "HI-016",
+      "original_title": "n8n Workflow with WhatsApp Integration (Upwork)",
+      "original_classification": "HIGH_PRIORITY",
+      "original_score": 85.8,
+      "source_validation": {
+        "source_url": "https://www.upwork.com/nx/search/jobs/?q=n8n+workflow+WhatsApp+integration",
+        "source_type": "SEARCH_PAGE",
+        "source_title": "n8n Workflow with WhatsApp Integration (Upwork)",
+        "source_date": "Active",
+        "source_access_status": "INACCESSIBLE",
+        "source_evidence": "Search result page — returns 403 or shows multiple jobs. NOT a specific job/project.",
+        "is_exact_post": false,
+        "is_search_page": true
+      },
+      "person_identity": {
+        "person_name": "Upwork Client",
+        "role": "Client (anonymous)",
+        "company": "Anonymous Upwork client",
+        "profile_url": "UNKNOWN",
+        "identity_confidence": "ANONYMOUS"
+      },
+      "actual_requirement": {
+        "requirement_text": "GENERIC SEARCH PAGE — no specific requirement visible",
+        "required_technology": [],
+        "project_type": "UNKNOWN",
+        "budget": "UNKNOWN",
+        "timeline": "UNKNOWN",
+        "location_requirement": "UNKNOWN",
+        "team_requirement": "UNKNOWN",
+        "urgency": "UNKNOWN",
+        "outsourcing_language": ""
+      },
+      "outsourcing_intent": {
+        "outsourcing_evidence": "N/A — search page, no specific person",
+        "hiring_type": "N/A",
+        "is_implicit_outsourcing": false,
+        "is_full_time_hiring": false,
+        "is_cofounder_search": false
+      },
+      "service_match": {
+        "services_needed": [
+          "n8n",
+          "WhatsApp",
+          "workflow automation",
+          "API integration"
+        ],
+        "matched_services": [],
+        "service_match_score": 0,
+        "service_mismatch_reason": "No specific service needed — search page"
+      },
+      "competitor_check": {
+        "is_competitor": false,
+        "competitor_type": "NONE"
+      },
+      "buyer_fit": {
+        "company_type": "BUYER",
+        "company_stage": "EARLY",
+        "industry": "Automation",
+        "project_complexity": "UNKNOWN",
+        "budget_capability": "UNKNOWN",
+        "business_maturity": "UNKNOWN"
+      },
+      "budget": {
+        "budget_stated": "UNKNOWN",
+        "budget_status": "UNKNOWN",
+        "budget_compatible": "UNKNOWN"
+      },
+      "project_status": {
+        "status": "GENERIC_SEARCH",
+        "date_reported": "Active"
+      },
+      "geo_fit": {
+        "prospect_country": "UNKNOWN",
+        "timezone": "UNKNOWN",
+        "service_region_fit": "GLOBAL"
+      },
+      "contactability": {
+        "contactability": "INACCESSIBLE",
+        "email": "NOT_GUESSED",
+        "email_status": "NOT_AVAILABLE",
+        "linkedin": "UNKNOWN"
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Multiple jobs match search query",
+            "value": "GENERIC — no specific opportunity identified",
+            "source": "Upwork search page",
+            "source_url": "https://www.upwork.com/nx/search/jobs/?q=n8n+workflow+WhatsApp+integration",
+            "confidence": "LOW",
+            "observed_at": "audit_v2"
+          }
+        ],
+        "total_claims": 1
+      },
+      "final_classification": "REJECT",
+      "scores": {
+        "intent": 0,
+        "evidence_quality": 0,
+        "icp_fit": 0,
+        "outsourcing_fit": 0,
+        "service_match": 0,
+        "contactability": 0,
+        "commercial_fit": 0,
+        "salesability_score": 0.0
+      },
+      "cross_source_validation": {
+        "attempted": false,
+        "person_verified": false,
+        "company_verified": false,
+        "requirement_verified": false,
+        "notes": "Cross-source validation not attempted — pending verification"
+      },
+      "rejection_reasons": [
+        "SOURCE: URL is a search/category page, not an exact post/job/project",
+        "SOURCE: Page is not publicly accessible (403 or requires auth)",
+        "IDENTITY: Person is anonymous/unknown",
+        "REQUIREMENT: No verified specific requirement"
+      ],
+      "missing_information": [],
+      "recommended_next_action": "DO NOT CONTACT — Lead rejected due to: SOURCE: URL is a search/category page, not an exact post/job/project; SOURCE: Page is not publicly accessible (403 or requires auth); IDENTITY: Person is anonymous/unknown"
+    }
+  ]
+}

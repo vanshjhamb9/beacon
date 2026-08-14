@@ -1,0 +1,50 @@
+{
+  "run_id": "97a9d0a9-45a7-4bb8-9ad5-8ec7a6cfebdf",
+  "product": "comai",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 188,
+    "enriched": 177,
+    "scored": 16,
+    "ready": 8,
+    "sent": 0,
+    "rejected": 157
+  },
+  "rejects": {
+    "mega_brand": 32,
+    "headcount": 29,
+    "unknown_size": 17,
+    "industry": 37,
+    "city": 0,
+    "country": 0,
+    "domain": 0,
+    "name": 0,
+    "type": 0,
+    "generic_email": 42,
+    "no_email": 0,
+    "no_founder": 0,
+    "tech": 0
+  },
+  "icp": {
+    "employee_count_min": 5,
+    "employee_count_max": 25,
+    "industries": [
+      "fashion",
+      "beauty",
+      "skincare",
+      "jewellery",
+      "food"
+    ],
+    "company_types": [
+      "d2c_brand"
+    ],
+    "countries": [
+      "India"
+    ],
+    "headquarters_cities": [],
+    "linkedin_url_required": true
+  },
+  "generated_at": "2026-08-14T19:14:49.459218+00:00",
+  "lead_count": 16
+}

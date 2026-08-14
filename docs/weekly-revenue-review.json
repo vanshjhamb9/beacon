@@ -1,0 +1,102 @@
+{
+  "review": {
+    "best_industries": [],
+    "best_company_sizes": [
+      {
+        "label": "unknown",
+        "count": 10
+      }
+    ],
+    "best_services": [],
+    "best_why_now": [],
+    "best_dm_titles": [],
+    "average_reply_time_days": null,
+    "average_sales_cycle_days": null,
+    "biggest_objections": [],
+    "largest_deal": 0,
+    "highest_roi_connector": "yc",
+    "lowest_quality_connector": "product_hunt",
+    "incorrectly_marked_revenue_ready": [],
+    "incorrectly_rejected": [],
+    "revenue_rows": 0,
+    "prediction_n": 10
+  },
+  "learning": {
+    "best_industries": [
+      {
+        "label": "Software",
+        "count": 10
+      }
+    ],
+    "best_services": [
+      {
+        "label": "AI Recruiting Automation",
+        "count": 10
+      }
+    ],
+    "best_company_size": [
+      {
+        "label": "unknown",
+        "count": 10
+      }
+    ],
+    "best_connectors": [
+      {
+        "label": "yc",
+        "count": 10
+      }
+    ],
+    "best_why_now": [
+      {
+        "label": "YC portfolio company (Summer 2015) \u2014 expansion / growth context",
+        "count": 2
+      },
+      {
+        "label": "YC portfolio company (Winter 2012) \u2014 expansion / growth context",
+        "count": 2
+      },
+      {
+        "label": "YC portfolio company (Winter 2015) \u2014 expansion / growth context",
+        "count": 1
+      },
+      {
+        "label": "YC portfolio company (Winter 2017) \u2014 expansion / growth context",
+        "count": 1
+      },
+      {
+        "label": "YC portfolio company (Summer 2016) \u2014 expansion / growth context",
+        "count": 1
+      }
+    ],
+    "best_email_pattern": [
+      {
+        "label": "role",
+        "count": 10
+      }
+    ],
+    "best_dm_role": [
+      {
+        "label": "Founder / CEO",
+        "count": 8
+      },
+      {
+        "label": "Chief Executive Officer",
+        "count": 1
+      },
+      {
+        "label": "CEO",
+        "count": 1
+      }
+    ],
+    "most_common_objection": [
+      {
+        "label": "No Reply",
+        "count": 0
+      }
+    ],
+    "average_days_to_reply": null,
+    "average_days_to_meeting": null,
+    "average_days_to_close": null,
+    "note": "Analytics only. Never auto-changes scoring or readiness rules."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-08-08",
+  "version": "V9.1",
+  "total_discovered": 7,
+  "sales_ready": 0,
+  "needs_research": 7,
+  "rejected": 0,
+  "production_status": "PASS",
+  "invariant_tests": [
+    {
+      "test": "summary.sales_ready == actual count",
+      "pass": true
+    },
+    {
+      "test": "summary.needs_research == actual count",
+      "pass": true
+    },
+    {
+      "test": "summary.rejected == actual count",
+      "pass": true
+    },
+    {
+      "test": "SALES_READY contactability consistency",
+      "pass": true
+    },
+    {
+      "test": "SALES_READY contact ownership",
+      "pass": true
+    },
+    {
+      "test": "SALES_READY evidence consistency",
+      "pass": true
+    },
+    {
+      "test": "SALES_READY reproducibility",
+      "pass": true
+    },
+    {
+      "test": "SALES_READY CTO test",
+      "pass": true
+    }
+  ],
+  "sales_ready_details": [],
+  "rejected_details": []
+}

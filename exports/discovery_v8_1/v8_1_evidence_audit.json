@@ -1,0 +1,168 @@
+{
+  "audit_name": "V8.1 Evidence Audit",
+  "audit_date": "2026-08-08T22:32:22.411849",
+  "total_opportunities": 1,
+  "evidence": [
+    {
+      "opportunity_id": "V8-002",
+      "company": "Kilova",
+      "identity_resolution": {
+        "identity_status": "RESOLVED",
+        "person_name": "Paloma Chiara",
+        "person_role": "Founder",
+        "identity_confidence": "HIGH",
+        "identity_signals": 4,
+        "evidence": [],
+        "resolution_notes": [
+          "Already HIGH confidence - no resolution needed"
+        ]
+      },
+      "currentness_recheck": {
+        "currentness_status": "CURRENT",
+        "age_days": 26,
+        "recheck_performed": false,
+        "evidence": [],
+        "recheck_notes": [
+          "Already CURRENT and < 30 days - no recheck needed"
+        ],
+        "requirement_specific_evidence": true
+      },
+      "contact_verification": {
+        "contactability": "LOW",
+        "channels": [
+          {
+            "channel": "EMAIL",
+            "value": "kilova.app@gmail.com",
+            "status": "PUBLIC_UNVERIFIED",
+            "associated_with_person": false,
+            "associated_with_company": true,
+            "evidence": [
+              {
+                "claim": "Email status",
+                "value": "PUBLIC_UNVERIFIED",
+                "source": "Existing data",
+                "source_url": "",
+                "confidence": "PUBLIC_UNVERIFIED",
+                "observed_at": "2026-08-08T22:32:18.870675"
+              }
+            ]
+          },
+          {
+            "channel": "LINKEDIN",
+            "value": "https://linkedin.com/in/paloma-chiara",
+            "status": "UNKNOWN",
+            "associated_with_person": false,
+            "associated_with_company": false,
+            "evidence": [
+              {
+                "claim": "LinkedIn profile accessibility",
+                "value": "HTTP 999",
+                "source": "Direct URL access",
+                "source_url": "https://linkedin.com/in/paloma-chiara",
+                "confidence": "NOT_VERIFIED",
+                "observed_at": "2026-08-08T22:32:20.226345"
+              }
+            ]
+          },
+          {
+            "channel": "WEBSITE",
+            "value": "https://kilova.app/contact",
+            "status": "VERIFIED",
+            "associated_with_person": false,
+            "associated_with_company": true,
+            "evidence": [
+              {
+                "claim": "Company contact page exists",
+                "value": "https://kilova.app/contact",
+                "source": "Direct URL access",
+                "source_url": "https://kilova.app/contact",
+                "confidence": "VERIFIED",
+                "observed_at": "2026-08-08T22:32:22.406409"
+              }
+            ]
+          }
+        ],
+        "email_status": "PUBLIC_UNVERIFIED",
+        "linkedin_status": "UNKNOWN",
+        "linkedin_decision_maker_match": false,
+        "linkedin_company_match": false,
+        "phone_status": "UNKNOWN",
+        "platform_contact_status": "VERIFIED",
+        "verification_notes": [
+          "Email kilova.app@gmail.com status: PUBLIC_UNVERIFIED",
+          "LinkedIn not accessible: HTTP 999",
+          "Company contact page found: https://kilova.app/contact"
+        ]
+      },
+      "evidence_consistency": {
+        "overall_status": "PASS",
+        "results": [
+          {
+            "claim": "Original Reddit post accessed",
+            "status": "PASS",
+            "reason": "Evidence passes consistency checks",
+            "evidence_index": 0
+          },
+          {
+            "claim": "Reddit username verified",
+            "status": "PASS",
+            "reason": "Evidence passes consistency checks",
+            "evidence_index": 0
+          },
+          {
+            "claim": "LinkedIn profile found",
+            "status": "PASS",
+            "reason": "Evidence passes consistency checks",
+            "evidence_index": 1
+          },
+          {
+            "claim": "Company website verified",
+            "status": "PASS",
+            "reason": "Evidence passes consistency checks",
+            "evidence_index": 2
+          },
+          {
+            "claim": "Founder website verified",
+            "status": "PASS",
+            "reason": "Evidence passes consistency checks",
+            "evidence_index": 3
+          },
+          {
+            "claim": "Live web app with paying users",
+            "status": "PASS",
+            "reason": "Evidence passes consistency checks",
+            "evidence_index": 0
+          },
+          {
+            "claim": "Post date verified",
+            "status": "PASS",
+            "reason": "Evidence passes consistency checks",
+            "evidence_index": 0
+          },
+          {
+            "claim": "Post explicitly hiring developer",
+            "status": "PASS",
+            "reason": "Evidence passes consistency checks",
+            "evidence_index": 0
+          },
+          {
+            "claim": "Tech stack matches Inowix capabilities",
+            "status": "PASS",
+            "reason": "Evidence passes consistency checks",
+            "evidence_index": 0
+          },
+          {
+            "claim": "Multiple contact channels available",
+            "status": "PASS",
+            "reason": "Evidence passes consistency checks",
+            "evidence_index": 0
+          }
+        ],
+        "issues": [],
+        "warnings": []
+      },
+      "reproducibility_test": "FAIL",
+      "reproducibility_reason": "Contact not verified"
+    }
+  ]
+}

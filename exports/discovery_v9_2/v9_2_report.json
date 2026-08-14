@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-08-08",
+  "version": "V9.2",
+  "pipeline": "BUYING_EVENT -> CONTACT -> HUMAN_APPROVAL -> OUTREACH",
+  "discovered": 7,
+  "verified_opportunities": 7,
+  "needs_contact_research": 7,
+  "human_review": 7,
+  "approved_for_outreach": 0,
+  "rejected": 0,
+  "production_status": "PASS",
+  "invariant_tests": [
+    {
+      "test": "All opportunities are NEEDS_RESEARCH",
+      "pass": true
+    },
+    {
+      "test": "All opportunities have requirement_verified == TRUE",
+      "pass": true
+    },
+    {
+      "test": "All opportunities are CURRENT",
+      "pass": true
+    },
+    {
+      "test": "All opportunities have EXPLICIT outsourcing intent",
+      "pass": true
+    },
+    {
+      "test": "Contact research tasks match opportunity count",
+      "pass": true
+    },
+    {
+      "test": "All contact tasks are HUMAN_REVIEW_REQUIRED",
+      "pass": true
+    },
+    {
+      "test": "All founder decisions are PENDING",
+      "pass": true
+    },
+    {
+      "test": "No outreach cards generated (pending founder approval)",
+      "pass": true
+    },
+    {
+      "test": "No emails classified as VERIFIED",
+      "pass": true
+    }
+  ],
+  "research_priority": [
+    "Official company website",
+    "Founder/personal website",
+    "Official business email",
+    "Public founder/work email",
+    "LinkedIn profile",
+    "Official company LinkedIn",
+    "Original platform DM",
+    "Public business phone",
+    "Contact form"
+  ]
+}

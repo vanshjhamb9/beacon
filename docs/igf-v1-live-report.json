@@ -1,0 +1,91 @@
+{
+  "mission": "IGF v1 \u2014 Identity Graph Foundation",
+  "generated_at": "2026-07-23T23:08:18.636231+00:00",
+  "github_events_inserted": 4,
+  "rebuild": {
+    "signals": 1325,
+    "candidates": 1325,
+    "evidence_collected": 68,
+    "official_websites": 15,
+    "verified_companies": 16,
+    "merged": 1,
+    "rejected": 822,
+    "pending": 0,
+    "identity_precision": 1.91,
+    "business_emails": 0,
+    "decision_makers": 0,
+    "sales_ready": 0,
+    "revenue_ready": 0,
+    "top_sources": {
+      "github_trending": 16
+    },
+    "top_failures": {
+      "No Official Website": 1309,
+      "Conversation Source Cannot Create Identity": 462,
+      "Intent Source Cannot Create Identity": 25
+    },
+    "scoring_version": "igf-v1",
+    "companies_created_or_linked": 15,
+    "seeded_from_existing_companies": 11
+  },
+  "contact_recovery": {
+    "companies_scanned": 26,
+    "with_business_email": 9,
+    "with_decision_makers": 0
+  },
+  "dashboard": {
+    "scoring_version": "igf-v1",
+    "active_canonical": 26,
+    "pending_canonical": 0,
+    "funnel": {
+      "merged": 1,
+      "pending": 0,
+      "signals": 1325,
+      "rejected": 822,
+      "candidates": 1325,
+      "sales_ready": 0,
+      "top_sources": {
+        "github_trending": 16
+      },
+      "top_failures": {
+        "No Official Website": 1309,
+        "Intent Source Cannot Create Identity": 25,
+        "Conversation Source Cannot Create Identity": 462
+      },
+      "revenue_ready": 0,
+      "business_emails": 0,
+      "decision_makers": 0,
+      "scoring_version": "igf-v1",
+      "official_websites": 15,
+      "evidence_collected": 68,
+      "identity_precision": 1.91,
+      "verified_companies": 16
+    },
+    "signals": 1325,
+    "candidates": 1325,
+    "official_websites": 15,
+    "verified_companies": 16,
+    "top_sources": {
+      "github_trending": 16
+    },
+    "top_failures": {
+      "No Official Website": 1309,
+      "Intent Source Cannot Create Identity": 25,
+      "Conversation Source Cannot Create Identity": 462
+    },
+    "identity_precision": 1.91,
+    "revenue_ready_downstream": 0
+  },
+  "acceptance": {
+    "target_official_websites": 100,
+    "target_business_emails": 50,
+    "target_decision_makers": 30,
+    "target_revenue_ready": 20,
+    "official_websites": 15,
+    "verified_companies": 16,
+    "business_emails": 9,
+    "decision_makers": 0,
+    "revenue_ready": 0,
+    "production_locked": true
+  }
+}

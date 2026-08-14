@@ -1,0 +1,2078 @@
+[
+  {
+    "founder_name": "Praneeth Reddy",
+    "company_name": "Tall Bunny",
+    "location": "Telangana, India, Asia",
+    "job_title": "Founder and CEO",
+    "domain": "tallbunny.com",
+    "website": "https://tallbunny.com",
+    "emails": [
+      "hello@tallbunny.com"
+    ],
+    "phones": [
+      {
+        "value": "+919178082191",
+        "label": "business",
+        "source_url": "https://tallbunny.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918356164383",
+        "label": "business",
+        "source_url": "https://tallbunny.com/contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214503",
+        "label": "business",
+        "source_url": "bing:\"Praneeth Reddy\" \"Tall Bunny\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916966111002",
+        "label": "business",
+        "source_url": "bing:\"Praneeth Reddy\" \"Tall Bunny\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918385436679",
+        "label": "business",
+        "source_url": "bing:\"Praneeth Reddy\" \"Tall Bunny\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919037302066",
+        "label": "business",
+        "source_url": "bing:\"Praneeth Reddy\" \"Tall Bunny\" contact",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "https://www.linkedin.com/company/tallbunny",
+    "decision_makers": [
+      {
+        "name": "Tall Bunny",
+        "role": "Author",
+        "linkedin_url": "",
+        "source_url": "https://tallbunny.com",
+        "confidence": 0.8
+      },
+      {
+        "name": "Tall Bunny",
+        "role": "Author",
+        "linkedin_url": "",
+        "source_url": "https://tallbunny.com",
+        "confidence": 0.8
+      },
+      {
+        "name": "Tall Bunny",
+        "role": "Author",
+        "linkedin_url": "",
+        "source_url": "https://tallbunny.com/contact",
+        "confidence": 0.8
+      }
+    ],
+    "pages_scraped": 8,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Rashmi Tewari",
+    "company_name": "KredWorks",
+    "location": "India, Asia",
+    "job_title": "Founder",
+    "domain": "kredworks.com",
+    "website": "https://kredworks.com",
+    "emails": [
+      "enquiries.rashmigautam@gmail.com"
+    ],
+    "phones": [
+      {
+        "value": "+917291491420",
+        "label": "business",
+        "source_url": "https://kredworks.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214508",
+        "label": "business",
+        "source_url": "bing:\"Rashmi Tewari\" \"KredWorks\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919451110487",
+        "label": "business",
+        "source_url": "bing:\"Rashmi Tewari\" \"KredWorks\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918452749080",
+        "label": "business",
+        "source_url": "bing:\"Rashmi Tewari\" \"KredWorks\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918906391153",
+        "label": "business",
+        "source_url": "bing:\"Rashmi Tewari\" \"KredWorks\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917971369099",
+        "label": "business",
+        "source_url": "bing:\"Rashmi Tewari\" \"KredWorks\" contact",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "",
+    "decision_makers": [],
+    "pages_scraped": 2,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Sushmita Guha",
+    "company_name": "Dygic",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "job_title": "Founder & CEO",
+    "domain": "dygic.com",
+    "website": "https://dygic.com",
+    "emails": [
+      "bd@dygic.com"
+    ],
+    "phones": [
+      {
+        "value": "+919191376025",
+        "label": "business",
+        "source_url": "https://dygic.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919675731046",
+        "label": "business",
+        "source_url": "bing:\"Sushmita Guha\" \"Dygic\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214516",
+        "label": "business",
+        "source_url": "bing:\"Sushmita Guha\" \"Dygic\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918907848401",
+        "label": "business",
+        "source_url": "bing:\"Sushmita Guha\" \"Dygic\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918083206982",
+        "label": "business",
+        "source_url": "bing:\"Sushmita Guha\" \"Dygic\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918558590241",
+        "label": "business",
+        "source_url": "bing:\"Sushmita Guha\" \"Dygic\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919708200063",
+        "label": "business",
+        "source_url": "bing:\"Sushmita Guha\" \"Dygic\" contact",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "https://www.linkedin.com/company/dygic",
+    "decision_makers": [],
+    "pages_scraped": 2,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Vijaya Kumar B",
+    "company_name": "Adsspace",
+    "location": "Chennai, Tamil Nadu, India, Asia",
+    "job_title": "Founder",
+    "domain": "adsspace.in",
+    "website": "https://adsspace.in",
+    "emails": [
+      "connect@adsspace.in"
+    ],
+    "phones": [
+      {
+        "value": "+918056023808",
+        "label": "business",
+        "source_url": "https://adsspace.in/contact",
+        "confidence": 0.9
+      },
+      {
+        "value": "+919147842948",
+        "label": "business",
+        "source_url": "bing:\"Vijaya Kumar B\" \"Adsspace\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214535",
+        "label": "business",
+        "source_url": "bing:\"Vijaya Kumar B\" \"Adsspace\" email",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "",
+    "decision_makers": [],
+    "pages_scraped": 8,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Nischal Reddy",
+    "company_name": "Anirva Resources Private Limited",
+    "location": "Telangana, India, Asia",
+    "job_title": "Founder",
+    "domain": "anirvaresources.com",
+    "website": "https://anirvaresources.com",
+    "emails": [
+      "info@anirvaresources.com"
+    ],
+    "phones": [
+      {
+        "value": "+917452597981",
+        "label": "business",
+        "source_url": "https://anirvaresources.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918185088880",
+        "label": "business",
+        "source_url": "https://anirvaresources.com/contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917207600889",
+        "label": "business",
+        "source_url": "https://anirvaresources.com/contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916117797150",
+        "label": "business",
+        "source_url": "https://anirvaresources.com/about",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916739784838",
+        "label": "business",
+        "source_url": "https://anirvaresources.com/about",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916804723029",
+        "label": "business",
+        "source_url": "https://anirvaresources.com/about",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916175364285",
+        "label": "business",
+        "source_url": "https://anirvaresources.com/services",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916820163563",
+        "label": "business",
+        "source_url": "https://anirvaresources.com/services",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916881539128",
+        "label": "business",
+        "source_url": "https://anirvaresources.com/services",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916036166448",
+        "label": "business",
+        "source_url": "https://anirvaresources.com/services",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916713708160",
+        "label": "business",
+        "source_url": "https://anirvaresources.com/services",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214536",
+        "label": "business",
+        "source_url": "bing:\"Nischal Reddy\" \"Anirva Resources Private Limited\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917155208313",
+        "label": "business",
+        "source_url": "bing:\"Nischal Reddy\" \"Anirva Resources Private Limited\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919665326014",
+        "label": "business",
+        "source_url": "bing:\"Nischal Reddy\" \"Anirva Resources Private Limited\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918681253222",
+        "label": "business",
+        "source_url": "bing:\"Nischal Reddy\" \"Anirva Resources Private Limited\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917885886404",
+        "label": "business",
+        "source_url": "bing:\"Nischal Reddy\" \"Anirva Resources Private Limited\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918907677547",
+        "label": "business",
+        "source_url": "bing:\"Nischal Reddy\" \"Anirva Resources Private Limited\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918171744303",
+        "label": "business",
+        "source_url": "bing:\"Nischal Reddy\" \"Anirva Resources Private Limited\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919026138271",
+        "label": "business",
+        "source_url": "bing:\"Nischal Reddy\" \"Anirva Resources Private Limited\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916769720017",
+        "label": "business",
+        "source_url": "bing:\"Nischal Reddy\" \"Anirva Resources Private Limited\" contact",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "https://www.linkedin.com/company/anirvaresources",
+    "decision_makers": [],
+    "pages_scraped": 8,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Abhay Mandloi",
+    "company_name": "LBI Media",
+    "location": "Karnataka, India, Asia",
+    "job_title": "Founder CEO",
+    "domain": "lbimedia.in",
+    "website": "https://lbimedia.in",
+    "emails": [
+      "anmol@lbimedia.in"
+    ],
+    "phones": [
+      {
+        "value": "+916846297596",
+        "label": "business",
+        "source_url": "https://lbimedia.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919892578720",
+        "label": "business",
+        "source_url": "https://lbimedia.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919197432148",
+        "label": "business",
+        "source_url": "https://lbimedia.in/contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919999988897",
+        "label": "business",
+        "source_url": "https://lbimedia.in/contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917697537484",
+        "label": "business",
+        "source_url": "https://lbimedia.in/contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919576368331",
+        "label": "business",
+        "source_url": "https://lbimedia.in/contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919091796875",
+        "label": "business",
+        "source_url": "https://lbimedia.in/contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919743214849",
+        "label": "business",
+        "source_url": "https://lbimedia.in/contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214549",
+        "label": "business",
+        "source_url": "bing:\"Abhay Mandloi\" \"LBI Media\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919398586124",
+        "label": "business",
+        "source_url": "bing:\"Abhay Mandloi\" \"LBI Media\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917761063684",
+        "label": "business",
+        "source_url": "bing:\"Abhay Mandloi\" \"LBI Media\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919086175786",
+        "label": "business",
+        "source_url": "bing:\"Abhay Mandloi\" \"LBI Media\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917651533356",
+        "label": "business",
+        "source_url": "bing:\"Abhay Mandloi\" \"LBI Media\" contact",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "https://www.linkedin.com/company/lbimedia",
+    "decision_makers": [],
+    "pages_scraped": 4,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Mohammad",
+    "company_name": "Clickwave Solution",
+    "location": "Indore, Madhya Pradesh, India, Asia",
+    "job_title": "Founder",
+    "domain": "clickwavesolution.in",
+    "website": "https://clickwavesolution.in",
+    "emails": [
+      "asad@clickwavesolution.com"
+    ],
+    "phones": [
+      {
+        "value": "+919019607843",
+        "label": "business",
+        "source_url": "https://clickwavesolution.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919591617064",
+        "label": "business",
+        "source_url": "https://clickwavesolution.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919826978689",
+        "label": "business",
+        "source_url": "https://clickwavesolution.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214565",
+        "label": "business",
+        "source_url": "bing:\"Mohammad\" \"Clickwave Solution\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918094486606",
+        "label": "business",
+        "source_url": "bing:\"Mohammad\" \"Clickwave Solution\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919604137707",
+        "label": "business",
+        "source_url": "bing:\"Mohammad\" \"Clickwave Solution\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918210978197",
+        "label": "business",
+        "source_url": "bing:\"Mohammad\" \"Clickwave Solution\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916887450560",
+        "label": "business",
+        "source_url": "bing:\"Mohammad\" \"Clickwave Solution\" contact",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "https://www.linkedin.com/company/clickwave-solution",
+    "decision_makers": [],
+    "pages_scraped": 8,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Shivangi Jain",
+    "company_name": "By Gen.",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "job_title": "Founder",
+    "domain": "bygentlemen.com",
+    "website": "https://bygentlemen.com",
+    "emails": [
+      "service@bygentlemen.com"
+    ],
+    "phones": [
+      {
+        "value": "+917454079018",
+        "label": "business",
+        "source_url": "https://bygentlemen.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919030772629",
+        "label": "business",
+        "source_url": "bing:\"Shivangi Jain\" \"By Gen.\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214574",
+        "label": "business",
+        "source_url": "bing:\"Shivangi Jain\" \"By Gen.\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916982008326",
+        "label": "business",
+        "source_url": "bing:\"Shivangi Jain\" \"By Gen.\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919487504232",
+        "label": "business",
+        "source_url": "bing:\"Shivangi Jain\" \"By Gen.\" email",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "",
+    "decision_makers": [],
+    "pages_scraped": 2,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Jitesh Jaiswal",
+    "company_name": "Denken Technologies",
+    "location": "Aurangabad, Maharashtra, India, Asia",
+    "job_title": "Founder",
+    "domain": "denken.co.in",
+    "website": "https://denken.co.in",
+    "emails": [
+      "info@denken.co.in"
+    ],
+    "phones": [
+      {
+        "value": "+919898477157",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918129496402",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917575107296",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917936507936",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917261724659",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918056872037",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919875776397",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917653958944",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918571428571",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919344262295",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918983050847",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918762376237",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918499095840",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918734793187",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918477157360",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917510729613",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916507936507",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916172465960",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916872037914",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917577639751",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919589442815",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917142857142",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916229508196",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919830508474",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916237623762",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919909584086",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917931873479",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919198302692",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917715093743",
+        "label": "business",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918660355344",
+        "label": "business",
+        "source_url": "bing:\"Jitesh Jaiswal\" \"Denken Technologies\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214578",
+        "label": "business",
+        "source_url": "bing:\"Jitesh Jaiswal\" \"Denken Technologies\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917136342374",
+        "label": "business",
+        "source_url": "bing:\"Jitesh Jaiswal\" \"Denken Technologies\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918402834655",
+        "label": "business",
+        "source_url": "bing:\"Jitesh Jaiswal\" \"Denken Technologies\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917484611439",
+        "label": "business",
+        "source_url": "bing:\"Jitesh Jaiswal\" \"Denken Technologies\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919430289846",
+        "label": "business",
+        "source_url": "bing:\"Jitesh Jaiswal\" \"Denken Technologies\" contact",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "",
+    "decision_makers": [
+      {
+        "name": "Denken Research Consulting",
+        "role": "Author",
+        "linkedin_url": "",
+        "source_url": "https://denken.co.in",
+        "confidence": 0.8
+      },
+      {
+        "name": "Denken Research Consulting",
+        "role": "Author",
+        "linkedin_url": "",
+        "source_url": "https://www.denken.co.in",
+        "confidence": 0.8
+      }
+    ],
+    "pages_scraped": 2,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Akshat Mathur",
+    "company_name": "Better Collab",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "job_title": "Co-Founder & CEO",
+    "domain": "better-collaboration.com",
+    "website": "https://better-collaboration.com",
+    "emails": [
+      "mor@better-collaboration.com"
+    ],
+    "phones": [
+      {
+        "value": "+918848207069",
+        "label": "business",
+        "source_url": "https://better-collaboration.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919769524799",
+        "label": "business",
+        "source_url": "https://better-collaboration.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919725499966",
+        "label": "business",
+        "source_url": "https://better-collaboration.com/contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214581",
+        "label": "business",
+        "source_url": "bing:\"Akshat Mathur\" \"Better Collab\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918129621524",
+        "label": "business",
+        "source_url": "bing:\"Akshat Mathur\" \"Better Collab\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918530937139",
+        "label": "business",
+        "source_url": "bing:\"Akshat Mathur\" \"Better Collab\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918888106945",
+        "label": "business",
+        "source_url": "bing:\"Akshat Mathur\" \"Better Collab\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917643512165",
+        "label": "business",
+        "source_url": "bing:\"Akshat Mathur\" \"Better Collab\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918564791570",
+        "label": "business",
+        "source_url": "bing:\"Akshat Mathur\" \"Better Collab\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919025675839",
+        "label": "business",
+        "source_url": "bing:\"Akshat Mathur\" \"Better Collab\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919525236025",
+        "label": "business",
+        "source_url": "bing:\"Akshat Mathur\" \"Better Collab\" email",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "",
+    "decision_makers": [],
+    "pages_scraped": 6,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Nishi Makkar",
+    "company_name": "Light Buzz Media",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "job_title": "Founder",
+    "domain": "lightbuzzmedia.com",
+    "website": "https://lightbuzzmedia.com",
+    "emails": [
+      "contact@lightbuzzmedia.com"
+    ],
+    "phones": [
+      {
+        "value": "+917711914839",
+        "label": "business",
+        "source_url": "https://lightbuzzmedia.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918169373719",
+        "label": "business",
+        "source_url": "https://lightbuzzmedia.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919181856268",
+        "label": "business",
+        "source_url": "https://lightbuzzmedia.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214604",
+        "label": "business",
+        "source_url": "bing:\"Nishi Makkar\" \"Light Buzz Media\" email",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "https://www.linkedin.com/company/light-buzz-media",
+    "decision_makers": [],
+    "pages_scraped": 8,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Trishi Jain",
+    "company_name": "Tea Rose",
+    "location": "Kurla, Maharashtra, India, Asia",
+    "job_title": "Founder",
+    "domain": "tearosegarden.com",
+    "website": "https://tearosegarden.com",
+    "emails": [
+      "info@tearosegarden.com"
+    ],
+    "phones": [
+      {
+        "value": "+919736141583",
+        "label": "business",
+        "source_url": "https://tearosegarden.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916588661013",
+        "label": "business",
+        "source_url": "https://tearosegarden.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919253526733",
+        "label": "business",
+        "source_url": "https://tearosegarden.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917827664901",
+        "label": "business",
+        "source_url": "https://tearosegarden.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919606401871",
+        "label": "business",
+        "source_url": "https://tearosegarden.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918688995967",
+        "label": "business",
+        "source_url": "https://tearosegarden.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919138484816",
+        "label": "business",
+        "source_url": "https://tearosegarden.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919138504873",
+        "label": "business",
+        "source_url": "https://tearosegarden.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919424346481",
+        "label": "business",
+        "source_url": "https://tearosegarden.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916265781144",
+        "label": "business",
+        "source_url": "https://tearosegarden.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917846588209",
+        "label": "business",
+        "source_url": "https://tearosegarden.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916725365888",
+        "label": "business",
+        "source_url": "https://tearosegarden.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917304919925",
+        "label": "business",
+        "source_url": "https://tearosegarden.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917304919928",
+        "label": "business",
+        "source_url": "https://tearosegarden.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916673463030",
+        "label": "business",
+        "source_url": "https://tearosegarden.com/contact-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917038986751",
+        "label": "business",
+        "source_url": "https://tearosegarden.com/contact-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916881473742",
+        "label": "business",
+        "source_url": "https://tearosegarden.com/contact-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916881513684",
+        "label": "business",
+        "source_url": "https://tearosegarden.com/contact-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917159812095",
+        "label": "business",
+        "source_url": "https://tearosegarden.com/contact-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917159812096",
+        "label": "business",
+        "source_url": "https://tearosegarden.com/contact-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917189065289",
+        "label": "business",
+        "source_url": "https://tearosegarden.com/contact-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916582784628",
+        "label": "business",
+        "source_url": "https://tearosegarden.com/contact-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916673461584",
+        "label": "business",
+        "source_url": "https://tearosegarden.com/about-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916427183404",
+        "label": "business",
+        "source_url": "https://tearosegarden.com/about-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916427183405",
+        "label": "business",
+        "source_url": "https://tearosegarden.com/about-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918689950887",
+        "label": "business",
+        "source_url": "https://tearosegarden.com/about-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917458662226",
+        "label": "business",
+        "source_url": "https://tearosegarden.com/about-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916618124102",
+        "label": "business",
+        "source_url": "https://tearosegarden.com/about-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916467801020",
+        "label": "business",
+        "source_url": "bing:\"Trishi Jain\" \"Tea Rose\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214635",
+        "label": "business",
+        "source_url": "bing:\"Trishi Jain\" \"Tea Rose\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917432179468",
+        "label": "business",
+        "source_url": "bing:\"Trishi Jain\" \"Tea Rose\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916176118512",
+        "label": "business",
+        "source_url": "bing:\"Trishi Jain\" \"Tea Rose\" email",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "",
+    "decision_makers": [],
+    "pages_scraped": 6,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Karthik Dass",
+    "company_name": "Digitell Evolution",
+    "location": "Karnataka, India, Asia",
+    "job_title": "Founder",
+    "domain": "digitellevolution.com",
+    "website": "https://digitellevolution.com",
+    "emails": [
+      "info@digitellevolution.com"
+    ],
+    "phones": [
+      {
+        "value": "+919632753033",
+        "label": "business",
+        "source_url": "https://digitellevolution.com",
+        "confidence": 0.9
+      },
+      {
+        "value": "+917464173089",
+        "label": "business",
+        "source_url": "https://digitellevolution.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917464174594",
+        "label": "business",
+        "source_url": "https://digitellevolution.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917457749189",
+        "label": "business",
+        "source_url": "https://digitellevolution.com/pages/contact-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916318313294",
+        "label": "business",
+        "source_url": "https://digitellevolution.com/pages/about-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916705842666",
+        "label": "business",
+        "source_url": "https://digitellevolution.com/pages/about-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916359621953",
+        "label": "business",
+        "source_url": "https://digitellevolution.com/pages/about-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916044848137",
+        "label": "business",
+        "source_url": "https://digitellevolution.com/pages/about-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916759908865",
+        "label": "business",
+        "source_url": "https://digitellevolution.com/pages/about-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917104106388",
+        "label": "business",
+        "source_url": "bing:\"Karthik Dass\" \"Digitell Evolution\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214643",
+        "label": "business",
+        "source_url": "bing:\"Karthik Dass\" \"Digitell Evolution\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918613960271",
+        "label": "business",
+        "source_url": "bing:\"Karthik Dass\" \"Digitell Evolution\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918259936006",
+        "label": "business",
+        "source_url": "bing:\"Karthik Dass\" \"Digitell Evolution\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916877920639",
+        "label": "business",
+        "source_url": "bing:\"Karthik Dass\" \"Digitell Evolution\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919735100786",
+        "label": "business",
+        "source_url": "bing:\"Karthik Dass\" \"Digitell Evolution\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916142324807",
+        "label": "business",
+        "source_url": "bing:\"Karthik Dass\" \"Digitell Evolution\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916459981320",
+        "label": "business",
+        "source_url": "bing:\"Karthik Dass\" \"Digitell Evolution\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917352658920",
+        "label": "business",
+        "source_url": "bing:\"Karthik Dass\" \"Digitell Evolution\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918121405282",
+        "label": "business",
+        "source_url": "bing:\"Karthik Dass\" \"Digitell Evolution\" contact",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "",
+    "decision_makers": [],
+    "pages_scraped": 8,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Arun S",
+    "company_name": "Startyfy",
+    "location": "Bengaluru, Karnataka, India, Asia",
+    "job_title": "CEO and Co-Founder",
+    "domain": "startyfy.com",
+    "website": "https://startyfy.com",
+    "emails": [
+      "Info@startyfy.com"
+    ],
+    "phones": [
+      {
+        "value": "+919606022376",
+        "label": "business",
+        "source_url": "https://startyfy.com",
+        "confidence": 0.9
+      },
+      {
+        "value": "+919196060223",
+        "label": "business",
+        "source_url": "https://startyfy.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916156384690",
+        "label": "business",
+        "source_url": "https://startyfy.com/pages/about-us",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214653",
+        "label": "business",
+        "source_url": "bing:\"Arun S\" \"Startyfy\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919169484110",
+        "label": "business",
+        "source_url": "bing:\"Arun S\" \"Startyfy\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919105628291",
+        "label": "business",
+        "source_url": "bing:\"Arun S\" \"Startyfy\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918524284718",
+        "label": "business",
+        "source_url": "bing:\"Arun S\" \"Startyfy\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918169023647",
+        "label": "business",
+        "source_url": "bing:\"Arun S\" \"Startyfy\" contact",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "https://www.linkedin.com/company/startyfy",
+    "decision_makers": [],
+    "pages_scraped": 8,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Anand Shah",
+    "company_name": "Social Corner",
+    "location": "India, Asia",
+    "job_title": "Founder",
+    "domain": "socialcorner.com",
+    "website": "https://socialcorner.com",
+    "emails": [
+      "info@socialcorner.com"
+    ],
+    "phones": [
+      {
+        "value": "+917277244491",
+        "label": "business",
+        "source_url": "https://socialcorner.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214671",
+        "label": "business",
+        "source_url": "bing:\"Anand Shah\" \"Social Corner\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919121125899",
+        "label": "business",
+        "source_url": "bing:\"Anand Shah\" \"Social Corner\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917278969241",
+        "label": "business",
+        "source_url": "bing:\"Anand Shah\" \"Social Corner\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919491323617",
+        "label": "business",
+        "source_url": "bing:\"Anand Shah\" \"Social Corner\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919697436345",
+        "label": "business",
+        "source_url": "bing:\"Anand Shah\" \"Social Corner\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918996578102",
+        "label": "business",
+        "source_url": "bing:\"Anand Shah\" \"Social Corner\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918214692386",
+        "label": "business",
+        "source_url": "bing:\"Anand Shah\" \"Social Corner\" contact",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "",
+    "decision_makers": [],
+    "pages_scraped": 1,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Pranshu Bansal",
+    "company_name": "InstantAppointment AI",
+    "location": "India, Asia",
+    "job_title": "Founder",
+    "domain": "instantappointment-ai.com",
+    "website": "https://instantappointment-ai.com",
+    "emails": [
+      "team@instantappointment-ai.com"
+    ],
+    "phones": [
+      {
+        "value": "+917835923403",
+        "label": "business",
+        "source_url": "https://instantappointment-ai.com/contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214682",
+        "label": "business",
+        "source_url": "bing:\"Pranshu Bansal\" \"InstantAppointment AI\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917553294282",
+        "label": "business",
+        "source_url": "bing:\"Pranshu Bansal\" \"InstantAppointment AI\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919653543861",
+        "label": "business",
+        "source_url": "bing:\"Pranshu Bansal\" \"InstantAppointment AI\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916846810171",
+        "label": "business",
+        "source_url": "bing:\"Pranshu Bansal\" \"InstantAppointment AI\" contact",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "https://www.linkedin.com/company/instantestimate-ai",
+    "decision_makers": [],
+    "pages_scraped": 8,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Chhavi Saklani",
+    "company_name": "Tale A Weave",
+    "location": "India, Asia",
+    "job_title": "Founder",
+    "domain": "taleweave.in",
+    "website": "https://taleweave.in",
+    "emails": [
+      "info@taleweave.in"
+    ],
+    "phones": [
+      {
+        "value": "+919197450004",
+        "label": "business",
+        "source_url": "https://taleweave.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919745000434",
+        "label": "business",
+        "source_url": "https://taleweave.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214684",
+        "label": "business",
+        "source_url": "bing:\"Chhavi Saklani\" \"Tale A Weave\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916572367502",
+        "label": "business",
+        "source_url": "bing:\"Chhavi Saklani\" \"Tale A Weave\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917260177152",
+        "label": "business",
+        "source_url": "bing:\"Chhavi Saklani\" \"Tale A Weave\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916284910601",
+        "label": "business",
+        "source_url": "bing:\"Chhavi Saklani\" \"Tale A Weave\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918155233469",
+        "label": "business",
+        "source_url": "bing:\"Chhavi Saklani\" \"Tale A Weave\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917352701935",
+        "label": "business",
+        "source_url": "bing:\"Chhavi Saklani\" \"Tale A Weave\" contact",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "",
+    "decision_makers": [
+      {
+        "name": "Anne Wood",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "bing:\"Chhavi Saklani\" \"Tale A Weave\" contact",
+        "confidence": 0.85
+      }
+    ],
+    "pages_scraped": 6,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Keval Thakar",
+    "company_name": "Conversifyit",
+    "location": "Ahmedabad, Gujarat, India, Asia",
+    "job_title": "Founder",
+    "domain": "conversifyit.in",
+    "website": "https://conversifyit.in",
+    "emails": [
+      "info@conversifyit.in"
+    ],
+    "phones": [
+      {
+        "value": "+918849477326",
+        "label": "business",
+        "source_url": "https://conversifyit.in",
+        "confidence": 0.9
+      },
+      {
+        "value": "+916092589591",
+        "label": "business",
+        "source_url": "https://conversifyit.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918770660439",
+        "label": "business",
+        "source_url": "https://conversifyit.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916068575210",
+        "label": "business",
+        "source_url": "https://conversifyit.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919188494773",
+        "label": "business",
+        "source_url": "https://conversifyit.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918831260594",
+        "label": "business",
+        "source_url": "bing:\"Keval Thakar\" \"Conversifyit\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214691",
+        "label": "business",
+        "source_url": "bing:\"Keval Thakar\" \"Conversifyit\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918720656542",
+        "label": "business",
+        "source_url": "bing:\"Keval Thakar\" \"Conversifyit\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916115758196",
+        "label": "business",
+        "source_url": "bing:\"Keval Thakar\" \"Conversifyit\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917553603647",
+        "label": "business",
+        "source_url": "bing:\"Keval Thakar\" \"Conversifyit\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917968321002",
+        "label": "business",
+        "source_url": "bing:\"Keval Thakar\" \"Conversifyit\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918887669448",
+        "label": "business",
+        "source_url": "bing:\"Keval Thakar\" \"Conversifyit\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919503072834",
+        "label": "business",
+        "source_url": "bing:\"Keval Thakar\" \"Conversifyit\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918512950614",
+        "label": "business",
+        "source_url": "bing:\"Keval Thakar\" \"Conversifyit\" contact",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "",
+    "decision_makers": [
+      {
+        "name": "Keval Thakar",
+        "role": "Author",
+        "linkedin_url": "",
+        "source_url": "https://conversifyit.in",
+        "confidence": 0.8
+      },
+      {
+        "name": "Keval Thakar",
+        "role": "Author",
+        "linkedin_url": "",
+        "source_url": "https://www.conversifyit.in",
+        "confidence": 0.8
+      }
+    ],
+    "pages_scraped": 2,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Neha Gupta",
+    "company_name": "BHeard",
+    "location": "Mumbai, Maharashtra, India, Asia",
+    "job_title": "Founder",
+    "domain": "bheard.in",
+    "website": "https://bheard.in",
+    "emails": [
+      "hello@bheard.in"
+    ],
+    "phones": [
+      {
+        "value": "+919326602832",
+        "label": "business",
+        "source_url": "https://bheard.in",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918766140602",
+        "label": "business",
+        "source_url": "https://bheard.in/services",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916769825918",
+        "label": "business",
+        "source_url": "https://bheard.in/services",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917402760351",
+        "label": "business",
+        "source_url": "https://bheard.in/services",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917275390625",
+        "label": "business",
+        "source_url": "https://bheard.in/services",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916111626163",
+        "label": "business",
+        "source_url": "https://bheard.in/services",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917471702465",
+        "label": "business",
+        "source_url": "https://bheard.in/services",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916092589591",
+        "label": "business",
+        "source_url": "https://bheard.in/services",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916774421360",
+        "label": "business",
+        "source_url": "https://bheard.in/services",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214693",
+        "label": "business",
+        "source_url": "bing:\"Neha Gupta\" \"BHeard\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918710566903",
+        "label": "business",
+        "source_url": "bing:\"Neha Gupta\" \"BHeard\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919843219466",
+        "label": "business",
+        "source_url": "bing:\"Neha Gupta\" \"BHeard\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917508393009",
+        "label": "business",
+        "source_url": "bing:\"Neha Gupta\" \"BHeard\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916499574400",
+        "label": "business",
+        "source_url": "bing:\"Neha Gupta\" \"BHeard\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919373804953",
+        "label": "business",
+        "source_url": "bing:\"Neha Gupta\" \"BHeard\" contact",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "https://www.linkedin.com/in/nehagupta",
+    "linkedin_company_url": "https://www.linkedin.com/company/letsbheard",
+    "decision_makers": [
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in",
+        "confidence": 0.95
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in",
+        "confidence": 0.95
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/contact-us",
+        "confidence": 0.95
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/contact",
+        "confidence": 0.95
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about-us",
+        "confidence": 0.95
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about-us",
+        "confidence": 0.95
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about-us",
+        "confidence": 0.85
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about-us",
+        "confidence": 0.85
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about-us",
+        "confidence": 0.85
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about-us",
+        "confidence": 0.85
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about-us",
+        "confidence": 0.85
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about-us",
+        "confidence": 0.85
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about-us",
+        "confidence": 0.85
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about-us",
+        "confidence": 0.85
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about-us",
+        "confidence": 0.7
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about",
+        "confidence": 0.95
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about",
+        "confidence": 0.95
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about",
+        "confidence": 0.85
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about",
+        "confidence": 0.85
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about",
+        "confidence": 0.85
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about",
+        "confidence": 0.85
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about",
+        "confidence": 0.85
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about",
+        "confidence": 0.85
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about",
+        "confidence": 0.85
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about",
+        "confidence": 0.85
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/about",
+        "confidence": 0.7
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://bheard.in/services",
+        "confidence": 0.95
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://www.bheard.in",
+        "confidence": 0.95
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://www.bheard.in",
+        "confidence": 0.95
+      },
+      {
+        "name": "Neha Gupta",
+        "role": "Founder/CEO",
+        "linkedin_url": "",
+        "source_url": "https://www.bheard.in/contact-us",
+        "confidence": 0.95
+      }
+    ],
+    "pages_scraped": 8,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  },
+  {
+    "founder_name": "Harsh Verma",
+    "company_name": "Command Ads - Performance Marketing Agency",
+    "location": "Gurugram, Haryana, India, Asia",
+    "job_title": "Founder",
+    "domain": "commandads.com",
+    "website": "https://commandads.com",
+    "emails": [
+      "hello@commandads.com"
+    ],
+    "phones": [
+      {
+        "value": "+919168256825",
+        "label": "business",
+        "source_url": "https://commandads.com",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916392214697",
+        "label": "business",
+        "source_url": "bing:\"Harsh Verma\" \"Command Ads - Performance Marketing Agency\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918381136715",
+        "label": "business",
+        "source_url": "bing:\"Harsh Verma\" \"Command Ads - Performance Marketing Agency\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+918807911009",
+        "label": "business",
+        "source_url": "bing:\"Harsh Verma\" \"Command Ads - Performance Marketing Agency\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916522516145",
+        "label": "business",
+        "source_url": "bing:\"Harsh Verma\" \"Command Ads - Performance Marketing Agency\" email",
+        "confidence": 0.7
+      },
+      {
+        "value": "+917227122047",
+        "label": "business",
+        "source_url": "bing:\"Harsh Verma\" \"Command Ads - Performance Marketing Agency\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+916328708016",
+        "label": "business",
+        "source_url": "bing:\"Harsh Verma\" \"Command Ads - Performance Marketing Agency\" contact",
+        "confidence": 0.7
+      },
+      {
+        "value": "+919682667981",
+        "label": "business",
+        "source_url": "bing:\"Harsh Verma\" \"Command Ads - Performance Marketing Agency\" contact",
+        "confidence": 0.7
+      }
+    ],
+    "linkedin_person_url": "",
+    "linkedin_company_url": "https://www.linkedin.com/company/commandads",
+    "decision_makers": [
+      {
+        "name": "Command Ads",
+        "role": "Author",
+        "linkedin_url": "",
+        "source_url": "https://commandads.com",
+        "confidence": 0.8
+      },
+      {
+        "name": "Command Ads",
+        "role": "Author",
+        "linkedin_url": "",
+        "source_url": "https://www.commandads.com",
+        "confidence": 0.8
+      }
+    ],
+    "pages_scraped": 2,
+    "enrichment_status": "enriched",
+    "services_hint": null
+  }
+]

@@ -1,0 +1,79 @@
+======================================================================
+V8 PRODUCTION DISCOVERY + CONTACTABILITY ENGINE REPORT
+Generated: 2026-08-08T22:20:39.141525
+======================================================================
+
+DISCOVERY FUNNEL:
+  DISCOVERED: 5
+  ↓
+  EXACT SOURCE VERIFIED: 5
+  ↓
+  REQUIREMENT VERIFIED: 5
+  ↓
+  BUYER VERIFIED: 2
+  ↓
+  CURRENT: 1
+  ↓
+  EXPLICIT OUTSOURCING: 5
+  ↓
+  COMPANY VERIFIED: 2
+  ↓
+  CONTACTABLE: 2
+  ↓
+  SALES_READY: 1
+  NEEDS_RESEARCH: 0
+  REJECTED: 4
+
+======================================================================
+SALES_READY LEADS
+======================================================================
+
+V8-002: Kilova
+  Person: Paloma Chiara (HIGH)
+  Company: VERIFIED_ACTIVE
+  Contactability: HIGH
+  CTO 15-Min Test: YES
+
+======================================================================
+NEEDS_RESEARCH LEADS
+======================================================================
+
+  NO NEEDS_RESEARCH LEADS
+
+======================================================================
+REJECTED LEADS
+======================================================================
+
+V8-001: MarylandBid
+  Person: betapunch
+  Rejection Reasons:
+    - Currentness: STALE
+    - Identity confidence: MEDIUM (needs real name)
+    - Contactability: MEDIUM (no email/LinkedIn)
+
+V8-003: Entertainment News Publisher
+  Person: jason23a
+  Rejection Reasons:
+    - Decision maker identity not verified (only Reddit username)
+    - Company/publishing business not identified
+    - No email address found
+    - No LinkedIn profile found
+    - Contactability: LOW
+
+V8-004: Zolly
+  Person: Evening_Acadia_6021
+  Rejection Reasons:
+    - Decision maker identity not verified
+    - SaaS application 'Zolly' not found
+    - No email address found
+    - No LinkedIn profile found
+    - Contactability: NONE
+
+V8-005: Neurodivergent Products Startup
+  Person: Anonymous
+  Rejection Reasons:
+    - Anonymous identity - cannot verify decision maker
+    - No contact information available
+    - No company information available
+    - Contactability: NONE
+

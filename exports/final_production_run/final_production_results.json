@@ -1,0 +1,1510 @@
+{
+  "run_id": "final_production_20260808_200515",
+  "started_at": "2026-08-08T20:05:15.765750",
+  "completed_at": "2026-08-08T20:05:15.765757",
+  "summary": {
+    "total_candidates": 4,
+    "sales_ready": 0,
+    "needs_research": 3,
+    "rejected": 1
+  },
+  "results": [
+    {
+      "unique_id": "b03b1800f690",
+      "candidate": {
+        "author": "u/Nishchay_Jaiswal",
+        "text": "Looking for a developer / small studio that wants an AI SaaS case study. I'm 19 building a SaaS right now. We haven't launched publicly yet, but we're already at around $500 MRR from beta/design partners. We've posted a bit on Reddit and Twitter, generated around ~40k views, and ended up getting more beta user requests than we could actually take on, so I decided to start building toward a larger public launch. The product is basically an SEO agent for SaaS founders. It does a lot of the technical SEO/content work in the background instead of just spitting out generic AI blogs. The main wedge is that it's completely frictionless, so the agent can go from SERP analysis \u2192 content opportunity \u2192 draft \u2192 founder review \u2192 GitHub PR/publishing flow. The best part is that the whole thing is email-native. Founders can review drafts, answer questions, approve changes, and stay in the loop without having to constantly log into another dashboard. We're launching publicly in about 3 weeks, and I want to find someone technical who can help us increase our development velocity and ship a clearly scoped part of the product before launch. I'm looking for someone who's a strong full-stack developer, but maybe still early as a freelancer, starting a development agency, building a small product studio, or looking for a strong AI/SaaS case study. The stack is primarily TypeScript, Next.js, Supabase, APIs, and production SaaS infrastructure. On the backend, Tavyn uses a modular TypeScript pipeline that crawls websites, runs structured OpenAI workflows, validates outputs with Zod, pulls search data from Firecrawl, Serper, and DataForSEO, and caches results across each stage. I'm bootstrapping, so I have to be smart with cash, but I also know how hard it is to get your first few real clients/customers when you're starting out so there could be a win-win. You would help Tavyn ship a real product milestone, and in return, we would build a SaaS case study for you. Post product-launch I will definitely be open to paying the agency I work with if we have a good fit.",
+        "source_url": "https://www.reddit.com/r/SaaS/comments/1vh5tah/looking_for_a_developer_small_studio_that_wants/",
+        "source_type": "REDDIT",
+        "company_name": "Tavyn",
+        "project_name": "SEO Agent for SaaS Founders",
+        "created_at": "2026-08-08T08:00:00Z"
+      },
+      "gate_results": {
+        "source_verified": {
+          "gate": "source_verified",
+          "status": "PASS",
+          "source_url": "https://www.reddit.com/r/SaaS/comments/1vh5tah/looking_for_a_developer_small_studio_that_wants/",
+          "source_type": "REDDIT",
+          "evidence": "Source REDDIT URL provided",
+          "timestamp": "2026-08-08T20:05:15.764949",
+          "platform": "Reddit",
+          "verification_method": "Reddit post/submission"
+        },
+        "buyer_identity": {
+          "gate": "buyer_identity",
+          "status": "PASS",
+          "author": "u/Nishchay_Jaiswal",
+          "buyer_type": "BUYER",
+          "intent": "Seeking external development help",
+          "is_job_seeker": false,
+          "is_agency": false,
+          "is_buyer": true,
+          "should_continue": true,
+          "timestamp": "2026-08-08T20:05:15.765013"
+        },
+        "company_project_exists": {
+          "gate": "company_project_exists",
+          "status": "PASS",
+          "company_name": "Tavyn",
+          "project_name": "SEO Agent for SaaS Founders",
+          "has_company": true,
+          "has_project": true,
+          "company_evidence": [
+            "Mentions founding/launching",
+            "Mentions business metrics"
+          ],
+          "project_evidence": [
+            "Actively building",
+            "Mentioned app"
+          ],
+          "evidence_strength": 4,
+          "timestamp": "2026-08-08T20:05:15.765152"
+        },
+        "currentness": {
+          "gate": "currentness",
+          "status": "PASS",
+          "created_at": "2026-08-08T08:00:00Z",
+          "days_old": 0,
+          "urgency_signals": [],
+          "is_current": true,
+          "timestamp": "2026-08-08T20:05:15.765189"
+        },
+        "outsourcing_intent": {
+          "gate": "outsourcing_intent",
+          "status": "PASS",
+          "outsourcing_signals": [
+            "Seeking developer/studio",
+            "Seeking freelance help",
+            "Seeking agency",
+            "Building app/platform",
+            "Needs API work",
+            "Mentioned price"
+          ],
+          "signal_count": 6,
+          "has_outsourcing_intent": true,
+          "timestamp": "2026-08-08T20:05:15.765233"
+        },
+        "service_match": {
+          "gate": "service_match",
+          "status": "PASS",
+          "matches": {
+            "SAAS_DEVELOPMENT": {
+              "matched_keywords": [
+                "ai saas"
+              ],
+              "confidence": 0.3
+            }
+          },
+          "primary_service": "SAAS_DEVELOPMENT",
+          "primary_confidence": 0.3,
+          "timestamp": "2026-08-08T20:05:15.765299"
+        },
+        "contact_available": {
+          "gate": "contact_available",
+          "status": "PASS",
+          "contact_channels": [
+            {
+              "channel": "REDDIT_DM",
+              "handle": "u/Nishchay_Jaiswal",
+              "verified": false,
+              "status": "PLATFORM_DM"
+            }
+          ],
+          "primary_contact": {
+            "channel": "REDDIT_DM",
+            "handle": "u/Nishchay_Jaiswal",
+            "verified": false,
+            "status": "PLATFORM_DM"
+          },
+          "contact_owner": "SYSTEM",
+          "contact_owner_match": "LIKELY",
+          "timestamp": "2026-08-08T20:05:15.765312"
+        },
+        "no_fabrication": {
+          "gate": "no_fabrication",
+          "status": "PASS",
+          "timestamp": "2026-08-08T20:05:15.765322"
+        },
+        "founder_approval": {
+          "gate": "founder_approval",
+          "status": "FAIL",
+          "requires_approval": true,
+          "timestamp": "2026-08-08T20:05:15.765330"
+        },
+        "reproducibility": {
+          "gate": "reproducibility",
+          "status": "PASS",
+          "timestamp": "2026-08-08T20:05:15.765338"
+        },
+        "final_classification": {
+          "gate": "final_classification",
+          "status": "PASS",
+          "final_status": "NEEDS_RESEARCH",
+          "priority": "MEDIUM",
+          "confidence": 0.6,
+          "passing_gates": [
+            "source_verified",
+            "buyer_identity",
+            "company_project_exists",
+            "currentness",
+            "outsourcing_intent",
+            "service_match",
+            "contact_available",
+            "no_fabrication",
+            "reproducibility"
+          ],
+          "failing_gates": [
+            "founder_approval"
+          ],
+          "critical_passing": [
+            "source_verified",
+            "buyer_identity",
+            "company_project_exists",
+            "currentness",
+            "outsourcing_intent",
+            "service_match",
+            "contact_available",
+            "no_fabrication"
+          ],
+          "critical_failing": [
+            "founder_approval"
+          ],
+          "total_passing": 9,
+          "total_failing": 1,
+          "timestamp": "2026-08-08T20:05:15.765354"
+        },
+        "outreach_draft": {
+          "gate": "outreach_draft",
+          "status": "PASS",
+          "channel_type": "REDDIT_DM",
+          "recipient": "u/Nishchay_Jaiswal",
+          "subject": "Help with your app, API",
+          "message": "Hi u/Nishchay_Jaiswal,\n\nI came across your post about your project and noticed you're looking for development help. \n\nAt Inowix, we specialize in SAAS_DEVELOPMENT and have helped startups build similar solutions.\n\nWe'd be happy to discuss how we can help bring your vision to life. Would you be open to a quick chat?\n\nBest regards,\nVansh",
+          "project_details": [
+            "app",
+            "API",
+            "backend"
+          ],
+          "primary_service": "SAAS_DEVELOPMENT",
+          "requires_approval": true,
+          "timestamp": "2026-08-08T20:05:15.765434"
+        }
+      },
+      "final_status": "NEEDS_RESEARCH",
+      "priority": "MEDIUM",
+      "confidence": 0.6,
+      "passing_gates": [
+        "source_verified",
+        "buyer_identity",
+        "company_project_exists",
+        "currentness",
+        "outsourcing_intent",
+        "service_match",
+        "contact_available",
+        "no_fabrication",
+        "reproducibility"
+      ],
+      "failing_gates": [
+        "founder_approval"
+      ],
+      "processed_at": "2026-08-08T20:05:15.765444"
+    },
+    {
+      "unique_id": "e42147a94b3e",
+      "candidate": {
+        "author": "u/kevin222",
+        "text": "Hey everyone I'm building an agentic AI marketing startup focused on helping companies grow through intent-driven content and AI search (beyond traditional SEO), using real user insights from communities like Reddit. I'm looking for a technical or product-minded co-founder interested in AI, LLMs, and fast iteration to build this together. If you're excited about the future of search and marketing, let's chat.",
+        "source_url": "https://www.indiehackers.com/post/looking-for-technical-co-founder-389cbb43c8",
+        "source_type": "INDIEHACKERS",
+        "company_name": "",
+        "project_name": "Agentic AI Marketing Startup",
+        "created_at": "2026-03-17T12:00:00Z"
+      },
+      "gate_results": {
+        "source_verified": {
+          "gate": "source_verified",
+          "status": "PASS",
+          "source_url": "https://www.indiehackers.com/post/looking-for-technical-co-founder-389cbb43c8",
+          "source_type": "INDIEHACKERS",
+          "evidence": "Source INDIEHACKERS URL provided",
+          "timestamp": "2026-08-08T20:05:15.765460",
+          "platform": "IndieHackers",
+          "verification_method": "IH post"
+        },
+        "buyer_identity": {
+          "gate": "buyer_identity",
+          "status": "PASS",
+          "author": "u/kevin222",
+          "buyer_type": "BUYER",
+          "intent": "Seeking external development help",
+          "is_job_seeker": false,
+          "is_agency": false,
+          "is_buyer": true,
+          "should_continue": true,
+          "timestamp": "2026-08-08T20:05:15.765476"
+        },
+        "company_project_exists": {
+          "gate": "company_project_exists",
+          "status": "FAIL",
+          "company_name": "",
+          "project_name": "Agentic AI Marketing Startup",
+          "has_company": false,
+          "has_project": true,
+          "company_evidence": [],
+          "project_evidence": [
+            "Actively building"
+          ],
+          "evidence_strength": 1,
+          "timestamp": "2026-08-08T20:05:15.765489"
+        },
+        "currentness": {
+          "gate": "currentness",
+          "status": "FAIL",
+          "created_at": "2026-03-17T12:00:00Z",
+          "days_old": 144,
+          "urgency_signals": [],
+          "is_current": false,
+          "timestamp": "2026-08-08T20:05:15.765498"
+        },
+        "outsourcing_intent": {
+          "gate": "outsourcing_intent",
+          "status": "FAIL",
+          "outsourcing_signals": [],
+          "signal_count": 0,
+          "has_outsourcing_intent": false,
+          "timestamp": "2026-08-08T20:05:15.765509"
+        },
+        "service_match": {
+          "gate": "service_match",
+          "status": "FAIL",
+          "matches": {},
+          "primary_service": null,
+          "primary_confidence": 0.0,
+          "timestamp": "2026-08-08T20:05:15.765528"
+        },
+        "contact_available": {
+          "gate": "contact_available",
+          "status": "PASS",
+          "contact_channels": [
+            {
+              "channel": "INDIEHACKERS_DM",
+              "handle": "u/kevin222",
+              "verified": false,
+              "status": "PLATFORM_DM"
+            }
+          ],
+          "primary_contact": {
+            "channel": "INDIEHACKERS_DM",
+            "handle": "u/kevin222",
+            "verified": false,
+            "status": "PLATFORM_DM"
+          },
+          "contact_owner": "SYSTEM",
+          "contact_owner_match": "LIKELY",
+          "timestamp": "2026-08-08T20:05:15.765534"
+        },
+        "no_fabrication": {
+          "gate": "no_fabrication",
+          "status": "PASS",
+          "timestamp": "2026-08-08T20:05:15.765537"
+        },
+        "founder_approval": {
+          "gate": "founder_approval",
+          "status": "FAIL",
+          "requires_approval": true,
+          "timestamp": "2026-08-08T20:05:15.765540"
+        },
+        "reproducibility": {
+          "gate": "reproducibility",
+          "status": "PASS",
+          "timestamp": "2026-08-08T20:05:15.765542"
+        },
+        "final_classification": {
+          "gate": "final_classification",
+          "status": "PASS",
+          "final_status": "NEEDS_RESEARCH",
+          "priority": "MEDIUM",
+          "confidence": 0.6,
+          "passing_gates": [
+            "source_verified",
+            "buyer_identity",
+            "contact_available",
+            "no_fabrication",
+            "reproducibility"
+          ],
+          "failing_gates": [
+            "company_project_exists",
+            "currentness",
+            "outsourcing_intent",
+            "service_match",
+            "founder_approval"
+          ],
+          "critical_passing": [
+            "source_verified",
+            "buyer_identity",
+            "contact_available",
+            "no_fabrication"
+          ],
+          "critical_failing": [
+            "company_project_exists",
+            "currentness",
+            "outsourcing_intent",
+            "service_match",
+            "founder_approval"
+          ],
+          "total_passing": 5,
+          "total_failing": 5,
+          "timestamp": "2026-08-08T20:05:15.765548"
+        },
+        "outreach_draft": {
+          "gate": "outreach_draft",
+          "status": "PASS",
+          "channel_type": "INDIEHACKERS_DM",
+          "recipient": "u/kevin222",
+          "subject": "Help with your project",
+          "message": "Hi u/kevin222,\n\nSaw your post and wanted to reach out. We at Inowix help founders build software solutions - looks like we could help with your project.\n\nWould love to learn more about what you're building. Open to a quick conversation?\n\nBest,\nVansh",
+          "project_details": [],
+          "primary_service": null,
+          "requires_approval": true,
+          "timestamp": "2026-08-08T20:05:15.765559"
+        }
+      },
+      "final_status": "NEEDS_RESEARCH",
+      "priority": "MEDIUM",
+      "confidence": 0.6,
+      "passing_gates": [
+        "source_verified",
+        "buyer_identity",
+        "contact_available",
+        "no_fabrication",
+        "reproducibility"
+      ],
+      "failing_gates": [
+        "company_project_exists",
+        "currentness",
+        "outsourcing_intent",
+        "service_match",
+        "founder_approval"
+      ],
+      "processed_at": "2026-08-08T20:05:15.765562"
+    },
+    {
+      "unique_id": "80867e65ecf2",
+      "candidate": {
+        "author": "u/polo3polo",
+        "text": "A wheel-of-fortune dating idea. Hear me out... Looking for feedback on this dating app concept. Would love to hear thoughts on feasibility and if anyone has built something similar.",
+        "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1vbozk0/a_wheeloffortune_dating_idea_hear_me_out/",
+        "source_type": "REDDIT",
+        "company_name": "",
+        "project_name": "Dating App Concept",
+        "created_at": "2026-08-07T14:30:00Z"
+      },
+      "gate_results": {
+        "source_verified": {
+          "gate": "source_verified",
+          "status": "PASS",
+          "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1vbozk0/a_wheeloffortune_dating_idea_hear_me_out/",
+          "source_type": "REDDIT",
+          "evidence": "Source REDDIT URL provided",
+          "timestamp": "2026-08-08T20:05:15.765574",
+          "platform": "Reddit",
+          "verification_method": "Reddit post/submission"
+        },
+        "buyer_identity": {
+          "gate": "buyer_identity",
+          "status": "FAIL",
+          "author": "u/polo3polo",
+          "buyer_type": "UNCERTAIN",
+          "intent": "Unclear intent",
+          "is_job_seeker": false,
+          "is_agency": false,
+          "is_buyer": false,
+          "should_continue": false,
+          "timestamp": "2026-08-08T20:05:15.765584"
+        },
+        "company_project_exists": {
+          "gate": "company_project_exists",
+          "status": "FAIL",
+          "company_name": "",
+          "project_name": "Dating App Concept",
+          "has_company": false,
+          "has_project": true,
+          "company_evidence": [],
+          "project_evidence": [
+            "Mentioned app"
+          ],
+          "evidence_strength": 1,
+          "timestamp": "2026-08-08T20:05:15.765592"
+        },
+        "currentness": {
+          "gate": "currentness",
+          "status": "PASS",
+          "created_at": "2026-08-07T14:30:00Z",
+          "days_old": 1,
+          "urgency_signals": [],
+          "is_current": true,
+          "timestamp": "2026-08-08T20:05:15.765597"
+        },
+        "outsourcing_intent": {
+          "gate": "outsourcing_intent",
+          "status": "FAIL",
+          "outsourcing_signals": [],
+          "signal_count": 0,
+          "has_outsourcing_intent": false,
+          "timestamp": "2026-08-08T20:05:15.765604"
+        },
+        "service_match": {
+          "gate": "service_match",
+          "status": "FAIL",
+          "matches": {},
+          "primary_service": null,
+          "primary_confidence": 0.0,
+          "timestamp": "2026-08-08T20:05:15.765612"
+        },
+        "contact_available": {
+          "gate": "contact_available",
+          "status": "PASS",
+          "contact_channels": [
+            {
+              "channel": "REDDIT_DM",
+              "handle": "u/polo3polo",
+              "verified": false,
+              "status": "PLATFORM_DM"
+            }
+          ],
+          "primary_contact": {
+            "channel": "REDDIT_DM",
+            "handle": "u/polo3polo",
+            "verified": false,
+            "status": "PLATFORM_DM"
+          },
+          "contact_owner": "SYSTEM",
+          "contact_owner_match": "LIKELY",
+          "timestamp": "2026-08-08T20:05:15.765617"
+        },
+        "no_fabrication": {
+          "gate": "no_fabrication",
+          "status": "PASS",
+          "timestamp": "2026-08-08T20:05:15.765619"
+        },
+        "founder_approval": {
+          "gate": "founder_approval",
+          "status": "FAIL",
+          "requires_approval": true,
+          "timestamp": "2026-08-08T20:05:15.765621"
+        },
+        "reproducibility": {
+          "gate": "reproducibility",
+          "status": "PASS",
+          "timestamp": "2026-08-08T20:05:15.765623"
+        },
+        "final_classification": {
+          "gate": "final_classification",
+          "status": "FAIL",
+          "final_status": "REJECTED",
+          "priority": "LOW",
+          "confidence": 0.3,
+          "passing_gates": [
+            "source_verified",
+            "currentness",
+            "contact_available",
+            "no_fabrication",
+            "reproducibility"
+          ],
+          "failing_gates": [
+            "buyer_identity",
+            "company_project_exists",
+            "outsourcing_intent",
+            "service_match",
+            "founder_approval"
+          ],
+          "critical_passing": [
+            "source_verified",
+            "currentness",
+            "contact_available",
+            "no_fabrication"
+          ],
+          "critical_failing": [
+            "buyer_identity",
+            "company_project_exists",
+            "outsourcing_intent",
+            "service_match",
+            "founder_approval"
+          ],
+          "total_passing": 5,
+          "total_failing": 5,
+          "timestamp": "2026-08-08T20:05:15.765629"
+        }
+      },
+      "final_status": "REJECTED",
+      "priority": "LOW",
+      "confidence": 0.3,
+      "passing_gates": [
+        "source_verified",
+        "currentness",
+        "contact_available",
+        "no_fabrication",
+        "reproducibility"
+      ],
+      "failing_gates": [
+        "buyer_identity",
+        "company_project_exists",
+        "outsourcing_intent",
+        "service_match",
+        "founder_approval"
+      ],
+      "processed_at": "2026-08-08T20:05:15.765637"
+    },
+    {
+      "unique_id": "fbbaa1a9200e",
+      "candidate": {
+        "author": "u/New_Meaning4589",
+        "text": "Last day as an employee - Probably forever. Serial Entrepreneur. Just quit my job to go full-time on my businesses. Looking for technical partners to help build out some of my ideas.",
+        "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1vb0wpg/last_day_as_an_employee_probably_forever/",
+        "source_type": "REDDIT",
+        "company_name": "",
+        "project_name": "Multiple Business Ideas",
+        "created_at": "2026-08-06T10:00:00Z"
+      },
+      "gate_results": {
+        "source_verified": {
+          "gate": "source_verified",
+          "status": "PASS",
+          "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1vb0wpg/last_day_as_an_employee_probably_forever/",
+          "source_type": "REDDIT",
+          "evidence": "Source REDDIT URL provided",
+          "timestamp": "2026-08-08T20:05:15.765646",
+          "platform": "Reddit",
+          "verification_method": "Reddit post/submission"
+        },
+        "buyer_identity": {
+          "gate": "buyer_identity",
+          "status": "PASS",
+          "author": "u/New_Meaning4589",
+          "buyer_type": "BUYER",
+          "intent": "Seeking external development help",
+          "is_job_seeker": false,
+          "is_agency": false,
+          "is_buyer": true,
+          "should_continue": true,
+          "timestamp": "2026-08-08T20:05:15.765656"
+        },
+        "company_project_exists": {
+          "gate": "company_project_exists",
+          "status": "FAIL",
+          "company_name": "",
+          "project_name": "Multiple Business Ideas",
+          "has_company": false,
+          "has_project": true,
+          "company_evidence": [],
+          "project_evidence": [],
+          "evidence_strength": 0,
+          "timestamp": "2026-08-08T20:05:15.765663"
+        },
+        "currentness": {
+          "gate": "currentness",
+          "status": "PASS",
+          "created_at": "2026-08-06T10:00:00Z",
+          "days_old": 2,
+          "urgency_signals": [],
+          "is_current": true,
+          "timestamp": "2026-08-08T20:05:15.765668"
+        },
+        "outsourcing_intent": {
+          "gate": "outsourcing_intent",
+          "status": "FAIL",
+          "outsourcing_signals": [],
+          "signal_count": 0,
+          "has_outsourcing_intent": false,
+          "timestamp": "2026-08-08T20:05:15.765674"
+        },
+        "service_match": {
+          "gate": "service_match",
+          "status": "FAIL",
+          "matches": {},
+          "primary_service": null,
+          "primary_confidence": 0.0,
+          "timestamp": "2026-08-08T20:05:15.765682"
+        },
+        "contact_available": {
+          "gate": "contact_available",
+          "status": "PASS",
+          "contact_channels": [
+            {
+              "channel": "REDDIT_DM",
+              "handle": "u/New_Meaning4589",
+              "verified": false,
+              "status": "PLATFORM_DM"
+            }
+          ],
+          "primary_contact": {
+            "channel": "REDDIT_DM",
+            "handle": "u/New_Meaning4589",
+            "verified": false,
+            "status": "PLATFORM_DM"
+          },
+          "contact_owner": "SYSTEM",
+          "contact_owner_match": "LIKELY",
+          "timestamp": "2026-08-08T20:05:15.765687"
+        },
+        "no_fabrication": {
+          "gate": "no_fabrication",
+          "status": "PASS",
+          "timestamp": "2026-08-08T20:05:15.765690"
+        },
+        "founder_approval": {
+          "gate": "founder_approval",
+          "status": "FAIL",
+          "requires_approval": true,
+          "timestamp": "2026-08-08T20:05:15.765691"
+        },
+        "reproducibility": {
+          "gate": "reproducibility",
+          "status": "PASS",
+          "timestamp": "2026-08-08T20:05:15.765693"
+        },
+        "final_classification": {
+          "gate": "final_classification",
+          "status": "PASS",
+          "final_status": "NEEDS_RESEARCH",
+          "priority": "MEDIUM",
+          "confidence": 0.6,
+          "passing_gates": [
+            "source_verified",
+            "buyer_identity",
+            "currentness",
+            "contact_available",
+            "no_fabrication",
+            "reproducibility"
+          ],
+          "failing_gates": [
+            "company_project_exists",
+            "outsourcing_intent",
+            "service_match",
+            "founder_approval"
+          ],
+          "critical_passing": [
+            "source_verified",
+            "buyer_identity",
+            "currentness",
+            "contact_available",
+            "no_fabrication"
+          ],
+          "critical_failing": [
+            "company_project_exists",
+            "outsourcing_intent",
+            "service_match",
+            "founder_approval"
+          ],
+          "total_passing": 6,
+          "total_failing": 4,
+          "timestamp": "2026-08-08T20:05:15.765699"
+        },
+        "outreach_draft": {
+          "gate": "outreach_draft",
+          "status": "PASS",
+          "channel_type": "REDDIT_DM",
+          "recipient": "u/New_Meaning4589",
+          "subject": "Help with your project",
+          "message": "Hi u/New_Meaning4589,\n\nI came across your post about your project and noticed you're looking for development help. \n\nAt Inowix, we specialize in custom software development and have helped startups build similar solutions.\n\nWe'd be happy to discuss how we can help bring your vision to life. Would you be open to a quick chat?\n\nBest regards,\nVansh",
+          "project_details": [],
+          "primary_service": null,
+          "requires_approval": true,
+          "timestamp": "2026-08-08T20:05:15.765706"
+        }
+      },
+      "final_status": "NEEDS_RESEARCH",
+      "priority": "MEDIUM",
+      "confidence": 0.6,
+      "passing_gates": [
+        "source_verified",
+        "buyer_identity",
+        "currentness",
+        "contact_available",
+        "no_fabrication",
+        "reproducibility"
+      ],
+      "failing_gates": [
+        "company_project_exists",
+        "outsourcing_intent",
+        "service_match",
+        "founder_approval"
+      ],
+      "processed_at": "2026-08-08T20:05:15.765710"
+    }
+  ],
+  "sales_ready": [],
+  "needs_research": [
+    {
+      "unique_id": "b03b1800f690",
+      "candidate": {
+        "author": "u/Nishchay_Jaiswal",
+        "text": "Looking for a developer / small studio that wants an AI SaaS case study. I'm 19 building a SaaS right now. We haven't launched publicly yet, but we're already at around $500 MRR from beta/design partners. We've posted a bit on Reddit and Twitter, generated around ~40k views, and ended up getting more beta user requests than we could actually take on, so I decided to start building toward a larger public launch. The product is basically an SEO agent for SaaS founders. It does a lot of the technical SEO/content work in the background instead of just spitting out generic AI blogs. The main wedge is that it's completely frictionless, so the agent can go from SERP analysis \u2192 content opportunity \u2192 draft \u2192 founder review \u2192 GitHub PR/publishing flow. The best part is that the whole thing is email-native. Founders can review drafts, answer questions, approve changes, and stay in the loop without having to constantly log into another dashboard. We're launching publicly in about 3 weeks, and I want to find someone technical who can help us increase our development velocity and ship a clearly scoped part of the product before launch. I'm looking for someone who's a strong full-stack developer, but maybe still early as a freelancer, starting a development agency, building a small product studio, or looking for a strong AI/SaaS case study. The stack is primarily TypeScript, Next.js, Supabase, APIs, and production SaaS infrastructure. On the backend, Tavyn uses a modular TypeScript pipeline that crawls websites, runs structured OpenAI workflows, validates outputs with Zod, pulls search data from Firecrawl, Serper, and DataForSEO, and caches results across each stage. I'm bootstrapping, so I have to be smart with cash, but I also know how hard it is to get your first few real clients/customers when you're starting out so there could be a win-win. You would help Tavyn ship a real product milestone, and in return, we would build a SaaS case study for you. Post product-launch I will definitely be open to paying the agency I work with if we have a good fit.",
+        "source_url": "https://www.reddit.com/r/SaaS/comments/1vh5tah/looking_for_a_developer_small_studio_that_wants/",
+        "source_type": "REDDIT",
+        "company_name": "Tavyn",
+        "project_name": "SEO Agent for SaaS Founders",
+        "created_at": "2026-08-08T08:00:00Z"
+      },
+      "gate_results": {
+        "source_verified": {
+          "gate": "source_verified",
+          "status": "PASS",
+          "source_url": "https://www.reddit.com/r/SaaS/comments/1vh5tah/looking_for_a_developer_small_studio_that_wants/",
+          "source_type": "REDDIT",
+          "evidence": "Source REDDIT URL provided",
+          "timestamp": "2026-08-08T20:05:15.764949",
+          "platform": "Reddit",
+          "verification_method": "Reddit post/submission"
+        },
+        "buyer_identity": {
+          "gate": "buyer_identity",
+          "status": "PASS",
+          "author": "u/Nishchay_Jaiswal",
+          "buyer_type": "BUYER",
+          "intent": "Seeking external development help",
+          "is_job_seeker": false,
+          "is_agency": false,
+          "is_buyer": true,
+          "should_continue": true,
+          "timestamp": "2026-08-08T20:05:15.765013"
+        },
+        "company_project_exists": {
+          "gate": "company_project_exists",
+          "status": "PASS",
+          "company_name": "Tavyn",
+          "project_name": "SEO Agent for SaaS Founders",
+          "has_company": true,
+          "has_project": true,
+          "company_evidence": [
+            "Mentions founding/launching",
+            "Mentions business metrics"
+          ],
+          "project_evidence": [
+            "Actively building",
+            "Mentioned app"
+          ],
+          "evidence_strength": 4,
+          "timestamp": "2026-08-08T20:05:15.765152"
+        },
+        "currentness": {
+          "gate": "currentness",
+          "status": "PASS",
+          "created_at": "2026-08-08T08:00:00Z",
+          "days_old": 0,
+          "urgency_signals": [],
+          "is_current": true,
+          "timestamp": "2026-08-08T20:05:15.765189"
+        },
+        "outsourcing_intent": {
+          "gate": "outsourcing_intent",
+          "status": "PASS",
+          "outsourcing_signals": [
+            "Seeking developer/studio",
+            "Seeking freelance help",
+            "Seeking agency",
+            "Building app/platform",
+            "Needs API work",
+            "Mentioned price"
+          ],
+          "signal_count": 6,
+          "has_outsourcing_intent": true,
+          "timestamp": "2026-08-08T20:05:15.765233"
+        },
+        "service_match": {
+          "gate": "service_match",
+          "status": "PASS",
+          "matches": {
+            "SAAS_DEVELOPMENT": {
+              "matched_keywords": [
+                "ai saas"
+              ],
+              "confidence": 0.3
+            }
+          },
+          "primary_service": "SAAS_DEVELOPMENT",
+          "primary_confidence": 0.3,
+          "timestamp": "2026-08-08T20:05:15.765299"
+        },
+        "contact_available": {
+          "gate": "contact_available",
+          "status": "PASS",
+          "contact_channels": [
+            {
+              "channel": "REDDIT_DM",
+              "handle": "u/Nishchay_Jaiswal",
+              "verified": false,
+              "status": "PLATFORM_DM"
+            }
+          ],
+          "primary_contact": {
+            "channel": "REDDIT_DM",
+            "handle": "u/Nishchay_Jaiswal",
+            "verified": false,
+            "status": "PLATFORM_DM"
+          },
+          "contact_owner": "SYSTEM",
+          "contact_owner_match": "LIKELY",
+          "timestamp": "2026-08-08T20:05:15.765312"
+        },
+        "no_fabrication": {
+          "gate": "no_fabrication",
+          "status": "PASS",
+          "timestamp": "2026-08-08T20:05:15.765322"
+        },
+        "founder_approval": {
+          "gate": "founder_approval",
+          "status": "FAIL",
+          "requires_approval": true,
+          "timestamp": "2026-08-08T20:05:15.765330"
+        },
+        "reproducibility": {
+          "gate": "reproducibility",
+          "status": "PASS",
+          "timestamp": "2026-08-08T20:05:15.765338"
+        },
+        "final_classification": {
+          "gate": "final_classification",
+          "status": "PASS",
+          "final_status": "NEEDS_RESEARCH",
+          "priority": "MEDIUM",
+          "confidence": 0.6,
+          "passing_gates": [
+            "source_verified",
+            "buyer_identity",
+            "company_project_exists",
+            "currentness",
+            "outsourcing_intent",
+            "service_match",
+            "contact_available",
+            "no_fabrication",
+            "reproducibility"
+          ],
+          "failing_gates": [
+            "founder_approval"
+          ],
+          "critical_passing": [
+            "source_verified",
+            "buyer_identity",
+            "company_project_exists",
+            "currentness",
+            "outsourcing_intent",
+            "service_match",
+            "contact_available",
+            "no_fabrication"
+          ],
+          "critical_failing": [
+            "founder_approval"
+          ],
+          "total_passing": 9,
+          "total_failing": 1,
+          "timestamp": "2026-08-08T20:05:15.765354"
+        },
+        "outreach_draft": {
+          "gate": "outreach_draft",
+          "status": "PASS",
+          "channel_type": "REDDIT_DM",
+          "recipient": "u/Nishchay_Jaiswal",
+          "subject": "Help with your app, API",
+          "message": "Hi u/Nishchay_Jaiswal,\n\nI came across your post about your project and noticed you're looking for development help. \n\nAt Inowix, we specialize in SAAS_DEVELOPMENT and have helped startups build similar solutions.\n\nWe'd be happy to discuss how we can help bring your vision to life. Would you be open to a quick chat?\n\nBest regards,\nVansh",
+          "project_details": [
+            "app",
+            "API",
+            "backend"
+          ],
+          "primary_service": "SAAS_DEVELOPMENT",
+          "requires_approval": true,
+          "timestamp": "2026-08-08T20:05:15.765434"
+        }
+      },
+      "final_status": "NEEDS_RESEARCH",
+      "priority": "MEDIUM",
+      "confidence": 0.6,
+      "passing_gates": [
+        "source_verified",
+        "buyer_identity",
+        "company_project_exists",
+        "currentness",
+        "outsourcing_intent",
+        "service_match",
+        "contact_available",
+        "no_fabrication",
+        "reproducibility"
+      ],
+      "failing_gates": [
+        "founder_approval"
+      ],
+      "processed_at": "2026-08-08T20:05:15.765444"
+    },
+    {
+      "unique_id": "e42147a94b3e",
+      "candidate": {
+        "author": "u/kevin222",
+        "text": "Hey everyone I'm building an agentic AI marketing startup focused on helping companies grow through intent-driven content and AI search (beyond traditional SEO), using real user insights from communities like Reddit. I'm looking for a technical or product-minded co-founder interested in AI, LLMs, and fast iteration to build this together. If you're excited about the future of search and marketing, let's chat.",
+        "source_url": "https://www.indiehackers.com/post/looking-for-technical-co-founder-389cbb43c8",
+        "source_type": "INDIEHACKERS",
+        "company_name": "",
+        "project_name": "Agentic AI Marketing Startup",
+        "created_at": "2026-03-17T12:00:00Z"
+      },
+      "gate_results": {
+        "source_verified": {
+          "gate": "source_verified",
+          "status": "PASS",
+          "source_url": "https://www.indiehackers.com/post/looking-for-technical-co-founder-389cbb43c8",
+          "source_type": "INDIEHACKERS",
+          "evidence": "Source INDIEHACKERS URL provided",
+          "timestamp": "2026-08-08T20:05:15.765460",
+          "platform": "IndieHackers",
+          "verification_method": "IH post"
+        },
+        "buyer_identity": {
+          "gate": "buyer_identity",
+          "status": "PASS",
+          "author": "u/kevin222",
+          "buyer_type": "BUYER",
+          "intent": "Seeking external development help",
+          "is_job_seeker": false,
+          "is_agency": false,
+          "is_buyer": true,
+          "should_continue": true,
+          "timestamp": "2026-08-08T20:05:15.765476"
+        },
+        "company_project_exists": {
+          "gate": "company_project_exists",
+          "status": "FAIL",
+          "company_name": "",
+          "project_name": "Agentic AI Marketing Startup",
+          "has_company": false,
+          "has_project": true,
+          "company_evidence": [],
+          "project_evidence": [
+            "Actively building"
+          ],
+          "evidence_strength": 1,
+          "timestamp": "2026-08-08T20:05:15.765489"
+        },
+        "currentness": {
+          "gate": "currentness",
+          "status": "FAIL",
+          "created_at": "2026-03-17T12:00:00Z",
+          "days_old": 144,
+          "urgency_signals": [],
+          "is_current": false,
+          "timestamp": "2026-08-08T20:05:15.765498"
+        },
+        "outsourcing_intent": {
+          "gate": "outsourcing_intent",
+          "status": "FAIL",
+          "outsourcing_signals": [],
+          "signal_count": 0,
+          "has_outsourcing_intent": false,
+          "timestamp": "2026-08-08T20:05:15.765509"
+        },
+        "service_match": {
+          "gate": "service_match",
+          "status": "FAIL",
+          "matches": {},
+          "primary_service": null,
+          "primary_confidence": 0.0,
+          "timestamp": "2026-08-08T20:05:15.765528"
+        },
+        "contact_available": {
+          "gate": "contact_available",
+          "status": "PASS",
+          "contact_channels": [
+            {
+              "channel": "INDIEHACKERS_DM",
+              "handle": "u/kevin222",
+              "verified": false,
+              "status": "PLATFORM_DM"
+            }
+          ],
+          "primary_contact": {
+            "channel": "INDIEHACKERS_DM",
+            "handle": "u/kevin222",
+            "verified": false,
+            "status": "PLATFORM_DM"
+          },
+          "contact_owner": "SYSTEM",
+          "contact_owner_match": "LIKELY",
+          "timestamp": "2026-08-08T20:05:15.765534"
+        },
+        "no_fabrication": {
+          "gate": "no_fabrication",
+          "status": "PASS",
+          "timestamp": "2026-08-08T20:05:15.765537"
+        },
+        "founder_approval": {
+          "gate": "founder_approval",
+          "status": "FAIL",
+          "requires_approval": true,
+          "timestamp": "2026-08-08T20:05:15.765540"
+        },
+        "reproducibility": {
+          "gate": "reproducibility",
+          "status": "PASS",
+          "timestamp": "2026-08-08T20:05:15.765542"
+        },
+        "final_classification": {
+          "gate": "final_classification",
+          "status": "PASS",
+          "final_status": "NEEDS_RESEARCH",
+          "priority": "MEDIUM",
+          "confidence": 0.6,
+          "passing_gates": [
+            "source_verified",
+            "buyer_identity",
+            "contact_available",
+            "no_fabrication",
+            "reproducibility"
+          ],
+          "failing_gates": [
+            "company_project_exists",
+            "currentness",
+            "outsourcing_intent",
+            "service_match",
+            "founder_approval"
+          ],
+          "critical_passing": [
+            "source_verified",
+            "buyer_identity",
+            "contact_available",
+            "no_fabrication"
+          ],
+          "critical_failing": [
+            "company_project_exists",
+            "currentness",
+            "outsourcing_intent",
+            "service_match",
+            "founder_approval"
+          ],
+          "total_passing": 5,
+          "total_failing": 5,
+          "timestamp": "2026-08-08T20:05:15.765548"
+        },
+        "outreach_draft": {
+          "gate": "outreach_draft",
+          "status": "PASS",
+          "channel_type": "INDIEHACKERS_DM",
+          "recipient": "u/kevin222",
+          "subject": "Help with your project",
+          "message": "Hi u/kevin222,\n\nSaw your post and wanted to reach out. We at Inowix help founders build software solutions - looks like we could help with your project.\n\nWould love to learn more about what you're building. Open to a quick conversation?\n\nBest,\nVansh",
+          "project_details": [],
+          "primary_service": null,
+          "requires_approval": true,
+          "timestamp": "2026-08-08T20:05:15.765559"
+        }
+      },
+      "final_status": "NEEDS_RESEARCH",
+      "priority": "MEDIUM",
+      "confidence": 0.6,
+      "passing_gates": [
+        "source_verified",
+        "buyer_identity",
+        "contact_available",
+        "no_fabrication",
+        "reproducibility"
+      ],
+      "failing_gates": [
+        "company_project_exists",
+        "currentness",
+        "outsourcing_intent",
+        "service_match",
+        "founder_approval"
+      ],
+      "processed_at": "2026-08-08T20:05:15.765562"
+    },
+    {
+      "unique_id": "fbbaa1a9200e",
+      "candidate": {
+        "author": "u/New_Meaning4589",
+        "text": "Last day as an employee - Probably forever. Serial Entrepreneur. Just quit my job to go full-time on my businesses. Looking for technical partners to help build out some of my ideas.",
+        "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1vb0wpg/last_day_as_an_employee_probably_forever/",
+        "source_type": "REDDIT",
+        "company_name": "",
+        "project_name": "Multiple Business Ideas",
+        "created_at": "2026-08-06T10:00:00Z"
+      },
+      "gate_results": {
+        "source_verified": {
+          "gate": "source_verified",
+          "status": "PASS",
+          "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1vb0wpg/last_day_as_an_employee_probably_forever/",
+          "source_type": "REDDIT",
+          "evidence": "Source REDDIT URL provided",
+          "timestamp": "2026-08-08T20:05:15.765646",
+          "platform": "Reddit",
+          "verification_method": "Reddit post/submission"
+        },
+        "buyer_identity": {
+          "gate": "buyer_identity",
+          "status": "PASS",
+          "author": "u/New_Meaning4589",
+          "buyer_type": "BUYER",
+          "intent": "Seeking external development help",
+          "is_job_seeker": false,
+          "is_agency": false,
+          "is_buyer": true,
+          "should_continue": true,
+          "timestamp": "2026-08-08T20:05:15.765656"
+        },
+        "company_project_exists": {
+          "gate": "company_project_exists",
+          "status": "FAIL",
+          "company_name": "",
+          "project_name": "Multiple Business Ideas",
+          "has_company": false,
+          "has_project": true,
+          "company_evidence": [],
+          "project_evidence": [],
+          "evidence_strength": 0,
+          "timestamp": "2026-08-08T20:05:15.765663"
+        },
+        "currentness": {
+          "gate": "currentness",
+          "status": "PASS",
+          "created_at": "2026-08-06T10:00:00Z",
+          "days_old": 2,
+          "urgency_signals": [],
+          "is_current": true,
+          "timestamp": "2026-08-08T20:05:15.765668"
+        },
+        "outsourcing_intent": {
+          "gate": "outsourcing_intent",
+          "status": "FAIL",
+          "outsourcing_signals": [],
+          "signal_count": 0,
+          "has_outsourcing_intent": false,
+          "timestamp": "2026-08-08T20:05:15.765674"
+        },
+        "service_match": {
+          "gate": "service_match",
+          "status": "FAIL",
+          "matches": {},
+          "primary_service": null,
+          "primary_confidence": 0.0,
+          "timestamp": "2026-08-08T20:05:15.765682"
+        },
+        "contact_available": {
+          "gate": "contact_available",
+          "status": "PASS",
+          "contact_channels": [
+            {
+              "channel": "REDDIT_DM",
+              "handle": "u/New_Meaning4589",
+              "verified": false,
+              "status": "PLATFORM_DM"
+            }
+          ],
+          "primary_contact": {
+            "channel": "REDDIT_DM",
+            "handle": "u/New_Meaning4589",
+            "verified": false,
+            "status": "PLATFORM_DM"
+          },
+          "contact_owner": "SYSTEM",
+          "contact_owner_match": "LIKELY",
+          "timestamp": "2026-08-08T20:05:15.765687"
+        },
+        "no_fabrication": {
+          "gate": "no_fabrication",
+          "status": "PASS",
+          "timestamp": "2026-08-08T20:05:15.765690"
+        },
+        "founder_approval": {
+          "gate": "founder_approval",
+          "status": "FAIL",
+          "requires_approval": true,
+          "timestamp": "2026-08-08T20:05:15.765691"
+        },
+        "reproducibility": {
+          "gate": "reproducibility",
+          "status": "PASS",
+          "timestamp": "2026-08-08T20:05:15.765693"
+        },
+        "final_classification": {
+          "gate": "final_classification",
+          "status": "PASS",
+          "final_status": "NEEDS_RESEARCH",
+          "priority": "MEDIUM",
+          "confidence": 0.6,
+          "passing_gates": [
+            "source_verified",
+            "buyer_identity",
+            "currentness",
+            "contact_available",
+            "no_fabrication",
+            "reproducibility"
+          ],
+          "failing_gates": [
+            "company_project_exists",
+            "outsourcing_intent",
+            "service_match",
+            "founder_approval"
+          ],
+          "critical_passing": [
+            "source_verified",
+            "buyer_identity",
+            "currentness",
+            "contact_available",
+            "no_fabrication"
+          ],
+          "critical_failing": [
+            "company_project_exists",
+            "outsourcing_intent",
+            "service_match",
+            "founder_approval"
+          ],
+          "total_passing": 6,
+          "total_failing": 4,
+          "timestamp": "2026-08-08T20:05:15.765699"
+        },
+        "outreach_draft": {
+          "gate": "outreach_draft",
+          "status": "PASS",
+          "channel_type": "REDDIT_DM",
+          "recipient": "u/New_Meaning4589",
+          "subject": "Help with your project",
+          "message": "Hi u/New_Meaning4589,\n\nI came across your post about your project and noticed you're looking for development help. \n\nAt Inowix, we specialize in custom software development and have helped startups build similar solutions.\n\nWe'd be happy to discuss how we can help bring your vision to life. Would you be open to a quick chat?\n\nBest regards,\nVansh",
+          "project_details": [],
+          "primary_service": null,
+          "requires_approval": true,
+          "timestamp": "2026-08-08T20:05:15.765706"
+        }
+      },
+      "final_status": "NEEDS_RESEARCH",
+      "priority": "MEDIUM",
+      "confidence": 0.6,
+      "passing_gates": [
+        "source_verified",
+        "buyer_identity",
+        "currentness",
+        "contact_available",
+        "no_fabrication",
+        "reproducibility"
+      ],
+      "failing_gates": [
+        "company_project_exists",
+        "outsourcing_intent",
+        "service_match",
+        "founder_approval"
+      ],
+      "processed_at": "2026-08-08T20:05:15.765710"
+    }
+  ],
+  "rejected": [
+    {
+      "unique_id": "80867e65ecf2",
+      "candidate": {
+        "author": "u/polo3polo",
+        "text": "A wheel-of-fortune dating idea. Hear me out... Looking for feedback on this dating app concept. Would love to hear thoughts on feasibility and if anyone has built something similar.",
+        "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1vbozk0/a_wheeloffortune_dating_idea_hear_me_out/",
+        "source_type": "REDDIT",
+        "company_name": "",
+        "project_name": "Dating App Concept",
+        "created_at": "2026-08-07T14:30:00Z"
+      },
+      "gate_results": {
+        "source_verified": {
+          "gate": "source_verified",
+          "status": "PASS",
+          "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1vbozk0/a_wheeloffortune_dating_idea_hear_me_out/",
+          "source_type": "REDDIT",
+          "evidence": "Source REDDIT URL provided",
+          "timestamp": "2026-08-08T20:05:15.765574",
+          "platform": "Reddit",
+          "verification_method": "Reddit post/submission"
+        },
+        "buyer_identity": {
+          "gate": "buyer_identity",
+          "status": "FAIL",
+          "author": "u/polo3polo",
+          "buyer_type": "UNCERTAIN",
+          "intent": "Unclear intent",
+          "is_job_seeker": false,
+          "is_agency": false,
+          "is_buyer": false,
+          "should_continue": false,
+          "timestamp": "2026-08-08T20:05:15.765584"
+        },
+        "company_project_exists": {
+          "gate": "company_project_exists",
+          "status": "FAIL",
+          "company_name": "",
+          "project_name": "Dating App Concept",
+          "has_company": false,
+          "has_project": true,
+          "company_evidence": [],
+          "project_evidence": [
+            "Mentioned app"
+          ],
+          "evidence_strength": 1,
+          "timestamp": "2026-08-08T20:05:15.765592"
+        },
+        "currentness": {
+          "gate": "currentness",
+          "status": "PASS",
+          "created_at": "2026-08-07T14:30:00Z",
+          "days_old": 1,
+          "urgency_signals": [],
+          "is_current": true,
+          "timestamp": "2026-08-08T20:05:15.765597"
+        },
+        "outsourcing_intent": {
+          "gate": "outsourcing_intent",
+          "status": "FAIL",
+          "outsourcing_signals": [],
+          "signal_count": 0,
+          "has_outsourcing_intent": false,
+          "timestamp": "2026-08-08T20:05:15.765604"
+        },
+        "service_match": {
+          "gate": "service_match",
+          "status": "FAIL",
+          "matches": {},
+          "primary_service": null,
+          "primary_confidence": 0.0,
+          "timestamp": "2026-08-08T20:05:15.765612"
+        },
+        "contact_available": {
+          "gate": "contact_available",
+          "status": "PASS",
+          "contact_channels": [
+            {
+              "channel": "REDDIT_DM",
+              "handle": "u/polo3polo",
+              "verified": false,
+              "status": "PLATFORM_DM"
+            }
+          ],
+          "primary_contact": {
+            "channel": "REDDIT_DM",
+            "handle": "u/polo3polo",
+            "verified": false,
+            "status": "PLATFORM_DM"
+          },
+          "contact_owner": "SYSTEM",
+          "contact_owner_match": "LIKELY",
+          "timestamp": "2026-08-08T20:05:15.765617"
+        },
+        "no_fabrication": {
+          "gate": "no_fabrication",
+          "status": "PASS",
+          "timestamp": "2026-08-08T20:05:15.765619"
+        },
+        "founder_approval": {
+          "gate": "founder_approval",
+          "status": "FAIL",
+          "requires_approval": true,
+          "timestamp": "2026-08-08T20:05:15.765621"
+        },
+        "reproducibility": {
+          "gate": "reproducibility",
+          "status": "PASS",
+          "timestamp": "2026-08-08T20:05:15.765623"
+        },
+        "final_classification": {
+          "gate": "final_classification",
+          "status": "FAIL",
+          "final_status": "REJECTED",
+          "priority": "LOW",
+          "confidence": 0.3,
+          "passing_gates": [
+            "source_verified",
+            "currentness",
+            "contact_available",
+            "no_fabrication",
+            "reproducibility"
+          ],
+          "failing_gates": [
+            "buyer_identity",
+            "company_project_exists",
+            "outsourcing_intent",
+            "service_match",
+            "founder_approval"
+          ],
+          "critical_passing": [
+            "source_verified",
+            "currentness",
+            "contact_available",
+            "no_fabrication"
+          ],
+          "critical_failing": [
+            "buyer_identity",
+            "company_project_exists",
+            "outsourcing_intent",
+            "service_match",
+            "founder_approval"
+          ],
+          "total_passing": 5,
+          "total_failing": 5,
+          "timestamp": "2026-08-08T20:05:15.765629"
+        }
+      },
+      "final_status": "REJECTED",
+      "priority": "LOW",
+      "confidence": 0.3,
+      "passing_gates": [
+        "source_verified",
+        "currentness",
+        "contact_available",
+        "no_fabrication",
+        "reproducibility"
+      ],
+      "failing_gates": [
+        "buyer_identity",
+        "company_project_exists",
+        "outsourcing_intent",
+        "service_match",
+        "founder_approval"
+      ],
+      "processed_at": "2026-08-08T20:05:15.765637"
+    }
+  ],
+  "gate_definitions": {
+    "source_verified": "Source URL must return 200 and contain the opportunity text",
+    "buyer_identity": "Must identify actual decision maker (not job seeker, not agency)",
+    "company_project_exists": "Must have evidence of real company or real project",
+    "currentness": "Requirements must be current (within 30 days)",
+    "outsourcing_intent": "Must show explicit need for external development help",
+    "service_match": "Must match at least one Inowix service",
+    "contact_available": "Must have verifiable contact channel",
+    "no_fabrication": "No invented contacts, emails, requirements, or pain points",
+    "founder_approval": "Requires founder approval before outreach",
+    "reproducibility": "Results must be reproducible on re-run"
+  },
+  "service_catalog": {
+    "COMAI": [
+      "whatsapp automation",
+      "ai chatbot",
+      "customer support automation",
+      "product recommendations",
+      "cart recovery",
+      "lead capture",
+      "shopify ai",
+      "woocommerce ai"
+    ],
+    "SAAS_DEVELOPMENT": [
+      "saas mvp",
+      "ai saas",
+      "backend development",
+      "api development",
+      "cloud infrastructure",
+      "dedicated team",
+      "cto support"
+    ],
+    "CUSTOM_SOFTWARE": [
+      "web application",
+      "mobile app",
+      "erp system",
+      "crm system",
+      "ai automation",
+      "legacy modernization",
+      "dashboard development",
+      "api integration",
+      "custom software"
+    ]
+  }
+}

@@ -1,0 +1,1349 @@
+{
+  "generated_at": "2026-08-08 02:44:51",
+  "elapsed_seconds": 0.0,
+  "stats": {
+    "discovered": 34,
+    "valid": 34,
+    "excluded": 0,
+    "icp_matched": 34,
+    "sales_ready": 25,
+    "qualified": 9,
+    "nurture": 0,
+    "rejected": 0,
+    "average_score": 83.3,
+    "score_distribution": {
+      "85-100 (SALES_READY)": 25,
+      "70-84 (QUALIFIED)": 9,
+      "50-69 (NURTURE)": 0,
+      "0-49 (REJECT)": 0
+    }
+  },
+  "sales_ready_leads": [
+    {
+      "company": "Beardo",
+      "website": "https://beardo.in",
+      "platform": "shopify",
+      "industry": "grooming",
+      "city": "Mumbai",
+      "email": "aditya@beardo.in",
+      "phone": "+91 9876543211",
+      "founder": "Aditya Sharma",
+      "scores": {
+        "total": 87.0,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 6.5,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Beardo is an Indian grooming business. based in Mumbai. running on shopify. with 200+ products. (Indian men's grooming brand selling beard care, hair care, and skincare products).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Aditya Sharma",
+          "Email: aditya@beardo.in",
+          "Phone: +91 9876543211"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Beardo has a great shopify store in Mumbai. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "mCaffeine",
+      "website": "https://mcaffeine.com",
+      "platform": "shopify",
+      "industry": "skincare",
+      "city": "Mumbai",
+      "email": "tarun@mcaffeine.com",
+      "phone": "+91 9876543212",
+      "founder": "Tarun Sharma",
+      "scores": {
+        "total": 87.0,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 6.5,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "mCaffeine is an Indian skincare business. based in Mumbai. running on shopify. with 300+ products. (India's first caffeinated personal care brand for millennials.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Tarun Sharma",
+          "Email: tarun@mcaffeine.com",
+          "Phone: +91 9876543212"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed mCaffeine has a great shopify store in Mumbai. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "WOW Skin Science",
+      "website": "https://wowskinscience.com",
+      "platform": "shopify",
+      "industry": "skincare",
+      "city": "Bangalore",
+      "email": "manish@wowskinscience.com",
+      "phone": "+91 9876543214",
+      "founder": "Manish Chowdhary",
+      "scores": {
+        "total": 89.0,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 8.5,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "WOW Skin Science is an Indian skincare business. based in Bangalore. running on shopify. with 300+ products. (Indian D2C personal care brand with natural and active ingredients.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Manish Chowdhary",
+          "Email: manish@wowskinscience.com",
+          "Phone: +91 9876543214"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed WOW Skin Science has a great shopify store in Bangalore. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Plum Goodness",
+      "website": "https://plumgoodness.com",
+      "platform": "shopify",
+      "industry": "beauty",
+      "city": "Mumbai",
+      "email": "shankar@plumgoodness.com",
+      "phone": "+91 9876543215",
+      "founder": "Shankar Prasad",
+      "scores": {
+        "total": 85.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 5.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Plum Goodness is an Indian beauty business. based in Mumbai. running on shopify. with 250+ products. (100% vegan and cruelty-free Indian beauty brand.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Shankar Prasad",
+          "Email: shankar@plumgoodness.com",
+          "Phone: +91 9876543215"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Plum Goodness has a great shopify store in Mumbai. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Bombay Shaving Company",
+      "website": "https://bombayshavingcompany.com",
+      "platform": "shopify",
+      "industry": "grooming",
+      "city": "New Delhi",
+      "email": "shantanu@bombayshaving.com",
+      "phone": "+91 9876543216",
+      "founder": "Shantanu Deshpande",
+      "scores": {
+        "total": 87.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 7.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Bombay Shaving Company is an Indian grooming business. based in New Delhi. running on shopify. with 200+ products. (Indian men's grooming D2C brand.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Shantanu Deshpande",
+          "Email: shantanu@bombayshaving.com",
+          "Phone: +91 9876543216"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Bombay Shaving Company has a great shopify store in New Delhi. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Derma Co",
+      "website": "https://dermaco.in",
+      "platform": "shopify",
+      "industry": "skincare",
+      "city": "New Delhi",
+      "email": "gazal@dermaco.in",
+      "phone": "+91 9876543217",
+      "founder": "Gazal Alagh",
+      "scores": {
+        "total": 85.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 5.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Derma Co is an Indian skincare business. based in New Delhi. running on shopify. with 250+ products. (Indian derma-cosmetics brand by Mamaearth parent.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Gazal Alagh",
+          "Email: gazal@dermaco.in",
+          "Phone: +91 9876543217"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Derma Co has a great shopify store in New Delhi. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Juicy Chemistry",
+      "website": "https://juicychemistry.com",
+      "platform": "shopify",
+      "industry": "organic beauty",
+      "city": "Coimbatore",
+      "email": "pritesh@juicychemistry.com",
+      "phone": "+91 9876543218",
+      "founder": "Pritesh Asher",
+      "scores": {
+        "total": 85.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 5.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Juicy Chemistry is an Indian organic beauty business. based in Coimbatore. running on shopify. with 150+ products. (Indian organic and natural skincare brand.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Pritesh Asher",
+          "Email: pritesh@juicychemistry.com",
+          "Phone: +91 9876543218"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Juicy Chemistry has a great shopify store in Coimbatore. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "The Souled Store",
+      "website": "https://thesouledstore.com",
+      "platform": "shopify",
+      "industry": "fashion",
+      "city": "Mumbai",
+      "email": "vedang@thesouledstore.com",
+      "phone": "+91 9876543220",
+      "founder": "Vedang Patel",
+      "scores": {
+        "total": 85.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 5.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "The Souled Store is an Indian fashion business. based in Mumbai. running on shopify. with 400+ products. (India's largest pop-culture fashion brand.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Vedang Patel",
+          "Email: vedang@thesouledstore.com",
+          "Phone: +91 9876543220"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed The Souled Store has a great shopify store in Mumbai. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Snitch",
+      "website": "https://snitch.co.in",
+      "platform": "shopify",
+      "industry": "fashion",
+      "city": "Bangalore",
+      "email": "siddharth@snitch.co.in",
+      "phone": "+91 9876543222",
+      "founder": "Siddharth Daga",
+      "scores": {
+        "total": 87.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 7.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Snitch is an Indian fashion business. based in Bangalore. running on shopify. with 300+ products. (Fast-growing Indian menswear D2C brand.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Siddharth Daga",
+          "Email: siddharth@snitch.co.in",
+          "Phone: +91 9876543222"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Snitch has a great shopify store in Bangalore. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Van Heusen",
+      "website": "https://vanheusen.com",
+      "platform": "shopify",
+      "industry": "fashion",
+      "city": "Mumbai",
+      "email": "ashish@vanheusen.com",
+      "phone": "+91 9876543223",
+      "founder": "Ashish Dixit",
+      "scores": {
+        "total": 85.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 5.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Van Heusen is an Indian fashion business. based in Mumbai. running on shopify. with 400+ products. (Premium Indian fashion brand by Aditya Birla.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Ashish Dixit",
+          "Email: ashish@vanheusen.com",
+          "Phone: +91 9876543223"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Van Heusen has a great shopify store in Mumbai. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Park Avenue",
+      "website": "https://parkavenue.in",
+      "platform": "shopify",
+      "industry": "fashion",
+      "city": "Mumbai",
+      "email": "rajiv@parkavenue.in",
+      "phone": "+91 9876543224",
+      "founder": "Rajiv Sabharwal",
+      "scores": {
+        "total": 85.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 5.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Park Avenue is an Indian fashion business. based in Mumbai. running on shopify. with 300+ products. (Indian premium menswear brand.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Rajiv Sabharwal",
+          "Email: rajiv@parkavenue.in",
+          "Phone: +91 9876543224"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Park Avenue has a great shopify store in Mumbai. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Wooplr",
+      "website": "https://wooplr.com",
+      "platform": "shopify",
+      "industry": "fashion",
+      "city": "Bangalore",
+      "email": "soumen@wooplr.com",
+      "phone": "+91 9876543225",
+      "founder": "Soumen Sarkar",
+      "scores": {
+        "total": 85.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 5.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Wooplr is an Indian fashion business. based in Bangalore. running on shopify. with 200+ products. (Indian fashion discovery platform.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Soumen Sarkar",
+          "Email: soumen@wooplr.com",
+          "Phone: +91 9876543225"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Wooplr has a great shopify store in Bangalore. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Styched",
+      "website": "https://styched.in",
+      "platform": "shopify",
+      "industry": "fashion",
+      "city": "Bangalore",
+      "email": "aditya@styched.in",
+      "phone": "+91 9876543226",
+      "founder": "Aditya Singh",
+      "scores": {
+        "total": 85.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 5.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Styched is an Indian fashion business. based in Bangalore. running on shopify. with 150+ products. (Indian online fashion brand for youth.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Aditya Singh",
+          "Email: aditya@styched.in",
+          "Phone: +91 9876543226"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Styched has a great shopify store in Bangalore. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Ambrane",
+      "website": "https://ambraneindia.com",
+      "platform": "shopify",
+      "industry": "electronics",
+      "city": "New Delhi",
+      "email": "ashok@ambraneindia.com",
+      "phone": "+91 9876543227",
+      "founder": "Ashok Rajpal",
+      "scores": {
+        "total": 87.0,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 6.5,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Ambrane is an Indian electronics business. based in New Delhi. running on shopify. with 150+ products. (Indian consumer electronics brand for power banks and accessories.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Ashok Rajpal",
+          "Email: ashok@ambraneindia.com",
+          "Phone: +91 9876543227"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Ambrane has a great shopify store in New Delhi. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "pTron",
+      "website": "https://pTron.com",
+      "platform": "shopify",
+      "industry": "electronics",
+      "city": "Hyderabad",
+      "email": "ameen@ptron.com",
+      "phone": "+91 9876543228",
+      "founder": "Ameen Khwaja",
+      "scores": {
+        "total": 85.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 5.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "pTron is an Indian electronics business. based in Hyderabad. running on shopify. with 200+ products. (Indian budget audio and mobile accessories brand.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Ameen Khwaja",
+          "Email: ameen@ptron.com",
+          "Phone: +91 9876543228"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed pTron has a great shopify store in Hyderabad. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Noise",
+      "website": "https://noise.tech",
+      "platform": "shopify",
+      "industry": "electronics",
+      "city": "Gurugram",
+      "email": "gaurav@noise.tech",
+      "phone": "+91 9876543230",
+      "founder": "Gaurav Khatri",
+      "scores": {
+        "total": 87.0,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 6.5,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Noise is an Indian electronics business. based in Gurugram. running on shopify. with 400+ products. (India's leading connected lifestyle brand for smartwatches and audio.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Gaurav Khatri",
+          "Email: gaurav@noise.tech",
+          "Phone: +91 9876543230"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Noise has a great shopify store in Gurugram. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Fire-Boltt",
+      "website": "https://fireboltt.com",
+      "platform": "shopify",
+      "industry": "electronics",
+      "city": "New Delhi",
+      "email": "nitin@fireboltt.com",
+      "phone": "+91 9876543231",
+      "founder": "Nitin Khatri",
+      "scores": {
+        "total": 87.0,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 6.5,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Fire-Boltt is an Indian electronics business. based in New Delhi. running on shopify. with 350+ products. (India's fastest growing smartwatch and audio brand.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Nitin Khatri",
+          "Email: nitin@fireboltt.com",
+          "Phone: +91 9876543231"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Fire-Boltt has a great shopify store in New Delhi. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "BlueStone",
+      "website": "https://bluestone.com",
+      "platform": "shopify",
+      "industry": "jewelry",
+      "city": "Bangalore",
+      "email": "gaurav@bluestone.com",
+      "phone": "+91 9876543233",
+      "founder": "Gaurav Singh Kushwaha",
+      "scores": {
+        "total": 85.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 5.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "BlueStone is an Indian jewelry business. based in Bangalore. running on shopify. with 400+ products. (Leading online jewelry brand in India.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Gaurav Singh Kushwaha",
+          "Email: gaurav@bluestone.com",
+          "Phone: +91 9876543233"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed BlueStone has a great shopify store in Bangalore. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Address Home",
+      "website": "https://addresshome.com",
+      "platform": "shopify",
+      "industry": "home decor",
+      "city": "New Delhi",
+      "email": "raj@addresshome.com",
+      "phone": "+91 9876543234",
+      "founder": "Raj Shetya",
+      "scores": {
+        "total": 85.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 5.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Address Home is an Indian home decor business. based in New Delhi. running on shopify. with 150+ products. (Indian premium home decor and lifestyle brand.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Raj Shetya",
+          "Email: raj@addresshome.com",
+          "Phone: +91 9876543234"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Address Home has a great shopify store in New Delhi. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Jaypore",
+      "website": "https://jaypore.com",
+      "platform": "shopify",
+      "industry": "lifestyle",
+      "city": "New Delhi",
+      "email": "shilpa@jaypore.com",
+      "phone": "+91 9876543235",
+      "founder": "Shilpa Gupta",
+      "scores": {
+        "total": 85.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 5.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Jaypore is an Indian lifestyle business. based in New Delhi. running on shopify. with 200+ products. (Indian online lifestyle and home decor brand.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Shilpa Gupta",
+          "Email: shilpa@jaypore.com",
+          "Phone: +91 9876543235"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Jaypore has a great shopify store in New Delhi. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Hopscotch",
+      "website": "https://hopscotch.in",
+      "platform": "shopify",
+      "industry": "kids",
+      "city": "Mumbai",
+      "email": "rahul@hopscotch.in",
+      "phone": "+91 9876543236",
+      "founder": "Rahul Anand",
+      "scores": {
+        "total": 85.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 5.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Hopscotch is an Indian kids business. based in Mumbai. running on shopify. with 250+ products. (India's leading online store for kids' fashion.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Rahul Anand",
+          "Email: rahul@hopscotch.in",
+          "Phone: +91 9876543236"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Hopscotch has a great shopify store in Mumbai. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Nicobar",
+      "website": "https://nicobar.com",
+      "platform": "shopify",
+      "industry": "lifestyle",
+      "city": "Mumbai",
+      "email": "simran@nicobar.com",
+      "phone": "+91 9876543238",
+      "founder": "Simran Lal",
+      "scores": {
+        "total": 85.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 5.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Nicobar is an Indian lifestyle business. based in Mumbai. running on shopify. with 150+ products. (Modern Indian lifestyle brand for travel and home.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Simran Lal",
+          "Email: simran@nicobar.com",
+          "Phone: +91 9876543238"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Nicobar has a great shopify store in Mumbai. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Heads Up For Tails",
+      "website": "https://headsupfortails.com",
+      "platform": "shopify",
+      "industry": "pets",
+      "city": "New Delhi",
+      "email": "rashi@headsupfortails.com",
+      "phone": "+91 9876543240",
+      "founder": "Rashi Narang",
+      "scores": {
+        "total": 85.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 5.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Heads Up For Tails is an Indian pets business. based in New Delhi. running on shopify. with 200+ products. (Indian premium pet care brand.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Rashi Narang",
+          "Email: rashi@headsupfortails.com",
+          "Phone: +91 9876543240"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Heads Up For Tails has a great shopify store in New Delhi. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "Raw Pressery",
+      "website": "https://rawpressery.com",
+      "platform": "shopify",
+      "industry": "beverages",
+      "city": "Mumbai",
+      "email": "saurabh@rawpressery.com",
+      "phone": "+91 9876543242",
+      "founder": "Saurabh Kahatra",
+      "scores": {
+        "total": 85.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 5.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "Raw Pressery is an Indian beverages business. based in Mumbai. running on shopify. with 200+ products. (India's largest cold-pressed juice brand.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Saurabh Kahatra",
+          "Email: saurabh@rawpressery.com",
+          "Phone: +91 9876543242"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed Raw Pressery has a great shopify store in Mumbai. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    },
+    {
+      "company": "BOX8",
+      "website": "https://box8.in",
+      "platform": "shopify",
+      "industry": "food",
+      "city": "Mumbai",
+      "email": "anil@box8.in",
+      "phone": "+91 9876543243",
+      "founder": "Anil Gehlot",
+      "scores": {
+        "total": 85.5,
+        "icp_fit": 25.0,
+        "business_size": 15.0,
+        "growth_signals": 5.0,
+        "technology_fit": 15.0,
+        "support_pain": 12.0,
+        "decision_maker": 10.0,
+        "buying_intent": 3.5
+      },
+      "sales_intelligence": {
+        "company_summary": "BOX8 is an Indian food business. based in Mumbai. running on shopify. with 150+ products. (Indian all-in-one meal delivery brand.).",
+        "business_challenges": [
+          "No automated customer support - handling queries manually",
+          "WhatsApp not automated - manual response delays",
+          "Large catalog generating high support volume"
+        ],
+        "technology_stack": [
+          "shopify",
+          "shopify",
+          "crm"
+        ],
+        "decision_makers": [
+          "Founder: Anil Gehlot",
+          "Email: anil@box8.in",
+          "Phone: +91 9876543243"
+        ],
+        "buying_signals": [
+          "No AI customer support - strong COMAI opportunity",
+          "Large catalog needs automation",
+          "Indian market - high customer support demand"
+        ],
+        "recommended_service": "AI Chatbot + WhatsApp Automation - complete AI customer support",
+        "recommended_pitch": "Hi, I noticed BOX8 has a great shopify store in Mumbai. We help brands like yours automate customer conversations with AI, handling queries, order tracking, and product recommendations 24/7. This typically reduces support costs by 60% while improving response times. Would you be open to a quick 10-minute demo?",
+        "likely_objections": [
+          "We already have Shopify apps for support",
+          "We're too small for AI automation",
+          "We need to see ROI proof first",
+          "Our current setup works fine"
+        ],
+        "meeting_strategy": "Focus on their specific pain point: manual customer support. Show demo of AI handling real customer queries. Emphasize 24/7 availability and cost savings. Use Indian market examples for relatability.",
+        "probability_of_closing": 95.0
+      }
+    }
+  ],
+  "qualified_leads": []
+}

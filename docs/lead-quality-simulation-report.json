@@ -1,0 +1,799 @@
+{
+  "generated_at": "2026-07-28T13:26:01.310220+00:00",
+  "scoring_version": "lqs-v1",
+  "fresh_hours": 48,
+  "outbound_threshold": 78.0,
+  "perfect_threshold": 85.0,
+  "fixtures": [
+    {
+      "id": "perfect_ph_launch",
+      "company": "Nova Health",
+      "lqs": {
+        "total": 94.0,
+        "freshness": 30.0,
+        "trigger": 23.5,
+        "identity": 20.0,
+        "contactability": 15.0,
+        "evidence": 5.5,
+        "penalties": 0.0,
+        "grade": "A",
+        "outbound_ready": true,
+        "perfect": true,
+        "pipeline_worthy": true,
+        "blockers": [],
+        "reasons": [
+          "LQS 94.0 >= outbound 78.0",
+          "LQS 94.0 >= perfect 85.0",
+          "pipeline_worthy",
+          "age_hours=5.0",
+          "trigger=23.5",
+          "freshness=30.0"
+        ],
+        "age_hours": 5.000000022222222,
+        "scoring_version": "lqs-v1"
+      },
+      "expect_outbound": true,
+      "expect_perfect": true,
+      "pass_outbound_assert": true,
+      "pass_perfect_assert": true,
+      "pass": true
+    },
+    {
+      "id": "good_hn_hiring",
+      "company": "CircuitOps",
+      "lqs": {
+        "total": 80.0,
+        "freshness": 24.0,
+        "trigger": 17.5,
+        "identity": 20.0,
+        "contactability": 15.0,
+        "evidence": 3.5,
+        "penalties": 0.0,
+        "grade": "B",
+        "outbound_ready": true,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [],
+        "reasons": [
+          "LQS 80.0 >= outbound 78.0",
+          "pipeline_worthy",
+          "age_hours=18.0",
+          "trigger=17.5",
+          "freshness=24.0"
+        ],
+        "age_hours": 18.000000079722223,
+        "scoring_version": "lqs-v1"
+      },
+      "expect_outbound": true,
+      "expect_perfect": false,
+      "pass_outbound_assert": true,
+      "pass_perfect_assert": true,
+      "pass": true
+    },
+    {
+      "id": "stale_ok_company",
+      "company": "OldCo",
+      "lqs": {
+        "total": 49.0,
+        "freshness": 0.0,
+        "trigger": 23.5,
+        "identity": 14.0,
+        "contactability": 15.0,
+        "evidence": 1.5,
+        "penalties": 0.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": false,
+        "blockers": [
+          "stale_signal",
+          "weak_freshness"
+        ],
+        "reasons": [
+          "age_hours=72.0",
+          "trigger=23.5",
+          "freshness=0.0"
+        ],
+        "age_hours": 72.0000001063889,
+        "scoring_version": "lqs-v1"
+      },
+      "expect_outbound": false,
+      "expect_perfect": false,
+      "pass_outbound_assert": true,
+      "pass_perfect_assert": true,
+      "pass": true
+    },
+    {
+      "id": "yc_directory_fake_fresh",
+      "company": "LegacyYC",
+      "lqs": {
+        "total": 0.0,
+        "freshness": 0.0,
+        "trigger": 1.5,
+        "identity": 14.0,
+        "contactability": 15.0,
+        "evidence": 1.5,
+        "penalties": 55.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": false,
+        "blockers": [
+          "directory_source",
+          "directory_source_not_lead",
+          "stale_or_missing_why_now",
+          "weak_freshness",
+          "weak_trigger"
+        ],
+        "reasons": [
+          "trigger=1.5",
+          "freshness=0.0"
+        ],
+        "age_hours": null,
+        "scoring_version": "lqs-v1"
+      },
+      "expect_outbound": false,
+      "expect_perfect": false,
+      "pass_outbound_assert": true,
+      "pass_perfect_assert": true,
+      "pass": true
+    },
+    {
+      "id": "article_only_news",
+      "company": "TechCrunch Blurb",
+      "lqs": {
+        "total": 49.0,
+        "freshness": 30.0,
+        "trigger": 19.5,
+        "identity": 6.0,
+        "contactability": 0.0,
+        "evidence": 1.5,
+        "penalties": 8.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "reasons": [
+          "needs_website_enrichment",
+          "pipeline_worthy",
+          "age_hours=3.0",
+          "trigger=19.5",
+          "freshness=30.0"
+        ],
+        "age_hours": 3.000000137222222,
+        "scoring_version": "lqs-v1"
+      },
+      "expect_outbound": false,
+      "expect_perfect": false,
+      "pass_outbound_assert": true,
+      "pass_perfect_assert": true,
+      "pass": true
+    },
+    {
+      "id": "fresh_weak_contacts",
+      "company": "SparkAI",
+      "lqs": {
+        "total": 70.0,
+        "freshness": 27.0,
+        "trigger": 23.5,
+        "identity": 18.0,
+        "contactability": 0.0,
+        "evidence": 1.5,
+        "penalties": 0.0,
+        "grade": "C",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [],
+        "reasons": [
+          "pipeline_worthy",
+          "age_hours=8.0",
+          "trigger=23.5",
+          "freshness=27.0"
+        ],
+        "age_hours": 8.000000147777778,
+        "scoring_version": "lqs-v1"
+      },
+      "expect_outbound": false,
+      "expect_perfect": false,
+      "pass_outbound_assert": true,
+      "pass_perfect_assert": true,
+      "pass": true
+    }
+  ],
+  "fixtures_pass": true,
+  "live": {
+    "sources": {
+      "hacker_news": {
+        "collected": 20,
+        "fresh_48h": 10,
+        "outbound": 3,
+        "perfect": 0,
+        "pipeline_worthy": 10,
+        "with_website": 7,
+        "top": [
+          {
+            "title": "Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals",
+            "source": "hacker_news",
+            "published_at": "2026-07-27T19:58:22+00:00",
+            "website": "https://rise-reforming.com",
+            "lqs": 83.0,
+            "grade": "B",
+            "outbound_ready": true,
+            "perfect": false,
+            "pipeline_worthy": true,
+            "blockers": [],
+            "age_hours": 17.45569825861111
+          },
+          {
+            "title": "Three certificates, one domain, three lost launch days",
+            "source": "hacker_news",
+            "published_at": "2026-07-28T06:50:16+00:00",
+            "website": "https://certpost.ai",
+            "lqs": 81.0,
+            "grade": "B",
+            "outbound_ready": true,
+            "perfect": false,
+            "pipeline_worthy": true,
+            "blockers": [],
+            "age_hours": 6.590226796388889
+          },
+          {
+            "title": "Show HN: Latest Q2 AI SaaS Trends Report",
+            "source": "hacker_news",
+            "published_at": "2026-07-27T20:36:54+00:00",
+            "website": "https://relvehq.com",
+            "lqs": 78.0,
+            "grade": "B",
+            "outbound_ready": true,
+            "perfect": false,
+            "pipeline_worthy": true,
+            "blockers": [],
+            "age_hours": 16.81320089722222
+          },
+          {
+            "title": "QuickOn \u2013 Explainable AI for qualifying inbound B2B SaaS leads",
+            "source": "hacker_news",
+            "published_at": "2026-07-28T04:53:00+00:00",
+            "website": "https://quickon.in",
+            "lqs": 70.0,
+            "grade": "C",
+            "outbound_ready": false,
+            "perfect": false,
+            "pipeline_worthy": true,
+            "blockers": [],
+            "age_hours": 8.544763803333334
+          },
+          {
+            "title": "Launch First, Improve Later",
+            "source": "hacker_news",
+            "published_at": "2026-07-27T14:10:56+00:00",
+            "website": "https://herbertlui.net",
+            "lqs": 70.0,
+            "grade": "C",
+            "outbound_ready": false,
+            "perfect": false,
+            "pipeline_worthy": true,
+            "blockers": [],
+            "age_hours": 23.246566689444442
+          }
+        ]
+      },
+      "product_hunt": {
+        "collected": 15,
+        "fresh_48h": 15,
+        "outbound": 0,
+        "perfect": 0,
+        "pipeline_worthy": 12,
+        "with_website": 0,
+        "top": [
+          {
+            "title": "Conduit",
+            "source": "product_hunt",
+            "published_at": "2026-07-28T13:24:49+00:00",
+            "website": null,
+            "lqs": 49.0,
+            "grade": "F",
+            "outbound_ready": false,
+            "perfect": false,
+            "pipeline_worthy": true,
+            "blockers": [
+              "missing_website",
+              "weak_identity"
+            ],
+            "age_hours": 0.019400194166666666
+          },
+          {
+            "title": "Liminal",
+            "source": "product_hunt",
+            "published_at": "2026-07-28T13:24:49+00:00",
+            "website": null,
+            "lqs": 49.0,
+            "grade": "F",
+            "outbound_ready": false,
+            "perfect": false,
+            "pipeline_worthy": true,
+            "blockers": [
+              "missing_website",
+              "weak_identity"
+            ],
+            "age_hours": 0.019411628055555557
+          },
+          {
+            "title": "Leaping AI",
+            "source": "product_hunt",
+            "published_at": "2026-07-28T13:24:49+00:00",
+            "website": null,
+            "lqs": 49.0,
+            "grade": "F",
+            "outbound_ready": false,
+            "perfect": false,
+            "pipeline_worthy": true,
+            "blockers": [
+              "missing_website",
+              "weak_identity"
+            ],
+            "age_hours": 0.019421235
+          },
+          {
+            "title": "Firstpass",
+            "source": "product_hunt",
+            "published_at": "2026-07-28T13:08:58+00:00",
+            "website": null,
+            "lqs": 49.0,
+            "grade": "F",
+            "outbound_ready": false,
+            "perfect": false,
+            "pipeline_worthy": true,
+            "blockers": [
+              "missing_website",
+              "weak_identity"
+            ],
+            "age_hours": 0.28359598138888886
+          },
+          {
+            "title": "Prefactor",
+            "source": "product_hunt",
+            "published_at": "2026-07-28T13:24:28+00:00",
+            "website": null,
+            "lqs": 49.0,
+            "grade": "F",
+            "outbound_ready": false,
+            "perfect": false,
+            "pipeline_worthy": true,
+            "blockers": [
+              "missing_website",
+              "weak_identity"
+            ],
+            "age_hours": 0.025271583888888886
+          }
+        ]
+      },
+      "reddit": {
+        "error": "Server error '502 Bad Gateway' for url 'https://api.pullpush.io/reddit/search/submission/?subreddit=SaaS&size=10&sort=desc&sort_type=created_utc'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502"
+      }
+    },
+    "candidates": [
+      {
+        "title": "Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals",
+        "source": "hacker_news",
+        "published_at": "2026-07-27T19:58:22+00:00",
+        "website": "https://rise-reforming.com",
+        "lqs": 83.0,
+        "grade": "B",
+        "outbound_ready": true,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [],
+        "age_hours": 17.45569825861111
+      },
+      {
+        "title": "Three certificates, one domain, three lost launch days",
+        "source": "hacker_news",
+        "published_at": "2026-07-28T06:50:16+00:00",
+        "website": "https://certpost.ai",
+        "lqs": 81.0,
+        "grade": "B",
+        "outbound_ready": true,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [],
+        "age_hours": 6.590226796388889
+      },
+      {
+        "title": "Show HN: Latest Q2 AI SaaS Trends Report",
+        "source": "hacker_news",
+        "published_at": "2026-07-27T20:36:54+00:00",
+        "website": "https://relvehq.com",
+        "lqs": 78.0,
+        "grade": "B",
+        "outbound_ready": true,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [],
+        "age_hours": 16.81320089722222
+      },
+      {
+        "title": "QuickOn \u2013 Explainable AI for qualifying inbound B2B SaaS leads",
+        "source": "hacker_news",
+        "published_at": "2026-07-28T04:53:00+00:00",
+        "website": "https://quickon.in",
+        "lqs": 70.0,
+        "grade": "C",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [],
+        "age_hours": 8.544763803333334
+      },
+      {
+        "title": "Launch First, Improve Later",
+        "source": "hacker_news",
+        "published_at": "2026-07-27T14:10:56+00:00",
+        "website": "https://herbertlui.net",
+        "lqs": 70.0,
+        "grade": "C",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [],
+        "age_hours": 23.246566689444442
+      },
+      {
+        "title": "Viral Toyota Hiring Test with Ropes and a 6-Second Time Limit",
+        "source": "hacker_news",
+        "published_at": "2026-07-26T14:36:35+00:00",
+        "website": "https://jalopnik.com",
+        "lqs": 66.0,
+        "grade": "C",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [],
+        "age_hours": 46.81928675611111
+      },
+      {
+        "title": "Amazon's trying to launch a global satellite cellphone network in 2028",
+        "source": "hacker_news",
+        "published_at": "2026-07-28T12:44:38+00:00",
+        "website": null,
+        "lqs": 49.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "age_hours": 0.6838849238888889
+      },
+      {
+        "title": "New funding rules will make US research slower, costlier and harder to share",
+        "source": "hacker_news",
+        "published_at": "2026-07-26T19:33:15+00:00",
+        "website": "https://theconversation.com",
+        "lqs": 49.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "news_or_platform_host"
+        ],
+        "age_hours": 41.87472368694444
+      },
+      {
+        "title": "Conduit",
+        "source": "product_hunt",
+        "published_at": "2026-07-28T13:24:49+00:00",
+        "website": null,
+        "lqs": 49.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "age_hours": 0.019400194166666666
+      },
+      {
+        "title": "Liminal",
+        "source": "product_hunt",
+        "published_at": "2026-07-28T13:24:49+00:00",
+        "website": null,
+        "lqs": 49.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "age_hours": 0.019411628055555557
+      },
+      {
+        "title": "Leaping AI",
+        "source": "product_hunt",
+        "published_at": "2026-07-28T13:24:49+00:00",
+        "website": null,
+        "lqs": 49.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "age_hours": 0.019421235
+      },
+      {
+        "title": "Firstpass",
+        "source": "product_hunt",
+        "published_at": "2026-07-28T13:08:58+00:00",
+        "website": null,
+        "lqs": 49.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "age_hours": 0.28359598138888886
+      },
+      {
+        "title": "Prefactor",
+        "source": "product_hunt",
+        "published_at": "2026-07-28T13:24:28+00:00",
+        "website": null,
+        "lqs": 49.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "age_hours": 0.025271583888888886
+      },
+      {
+        "title": "Growth Opt Playbook",
+        "source": "product_hunt",
+        "published_at": "2026-07-28T13:16:51+00:00",
+        "website": null,
+        "lqs": 49.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "age_hours": 0.15222438416666667
+      },
+      {
+        "title": "Superunit",
+        "source": "product_hunt",
+        "published_at": "2026-07-28T13:24:49+00:00",
+        "website": null,
+        "lqs": 49.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "age_hours": 0.019456076666666666
+      },
+      {
+        "title": "Tag Your Photos",
+        "source": "product_hunt",
+        "published_at": "2026-07-28T13:16:47+00:00",
+        "website": null,
+        "lqs": 49.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "age_hours": 0.1533538163888889
+      },
+      {
+        "title": "RecipeBook by Shofo",
+        "source": "product_hunt",
+        "published_at": "2026-07-28T13:16:45+00:00",
+        "website": null,
+        "lqs": 49.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "age_hours": 0.15391835777777776
+      },
+      {
+        "title": "Lottie Creator 2.0",
+        "source": "product_hunt",
+        "published_at": "2026-07-28T13:22:59+00:00",
+        "website": null,
+        "lqs": 49.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "age_hours": 0.05003903416666667
+      },
+      {
+        "title": "qsa.sh",
+        "source": "product_hunt",
+        "published_at": "2026-07-28T13:16:46+00:00",
+        "website": null,
+        "lqs": 49.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "age_hours": 0.15366156527777777
+      },
+      {
+        "title": "Pinery Prose",
+        "source": "product_hunt",
+        "published_at": "2026-07-28T13:24:49+00:00",
+        "website": null,
+        "lqs": 49.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "age_hours": 0.01950836361111111
+      },
+      {
+        "title": "Nvidia, SpaceX, Microsoft launch AI safety initiative",
+        "source": "hacker_news",
+        "published_at": "2026-07-27T13:07:09+00:00",
+        "website": null,
+        "lqs": 44.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "age_hours": 24.309622305
+      },
+      {
+        "title": "Ask HN: When is too early to launch?",
+        "source": "hacker_news",
+        "published_at": "2026-07-26T18:46:36+00:00",
+        "website": null,
+        "lqs": 40.0,
+        "grade": "F",
+        "outbound_ready": false,
+        "perfect": false,
+        "pipeline_worthy": true,
+        "blockers": [
+          "missing_website",
+          "weak_identity"
+        ],
+        "age_hours": 42.652223738055554
+      }
+    ],
+    "summary": {
+      "live_candidates": 22,
+      "live_outbound": 3,
+      "live_perfect": 0,
+      "live_pipeline_worthy": 22,
+      "live_with_website": 7,
+      "top_5": [
+        {
+          "title": "Launch HN: Rise Reforming (YC S26) \u2013 Turning Waste Gases into Valuable Chemicals",
+          "source": "hacker_news",
+          "published_at": "2026-07-27T19:58:22+00:00",
+          "website": "https://rise-reforming.com",
+          "lqs": 83.0,
+          "grade": "B",
+          "outbound_ready": true,
+          "perfect": false,
+          "pipeline_worthy": true,
+          "blockers": [],
+          "age_hours": 17.45569825861111
+        },
+        {
+          "title": "Three certificates, one domain, three lost launch days",
+          "source": "hacker_news",
+          "published_at": "2026-07-28T06:50:16+00:00",
+          "website": "https://certpost.ai",
+          "lqs": 81.0,
+          "grade": "B",
+          "outbound_ready": true,
+          "perfect": false,
+          "pipeline_worthy": true,
+          "blockers": [],
+          "age_hours": 6.590226796388889
+        },
+        {
+          "title": "Show HN: Latest Q2 AI SaaS Trends Report",
+          "source": "hacker_news",
+          "published_at": "2026-07-27T20:36:54+00:00",
+          "website": "https://relvehq.com",
+          "lqs": 78.0,
+          "grade": "B",
+          "outbound_ready": true,
+          "perfect": false,
+          "pipeline_worthy": true,
+          "blockers": [],
+          "age_hours": 16.81320089722222
+        },
+        {
+          "title": "QuickOn \u2013 Explainable AI for qualifying inbound B2B SaaS leads",
+          "source": "hacker_news",
+          "published_at": "2026-07-28T04:53:00+00:00",
+          "website": "https://quickon.in",
+          "lqs": 70.0,
+          "grade": "C",
+          "outbound_ready": false,
+          "perfect": false,
+          "pipeline_worthy": true,
+          "blockers": [],
+          "age_hours": 8.544763803333334
+        },
+        {
+          "title": "Launch First, Improve Later",
+          "source": "hacker_news",
+          "published_at": "2026-07-27T14:10:56+00:00",
+          "website": "https://herbertlui.net",
+          "lqs": 70.0,
+          "grade": "C",
+          "outbound_ready": false,
+          "perfect": false,
+          "pipeline_worthy": true,
+          "blockers": [],
+          "age_hours": 23.246566689444442
+        }
+      ]
+    }
+  },
+  "launch_ready_quality_bar": true,
+  "cto_notes": [
+    "Directory/YC leads must fail",
+    "Only <=48h event triggers can outbound",
+    "Perfect leads need website + contact + strong trigger + high freshness",
+    "pipeline_worthy = fresh trigger fuel for website/email enrichment",
+    "Set PRODUCT_HUNT_DEVELOPER_TOKEN for GraphQL website resolution lift"
+  ]
+}

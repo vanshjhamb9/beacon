@@ -1,0 +1,79 @@
+======================================================================
+ADVERSARIAL SALESABILITY AUDIT V2 — FINAL REPORT
+Generated: 2026-08-08 19:18:46
+======================================================================
+
+SCORING MODEL:
+  Intent * 0.25 + Evidence Quality * 0.20 + ICP Fit * 0.15
+  + Outsourcing Fit * 0.20 + Service Match * 0.10
+  + Contactability * 0.05 + Commercial Fit * 0.05
+
+SUMMARY:
+  Total audited: 20
+  HIGH_PRIORITY: 0
+  QUALIFIED: 0
+  NEEDS_RESEARCH: 0
+  REJECT: 20
+
+======================================================================
+REJECTION REASONS (GROUPED BY COUNT):
+======================================================================
+
+  SOURCE: 18 leads
+    - HI-018: SOURCE: URL is a search/category page, not an exact post/job/project
+    - HI-018: SOURCE: Page is not publicly accessible (403 or requires auth)
+    - HI-012: SOURCE: URL is a search/category page, not an exact post/job/project
+
+  REQUIREMENT: 17 leads
+    - HI-008: REQUIREMENT: No verified specific requirement
+    - HI-006: REQUIREMENT: No verified specific requirement
+    - HI-007: REQUIREMENT: No verified specific requirement
+
+  IDENTITY: 12 leads
+    - HI-004: IDENTITY: Person is anonymous/unknown
+    - HI-003: IDENTITY: Person is anonymous/unknown
+    - HI-002: IDENTITY: Person is anonymous/unknown
+
+  STATUS: 10 leads
+    - HI-008: STATUS: Opportunity is STALE
+    - HI-006: STATUS: Opportunity is STALE
+    - HI-007: STATUS: Opportunity is STALE
+
+  OUTSOURCING: 5 leads
+    - HI-004: OUTSOURCING: Full-time hiring — NOT an outsourcing opportunity
+    - HI-001: OUTSOURCING: Cofounder search — equity partnership, NOT paid outsourcing
+    - HI-005: OUTSOURCING: Cofounder search — equity partnership, NOT paid outsourcing
+
+  COMPETITOR: 2 leads
+    - HI-009: COMPETITOR: Prospect is a AGENCY — not a customer
+    - HI-010: COMPETITOR: Prospect is a FREELANCER/DEVELOPER — not a customer
+
+======================================================================
+KEY METRICS:
+======================================================================
+
+  Explicit outsourcing: 0/20 (0%)
+  Full-time hiring: 1/20 (5%)
+  Cofounder search: 4/20 (20%)
+  Identifiable decision maker: 8/20 (40%)
+  Exact source verification: 11/20 (55%)
+  Cross-source verification: 0/20 (0%)
+  Service match: 11/20 (55%)
+  Competitor: 2/20 (10%)
+  Contactable: 11/20 (55%)
+  Commercially plausible: 20/20 (100%)
+
+======================================================================
+TOP 10 REAL OPPORTUNITIES (if any):
+======================================================================
+
+  NO REAL OPPORTUNITIES FOUND.
+
+======================================================================
+CTO QUESTION:
+======================================================================
+
+  ANSWER: NO
+
+  No leads survived the adversarial audit.
+  This is the correct outcome — quality > quantity.

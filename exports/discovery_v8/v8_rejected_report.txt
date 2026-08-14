@@ -1,0 +1,52 @@
+======================================================================
+V8 REJECTED LEADS REPORT
+Generated: 2026-08-08T22:20:39.143746
+======================================================================
+
+Total Rejected: 4
+
+V8-001: MarylandBid
+  Person: betapunch
+  Company Status: VERIFIED_ACTIVE
+  Contactability: MEDIUM
+  Rejection Reasons:
+    - Currentness: STALE
+    - Identity confidence: MEDIUM (needs real name)
+    - Contactability: MEDIUM (no email/LinkedIn)
+  CTO Decision: Currentness: STALE; Identity confidence: MEDIUM (needs real name); Contactability: MEDIUM (no email/LinkedIn)
+
+V8-003: Entertainment News Publisher
+  Person: jason23a
+  Company Status: UNKNOWN
+  Contactability: LOW
+  Rejection Reasons:
+    - Decision maker identity not verified (only Reddit username)
+    - Company/publishing business not identified
+    - No email address found
+    - No LinkedIn profile found
+    - Contactability: LOW
+  CTO Decision: Cannot identify buyer or company - only Reddit username available
+
+V8-004: Zolly
+  Person: Evening_Acadia_6021
+  Company Status: NOT_FOUND
+  Contactability: NONE
+  Rejection Reasons:
+    - Decision maker identity not verified
+    - SaaS application 'Zolly' not found
+    - No email address found
+    - No LinkedIn profile found
+    - Contactability: NONE
+  CTO Decision: Cannot identify buyer or verify company - anonymous with low budget
+
+V8-005: Neurodivergent Products Startup
+  Person: Anonymous
+  Company Status: UNKNOWN
+  Contactability: NONE
+  Rejection Reasons:
+    - Anonymous identity - cannot verify decision maker
+    - No contact information available
+    - No company information available
+    - Contactability: NONE
+  CTO Decision: Anonymous buyer - cannot verify identity or contact
+

@@ -1,0 +1,1202 @@
+{
+  "before": {
+    "total_evaluated": 85,
+    "revenue_ready": 5,
+    "founder_queue": 5,
+    "funnel": {
+      "stages": [
+        {
+          "name": "Signals Collected",
+          "count": 200,
+          "percent": 100.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.04,
+          "top_sources": [
+            {
+              "source": "reddit",
+              "count": 80
+            },
+            {
+              "source": "product_hunt",
+              "count": 3
+            },
+            {
+              "source": "github_trending",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Verified Companies",
+          "count": 5,
+          "percent": 2.5,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.04,
+          "top_sources": [
+            {
+              "source": "reddit",
+              "count": 80
+            },
+            {
+              "source": "product_hunt",
+              "count": 3
+            },
+            {
+              "source": "github_trending",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Identity Complete",
+          "count": 5,
+          "percent": 2.5,
+          "top_failure_reasons": [
+            {
+              "reason": "Not EROWD admitted",
+              "count": 80
+            },
+            {
+              "reason": "No website",
+              "count": 80
+            },
+            {
+              "reason": "Identity incomplete",
+              "count": 80
+            },
+            {
+              "reason": "No buying intent",
+              "count": 80
+            },
+            {
+              "reason": "No service match",
+              "count": 80
+            },
+            {
+              "reason": "No business email",
+              "count": 80
+            },
+            {
+              "reason": "Weak evidence",
+              "count": 80
+            }
+          ],
+          "avg_processing_ms": 0.04,
+          "top_sources": [
+            {
+              "source": "reddit",
+              "count": 80
+            },
+            {
+              "source": "product_hunt",
+              "count": 3
+            },
+            {
+              "source": "github_trending",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Website Verified",
+          "count": 5,
+          "percent": 2.5,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.04,
+          "top_sources": [
+            {
+              "source": "reddit",
+              "count": 80
+            },
+            {
+              "source": "product_hunt",
+              "count": 3
+            },
+            {
+              "source": "github_trending",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Intent Detected",
+          "count": 5,
+          "percent": 2.5,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.04,
+          "top_sources": [
+            {
+              "source": "reddit",
+              "count": 80
+            },
+            {
+              "source": "product_hunt",
+              "count": 3
+            },
+            {
+              "source": "github_trending",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Service Match",
+          "count": 5,
+          "percent": 2.5,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.04,
+          "top_sources": [
+            {
+              "source": "reddit",
+              "count": 80
+            },
+            {
+              "source": "product_hunt",
+              "count": 3
+            },
+            {
+              "source": "github_trending",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Business Email",
+          "count": 5,
+          "percent": 2.5,
+          "top_failure_reasons": [
+            {
+              "reason": "Not EROWD admitted",
+              "count": 80
+            },
+            {
+              "reason": "No website",
+              "count": 80
+            },
+            {
+              "reason": "Identity incomplete",
+              "count": 80
+            },
+            {
+              "reason": "No buying intent",
+              "count": 80
+            },
+            {
+              "reason": "No service match",
+              "count": 80
+            },
+            {
+              "reason": "No business email",
+              "count": 80
+            },
+            {
+              "reason": "Weak evidence",
+              "count": 80
+            }
+          ],
+          "avg_processing_ms": 0.04,
+          "top_sources": [
+            {
+              "source": "reddit",
+              "count": 80
+            },
+            {
+              "source": "product_hunt",
+              "count": 3
+            },
+            {
+              "source": "github_trending",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Decision Maker",
+          "count": 5,
+          "percent": 2.5,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.04,
+          "top_sources": [
+            {
+              "source": "reddit",
+              "count": 80
+            },
+            {
+              "source": "product_hunt",
+              "count": 3
+            },
+            {
+              "source": "github_trending",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Revenue Ready",
+          "count": 5,
+          "percent": 2.5,
+          "top_failure_reasons": [
+            {
+              "reason": "Not EROWD admitted",
+              "count": 80
+            },
+            {
+              "reason": "No website",
+              "count": 80
+            },
+            {
+              "reason": "Identity incomplete",
+              "count": 80
+            },
+            {
+              "reason": "No buying intent",
+              "count": 80
+            },
+            {
+              "reason": "No service match",
+              "count": 80
+            },
+            {
+              "reason": "No business email",
+              "count": 80
+            },
+            {
+              "reason": "Weak evidence",
+              "count": 80
+            }
+          ],
+          "avg_processing_ms": 0.04,
+          "top_sources": [
+            {
+              "source": "reddit",
+              "count": 80
+            },
+            {
+              "source": "product_hunt",
+              "count": 3
+            },
+            {
+              "source": "github_trending",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Founder Queue",
+          "count": 5,
+          "percent": 2.5,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.04,
+          "top_sources": [
+            {
+              "source": "reddit",
+              "count": 80
+            },
+            {
+              "source": "product_hunt",
+              "count": 3
+            },
+            {
+              "source": "github_trending",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Approved",
+          "count": 0,
+          "percent": 0.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.04,
+          "top_sources": [
+            {
+              "source": "reddit",
+              "count": 80
+            },
+            {
+              "source": "product_hunt",
+              "count": 3
+            },
+            {
+              "source": "github_trending",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Sent",
+          "count": 0,
+          "percent": 0.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.04,
+          "top_sources": [
+            {
+              "source": "reddit",
+              "count": 80
+            },
+            {
+              "source": "product_hunt",
+              "count": 3
+            },
+            {
+              "source": "github_trending",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Replies",
+          "count": 0,
+          "percent": 0.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.04,
+          "top_sources": [
+            {
+              "source": "reddit",
+              "count": 80
+            },
+            {
+              "source": "product_hunt",
+              "count": 3
+            },
+            {
+              "source": "github_trending",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Meetings",
+          "count": 0,
+          "percent": 0.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.04,
+          "top_sources": [
+            {
+              "source": "reddit",
+              "count": 80
+            },
+            {
+              "source": "product_hunt",
+              "count": 3
+            },
+            {
+              "source": "github_trending",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "Won",
+          "count": 0,
+          "percent": 0.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.04,
+          "top_sources": [
+            {
+              "source": "reddit",
+              "count": 80
+            },
+            {
+              "source": "product_hunt",
+              "count": 3
+            },
+            {
+              "source": "github_trending",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "total_signals": 200,
+      "revenue_ready": 5,
+      "founder_queue": 5,
+      "evidence": [
+        "signals:200",
+        "ready:5",
+        "fq:5"
+      ]
+    },
+    "connector_scores": [
+      {
+        "connector": "reddit",
+        "signals": 80,
+        "companies_admitted": 0,
+        "revenue_ready": 0,
+        "decision_makers": 0,
+        "emails": 0,
+        "duplicate_rate": 0.0,
+        "manual_qa_score": 0.0,
+        "average_quality": 0.0,
+        "revenue_ready_pct": 0.0,
+        "grade": "Weak",
+        "evidence": [
+          "signals:80",
+          "ready_pct:0.0",
+          "dup_rate:0.0",
+          "grade:Weak"
+        ]
+      },
+      {
+        "connector": "product_hunt",
+        "signals": 3,
+        "companies_admitted": 3,
+        "revenue_ready": 3,
+        "decision_makers": 3,
+        "emails": 3,
+        "duplicate_rate": 0.0,
+        "manual_qa_score": 0.0,
+        "average_quality": 85.0,
+        "revenue_ready_pct": 100.0,
+        "grade": "Excellent",
+        "evidence": [
+          "signals:3",
+          "ready_pct:100.0",
+          "dup_rate:0.0",
+          "grade:Excellent"
+        ]
+      },
+      {
+        "connector": "github_trending",
+        "signals": 2,
+        "companies_admitted": 2,
+        "revenue_ready": 2,
+        "decision_makers": 2,
+        "emails": 2,
+        "duplicate_rate": 0.0,
+        "manual_qa_score": 0.0,
+        "average_quality": 85.0,
+        "revenue_ready_pct": 100.0,
+        "grade": "Excellent",
+        "evidence": [
+          "signals:2",
+          "ready_pct:100.0",
+          "dup_rate:0.0",
+          "grade:Excellent"
+        ]
+      }
+    ],
+    "rejection_top": [
+      {
+        "reason": "Not EROWD admitted",
+        "count": 80
+      },
+      {
+        "reason": "No website",
+        "count": 80
+      },
+      {
+        "reason": "Identity incomplete",
+        "count": 80
+      },
+      {
+        "reason": "No buying intent",
+        "count": 80
+      },
+      {
+        "reason": "No service match",
+        "count": 80
+      },
+      {
+        "reason": "No business email",
+        "count": 80
+      },
+      {
+        "reason": "Weak evidence",
+        "count": 80
+      }
+    ],
+    "acceptance": {
+      "revenue_ready_count": 5,
+      "verified_emails": 5,
+      "named_decision_makers": 5,
+      "manual_qa_accuracy": 0.0,
+      "duplicate_rate": 0.0,
+      "fabricated_contacts": 0,
+      "fake_in_founder_queue": 0,
+      "production_unlocked": false,
+      "gmail_enabled": false,
+      "whatsapp_enabled": false,
+      "campaigns_enabled": false,
+      "failures": [
+        "revenue_ready_below_25",
+        "verified_emails_below_15",
+        "named_decision_makers_below_10"
+      ],
+      "evidence": [
+        "ready:5",
+        "emails:5",
+        "dms:5",
+        "qa:0",
+        "dup:0.0",
+        "unlocked:False"
+      ]
+    },
+    "daily": {
+      "signals_collected": 200,
+      "companies_verified": 5,
+      "revenue_ready": 5,
+      "decision_makers_found": 5,
+      "business_emails_found": 5,
+      "founder_queue": 5,
+      "new_high_intent": 5,
+      "connectors_improved": [],
+      "connectors_declining": [],
+      "top_5_opportunities": [
+        {
+          "company": "ReadyCo0",
+          "website": "https://ready0.com",
+          "service": "AI Automation",
+          "email": "hello@ready0.com",
+          "why_now": "Hiring while scaling",
+          "confidence": 85.0
+        },
+        {
+          "company": "ReadyCo1",
+          "website": "https://ready1.com",
+          "service": "AI Automation",
+          "email": "hello@ready1.com",
+          "why_now": "Hiring while scaling",
+          "confidence": 85.0
+        },
+        {
+          "company": "ReadyCo2",
+          "website": "https://ready2.com",
+          "service": "AI Automation",
+          "email": "hello@ready2.com",
+          "why_now": "Hiring while scaling",
+          "confidence": 85.0
+        },
+        {
+          "company": "ReadyCo3",
+          "website": "https://ready3.com",
+          "service": "AI Automation",
+          "email": "hello@ready3.com",
+          "why_now": "Hiring while scaling",
+          "confidence": 85.0
+        },
+        {
+          "company": "ReadyCo4",
+          "website": "https://ready4.com",
+          "service": "AI Automation",
+          "email": "hello@ready4.com",
+          "why_now": "Hiring while scaling",
+          "confidence": 85.0
+        }
+      ],
+      "biggest_failure": "Not EROWD admitted",
+      "recommendation": "Focus connectors with Excellent/Good grades; disable Weak producers of platform-only noise.",
+      "generated_at": "2026-07-23T22:15:52.080862+00:00",
+      "evidence": [
+        "ready:5",
+        "emails:5",
+        "dms:5",
+        "fq:5"
+      ]
+    },
+    "elapsed_ms": 4.77,
+    "evidence": [
+      "evaluated:85",
+      "ready:5",
+      "unlocked:False"
+    ]
+  },
+  "after": {
+    "total_evaluated": 50,
+    "revenue_ready": 30,
+    "founder_queue": 10,
+    "funnel": {
+      "stages": [
+        {
+          "name": "Signals Collected",
+          "count": 200,
+          "percent": 100.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.03,
+          "top_sources": [
+            {
+              "source": "hacker_news",
+              "count": 20
+            },
+            {
+              "source": "product_hunt",
+              "count": 15
+            },
+            {
+              "source": "github_trending",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "name": "Verified Companies",
+          "count": 30,
+          "percent": 15.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.03,
+          "top_sources": [
+            {
+              "source": "hacker_news",
+              "count": 20
+            },
+            {
+              "source": "product_hunt",
+              "count": 15
+            },
+            {
+              "source": "github_trending",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "name": "Identity Complete",
+          "count": 30,
+          "percent": 15.0,
+          "top_failure_reasons": [
+            {
+              "reason": "Not EROWD admitted",
+              "count": 20
+            },
+            {
+              "reason": "No website",
+              "count": 20
+            },
+            {
+              "reason": "Identity incomplete",
+              "count": 20
+            },
+            {
+              "reason": "No buying intent",
+              "count": 20
+            },
+            {
+              "reason": "No service match",
+              "count": 20
+            },
+            {
+              "reason": "No business email",
+              "count": 20
+            },
+            {
+              "reason": "Weak evidence",
+              "count": 20
+            }
+          ],
+          "avg_processing_ms": 0.03,
+          "top_sources": [
+            {
+              "source": "hacker_news",
+              "count": 20
+            },
+            {
+              "source": "product_hunt",
+              "count": 15
+            },
+            {
+              "source": "github_trending",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "name": "Website Verified",
+          "count": 30,
+          "percent": 15.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.03,
+          "top_sources": [
+            {
+              "source": "hacker_news",
+              "count": 20
+            },
+            {
+              "source": "product_hunt",
+              "count": 15
+            },
+            {
+              "source": "github_trending",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "name": "Intent Detected",
+          "count": 30,
+          "percent": 15.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.03,
+          "top_sources": [
+            {
+              "source": "hacker_news",
+              "count": 20
+            },
+            {
+              "source": "product_hunt",
+              "count": 15
+            },
+            {
+              "source": "github_trending",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "name": "Service Match",
+          "count": 30,
+          "percent": 15.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.03,
+          "top_sources": [
+            {
+              "source": "hacker_news",
+              "count": 20
+            },
+            {
+              "source": "product_hunt",
+              "count": 15
+            },
+            {
+              "source": "github_trending",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "name": "Business Email",
+          "count": 30,
+          "percent": 15.0,
+          "top_failure_reasons": [
+            {
+              "reason": "Not EROWD admitted",
+              "count": 20
+            },
+            {
+              "reason": "No website",
+              "count": 20
+            },
+            {
+              "reason": "Identity incomplete",
+              "count": 20
+            },
+            {
+              "reason": "No buying intent",
+              "count": 20
+            },
+            {
+              "reason": "No service match",
+              "count": 20
+            },
+            {
+              "reason": "No business email",
+              "count": 20
+            },
+            {
+              "reason": "Weak evidence",
+              "count": 20
+            }
+          ],
+          "avg_processing_ms": 0.03,
+          "top_sources": [
+            {
+              "source": "hacker_news",
+              "count": 20
+            },
+            {
+              "source": "product_hunt",
+              "count": 15
+            },
+            {
+              "source": "github_trending",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "name": "Decision Maker",
+          "count": 30,
+          "percent": 15.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.03,
+          "top_sources": [
+            {
+              "source": "hacker_news",
+              "count": 20
+            },
+            {
+              "source": "product_hunt",
+              "count": 15
+            },
+            {
+              "source": "github_trending",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "name": "Revenue Ready",
+          "count": 30,
+          "percent": 15.0,
+          "top_failure_reasons": [
+            {
+              "reason": "Not EROWD admitted",
+              "count": 20
+            },
+            {
+              "reason": "No website",
+              "count": 20
+            },
+            {
+              "reason": "Identity incomplete",
+              "count": 20
+            },
+            {
+              "reason": "No buying intent",
+              "count": 20
+            },
+            {
+              "reason": "No service match",
+              "count": 20
+            },
+            {
+              "reason": "No business email",
+              "count": 20
+            },
+            {
+              "reason": "Weak evidence",
+              "count": 20
+            }
+          ],
+          "avg_processing_ms": 0.03,
+          "top_sources": [
+            {
+              "source": "hacker_news",
+              "count": 20
+            },
+            {
+              "source": "product_hunt",
+              "count": 15
+            },
+            {
+              "source": "github_trending",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "name": "Founder Queue",
+          "count": 10,
+          "percent": 5.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.03,
+          "top_sources": [
+            {
+              "source": "hacker_news",
+              "count": 20
+            },
+            {
+              "source": "product_hunt",
+              "count": 15
+            },
+            {
+              "source": "github_trending",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "name": "Approved",
+          "count": 0,
+          "percent": 0.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.03,
+          "top_sources": [
+            {
+              "source": "hacker_news",
+              "count": 20
+            },
+            {
+              "source": "product_hunt",
+              "count": 15
+            },
+            {
+              "source": "github_trending",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "name": "Sent",
+          "count": 0,
+          "percent": 0.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.03,
+          "top_sources": [
+            {
+              "source": "hacker_news",
+              "count": 20
+            },
+            {
+              "source": "product_hunt",
+              "count": 15
+            },
+            {
+              "source": "github_trending",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "name": "Replies",
+          "count": 0,
+          "percent": 0.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.03,
+          "top_sources": [
+            {
+              "source": "hacker_news",
+              "count": 20
+            },
+            {
+              "source": "product_hunt",
+              "count": 15
+            },
+            {
+              "source": "github_trending",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "name": "Meetings",
+          "count": 0,
+          "percent": 0.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.03,
+          "top_sources": [
+            {
+              "source": "hacker_news",
+              "count": 20
+            },
+            {
+              "source": "product_hunt",
+              "count": 15
+            },
+            {
+              "source": "github_trending",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "name": "Won",
+          "count": 0,
+          "percent": 0.0,
+          "top_failure_reasons": [],
+          "avg_processing_ms": 0.03,
+          "top_sources": [
+            {
+              "source": "hacker_news",
+              "count": 20
+            },
+            {
+              "source": "product_hunt",
+              "count": 15
+            },
+            {
+              "source": "github_trending",
+              "count": 15
+            }
+          ]
+        }
+      ],
+      "total_signals": 200,
+      "revenue_ready": 30,
+      "founder_queue": 10,
+      "evidence": [
+        "signals:200",
+        "ready:30",
+        "fq:10"
+      ]
+    },
+    "connector_scores": [
+      {
+        "connector": "hacker_news",
+        "signals": 20,
+        "companies_admitted": 0,
+        "revenue_ready": 0,
+        "decision_makers": 0,
+        "emails": 0,
+        "duplicate_rate": 0.0,
+        "manual_qa_score": 0.0,
+        "average_quality": 0.0,
+        "revenue_ready_pct": 0.0,
+        "grade": "Weak",
+        "evidence": [
+          "signals:20",
+          "ready_pct:0.0",
+          "dup_rate:0.0",
+          "grade:Weak"
+        ]
+      },
+      {
+        "connector": "product_hunt",
+        "signals": 15,
+        "companies_admitted": 15,
+        "revenue_ready": 15,
+        "decision_makers": 15,
+        "emails": 15,
+        "duplicate_rate": 0.0,
+        "manual_qa_score": 0.0,
+        "average_quality": 85.0,
+        "revenue_ready_pct": 100.0,
+        "grade": "Excellent",
+        "evidence": [
+          "signals:15",
+          "ready_pct:100.0",
+          "dup_rate:0.0",
+          "grade:Excellent"
+        ]
+      },
+      {
+        "connector": "github_trending",
+        "signals": 15,
+        "companies_admitted": 15,
+        "revenue_ready": 15,
+        "decision_makers": 15,
+        "emails": 15,
+        "duplicate_rate": 0.0,
+        "manual_qa_score": 0.0,
+        "average_quality": 85.0,
+        "revenue_ready_pct": 100.0,
+        "grade": "Excellent",
+        "evidence": [
+          "signals:15",
+          "ready_pct:100.0",
+          "dup_rate:0.0",
+          "grade:Excellent"
+        ]
+      }
+    ],
+    "rejection_top": [
+      {
+        "reason": "Not EROWD admitted",
+        "count": 20
+      },
+      {
+        "reason": "No website",
+        "count": 20
+      },
+      {
+        "reason": "Identity incomplete",
+        "count": 20
+      },
+      {
+        "reason": "No buying intent",
+        "count": 20
+      },
+      {
+        "reason": "No service match",
+        "count": 20
+      },
+      {
+        "reason": "No business email",
+        "count": 20
+      },
+      {
+        "reason": "Weak evidence",
+        "count": 20
+      }
+    ],
+    "acceptance": {
+      "revenue_ready_count": 30,
+      "verified_emails": 30,
+      "named_decision_makers": 30,
+      "manual_qa_accuracy": 96.0,
+      "duplicate_rate": 0.0,
+      "fabricated_contacts": 0,
+      "fake_in_founder_queue": 0,
+      "production_unlocked": true,
+      "gmail_enabled": true,
+      "whatsapp_enabled": true,
+      "campaigns_enabled": true,
+      "failures": [],
+      "evidence": [
+        "ready:30",
+        "emails:30",
+        "dms:30",
+        "qa:96",
+        "dup:0.0",
+        "unlocked:True"
+      ]
+    },
+    "daily": {
+      "signals_collected": 200,
+      "companies_verified": 30,
+      "revenue_ready": 30,
+      "decision_makers_found": 30,
+      "business_emails_found": 30,
+      "founder_queue": 10,
+      "new_high_intent": 30,
+      "connectors_improved": [],
+      "connectors_declining": [],
+      "top_5_opportunities": [
+        {
+          "company": "ReadyCo0",
+          "website": "https://ready0.com",
+          "service": "AI Automation",
+          "email": "hello@ready0.com",
+          "why_now": "Hiring while scaling",
+          "confidence": 85.0
+        },
+        {
+          "company": "ReadyCo1",
+          "website": "https://ready1.com",
+          "service": "AI Automation",
+          "email": "hello@ready1.com",
+          "why_now": "Hiring while scaling",
+          "confidence": 85.0
+        },
+        {
+          "company": "ReadyCo2",
+          "website": "https://ready2.com",
+          "service": "AI Automation",
+          "email": "hello@ready2.com",
+          "why_now": "Hiring while scaling",
+          "confidence": 85.0
+        },
+        {
+          "company": "ReadyCo3",
+          "website": "https://ready3.com",
+          "service": "AI Automation",
+          "email": "hello@ready3.com",
+          "why_now": "Hiring while scaling",
+          "confidence": 85.0
+        },
+        {
+          "company": "ReadyCo4",
+          "website": "https://ready4.com",
+          "service": "AI Automation",
+          "email": "hello@ready4.com",
+          "why_now": "Hiring while scaling",
+          "confidence": 85.0
+        }
+      ],
+      "biggest_failure": "Not EROWD admitted",
+      "recommendation": "Founder Queue is contactable \u2014 review Top 10 and approve outreach in sandbox.",
+      "generated_at": "2026-07-23T22:15:52.084491+00:00",
+      "evidence": [
+        "ready:30",
+        "emails:30",
+        "dms:30",
+        "fq:10"
+      ]
+    },
+    "elapsed_ms": 1.36,
+    "evidence": [
+      "evaluated:50",
+      "ready:30",
+      "unlocked:True"
+    ]
+  }
+}

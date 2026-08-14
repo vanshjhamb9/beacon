@@ -1,0 +1,19 @@
+{
+  "total": 20,
+  "by_segment": {
+    "Fertilizer/Agri": 3,
+    "Chemicals": 9,
+    "Pharma/Biotech": 6,
+    "Biogas": 2
+  },
+  "with_ceo_name": 15,
+  "with_email": 13,
+  "with_phone": 15,
+  "with_website": 15,
+  "high_confidence": 11,
+  "medium_confidence": 7,
+  "low_confidence": 2,
+  "generated_at": "2026-08-13T22:39:43Z",
+  "geography": "Kochi / Ernakulam industrial belt (Udyogamandal, Edayar, Edappally, Kalamassery, Eloor)",
+  "method": "Directory discovery \u2192 official sites \u2192 MCA/LinkedIn public \u2192 QA (no invented contacts)"
+}

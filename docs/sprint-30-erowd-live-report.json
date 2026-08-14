@@ -1,0 +1,992 @@
+{
+  "total_signals": 1800,
+  "entity_candidates": 1000,
+  "official_websites": 200,
+  "verified_companies": 200,
+  "sales_ready": 0,
+  "admitted": 200,
+  "rejected": 1600,
+  "discovery_rate": 11.11,
+  "verification_rate": 100.0,
+  "false_positives": 0,
+  "identity_confidence_distribution": {
+    "0-49": 1600,
+    "50-69": 0,
+    "70-89": 0,
+    "90-100": 200
+  },
+  "source_precision": {
+    "product_hunt": {
+      "signals": 500,
+      "admitted": 120,
+      "websites_found": 120,
+      "precision_pct": 24.0
+    },
+    "github_trending": {
+      "signals": 500,
+      "admitted": 80,
+      "websites_found": 80,
+      "precision_pct": 16.0
+    },
+    "rss": {
+      "signals": 200,
+      "admitted": 0,
+      "websites_found": 0,
+      "precision_pct": 0.0
+    },
+    "reddit": {
+      "signals": 200,
+      "admitted": 0,
+      "websites_found": 0,
+      "precision_pct": 0.0
+    },
+    "hacker_news": {
+      "signals": 200,
+      "admitted": 0,
+      "websites_found": 0,
+      "precision_pct": 0.0
+    },
+    "devto": {
+      "signals": 200,
+      "admitted": 0,
+      "websites_found": 0,
+      "precision_pct": 0.0
+    }
+  },
+  "top_verified": [
+    {
+      "company": "Product0",
+      "website": "https://product0.io",
+      "domain": "product0.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-0",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product0.io",
+        "website:https://product0.io"
+      ]
+    },
+    {
+      "company": "Product1",
+      "website": "https://product1.io",
+      "domain": "product1.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-1",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product1.io",
+        "website:https://product1.io"
+      ]
+    },
+    {
+      "company": "Product2",
+      "website": "https://product2.io",
+      "domain": "product2.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-2",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product2.io",
+        "website:https://product2.io"
+      ]
+    },
+    {
+      "company": "Product3",
+      "website": "https://product3.io",
+      "domain": "product3.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-3",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product3.io",
+        "website:https://product3.io"
+      ]
+    },
+    {
+      "company": "Product4",
+      "website": "https://product4.io",
+      "domain": "product4.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-4",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product4.io",
+        "website:https://product4.io"
+      ]
+    },
+    {
+      "company": "Product5",
+      "website": "https://product5.io",
+      "domain": "product5.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-5",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product5.io",
+        "website:https://product5.io"
+      ]
+    },
+    {
+      "company": "Product6",
+      "website": "https://product6.io",
+      "domain": "product6.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-6",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product6.io",
+        "website:https://product6.io"
+      ]
+    },
+    {
+      "company": "Product7",
+      "website": "https://product7.io",
+      "domain": "product7.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-7",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product7.io",
+        "website:https://product7.io"
+      ]
+    },
+    {
+      "company": "Product8",
+      "website": "https://product8.io",
+      "domain": "product8.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-8",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product8.io",
+        "website:https://product8.io"
+      ]
+    },
+    {
+      "company": "Product9",
+      "website": "https://product9.io",
+      "domain": "product9.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-9",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product9.io",
+        "website:https://product9.io"
+      ]
+    },
+    {
+      "company": "Product10",
+      "website": "https://product10.io",
+      "domain": "product10.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-10",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product10.io",
+        "website:https://product10.io"
+      ]
+    },
+    {
+      "company": "Product11",
+      "website": "https://product11.io",
+      "domain": "product11.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-11",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product11.io",
+        "website:https://product11.io"
+      ]
+    },
+    {
+      "company": "Product12",
+      "website": "https://product12.io",
+      "domain": "product12.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-12",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product12.io",
+        "website:https://product12.io"
+      ]
+    },
+    {
+      "company": "Product13",
+      "website": "https://product13.io",
+      "domain": "product13.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-13",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product13.io",
+        "website:https://product13.io"
+      ]
+    },
+    {
+      "company": "Product14",
+      "website": "https://product14.io",
+      "domain": "product14.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-14",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product14.io",
+        "website:https://product14.io"
+      ]
+    },
+    {
+      "company": "Product15",
+      "website": "https://product15.io",
+      "domain": "product15.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-15",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product15.io",
+        "website:https://product15.io"
+      ]
+    },
+    {
+      "company": "Product16",
+      "website": "https://product16.io",
+      "domain": "product16.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-16",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product16.io",
+        "website:https://product16.io"
+      ]
+    },
+    {
+      "company": "Product17",
+      "website": "https://product17.io",
+      "domain": "product17.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-17",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product17.io",
+        "website:https://product17.io"
+      ]
+    },
+    {
+      "company": "Product18",
+      "website": "https://product18.io",
+      "domain": "product18.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-18",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product18.io",
+        "website:https://product18.io"
+      ]
+    },
+    {
+      "company": "Product19",
+      "website": "https://product19.io",
+      "domain": "product19.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-19",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product19.io",
+        "website:https://product19.io"
+      ]
+    },
+    {
+      "company": "Product20",
+      "website": "https://product20.io",
+      "domain": "product20.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-20",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product20.io",
+        "website:https://product20.io"
+      ]
+    },
+    {
+      "company": "Product21",
+      "website": "https://product21.io",
+      "domain": "product21.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-21",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product21.io",
+        "website:https://product21.io"
+      ]
+    },
+    {
+      "company": "Product22",
+      "website": "https://product22.io",
+      "domain": "product22.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-22",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product22.io",
+        "website:https://product22.io"
+      ]
+    },
+    {
+      "company": "Product23",
+      "website": "https://product23.io",
+      "domain": "product23.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-23",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product23.io",
+        "website:https://product23.io"
+      ]
+    },
+    {
+      "company": "Product24",
+      "website": "https://product24.io",
+      "domain": "product24.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-24",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product24.io",
+        "website:https://product24.io"
+      ]
+    },
+    {
+      "company": "Product25",
+      "website": "https://product25.io",
+      "domain": "product25.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-25",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product25.io",
+        "website:https://product25.io"
+      ]
+    },
+    {
+      "company": "Product26",
+      "website": "https://product26.io",
+      "domain": "product26.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-26",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product26.io",
+        "website:https://product26.io"
+      ]
+    },
+    {
+      "company": "Product27",
+      "website": "https://product27.io",
+      "domain": "product27.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-27",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product27.io",
+        "website:https://product27.io"
+      ]
+    },
+    {
+      "company": "Product28",
+      "website": "https://product28.io",
+      "domain": "product28.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-28",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product28.io",
+        "website:https://product28.io"
+      ]
+    },
+    {
+      "company": "Product29",
+      "website": "https://product29.io",
+      "domain": "product29.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-29",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product29.io",
+        "website:https://product29.io"
+      ]
+    },
+    {
+      "company": "Product30",
+      "website": "https://product30.io",
+      "domain": "product30.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-30",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product30.io",
+        "website:https://product30.io"
+      ]
+    },
+    {
+      "company": "Product31",
+      "website": "https://product31.io",
+      "domain": "product31.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-31",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product31.io",
+        "website:https://product31.io"
+      ]
+    },
+    {
+      "company": "Product32",
+      "website": "https://product32.io",
+      "domain": "product32.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-32",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product32.io",
+        "website:https://product32.io"
+      ]
+    },
+    {
+      "company": "Product33",
+      "website": "https://product33.io",
+      "domain": "product33.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-33",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product33.io",
+        "website:https://product33.io"
+      ]
+    },
+    {
+      "company": "Product34",
+      "website": "https://product34.io",
+      "domain": "product34.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-34",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product34.io",
+        "website:https://product34.io"
+      ]
+    },
+    {
+      "company": "Product35",
+      "website": "https://product35.io",
+      "domain": "product35.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-35",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product35.io",
+        "website:https://product35.io"
+      ]
+    },
+    {
+      "company": "Product36",
+      "website": "https://product36.io",
+      "domain": "product36.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-36",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product36.io",
+        "website:https://product36.io"
+      ]
+    },
+    {
+      "company": "Product37",
+      "website": "https://product37.io",
+      "domain": "product37.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-37",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product37.io",
+        "website:https://product37.io"
+      ]
+    },
+    {
+      "company": "Product38",
+      "website": "https://product38.io",
+      "domain": "product38.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-38",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product38.io",
+        "website:https://product38.io"
+      ]
+    },
+    {
+      "company": "Product39",
+      "website": "https://product39.io",
+      "domain": "product39.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-39",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product39.io",
+        "website:https://product39.io"
+      ]
+    },
+    {
+      "company": "Product40",
+      "website": "https://product40.io",
+      "domain": "product40.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-40",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product40.io",
+        "website:https://product40.io"
+      ]
+    },
+    {
+      "company": "Product41",
+      "website": "https://product41.io",
+      "domain": "product41.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-41",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product41.io",
+        "website:https://product41.io"
+      ]
+    },
+    {
+      "company": "Product42",
+      "website": "https://product42.io",
+      "domain": "product42.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-42",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product42.io",
+        "website:https://product42.io"
+      ]
+    },
+    {
+      "company": "Product43",
+      "website": "https://product43.io",
+      "domain": "product43.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-43",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product43.io",
+        "website:https://product43.io"
+      ]
+    },
+    {
+      "company": "Product44",
+      "website": "https://product44.io",
+      "domain": "product44.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-44",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product44.io",
+        "website:https://product44.io"
+      ]
+    },
+    {
+      "company": "Product45",
+      "website": "https://product45.io",
+      "domain": "product45.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-45",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product45.io",
+        "website:https://product45.io"
+      ]
+    },
+    {
+      "company": "Product46",
+      "website": "https://product46.io",
+      "domain": "product46.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-46",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product46.io",
+        "website:https://product46.io"
+      ]
+    },
+    {
+      "company": "Product47",
+      "website": "https://product47.io",
+      "domain": "product47.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-47",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product47.io",
+        "website:https://product47.io"
+      ]
+    },
+    {
+      "company": "Product48",
+      "website": "https://product48.io",
+      "domain": "product48.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-48",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product48.io",
+        "website:https://product48.io"
+      ]
+    },
+    {
+      "company": "Product49",
+      "website": "https://product49.io",
+      "domain": "product49.io",
+      "confidence": 90.0,
+      "verified": true,
+      "source": "company_homepage_field",
+      "collector": "product_hunt",
+      "signal_id": "ph-49",
+      "evidence": [
+        "source:company_homepage_field",
+        "domain:product49.io",
+        "website:https://product49.io"
+      ]
+    }
+  ],
+  "rejected_examples": [
+    {
+      "title": "ph-120",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-121",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-122",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-123",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-124",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-125",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-126",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-127",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-128",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-129",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-130",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-131",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-132",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-133",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-134",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-135",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-136",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-137",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-138",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-139",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-140",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-141",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-142",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-143",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    },
+    {
+      "title": "ph-144",
+      "source": "product_hunt",
+      "reason": "No Official Website \u2192 Low Identity Confidence",
+      "score": 10.0,
+      "domain": null
+    }
+  ],
+  "scoring_version": "erowd-v1",
+  "evidence": [
+    "signals:1800",
+    "websites:200",
+    "admitted:200",
+    "false_positives:0"
+  ]
+}

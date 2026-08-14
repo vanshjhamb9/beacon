@@ -1,0 +1,319 @@
+[
+  {
+    "id": "59211ffe-8028-47c3-95ec-22ca4757e3ac",
+    "company": "Shopify Store",
+    "domain": "retailops.com",
+    "classification": "ICP_OPPORTUNITY",
+    "business_type": "DIRECT_CUSTOMER",
+    "problem": "Ecommerce business that may benefit from automation",
+    "why_now": "Growing business with potential operational pressure",
+    "solution": "COMAI -- WhatsApp AI Automation",
+    "outreach_reason": "Shopify Store is an ecommerce business that fits our ICP. They may benefit from AI-powered customer support.",
+    "contact": {
+      "email": null,
+      "author": "retail_ops_2026",
+      "twitter": null,
+      "linkedin": null
+    },
+    "evidence": [
+      {
+        "type": "content",
+        "value": "Our WooCommerce store gets 200+ customer messages daily on WhatsApp. 80% are FAQs about shipping, returns, and product info. Looking for an AI solution that can handle these automatically.",
+        "source": "reddit"
+      }
+    ],
+    "freshness": "CURRENT",
+    "days_old": 0,
+    "contact_type": "UNKNOWN",
+    "is_high_contactability": false,
+    "source_url": "https://www.reddit.com/r/shopify/comments/97c259d4",
+    "source": "reddit",
+    "published_at": "2026-08-10T03:53:35.665086+00:00",
+    "pain_signals": [],
+    "buying_signals": [],
+    "partner_signals": [],
+    "icp_score": 1.0,
+    "outreach_preparation": {
+      "company": "Shopify Store",
+      "contact": "N/A",
+      "problem": "Ecommerce business that may benefit from automation",
+      "why_now": "Growing business with potential operational pressure",
+      "evidence": [
+        {
+          "type": "content",
+          "value": "Our WooCommerce store gets 200+ customer messages daily on WhatsApp. 80% are FAQs about shipping, returns, and product info. Looking for an AI solution that can handle these automatically.",
+          "source": "reddit"
+        }
+      ],
+      "solution": "COMAI -- WhatsApp AI Automation",
+      "why_comai": "COMAI can help Shopify Store automate customer support with AI-powered WhatsApp chatbots, reducing support burden and improving response times.",
+      "buyer_name": "retail_ops_2026",
+      "buyer_role": "default",
+      "why_inowix": null,
+      "business_type": "UNKNOWN",
+      "outreach_angle": "icp",
+      "opportunity_type": "ICP_OPPORTUNITY",
+      "outreach_message": {
+        "email": {
+          "body": "Hi retail_ops_2026,\n\nGiven Shopify Store's growth,\n\nBased on what I've seen, Ecommerce business that may benefit from automation is a challenge you're facing.\n\nWe help ecommerce businesses automate customer support with AI-powered WhatsApp chatbots. Our clients typically see 60% reduction in support tickets and 3x faster response times.\n\nHappy to share more about how we've helped similar companies.\n\nBest,\nVansh Jhamb\nFounder\nInowix Technologies\nvansh@inowix.in\nhttps://www.inowix.in/",
+          "style": "professional",
+          "channel": "email",
+          "subject": "Quick question about Shopify Store",
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "Our WooCommerce store gets 200+ customer messages daily on WhatsApp. 80% are FAQs about shipping, returns, and product info. Looking for an AI solution that can handle these automatically.",
+              "source": "reddit"
+            }
+          ],
+          "quality_scores": {
+            "readability": 0.9,
+            "personalization": 0.8,
+            "evidence_coverage": 0.7,
+            "professional_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: Shopify Store",
+            "Problem: Ecommerce business that may benefit from automation"
+          ]
+        },
+        "linkedin": {
+          "body": "Hi retail_ops_2026,\n\ninterested in what you're building at Shopify Store.\n\nWould love to connect and learn more about what you're building at Shopify Store.\n\nBest,\nVansh",
+          "style": "professional",
+          "channel": "linkedin",
+          "subject": null,
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "Our WooCommerce store gets 200+ customer messages daily on WhatsApp. 80% are FAQs about shipping, returns, and product info. Looking for an AI solution that can handle these automatically.",
+              "source": "reddit"
+            }
+          ],
+          "quality_scores": {
+            "brevity": 0.9,
+            "personalization": 0.7,
+            "professional_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: Shopify Store",
+            "Problem: Ecommerce business that may benefit from automation"
+          ]
+        },
+        "whatsapp": {
+          "body": "Hi retail_ops_2026, I noticed Ecommerce business that may benefit from automation. We help businesses like Shopify Store with COMAI -- WhatsApp AI Automation. Would love to chat! - Vansh, Inowix",
+          "style": "professional",
+          "channel": "whatsapp",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "brevity": 0.9,
+            "casual_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: Shopify Store",
+            "Problem: Ecommerce business that may benefit from automation"
+          ]
+        },
+        "reddit_dm": {
+          "body": "Hey retail_ops_2026,\n\nSaw your post about Ecommerce business that may benefit from automation. I've helped similar companies with COMAI -- WhatsApp AI Automation.\n\nHappy to share some insights if you're interested. No pitch, just useful info.\n\nBest,\nVansh",
+          "style": "professional",
+          "channel": "reddit_dm",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "non_salesy": 0.9,
+            "helpful_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: Shopify Store",
+            "Problem: Ecommerce business that may benefit from automation"
+          ]
+        }
+      },
+      "follow_up_sequence": [
+        {
+          "day": "0",
+          "body": "Initial outreach to Shopify Store",
+          "channel": "email"
+        },
+        {
+          "day": "2",
+          "body": "Follow-up: Any thoughts on my previous email about Ecommerce business that may benefit from automation?",
+          "channel": "email"
+        },
+        {
+          "day": "5",
+          "body": "LinkedIn connection request with note about Shopify Store",
+          "channel": "linkedin"
+        },
+        {
+          "day": "7",
+          "body": "Final follow-up: Happy to chat whenever works for you.",
+          "channel": "email"
+        }
+      ],
+      "recommended_channel": "email",
+      "personalization_points": [
+        "Company: Shopify Store",
+        "Problem: Ecommerce business that may benefit from automation"
+      ]
+    },
+    "cto_test": false
+  },
+  {
+    "id": "3581ba88-3d3a-4e8d-ac14-79029e7343cb",
+    "company": "Retail Ops",
+    "domain": "quickshipcommerce.com",
+    "classification": "NURTURE",
+    "business_type": null,
+    "problem": null,
+    "why_now": null,
+    "solution": null,
+    "outreach_reason": null,
+    "contact": {
+      "email": null,
+      "author": "store_manager_99",
+      "twitter": null,
+      "linkedin": null
+    },
+    "evidence": [
+      {
+        "type": "content",
+        "value": "Has anyone used COMAI for customer support? We need something that can handle WhatsApp messages automatically. Our team is overwhelmed.",
+        "source": "reddit"
+      }
+    ],
+    "freshness": "CURRENT",
+    "days_old": 0,
+    "contact_type": "UNKNOWN",
+    "is_high_contactability": false,
+    "source_url": "https://www.reddit.com/r/shopify/comments/3e04db30",
+    "source": "reddit",
+    "published_at": "2026-08-10T16:53:35.665032+00:00",
+    "pain_signals": [],
+    "buying_signals": [],
+    "partner_signals": [],
+    "icp_score": 0.4,
+    "outreach_preparation": {
+      "company": "Retail Ops",
+      "contact": "N/A",
+      "problem": "Unknown problem",
+      "why_now": "Timely opportunity",
+      "evidence": [
+        {
+          "type": "content",
+          "value": "Has anyone used COMAI for customer support? We need something that can handle WhatsApp messages automatically. Our team is overwhelmed.",
+          "source": "reddit"
+        }
+      ],
+      "solution": "Unknown solution",
+      "why_comai": "COMAI can help Retail Ops automate customer support with AI-powered WhatsApp chatbots, reducing support burden and improving response times.",
+      "buyer_name": "store_manager_99",
+      "buyer_role": "manager",
+      "why_inowix": null,
+      "business_type": "UNKNOWN",
+      "outreach_angle": "icp",
+      "opportunity_type": "NURTURE",
+      "outreach_message": {
+        "email": {
+          "body": "Hi store_manager_99,\n\nGiven Retail Ops's growth,\n\nI understand you're working through some technical challenges.\n\nWe help ecommerce businesses automate customer support with AI-powered WhatsApp chatbots. Our clients typically see 60% reduction in support tickets and 3x faster response times.\n\nHappy to share more about how we've helped similar companies.\n\nBest,\nVansh Jhamb\nFounder\nInowix Technologies\nvansh@inowix.in\nhttps://www.inowix.in/",
+          "style": "professional",
+          "channel": "email",
+          "subject": "Quick question about Retail Ops",
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "Has anyone used COMAI for customer support? We need something that can handle WhatsApp messages automatically. Our team is overwhelmed.",
+              "source": "reddit"
+            }
+          ],
+          "quality_scores": {
+            "readability": 0.9,
+            "personalization": 0.8,
+            "evidence_coverage": 0.7,
+            "professional_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: Retail Ops"
+          ]
+        },
+        "linkedin": {
+          "body": "Hi store_manager_99,\n\ninterested in what you're building at Retail Ops.\n\nWould love to connect and learn more about what you're building at Retail Ops.\n\nBest,\nVansh",
+          "style": "professional",
+          "channel": "linkedin",
+          "subject": null,
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "Has anyone used COMAI for customer support? We need something that can handle WhatsApp messages automatically. Our team is overwhelmed.",
+              "source": "reddit"
+            }
+          ],
+          "quality_scores": {
+            "brevity": 0.9,
+            "personalization": 0.7,
+            "professional_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: Retail Ops"
+          ]
+        },
+        "whatsapp": {
+          "body": "Hi store_manager_99, I noticed your company is growing. We help businesses like Retail Ops with technical solutions. Would love to chat! - Vansh, Inowix",
+          "style": "professional",
+          "channel": "whatsapp",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "brevity": 0.9,
+            "casual_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: Retail Ops"
+          ]
+        },
+        "reddit_dm": {
+          "body": "Hey store_manager_99,\n\nSaw your post about your project. I've helped similar companies with technical challenges.\n\nHappy to share some insights if you're interested. No pitch, just useful info.\n\nBest,\nVansh",
+          "style": "professional",
+          "channel": "reddit_dm",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "non_salesy": 0.9,
+            "helpful_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: Retail Ops"
+          ]
+        }
+      },
+      "follow_up_sequence": [
+        {
+          "day": "0",
+          "body": "Initial outreach to Retail Ops",
+          "channel": "email"
+        },
+        {
+          "day": "2",
+          "body": "Follow-up: Any thoughts on my previous email about your project?",
+          "channel": "email"
+        },
+        {
+          "day": "5",
+          "body": "LinkedIn connection request with note about Retail Ops",
+          "channel": "linkedin"
+        },
+        {
+          "day": "7",
+          "body": "Final follow-up: Happy to chat whenever works for you.",
+          "channel": "email"
+        }
+      ],
+      "recommended_channel": "email",
+      "personalization_points": [
+        "Company: Retail Ops"
+      ]
+    },
+    "cto_test": false
+  }
+]

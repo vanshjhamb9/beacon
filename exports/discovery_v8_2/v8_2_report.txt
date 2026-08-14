@@ -1,0 +1,53 @@
+======================================================================
+V8.2 CONTACT VERIFICATION + REPRODUCIBILITY REPORT
+Generated: 2026-08-08T22:39:59.043798
+======================================================================
+
+METRICS:
+  TOTAL_AUDITED: 1
+  IDENTITY_HIGH: 0
+  CURRENT: 0
+  EXPLICIT_OUTSOURCING: 0
+  COMPANY_VERIFIED: 0
+  SERVICE_MATCH_HIGH: 0
+
+CONTACT VERIFICATION:
+  EMAIL_VERIFIED: 0
+  LINKEDIN_VERIFIED: 0
+  PLATFORM_CONTACT_VERIFIED: 0
+
+CONTACTABILITY:
+  HIGH: 0
+  MEDIUM: 1
+  LOW: 0
+  NONE: 0
+
+REPRODUCIBILITY:
+  PASS: 1
+  FAIL: 0
+
+FINAL:
+  SALES_READY: 0
+  NEEDS_RESEARCH: 1
+  REJECTED: 0
+
+======================================================================
+SALES_READY LEADS
+======================================================================
+
+  NO SALES_READY LEADS
+
+======================================================================
+DOWNRADED OPPORTUNITIES
+======================================================================
+
+V8-002:
+  Previous Status: NEEDS_RESEARCH
+  Failed Gates:
+    - Failed gate: contactability
+    - Failed gate: primary_contact_status
+    - Failed gate: contact_owner_match
+  What Would Be Required:
+    - VERIFIED primary contact (currently: PUBLIC_UNVERIFIED)
+    - VERIFIED contact ownership (currently: LIKELY)
+

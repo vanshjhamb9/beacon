@@ -1,0 +1,958 @@
+{
+  "audit_name": "V4 Adversarial Opportunity Verification",
+  "audit_date": "2026-08-08T19:34:24.045465",
+  "total_audited": 10,
+  "summary": {
+    "HIGH_PRIORITY": 0,
+    "QUALIFIED": 0,
+    "NEEDS_RESEARCH": 0,
+    "REJECT": 10
+  },
+  "leads": [
+    {
+      "v4_audit_id": "V4-009",
+      "original_opportunity_id": "V3-009",
+      "company": "Individual Founder",
+      "person": "Platform Founder",
+      "role": "Founder",
+      "original_source": {
+        "source_type": "UPWORK_EXACT_JOB",
+        "source_url": "https://www.upwork.com/freelance-jobs/apply/Chatbot-Development-for-Shopify-Facebook-and-WhatsApp_~021846275314806430523",
+        "exact_source": true,
+        "source_access": "BLOCKED_BUT_URL_VALID",
+        "source_confidence": "MEDIUM"
+      },
+      "requirement": {
+        "text": "Skilled developer to create a platform where I can sell services. Web development experience required.",
+        "quote": "Requirement claimed but NOT independently verified — Upwork blocks access",
+        "source_url": "https://www.upwork.com/freelance-jobs/apply/Chatbot-Development-for-Shopify-Facebook-and-WhatsApp_~021846275314806430523",
+        "confidence": "UNVERIFIED"
+      },
+      "identity": {
+        "name": "Platform Founder",
+        "username": "",
+        "role": "Founder",
+        "linkedin_url": "",
+        "company_url": "",
+        "confidence": "GENERIC"
+      },
+      "currentness": {
+        "status": "RECENT",
+        "observed_date": "Recent (posted 19 hours ago)",
+        "evidence": "Recent/active posting",
+        "confidence": "MEDIUM"
+      },
+      "commercial_intent": {
+        "type": "EXPLICIT_OUTSOURCING",
+        "explicit_outsourcing": true,
+        "budget_evidence": "1-3 months",
+        "confidence": "MEDIUM"
+      },
+      "buyer_context": {
+        "buyer_type": "FOUNDER",
+        "decision_authority": "HIGH",
+        "confidence": "MEDIUM"
+      },
+      "service_fit": {
+        "business_unit": "CUSTOM_SOFTWARE",
+        "services": [
+          "Web Application",
+          "Platform Development"
+        ],
+        "confidence": "MEDIUM"
+      },
+      "contactability": {
+        "email": "",
+        "email_status": "UNKNOWN",
+        "linkedin_url": "",
+        "platform_url": "https://www.upwork.com/freelance-jobs/apply/Chatbot-Development-for-Shopify-Facebook-and-WhatsApp_~021846275314806430523",
+        "contact_paths": [
+          "UPWORK_PROPOSAL"
+        ]
+      },
+      "cross_source_verification": {
+        "verified": false,
+        "sources": [],
+        "confidence": "NOT_ATTEMPTED"
+      },
+      "outreach": {
+        "recommended_channel": "UPWORK_PROPOSAL",
+        "channel_reason": "Upwork job posting — platform proposal is legitimate channel",
+        "email_allowed": false,
+        "linkedin_allowed": false,
+        "platform_proposal_allowed": true
+      },
+      "v4_score": 64.5,
+      "classification": "REJECT",
+      "hard_gate_failures": [
+        "REQUIREMENT: Claimed but NOT verified — Upwork blocks access",
+        "IDENTITY: Generic role — no named person"
+      ],
+      "evidence": [
+        {
+          "claim": "Source URL verification",
+          "value": "Upwork job URL with correct format: https://www.upwork.com/freelance-jobs/apply/Chatbot-Development-for-Shopify-Facebook-and-WhatsApp_~021846275314806430523",
+          "source": "URL analysis",
+          "source_url": "https://www.upwork.com/freelance-jobs/apply/Chatbot-Development-for-Shopify-Facebook-and-WhatsApp_~021846275314806430523",
+          "confidence": "MEDIUM",
+          "observed_at": "V4_audit"
+        }
+      ],
+      "missing_information": [],
+      "cto_verdict": "NO",
+      "recommended_next_action": "DO NOT PURSUE — Lead rejected due to: REQUIREMENT: Claimed but NOT verified — Upwork blocks access; IDENTITY: Generic role — no named person"
+    },
+    {
+      "v4_audit_id": "V4-004",
+      "original_opportunity_id": "V3-004",
+      "company": "EdTech Business",
+      "person": "EdTech Founder",
+      "role": "Founder",
+      "original_source": {
+        "source_type": "FREELANCER_EXACT_JOB",
+        "source_url": "https://www.freelancer.com/jobs/ai-chatbot/",
+        "exact_source": false,
+        "source_access": "CATEGORY_PAGE",
+        "source_confidence": "LOW"
+      },
+      "requirement": {
+        "text": "n8n automation expert needed for AI-powered lead management and customer communication system. Facebook/Instagram Lead Ads integration, WhatsApp messaging automation, AI chatbot integration (OpenAI), CRM/database integration, automated follow-ups.",
+        "quote": "Jobs exist on category page but cannot confirm they match the V3 claim",
+        "source_url": "https://www.freelancer.com/jobs/ai-chatbot/",
+        "confidence": "UNVERIFIED"
+      },
+      "identity": {
+        "name": "EdTech Founder",
+        "username": "",
+        "role": "Founder",
+        "linkedin_url": "",
+        "company_url": "",
+        "confidence": "GENERIC"
+      },
+      "currentness": {
+        "status": "RECENT",
+        "observed_date": "Active (4 days left)",
+        "evidence": "Recent/active posting",
+        "confidence": "MEDIUM"
+      },
+      "commercial_intent": {
+        "type": "EXPLICIT_OUTSOURCING",
+        "explicit_outsourcing": true,
+        "budget_evidence": "$8/hr (multiple bids)",
+        "confidence": "MEDIUM"
+      },
+      "buyer_context": {
+        "buyer_type": "FOUNDER",
+        "decision_authority": "HIGH",
+        "confidence": "MEDIUM"
+      },
+      "service_fit": {
+        "business_unit": "COMAI",
+        "services": [
+          "WhatsApp Automation",
+          "AI Chatbot",
+          "CRM Integration",
+          "Lead Capture"
+        ],
+        "confidence": "HIGH"
+      },
+      "contactability": {
+        "email": "",
+        "email_status": "UNKNOWN",
+        "linkedin_url": "",
+        "platform_url": "https://www.freelancer.com/jobs/ai-chatbot/",
+        "contact_paths": [
+          "FREELANCER_PROPOSAL"
+        ]
+      },
+      "cross_source_verification": {
+        "verified": false,
+        "sources": [],
+        "confidence": "NOT_ATTEMPTED"
+      },
+      "outreach": {
+        "recommended_channel": "FREELANCER_PROPOSAL",
+        "channel_reason": "Freelancer.com job — platform proposal is legitimate channel",
+        "email_allowed": false,
+        "linkedin_allowed": false,
+        "platform_proposal_allowed": true
+      },
+      "v4_score": 62.5,
+      "classification": "REJECT",
+      "hard_gate_failures": [
+        "SOURCE: URL is a category page, not an exact job posting",
+        "REQUIREMENT: Cannot confirm job matches V3 claim — category page",
+        "IDENTITY: Generic role — no named person"
+      ],
+      "evidence": [
+        {
+          "claim": "Source URL verification",
+          "value": "Freelancer.com CATEGORY PAGE — NOT an exact job posting: https://www.freelancer.com/jobs/ai-chatbot/",
+          "source": "URL analysis",
+          "source_url": "https://www.freelancer.com/jobs/ai-chatbot/",
+          "confidence": "LOW",
+          "observed_at": "V4_audit"
+        }
+      ],
+      "missing_information": [],
+      "cto_verdict": "NO",
+      "recommended_next_action": "DO NOT PURSUE — Lead rejected due to: SOURCE: URL is a category page, not an exact job posting; REQUIREMENT: Cannot confirm job matches V3 claim — category page; IDENTITY: Generic role — no named person"
+    },
+    {
+      "v4_audit_id": "V4-005",
+      "original_opportunity_id": "V3-005",
+      "company": "Clothing Showroom Network",
+      "person": "Showroom Network Owner",
+      "role": "Business Owner",
+      "original_source": {
+        "source_type": "FREELANCER_EXACT_JOB",
+        "source_url": "https://www.freelancer.com/jobs/chatbot/",
+        "exact_source": false,
+        "source_access": "CATEGORY_PAGE",
+        "source_confidence": "LOW"
+      },
+      "requirement": {
+        "text": "WhatsApp chatbot setup for network of clothing showrooms. Chatbot handles order processing from first message through confirmation. Connects to existing workflow (Google Sheet, POS). Stock levels and customer details automatically stay in sync.",
+        "quote": "Jobs exist on category page but cannot confirm they match the V3 claim",
+        "source_url": "https://www.freelancer.com/jobs/chatbot/",
+        "confidence": "UNVERIFIED"
+      },
+      "identity": {
+        "name": "Showroom Network Owner",
+        "username": "",
+        "role": "Business Owner",
+        "linkedin_url": "",
+        "company_url": "",
+        "confidence": "GENERIC"
+      },
+      "currentness": {
+        "status": "RECENT",
+        "observed_date": "Active (6 days left)",
+        "evidence": "Recent/active posting",
+        "confidence": "MEDIUM"
+      },
+      "commercial_intent": {
+        "type": "EXPLICIT_OUTSOURCING",
+        "explicit_outsourcing": true,
+        "budget_evidence": "$81 average bid",
+        "confidence": "MEDIUM"
+      },
+      "buyer_context": {
+        "buyer_type": "BUSINESS_OWNER",
+        "decision_authority": "HIGH",
+        "confidence": "MEDIUM"
+      },
+      "service_fit": {
+        "business_unit": "COMAI",
+        "services": [
+          "WhatsApp Chatbot",
+          "E-commerce Automation",
+          "Order Processing"
+        ],
+        "confidence": "HIGH"
+      },
+      "contactability": {
+        "email": "",
+        "email_status": "UNKNOWN",
+        "linkedin_url": "",
+        "platform_url": "https://www.freelancer.com/jobs/chatbot/",
+        "contact_paths": [
+          "FREELANCER_PROPOSAL"
+        ]
+      },
+      "cross_source_verification": {
+        "verified": false,
+        "sources": [],
+        "confidence": "NOT_ATTEMPTED"
+      },
+      "outreach": {
+        "recommended_channel": "FREELANCER_PROPOSAL",
+        "channel_reason": "Freelancer.com job — platform proposal is legitimate channel",
+        "email_allowed": false,
+        "linkedin_allowed": false,
+        "platform_proposal_allowed": true
+      },
+      "v4_score": 62.5,
+      "classification": "REJECT",
+      "hard_gate_failures": [
+        "SOURCE: URL is a category page, not an exact job posting",
+        "REQUIREMENT: Cannot confirm job matches V3 claim — category page",
+        "IDENTITY: Generic role — no named person"
+      ],
+      "evidence": [
+        {
+          "claim": "Source URL verification",
+          "value": "Freelancer.com CATEGORY PAGE — NOT an exact job posting: https://www.freelancer.com/jobs/chatbot/",
+          "source": "URL analysis",
+          "source_url": "https://www.freelancer.com/jobs/chatbot/",
+          "confidence": "LOW",
+          "observed_at": "V4_audit"
+        }
+      ],
+      "missing_information": [],
+      "cto_verdict": "NO",
+      "recommended_next_action": "DO NOT PURSUE — Lead rejected due to: SOURCE: URL is a category page, not an exact job posting; REQUIREMENT: Cannot confirm job matches V3 claim — category page; IDENTITY: Generic role — no named person"
+    },
+    {
+      "v4_audit_id": "V4-006",
+      "original_opportunity_id": "V3-006",
+      "company": "Spanish-speaking Business",
+      "person": "Business Owner",
+      "role": "Business Owner",
+      "original_source": {
+        "source_type": "FREELANCER_EXACT_JOB",
+        "source_url": "https://www.freelancer.com/jobs/chatbot/",
+        "exact_source": false,
+        "source_access": "CATEGORY_PAGE",
+        "source_confidence": "LOW"
+      },
+      "requirement": {
+        "text": "WhatsApp bot for automatic customer responses. Detect keywords in incoming messages and generate automatic coherent responses.",
+        "quote": "Jobs exist on category page but cannot confirm they match the V3 claim",
+        "source_url": "https://www.freelancer.com/jobs/chatbot/",
+        "confidence": "UNVERIFIED"
+      },
+      "identity": {
+        "name": "Business Owner",
+        "username": "",
+        "role": "Business Owner",
+        "linkedin_url": "",
+        "company_url": "",
+        "confidence": "GENERIC"
+      },
+      "currentness": {
+        "status": "RECENT",
+        "observed_date": "Active (7 hours left)",
+        "evidence": "Recent/active posting",
+        "confidence": "MEDIUM"
+      },
+      "commercial_intent": {
+        "type": "EXPLICIT_OUTSOURCING",
+        "explicit_outsourcing": true,
+        "budget_evidence": "Unknown",
+        "confidence": "MEDIUM"
+      },
+      "buyer_context": {
+        "buyer_type": "BUSINESS_OWNER",
+        "decision_authority": "HIGH",
+        "confidence": "MEDIUM"
+      },
+      "service_fit": {
+        "business_unit": "COMAI",
+        "services": [
+          "WhatsApp Chatbot",
+          "Customer Support Automation"
+        ],
+        "confidence": "HIGH"
+      },
+      "contactability": {
+        "email": "",
+        "email_status": "UNKNOWN",
+        "linkedin_url": "",
+        "platform_url": "https://www.freelancer.com/jobs/chatbot/",
+        "contact_paths": [
+          "FREELANCER_PROPOSAL"
+        ]
+      },
+      "cross_source_verification": {
+        "verified": false,
+        "sources": [],
+        "confidence": "NOT_ATTEMPTED"
+      },
+      "outreach": {
+        "recommended_channel": "FREELANCER_PROPOSAL",
+        "channel_reason": "Freelancer.com job — platform proposal is legitimate channel",
+        "email_allowed": false,
+        "linkedin_allowed": false,
+        "platform_proposal_allowed": true
+      },
+      "v4_score": 62.5,
+      "classification": "REJECT",
+      "hard_gate_failures": [
+        "SOURCE: URL is a category page, not an exact job posting",
+        "REQUIREMENT: Cannot confirm job matches V3 claim — category page",
+        "IDENTITY: Generic role — no named person"
+      ],
+      "evidence": [
+        {
+          "claim": "Source URL verification",
+          "value": "Freelancer.com CATEGORY PAGE — NOT an exact job posting: https://www.freelancer.com/jobs/chatbot/",
+          "source": "URL analysis",
+          "source_url": "https://www.freelancer.com/jobs/chatbot/",
+          "confidence": "LOW",
+          "observed_at": "V4_audit"
+        }
+      ],
+      "missing_information": [],
+      "cto_verdict": "NO",
+      "recommended_next_action": "DO NOT PURSUE — Lead rejected due to: SOURCE: URL is a category page, not an exact job posting; REQUIREMENT: Cannot confirm job matches V3 claim — category page; IDENTITY: Generic role — no named person"
+    },
+    {
+      "v4_audit_id": "V4-001",
+      "original_opportunity_id": "V3-001",
+      "company": "Upwork Client (Payment Verified)",
+      "person": "Upwork Client",
+      "role": "Business Owner",
+      "original_source": {
+        "source_type": "UPWORK_EXACT_JOB",
+        "source_url": "https://www.upwork.com/freelance-jobs/apply/Chatbot-Development-for-Shopify-Facebook-and-WhatsApp_~021846275314806430523",
+        "exact_source": true,
+        "source_access": "BLOCKED_BUT_URL_VALID",
+        "source_confidence": "MEDIUM"
+      },
+      "requirement": {
+        "text": "Chatbot development for Shopify, Facebook, and WhatsApp. E-commerce platform integration.",
+        "quote": "Requirement claimed but NOT independently verified — Upwork blocks access",
+        "source_url": "https://www.upwork.com/freelance-jobs/apply/Chatbot-Development-for-Shopify-Facebook-and-WhatsApp_~021846275314806430523",
+        "confidence": "UNVERIFIED"
+      },
+      "identity": {
+        "name": "Upwork Client",
+        "username": "",
+        "role": "Business Owner",
+        "linkedin_url": "",
+        "company_url": "",
+        "confidence": "ANONYMOUS"
+      },
+      "currentness": {
+        "status": "RECENT",
+        "observed_date": "Recent (posted within days)",
+        "evidence": "Recent/active posting",
+        "confidence": "MEDIUM"
+      },
+      "commercial_intent": {
+        "type": "EXPLICIT_OUTSOURCING",
+        "explicit_outsourcing": true,
+        "budget_evidence": "Unknown (Upwork)",
+        "confidence": "MEDIUM"
+      },
+      "buyer_context": {
+        "buyer_type": "ANONYMOUS_BUYER",
+        "decision_authority": "UNKNOWN",
+        "confidence": "MEDIUM"
+      },
+      "service_fit": {
+        "business_unit": "COMAI",
+        "services": [
+          "Shopify AI",
+          "WhatsApp Chatbot",
+          "E-commerce Automation"
+        ],
+        "confidence": "HIGH"
+      },
+      "contactability": {
+        "email": "",
+        "email_status": "UNKNOWN",
+        "linkedin_url": "",
+        "platform_url": "https://www.upwork.com/freelance-jobs/apply/Chatbot-Development-for-Shopify-Facebook-and-WhatsApp_~021846275314806430523",
+        "contact_paths": [
+          "UPWORK_PROPOSAL"
+        ]
+      },
+      "cross_source_verification": {
+        "verified": false,
+        "sources": [],
+        "confidence": "NOT_ATTEMPTED"
+      },
+      "outreach": {
+        "recommended_channel": "UPWORK_PROPOSAL",
+        "channel_reason": "Upwork job posting — platform proposal is legitimate channel",
+        "email_allowed": false,
+        "linkedin_allowed": false,
+        "platform_proposal_allowed": true
+      },
+      "v4_score": 58.5,
+      "classification": "REJECT",
+      "hard_gate_failures": [
+        "REQUIREMENT: Claimed but NOT verified — Upwork blocks access",
+        "IDENTITY: Anonymous Upwork client — no named person"
+      ],
+      "evidence": [
+        {
+          "claim": "Source URL verification",
+          "value": "Upwork job URL with correct format: https://www.upwork.com/freelance-jobs/apply/Chatbot-Development-for-Shopify-Facebook-and-WhatsApp_~021846275314806430523",
+          "source": "URL analysis",
+          "source_url": "https://www.upwork.com/freelance-jobs/apply/Chatbot-Development-for-Shopify-Facebook-and-WhatsApp_~021846275314806430523",
+          "confidence": "MEDIUM",
+          "observed_at": "V4_audit"
+        }
+      ],
+      "missing_information": [],
+      "cto_verdict": "NO",
+      "recommended_next_action": "DO NOT PURSUE — Lead rejected due to: REQUIREMENT: Claimed but NOT verified — Upwork blocks access; IDENTITY: Anonymous Upwork client — no named person"
+    },
+    {
+      "v4_audit_id": "V4-002",
+      "original_opportunity_id": "V3-002",
+      "company": "Upwork Client",
+      "person": "Upwork Client",
+      "role": "Founder/CTO",
+      "original_source": {
+        "source_type": "UPWORK_EXACT_JOB",
+        "source_url": "https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer-for-SaaS-MVP_~022075330744850550206",
+        "exact_source": true,
+        "source_access": "BLOCKED_BUT_URL_VALID",
+        "source_confidence": "MEDIUM"
+      },
+      "requirement": {
+        "text": "Full-stack developer to build a SaaS MVP with form, API integration, Stripe for payments, email verification, and Google Sheets for data management.",
+        "quote": "Requirement claimed but NOT independently verified — Upwork blocks access",
+        "source_url": "https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer-for-SaaS-MVP_~022075330744850550206",
+        "confidence": "UNVERIFIED"
+      },
+      "identity": {
+        "name": "Upwork Client",
+        "username": "",
+        "role": "Founder/CTO",
+        "linkedin_url": "",
+        "company_url": "",
+        "confidence": "ANONYMOUS"
+      },
+      "currentness": {
+        "status": "RECENT",
+        "observed_date": "2026-07-09 (posted July 9, 2026)",
+        "evidence": "Posted July 9, 2026 — approximately 1 month ago",
+        "confidence": "MEDIUM"
+      },
+      "commercial_intent": {
+        "type": "EXPLICIT_OUTSOURCING",
+        "explicit_outsourcing": true,
+        "budget_evidence": "Unknown (Upwork)",
+        "confidence": "MEDIUM"
+      },
+      "buyer_context": {
+        "buyer_type": "ANONYMOUS_BUYER",
+        "decision_authority": "UNKNOWN",
+        "confidence": "MEDIUM"
+      },
+      "service_fit": {
+        "business_unit": "SAAS_DEVELOPMENT",
+        "services": [
+          "SaaS MVP",
+          "Full Stack",
+          "API Integration",
+          "Backend"
+        ],
+        "confidence": "HIGH"
+      },
+      "contactability": {
+        "email": "",
+        "email_status": "UNKNOWN",
+        "linkedin_url": "",
+        "platform_url": "https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer-for-SaaS-MVP_~022075330744850550206",
+        "contact_paths": [
+          "UPWORK_PROPOSAL"
+        ]
+      },
+      "cross_source_verification": {
+        "verified": false,
+        "sources": [],
+        "confidence": "NOT_ATTEMPTED"
+      },
+      "outreach": {
+        "recommended_channel": "UPWORK_PROPOSAL",
+        "channel_reason": "Upwork job posting — platform proposal is legitimate channel",
+        "email_allowed": false,
+        "linkedin_allowed": false,
+        "platform_proposal_allowed": true
+      },
+      "v4_score": 58.5,
+      "classification": "REJECT",
+      "hard_gate_failures": [
+        "REQUIREMENT: Claimed but NOT verified — Upwork blocks access",
+        "IDENTITY: Anonymous Upwork client — no named person"
+      ],
+      "evidence": [
+        {
+          "claim": "Source URL verification",
+          "value": "Upwork job URL with correct format: https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer-for-SaaS-MVP_~022075330744850550206",
+          "source": "URL analysis",
+          "source_url": "https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer-for-SaaS-MVP_~022075330744850550206",
+          "confidence": "MEDIUM",
+          "observed_at": "V4_audit"
+        }
+      ],
+      "missing_information": [],
+      "cto_verdict": "NO",
+      "recommended_next_action": "DO NOT PURSUE — Lead rejected due to: REQUIREMENT: Claimed but NOT verified — Upwork blocks access; IDENTITY: Anonymous Upwork client — no named person"
+    },
+    {
+      "v4_audit_id": "V4-003",
+      "original_opportunity_id": "V3-003",
+      "company": "Upwork Client",
+      "person": "Upwork Client",
+      "role": "E-commerce Business Owner",
+      "original_source": {
+        "source_type": "UPWORK_EXACT_JOB",
+        "source_url": "https://www.upwork.com/freelance-jobs/apply/Chatbot-Developer-for-Shopify-Customer-Support_~022069771117569054725/",
+        "exact_source": true,
+        "source_access": "BLOCKED_BUT_URL_VALID",
+        "source_confidence": "MEDIUM"
+      },
+      "requirement": {
+        "text": "Designing and implementing AI chatbots to improve customer interaction and resolve queries efficiently. Experience in developing AI solutions for e-commerce platforms.",
+        "quote": "Requirement claimed but NOT independently verified — Upwork blocks access",
+        "source_url": "https://www.upwork.com/freelance-jobs/apply/Chatbot-Developer-for-Shopify-Customer-Support_~022069771117569054725/",
+        "confidence": "UNVERIFIED"
+      },
+      "identity": {
+        "name": "Upwork Client",
+        "username": "",
+        "role": "E-commerce Business Owner",
+        "linkedin_url": "",
+        "company_url": "",
+        "confidence": "ANONYMOUS"
+      },
+      "currentness": {
+        "status": "RECENT",
+        "observed_date": "Recent",
+        "evidence": "Recent/active posting",
+        "confidence": "MEDIUM"
+      },
+      "commercial_intent": {
+        "type": "EXPLICIT_OUTSOURCING",
+        "explicit_outsourcing": true,
+        "budget_evidence": "Unknown (Upwork)",
+        "confidence": "MEDIUM"
+      },
+      "buyer_context": {
+        "buyer_type": "ANONYMOUS_BUYER",
+        "decision_authority": "UNKNOWN",
+        "confidence": "MEDIUM"
+      },
+      "service_fit": {
+        "business_unit": "COMAI",
+        "services": [
+          "Shopify AI",
+          "AI Customer Support",
+          "Chatbot Development"
+        ],
+        "confidence": "HIGH"
+      },
+      "contactability": {
+        "email": "",
+        "email_status": "UNKNOWN",
+        "linkedin_url": "",
+        "platform_url": "https://www.upwork.com/freelance-jobs/apply/Chatbot-Developer-for-Shopify-Customer-Support_~022069771117569054725/",
+        "contact_paths": [
+          "UPWORK_PROPOSAL"
+        ]
+      },
+      "cross_source_verification": {
+        "verified": false,
+        "sources": [],
+        "confidence": "NOT_ATTEMPTED"
+      },
+      "outreach": {
+        "recommended_channel": "UPWORK_PROPOSAL",
+        "channel_reason": "Upwork job posting — platform proposal is legitimate channel",
+        "email_allowed": false,
+        "linkedin_allowed": false,
+        "platform_proposal_allowed": true
+      },
+      "v4_score": 58.5,
+      "classification": "REJECT",
+      "hard_gate_failures": [
+        "REQUIREMENT: Claimed but NOT verified — Upwork blocks access",
+        "IDENTITY: Anonymous Upwork client — no named person"
+      ],
+      "evidence": [
+        {
+          "claim": "Source URL verification",
+          "value": "Upwork job URL with correct format: https://www.upwork.com/freelance-jobs/apply/Chatbot-Developer-for-Shopify-Customer-Support_~022069771117569054725/",
+          "source": "URL analysis",
+          "source_url": "https://www.upwork.com/freelance-jobs/apply/Chatbot-Developer-for-Shopify-Customer-Support_~022069771117569054725/",
+          "confidence": "MEDIUM",
+          "observed_at": "V4_audit"
+        }
+      ],
+      "missing_information": [],
+      "cto_verdict": "NO",
+      "recommended_next_action": "DO NOT PURSUE — Lead rejected due to: REQUIREMENT: Claimed but NOT verified — Upwork blocks access; IDENTITY: Anonymous Upwork client — no named person"
+    },
+    {
+      "v4_audit_id": "V4-008",
+      "original_opportunity_id": "V3-008",
+      "company": "Loyalty Scheme Company",
+      "person": "Company Representative",
+      "role": "Technical Lead",
+      "original_source": {
+        "source_type": "UPWORK_EXACT_JOB",
+        "source_url": "https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer-for-SaaS-MVP_~022075330744850550206",
+        "exact_source": true,
+        "source_access": "BLOCKED_BUT_URL_VALID",
+        "source_confidence": "MEDIUM"
+      },
+      "requirement": {
+        "text": "Full-stack developer (backend focus) to architect and build a transaction dashboard for handling loyalty-scheme employee benefit transactions. Points awarded, redeemed, etc.",
+        "quote": "Requirement claimed but NOT independently verified — Upwork blocks access",
+        "source_url": "https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer-for-SaaS-MVP_~022075330744850550206",
+        "confidence": "UNVERIFIED"
+      },
+      "identity": {
+        "name": "Company Representative",
+        "username": "",
+        "role": "Technical Lead",
+        "linkedin_url": "",
+        "company_url": "",
+        "confidence": "GENERIC"
+      },
+      "currentness": {
+        "status": "RECENT",
+        "observed_date": "Recent (posted 19 hours ago)",
+        "evidence": "Recent/active posting",
+        "confidence": "MEDIUM"
+      },
+      "commercial_intent": {
+        "type": "EXPLICIT_OUTSOURCING",
+        "explicit_outsourcing": true,
+        "budget_evidence": "1-3 months",
+        "confidence": "MEDIUM"
+      },
+      "buyer_context": {
+        "buyer_type": "UNKNOWN",
+        "decision_authority": "UNKNOWN",
+        "confidence": "LOW"
+      },
+      "service_fit": {
+        "business_unit": "CUSTOM_SOFTWARE",
+        "services": [
+          "Dashboard Development",
+          "Full Stack",
+          "Backend"
+        ],
+        "confidence": "HIGH"
+      },
+      "contactability": {
+        "email": "",
+        "email_status": "UNKNOWN",
+        "linkedin_url": "",
+        "platform_url": "https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer-for-SaaS-MVP_~022075330744850550206",
+        "contact_paths": [
+          "UPWORK_PROPOSAL"
+        ]
+      },
+      "cross_source_verification": {
+        "verified": false,
+        "sources": [],
+        "confidence": "NOT_ATTEMPTED"
+      },
+      "outreach": {
+        "recommended_channel": "UPWORK_PROPOSAL",
+        "channel_reason": "Upwork job posting — platform proposal is legitimate channel",
+        "email_allowed": false,
+        "linkedin_allowed": false,
+        "platform_proposal_allowed": true
+      },
+      "v4_score": 58.5,
+      "classification": "REJECT",
+      "hard_gate_failures": [
+        "REQUIREMENT: Claimed but NOT verified — Upwork blocks access",
+        "IDENTITY: Generic representative — no named person"
+      ],
+      "evidence": [
+        {
+          "claim": "Source URL verification",
+          "value": "Upwork job URL with correct format: https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer-for-SaaS-MVP_~022075330744850550206",
+          "source": "URL analysis",
+          "source_url": "https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer-for-SaaS-MVP_~022075330744850550206",
+          "confidence": "MEDIUM",
+          "observed_at": "V4_audit"
+        }
+      ],
+      "missing_information": [],
+      "cto_verdict": "NO",
+      "recommended_next_action": "DO NOT PURSUE — Lead rejected due to: REQUIREMENT: Claimed but NOT verified — Upwork blocks access; IDENTITY: Generic representative — no named person"
+    },
+    {
+      "v4_audit_id": "V4-007",
+      "original_opportunity_id": "V3-007",
+      "company": "Residential Mortgage Lending Company (Miami, FL)",
+      "person": "Mortgage Company Representative",
+      "role": "Hiring Manager",
+      "original_source": {
+        "source_type": "UPWORK_EXACT_JOB",
+        "source_url": "https://www.upwork.com/freelance-jobs/apply/Chatbot-Development-for-Shopify-Facebook-and-WhatsApp_~021846275314806430523",
+        "exact_source": true,
+        "source_access": "BLOCKED_BUT_URL_VALID",
+        "source_confidence": "MEDIUM"
+      },
+      "requirement": {
+        "text": "Bilingual AI Developer to build AI tools and automations for mortgage operations. Residential mortgage lending company based in Miami, FL.",
+        "quote": "Requirement claimed but NOT independently verified — Upwork blocks access",
+        "source_url": "https://www.upwork.com/freelance-jobs/apply/Chatbot-Development-for-Shopify-Facebook-and-WhatsApp_~021846275314806430523",
+        "confidence": "UNVERIFIED"
+      },
+      "identity": {
+        "name": "Mortgage Company Representative",
+        "username": "",
+        "role": "Hiring Manager",
+        "linkedin_url": "",
+        "company_url": "",
+        "confidence": "GENERIC"
+      },
+      "currentness": {
+        "status": "RECENT",
+        "observed_date": "Recent (posted 23 hours ago)",
+        "evidence": "Recent/active posting",
+        "confidence": "MEDIUM"
+      },
+      "commercial_intent": {
+        "type": "EXPLICIT_OUTSOURCING",
+        "explicit_outsourcing": true,
+        "budget_evidence": "30+ hrs/week, 3-6 months",
+        "confidence": "MEDIUM"
+      },
+      "buyer_context": {
+        "buyer_type": "UNKNOWN",
+        "decision_authority": "UNKNOWN",
+        "confidence": "LOW"
+      },
+      "service_fit": {
+        "business_unit": "CUSTOM_SOFTWARE",
+        "services": [
+          "AI Automation",
+          "Business Process Automation",
+          "Custom Software"
+        ],
+        "confidence": "MEDIUM"
+      },
+      "contactability": {
+        "email": "",
+        "email_status": "UNKNOWN",
+        "linkedin_url": "",
+        "platform_url": "https://www.upwork.com/freelance-jobs/apply/Chatbot-Development-for-Shopify-Facebook-and-WhatsApp_~021846275314806430523",
+        "contact_paths": [
+          "UPWORK_PROPOSAL"
+        ]
+      },
+      "cross_source_verification": {
+        "verified": false,
+        "sources": [],
+        "confidence": "NOT_ATTEMPTED"
+      },
+      "outreach": {
+        "recommended_channel": "UPWORK_PROPOSAL",
+        "channel_reason": "Upwork job posting — platform proposal is legitimate channel",
+        "email_allowed": false,
+        "linkedin_allowed": false,
+        "platform_proposal_allowed": true
+      },
+      "v4_score": 54.5,
+      "classification": "REJECT",
+      "hard_gate_failures": [
+        "REQUIREMENT: Claimed but NOT verified — Upwork blocks access",
+        "IDENTITY: Generic representative — no named person"
+      ],
+      "evidence": [
+        {
+          "claim": "Source URL verification",
+          "value": "Upwork job URL with correct format: https://www.upwork.com/freelance-jobs/apply/Chatbot-Development-for-Shopify-Facebook-and-WhatsApp_~021846275314806430523",
+          "source": "URL analysis",
+          "source_url": "https://www.upwork.com/freelance-jobs/apply/Chatbot-Development-for-Shopify-Facebook-and-WhatsApp_~021846275314806430523",
+          "confidence": "MEDIUM",
+          "observed_at": "V4_audit"
+        }
+      ],
+      "missing_information": [],
+      "cto_verdict": "NO",
+      "recommended_next_action": "DO NOT PURSUE — Lead rejected due to: REQUIREMENT: Claimed but NOT verified — Upwork blocks access; IDENTITY: Generic representative — no named person"
+    },
+    {
+      "v4_audit_id": "V4-010",
+      "original_opportunity_id": "V3-010",
+      "company": "Online Shop Owner",
+      "person": "Shop Owner",
+      "role": "Business Owner",
+      "original_source": {
+        "source_type": "FREELANCER_EXACT_JOB",
+        "source_url": "https://www.truelancer.com/freelance-whatsapp-bot-jobs",
+        "exact_source": false,
+        "source_access": "CATEGORY_PAGE",
+        "source_confidence": "LOW"
+      },
+      "requirement": {
+        "text": "WhatsApp plugins to be installed for Thank you and payment confirmation on my online shop.",
+        "quote": "Jobs exist on category page but cannot confirm they match the V3 claim",
+        "source_url": "https://www.truelancer.com/freelance-whatsapp-bot-jobs",
+        "confidence": "UNVERIFIED"
+      },
+      "identity": {
+        "name": "Shop Owner",
+        "username": "",
+        "role": "Business Owner",
+        "linkedin_url": "",
+        "company_url": "",
+        "confidence": "GENERIC"
+      },
+      "currentness": {
+        "status": "STALE",
+        "observed_date": "5 months ago (but still listed)",
+        "evidence": "Posted 5 months ago — likely closed",
+        "confidence": "MEDIUM"
+      },
+      "commercial_intent": {
+        "type": "EXPLICIT_OUTSOURCING",
+        "explicit_outsourcing": true,
+        "budget_evidence": "$3/hr",
+        "confidence": "MEDIUM"
+      },
+      "buyer_context": {
+        "buyer_type": "BUSINESS_OWNER",
+        "decision_authority": "HIGH",
+        "confidence": "MEDIUM"
+      },
+      "service_fit": {
+        "business_unit": "COMAI",
+        "services": [
+          "WhatsApp Integration",
+          "E-commerce",
+          "Payment Automation"
+        ],
+        "confidence": "MEDIUM"
+      },
+      "contactability": {
+        "email": "",
+        "email_status": "UNKNOWN",
+        "linkedin_url": "",
+        "platform_url": "https://www.truelancer.com/freelance-whatsapp-bot-jobs",
+        "contact_paths": [
+          "FREELANCER_PROPOSAL"
+        ]
+      },
+      "cross_source_verification": {
+        "verified": false,
+        "sources": [],
+        "confidence": "NOT_ATTEMPTED"
+      },
+      "outreach": {
+        "recommended_channel": "FREELANCER_PROPOSAL",
+        "channel_reason": "Freelancer.com job — platform proposal is legitimate channel",
+        "email_allowed": false,
+        "linkedin_allowed": false,
+        "platform_proposal_allowed": true
+      },
+      "v4_score": 49.5,
+      "classification": "REJECT",
+      "hard_gate_failures": [
+        "SOURCE: URL is a category page, not an exact job posting",
+        "REQUIREMENT: Cannot confirm job matches V3 claim — category page",
+        "IDENTITY: Generic role — no named person",
+        "CURRENTNESS: 5 months old — STALE"
+      ],
+      "evidence": [
+        {
+          "claim": "Source URL verification",
+          "value": "Truelancer CATEGORY PAGE — NOT an exact job posting: https://www.truelancer.com/freelance-whatsapp-bot-jobs",
+          "source": "URL analysis",
+          "source_url": "https://www.truelancer.com/freelance-whatsapp-bot-jobs",
+          "confidence": "LOW",
+          "observed_at": "V4_audit"
+        }
+      ],
+      "missing_information": [],
+      "cto_verdict": "NO",
+      "recommended_next_action": "DO NOT PURSUE — Lead rejected due to: SOURCE: URL is a category page, not an exact job posting; REQUIREMENT: Cannot confirm job matches V3 claim — category page; IDENTITY: Generic role — no named person"
+    }
+  ]
+}

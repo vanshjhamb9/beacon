@@ -1,0 +1,31 @@
+{
+  "audit_name": "V8.3 Contactability Report",
+  "audit_date": "2026-08-08",
+  "total_candidates": 5,
+  "contactability_distribution": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 5,
+    "NONE": 0
+  },
+  "discovery_priority_distribution": {
+    "VERY_HIGH": 0,
+    "HIGH": 0,
+    "MEDIUM": 3,
+    "LOW": 2
+  },
+  "contact_source_performance": {
+    "Reddit DM": 5,
+    "Email": 0,
+    "LinkedIn": 0,
+    "Company Website": 0
+  },
+  "bottleneck_analysis": [
+    "Reddit blocks direct access to post content and contact details",
+    "Most posting users are anonymous (no real name, no profile)",
+    "Contact details not visible in search results",
+    "Platform contact routes (DM) require Reddit account access",
+    "No email addresses found in public search results",
+    "No LinkedIn profiles found linked to buying events"
+  ]
+}

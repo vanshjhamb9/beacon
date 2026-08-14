@@ -1,0 +1,454 @@
+{
+  "audit_name": "V8.3 Contactable Buying-Event Discovery",
+  "audit_date": "2026-08-08",
+  "total_candidates": 5,
+  "sales_ready": 0,
+  "needs_research": 4,
+  "rejected": 1,
+  "candidates": [
+    {
+      "opportunity_id": "V8-003",
+      "person_name": "UNKNOWN (Reddit poster)",
+      "person_role": "Business Owner",
+      "company_name": "Textile Business (Dubai)",
+      "company_url": "UNKNOWN",
+      "product_url": "UNKNOWN",
+      "requirement": "Need AI/Automation freelancer for textile business accounts, stock & workflow system",
+      "requirement_verified": false,
+      "requirement_evidence": [
+        {
+          "claim": "Reddit post title indicates AI automation need",
+          "source": "Reddit r/jobsdubai",
+          "source_url": "https://www.reddit.com/r/jobsdubai/comments/1u6mewx/",
+          "confidence": "UNVERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "source_name": "Reddit r/jobsdubai",
+      "source_url": "https://www.reddit.com/r/jobsdubai/comments/1u6mewx/",
+      "source_status": "ACCESS_BLOCKED",
+      "source_post_id": "1u6mewx",
+      "published_at": "2026-07-27",
+      "observed_at": "2026-08-08",
+      "identity_confidence": "UNKNOWN",
+      "identity_evidence": [],
+      "company_status": "UNVERIFIED",
+      "company_evidence": [],
+      "currentness_status": "CURRENT",
+      "age_days": 12,
+      "currentness_evidence": [
+        {
+          "claim": "Post observed ~12 days old",
+          "source": "Search results",
+          "confidence": "APPROXIMATE"
+        }
+      ],
+      "outsourcing_intent": "EXPLICIT",
+      "outsourcing_confidence": "HIGH",
+      "outsourcing_evidence": [
+        {
+          "claim": "Post explicitly requests freelancer for business automation",
+          "source": "Reddit post title",
+          "confidence": "HIGH"
+        }
+      ],
+      "service_match": "AI Automation / Workflow",
+      "service_match_confidence": "HIGH",
+      "service_match_evidence": [
+        {
+          "claim": "Request matches AI automation and workflow system services",
+          "source": "Post content",
+          "confidence": "HIGH"
+        }
+      ],
+      "email": "UNKNOWN",
+      "email_status": "UNKNOWN",
+      "email_evidence": [],
+      "linkedin_url": "UNKNOWN",
+      "linkedin_status": "UNKNOWN",
+      "linkedin_evidence": [],
+      "platform_contact": "Reddit DM (presumed)",
+      "platform_contact_status": "UNKNOWN",
+      "contactability": "LOW",
+      "contactability_discovery_priority": "MEDIUM",
+      "contactability_evidence": [
+        {
+          "claim": "Reddit post exists but contact details not publicly visible",
+          "source": "Search results",
+          "confidence": "LOW"
+        }
+      ],
+      "contact_owner_match": "UNKNOWN",
+      "evidence_reproducibility": false,
+      "competitor": false,
+      "safety_clear": true,
+      "opportunity_verdict": "NEEDS_RESEARCH",
+      "final_salesability": "NEEDS_RESEARCH",
+      "cto_15_minute_test": "NO",
+      "cto_decision_reason": "Cannot verify requirement details, contact information, or business identity. Reddit blocks access. Contact owner match UNKNOWN.",
+      "rejection_reasons": [
+        "Failed gate: requirement_verified (cannot access Reddit)",
+        "Failed gate: primary_contact_status (contact UNKNOWN)",
+        "Failed gate: contact_owner_match (UNKNOWN)",
+        "Failed gate: evidence_reproducibility (cannot verify)"
+      ]
+    },
+    {
+      "opportunity_id": "V8-004",
+      "person_name": "UNKNOWN (Reddit poster)",
+      "person_role": "Founder",
+      "company_name": "UNKNOWN (SaaS startup)",
+      "company_url": "UNKNOWN",
+      "product_url": "UNKNOWN",
+      "requirement": "Need advice on hiring for SaaS MVP - experienced engineer vs freelancers vs interns",
+      "requirement_verified": false,
+      "requirement_evidence": [
+        {
+          "claim": "Reddit post seeking advice on building SaaS MVP",
+          "source": "Reddit r/smallbusiness",
+          "source_url": "https://www.reddit.com/r/smallbusiness/comments/1uljsrj/",
+          "confidence": "UNVERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "source_name": "Reddit r/smallbusiness",
+      "source_url": "https://www.reddit.com/r/smallbusiness/comments/1uljsrj/",
+      "source_status": "ACCESS_BLOCKED",
+      "source_post_id": "1uljsrj",
+      "published_at": "2026-07-31",
+      "observed_at": "2026-08-08",
+      "identity_confidence": "UNKNOWN",
+      "identity_evidence": [],
+      "company_status": "UNVERIFIED",
+      "company_evidence": [],
+      "currentness_status": "CURRENT",
+      "age_days": 8,
+      "currentness_evidence": [
+        {
+          "claim": "Post observed ~8 days old",
+          "source": "Search results",
+          "confidence": "APPROXIMATE"
+        }
+      ],
+      "outsourcing_intent": "IMPLICIT",
+      "outsourcing_confidence": "MEDIUM",
+      "outsourcing_evidence": [
+        {
+          "claim": "Post asks about hiring options including freelancers and agencies",
+          "source": "Post title",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "service_match": "SaaS MVP Development",
+      "service_match_confidence": "HIGH",
+      "service_match_evidence": [
+        {
+          "claim": "Request is about building a SaaS MVP",
+          "source": "Post content",
+          "confidence": "HIGH"
+        }
+      ],
+      "email": "UNKNOWN",
+      "email_status": "UNKNOWN",
+      "email_evidence": [],
+      "linkedin_url": "UNKNOWN",
+      "linkedin_status": "UNKNOWN",
+      "linkedin_evidence": [],
+      "platform_contact": "Reddit DM (presumed)",
+      "platform_contact_status": "UNKNOWN",
+      "contactability": "LOW",
+      "contactability_discovery_priority": "LOW",
+      "contactability_evidence": [
+        {
+          "claim": "Reddit post exists but contact details not publicly visible",
+          "source": "Search results",
+          "confidence": "LOW"
+        }
+      ],
+      "contact_owner_match": "UNKNOWN",
+      "evidence_reproducibility": false,
+      "competitor": false,
+      "safety_clear": true,
+      "opportunity_verdict": "NEEDS_RESEARCH",
+      "final_salesability": "NEEDS_RESEARCH",
+      "cto_15_minute_test": "NO",
+      "cto_decision_reason": "Seeking advice, not explicitly requesting agency. Contact details UNKNOWN. Cannot verify.",
+      "rejection_reasons": [
+        "Failed gate: outsourcing_intent (IMPLICIT, not EXPLICIT)",
+        "Failed gate: primary_contact_status (UNKNOWN)",
+        "Failed gate: contact_owner_match (UNKNOWN)",
+        "Failed gate: evidence_reproducibility (cannot verify)"
+      ]
+    },
+    {
+      "opportunity_id": "V8-005",
+      "person_name": "UNKNOWN (Reddit poster)",
+      "person_role": "Founder",
+      "company_name": "Startup (unnamed)",
+      "company_url": "UNKNOWN",
+      "product_url": "UNKNOWN",
+      "requirement": "Needing software developed for startup company",
+      "requirement_verified": false,
+      "requirement_evidence": [
+        {
+          "claim": "Reddit post requesting software development for startup",
+          "source": "Reddit r/developers_hire",
+          "source_url": "https://www.reddit.com/r/developers_hire/comments/1u2fuh2/",
+          "confidence": "UNVERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "source_name": "Reddit r/developers_hire",
+      "source_url": "https://www.reddit.com/r/developers_hire/comments/1u2fuh2/",
+      "source_status": "ACCESS_BLOCKED",
+      "source_post_id": "1u2fuh2",
+      "published_at": "2026-07-25",
+      "observed_at": "2026-08-08",
+      "identity_confidence": "UNKNOWN",
+      "identity_evidence": [],
+      "company_status": "UNVERIFIED",
+      "company_evidence": [],
+      "currentness_status": "CURRENT",
+      "age_days": 14,
+      "currentness_evidence": [
+        {
+          "claim": "Post observed ~14 days old",
+          "source": "Search results",
+          "confidence": "APPROXIMATE"
+        }
+      ],
+      "outsourcing_intent": "EXPLICIT",
+      "outsourcing_confidence": "HIGH",
+      "outsourcing_evidence": [
+        {
+          "claim": "Post explicitly requests software development for startup",
+          "source": "Post title",
+          "confidence": "HIGH"
+        }
+      ],
+      "service_match": "Custom Software Development",
+      "service_match_confidence": "MEDIUM",
+      "service_match_evidence": [
+        {
+          "claim": "Generic software development request - could match custom software services",
+          "source": "Post title",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "email": "UNKNOWN",
+      "email_status": "UNKNOWN",
+      "email_evidence": [],
+      "linkedin_url": "UNKNOWN",
+      "linkedin_status": "UNKNOWN",
+      "linkedin_evidence": [],
+      "platform_contact": "Reddit DM (presumed)",
+      "platform_contact_status": "UNKNOWN",
+      "contactability": "LOW",
+      "contactability_discovery_priority": "MEDIUM",
+      "contactability_evidence": [
+        {
+          "claim": "Reddit post exists but contact details not publicly visible",
+          "source": "Search results",
+          "confidence": "LOW"
+        }
+      ],
+      "contact_owner_match": "UNKNOWN",
+      "evidence_reproducibility": false,
+      "competitor": false,
+      "safety_clear": true,
+      "opportunity_verdict": "NEEDS_RESEARCH",
+      "final_salesability": "NEEDS_RESEARCH",
+      "cto_15_minute_test": "NO",
+      "cto_decision_reason": "Requirement too vague - unknown what software is needed. Contact details UNKNOWN. Cannot verify.",
+      "rejection_reasons": [
+        "Failed gate: service_match_confidence (MEDIUM - unknown software type)",
+        "Failed gate: primary_contact_status (UNKNOWN)",
+        "Failed gate: contact_owner_match (UNKNOWN)",
+        "Failed gate: evidence_reproducibility (cannot verify)"
+      ]
+    },
+    {
+      "opportunity_id": "V8-006",
+      "person_name": "UNKNOWN (Reddit poster: T13961876)",
+      "person_role": "Founder/Product Owner",
+      "company_name": "UNKNOWN (app project)",
+      "company_url": "UNKNOWN",
+      "product_url": "UNKNOWN",
+      "requirement": "Looking for app designer/developer - has prototype, needs design improvement and coding help",
+      "requirement_verified": false,
+      "requirement_evidence": [
+        {
+          "claim": "Reddit post seeking app designer/developer for prototype improvement",
+          "source": "Reddit r/AppDevelopers",
+          "source_url": "https://www.reddit.com/r/AppDevelopers/comments/1uf84eb/",
+          "confidence": "UNVERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "source_name": "Reddit r/AppDevelopers",
+      "source_url": "https://www.reddit.com/r/AppDevelopers/comments/1uf84eb/",
+      "source_status": "ACCESS_BLOCKED",
+      "source_post_id": "1uf84eb",
+      "published_at": "2026-08-08",
+      "observed_at": "2026-08-08",
+      "identity_confidence": "LOW",
+      "identity_evidence": [
+        {
+          "claim": "Reddit username T13961876 visible but no real name",
+          "source": "Search results",
+          "confidence": "LOW"
+        }
+      ],
+      "company_status": "UNVERIFIED",
+      "company_evidence": [],
+      "currentness_status": "CURRENT",
+      "age_days": 0,
+      "currentness_evidence": [
+        {
+          "claim": "Post observed same day",
+          "source": "Search results",
+          "confidence": "HIGH"
+        }
+      ],
+      "outsourcing_intent": "EXPLICIT",
+      "outsourcing_confidence": "HIGH",
+      "outsourcing_evidence": [
+        {
+          "claim": "Post explicitly requests help with app design and development",
+          "source": "Post title and content",
+          "confidence": "HIGH"
+        }
+      ],
+      "service_match": "Mobile App Development",
+      "service_match_confidence": "MEDIUM",
+      "service_match_evidence": [
+        {
+          "claim": "Request is for app design and development - could match mobile app services",
+          "source": "Post content",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "email": "UNKNOWN",
+      "email_status": "UNKNOWN",
+      "email_evidence": [],
+      "linkedin_url": "UNKNOWN",
+      "linkedin_status": "UNKNOWN",
+      "linkedin_evidence": [],
+      "platform_contact": "Reddit DM (presumed)",
+      "platform_contact_status": "UNKNOWN",
+      "contactability": "LOW",
+      "contactability_discovery_priority": "MEDIUM",
+      "contactability_evidence": [
+        {
+          "claim": "Reddit post exists but contact details not publicly visible",
+          "source": "Search results",
+          "confidence": "LOW"
+        }
+      ],
+      "contact_owner_match": "UNKNOWN",
+      "evidence_reproducibility": false,
+      "competitor": false,
+      "safety_clear": true,
+      "opportunity_verdict": "NEEDS_RESEARCH",
+      "final_salesability": "NEEDS_RESEARCH",
+      "cto_15_minute_test": "NO",
+      "cto_decision_reason": "Anonymous poster. Unknown app type. No contact details. Cannot verify business or project.",
+      "rejection_reasons": [
+        "Failed gate: primary_contact_status (UNKNOWN)",
+        "Failed gate: contact_owner_match (UNKNOWN)",
+        "Failed gate: evidence_reproducibility (cannot verify)"
+      ]
+    },
+    {
+      "opportunity_id": "V8-007",
+      "person_name": "UNKNOWN (Reddit poster)",
+      "person_role": "Founder",
+      "company_name": "AI Business (profitable, unnamed)",
+      "company_url": "UNKNOWN",
+      "product_url": "UNKNOWN",
+      "requirement": "Built a profitable AI business. Can't code. Need someone who can.",
+      "requirement_verified": false,
+      "requirement_evidence": [
+        {
+          "claim": "Reddit post from founder with profitable AI business needing technical help",
+          "source": "Reddit r/cofounderhunt",
+          "source_url": "https://www.reddit.com/r/cofounderhunt/comments/1u9h1bj/",
+          "confidence": "UNVERIFIED",
+          "observed_at": "2026-08-08"
+        }
+      ],
+      "source_name": "Reddit r/cofounderhunt",
+      "source_url": "https://www.reddit.com/r/cofounderhunt/comments/1u9h1bj/",
+      "source_status": "ACCESS_BLOCKED",
+      "source_post_id": "1u9h1bj",
+      "published_at": "2026-08-02",
+      "observed_at": "2026-08-08",
+      "identity_confidence": "LOW",
+      "identity_evidence": [
+        {
+          "claim": "Reddit post claims profitable AI business but no verification",
+          "source": "Search results",
+          "confidence": "LOW"
+        }
+      ],
+      "company_status": "UNVERIFIED",
+      "company_evidence": [],
+      "currentness_status": "CURRENT",
+      "age_days": 6,
+      "currentness_evidence": [
+        {
+          "claim": "Post observed ~6 days old",
+          "source": "Search results",
+          "confidence": "APPROXIMATE"
+        }
+      ],
+      "outsourcing_intent": "COFOUNDER_SEARCH",
+      "outsourcing_confidence": "LOW",
+      "outsourcing_evidence": [
+        {
+          "claim": "Posted in r/cofounderhunt - seeking equity-based partnership, not agency services",
+          "source": "Subreddit context",
+          "confidence": "HIGH"
+        }
+      ],
+      "service_match": "AI Development",
+      "service_match_confidence": "LOW",
+      "service_match_evidence": [
+        {
+          "claim": "AI business could match AI development services, but intent is co-founder search",
+          "source": "Post context",
+          "confidence": "LOW"
+        }
+      ],
+      "email": "UNKNOWN",
+      "email_status": "UNKNOWN",
+      "email_evidence": [],
+      "linkedin_url": "UNKNOWN",
+      "linkedin_status": "UNKNOWN",
+      "linkedin_evidence": [],
+      "platform_contact": "Reddit DM (presumed)",
+      "platform_contact_status": "UNKNOWN",
+      "contactability": "LOW",
+      "contactability_discovery_priority": "LOW",
+      "contactability_evidence": [
+        {
+          "claim": "Co-founder search, not agency engagement",
+          "source": "Subreddit context",
+          "confidence": "HIGH"
+        }
+      ],
+      "contact_owner_match": "UNKNOWN",
+      "evidence_reproducibility": false,
+      "competitor": false,
+      "safety_clear": true,
+      "opportunity_verdict": "REJECT",
+      "final_salesability": "REJECT",
+      "cto_15_minute_test": "NO",
+      "cto_decision_reason": "Co-founder search, NOT outsourcing. CTO rule: cofounder/equity requests are REJECT.",
+      "rejection_reasons": [
+        "REJECT: Co-founder search (not outsourcing)",
+        "Failed gate: outsourcing_intent (COFOUNDER_SEARCH, not EXPLICIT agency request)"
+      ]
+    }
+  ]
+}

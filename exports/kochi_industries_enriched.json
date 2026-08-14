@@ -1,0 +1,3292 @@
+{
+  "generated_at": "2026-08-13T22:15:53Z",
+  "seed": "C:\\Inowix intelligence system\\New folder\\data\\kochi_industries_seed.json",
+  "total": 19,
+  "elapsed_seconds": 421.6,
+  "summary": {
+    "total": 19,
+    "domain_found": 6,
+    "domain_found_pct": 31.6,
+    "with_ceo_name": 2,
+    "with_ceo_email": 0,
+    "with_ceo_phone": 6,
+    "with_any_email": 3,
+    "with_any_phone": 6,
+    "with_linkedin_company": 5
+  },
+  "leads": [
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "Kanotekk Engineering Consultants Pvt. Ltd.",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "1",
+        "industry": "Oil and Gas",
+        "year_founded": "2019",
+        "company_type": "Privately Held"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "Kanotekk Engineering Consultants Pvt. Ltd.",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Oil and Gas",
+        "job_title": "CEO / Managing Director",
+        "company_size": "1",
+        "domain": null,
+        "website": null,
+        "enrichment_status": "domain_not_found",
+        "pages_scraped": 0,
+        "emails": [],
+        "phones": [],
+        "founder_email": "",
+        "business_phone": "",
+        "support_email": "",
+        "general_email": "",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "",
+        "linkedin_urls": [],
+        "profile_snippets": [
+          {
+            "query": "\"Kanotekk Engineering Consultants Pvt. Ltd.\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"Kanotekk Engineering Consultants Pvt. Ltd.\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 4,0"
+          },
+          {
+            "query": "\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO site:linkedin.com/in",
+            "snippet": "\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 96,800 results Open links in new tab"
+          },
+          {
+            "query": "\"Kanotekk Engineering Consultants Pvt. Ltd.\" site:linkedin.com/company",
+            "snippet": "\"Kanotekk Engineering Consultants Pvt. Ltd.\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 52 results Open links in new tab Da"
+          }
+        ],
+        "about_excerpt": "",
+        "team_excerpt": "",
+        "decision_makers": [],
+        "discovery_queries": [
+          "\"Kanotekk Engineering Consultants Pvt. Ltd.\" official website",
+          "\"Kanotekk Engineering Consultants Pvt. Ltd.\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=0",
+          "slug_probe:hits=0",
+          "bing_rss:hits=10:\"Kanotekk Engineering Consultants Pvt. L",
+          "no_verified_domain"
+        ],
+        "errors": [
+          "domain_not_found"
+        ]
+      },
+      "ceo": {
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "ceo_candidates": [],
+        "ceo_sources": [
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr – Wikipedia",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahrsfest – Wikipedia",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr (Feiertag Deutschland)",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr: Traditionen, Bräuche und Bedeutungen des neuen Jahres",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr am 1. Januar - Bedeutung & Bräuche",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr 2027 - Datum, Bräuche und Entstehung - Kalender-Uhrzeit.de",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr: Traditionen und Bräuche in Deutschland",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Seit wann beginnt das neue Jahr am 1. Januar? - ARD-alpha",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr - Religionen Entdecken",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr 2026, 2027, 2028 Deutschland - Schulferien.org",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" \"Mana|File Explorer in Windows | Microsoft Support",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" \"Mana|Free up drive space in Windows | Microsoft Support",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" \"Mana|Open File Explorer in Windows 11",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" \"Mana|Add or Remove Gallery in File Explorer Navigation Pane in Windows 11",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" \"Mana|Sync your computer's files and folders with OneDrive",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" \"Mana|Explorateur de fichiers dans Windows | Microsoft Support",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" \"Mana|Explorador de archivos en Windows | Microsoft Support",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" \"Mana|Create installation media for Windows | Microsoft Support",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" \"Mana|Windows File Recovery | Microsoft Support",
+          "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" \"Mana|Import photos and videos from phone to PC | Microsoft Support"
+        ]
+      },
+      "flat": {
+        "company_name": "Kanotekk Engineering Consultants Pvt. Ltd.",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Oil and Gas",
+        "company_size": "1",
+        "year_founded": "2019",
+        "company_type": "Privately Held",
+        "enrichment_status": "domain_not_found",
+        "domain": "",
+        "website": "",
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "general_email": "",
+        "business_phone": "",
+        "all_emails": "",
+        "all_phones": "",
+        "linkedin_company_url": "",
+        "decision_makers": "",
+        "ceo_sources": "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr – Wikipedia | serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahrsfest – Wikipedia | serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr (Feiertag Deutschland) | serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr: Traditionen, Bräuche und Bedeutungen des neuen Jahres | serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr am 1. Januar - Bedeutung & Bräuche | serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr 2027 - Datum, Bräuche und Entstehung - Kalender-Uhrzeit.de | serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr: Traditionen und Bräuche in Deutschland | serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Seit wann beginnt das neue Jahr am 1. Januar? - ARD-alpha",
+        "pages_scraped": 0,
+        "errors": "domain_not_found"
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "PhyEcoSyS Pvt. Ltd.",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "6",
+        "industry": "Biotechnology Research",
+        "year_founded": "2025",
+        "company_type": "Privately Held"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "PhyEcoSyS Pvt. Ltd.",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Biotechnology Research",
+        "job_title": "CEO / Managing Director",
+        "company_size": "6",
+        "domain": null,
+        "website": null,
+        "enrichment_status": "domain_not_found",
+        "pages_scraped": 0,
+        "emails": [],
+        "phones": [],
+        "founder_email": "",
+        "business_phone": "",
+        "support_email": "",
+        "general_email": "",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "",
+        "linkedin_urls": [],
+        "profile_snippets": [
+          {
+            "query": "\"PhyEcoSyS Pvt. Ltd.\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"PhyEcoSyS Pvt. Ltd.\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 61,900 results Open links "
+          },
+          {
+            "query": "\"PhyEcoSyS Pvt. Ltd.\" CEO site:linkedin.com/in",
+            "snippet": "\"PhyEcoSyS Pvt. Ltd.\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 88 results Open links in new tab Date commentcamarche.net h"
+          },
+          {
+            "query": "\"PhyEcoSyS Pvt. Ltd.\" site:linkedin.com/company",
+            "snippet": "\"PhyEcoSyS Pvt. Ltd.\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 121,000 results Open links in new tab Date wish.com https:"
+          }
+        ],
+        "about_excerpt": "",
+        "team_excerpt": "",
+        "decision_makers": [],
+        "discovery_queries": [
+          "\"PhyEcoSyS Pvt. Ltd.\" official website",
+          "\"PhyEcoSyS Pvt. Ltd.\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=0",
+          "slug_probe:hits=0",
+          "bing_rss:hits=10:\"PhyEcoSyS Pvt. Ltd.\" official website",
+          "no_verified_domain"
+        ],
+        "errors": [
+          "domain_not_found"
+        ]
+      },
+      "ceo": {
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "ceo_candidates": [],
+        "ceo_sources": [
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Sign in - Google Accounts",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Sign in - Google Accounts",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Google Chrome – Download the fast, secure browser from Google",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Google Images",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Google Chrome - The Fast & Secure Web Browser Built to be Yours",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Welcome to My Activity",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Google Drive - Sign in",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Google News",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Create a Gmail account - Google Help",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Gmail Help",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" \"Managing Director\" Kochi|L'IA juridique qui fonctionne vraiment",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" \"Managing Director\" Kochi|Query - Wikipedia",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" \"Managing Director\" Kochi|query — Wiktionnaire, le dictionnaire libre",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" \"Managing Director\" Kochi|SQL Tutorial - W3Schools",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" \"Managing Director\" Kochi|Home - Query",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" \"Managing Director\" Kochi|QUERY - Expert Guide to HTTP methods",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" \"Managing Director\" Kochi|query - English-French Dictionary WordReference.com",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" \"Managing Director\" Kochi|What is a query? Database queries explained - Hostinger",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" \"Managing Director\" Kochi|Power Query : qu’est-ce que c’est ? Le guide ultime. - Cleex",
+          "serp:\"PhyEcoSyS Pvt. Ltd.\" \"Managing Director\" Kochi|Utiliser Power Query pour transformer des données"
+        ]
+      },
+      "flat": {
+        "company_name": "PhyEcoSyS Pvt. Ltd.",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Biotechnology Research",
+        "company_size": "6",
+        "year_founded": "2025",
+        "company_type": "Privately Held",
+        "enrichment_status": "domain_not_found",
+        "domain": "",
+        "website": "",
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "general_email": "",
+        "business_phone": "",
+        "all_emails": "",
+        "all_phones": "",
+        "linkedin_company_url": "",
+        "decision_makers": "",
+        "ceo_sources": "serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Sign in - Google Accounts | serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Sign in - Google Accounts | serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Google Chrome – Download the fast, secure browser from Google | serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Google Images | serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Google Chrome - The Fast & Secure Web Browser Built to be Yours | serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Welcome to My Activity | serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Google Drive - Sign in | serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Google News",
+        "pages_scraped": 0,
+        "errors": "domain_not_found"
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "SREELAKSHMI ENERGY SYSTEM PVT. LTD.",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "89",
+        "industry": "Oil and Gas",
+        "year_founded": "2006",
+        "company_type": "Privately Held"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "SREELAKSHMI ENERGY SYSTEM PVT. LTD.",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Oil and Gas",
+        "job_title": "CEO / Managing Director",
+        "company_size": "89",
+        "domain": null,
+        "website": null,
+        "enrichment_status": "domain_not_found",
+        "pages_scraped": 0,
+        "emails": [],
+        "phones": [],
+        "founder_email": "",
+        "business_phone": "",
+        "support_email": "",
+        "general_email": "",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "",
+        "linkedin_urls": [],
+        "profile_snippets": [
+          {
+            "query": "\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 273,000 re"
+          },
+          {
+            "query": "\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO site:linkedin.com/in",
+            "snippet": "\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 42,600 results Open links in new tab Date h"
+          },
+          {
+            "query": "\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" site:linkedin.com/company",
+            "snippet": "\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 50 results Open links in new tab Date redd"
+          }
+        ],
+        "about_excerpt": "",
+        "team_excerpt": "",
+        "decision_makers": [],
+        "discovery_queries": [
+          "\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" official website",
+          "\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=0",
+          "slug_probe:hits=0",
+          "bing_rss:hits=10:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" of",
+          "no_verified_domain"
+        ],
+        "errors": [
+          "domain_not_found"
+        ]
+      },
+      "ceo": {
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "ceo_candidates": [],
+        "ceo_sources": [
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|除草剤のバスタ | BASFジャパンアグロソリューション",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|6. 希釈について | BASF除草剤 バスタ",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|2. 効果について | BASF除草剤 バスタ",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|はじめてのバスタ | BASF除草剤 バスタ",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|5. 散布方法について | BASF除草剤 バスタ",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|バスタ®瓦版（かわらばん） | BASF除草剤 バスタ",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|幅広い種類の雑草に効果が高い | BASF除草剤 バスタ",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|登録作物 | BASF除草剤 バスタ",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|水田畦畔での使用法 | BASF除草剤 バスタ",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|希釈方法について | BASF除草剤 バスタ",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" \"Managing Di|YouTube",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" \"Managing Di|YouTube - YouTube",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" \"Managing Di|YouTube",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" \"Managing Di|YouTube",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" \"Managing Di|YouTube",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" \"Managing Di|YouTube - Apps on Google Play",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" \"Managing Di|YouTube Music",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" \"Managing Di|Movies & TV - YouTube",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" \"Managing Di|YouTube - Google Accounts",
+          "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" \"Managing Di|About YouTube - YouTube"
+        ]
+      },
+      "flat": {
+        "company_name": "SREELAKSHMI ENERGY SYSTEM PVT. LTD.",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Oil and Gas",
+        "company_size": "89",
+        "year_founded": "2006",
+        "company_type": "Privately Held",
+        "enrichment_status": "domain_not_found",
+        "domain": "",
+        "website": "",
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "general_email": "",
+        "business_phone": "",
+        "all_emails": "",
+        "all_phones": "",
+        "linkedin_company_url": "",
+        "decision_makers": "",
+        "ceo_sources": "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|除草剤のバスタ | BASFジャパンアグロソリューション | serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|6. 希釈について | BASF除草剤 バスタ | serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|2. 効果について | BASF除草剤 バスタ | serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|はじめてのバスタ | BASF除草剤 バスタ | serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|5. 散布方法について | BASF除草剤 バスタ | serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|バスタ®瓦版（かわらばん） | BASF除草剤 バスタ | serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|幅広い種類の雑草に効果が高い | BASF除草剤 バスタ | serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|登録作物 | BASF除草剤 バスタ",
+        "pages_scraped": 0,
+        "errors": "domain_not_found"
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "Ecodew",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "11",
+        "industry": "Chemical Manufacturing",
+        "year_founded": "2018",
+        "company_type": "Privately Held"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "Ecodew",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Chemical Manufacturing",
+        "job_title": "CEO / Managing Director",
+        "company_size": "11",
+        "domain": "ecodew.solutions",
+        "website": "https://ecodew.solutions",
+        "enrichment_status": "enriched",
+        "pages_scraped": 5,
+        "emails": [],
+        "phones": [
+          {
+            "value": "+919020661101",
+            "label": "business",
+            "source_url": "https://ecodew.solutions",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917861291378",
+            "label": "business",
+            "source_url": "https://ecodew.solutions/contact",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917866365617",
+            "label": "business",
+            "source_url": "https://ecodew.solutions/about",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917866590037",
+            "label": "business",
+            "source_url": "https://ecodew.solutions/about/team",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917326059369",
+            "label": "business",
+            "source_url": "bing:\"Ecodew\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916426924975",
+            "label": "business",
+            "source_url": "bing:\"Ecodew\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916392225580",
+            "label": "business",
+            "source_url": "bing:\"Ecodew\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916821139436",
+            "label": "business",
+            "source_url": "bing:\"Ecodew\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917199518043",
+            "label": "business",
+            "source_url": "bing:\"Ecodew\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+919820668892",
+            "label": "business",
+            "source_url": "bing:\"Ecodew\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916927417285",
+            "label": "business",
+            "source_url": "bing:\"Ecodew\" phone number",
+            "confidence": 0.7
+          }
+        ],
+        "founder_email": "",
+        "business_phone": "+919020661101",
+        "support_email": "",
+        "general_email": "",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "https://www.linkedin.com/company/ecodew",
+        "linkedin_urls": [
+          "https://www.linkedin.com/company/ecodew"
+        ],
+        "profile_snippets": [
+          {
+            "query": "\"Ecodew\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"Ecodew\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 11,500 results Open links in new tab Da"
+          },
+          {
+            "query": "\"Ecodew\" CEO site:linkedin.com/in",
+            "snippet": "\"Ecodew\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 50 results Open links in new tab Date zhihu.com https://www.zhihu.com › "
+          },
+          {
+            "query": "\"Ecodew\" site:linkedin.com/company",
+            "snippet": "\"Ecodew\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools Open links in new tab Date mercedes-benz.co.uk https://www.mercedes-benz.co.u"
+          }
+        ],
+        "about_excerpt": "",
+        "team_excerpt": "",
+        "decision_makers": [],
+        "discovery_queries": [
+          "\"Ecodew\" official website",
+          "\"Ecodew\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=3",
+          "slug_probe:hits=0",
+          "verify:ecodew.solutions:score=1.00:company_strong",
+          "selected:ecodew.solutions:score=1.00"
+        ],
+        "errors": []
+      },
+      "ceo": {
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "ceo_candidates": [],
+        "ceo_sources": [
+          "serp:\"Ecodew\" CEO Kochi|Bokep Porn - Indo Bokep & Bokep Indo Videos - EPORNER",
+          "serp:\"Ecodew\" CEO Kochi|Bokep Indo - BokepLik",
+          "serp:\"Ecodew\" CEO Kochi|Indo Porn - Indo Bokep & Bokep Indo Videos - EPORNER",
+          "serp:\"Ecodew\" CEO Kochi|Indonesian porn videos | free ️ vids @ Tiava",
+          "serp:\"Ecodew\" CEO Kochi|Bokep Indonesia | Streaming Bokep Full Video | NOBOKEP",
+          "serp:\"Ecodew\" CEO Kochi|KingBokep TV - Situs Bokep Indo Terbaru dan Terlengkap",
+          "serp:\"Ecodew\" CEO Kochi|Koleksi Bokep - Koleksi Bokep Terlengkap Indonesia | Nonton Streaming ...",
+          "serp:\"Ecodew\" CEO Kochi|Koleksi video bokep indo 18+ kualitas HD – BOKEPIDAMAN.COM",
+          "serp:\"Ecodew\" CEO Kochi|Bokepwatch | Menonton video bokep indonesia full hd",
+          "serp:\"Ecodew\" CEO Kochi|Video Bokep Cewek indonesia - xHamster",
+          "serp:\"Ecodew\" \"Managing Director\" Kochi|Microsoft - Official Home Page",
+          "serp:\"Ecodew\" \"Managing Director\" Kochi|Sign in to your account",
+          "serp:\"Ecodew\" \"Managing Director\" Kochi|Sign in to your account",
+          "serp:\"Ecodew\" \"Managing Director\" Kochi|Microsoft products, apps, and devices built to support you",
+          "serp:\"Ecodew\" \"Managing Director\" Kochi|Home | Microsoft Careers",
+          "serp:\"Ecodew\" \"Managing Director\" Kochi|Create your Microsoft account",
+          "serp:\"Ecodew\" \"Managing Director\" Kochi|Microsoft - Wikipedia",
+          "serp:\"Ecodew\" \"Managing Director\" Kochi|Sign in to your account",
+          "serp:\"Ecodew\" \"Managing Director\" Kochi|Sign in - account.microsoft.com",
+          "serp:\"Ecodew\" \"Managing Director\" Kochi|Microsoft Store - Download apps, games & more for your Windows PC"
+        ]
+      },
+      "flat": {
+        "company_name": "Ecodew",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Chemical Manufacturing",
+        "company_size": "11",
+        "year_founded": "2018",
+        "company_type": "Privately Held",
+        "enrichment_status": "enriched",
+        "domain": "ecodew.solutions",
+        "website": "https://ecodew.solutions",
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "+919020661101",
+        "ceo_linkedin": "",
+        "general_email": "",
+        "business_phone": "+919020661101",
+        "all_emails": "",
+        "all_phones": "+919020661101; +917861291378; +917866365617; +917866590037; +917326059369; +916426924975; +916392225580; +916821139436; +917199518043; +919820668892; +916927417285",
+        "linkedin_company_url": "https://www.linkedin.com/company/ecodew",
+        "decision_makers": "",
+        "ceo_sources": "serp:\"Ecodew\" CEO Kochi|Bokep Porn - Indo Bokep & Bokep Indo Videos - EPORNER | serp:\"Ecodew\" CEO Kochi|Bokep Indo - BokepLik | serp:\"Ecodew\" CEO Kochi|Indo Porn - Indo Bokep & Bokep Indo Videos - EPORNER | serp:\"Ecodew\" CEO Kochi|Indonesian porn videos | free ️ vids @ Tiava | serp:\"Ecodew\" CEO Kochi|Bokep Indonesia | Streaming Bokep Full Video | NOBOKEP | serp:\"Ecodew\" CEO Kochi|KingBokep TV - Situs Bokep Indo Terbaru dan Terlengkap | serp:\"Ecodew\" CEO Kochi|Koleksi Bokep - Koleksi Bokep Terlengkap Indonesia | Nonton Streaming ... | serp:\"Ecodew\" CEO Kochi|Koleksi video bokep indo 18+ kualitas HD – BOKEPIDAMAN.COM",
+        "pages_scraped": 5,
+        "errors": ""
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "Merit Biolabs",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "29",
+        "industry": "Biotechnology Research",
+        "year_founded": "",
+        "company_type": "Privately Held"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "Merit Biolabs",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Biotechnology Research",
+        "job_title": "CEO / Managing Director",
+        "company_size": "29",
+        "domain": null,
+        "website": null,
+        "enrichment_status": "domain_not_found",
+        "pages_scraped": 4,
+        "emails": [],
+        "phones": [],
+        "founder_email": "",
+        "business_phone": "",
+        "support_email": "",
+        "general_email": "",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "https://www.linkedin.com/company/mohyal-educational-research-institute-of-technology",
+        "linkedin_urls": [
+          "https://www.linkedin.com/company/mohyal-educational-research-institute-of-technology"
+        ],
+        "profile_snippets": [
+          {
+            "query": "\"Merit Biolabs\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"Merit Biolabs\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 71,600 results Open links in new"
+          },
+          {
+            "query": "\"Merit Biolabs\" CEO site:linkedin.com/in",
+            "snippet": "\"Merit Biolabs\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 71,600 results Open links in new tab Date merit.ac.in https://www"
+          },
+          {
+            "query": "\"Merit Biolabs\" site:linkedin.com/company",
+            "snippet": "\"Merit Biolabs\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 71,600 results Open links in new tab Date merit.ac.in https://ww"
+          }
+        ],
+        "about_excerpt": "nal & Research Institute of Technology. MERIT --> --> Toggle navigation HOME ABOUT AIMS & OBJECTIVES GALLERY About-US --> Copa Gallery --> --> COURSES MERIT PVT. ITI COPA & DBSA Short - Term Courses HIGHER STUDIES IGNOU MCA BCA ACISE CCITSK PGDAST Journalism and Mass Communicatio",
+        "team_excerpt": "",
+        "decision_makers": [],
+        "discovery_queries": [
+          "\"Merit Biolabs\" official website",
+          "\"Merit Biolabs\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=0",
+          "slug_probe:hits=0",
+          "bing_rss:hits=10:\"Merit Biolabs\" official website",
+          "verify:merit.ac.in:score=0.30:company+context",
+          "selected:merit.ac.in:score=0.30"
+        ],
+        "errors": [
+          "qa_rejected_domain:merit.ac.in"
+        ]
+      },
+      "ceo": {
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "ceo_candidates": [],
+        "ceo_sources": [
+          "serp:\"Merit Biolabs\" CEO Kochi|IPO GMP Today, Live IPO Grey Market Premium Price",
+          "serp:\"Merit Biolabs\" CEO Kochi|Shree Ram Twistex IPO GMP Today - Live Grey Market Premium India | IPOwiz",
+          "serp:\"Merit Biolabs\" CEO Kochi|IPO GMP Today Live | Upcoming IPO 2026 | IPORise",
+          "serp:\"Merit Biolabs\" CEO Kochi|Shree Ram Twistex IPO GMP, Grey Market Premium Today",
+          "serp:\"Merit Biolabs\" CEO Kochi|Shree Ram Twistex IPO GMP Today - Live Grey Market Premium",
+          "serp:\"Merit Biolabs\" CEO Kochi|Latest IPO GMP Today (Live IPO Grey Market Premium)",
+          "serp:\"Merit Biolabs\" CEO Kochi|Shree Ram Twistex IPO GMP Today, Price Band, Allotment Status",
+          "serp:\"Merit Biolabs\" CEO Kochi|Shree Ram Twistex IPO GMP Today: Latest Grey Market Premium & Estimated ...",
+          "serp:\"Merit Biolabs\" CEO Kochi|Shree Ram Twistex IPO GMP, Date, Price, Review, Details",
+          "serp:\"Merit Biolabs\" CEO Kochi|Shree Ram Twistex Ltd. IPO – GMP, Dates, Price Band & Allotment Status ...",
+          "serp:\"Merit Biolabs\" \"Managing Director\" Kochi|Mohyal Educational & Research Institute of Technology. MERIT",
+          "serp:\"Merit Biolabs\" \"Managing Director\" Kochi|MERIT Definition & Meaning - Merriam-Webster",
+          "serp:\"Merit Biolabs\" \"Managing Director\" Kochi|MERIT | English meaning - Cambridge Dictionary",
+          "serp:\"Merit Biolabs\" \"Managing Director\" Kochi|MERIT | definition in the Cambridge English Dictionary",
+          "serp:\"Merit Biolabs\" \"Managing Director\" Kochi|MERIT Clean Beauty & Minimalist Makeup | MERIT Official Site",
+          "serp:\"Merit Biolabs\" \"Managing Director\" Kochi|What Does merit Mean? Definition & Examples | Dictionary.net",
+          "serp:\"Merit Biolabs\" \"Managing Director\" Kochi|Merit - Definition, Meaning & Synonyms | Vocabulary.com",
+          "serp:\"Merit Biolabs\" \"Managing Director\" Kochi|merit - Wiktionary, the free dictionary",
+          "serp:\"Merit Biolabs\" \"Managing Director\" Kochi|MERIT Definition & Meaning | Dictionary.com",
+          "serp:\"Merit Biolabs\" \"Managing Director\" Kochi|Merit Definition & Meaning | Britannica Dictionary"
+        ]
+      },
+      "flat": {
+        "company_name": "Merit Biolabs",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Biotechnology Research",
+        "company_size": "29",
+        "year_founded": "",
+        "company_type": "Privately Held",
+        "enrichment_status": "domain_not_found",
+        "domain": "",
+        "website": "",
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "general_email": "",
+        "business_phone": "",
+        "all_emails": "",
+        "all_phones": "",
+        "linkedin_company_url": "https://www.linkedin.com/company/mohyal-educational-research-institute-of-technology",
+        "decision_makers": "",
+        "ceo_sources": "serp:\"Merit Biolabs\" CEO Kochi|IPO GMP Today, Live IPO Grey Market Premium Price | serp:\"Merit Biolabs\" CEO Kochi|Shree Ram Twistex IPO GMP Today - Live Grey Market Premium India | IPOwiz | serp:\"Merit Biolabs\" CEO Kochi|IPO GMP Today Live | Upcoming IPO 2026 | IPORise | serp:\"Merit Biolabs\" CEO Kochi|Shree Ram Twistex IPO GMP, Grey Market Premium Today | serp:\"Merit Biolabs\" CEO Kochi|Shree Ram Twistex IPO GMP Today - Live Grey Market Premium | serp:\"Merit Biolabs\" CEO Kochi|Latest IPO GMP Today (Live IPO Grey Market Premium) | serp:\"Merit Biolabs\" CEO Kochi|Shree Ram Twistex IPO GMP Today, Price Band, Allotment Status | serp:\"Merit Biolabs\" CEO Kochi|Shree Ram Twistex IPO GMP Today: Latest Grey Market Premium & Estimated ...",
+        "pages_scraped": 4,
+        "errors": "qa_rejected_domain:merit.ac.in"
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "GENESPEC PRIVATE LIMITED",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "8",
+        "industry": "Biotechnology Research",
+        "year_founded": "2022",
+        "company_type": "Privately Held"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "GENESPEC PRIVATE LIMITED",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Biotechnology Research",
+        "job_title": "CEO / Managing Director",
+        "company_size": "8",
+        "domain": "genespec.com",
+        "website": "https://genespec.com",
+        "enrichment_status": "enriched",
+        "pages_scraped": 3,
+        "emails": [
+          {
+            "value": "info@genespec.com",
+            "label": "general",
+            "source_url": "https://genespec.com",
+            "confidence": 0.9
+          }
+        ],
+        "phones": [
+          {
+            "value": "+919744233433",
+            "label": "business",
+            "source_url": "https://genespec.com",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917907191205",
+            "label": "business",
+            "source_url": "https://genespec.com",
+            "confidence": 0.7
+          },
+          {
+            "value": "+918904852725",
+            "label": "business",
+            "source_url": "https://genespec.com",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917326059369",
+            "label": "business",
+            "source_url": "bing:\"GENESPEC PRIVATE LIMITED\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+919501376977",
+            "label": "business",
+            "source_url": "bing:\"GENESPEC PRIVATE LIMITED\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916392225584",
+            "label": "business",
+            "source_url": "bing:\"GENESPEC PRIVATE LIMITED\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917035086572",
+            "label": "business",
+            "source_url": "bing:\"GENESPEC PRIVATE LIMITED\" founder CEO",
+            "confidence": 0.7
+          }
+        ],
+        "founder_email": "",
+        "business_phone": "+919744233433",
+        "support_email": "",
+        "general_email": "info@genespec.com",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "",
+        "linkedin_urls": [],
+        "profile_snippets": [
+          {
+            "query": "\"GENESPEC PRIVATE LIMITED\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"GENESPEC PRIVATE LIMITED\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 29,100 results Open l"
+          },
+          {
+            "query": "\"GENESPEC PRIVATE LIMITED\" CEO site:linkedin.com/in",
+            "snippet": "\"GENESPEC PRIVATE LIMITED\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 29,100 results Open links in new tab Date genespec.com"
+          },
+          {
+            "query": "\"GENESPEC PRIVATE LIMITED\" site:linkedin.com/company",
+            "snippet": "\"GENESPEC PRIVATE LIMITED\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 29,100 results Open links in new tab Date genespec.co"
+          }
+        ],
+        "about_excerpt": "GENESPEC | COMPLETE GENOMICS SOLUTION REGISTER Sanger NGS GBS & ddRAD Bioinformatics Home Contacts Register En Fr --> Facebook Twitter Instagram SANGER SEQUENCING We provide the complete range of Sanger DNA sequencing services NEXT-GEN SEQUENCING We offers complete NGS solutions",
+        "team_excerpt": "",
+        "decision_makers": [],
+        "discovery_queries": [
+          "\"GENESPEC PRIVATE LIMITED\" official website",
+          "\"GENESPEC PRIVATE LIMITED\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=1",
+          "slug_probe:hits=1",
+          "verify:genespec.com:score=1.40:company_strong",
+          "selected:genespec.com:score=1.40"
+        ],
+        "errors": []
+      },
+      "ceo": {
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "ceo_candidates": [],
+        "ceo_sources": [
+          "serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|GENESPEC | COMPLETE GENOMICS SOLUTION",
+          "serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|Next-Gen (NGS) Services - GENESPEC",
+          "serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|Sign In - GENESPEC LIMS",
+          "serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|GENESPEC | CONTACT US",
+          "serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|Sanger Sequencing - GENESPEC",
+          "serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|GENESPEC PRIVATE LIMITED | LinkedIn",
+          "serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|GENESPEC | BIOINFORMATICS",
+          "serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|GENESPEC PRIVATE LIMITED Details | Company Profile | Directors Profile ...",
+          "serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|GENESPEC PRIVATE LIMITED | ZaubaCorp",
+          "serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|GENESPEC | GBS ddRAD",
+          "serp:\"GENESPEC PRIVATE LIMITED\" \"Managing Director\" Koc|GENESPEC | COMPLETE GENOMICS SOLUTION",
+          "serp:\"GENESPEC PRIVATE LIMITED\" \"Managing Director\" Koc|Next-Gen (NGS) Services - GENESPEC",
+          "serp:\"GENESPEC PRIVATE LIMITED\" \"Managing Director\" Koc|Sign In - GENESPEC LIMS",
+          "serp:\"GENESPEC PRIVATE LIMITED\" \"Managing Director\" Koc|GENESPEC | CONTACT US",
+          "serp:\"GENESPEC PRIVATE LIMITED\" \"Managing Director\" Koc|Sanger Sequencing - GENESPEC",
+          "serp:\"GENESPEC PRIVATE LIMITED\" \"Managing Director\" Koc|GENESPEC PRIVATE LIMITED | LinkedIn",
+          "serp:\"GENESPEC PRIVATE LIMITED\" \"Managing Director\" Koc|GENESPEC | BIOINFORMATICS",
+          "serp:\"GENESPEC PRIVATE LIMITED\" \"Managing Director\" Koc|GENESPEC PRIVATE LIMITED Details | Company Profile | Directors Profile ...",
+          "serp:\"GENESPEC PRIVATE LIMITED\" \"Managing Director\" Koc|GENESPEC PRIVATE LIMITED | ZaubaCorp",
+          "serp:\"GENESPEC PRIVATE LIMITED\" \"Managing Director\" Koc|GENESPEC | GBS ddRAD"
+        ]
+      },
+      "flat": {
+        "company_name": "GENESPEC PRIVATE LIMITED",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Biotechnology Research",
+        "company_size": "8",
+        "year_founded": "2022",
+        "company_type": "Privately Held",
+        "enrichment_status": "enriched",
+        "domain": "genespec.com",
+        "website": "https://genespec.com",
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "+919744233433",
+        "ceo_linkedin": "",
+        "general_email": "info@genespec.com",
+        "business_phone": "+919744233433",
+        "all_emails": "info@genespec.com",
+        "all_phones": "+919744233433; +917907191205; +918904852725; +917326059369; +919501376977; +916392225584; +917035086572",
+        "linkedin_company_url": "",
+        "decision_makers": "",
+        "ceo_sources": "serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|GENESPEC | COMPLETE GENOMICS SOLUTION | serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|Next-Gen (NGS) Services - GENESPEC | serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|Sign In - GENESPEC LIMS | serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|GENESPEC | CONTACT US | serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|Sanger Sequencing - GENESPEC | serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|GENESPEC PRIVATE LIMITED | LinkedIn | serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|GENESPEC | BIOINFORMATICS | serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|GENESPEC PRIVATE LIMITED Details | Company Profile | Directors Profile ...",
+        "pages_scraped": 3,
+        "errors": ""
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "De Staco Turnkey Solutions LLP",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "27",
+        "industry": "Oil and Gas",
+        "year_founded": "2019",
+        "company_type": "Partnership"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "De Staco Turnkey Solutions LLP",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Oil and Gas",
+        "job_title": "CEO / Managing Director",
+        "company_size": "27",
+        "domain": "destaco.com",
+        "website": "https://destaco.com",
+        "enrichment_status": "enriched",
+        "pages_scraped": 8,
+        "emails": [],
+        "phones": [
+          {
+            "value": "+918382949752",
+            "label": "business",
+            "source_url": "https://destaco.com",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917775145710",
+            "label": "business",
+            "source_url": "https://destaco.com",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916686232459",
+            "label": "business",
+            "source_url": "https://destaco.com/contact-us",
+            "confidence": 0.7
+          },
+          {
+            "value": "+919693902087",
+            "label": "business",
+            "source_url": "https://destaco.com/contact-us",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917271926023",
+            "label": "business",
+            "source_url": "https://destaco.com/contact-us",
+            "confidence": 0.7
+          },
+          {
+            "value": "+918224571963",
+            "label": "business",
+            "source_url": "https://www.destaco.com/services",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917326059369",
+            "label": "business",
+            "source_url": "bing:\"De Staco Turnkey Solutions LLP\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916392225589",
+            "label": "business",
+            "source_url": "bing:\"De Staco Turnkey Solutions LLP\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916609886236",
+            "label": "business",
+            "source_url": "bing:\"De Staco Turnkey Solutions LLP\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+919698203845",
+            "label": "business",
+            "source_url": "bing:\"De Staco Turnkey Solutions LLP\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916848444486",
+            "label": "business",
+            "source_url": "bing:\"De Staco Turnkey Solutions LLP\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917824897966",
+            "label": "business",
+            "source_url": "bing:\"De Staco Turnkey Solutions LLP\" phone number",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916201452101",
+            "label": "business",
+            "source_url": "bing:\"De Staco Turnkey Solutions LLP\" phone number",
+            "confidence": 0.7
+          }
+        ],
+        "founder_email": "",
+        "business_phone": "+918382949752",
+        "support_email": "",
+        "general_email": "",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "https://www.linkedin.com/company/destaco",
+        "linkedin_urls": [
+          "https://www.linkedin.com/company/destaco"
+        ],
+        "profile_snippets": [
+          {
+            "query": "\"De Staco Turnkey Solutions LLP\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"De Staco Turnkey Solutions LLP\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 459,000 results"
+          },
+          {
+            "query": "\"De Staco Turnkey Solutions LLP\" CEO site:linkedin.com/in",
+            "snippet": "\"De Staco Turnkey Solutions LLP\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 459,000 results Open links in new tab Date cambr"
+          },
+          {
+            "query": "\"De Staco Turnkey Solutions LLP\" site:linkedin.com/company",
+            "snippet": "\"De Staco Turnkey Solutions LLP\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 459,000 results Open links in new tab Date camb"
+          }
+        ],
+        "about_excerpt": "ng Equipment & Automation Solutions - DESTACO Need Help? Find a Distributor English Stabilus Group Products Markets Applications Services Resources Company Contact Virtual Tech Support English Search... Need Help? Find a Distributor Login View draft quote Destaco - Workholding Eq",
+        "team_excerpt": "",
+        "decision_makers": [],
+        "discovery_queries": [
+          "\"De Staco Turnkey Solutions LLP\" official website",
+          "\"De Staco Turnkey Solutions LLP\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=0",
+          "slug_probe:hits=1",
+          "verify:destaco.com:score=0.92:company_strong",
+          "selected:destaco.com:score=0.92"
+        ],
+        "errors": []
+      },
+      "ceo": {
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "ceo_candidates": [],
+        "ceo_sources": [
+          "serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|DE- | English meaning - Cambridge Dictionary",
+          "serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|110 Prefix DE Words (Real Examples, Free PDF + Video)",
+          "serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|Google",
+          "serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|DE Definition & Meaning | Dictionary.com",
+          "serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|De Prefix: Meaning and Examples of the Prefix De - 7ESL",
+          "serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|De (2020) - IMDb",
+          "serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|de- prefix - Definition, pictures, pronunciation and usage notes ...",
+          "serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|de- - Wiktionary, the free dictionary",
+          "serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|DE - Wikipedia",
+          "serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|de - Wiktionary, the free dictionary",
+          "serp:\"De Staco Turnkey Solutions LLP\" \"Managing Directo|DE- | English meaning - Cambridge Dictionary",
+          "serp:\"De Staco Turnkey Solutions LLP\" \"Managing Directo|110 Prefix DE Words (Real Examples, Free PDF + Video)",
+          "serp:\"De Staco Turnkey Solutions LLP\" \"Managing Directo|Google",
+          "serp:\"De Staco Turnkey Solutions LLP\" \"Managing Directo|DE Definition & Meaning | Dictionary.com",
+          "serp:\"De Staco Turnkey Solutions LLP\" \"Managing Directo|De Prefix: Meaning and Examples of the Prefix De - 7ESL",
+          "serp:\"De Staco Turnkey Solutions LLP\" \"Managing Directo|De (2020) - IMDb",
+          "serp:\"De Staco Turnkey Solutions LLP\" \"Managing Directo|de- prefix - Definition, pictures, pronunciation and usage notes ...",
+          "serp:\"De Staco Turnkey Solutions LLP\" \"Managing Directo|de- - Wiktionary, the free dictionary",
+          "serp:\"De Staco Turnkey Solutions LLP\" \"Managing Directo|DE - Wikipedia",
+          "serp:\"De Staco Turnkey Solutions LLP\" \"Managing Directo|de - Wiktionary, the free dictionary"
+        ]
+      },
+      "flat": {
+        "company_name": "De Staco Turnkey Solutions LLP",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Oil and Gas",
+        "company_size": "27",
+        "year_founded": "2019",
+        "company_type": "Partnership",
+        "enrichment_status": "enriched",
+        "domain": "destaco.com",
+        "website": "https://destaco.com",
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "+918382949752",
+        "ceo_linkedin": "",
+        "general_email": "",
+        "business_phone": "+918382949752",
+        "all_emails": "",
+        "all_phones": "+918382949752; +917775145710; +916686232459; +919693902087; +917271926023; +918224571963; +917326059369; +916392225589; +916609886236; +919698203845; +916848444486; +917824897966; +916201452101",
+        "linkedin_company_url": "https://www.linkedin.com/company/destaco",
+        "decision_makers": "",
+        "ceo_sources": "serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|DE- | English meaning - Cambridge Dictionary | serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|110 Prefix DE Words (Real Examples, Free PDF + Video) | serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|Google | serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|DE Definition & Meaning | Dictionary.com | serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|De Prefix: Meaning and Examples of the Prefix De - 7ESL | serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|De (2020) - IMDb | serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|de- prefix - Definition, pictures, pronunciation and usage notes ... | serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|de- - Wiktionary, the free dictionary",
+        "pages_scraped": 8,
+        "errors": ""
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "Thinkbizz Ventures LLP",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "3",
+        "industry": "Pharmaceutical Manufacturing",
+        "year_founded": "2015",
+        "company_type": "Privately Held"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "Thinkbizz Ventures LLP",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Pharmaceutical Manufacturing",
+        "job_title": "CEO / Managing Director",
+        "company_size": "3",
+        "domain": null,
+        "website": null,
+        "enrichment_status": "domain_not_found",
+        "pages_scraped": 0,
+        "emails": [],
+        "phones": [],
+        "founder_email": "",
+        "business_phone": "",
+        "support_email": "",
+        "general_email": "",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "",
+        "linkedin_urls": [],
+        "profile_snippets": [
+          {
+            "query": "\"Thinkbizz Ventures LLP\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"Thinkbizz Ventures LLP\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 273,000 results Open li"
+          },
+          {
+            "query": "\"Thinkbizz Ventures LLP\" CEO site:linkedin.com/in",
+            "snippet": "\"Thinkbizz Ventures LLP\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 52 results Open links in new tab Date google.com https:/"
+          },
+          {
+            "query": "\"Thinkbizz Ventures LLP\" site:linkedin.com/company",
+            "snippet": "\"Thinkbizz Ventures LLP\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools Open links in new tab Date zhihu.com https://www.zhihu.com › "
+          }
+        ],
+        "about_excerpt": "",
+        "team_excerpt": "",
+        "decision_makers": [],
+        "discovery_queries": [
+          "\"Thinkbizz Ventures LLP\" official website",
+          "\"Thinkbizz Ventures LLP\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=0",
+          "slug_probe:hits=0",
+          "bing_rss:hits=10:\"Thinkbizz Ventures LLP\" official websit",
+          "no_verified_domain"
+        ],
+        "errors": [
+          "domain_not_found"
+        ]
+      },
+      "ceo": {
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "ceo_candidates": [],
+        "ceo_sources": [
+          "serp:\"Thinkbizz Ventures LLP\" CEO Kochi|Anmelden bei Hotmail | Microsoft Support",
+          "serp:\"Thinkbizz Ventures LLP\" CEO Kochi|Released: June 2026 Exchange Server Security Updates | Microsoft ...",
+          "serp:\"Thinkbizz Ventures LLP\" CEO Kochi|What’s New in Microsoft 365 Copilot | June 2026 | Microsoft Community Hub",
+          "serp:\"Thinkbizz Ventures LLP\" CEO Kochi|Turn sound effects on or off in Outlook | Microsoft Support",
+          "serp:\"Thinkbizz Ventures LLP\" CEO Kochi|Remove a page break in Word | Microsoft Support",
+          "serp:\"Thinkbizz Ventures LLP\" CEO Kochi|Close your Outlook.com account | Microsoft Support",
+          "serp:\"Thinkbizz Ventures LLP\" CEO Kochi|What's New in Excel (January 2026) | Microsoft Community Hub",
+          "serp:\"Thinkbizz Ventures LLP\" CEO Kochi|BitLocker overview | Microsoft Support",
+          "serp:\"Thinkbizz Ventures LLP\" CEO Kochi|How do I completely uninstall microsoft edge in windows 11? | Microsoft ...",
+          "serp:\"Thinkbizz Ventures LLP\" CEO Kochi|Share your calendar in Outlook | Microsoft Support",
+          "serp:\"Thinkbizz Ventures LLP\" \"Managing Director\" Kochi|Anmelden bei Hotmail | Microsoft Support",
+          "serp:\"Thinkbizz Ventures LLP\" \"Managing Director\" Kochi|Released: June 2026 Exchange Server Security Updates | Microsoft ...",
+          "serp:\"Thinkbizz Ventures LLP\" \"Managing Director\" Kochi|What’s New in Microsoft 365 Copilot | June 2026 | Microsoft Community Hub",
+          "serp:\"Thinkbizz Ventures LLP\" \"Managing Director\" Kochi|Turn sound effects on or off in Outlook | Microsoft Support",
+          "serp:\"Thinkbizz Ventures LLP\" \"Managing Director\" Kochi|Remove a page break in Word | Microsoft Support",
+          "serp:\"Thinkbizz Ventures LLP\" \"Managing Director\" Kochi|Close your Outlook.com account | Microsoft Support",
+          "serp:\"Thinkbizz Ventures LLP\" \"Managing Director\" Kochi|What's New in Excel (January 2026) | Microsoft Community Hub",
+          "serp:\"Thinkbizz Ventures LLP\" \"Managing Director\" Kochi|BitLocker overview | Microsoft Support",
+          "serp:\"Thinkbizz Ventures LLP\" \"Managing Director\" Kochi|Share your calendar in Outlook | Microsoft Support",
+          "serp:\"Thinkbizz Ventures LLP\" \"Managing Director\" Kochi|Get a refund for apps and games purchased from Microsoft Store"
+        ]
+      },
+      "flat": {
+        "company_name": "Thinkbizz Ventures LLP",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Pharmaceutical Manufacturing",
+        "company_size": "3",
+        "year_founded": "2015",
+        "company_type": "Privately Held",
+        "enrichment_status": "domain_not_found",
+        "domain": "",
+        "website": "",
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "general_email": "",
+        "business_phone": "",
+        "all_emails": "",
+        "all_phones": "",
+        "linkedin_company_url": "",
+        "decision_makers": "",
+        "ceo_sources": "serp:\"Thinkbizz Ventures LLP\" CEO Kochi|Anmelden bei Hotmail | Microsoft Support | serp:\"Thinkbizz Ventures LLP\" CEO Kochi|Released: June 2026 Exchange Server Security Updates | Microsoft ... | serp:\"Thinkbizz Ventures LLP\" CEO Kochi|What’s New in Microsoft 365 Copilot | June 2026 | Microsoft Community Hub | serp:\"Thinkbizz Ventures LLP\" CEO Kochi|Turn sound effects on or off in Outlook | Microsoft Support | serp:\"Thinkbizz Ventures LLP\" CEO Kochi|Remove a page break in Word | Microsoft Support | serp:\"Thinkbizz Ventures LLP\" CEO Kochi|Close your Outlook.com account | Microsoft Support | serp:\"Thinkbizz Ventures LLP\" CEO Kochi|What's New in Excel (January 2026) | Microsoft Community Hub | serp:\"Thinkbizz Ventures LLP\" CEO Kochi|BitLocker overview | Microsoft Support",
+        "pages_scraped": 0,
+        "errors": "domain_not_found"
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "Biosix Peptides India Pvt. Ltd.",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "3",
+        "industry": "Chemical Manufacturing",
+        "year_founded": "2009",
+        "company_type": "Partnership"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "Biosix Peptides India Pvt. Ltd.",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Chemical Manufacturing",
+        "job_title": "CEO / Managing Director",
+        "company_size": "3",
+        "domain": null,
+        "website": null,
+        "enrichment_status": "domain_not_found",
+        "pages_scraped": 0,
+        "emails": [],
+        "phones": [],
+        "founder_email": "",
+        "business_phone": "",
+        "support_email": "",
+        "general_email": "",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "",
+        "linkedin_urls": [],
+        "profile_snippets": [
+          {
+            "query": "\"Biosix Peptides India Pvt. Ltd.\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"Biosix Peptides India Pvt. Ltd.\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 65 results Ope"
+          },
+          {
+            "query": "\"Biosix Peptides India Pvt. Ltd.\" CEO site:linkedin.com/in",
+            "snippet": "\"Biosix Peptides India Pvt. Ltd.\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 50 results Open links in new tab Date baidu.com"
+          },
+          {
+            "query": "\"Biosix Peptides India Pvt. Ltd.\" site:linkedin.com/company",
+            "snippet": "\"Biosix Peptides India Pvt. Ltd.\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools Open links in new tab Date github.com https://github"
+          }
+        ],
+        "about_excerpt": "",
+        "team_excerpt": "",
+        "decision_makers": [],
+        "discovery_queries": [
+          "\"Biosix Peptides India Pvt. Ltd.\" official website",
+          "\"Biosix Peptides India Pvt. Ltd.\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=0",
+          "slug_probe:hits=0",
+          "bing_rss:hits=10:\"Biosix Peptides India Pvt. Ltd.\" offici",
+          "no_verified_domain"
+        ],
+        "errors": [
+          "domain_not_found"
+        ]
+      },
+      "ceo": {
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "ceo_candidates": [],
+        "ceo_sources": [
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangladeshi porn videos | free ️ vids @ Tiava",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangla Porn Videos: Sexy Bangladeshi Girls | xHamster",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangladeshi Sex Videos & Free Bengali Tube - MyDesi HD",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangla sex - Real Bangladeshi sex video and new BD porn",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|বাংলা ভাষায় সেক্স ভিডিও / Porn in Bengali: Sex Videos Featuring ...",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangladeshi sex Porn Videos - iWank XXX",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangladeshi village girl group sex in outdoor setting",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangladeshi Porn - Bangladeshi Girl & Bangladeshi Bhabi Videos - EPORNER",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|'bangladeshi' Search - XNXX.COM",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangladeshi Porn (46,724) @ Porzo.com",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" \"Managing Direct|21 must-try Vietnamese dishes | Vietnam Tourism",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" \"Managing Direct|Vietnamese Food: Top 100 Dishes - TasteAtlas",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" \"Managing Direct|Best Vietnam Food: 15 Must-Try Dishes - Food Vietnamese",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" \"Managing Direct|Vietnamese Food: 19 Dishes You Should Miss In 2026",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" \"Managing Direct|15 Best Vietnamese Food Dishes To Try, 2026 - WanderOn",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" \"Managing Direct|Best Vietnam Traditional Food: 15 Must-Try Vietnam Dishes",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" \"Managing Direct|40 Best Street Food in Vietnam - TasteAtlas",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" \"Managing Direct|Vietnamese Food Guide – 21 Dishes You Can’t Miss",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" \"Managing Direct|Vietnamese Food Guide: 30 Popular Vietnamese Dishes",
+          "serp:\"Biosix Peptides India Pvt. Ltd.\" \"Managing Direct|13 Best Vietnamese Dishes You Must Try - The Foodellers"
+        ]
+      },
+      "flat": {
+        "company_name": "Biosix Peptides India Pvt. Ltd.",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Chemical Manufacturing",
+        "company_size": "3",
+        "year_founded": "2009",
+        "company_type": "Partnership",
+        "enrichment_status": "domain_not_found",
+        "domain": "",
+        "website": "",
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "general_email": "",
+        "business_phone": "",
+        "all_emails": "",
+        "all_phones": "",
+        "linkedin_company_url": "",
+        "decision_makers": "",
+        "ceo_sources": "serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangladeshi porn videos | free ️ vids @ Tiava | serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangla Porn Videos: Sexy Bangladeshi Girls | xHamster | serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangladeshi Sex Videos & Free Bengali Tube - MyDesi HD | serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangla sex - Real Bangladeshi sex video and new BD porn | serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|বাংলা ভাষায় সেক্স ভিডিও / Porn in Bengali: Sex Videos Featuring ... | serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangladeshi sex Porn Videos - iWank XXX | serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangladeshi village girl group sex in outdoor setting | serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangladeshi Porn - Bangladeshi Girl & Bangladeshi Bhabi Videos - EPORNER",
+        "pages_scraped": 0,
+        "errors": "domain_not_found"
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "ANTS Lifecare Pvt. Ltd.",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "14",
+        "industry": "Biotechnology Research",
+        "year_founded": "",
+        "company_type": "Privately Held"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "ANTS Lifecare Pvt. Ltd.",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Biotechnology Research",
+        "job_title": "CEO / Managing Director",
+        "company_size": "14",
+        "domain": null,
+        "website": null,
+        "enrichment_status": "domain_not_found",
+        "pages_scraped": 3,
+        "emails": [],
+        "phones": [],
+        "founder_email": "",
+        "business_phone": "",
+        "support_email": "",
+        "general_email": "",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "",
+        "linkedin_urls": [],
+        "profile_snippets": [
+          {
+            "query": "\"ANTS Lifecare Pvt. Ltd.\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"ANTS Lifecare Pvt. Ltd.\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 81,500 results Open li"
+          },
+          {
+            "query": "\"ANTS Lifecare Pvt. Ltd.\" CEO site:linkedin.com/in",
+            "snippet": "\"ANTS Lifecare Pvt. Ltd.\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 81,500 results Open links in new tab Date wikipedia.org"
+          },
+          {
+            "query": "\"ANTS Lifecare Pvt. Ltd.\" site:linkedin.com/company",
+            "snippet": "\"ANTS Lifecare Pvt. Ltd.\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 273,000 results Open links in new tab Date microsoft.c"
+          }
+        ],
+        "about_excerpt": "ANTS Ver 1.0 Please be informed that the official website andaman.gov.in will soon be migrated to a new domain: andamannicobar.gov.in. Download Pathik The Traveller Mobile App ants-support[at]and[dot]nic[dot]in 03192-234660 StarBus Govt. of India ANTS Online Ver 1.0 Bus Services",
+        "team_excerpt": "",
+        "decision_makers": [],
+        "discovery_queries": [
+          "\"ANTS Lifecare Pvt. Ltd.\" official website",
+          "\"ANTS Lifecare Pvt. Ltd.\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=0",
+          "slug_probe:hits=0",
+          "bing_rss:hits=10:\"ANTS Lifecare Pvt. Ltd.\" official websi",
+          "verify:ants.andamannicobar.gov.in:score=0.30:company+context",
+          "selected:ants.andamannicobar.gov.in:score=0.30"
+        ],
+        "errors": [
+          "qa_rejected_domain:ants.andamannicobar.gov.in"
+        ]
+      },
+      "ceo": {
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "ceo_candidates": [],
+        "ceo_sources": [
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ant - Wikipedia",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ant | Description, Taxonomy, Habitat, Species, Life Cycle, & Facts ...",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ant - Types, Size, Anatomy, Habitat, Life Cycle, Lifespan, & Pictures",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Accueil - France Titres (ANTS)",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ant - Simple English Wikipedia, the free encyclopedia",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ants, facts and information - National Geographic",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ant colony - Wikipedia",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|ANTS Ver 1.0",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Best Of Ants | BBC Earth - YouTube",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|16 Different Types of Ants: Species, Pictures and Identification - TRVST",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" \"Managing Director\" Koch|Ant - Wikipedia",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" \"Managing Director\" Koch|Ant | Description, Taxonomy, Habitat, Species, Life Cycle, & Facts ...",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" \"Managing Director\" Koch|Ant - Types, Size, Anatomy, Habitat, Life Cycle, Lifespan, & Pictures",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" \"Managing Director\" Koch|Accueil - France Titres (ANTS)",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" \"Managing Director\" Koch|Ant - Simple English Wikipedia, the free encyclopedia",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" \"Managing Director\" Koch|Ants, facts and information - National Geographic",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" \"Managing Director\" Koch|Ant colony - Wikipedia",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" \"Managing Director\" Koch|ANTS Ver 1.0",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" \"Managing Director\" Koch|Best Of Ants | BBC Earth - YouTube",
+          "serp:\"ANTS Lifecare Pvt. Ltd.\" \"Managing Director\" Koch|16 Different Types of Ants: Species, Pictures and Identification - TRVST"
+        ]
+      },
+      "flat": {
+        "company_name": "ANTS Lifecare Pvt. Ltd.",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Biotechnology Research",
+        "company_size": "14",
+        "year_founded": "",
+        "company_type": "Privately Held",
+        "enrichment_status": "domain_not_found",
+        "domain": "",
+        "website": "",
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "general_email": "",
+        "business_phone": "",
+        "all_emails": "",
+        "all_phones": "",
+        "linkedin_company_url": "",
+        "decision_makers": "",
+        "ceo_sources": "serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ant - Wikipedia | serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ant | Description, Taxonomy, Habitat, Species, Life Cycle, & Facts ... | serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ant - Types, Size, Anatomy, Habitat, Life Cycle, Lifespan, & Pictures | serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Accueil - France Titres (ANTS) | serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ant - Simple English Wikipedia, the free encyclopedia | serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ants, facts and information - National Geographic | serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ant colony - Wikipedia | serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|ANTS Ver 1.0",
+        "pages_scraped": 3,
+        "errors": "qa_rejected_domain:ants.andamannicobar.gov.in"
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "Tubazionic Engineering Pvt Ltd",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "1",
+        "industry": "Oil and Gas",
+        "year_founded": "",
+        "company_type": "Privately Held"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "Tubazionic Engineering Pvt Ltd",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Oil and Gas",
+        "job_title": "CEO / Managing Director",
+        "company_size": "1",
+        "domain": null,
+        "website": null,
+        "enrichment_status": "domain_not_found",
+        "pages_scraped": 0,
+        "emails": [],
+        "phones": [],
+        "founder_email": "",
+        "business_phone": "",
+        "support_email": "",
+        "general_email": "",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "",
+        "linkedin_urls": [],
+        "profile_snippets": [
+          {
+            "query": "\"Tubazionic Engineering Pvt Ltd\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"Tubazionic Engineering Pvt Ltd\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 23,400 results "
+          },
+          {
+            "query": "\"Tubazionic Engineering Pvt Ltd\" CEO site:linkedin.com/in",
+            "snippet": "\"Tubazionic Engineering Pvt Ltd\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 2,330,000 results Open links in new tab Date you"
+          },
+          {
+            "query": "\"Tubazionic Engineering Pvt Ltd\" site:linkedin.com/company",
+            "snippet": "\"Tubazionic Engineering Pvt Ltd\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 5,220 results Open links in new tab Date prepma"
+          }
+        ],
+        "about_excerpt": "",
+        "team_excerpt": "",
+        "decision_makers": [],
+        "discovery_queries": [
+          "\"Tubazionic Engineering Pvt Ltd\" official website",
+          "\"Tubazionic Engineering Pvt Ltd\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=0",
+          "slug_probe:hits=0",
+          "bing_rss:hits=10:\"Tubazionic Engineering Pvt Ltd\" officia",
+          "no_verified_domain"
+        ],
+        "errors": [
+          "domain_not_found"
+        ]
+      },
+      "ceo": {
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "ceo_candidates": [],
+        "ceo_sources": [
+          "serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|The Quiz Widget - BookWidgets",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Quiz Widget — Add It to Your Website Free | Webynize",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Free Quiz Widget Generator & Embed Code Playground | PlayQuizNow",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Quiz Widgets - Build Custom Assessments & Interactive Content",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Free Quiz Maker Widget - commoninja.com",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Free Quiz Widgets – Capture Leads with Interactive Quizzes ...",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Best Quiz Widgets for a Website, Compared",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Free Quiz Maker Widget for Your Website | MightyWidgets",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Quiz Widget - Figma",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Quiz Widget Builder, Examples & Templates | ConvertFlow",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" \"Managing Directo|YouTube Creator Awards - YouTube Help - Google Help",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" \"Managing Directo|YouTube TV Help - Google Help",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" \"Managing Directo|İndir | OBS",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" \"Managing Directo|Closed Captioning via Google Speech Recognition - OBS",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" \"Managing Directo|Manage your home area or current location for YouTube TV",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" \"Managing Directo|Sign in & out of the YouTube TV app - Google Help",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" \"Managing Directo|Join YouTube Premium - Google Help",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" \"Managing Directo|Disclosing use of GenAI content - Computer - YouTube Help",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" \"Managing Directo|Manage your recommendations and search results - YouTube Help - Google Help",
+          "serp:\"Tubazionic Engineering Pvt Ltd\" \"Managing Directo|Use the YouTube Studio dashboard - Computer - YouTube Help"
+        ]
+      },
+      "flat": {
+        "company_name": "Tubazionic Engineering Pvt Ltd",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Oil and Gas",
+        "company_size": "1",
+        "year_founded": "",
+        "company_type": "Privately Held",
+        "enrichment_status": "domain_not_found",
+        "domain": "",
+        "website": "",
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "general_email": "",
+        "business_phone": "",
+        "all_emails": "",
+        "all_phones": "",
+        "linkedin_company_url": "",
+        "decision_makers": "",
+        "ceo_sources": "serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|The Quiz Widget - BookWidgets | serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Quiz Widget — Add It to Your Website Free | Webynize | serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Free Quiz Widget Generator & Embed Code Playground | PlayQuizNow | serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Quiz Widgets - Build Custom Assessments & Interactive Content | serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Free Quiz Maker Widget - commoninja.com | serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Free Quiz Widgets – Capture Leads with Interactive Quizzes ... | serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Best Quiz Widgets for a Website, Compared | serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Free Quiz Maker Widget for Your Website | MightyWidgets",
+        "pages_scraped": 0,
+        "errors": "domain_not_found"
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "LANCER DRUGS AND PHARMACEUTICALS INDIA",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "15",
+        "industry": "Pharmaceutical Manufacturing",
+        "year_founded": "2015",
+        "company_type": "Partnership"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "LANCER DRUGS AND PHARMACEUTICALS INDIA",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Pharmaceutical Manufacturing",
+        "job_title": "CEO / Managing Director",
+        "company_size": "15",
+        "domain": null,
+        "website": null,
+        "enrichment_status": "domain_not_found",
+        "pages_scraped": 10,
+        "emails": [],
+        "phones": [],
+        "founder_email": "",
+        "business_phone": "",
+        "support_email": "",
+        "general_email": "",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "https://www.linkedin.com/company/lancers-network-limited",
+        "linkedin_urls": [
+          "https://www.linkedin.com/company/lancers-network-limited"
+        ],
+        "profile_snippets": [
+          {
+            "query": "\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 54,900 "
+          },
+          {
+            "query": "\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO site:linkedin.com/in",
+            "snippet": "\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 54,900 results Open links in new tab Dat"
+          },
+          {
+            "query": "\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" site:linkedin.com/company",
+            "snippet": "\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 54,900 results Open links in new tab Da"
+          }
+        ],
+        "about_excerpt": "About Us - Lancers .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload), .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * { backgr",
+        "team_excerpt": "",
+        "decision_makers": [],
+        "discovery_queries": [
+          "\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" official website",
+          "\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=0",
+          "slug_probe:hits=0",
+          "bing_rss:hits=10:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\"",
+          "verify:lancerindia.com:score=0.23:company+context",
+          "selected:lancerindia.com:score=0.23"
+        ],
+        "errors": [
+          "qa_rejected_domain:lancerindia.com"
+        ]
+      },
+      "ceo": {
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "ceo_candidates": [],
+        "ceo_sources": [
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|The Indian Risk Consulting Corporation",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|64 Used Lancer in India - Buy Second Hand Cars - OLX",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|Mitsubishi Lancer Price, Images, Mileage, Reviews, Specs",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|61 Used Mitsubishi Lancer in India - Buy Second Hand Cars for ... - OLX",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|Mitsubishi Lancer - Wikipedia",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|Lancer - The Deltarune Wiki",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|5 Used Mitsubishi Lancer Cars in India - CarWale",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|Jassi Gill Lancer Full Video Song (Official) Bachmate 2 | NEW PUNJABI ...",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|LANCER & LANCER EVOLUTION - Mitsubishi Motors",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|Mitsubishi Lancer 2026 Price, Variants, Mileage, Specs & Colours ...",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" \"Managing|The Indian Risk Consulting Corporation",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" \"Managing|64 Used Lancer in India - Buy Second Hand Cars - OLX",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" \"Managing|Mitsubishi Lancer Price, Images, Mileage, Reviews, Specs",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" \"Managing|61 Used Mitsubishi Lancer in India - Buy Second Hand Cars for ... - OLX",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" \"Managing|Mitsubishi Lancer - Wikipedia",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" \"Managing|Lancer - The Deltarune Wiki",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" \"Managing|5 Used Mitsubishi Lancer Cars in India - CarWale",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" \"Managing|Jassi Gill Lancer Full Video Song (Official) Bachmate 2 | NEW PUNJABI ...",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" \"Managing|LANCER & LANCER EVOLUTION - Mitsubishi Motors",
+          "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" \"Managing|Mitsubishi Lancer 2026 Price, Variants, Mileage, Specs & Colours ..."
+        ]
+      },
+      "flat": {
+        "company_name": "LANCER DRUGS AND PHARMACEUTICALS INDIA",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Pharmaceutical Manufacturing",
+        "company_size": "15",
+        "year_founded": "2015",
+        "company_type": "Partnership",
+        "enrichment_status": "domain_not_found",
+        "domain": "",
+        "website": "",
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "general_email": "",
+        "business_phone": "",
+        "all_emails": "",
+        "all_phones": "",
+        "linkedin_company_url": "https://www.linkedin.com/company/lancers-network-limited",
+        "decision_makers": "",
+        "ceo_sources": "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|The Indian Risk Consulting Corporation | serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|64 Used Lancer in India - Buy Second Hand Cars - OLX | serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|Mitsubishi Lancer Price, Images, Mileage, Reviews, Specs | serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|61 Used Mitsubishi Lancer in India - Buy Second Hand Cars for ... - OLX | serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|Mitsubishi Lancer - Wikipedia | serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|Lancer - The Deltarune Wiki | serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|5 Used Mitsubishi Lancer Cars in India - CarWale | serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|Jassi Gill Lancer Full Video Song (Official) Bachmate 2 | NEW PUNJABI ...",
+        "pages_scraped": 10,
+        "errors": "qa_rejected_domain:lancerindia.com"
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "Kochi Salem Pipeline Pvt. Ltd",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "7",
+        "industry": "Oil and Gas",
+        "year_founded": "2016",
+        "company_type": "Privately Held"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "Kochi Salem Pipeline Pvt. Ltd",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Oil and Gas",
+        "job_title": "CEO / Managing Director",
+        "company_size": "7",
+        "domain": null,
+        "website": null,
+        "enrichment_status": "domain_not_found",
+        "pages_scraped": 0,
+        "emails": [],
+        "phones": [],
+        "founder_email": "",
+        "business_phone": "",
+        "support_email": "",
+        "general_email": "",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "",
+        "linkedin_urls": [],
+        "profile_snippets": [
+          {
+            "query": "\"Kochi Salem Pipeline Pvt. Ltd\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"Kochi Salem Pipeline Pvt. Ltd\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 147,000 results "
+          },
+          {
+            "query": "\"Kochi Salem Pipeline Pvt. Ltd\" CEO site:linkedin.com/in",
+            "snippet": "\"Kochi Salem Pipeline Pvt. Ltd\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 147,000 results Open links in new tab Date wikipe"
+          },
+          {
+            "query": "\"Kochi Salem Pipeline Pvt. Ltd\" site:linkedin.com/company",
+            "snippet": "\"Kochi Salem Pipeline Pvt. Ltd\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 147,000 results Open links in new tab Date wikip"
+          }
+        ],
+        "about_excerpt": "",
+        "team_excerpt": "",
+        "decision_makers": [],
+        "discovery_queries": [
+          "\"Kochi Salem Pipeline Pvt. Ltd\" official website",
+          "\"Kochi Salem Pipeline Pvt. Ltd\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=0",
+          "slug_probe:hits=0",
+          "bing_rss:hits=10:\"Kochi Salem Pipeline Pvt. Ltd\" official",
+          "no_verified_domain"
+        ],
+        "errors": [
+          "domain_not_found"
+        ]
+      },
+      "ceo": {
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "ceo_candidates": [],
+        "ceo_sources": [
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|Kochi - Wikipedia",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|THE 30 BEST Places to Visit in Kochi (Cochin) (2026) - Tripadvisor",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|16 places to visit in Kochi that are not tourist traps",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|Best Places to Visit in Kochi (Cochin) - Kerala Tourism",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|Discover Kochi - The Queen of the Arabian Sea",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|40 Best Things To Do In Kochi (Cochin), Kerala 2024 - Royal Brothers",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|Top 15 Places To Visit In Kochi Kerala (UPDATED for 2026)",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|30 Places to Visit in Kochi 2026, Tourist Places & Top Attractions",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|THE 30 BEST Places to Visit in Kochi (Cochin) (2026) - Tripadvisor",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|Cochin Chronicle, Kochi, Cosmopolitan city, Commercial Capital ...",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" \"Managing Director|Kochi - Wikipedia",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" \"Managing Director|THE 30 BEST Places to Visit in Kochi (Cochin) (2026) - Tripadvisor",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" \"Managing Director|16 places to visit in Kochi that are not tourist traps",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" \"Managing Director|Best Places to Visit in Kochi (Cochin) - Kerala Tourism",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" \"Managing Director|Discover Kochi - The Queen of the Arabian Sea",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" \"Managing Director|40 Best Things To Do In Kochi (Cochin), Kerala 2024 - Royal Brothers",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" \"Managing Director|Top 15 Places To Visit In Kochi Kerala (UPDATED for 2026)",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" \"Managing Director|30 Places to Visit in Kochi 2026, Tourist Places & Top Attractions",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" \"Managing Director|THE 30 BEST Places to Visit in Kochi (Cochin) (2026) - Tripadvisor",
+          "serp:\"Kochi Salem Pipeline Pvt. Ltd\" \"Managing Director|Cochin Chronicle, Kochi, Cosmopolitan city, Commercial Capital ..."
+        ]
+      },
+      "flat": {
+        "company_name": "Kochi Salem Pipeline Pvt. Ltd",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Oil and Gas",
+        "company_size": "7",
+        "year_founded": "2016",
+        "company_type": "Privately Held",
+        "enrichment_status": "domain_not_found",
+        "domain": "",
+        "website": "",
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "general_email": "",
+        "business_phone": "",
+        "all_emails": "",
+        "all_phones": "",
+        "linkedin_company_url": "",
+        "decision_makers": "",
+        "ceo_sources": "serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|Kochi - Wikipedia | serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|THE 30 BEST Places to Visit in Kochi (Cochin) (2026) - Tripadvisor | serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|16 places to visit in Kochi that are not tourist traps | serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|Best Places to Visit in Kochi (Cochin) - Kerala Tourism | serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|Discover Kochi - The Queen of the Arabian Sea | serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|40 Best Things To Do In Kochi (Cochin), Kerala 2024 - Royal Brothers | serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|Top 15 Places To Visit In Kochi Kerala (UPDATED for 2026) | serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|30 Places to Visit in Kochi 2026, Tourist Places & Top Attractions",
+        "pages_scraped": 0,
+        "errors": "domain_not_found"
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "CINDER CARBON",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "2",
+        "industry": "Chemical Manufacturing",
+        "year_founded": "2016",
+        "company_type": "Partnership"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "CINDER CARBON",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Chemical Manufacturing",
+        "job_title": "CEO / Managing Director",
+        "company_size": "2",
+        "domain": null,
+        "website": null,
+        "enrichment_status": "domain_not_found",
+        "pages_scraped": 6,
+        "emails": [],
+        "phones": [],
+        "founder_email": "",
+        "business_phone": "",
+        "support_email": "",
+        "general_email": "",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "",
+        "linkedin_urls": [],
+        "profile_snippets": [
+          {
+            "query": "\"CINDER CARBON\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"CINDER CARBON\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 38,900 results Open links in new"
+          },
+          {
+            "query": "\"CINDER CARBON\" CEO site:linkedin.com/in",
+            "snippet": "\"CINDER CARBON\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 38,900 results Open links in new tab Date indiamart.com https://d"
+          },
+          {
+            "query": "\"CINDER CARBON\" site:linkedin.com/company",
+            "snippet": "\"CINDER CARBON\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 38,900 results Open links in new tab Date indiamart.com https://"
+          }
+        ],
+        "about_excerpt": "About :: Cinder Toggle navigation Cinder About Gallery Learn Docs Forum Download Cinder is a C++ library for programming with aesthetic intent - the sort of development often called creative coding . This includes domains like graphics, audio, video, and computational geometry. C",
+        "team_excerpt": "",
+        "decision_makers": [],
+        "discovery_queries": [
+          "\"CINDER CARBON\" official website",
+          "\"CINDER CARBON\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=0",
+          "slug_probe:hits=0",
+          "bing_rss:hits=10:\"CINDER CARBON\" official website",
+          "verify:libcinder.org:score=0.20:company+context",
+          "selected:libcinder.org:score=0.20"
+        ],
+        "errors": [
+          "qa_rejected_domain:libcinder.org"
+        ]
+      },
+      "ceo": {
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "ceo_candidates": [],
+        "ceo_sources": [
+          "serp:\"CINDER CARBON\" CEO Kochi|Cinder - Cinder for Plants Latest Price, Manufacturers & Suppliers",
+          "serp:\"CINDER CARBON\" CEO Kochi|Cinder (novel) - Wikipedia",
+          "serp:\"CINDER CARBON\" CEO Kochi|Cinder",
+          "serp:\"CINDER CARBON\" CEO Kochi|No. 1 Premium Cinder Concrete for your needs - JB International",
+          "serp:\"CINDER CARBON\" CEO Kochi|GitHub - cinder/Cinder: Cinder is a community-developed, free and open ...",
+          "serp:\"CINDER CARBON\" CEO Kochi|Cinder (The Lunar Chronicles, #1) by Marissa Meyer | Goodreads",
+          "serp:\"CINDER CARBON\" CEO Kochi|Cinder | Trust and safety operations for the AI era",
+          "serp:\"CINDER CARBON\" CEO Kochi|Cinder (programming library) - Wikipedia",
+          "serp:\"CINDER CARBON\" CEO Kochi|The Lunar Chronicles - Marissa Meyer",
+          "serp:\"CINDER CARBON\" CEO Kochi|BUY NEST ORGANIC WASHED CINDER FOR PLANTS 4.9KG - Flipkart",
+          "serp:\"CINDER CARBON\" \"Managing Director\" Kochi|Cinder - Cinder for Plants Latest Price, Manufacturers & Suppliers",
+          "serp:\"CINDER CARBON\" \"Managing Director\" Kochi|Cinder (novel) - Wikipedia",
+          "serp:\"CINDER CARBON\" \"Managing Director\" Kochi|Cinder",
+          "serp:\"CINDER CARBON\" \"Managing Director\" Kochi|No. 1 Premium Cinder Concrete for your needs - JB International",
+          "serp:\"CINDER CARBON\" \"Managing Director\" Kochi|GitHub - cinder/Cinder: Cinder is a community-developed, free and open ...",
+          "serp:\"CINDER CARBON\" \"Managing Director\" Kochi|Cinder (The Lunar Chronicles, #1) by Marissa Meyer | Goodreads",
+          "serp:\"CINDER CARBON\" \"Managing Director\" Kochi|Cinder | Trust and safety operations for the AI era",
+          "serp:\"CINDER CARBON\" \"Managing Director\" Kochi|Cinder (programming library) - Wikipedia",
+          "serp:\"CINDER CARBON\" \"Managing Director\" Kochi|The Lunar Chronicles - Marissa Meyer",
+          "serp:\"CINDER CARBON\" \"Managing Director\" Kochi|BUY NEST ORGANIC WASHED CINDER FOR PLANTS 4.9KG - Flipkart"
+        ]
+      },
+      "flat": {
+        "company_name": "CINDER CARBON",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Chemical Manufacturing",
+        "company_size": "2",
+        "year_founded": "2016",
+        "company_type": "Partnership",
+        "enrichment_status": "domain_not_found",
+        "domain": "",
+        "website": "",
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "general_email": "",
+        "business_phone": "",
+        "all_emails": "",
+        "all_phones": "",
+        "linkedin_company_url": "",
+        "decision_makers": "",
+        "ceo_sources": "serp:\"CINDER CARBON\" CEO Kochi|Cinder - Cinder for Plants Latest Price, Manufacturers & Suppliers | serp:\"CINDER CARBON\" CEO Kochi|Cinder (novel) - Wikipedia | serp:\"CINDER CARBON\" CEO Kochi|Cinder | serp:\"CINDER CARBON\" CEO Kochi|No. 1 Premium Cinder Concrete for your needs - JB International | serp:\"CINDER CARBON\" CEO Kochi|GitHub - cinder/Cinder: Cinder is a community-developed, free and open ... | serp:\"CINDER CARBON\" CEO Kochi|Cinder (The Lunar Chronicles, #1) by Marissa Meyer | Goodreads | serp:\"CINDER CARBON\" CEO Kochi|Cinder | Trust and safety operations for the AI era | serp:\"CINDER CARBON\" CEO Kochi|Cinder (programming library) - Wikipedia",
+        "pages_scraped": 6,
+        "errors": "qa_rejected_domain:libcinder.org"
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "ZeeKay International",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "5",
+        "industry": "Oil and Gas",
+        "year_founded": "2017",
+        "company_type": "Privately Held"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "ZeeKay International",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Oil and Gas",
+        "job_title": "CEO / Managing Director",
+        "company_size": "5",
+        "domain": "zeekayinternational.com",
+        "website": "https://zeekayinternational.com",
+        "enrichment_status": "enriched",
+        "pages_scraped": 4,
+        "emails": [
+          {
+            "value": "info@zeekayinternational.com",
+            "label": "general",
+            "source_url": "https://zeekayinternational.com",
+            "confidence": 0.9
+          }
+        ],
+        "phones": [
+          {
+            "value": "+919232180552",
+            "label": "business",
+            "source_url": "https://zeekayinternational.com",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917326059369",
+            "label": "business",
+            "source_url": "bing:\"ZeeKay International\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916392225603",
+            "label": "business",
+            "source_url": "bing:\"ZeeKay International\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917191258202",
+            "label": "business",
+            "source_url": "bing:\"ZeeKay International\" phone number",
+            "confidence": 0.7
+          },
+          {
+            "value": "+918101576790",
+            "label": "business",
+            "source_url": "bing:\"ZeeKay International\" phone number",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916070816993",
+            "label": "business",
+            "source_url": "bing:\"ZeeKay International\" phone number",
+            "confidence": 0.7
+          }
+        ],
+        "founder_email": "",
+        "business_phone": "+919232180552",
+        "support_email": "",
+        "general_email": "info@zeekayinternational.com",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "",
+        "linkedin_urls": [],
+        "profile_snippets": [
+          {
+            "query": "\"ZeeKay International\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"ZeeKay International\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 50 results Open links in "
+          },
+          {
+            "query": "\"ZeeKay International\" CEO site:linkedin.com/in",
+            "snippet": "\"ZeeKay International\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 52 results Open links in new tab Date github.com https://g"
+          },
+          {
+            "query": "\"ZeeKay International\" site:linkedin.com/company",
+            "snippet": "\"ZeeKay International\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 27,500 results Open links in new tab Date visithatta.com "
+          }
+        ],
+        "about_excerpt": "hitectural Excellence Redefined Zee Kay International - Enhanced Navbar Home Diesel Supply & Procurement --> Heavy Machinery Transport & Logistics More Contact Us Home Diesel Supply & General Order Procurement Heavy Machinery Transport & Logistics Excellence Crush Plant Expertise",
+        "team_excerpt": "",
+        "decision_makers": [
+          {
+            "name": "Zohaib Kurd",
+            "role": "Founder",
+            "linkedin_url": "",
+            "source_url": "https://zeekayinternational.com",
+            "confidence": 0.7
+          },
+          {
+            "name": "Zohaib Kurd",
+            "role": "Founder",
+            "linkedin_url": "",
+            "source_url": "https://www.zeekayinternational.com",
+            "confidence": 0.7
+          }
+        ],
+        "discovery_queries": [
+          "\"ZeeKay International\" official website",
+          "\"ZeeKay International\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=1",
+          "slug_probe:hits=1",
+          "verify:zeekayinternational.com:score=1.40:company+context",
+          "selected:zeekayinternational.com:score=1.40"
+        ],
+        "errors": []
+      },
+      "ceo": {
+        "ceo_name": "Zohaib Kurd",
+        "ceo_title": "Founder",
+        "ceo_email": "",
+        "ceo_phone": "+919232180552",
+        "ceo_linkedin": "",
+        "ceo_candidates": [
+          {
+            "name": "Zohaib Kurd",
+            "title": "Founder",
+            "linkedin": "",
+            "source": "https://zeekayinternational.com",
+            "score": 0.7
+          }
+        ],
+        "ceo_sources": [
+          "serp:\"ZeeKay International\" CEO Kochi|Trinidad Cardona - Dinero - YouTube",
+          "serp:\"ZeeKay International\" CEO Kochi|Trinidad Cardona - Dinero - YouTube",
+          "serp:\"ZeeKay International\" CEO Kochi|YouTube Music",
+          "serp:\"ZeeKay International\" CEO Kochi|Paroles de Chansons : Trinidad Cardona - Dinero Lyrics & traduction",
+          "serp:\"ZeeKay International\" CEO Kochi|Paroles de Chansons : Jennifer Lopez - Dinero Lyrics & traduction",
+          "serp:\"ZeeKay International\" CEO Kochi|YouTube Music",
+          "serp:\"ZeeKay International\" CEO Kochi|Traduction Dinero par Trinidad Cardona - Paroles.net",
+          "serp:\"ZeeKay International\" CEO Kochi|Traduction Dinero par Jennifer Lopez - Paroles.net",
+          "serp:\"ZeeKay International\" CEO Kochi|Le Dîner (chanson) — Wikipédia",
+          "serp:\"ZeeKay International\" CEO Kochi|Paroles de Jennifer Lopez - Dinero Ft. Dj Khaled ... - Paroles Musique",
+          "serp:\"ZeeKay International\" \"Managing Director\" Kochi|Tải phần mềm điều khiển máy tính UltraViewer",
+          "serp:\"ZeeKay International\" \"Managing Director\" Kochi|Download free remote desktop software UltraViewer",
+          "serp:\"ZeeKay International\" \"Managing Director\" Kochi|UltraViewer - Login",
+          "serp:\"ZeeKay International\" \"Managing Director\" Kochi|UltraViewer - Login",
+          "serp:\"ZeeKay International\" \"Managing Director\" Kochi|UltraViewer - The Free Remote Desktop Software",
+          "serp:\"ZeeKay International\" \"Managing Director\" Kochi|UltraViewer - El software de escritorio remoto gratuito",
+          "serp:\"ZeeKay International\" \"Managing Director\" Kochi|UltraViewer - Phần mềm điều khiển máy tính từ xa miễn phí",
+          "serp:\"ZeeKay International\" \"Managing Director\" Kochi|UltraViewer - 远程控制软件，远程访问软件",
+          "serp:\"ZeeKay International\" \"Managing Director\" Kochi|Descargar el software de asistencia remota UltraViewer",
+          "serp:\"ZeeKay International\" \"Managing Director\" Kochi|Các bản cài đặt phần mềm điều khiển từ xa UltraViewer"
+        ]
+      },
+      "flat": {
+        "company_name": "ZeeKay International",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Oil and Gas",
+        "company_size": "5",
+        "year_founded": "2017",
+        "company_type": "Privately Held",
+        "enrichment_status": "enriched",
+        "domain": "zeekayinternational.com",
+        "website": "https://zeekayinternational.com",
+        "ceo_name": "Zohaib Kurd",
+        "ceo_title": "Founder",
+        "ceo_email": "",
+        "ceo_phone": "+919232180552",
+        "ceo_linkedin": "",
+        "general_email": "info@zeekayinternational.com",
+        "business_phone": "+919232180552",
+        "all_emails": "info@zeekayinternational.com",
+        "all_phones": "+919232180552; +917326059369; +916392225603; +917191258202; +918101576790; +916070816993",
+        "linkedin_company_url": "",
+        "decision_makers": "Zohaib Kurd|Founder; Zohaib Kurd|Founder",
+        "ceo_sources": "serp:\"ZeeKay International\" CEO Kochi|Trinidad Cardona - Dinero - YouTube | serp:\"ZeeKay International\" CEO Kochi|Trinidad Cardona - Dinero - YouTube | serp:\"ZeeKay International\" CEO Kochi|YouTube Music | serp:\"ZeeKay International\" CEO Kochi|Paroles de Chansons : Trinidad Cardona - Dinero Lyrics & traduction | serp:\"ZeeKay International\" CEO Kochi|Paroles de Chansons : Jennifer Lopez - Dinero Lyrics & traduction | serp:\"ZeeKay International\" CEO Kochi|YouTube Music | serp:\"ZeeKay International\" CEO Kochi|Traduction Dinero par Trinidad Cardona - Paroles.net | serp:\"ZeeKay International\" CEO Kochi|Traduction Dinero par Jennifer Lopez - Paroles.net",
+        "pages_scraped": 4,
+        "errors": ""
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "Lab Technics India",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "1",
+        "industry": "Chemical Manufacturing",
+        "year_founded": "1996",
+        "company_type": "Partnership"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "Lab Technics India",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Chemical Manufacturing",
+        "job_title": "CEO / Managing Director",
+        "company_size": "1",
+        "domain": null,
+        "website": null,
+        "enrichment_status": "domain_not_found",
+        "pages_scraped": 10,
+        "emails": [],
+        "phones": [],
+        "founder_email": "",
+        "business_phone": "",
+        "support_email": "",
+        "general_email": "",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "https://www.linkedin.com/company/labcorp",
+        "linkedin_urls": [
+          "https://www.linkedin.com/company/labcorp"
+        ],
+        "profile_snippets": [
+          {
+            "query": "\"Lab Technics India\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"Lab Technics India\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 217,000 results Open links "
+          },
+          {
+            "query": "\"Lab Technics India\" CEO site:linkedin.com/in",
+            "snippet": "\"Lab Technics India\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 217,000 results Open links in new tab Date wikipedia.org htt"
+          },
+          {
+            "query": "\"Lab Technics India\" site:linkedin.com/company",
+            "snippet": "\"Lab Technics India\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 217,000 results Open links in new tab Date wikipedia.org ht"
+          }
+        ],
+        "about_excerpt": "About Labcorp: Global life sciences and healthcare | Labcorp Skip to main content ✅ Model loaded ❌ Model failed --> ✅ Model loaded ❌ Model failed --> Logins Individuals & Patients Find a Lab View Test Results Pay a Bill Shop for Tests View Individuals & Patients Page Providers Te",
+        "team_excerpt": "",
+        "decision_makers": [],
+        "discovery_queries": [
+          "\"Lab Technics India\" official website",
+          "\"Lab Technics India\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=0",
+          "slug_probe:hits=0",
+          "bing_rss:hits=9:\"Lab Technics India\" official website",
+          "verify:labcorp.com:score=0.30:company+context",
+          "selected:labcorp.com:score=0.30"
+        ],
+        "errors": [
+          "qa_rejected_domain:labcorp.com"
+        ]
+      },
+      "ceo": {
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "ceo_candidates": [],
+        "ceo_sources": [
+          "serp:\"Lab Technics India\" CEO Kochi|Laboratory - Wikipedia",
+          "serp:\"Lab Technics India\" CEO Kochi|Google Labs: Google's home for AI experiments",
+          "serp:\"Lab Technics India\" CEO Kochi|Lab Diagnostics, Drug Development, Global Life Sciences",
+          "serp:\"Lab Technics India\" CEO Kochi|Virtual Labs",
+          "serp:\"Lab Technics India\" CEO Kochi|Find the Right Diagnostic Lab, Book Blood Test and Scan Online - 1mg",
+          "serp:\"Lab Technics India\" CEO Kochi|Healthians: India's Trusted At-Home Diagnostic Lab",
+          "serp:\"Lab Technics India\" CEO Kochi|Diagnostic Centers & Pathology Labs near me | Apollo Diagnostics",
+          "serp:\"Lab Technics India\" CEO Kochi|Shadan - Welcome to SIMS",
+          "serp:\"Lab Technics India\" CEO Kochi|Pathology lab and Diagnostic Centre for Blood test in India ...",
+          "serp:\"Lab Technics India\" \"Managing Director\" Kochi|Laboratory - Wikipedia",
+          "serp:\"Lab Technics India\" \"Managing Director\" Kochi|Google Labs: Google's home for AI experiments",
+          "serp:\"Lab Technics India\" \"Managing Director\" Kochi|Lab Diagnostics, Drug Development, Global Life Sciences",
+          "serp:\"Lab Technics India\" \"Managing Director\" Kochi|Virtual Labs",
+          "serp:\"Lab Technics India\" \"Managing Director\" Kochi|Find the Right Diagnostic Lab, Book Blood Test and Scan Online - 1mg",
+          "serp:\"Lab Technics India\" \"Managing Director\" Kochi|Healthians: India's Trusted At-Home Diagnostic Lab",
+          "serp:\"Lab Technics India\" \"Managing Director\" Kochi|Diagnostic Centers & Pathology Labs near me | Apollo Diagnostics",
+          "serp:\"Lab Technics India\" \"Managing Director\" Kochi|Shadan - Welcome to SIMS",
+          "serp:\"Lab Technics India\" \"Managing Director\" Kochi|Pathology lab and Diagnostic Centre for Blood test in India ...",
+          "serp:\"Lab Technics India\" Founder Kochi|Laboratory - Wikipedia",
+          "serp:\"Lab Technics India\" Founder Kochi|Google Labs: Google's home for AI experiments"
+        ]
+      },
+      "flat": {
+        "company_name": "Lab Technics India",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Chemical Manufacturing",
+        "company_size": "1",
+        "year_founded": "1996",
+        "company_type": "Partnership",
+        "enrichment_status": "domain_not_found",
+        "domain": "",
+        "website": "",
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "general_email": "",
+        "business_phone": "",
+        "all_emails": "",
+        "all_phones": "",
+        "linkedin_company_url": "https://www.linkedin.com/company/labcorp",
+        "decision_makers": "",
+        "ceo_sources": "serp:\"Lab Technics India\" CEO Kochi|Laboratory - Wikipedia | serp:\"Lab Technics India\" CEO Kochi|Google Labs: Google's home for AI experiments | serp:\"Lab Technics India\" CEO Kochi|Lab Diagnostics, Drug Development, Global Life Sciences | serp:\"Lab Technics India\" CEO Kochi|Virtual Labs | serp:\"Lab Technics India\" CEO Kochi|Find the Right Diagnostic Lab, Book Blood Test and Scan Online - 1mg | serp:\"Lab Technics India\" CEO Kochi|Healthians: India's Trusted At-Home Diagnostic Lab | serp:\"Lab Technics India\" CEO Kochi|Diagnostic Centers & Pathology Labs near me | Apollo Diagnostics | serp:\"Lab Technics India\" CEO Kochi|Shadan - Welcome to SIMS",
+        "pages_scraped": 10,
+        "errors": "qa_rejected_domain:labcorp.com"
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "Hydrox Technologies Private Limited",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "1",
+        "industry": "Chemical Manufacturing",
+        "year_founded": "2016",
+        "company_type": "Privately Held"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "Hydrox Technologies Private Limited",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Chemical Manufacturing",
+        "job_title": "CEO / Managing Director",
+        "company_size": "1",
+        "domain": "hydrox.in",
+        "website": "https://hydrox.in",
+        "enrichment_status": "enriched",
+        "pages_scraped": 10,
+        "emails": [],
+        "phones": [
+          {
+            "value": "+917817915094",
+            "label": "business",
+            "source_url": "https://hydrox.in",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917326059369",
+            "label": "business",
+            "source_url": "bing:\"Hydrox Technologies Private Limited\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916392225609",
+            "label": "business",
+            "source_url": "bing:\"Hydrox Technologies Private Limited\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917368533849",
+            "label": "business",
+            "source_url": "bing:\"Hydrox Technologies Private Limited\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916832337069",
+            "label": "business",
+            "source_url": "bing:\"Hydrox Technologies Private Limited\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+918345668533",
+            "label": "business",
+            "source_url": "bing:\"Hydrox Technologies Private Limited\" phone number",
+            "confidence": 0.7
+          },
+          {
+            "value": "+919098062443",
+            "label": "business",
+            "source_url": "bing:\"Hydrox Technologies Private Limited\" phone number",
+            "confidence": 0.7
+          }
+        ],
+        "founder_email": "",
+        "business_phone": "+917817915094",
+        "support_email": "",
+        "general_email": "",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "",
+        "linkedin_urls": [],
+        "profile_snippets": [
+          {
+            "query": "\"Hydrox Technologies Private Limited\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"Hydrox Technologies Private Limited\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 50 results"
+          },
+          {
+            "query": "\"Hydrox Technologies Private Limited\" CEO site:linkedin.com/in",
+            "snippet": "\"Hydrox Technologies Private Limited\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools Open links in new tab Date google.com.pk https://"
+          },
+          {
+            "query": "\"Hydrox Technologies Private Limited\" site:linkedin.com/company",
+            "snippet": "\"Hydrox Technologies Private Limited\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 75 results Open links in new tab Date zhih"
+          }
+        ],
+        "about_excerpt": "",
+        "team_excerpt": "",
+        "decision_makers": [
+          {
+            "name": "Hydrox Team",
+            "role": "Author",
+            "linkedin_url": "",
+            "source_url": "https://hydrox.in",
+            "confidence": 0.8
+          },
+          {
+            "name": "Hydrox Team",
+            "role": "Author",
+            "linkedin_url": "",
+            "source_url": "https://hydrox.in/pages/contact-us",
+            "confidence": 0.8
+          },
+          {
+            "name": "Hydrox Team",
+            "role": "Author",
+            "linkedin_url": "",
+            "source_url": "https://hydrox.in/contact-us",
+            "confidence": 0.8
+          },
+          {
+            "name": "Hydrox Team",
+            "role": "Author",
+            "linkedin_url": "",
+            "source_url": "https://hydrox.in/contact",
+            "confidence": 0.8
+          },
+          {
+            "name": "Hydrox Team",
+            "role": "Author",
+            "linkedin_url": "",
+            "source_url": "https://hydrox.in/pages/about-us",
+            "confidence": 0.8
+          },
+          {
+            "name": "Hydrox Team",
+            "role": "Author",
+            "linkedin_url": "",
+            "source_url": "https://hydrox.in/about-us",
+            "confidence": 0.8
+          },
+          {
+            "name": "Hydrox Team",
+            "role": "Author",
+            "linkedin_url": "",
+            "source_url": "https://hydrox.in/about",
+            "confidence": 0.8
+          },
+          {
+            "name": "Hydrox Team",
+            "role": "Author",
+            "linkedin_url": "",
+            "source_url": "https://hydrox.in/team",
+            "confidence": 0.8
+          },
+          {
+            "name": "Hydrox Team",
+            "role": "Author",
+            "linkedin_url": "",
+            "source_url": "https://hydrox.in/our-team",
+            "confidence": 0.8
+          },
+          {
+            "name": "Hydrox Team",
+            "role": "Author",
+            "linkedin_url": "",
+            "source_url": "https://hydrox.in/about/team",
+            "confidence": 0.8
+          }
+        ],
+        "discovery_queries": [
+          "\"Hydrox Technologies Private Limited\" official website",
+          "\"Hydrox Technologies Private Limited\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=0",
+          "slug_probe:hits=1",
+          "verify:hydrox.in:score=1.40:company_strong",
+          "selected:hydrox.in:score=1.40"
+        ],
+        "errors": []
+      },
+      "ceo": {
+        "ceo_name": "Hydrox Team",
+        "ceo_title": "Author",
+        "ceo_email": "",
+        "ceo_phone": "+917817915094",
+        "ceo_linkedin": "",
+        "ceo_candidates": [
+          {
+            "name": "Hydrox Team",
+            "title": "Author",
+            "linkedin": "",
+            "source": "https://hydrox.in",
+            "score": 0.45
+          }
+        ],
+        "ceo_sources": [
+          "serp:\"Hydrox Technologies Private Limited\" CEO Kochi|Freshco Foods",
+          "serp:\"Hydrox Technologies Private Limited\" CEO Kochi|Cerro Foods - Premium Food Import & Distribution | Australia",
+          "serp:\"Hydrox Technologies Private Limited\" CEO Kochi|Australia's Top Indian Food Distributor | Amba Foods Melbourne",
+          "serp:\"Hydrox Technologies Private Limited\" CEO Kochi|List of Australian Food Wholesalers & Distributors",
+          "serp:\"Hydrox Technologies Private Limited\" CEO Kochi|Home - Intradco PTY LTD",
+          "serp:\"Hydrox Technologies Private Limited\" CEO Kochi|About us - Freshco Foods",
+          "serp:\"Hydrox Technologies Private Limited\" CEO Kochi|Ethnic Groceries, Spices & Tea | Chenab Foods Austalia",
+          "serp:\"Hydrox Technologies Private Limited\" CEO Kochi|The 12 Top Food Distributors in Australia in 2025",
+          "serp:\"Hydrox Technologies Private Limited\" CEO Kochi|Asian and Indian Food Wholesale Supplier | Global Life Foods",
+          "serp:\"Hydrox Technologies Private Limited\" CEO Kochi|About Us – Distributors / Wholesalers of Quality Brands of Ethnic ...",
+          "serp:\"Hydrox Technologies Private Limited\" \"Managing Di|Search - Microsoft Bing",
+          "serp:\"Hydrox Technologies Private Limited\" \"Managing Di|Bing",
+          "serp:\"Hydrox Technologies Private Limited\" \"Managing Di|Búsqueda: Microsoft Bing",
+          "serp:\"Hydrox Technologies Private Limited\" \"Managing Di|How To See All Bing Related Searches - RottenWifi.com Blog",
+          "serp:\"Hydrox Technologies Private Limited\" \"Managing Di|How To See All Bing Related Searches - Itechguides.com",
+          "serp:\"Hydrox Technologies Private Limited\" \"Managing Di|How to See All Bing Related Searches on Any Device",
+          "serp:\"Hydrox Technologies Private Limited\" \"Managing Di|Búsqueda: Microsoft Bing",
+          "serp:\"Hydrox Technologies Private Limited\" \"Managing Di|Microsoft Bing | Conoce Bing",
+          "serp:\"Hydrox Technologies Private Limited\" \"Managing Di|How To See All Bing Related Searches - PCNMobile",
+          "serp:\"Hydrox Technologies Private Limited\" \"Managing Di|Bing Web Search | Microsoft Bing"
+        ]
+      },
+      "flat": {
+        "company_name": "Hydrox Technologies Private Limited",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Chemical Manufacturing",
+        "company_size": "1",
+        "year_founded": "2016",
+        "company_type": "Privately Held",
+        "enrichment_status": "enriched",
+        "domain": "hydrox.in",
+        "website": "https://hydrox.in",
+        "ceo_name": "Hydrox Team",
+        "ceo_title": "Author",
+        "ceo_email": "",
+        "ceo_phone": "+917817915094",
+        "ceo_linkedin": "",
+        "general_email": "",
+        "business_phone": "+917817915094",
+        "all_emails": "",
+        "all_phones": "+917817915094; +917326059369; +916392225609; +917368533849; +916832337069; +918345668533; +919098062443",
+        "linkedin_company_url": "",
+        "decision_makers": "Hydrox Team|Author; Hydrox Team|Author; Hydrox Team|Author; Hydrox Team|Author; Hydrox Team|Author; Hydrox Team|Author; Hydrox Team|Author; Hydrox Team|Author; Hydrox Team|Author; Hydrox Team|Author",
+        "ceo_sources": "serp:\"Hydrox Technologies Private Limited\" CEO Kochi|Freshco Foods | serp:\"Hydrox Technologies Private Limited\" CEO Kochi|Cerro Foods - Premium Food Import & Distribution | Australia | serp:\"Hydrox Technologies Private Limited\" CEO Kochi|Australia's Top Indian Food Distributor | Amba Foods Melbourne | serp:\"Hydrox Technologies Private Limited\" CEO Kochi|List of Australian Food Wholesalers & Distributors | serp:\"Hydrox Technologies Private Limited\" CEO Kochi|Home - Intradco PTY LTD | serp:\"Hydrox Technologies Private Limited\" CEO Kochi|About us - Freshco Foods | serp:\"Hydrox Technologies Private Limited\" CEO Kochi|Ethnic Groceries, Spices & Tea | Chenab Foods Austalia | serp:\"Hydrox Technologies Private Limited\" CEO Kochi|The 12 Top Food Distributors in Australia in 2025",
+        "pages_scraped": 10,
+        "errors": ""
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "Meticulous Cochin",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "2",
+        "industry": "Oil and Gas",
+        "year_founded": "2023",
+        "company_type": "Privately Held"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "Meticulous Cochin",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Oil and Gas",
+        "job_title": "CEO / Managing Director",
+        "company_size": "2",
+        "domain": "meticulouscochin.com",
+        "website": "https://meticulouscochin.com",
+        "enrichment_status": "enriched",
+        "pages_scraped": 4,
+        "emails": [
+          {
+            "value": "sales@meticulouscochin.com",
+            "label": "sales",
+            "source_url": "https://meticulouscochin.com/pages/about",
+            "confidence": 0.9
+          },
+          {
+            "value": "marineservices@meticulouscochin.com",
+            "label": "business",
+            "source_url": "https://meticulouscochin.com/pages/about",
+            "confidence": 0.9
+          },
+          {
+            "value": "placement@meticulouscochin.com",
+            "label": "business",
+            "source_url": "https://meticulouscochin.com/pages/about",
+            "confidence": 0.9
+          }
+        ],
+        "phones": [
+          {
+            "value": "+916155184192",
+            "label": "business",
+            "source_url": "https://meticulouscochin.com",
+            "confidence": 0.7
+          },
+          {
+            "value": "+919191880337",
+            "label": "business",
+            "source_url": "https://meticulouscochin.com",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917467133467",
+            "label": "business",
+            "source_url": "https://meticulouscochin.com",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917425337503",
+            "label": "business",
+            "source_url": "https://meticulouscochin.com",
+            "confidence": 0.7
+          },
+          {
+            "value": "+919775921901",
+            "label": "business",
+            "source_url": "https://meticulouscochin.com",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916936376656",
+            "label": "business",
+            "source_url": "https://meticulouscochin.com",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917817915094",
+            "label": "business",
+            "source_url": "https://meticulouscochin.com",
+            "confidence": 0.7
+          },
+          {
+            "value": "+919868085888",
+            "label": "business",
+            "source_url": "https://meticulouscochin.com/pages/about",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917514750544",
+            "label": "business",
+            "source_url": "https://meticulouscochin.com/pages/about",
+            "confidence": 0.7
+          },
+          {
+            "value": "+919188033778",
+            "label": "business",
+            "source_url": "https://meticulouscochin.com/pages/about",
+            "confidence": 0.7
+          },
+          {
+            "value": "+919194959406",
+            "label": "business",
+            "source_url": "https://meticulouscochin.com/pages/about",
+            "confidence": 0.7
+          },
+          {
+            "value": "+919495940643",
+            "label": "business",
+            "source_url": "https://meticulouscochin.com/pages/about",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916569616426",
+            "label": "business",
+            "source_url": "https://meticulouscochin.com/pages/about",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917868646863",
+            "label": "business",
+            "source_url": "https://meticulouscochin.com/pages/jobs",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916267256864",
+            "label": "business",
+            "source_url": "https://meticulouscochin.com/pages/jobs",
+            "confidence": 0.7
+          },
+          {
+            "value": "+917326059369",
+            "label": "business",
+            "source_url": "bing:\"Meticulous Cochin\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916392225613",
+            "label": "business",
+            "source_url": "bing:\"Meticulous Cochin\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916465362596",
+            "label": "business",
+            "source_url": "bing:\"Meticulous Cochin\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+919700715444",
+            "label": "business",
+            "source_url": "bing:\"Meticulous Cochin\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+919040149410",
+            "label": "business",
+            "source_url": "bing:\"Meticulous Cochin\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916796269346",
+            "label": "business",
+            "source_url": "bing:\"Meticulous Cochin\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916125272320",
+            "label": "business",
+            "source_url": "bing:\"Meticulous Cochin\" founder CEO",
+            "confidence": 0.7
+          },
+          {
+            "value": "+916305490456",
+            "label": "business",
+            "source_url": "bing:\"Meticulous Cochin\" phone number",
+            "confidence": 0.7
+          },
+          {
+            "value": "+918920279574",
+            "label": "business",
+            "source_url": "bing:\"Meticulous Cochin\" phone number",
+            "confidence": 0.7
+          }
+        ],
+        "founder_email": "",
+        "business_phone": "+916155184192",
+        "support_email": "",
+        "general_email": "marineservices@meticulouscochin.com",
+        "linkedin_person_url": "https://www.linkedin.com/in/meticulouscochin-undefined-134188294",
+        "linkedin_company_url": "",
+        "linkedin_urls": [
+          "https://www.linkedin.com/in/meticulouscochin-undefined-134188294"
+        ],
+        "profile_snippets": [
+          {
+            "query": "\"Meticulous Cochin\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"Meticulous Cochin\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 19,200 results Open links in"
+          },
+          {
+            "query": "\"Meticulous Cochin\" CEO site:linkedin.com/in",
+            "snippet": "\"Meticulous Cochin\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 19,200 results Open links in new tab Date cambridge.org https"
+          },
+          {
+            "query": "\"Meticulous Cochin\" site:linkedin.com/company",
+            "snippet": "\"Meticulous Cochin\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 19,200 results Open links in new tab Date cambridge.org http"
+          }
+        ],
+        "about_excerpt": "Meticulous Placement Home About Us Jobs Service --> Services Our Services Foot Reflexology Pilgrims & Tours Register FAQ Foot Reflexology --> Contact Us Login Easiest Way to Land Your Dream Job Discover Jobs, Craft Trackable Resumes, and Elevate Your Applications Sign Up For Free",
+        "team_excerpt": "",
+        "decision_makers": [],
+        "discovery_queries": [
+          "\"Meticulous Cochin\" official website",
+          "\"Meticulous Cochin\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=0",
+          "slug_probe:hits=1",
+          "verify:meticulouscochin.com:score=1.40:company_strong",
+          "selected:meticulouscochin.com:score=1.40"
+        ],
+        "errors": []
+      },
+      "ceo": {
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "ceo_candidates": [],
+        "ceo_sources": [
+          "serp:\"Meticulous Cochin\" CEO Kochi|METICULOUS | English meaning - Cambridge Dictionary",
+          "serp:\"Meticulous Cochin\" CEO Kochi|METICULOUS Definition & Meaning - Merriam-Webster",
+          "serp:\"Meticulous Cochin\" CEO Kochi|METICULOUS Synonyms: 82 Similar and Opposite Words - Merriam-Webster",
+          "serp:\"Meticulous Cochin\" CEO Kochi|METICULOUS | definition in the Cambridge English Dictionary",
+          "serp:\"Meticulous Cochin\" CEO Kochi|METICULOUS Definition & Meaning | Dictionary.com",
+          "serp:\"Meticulous Cochin\" CEO Kochi|meticulous - Wiktionary, the free dictionary",
+          "serp:\"Meticulous Cochin\" CEO Kochi|Meticulous - Definition, Meaning & Synonyms | Vocabulary.com",
+          "serp:\"Meticulous Cochin\" CEO Kochi|Meticulous - definition of meticulous by The Free Dictionary",
+          "serp:\"Meticulous Cochin\" CEO Kochi|meticulous | meaning of meticulous in Longman Dictionary of ...",
+          "serp:\"Meticulous Cochin\" CEO Kochi|METICULOUS definition and meaning | Collins English Dictionary",
+          "serp:\"Meticulous Cochin\" \"Managing Director\" Kochi|METICULOUS | English meaning - Cambridge Dictionary",
+          "serp:\"Meticulous Cochin\" \"Managing Director\" Kochi|METICULOUS Definition & Meaning - Merriam-Webster",
+          "serp:\"Meticulous Cochin\" \"Managing Director\" Kochi|METICULOUS Synonyms: 82 Similar and Opposite Words - Merriam-Webster",
+          "serp:\"Meticulous Cochin\" \"Managing Director\" Kochi|METICULOUS | definition in the Cambridge English Dictionary",
+          "serp:\"Meticulous Cochin\" \"Managing Director\" Kochi|METICULOUS Definition & Meaning | Dictionary.com",
+          "serp:\"Meticulous Cochin\" \"Managing Director\" Kochi|meticulous - Wiktionary, the free dictionary",
+          "serp:\"Meticulous Cochin\" \"Managing Director\" Kochi|Meticulous - Definition, Meaning & Synonyms | Vocabulary.com",
+          "serp:\"Meticulous Cochin\" \"Managing Director\" Kochi|Meticulous - definition of meticulous by The Free Dictionary",
+          "serp:\"Meticulous Cochin\" \"Managing Director\" Kochi|meticulous | meaning of meticulous in Longman Dictionary of ...",
+          "serp:\"Meticulous Cochin\" \"Managing Director\" Kochi|METICULOUS definition and meaning | Collins English Dictionary"
+        ]
+      },
+      "flat": {
+        "company_name": "Meticulous Cochin",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Oil and Gas",
+        "company_size": "2",
+        "year_founded": "2023",
+        "company_type": "Privately Held",
+        "enrichment_status": "enriched",
+        "domain": "meticulouscochin.com",
+        "website": "https://meticulouscochin.com",
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "+916155184192",
+        "ceo_linkedin": "",
+        "general_email": "marineservices@meticulouscochin.com",
+        "business_phone": "+916155184192",
+        "all_emails": "sales@meticulouscochin.com; marineservices@meticulouscochin.com; placement@meticulouscochin.com",
+        "all_phones": "+916155184192; +919191880337; +917467133467; +917425337503; +919775921901; +916936376656; +917817915094; +919868085888; +917514750544; +919188033778; +919194959406; +919495940643; +916569616426; +917868646863; +916267256864; +917326059369; +916392225613; +916465362596; +919700715444; +919040149410; +916796269346; +916125272320; +916305490456; +918920279574",
+        "linkedin_company_url": "",
+        "decision_makers": "",
+        "ceo_sources": "serp:\"Meticulous Cochin\" CEO Kochi|METICULOUS | English meaning - Cambridge Dictionary | serp:\"Meticulous Cochin\" CEO Kochi|METICULOUS Definition & Meaning - Merriam-Webster | serp:\"Meticulous Cochin\" CEO Kochi|METICULOUS Synonyms: 82 Similar and Opposite Words - Merriam-Webster | serp:\"Meticulous Cochin\" CEO Kochi|METICULOUS | definition in the Cambridge English Dictionary | serp:\"Meticulous Cochin\" CEO Kochi|METICULOUS Definition & Meaning | Dictionary.com | serp:\"Meticulous Cochin\" CEO Kochi|meticulous - Wiktionary, the free dictionary | serp:\"Meticulous Cochin\" CEO Kochi|Meticulous - Definition, Meaning & Synonyms | Vocabulary.com | serp:\"Meticulous Cochin\" CEO Kochi|Meticulous - definition of meticulous by The Free Dictionary",
+        "pages_scraped": 4,
+        "errors": ""
+      }
+    },
+    {
+      "seed": {
+        "founder_name": "",
+        "job_title": "CEO / Managing Director",
+        "company_name": "Capservo Global",
+        "location": "Kochi, Kerala, India, Asia",
+        "company_size": "3",
+        "industry": "Oil and Gas",
+        "year_founded": "",
+        "company_type": "Privately Held"
+      },
+      "enrichment": {
+        "founder_name": "",
+        "company_name": "Capservo Global",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Oil and Gas",
+        "job_title": "CEO / Managing Director",
+        "company_size": "3",
+        "domain": null,
+        "website": null,
+        "enrichment_status": "domain_not_found",
+        "pages_scraped": 0,
+        "emails": [],
+        "phones": [],
+        "founder_email": "",
+        "business_phone": "",
+        "support_email": "",
+        "general_email": "",
+        "linkedin_person_url": "",
+        "linkedin_company_url": "",
+        "linkedin_urls": [],
+        "profile_snippets": [
+          {
+            "query": "\"Capservo Global\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi",
+            "snippet": "\"Capservo Global\" (CEO OR \"Managing Director\" OR Founder OR Director) Kochi - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 54,400 results Open links in n"
+          },
+          {
+            "query": "\"Capservo Global\" CEO site:linkedin.com/in",
+            "snippet": "\"Capservo Global\" CEO site:linkedin.com/in - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools About 1,110,000 results Open links in new tab Date wikipedia.org http"
+          },
+          {
+            "query": "\"Capservo Global\" site:linkedin.com/company",
+            "snippet": "\"Capservo Global\" site:linkedin.com/company - Search Skip to content Accessibility Feedback English हिंदी বাংলা اردو ਪੰਜਾਬੀ मराठी తెలుగు தமிழ் ಕನ್ನಡ ગુજરાતી മലയാളം ଓଡ଼ିଆ All Search Images Videos Maps News More Shopping Flights Tools Open links in new tab Date microsoft.com https://support.microsoft.c"
+          }
+        ],
+        "about_excerpt": "",
+        "team_excerpt": "",
+        "decision_makers": [],
+        "discovery_queries": [
+          "\"Capservo Global\" official website",
+          "\"Capservo Global\" Kochi website"
+        ],
+        "discovery_trail": [
+          "clearbit:hits=0",
+          "slug_probe:hits=0",
+          "bing_rss:hits=10:\"Capservo Global\" official website",
+          "no_verified_domain"
+        ],
+        "errors": [
+          "domain_not_found"
+        ]
+      },
+      "ceo": {
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "ceo_candidates": [],
+        "ceo_sources": [
+          "serp:\"Capservo Global\" CEO Kochi|Приложение «Instagram» — App Store",
+          "serp:\"Capservo Global\" CEO Kochi|Instagram - App Store",
+          "serp:\"Capservo Global\" CEO Kochi|Teen India: Let's go! - Reddit",
+          "serp:\"Capservo Global\" CEO Kochi|LockUppOTT - Reddit",
+          "serp:\"Capservo Global\" CEO Kochi|Cerny Instagram and YouTube mega-influencer who is known for her comedy ...",
+          "serp:\"Capservo Global\" CEO Kochi|Instagram》App - App Store",
+          "serp:\"Capservo Global\" CEO Kochi|היישום Instagram‬ - App Store",
+          "serp:\"Capservo Global\" CEO Kochi|Instagram, Inc. for iPhone - App Store",
+          "serp:\"Capservo Global\" CEO Kochi|‎Instagram App - App Store",
+          "serp:\"Capservo Global\" CEO Kochi|Instagram Reality Baybeh! - Reddit",
+          "serp:\"Capservo Global\" \"Managing Director\" Kochi|Anmelden bei Hotmail | Microsoft Support",
+          "serp:\"Capservo Global\" \"Managing Director\" Kochi|Released: June 2026 Exchange Server Security Updates | Microsoft ...",
+          "serp:\"Capservo Global\" \"Managing Director\" Kochi|What’s New in Microsoft 365 Copilot | June 2026 | Microsoft Community Hub",
+          "serp:\"Capservo Global\" \"Managing Director\" Kochi|Turn sound effects on or off in Outlook | Microsoft Support",
+          "serp:\"Capservo Global\" \"Managing Director\" Kochi|Remove a page break in Word | Microsoft Support",
+          "serp:\"Capservo Global\" \"Managing Director\" Kochi|Close your Outlook.com account | Microsoft Support",
+          "serp:\"Capservo Global\" \"Managing Director\" Kochi|What's New in Excel (January 2026) | Microsoft Community Hub",
+          "serp:\"Capservo Global\" \"Managing Director\" Kochi|BitLocker overview | Microsoft Support",
+          "serp:\"Capservo Global\" \"Managing Director\" Kochi|Share your calendar in Outlook | Microsoft Support",
+          "serp:\"Capservo Global\" \"Managing Director\" Kochi|Get a refund for apps and games purchased from Microsoft Store"
+        ]
+      },
+      "flat": {
+        "company_name": "Capservo Global",
+        "location": "Kochi, Kerala, India, Asia",
+        "industry": "Oil and Gas",
+        "company_size": "3",
+        "year_founded": "",
+        "company_type": "Privately Held",
+        "enrichment_status": "domain_not_found",
+        "domain": "",
+        "website": "",
+        "ceo_name": "",
+        "ceo_title": "",
+        "ceo_email": "",
+        "ceo_phone": "",
+        "ceo_linkedin": "",
+        "general_email": "",
+        "business_phone": "",
+        "all_emails": "",
+        "all_phones": "",
+        "linkedin_company_url": "",
+        "decision_makers": "",
+        "ceo_sources": "serp:\"Capservo Global\" CEO Kochi|Приложение «Instagram» — App Store | serp:\"Capservo Global\" CEO Kochi|Instagram - App Store | serp:\"Capservo Global\" CEO Kochi|Teen India: Let's go! - Reddit | serp:\"Capservo Global\" CEO Kochi|LockUppOTT - Reddit | serp:\"Capservo Global\" CEO Kochi|Cerny Instagram and YouTube mega-influencer who is known for her comedy ... | serp:\"Capservo Global\" CEO Kochi|Instagram》App - App Store | serp:\"Capservo Global\" CEO Kochi|היישום Instagram‬ - App Store | serp:\"Capservo Global\" CEO Kochi|Instagram, Inc. for iPhone - App Store",
+        "pages_scraped": 0,
+        "errors": "domain_not_found"
+      }
+    }
+  ],
+  "table": [
+    {
+      "company_name": "Kanotekk Engineering Consultants Pvt. Ltd.",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Oil and Gas",
+      "company_size": "1",
+      "year_founded": "2019",
+      "company_type": "Privately Held",
+      "enrichment_status": "domain_not_found",
+      "domain": "",
+      "website": "",
+      "ceo_name": "",
+      "ceo_title": "",
+      "ceo_email": "",
+      "ceo_phone": "",
+      "ceo_linkedin": "",
+      "general_email": "",
+      "business_phone": "",
+      "all_emails": "",
+      "all_phones": "",
+      "linkedin_company_url": "",
+      "decision_makers": "",
+      "ceo_sources": "serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr – Wikipedia | serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahrsfest – Wikipedia | serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr (Feiertag Deutschland) | serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr: Traditionen, Bräuche und Bedeutungen des neuen Jahres | serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr am 1. Januar - Bedeutung & Bräuche | serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr 2027 - Datum, Bräuche und Entstehung - Kalender-Uhrzeit.de | serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Neujahr: Traditionen und Bräuche in Deutschland | serp:\"Kanotekk Engineering Consultants Pvt. Ltd.\" CEO K|Seit wann beginnt das neue Jahr am 1. Januar? - ARD-alpha",
+      "pages_scraped": 0,
+      "errors": "domain_not_found"
+    },
+    {
+      "company_name": "PhyEcoSyS Pvt. Ltd.",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Biotechnology Research",
+      "company_size": "6",
+      "year_founded": "2025",
+      "company_type": "Privately Held",
+      "enrichment_status": "domain_not_found",
+      "domain": "",
+      "website": "",
+      "ceo_name": "",
+      "ceo_title": "",
+      "ceo_email": "",
+      "ceo_phone": "",
+      "ceo_linkedin": "",
+      "general_email": "",
+      "business_phone": "",
+      "all_emails": "",
+      "all_phones": "",
+      "linkedin_company_url": "",
+      "decision_makers": "",
+      "ceo_sources": "serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Sign in - Google Accounts | serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Sign in - Google Accounts | serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Google Chrome – Download the fast, secure browser from Google | serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Google Images | serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Google Chrome - The Fast & Secure Web Browser Built to be Yours | serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Welcome to My Activity | serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Google Drive - Sign in | serp:\"PhyEcoSyS Pvt. Ltd.\" CEO Kochi|Google News",
+      "pages_scraped": 0,
+      "errors": "domain_not_found"
+    },
+    {
+      "company_name": "SREELAKSHMI ENERGY SYSTEM PVT. LTD.",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Oil and Gas",
+      "company_size": "89",
+      "year_founded": "2006",
+      "company_type": "Privately Held",
+      "enrichment_status": "domain_not_found",
+      "domain": "",
+      "website": "",
+      "ceo_name": "",
+      "ceo_title": "",
+      "ceo_email": "",
+      "ceo_phone": "",
+      "ceo_linkedin": "",
+      "general_email": "",
+      "business_phone": "",
+      "all_emails": "",
+      "all_phones": "",
+      "linkedin_company_url": "",
+      "decision_makers": "",
+      "ceo_sources": "serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|除草剤のバスタ | BASFジャパンアグロソリューション | serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|6. 希釈について | BASF除草剤 バスタ | serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|2. 効果について | BASF除草剤 バスタ | serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|はじめてのバスタ | BASF除草剤 バスタ | serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|5. 散布方法について | BASF除草剤 バスタ | serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|バスタ®瓦版（かわらばん） | BASF除草剤 バスタ | serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|幅広い種類の雑草に効果が高い | BASF除草剤 バスタ | serp:\"SREELAKSHMI ENERGY SYSTEM PVT. LTD.\" CEO Kochi|登録作物 | BASF除草剤 バスタ",
+      "pages_scraped": 0,
+      "errors": "domain_not_found"
+    },
+    {
+      "company_name": "Ecodew",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Chemical Manufacturing",
+      "company_size": "11",
+      "year_founded": "2018",
+      "company_type": "Privately Held",
+      "enrichment_status": "enriched",
+      "domain": "ecodew.solutions",
+      "website": "https://ecodew.solutions",
+      "ceo_name": "",
+      "ceo_title": "",
+      "ceo_email": "",
+      "ceo_phone": "+919020661101",
+      "ceo_linkedin": "",
+      "general_email": "",
+      "business_phone": "+919020661101",
+      "all_emails": "",
+      "all_phones": "+919020661101; +917861291378; +917866365617; +917866590037; +917326059369; +916426924975; +916392225580; +916821139436; +917199518043; +919820668892; +916927417285",
+      "linkedin_company_url": "https://www.linkedin.com/company/ecodew",
+      "decision_makers": "",
+      "ceo_sources": "serp:\"Ecodew\" CEO Kochi|Bokep Porn - Indo Bokep & Bokep Indo Videos - EPORNER | serp:\"Ecodew\" CEO Kochi|Bokep Indo - BokepLik | serp:\"Ecodew\" CEO Kochi|Indo Porn - Indo Bokep & Bokep Indo Videos - EPORNER | serp:\"Ecodew\" CEO Kochi|Indonesian porn videos | free ️ vids @ Tiava | serp:\"Ecodew\" CEO Kochi|Bokep Indonesia | Streaming Bokep Full Video | NOBOKEP | serp:\"Ecodew\" CEO Kochi|KingBokep TV - Situs Bokep Indo Terbaru dan Terlengkap | serp:\"Ecodew\" CEO Kochi|Koleksi Bokep - Koleksi Bokep Terlengkap Indonesia | Nonton Streaming ... | serp:\"Ecodew\" CEO Kochi|Koleksi video bokep indo 18+ kualitas HD – BOKEPIDAMAN.COM",
+      "pages_scraped": 5,
+      "errors": ""
+    },
+    {
+      "company_name": "Merit Biolabs",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Biotechnology Research",
+      "company_size": "29",
+      "year_founded": "",
+      "company_type": "Privately Held",
+      "enrichment_status": "domain_not_found",
+      "domain": "",
+      "website": "",
+      "ceo_name": "",
+      "ceo_title": "",
+      "ceo_email": "",
+      "ceo_phone": "",
+      "ceo_linkedin": "",
+      "general_email": "",
+      "business_phone": "",
+      "all_emails": "",
+      "all_phones": "",
+      "linkedin_company_url": "https://www.linkedin.com/company/mohyal-educational-research-institute-of-technology",
+      "decision_makers": "",
+      "ceo_sources": "serp:\"Merit Biolabs\" CEO Kochi|IPO GMP Today, Live IPO Grey Market Premium Price | serp:\"Merit Biolabs\" CEO Kochi|Shree Ram Twistex IPO GMP Today - Live Grey Market Premium India | IPOwiz | serp:\"Merit Biolabs\" CEO Kochi|IPO GMP Today Live | Upcoming IPO 2026 | IPORise | serp:\"Merit Biolabs\" CEO Kochi|Shree Ram Twistex IPO GMP, Grey Market Premium Today | serp:\"Merit Biolabs\" CEO Kochi|Shree Ram Twistex IPO GMP Today - Live Grey Market Premium | serp:\"Merit Biolabs\" CEO Kochi|Latest IPO GMP Today (Live IPO Grey Market Premium) | serp:\"Merit Biolabs\" CEO Kochi|Shree Ram Twistex IPO GMP Today, Price Band, Allotment Status | serp:\"Merit Biolabs\" CEO Kochi|Shree Ram Twistex IPO GMP Today: Latest Grey Market Premium & Estimated ...",
+      "pages_scraped": 4,
+      "errors": "qa_rejected_domain:merit.ac.in"
+    },
+    {
+      "company_name": "GENESPEC PRIVATE LIMITED",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Biotechnology Research",
+      "company_size": "8",
+      "year_founded": "2022",
+      "company_type": "Privately Held",
+      "enrichment_status": "enriched",
+      "domain": "genespec.com",
+      "website": "https://genespec.com",
+      "ceo_name": "",
+      "ceo_title": "",
+      "ceo_email": "",
+      "ceo_phone": "+919744233433",
+      "ceo_linkedin": "",
+      "general_email": "info@genespec.com",
+      "business_phone": "+919744233433",
+      "all_emails": "info@genespec.com",
+      "all_phones": "+919744233433; +917907191205; +918904852725; +917326059369; +919501376977; +916392225584; +917035086572",
+      "linkedin_company_url": "",
+      "decision_makers": "",
+      "ceo_sources": "serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|GENESPEC | COMPLETE GENOMICS SOLUTION | serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|Next-Gen (NGS) Services - GENESPEC | serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|Sign In - GENESPEC LIMS | serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|GENESPEC | CONTACT US | serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|Sanger Sequencing - GENESPEC | serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|GENESPEC PRIVATE LIMITED | LinkedIn | serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|GENESPEC | BIOINFORMATICS | serp:\"GENESPEC PRIVATE LIMITED\" CEO Kochi|GENESPEC PRIVATE LIMITED Details | Company Profile | Directors Profile ...",
+      "pages_scraped": 3,
+      "errors": ""
+    },
+    {
+      "company_name": "De Staco Turnkey Solutions LLP",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Oil and Gas",
+      "company_size": "27",
+      "year_founded": "2019",
+      "company_type": "Partnership",
+      "enrichment_status": "enriched",
+      "domain": "destaco.com",
+      "website": "https://destaco.com",
+      "ceo_name": "",
+      "ceo_title": "",
+      "ceo_email": "",
+      "ceo_phone": "+918382949752",
+      "ceo_linkedin": "",
+      "general_email": "",
+      "business_phone": "+918382949752",
+      "all_emails": "",
+      "all_phones": "+918382949752; +917775145710; +916686232459; +919693902087; +917271926023; +918224571963; +917326059369; +916392225589; +916609886236; +919698203845; +916848444486; +917824897966; +916201452101",
+      "linkedin_company_url": "https://www.linkedin.com/company/destaco",
+      "decision_makers": "",
+      "ceo_sources": "serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|DE- | English meaning - Cambridge Dictionary | serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|110 Prefix DE Words (Real Examples, Free PDF + Video) | serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|Google | serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|DE Definition & Meaning | Dictionary.com | serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|De Prefix: Meaning and Examples of the Prefix De - 7ESL | serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|De (2020) - IMDb | serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|de- prefix - Definition, pictures, pronunciation and usage notes ... | serp:\"De Staco Turnkey Solutions LLP\" CEO Kochi|de- - Wiktionary, the free dictionary",
+      "pages_scraped": 8,
+      "errors": ""
+    },
+    {
+      "company_name": "Thinkbizz Ventures LLP",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Pharmaceutical Manufacturing",
+      "company_size": "3",
+      "year_founded": "2015",
+      "company_type": "Privately Held",
+      "enrichment_status": "domain_not_found",
+      "domain": "",
+      "website": "",
+      "ceo_name": "",
+      "ceo_title": "",
+      "ceo_email": "",
+      "ceo_phone": "",
+      "ceo_linkedin": "",
+      "general_email": "",
+      "business_phone": "",
+      "all_emails": "",
+      "all_phones": "",
+      "linkedin_company_url": "",
+      "decision_makers": "",
+      "ceo_sources": "serp:\"Thinkbizz Ventures LLP\" CEO Kochi|Anmelden bei Hotmail | Microsoft Support | serp:\"Thinkbizz Ventures LLP\" CEO Kochi|Released: June 2026 Exchange Server Security Updates | Microsoft ... | serp:\"Thinkbizz Ventures LLP\" CEO Kochi|What’s New in Microsoft 365 Copilot | June 2026 | Microsoft Community Hub | serp:\"Thinkbizz Ventures LLP\" CEO Kochi|Turn sound effects on or off in Outlook | Microsoft Support | serp:\"Thinkbizz Ventures LLP\" CEO Kochi|Remove a page break in Word | Microsoft Support | serp:\"Thinkbizz Ventures LLP\" CEO Kochi|Close your Outlook.com account | Microsoft Support | serp:\"Thinkbizz Ventures LLP\" CEO Kochi|What's New in Excel (January 2026) | Microsoft Community Hub | serp:\"Thinkbizz Ventures LLP\" CEO Kochi|BitLocker overview | Microsoft Support",
+      "pages_scraped": 0,
+      "errors": "domain_not_found"
+    },
+    {
+      "company_name": "Biosix Peptides India Pvt. Ltd.",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Chemical Manufacturing",
+      "company_size": "3",
+      "year_founded": "2009",
+      "company_type": "Partnership",
+      "enrichment_status": "domain_not_found",
+      "domain": "",
+      "website": "",
+      "ceo_name": "",
+      "ceo_title": "",
+      "ceo_email": "",
+      "ceo_phone": "",
+      "ceo_linkedin": "",
+      "general_email": "",
+      "business_phone": "",
+      "all_emails": "",
+      "all_phones": "",
+      "linkedin_company_url": "",
+      "decision_makers": "",
+      "ceo_sources": "serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangladeshi porn videos | free ️ vids @ Tiava | serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangla Porn Videos: Sexy Bangladeshi Girls | xHamster | serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangladeshi Sex Videos & Free Bengali Tube - MyDesi HD | serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangla sex - Real Bangladeshi sex video and new BD porn | serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|বাংলা ভাষায় সেক্স ভিডিও / Porn in Bengali: Sex Videos Featuring ... | serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangladeshi sex Porn Videos - iWank XXX | serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangladeshi village girl group sex in outdoor setting | serp:\"Biosix Peptides India Pvt. Ltd.\" CEO Kochi|Bangladeshi Porn - Bangladeshi Girl & Bangladeshi Bhabi Videos - EPORNER",
+      "pages_scraped": 0,
+      "errors": "domain_not_found"
+    },
+    {
+      "company_name": "ANTS Lifecare Pvt. Ltd.",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Biotechnology Research",
+      "company_size": "14",
+      "year_founded": "",
+      "company_type": "Privately Held",
+      "enrichment_status": "domain_not_found",
+      "domain": "",
+      "website": "",
+      "ceo_name": "",
+      "ceo_title": "",
+      "ceo_email": "",
+      "ceo_phone": "",
+      "ceo_linkedin": "",
+      "general_email": "",
+      "business_phone": "",
+      "all_emails": "",
+      "all_phones": "",
+      "linkedin_company_url": "",
+      "decision_makers": "",
+      "ceo_sources": "serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ant - Wikipedia | serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ant | Description, Taxonomy, Habitat, Species, Life Cycle, & Facts ... | serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ant - Types, Size, Anatomy, Habitat, Life Cycle, Lifespan, & Pictures | serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Accueil - France Titres (ANTS) | serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ant - Simple English Wikipedia, the free encyclopedia | serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ants, facts and information - National Geographic | serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|Ant colony - Wikipedia | serp:\"ANTS Lifecare Pvt. Ltd.\" CEO Kochi|ANTS Ver 1.0",
+      "pages_scraped": 3,
+      "errors": "qa_rejected_domain:ants.andamannicobar.gov.in"
+    },
+    {
+      "company_name": "Tubazionic Engineering Pvt Ltd",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Oil and Gas",
+      "company_size": "1",
+      "year_founded": "",
+      "company_type": "Privately Held",
+      "enrichment_status": "domain_not_found",
+      "domain": "",
+      "website": "",
+      "ceo_name": "",
+      "ceo_title": "",
+      "ceo_email": "",
+      "ceo_phone": "",
+      "ceo_linkedin": "",
+      "general_email": "",
+      "business_phone": "",
+      "all_emails": "",
+      "all_phones": "",
+      "linkedin_company_url": "",
+      "decision_makers": "",
+      "ceo_sources": "serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|The Quiz Widget - BookWidgets | serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Quiz Widget — Add It to Your Website Free | Webynize | serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Free Quiz Widget Generator & Embed Code Playground | PlayQuizNow | serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Quiz Widgets - Build Custom Assessments & Interactive Content | serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Free Quiz Maker Widget - commoninja.com | serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Free Quiz Widgets – Capture Leads with Interactive Quizzes ... | serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Best Quiz Widgets for a Website, Compared | serp:\"Tubazionic Engineering Pvt Ltd\" CEO Kochi|Free Quiz Maker Widget for Your Website | MightyWidgets",
+      "pages_scraped": 0,
+      "errors": "domain_not_found"
+    },
+    {
+      "company_name": "LANCER DRUGS AND PHARMACEUTICALS INDIA",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Pharmaceutical Manufacturing",
+      "company_size": "15",
+      "year_founded": "2015",
+      "company_type": "Partnership",
+      "enrichment_status": "domain_not_found",
+      "domain": "",
+      "website": "",
+      "ceo_name": "",
+      "ceo_title": "",
+      "ceo_email": "",
+      "ceo_phone": "",
+      "ceo_linkedin": "",
+      "general_email": "",
+      "business_phone": "",
+      "all_emails": "",
+      "all_phones": "",
+      "linkedin_company_url": "https://www.linkedin.com/company/lancers-network-limited",
+      "decision_makers": "",
+      "ceo_sources": "serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|The Indian Risk Consulting Corporation | serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|64 Used Lancer in India - Buy Second Hand Cars - OLX | serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|Mitsubishi Lancer Price, Images, Mileage, Reviews, Specs | serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|61 Used Mitsubishi Lancer in India - Buy Second Hand Cars for ... - OLX | serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|Mitsubishi Lancer - Wikipedia | serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|Lancer - The Deltarune Wiki | serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|5 Used Mitsubishi Lancer Cars in India - CarWale | serp:\"LANCER DRUGS AND PHARMACEUTICALS INDIA\" CEO Kochi|Jassi Gill Lancer Full Video Song (Official) Bachmate 2 | NEW PUNJABI ...",
+      "pages_scraped": 10,
+      "errors": "qa_rejected_domain:lancerindia.com"
+    },
+    {
+      "company_name": "Kochi Salem Pipeline Pvt. Ltd",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Oil and Gas",
+      "company_size": "7",
+      "year_founded": "2016",
+      "company_type": "Privately Held",
+      "enrichment_status": "domain_not_found",
+      "domain": "",
+      "website": "",
+      "ceo_name": "",
+      "ceo_title": "",
+      "ceo_email": "",
+      "ceo_phone": "",
+      "ceo_linkedin": "",
+      "general_email": "",
+      "business_phone": "",
+      "all_emails": "",
+      "all_phones": "",
+      "linkedin_company_url": "",
+      "decision_makers": "",
+      "ceo_sources": "serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|Kochi - Wikipedia | serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|THE 30 BEST Places to Visit in Kochi (Cochin) (2026) - Tripadvisor | serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|16 places to visit in Kochi that are not tourist traps | serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|Best Places to Visit in Kochi (Cochin) - Kerala Tourism | serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|Discover Kochi - The Queen of the Arabian Sea | serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|40 Best Things To Do In Kochi (Cochin), Kerala 2024 - Royal Brothers | serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|Top 15 Places To Visit In Kochi Kerala (UPDATED for 2026) | serp:\"Kochi Salem Pipeline Pvt. Ltd\" CEO Kochi|30 Places to Visit in Kochi 2026, Tourist Places & Top Attractions",
+      "pages_scraped": 0,
+      "errors": "domain_not_found"
+    },
+    {
+      "company_name": "CINDER CARBON",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Chemical Manufacturing",
+      "company_size": "2",
+      "year_founded": "2016",
+      "company_type": "Partnership",
+      "enrichment_status": "domain_not_found",
+      "domain": "",
+      "website": "",
+      "ceo_name": "",
+      "ceo_title": "",
+      "ceo_email": "",
+      "ceo_phone": "",
+      "ceo_linkedin": "",
+      "general_email": "",
+      "business_phone": "",
+      "all_emails": "",
+      "all_phones": "",
+      "linkedin_company_url": "",
+      "decision_makers": "",
+      "ceo_sources": "serp:\"CINDER CARBON\" CEO Kochi|Cinder - Cinder for Plants Latest Price, Manufacturers & Suppliers | serp:\"CINDER CARBON\" CEO Kochi|Cinder (novel) - Wikipedia | serp:\"CINDER CARBON\" CEO Kochi|Cinder | serp:\"CINDER CARBON\" CEO Kochi|No. 1 Premium Cinder Concrete for your needs - JB International | serp:\"CINDER CARBON\" CEO Kochi|GitHub - cinder/Cinder: Cinder is a community-developed, free and open ... | serp:\"CINDER CARBON\" CEO Kochi|Cinder (The Lunar Chronicles, #1) by Marissa Meyer | Goodreads | serp:\"CINDER CARBON\" CEO Kochi|Cinder | Trust and safety operations for the AI era | serp:\"CINDER CARBON\" CEO Kochi|Cinder (programming library) - Wikipedia",
+      "pages_scraped": 6,
+      "errors": "qa_rejected_domain:libcinder.org"
+    },
+    {
+      "company_name": "ZeeKay International",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Oil and Gas",
+      "company_size": "5",
+      "year_founded": "2017",
+      "company_type": "Privately Held",
+      "enrichment_status": "enriched",
+      "domain": "zeekayinternational.com",
+      "website": "https://zeekayinternational.com",
+      "ceo_name": "Zohaib Kurd",
+      "ceo_title": "Founder",
+      "ceo_email": "",
+      "ceo_phone": "+919232180552",
+      "ceo_linkedin": "",
+      "general_email": "info@zeekayinternational.com",
+      "business_phone": "+919232180552",
+      "all_emails": "info@zeekayinternational.com",
+      "all_phones": "+919232180552; +917326059369; +916392225603; +917191258202; +918101576790; +916070816993",
+      "linkedin_company_url": "",
+      "decision_makers": "Zohaib Kurd|Founder; Zohaib Kurd|Founder",
+      "ceo_sources": "serp:\"ZeeKay International\" CEO Kochi|Trinidad Cardona - Dinero - YouTube | serp:\"ZeeKay International\" CEO Kochi|Trinidad Cardona - Dinero - YouTube | serp:\"ZeeKay International\" CEO Kochi|YouTube Music | serp:\"ZeeKay International\" CEO Kochi|Paroles de Chansons : Trinidad Cardona - Dinero Lyrics & traduction | serp:\"ZeeKay International\" CEO Kochi|Paroles de Chansons : Jennifer Lopez - Dinero Lyrics & traduction | serp:\"ZeeKay International\" CEO Kochi|YouTube Music | serp:\"ZeeKay International\" CEO Kochi|Traduction Dinero par Trinidad Cardona - Paroles.net | serp:\"ZeeKay International\" CEO Kochi|Traduction Dinero par Jennifer Lopez - Paroles.net",
+      "pages_scraped": 4,
+      "errors": ""
+    },
+    {
+      "company_name": "Lab Technics India",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Chemical Manufacturing",
+      "company_size": "1",
+      "year_founded": "1996",
+      "company_type": "Partnership",
+      "enrichment_status": "domain_not_found",
+      "domain": "",
+      "website": "",
+      "ceo_name": "",
+      "ceo_title": "",
+      "ceo_email": "",
+      "ceo_phone": "",
+      "ceo_linkedin": "",
+      "general_email": "",
+      "business_phone": "",
+      "all_emails": "",
+      "all_phones": "",
+      "linkedin_company_url": "https://www.linkedin.com/company/labcorp",
+      "decision_makers": "",
+      "ceo_sources": "serp:\"Lab Technics India\" CEO Kochi|Laboratory - Wikipedia | serp:\"Lab Technics India\" CEO Kochi|Google Labs: Google's home for AI experiments | serp:\"Lab Technics India\" CEO Kochi|Lab Diagnostics, Drug Development, Global Life Sciences | serp:\"Lab Technics India\" CEO Kochi|Virtual Labs | serp:\"Lab Technics India\" CEO Kochi|Find the Right Diagnostic Lab, Book Blood Test and Scan Online - 1mg | serp:\"Lab Technics India\" CEO Kochi|Healthians: India's Trusted At-Home Diagnostic Lab | serp:\"Lab Technics India\" CEO Kochi|Diagnostic Centers & Pathology Labs near me | Apollo Diagnostics | serp:\"Lab Technics India\" CEO Kochi|Shadan - Welcome to SIMS",
+      "pages_scraped": 10,
+      "errors": "qa_rejected_domain:labcorp.com"
+    },
+    {
+      "company_name": "Hydrox Technologies Private Limited",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Chemical Manufacturing",
+      "company_size": "1",
+      "year_founded": "2016",
+      "company_type": "Privately Held",
+      "enrichment_status": "enriched",
+      "domain": "hydrox.in",
+      "website": "https://hydrox.in",
+      "ceo_name": "Hydrox Team",
+      "ceo_title": "Author",
+      "ceo_email": "",
+      "ceo_phone": "+917817915094",
+      "ceo_linkedin": "",
+      "general_email": "",
+      "business_phone": "+917817915094",
+      "all_emails": "",
+      "all_phones": "+917817915094; +917326059369; +916392225609; +917368533849; +916832337069; +918345668533; +919098062443",
+      "linkedin_company_url": "",
+      "decision_makers": "Hydrox Team|Author; Hydrox Team|Author; Hydrox Team|Author; Hydrox Team|Author; Hydrox Team|Author; Hydrox Team|Author; Hydrox Team|Author; Hydrox Team|Author; Hydrox Team|Author; Hydrox Team|Author",
+      "ceo_sources": "serp:\"Hydrox Technologies Private Limited\" CEO Kochi|Freshco Foods | serp:\"Hydrox Technologies Private Limited\" CEO Kochi|Cerro Foods - Premium Food Import & Distribution | Australia | serp:\"Hydrox Technologies Private Limited\" CEO Kochi|Australia's Top Indian Food Distributor | Amba Foods Melbourne | serp:\"Hydrox Technologies Private Limited\" CEO Kochi|List of Australian Food Wholesalers & Distributors | serp:\"Hydrox Technologies Private Limited\" CEO Kochi|Home - Intradco PTY LTD | serp:\"Hydrox Technologies Private Limited\" CEO Kochi|About us - Freshco Foods | serp:\"Hydrox Technologies Private Limited\" CEO Kochi|Ethnic Groceries, Spices & Tea | Chenab Foods Austalia | serp:\"Hydrox Technologies Private Limited\" CEO Kochi|The 12 Top Food Distributors in Australia in 2025",
+      "pages_scraped": 10,
+      "errors": ""
+    },
+    {
+      "company_name": "Meticulous Cochin",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Oil and Gas",
+      "company_size": "2",
+      "year_founded": "2023",
+      "company_type": "Privately Held",
+      "enrichment_status": "enriched",
+      "domain": "meticulouscochin.com",
+      "website": "https://meticulouscochin.com",
+      "ceo_name": "",
+      "ceo_title": "",
+      "ceo_email": "",
+      "ceo_phone": "+916155184192",
+      "ceo_linkedin": "",
+      "general_email": "marineservices@meticulouscochin.com",
+      "business_phone": "+916155184192",
+      "all_emails": "sales@meticulouscochin.com; marineservices@meticulouscochin.com; placement@meticulouscochin.com",
+      "all_phones": "+916155184192; +919191880337; +917467133467; +917425337503; +919775921901; +916936376656; +917817915094; +919868085888; +917514750544; +919188033778; +919194959406; +919495940643; +916569616426; +917868646863; +916267256864; +917326059369; +916392225613; +916465362596; +919700715444; +919040149410; +916796269346; +916125272320; +916305490456; +918920279574",
+      "linkedin_company_url": "",
+      "decision_makers": "",
+      "ceo_sources": "serp:\"Meticulous Cochin\" CEO Kochi|METICULOUS | English meaning - Cambridge Dictionary | serp:\"Meticulous Cochin\" CEO Kochi|METICULOUS Definition & Meaning - Merriam-Webster | serp:\"Meticulous Cochin\" CEO Kochi|METICULOUS Synonyms: 82 Similar and Opposite Words - Merriam-Webster | serp:\"Meticulous Cochin\" CEO Kochi|METICULOUS | definition in the Cambridge English Dictionary | serp:\"Meticulous Cochin\" CEO Kochi|METICULOUS Definition & Meaning | Dictionary.com | serp:\"Meticulous Cochin\" CEO Kochi|meticulous - Wiktionary, the free dictionary | serp:\"Meticulous Cochin\" CEO Kochi|Meticulous - Definition, Meaning & Synonyms | Vocabulary.com | serp:\"Meticulous Cochin\" CEO Kochi|Meticulous - definition of meticulous by The Free Dictionary",
+      "pages_scraped": 4,
+      "errors": ""
+    },
+    {
+      "company_name": "Capservo Global",
+      "location": "Kochi, Kerala, India, Asia",
+      "industry": "Oil and Gas",
+      "company_size": "3",
+      "year_founded": "",
+      "company_type": "Privately Held",
+      "enrichment_status": "domain_not_found",
+      "domain": "",
+      "website": "",
+      "ceo_name": "",
+      "ceo_title": "",
+      "ceo_email": "",
+      "ceo_phone": "",
+      "ceo_linkedin": "",
+      "general_email": "",
+      "business_phone": "",
+      "all_emails": "",
+      "all_phones": "",
+      "linkedin_company_url": "",
+      "decision_makers": "",
+      "ceo_sources": "serp:\"Capservo Global\" CEO Kochi|Приложение «Instagram» — App Store | serp:\"Capservo Global\" CEO Kochi|Instagram - App Store | serp:\"Capservo Global\" CEO Kochi|Teen India: Let's go! - Reddit | serp:\"Capservo Global\" CEO Kochi|LockUppOTT - Reddit | serp:\"Capservo Global\" CEO Kochi|Cerny Instagram and YouTube mega-influencer who is known for her comedy ... | serp:\"Capservo Global\" CEO Kochi|Instagram》App - App Store | serp:\"Capservo Global\" CEO Kochi|היישום Instagram‬ - App Store | serp:\"Capservo Global\" CEO Kochi|Instagram, Inc. for iPhone - App Store",
+      "pages_scraped": 0,
+      "errors": "domain_not_found"
+    }
+  ]
+}

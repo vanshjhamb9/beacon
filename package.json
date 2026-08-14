@@ -1,0 +1,12 @@
+{
+  "name": "beacon-ai",
+  "private": true,
+  "workspaces": [
+    "apps/dashboard"
+  ],
+  "scripts": {
+    "dashboard:dev": "npm --workspace apps/dashboard run dev",
+    "dashboard:build": "npm --workspace apps/dashboard run build",
+    "dashboard:lint": "npm --workspace apps/dashboard run lint"
+  }
+}

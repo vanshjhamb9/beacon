@@ -1,0 +1,24 @@
+
+COMAI SALES-READY LEAD INTELLIGENCE — Sprint 43.5 Summary
+==========================================================
+
+Total Qualified Leads: 4
+
+Priority Breakdown:
+  HOT:     0 (Can call TODAY)
+  WARM:    4 (Can call THIS WEEK)
+  NURTURE: 0 (Follow-up sequence)
+
+Contact Availability:
+  With Email:    1 (25%)
+  With Phone:    4 (100%)
+  With LinkedIn: 0 (0%)
+
+Average Commercial Fit: 79.2/100
+Average Sales Readiness: 76.5/100
+
+Category Breakdown:
+  Fashion: 2
+  Beauty: 2
+
+Generated: 2026-07-31 11:51 UTC

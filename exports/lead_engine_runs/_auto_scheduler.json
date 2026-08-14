@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "interval_sec": 600,
+  "product": "comai",
+  "limit": 80,
+  "last_run_id": "3183bbb8-6fbc-4d26-b050-fdc4f5865b5b",
+  "last_started_at": 1786741543.0845025,
+  "last_error": null,
+  "runs_completed": 1,
+  "pool_count": 0,
+  "pool_ready": 0
+}

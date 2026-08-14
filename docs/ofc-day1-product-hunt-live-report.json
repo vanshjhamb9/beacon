@@ -1,0 +1,58 @@
+{
+  "mission": "OFC Day 1 \u2014 Product Hunt recovery",
+  "generated_at": "2026-07-23T22:40:33.209816+00:00",
+  "collector_sample": {
+    "collected": 40,
+    "recovered_official_website": 0,
+    "skipped_no_website": 40,
+    "with_business_email": 0,
+    "with_decision_maker": 0,
+    "with_phone": 0,
+    "with_linkedin": 0,
+    "samples": []
+  },
+  "live_db": {
+    "db_available": false,
+    "db_error": "No module named 'psycopg2'"
+  },
+  "acceptance": {
+    "error": "cannot import name 'RevenueExecutionRebuildEngine' from 'revenue_execution_validation.rebuild.engine' (C:\\Inowix intelligence system\\New folder\\packages\\revenue_execution_validation\\rebuild\\engine.py)"
+  },
+  "ladder": {
+    "target_100_real_companies": 100,
+    "target_50_verified_websites": 50,
+    "target_40_business_emails": 40,
+    "target_25_decision_makers": 25,
+    "target_20_revenue_ready": 20,
+    "target_10_founder_queue": 10,
+    "target_5_emails_sent": 5,
+    "target_1_meeting": 1,
+    "day1_ph_recovered_websites": 0,
+    "day1_ph_emails_on_site": 0,
+    "day1_ph_decision_makers": 0,
+    "db_companies_active": null,
+    "db_with_primary_domain": null,
+    "db_business_emails": null
+  },
+  "policy": {
+    "enabled_collectors": [
+      "product_hunt",
+      "github_trending",
+      "devto"
+    ],
+    "disabled_collectors": [
+      "rss",
+      "hacker_news",
+      "reddit",
+      "indie_hackers",
+      "sec_edgar"
+    ],
+    "erowd_signal_only": [
+      "reddit",
+      "hacker_news",
+      "rss",
+      "indie_hackers",
+      "sec_edgar"
+    ]
+  }
+}

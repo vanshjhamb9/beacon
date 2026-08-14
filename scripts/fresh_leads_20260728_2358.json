@@ -1,0 +1,1788 @@
+{
+  "fresh_signals_in": 62,
+  "stages": {
+    "ocp_persist": 3,
+    "lod_quality": {
+      "accepted": 0,
+      "rejected": 3
+    },
+    "oi_intelligence": 36,
+    "oi_context": {
+      "processed": 0
+    },
+    "oi_opportunity": {
+      "processed": 0
+    },
+    "revenue": {
+      "processed": 0
+    },
+    "enrichment": {
+      "processed": 0
+    },
+    "verification": {
+      "processed": 0,
+      "refresh_queued": 0,
+      "flagged_for_review": 0,
+      "scheduled_refresh": 0
+    },
+    "target_accounts": {
+      "processed": 20,
+      "top_tier": 0,
+      "hunter_jobs": 0
+    }
+  },
+  "fresh_hot_leads": [
+    {
+      "id": "eac5d812-01a9-4917-a4f9-6378fd7e997e",
+      "company_id": "786aff35-25d3-483a-9c98-ca8c00ce95e7",
+      "opportunity_id": "4ca26605-bfa9-4c92-9bea-9360443bc628",
+      "company_name": "Patreon",
+      "industry": "unknown",
+      "country": "unknown",
+      "matched_icp_key": "custom_ai_solutions",
+      "matched_icp_name": "Custom AI Solutions",
+      "service_match": "AI Automation",
+      "fit_score": 39.6,
+      "intent_score": 12.0,
+      "budget_score": 35.0,
+      "budget_band": "small",
+      "urgency_score": 12.0,
+      "accessibility_score": 66.98,
+      "competition_score": 80.0,
+      "revenue_opportunity_score": 37.4,
+      "tier": "low",
+      "why_now": "Hiring 32 roles including Marketing Manager, Marketing Manager, Marketing Manager, Marketing Manager. Trigger: support or ops hiring surge. Intent signal: hiring_volume:32. Industry matches Custom AI Solutions. Technology stack hits: hubspot. Ideal time to pitch AI Automation.",
+      "buying_signals": [
+        "hiring_volume:32",
+        "support_or_ops_hiring_surge"
+      ],
+      "negative_signals": [],
+      "score_breakdown": [
+        {
+          "name": "fit",
+          "value": 39.6,
+          "weight": 0.25,
+          "evidence": [
+            "Industry matches Custom AI Solutions",
+            "Technology stack hits: hubspot",
+            "Hiring signals: operations"
+          ],
+          "explanation": "Company fit 39.6/100 against ICP 'Custom AI Solutions' (ICP match 28.0)."
+        },
+        {
+          "name": "intent",
+          "value": 12.0,
+          "weight": 0.2,
+          "evidence": [
+            "hiring_volume:32"
+          ],
+          "explanation": "Buying intent 12.0/100 from 1 active signals."
+        },
+        {
+          "name": "budget",
+          "value": 35.0,
+          "weight": 0.15,
+          "evidence": [
+            "Budget band small",
+            "Employees unknown"
+          ],
+          "explanation": "Budget capacity estimated as small (35.0/100)."
+        },
+        {
+          "name": "urgency",
+          "value": 12.0,
+          "weight": 0.15,
+          "evidence": [
+            "support_or_ops_hiring_surge"
+          ],
+          "explanation": "Urgency 12.0/100 \u2014 why-now pressure from 1 triggers."
+        },
+        {
+          "name": "accessibility",
+          "value": 66.98,
+          "weight": 0.15,
+          "evidence": [
+            "Verified email path",
+            "Website present",
+            "Website/domain available",
+            "12 decision maker(s) identified",
+            "Verification score 87"
+          ],
+          "explanation": "Accessibility 67.0/100 based on channels and decision makers."
+        },
+        {
+          "name": "competition",
+          "value": 80.0,
+          "weight": 0.1,
+          "evidence": [
+            "Vendor categories present: ai, crm",
+            "crm: hubspot",
+            "ai: openai",
+            "Opportunity gap categories open: 4"
+          ],
+          "explanation": "Competition gap 80.0/100 \u2014 2 vendor categories present, 4 open wedges."
+        }
+      ],
+      "evidence_chain": [
+        "Industry matches Custom AI Solutions",
+        "Technology stack hits: hubspot",
+        "Hiring signals: operations",
+        "hiring_volume:32",
+        "Budget band small",
+        "Employees unknown",
+        "support_or_ops_hiring_surge",
+        "Verified email path",
+        "Website present",
+        "Website/domain available",
+        "12 decision maker(s) identified",
+        "Verification score 87",
+        "Vendor categories present: ai, crm",
+        "crm: hubspot",
+        "ai: openai",
+        "Opportunity gap categories open: 4"
+      ],
+      "explanations": {
+        "tier": "low",
+        "country": "unknown",
+        "why_now": "Hiring 32 roles including Marketing Manager, Marketing Manager, Marketing Manager, Marketing Manager. Trigger: support or ops hiring surge. Intent signal: hiring_volume:32. Industry matches Custom AI Solutions. Technology stack hits: hubspot. Ideal time to pitch AI Automation.",
+        "industry": "unknown"
+      },
+      "hunter_triggered": false,
+      "hunter_tasks": [],
+      "proceed_to_copilot": false,
+      "scoring_version": "tai-v1",
+      "created_at": "2026-07-28T23:59:00.639643+00:00"
+    },
+    {
+      "id": "67f9322b-67f8-460c-b19e-9b10dbec8b60",
+      "company_id": "786aff35-25d3-483a-9c98-ca8c00ce95e7",
+      "opportunity_id": "2f60d26d-9fa9-4a16-8a16-d57c66d7c1df",
+      "company_name": "Patreon",
+      "industry": "unknown",
+      "country": "unknown",
+      "matched_icp_key": "custom_ai_solutions",
+      "matched_icp_name": "Custom AI Solutions",
+      "service_match": "AI Automation",
+      "fit_score": 39.6,
+      "intent_score": 12.0,
+      "budget_score": 35.0,
+      "budget_band": "small",
+      "urgency_score": 12.0,
+      "accessibility_score": 66.98,
+      "competition_score": 80.0,
+      "revenue_opportunity_score": 37.4,
+      "tier": "low",
+      "why_now": "Hiring 32 roles including Marketing Manager, Marketing Manager, Marketing Manager, Marketing Manager. Trigger: support or ops hiring surge. Intent signal: hiring_volume:32. Industry matches Custom AI Solutions. Technology stack hits: hubspot. Ideal time to pitch AI Automation.",
+      "buying_signals": [
+        "hiring_volume:32",
+        "support_or_ops_hiring_surge"
+      ],
+      "negative_signals": [],
+      "score_breakdown": [
+        {
+          "name": "fit",
+          "value": 39.6,
+          "weight": 0.25,
+          "evidence": [
+            "Industry matches Custom AI Solutions",
+            "Technology stack hits: hubspot",
+            "Hiring signals: operations"
+          ],
+          "explanation": "Company fit 39.6/100 against ICP 'Custom AI Solutions' (ICP match 28.0)."
+        },
+        {
+          "name": "intent",
+          "value": 12.0,
+          "weight": 0.2,
+          "evidence": [
+            "hiring_volume:32"
+          ],
+          "explanation": "Buying intent 12.0/100 from 1 active signals."
+        },
+        {
+          "name": "budget",
+          "value": 35.0,
+          "weight": 0.15,
+          "evidence": [
+            "Budget band small",
+            "Employees unknown"
+          ],
+          "explanation": "Budget capacity estimated as small (35.0/100)."
+        },
+        {
+          "name": "urgency",
+          "value": 12.0,
+          "weight": 0.15,
+          "evidence": [
+            "support_or_ops_hiring_surge"
+          ],
+          "explanation": "Urgency 12.0/100 \u2014 why-now pressure from 1 triggers."
+        },
+        {
+          "name": "accessibility",
+          "value": 66.98,
+          "weight": 0.15,
+          "evidence": [
+            "Verified email path",
+            "Website present",
+            "Website/domain available",
+            "12 decision maker(s) identified",
+            "Verification score 87"
+          ],
+          "explanation": "Accessibility 67.0/100 based on channels and decision makers."
+        },
+        {
+          "name": "competition",
+          "value": 80.0,
+          "weight": 0.1,
+          "evidence": [
+            "Vendor categories present: ai, crm",
+            "crm: hubspot",
+            "ai: openai",
+            "Opportunity gap categories open: 4"
+          ],
+          "explanation": "Competition gap 80.0/100 \u2014 2 vendor categories present, 4 open wedges."
+        }
+      ],
+      "evidence_chain": [
+        "Industry matches Custom AI Solutions",
+        "Technology stack hits: hubspot",
+        "Hiring signals: operations",
+        "hiring_volume:32",
+        "Budget band small",
+        "Employees unknown",
+        "support_or_ops_hiring_surge",
+        "Verified email path",
+        "Website present",
+        "Website/domain available",
+        "12 decision maker(s) identified",
+        "Verification score 87",
+        "Vendor categories present: ai, crm",
+        "crm: hubspot",
+        "ai: openai",
+        "Opportunity gap categories open: 4"
+      ],
+      "explanations": {
+        "tier": "low",
+        "country": "unknown",
+        "why_now": "Hiring 32 roles including Marketing Manager, Marketing Manager, Marketing Manager, Marketing Manager. Trigger: support or ops hiring surge. Intent signal: hiring_volume:32. Industry matches Custom AI Solutions. Technology stack hits: hubspot. Ideal time to pitch AI Automation.",
+        "industry": "unknown"
+      },
+      "hunter_triggered": false,
+      "hunter_tasks": [],
+      "proceed_to_copilot": false,
+      "scoring_version": "tai-v1",
+      "created_at": "2026-07-28T23:59:00.606405+00:00"
+    },
+    {
+      "id": "598d2d6b-601c-449c-9bdd-3d30be24f63c",
+      "company_id": "786aff35-25d3-483a-9c98-ca8c00ce95e7",
+      "opportunity_id": "461356c9-a72d-489f-a389-77ca5c3c4e81",
+      "company_name": "Patreon",
+      "industry": "unknown",
+      "country": "unknown",
+      "matched_icp_key": "custom_ai_solutions",
+      "matched_icp_name": "Custom AI Solutions",
+      "service_match": "AI Automation",
+      "fit_score": 39.6,
+      "intent_score": 12.0,
+      "budget_score": 35.0,
+      "budget_band": "small",
+      "urgency_score": 12.0,
+      "accessibility_score": 66.99,
+      "competition_score": 80.0,
+      "revenue_opportunity_score": 37.4,
+      "tier": "low",
+      "why_now": "Hiring 32 roles including Marketing Manager, Marketing Manager, Marketing Manager, Marketing Manager. Trigger: support or ops hiring surge. Intent signal: hiring_volume:32. Industry matches Custom AI Solutions. Technology stack hits: hubspot. Ideal time to pitch AI Automation.",
+      "buying_signals": [
+        "hiring_volume:32",
+        "support_or_ops_hiring_surge"
+      ],
+      "negative_signals": [],
+      "score_breakdown": [
+        {
+          "name": "fit",
+          "value": 39.6,
+          "weight": 0.25,
+          "evidence": [
+            "Industry matches Custom AI Solutions",
+            "Technology stack hits: hubspot",
+            "Hiring signals: operations"
+          ],
+          "explanation": "Company fit 39.6/100 against ICP 'Custom AI Solutions' (ICP match 28.0)."
+        },
+        {
+          "name": "intent",
+          "value": 12.0,
+          "weight": 0.2,
+          "evidence": [
+            "hiring_volume:32"
+          ],
+          "explanation": "Buying intent 12.0/100 from 1 active signals."
+        },
+        {
+          "name": "budget",
+          "value": 35.0,
+          "weight": 0.15,
+          "evidence": [
+            "Budget band small",
+            "Employees unknown"
+          ],
+          "explanation": "Budget capacity estimated as small (35.0/100)."
+        },
+        {
+          "name": "urgency",
+          "value": 12.0,
+          "weight": 0.15,
+          "evidence": [
+            "support_or_ops_hiring_surge"
+          ],
+          "explanation": "Urgency 12.0/100 \u2014 why-now pressure from 1 triggers."
+        },
+        {
+          "name": "accessibility",
+          "value": 66.99,
+          "weight": 0.15,
+          "evidence": [
+            "Verified email path",
+            "Website present",
+            "Website/domain available",
+            "12 decision maker(s) identified",
+            "Verification score 87"
+          ],
+          "explanation": "Accessibility 67.0/100 based on channels and decision makers."
+        },
+        {
+          "name": "competition",
+          "value": 80.0,
+          "weight": 0.1,
+          "evidence": [
+            "Vendor categories present: ai, crm",
+            "crm: hubspot",
+            "ai: openai",
+            "Opportunity gap categories open: 4"
+          ],
+          "explanation": "Competition gap 80.0/100 \u2014 2 vendor categories present, 4 open wedges."
+        }
+      ],
+      "evidence_chain": [
+        "Industry matches Custom AI Solutions",
+        "Technology stack hits: hubspot",
+        "Hiring signals: operations",
+        "hiring_volume:32",
+        "Budget band small",
+        "Employees unknown",
+        "support_or_ops_hiring_surge",
+        "Verified email path",
+        "Website present",
+        "Website/domain available",
+        "12 decision maker(s) identified",
+        "Verification score 87",
+        "Vendor categories present: ai, crm",
+        "crm: hubspot",
+        "ai: openai",
+        "Opportunity gap categories open: 4"
+      ],
+      "explanations": {
+        "tier": "low",
+        "country": "unknown",
+        "why_now": "Hiring 32 roles including Marketing Manager, Marketing Manager, Marketing Manager, Marketing Manager. Trigger: support or ops hiring surge. Intent signal: hiring_volume:32. Industry matches Custom AI Solutions. Technology stack hits: hubspot. Ideal time to pitch AI Automation.",
+        "industry": "unknown"
+      },
+      "hunter_triggered": false,
+      "hunter_tasks": [],
+      "proceed_to_copilot": false,
+      "scoring_version": "tai-v1",
+      "created_at": "2026-07-28T23:59:00.598953+00:00"
+    },
+    {
+      "id": "ff836fa6-fb6f-4d26-8861-18cc028f1e22",
+      "company_id": "786aff35-25d3-483a-9c98-ca8c00ce95e7",
+      "opportunity_id": "c1c3467b-a25e-457d-8195-bf4983048103",
+      "company_name": "Patreon",
+      "industry": "unknown",
+      "country": "unknown",
+      "matched_icp_key": "custom_ai_solutions",
+      "matched_icp_name": "Custom AI Solutions",
+      "service_match": "AI Automation",
+      "fit_score": 39.6,
+      "intent_score": 12.0,
+      "budget_score": 35.0,
+      "budget_band": "small",
+      "urgency_score": 12.0,
+      "accessibility_score": 66.99,
+      "competition_score": 80.0,
+      "revenue_opportunity_score": 37.4,
+      "tier": "low",
+      "why_now": "Hiring 32 roles including Marketing Manager, Marketing Manager, Marketing Manager, Marketing Manager. Trigger: support or ops hiring surge. Intent signal: hiring_volume:32. Industry matches Custom AI Solutions. Technology stack hits: hubspot. Ideal time to pitch AI Automation.",
+      "buying_signals": [
+        "hiring_volume:32",
+        "support_or_ops_hiring_surge"
+      ],
+      "negative_signals": [],
+      "score_breakdown": [
+        {
+          "name": "fit",
+          "value": 39.6,
+          "weight": 0.25,
+          "evidence": [
+            "Industry matches Custom AI Solutions",
+            "Technology stack hits: hubspot",
+            "Hiring signals: operations"
+          ],
+          "explanation": "Company fit 39.6/100 against ICP 'Custom AI Solutions' (ICP match 28.0)."
+        },
+        {
+          "name": "intent",
+          "value": 12.0,
+          "weight": 0.2,
+          "evidence": [
+            "hiring_volume:32"
+          ],
+          "explanation": "Buying intent 12.0/100 from 1 active signals."
+        },
+        {
+          "name": "budget",
+          "value": 35.0,
+          "weight": 0.15,
+          "evidence": [
+            "Budget band small",
+            "Employees unknown"
+          ],
+          "explanation": "Budget capacity estimated as small (35.0/100)."
+        },
+        {
+          "name": "urgency",
+          "value": 12.0,
+          "weight": 0.15,
+          "evidence": [
+            "support_or_ops_hiring_surge"
+          ],
+          "explanation": "Urgency 12.0/100 \u2014 why-now pressure from 1 triggers."
+        },
+        {
+          "name": "accessibility",
+          "value": 66.99,
+          "weight": 0.15,
+          "evidence": [
+            "Verified email path",
+            "Website present",
+            "Website/domain available",
+            "12 decision maker(s) identified",
+            "Verification score 87"
+          ],
+          "explanation": "Accessibility 67.0/100 based on channels and decision makers."
+        },
+        {
+          "name": "competition",
+          "value": 80.0,
+          "weight": 0.1,
+          "evidence": [
+            "Vendor categories present: ai, crm",
+            "crm: hubspot",
+            "ai: openai",
+            "Opportunity gap categories open: 4"
+          ],
+          "explanation": "Competition gap 80.0/100 \u2014 2 vendor categories present, 4 open wedges."
+        }
+      ],
+      "evidence_chain": [
+        "Industry matches Custom AI Solutions",
+        "Technology stack hits: hubspot",
+        "Hiring signals: operations",
+        "hiring_volume:32",
+        "Budget band small",
+        "Employees unknown",
+        "support_or_ops_hiring_surge",
+        "Verified email path",
+        "Website present",
+        "Website/domain available",
+        "12 decision maker(s) identified",
+        "Verification score 87",
+        "Vendor categories present: ai, crm",
+        "crm: hubspot",
+        "ai: openai",
+        "Opportunity gap categories open: 4"
+      ],
+      "explanations": {
+        "tier": "low",
+        "country": "unknown",
+        "why_now": "Hiring 32 roles including Marketing Manager, Marketing Manager, Marketing Manager, Marketing Manager. Trigger: support or ops hiring surge. Intent signal: hiring_volume:32. Industry matches Custom AI Solutions. Technology stack hits: hubspot. Ideal time to pitch AI Automation.",
+        "industry": "unknown"
+      },
+      "hunter_triggered": false,
+      "hunter_tasks": [],
+      "proceed_to_copilot": false,
+      "scoring_version": "tai-v1",
+      "created_at": "2026-07-28T23:59:00.658605+00:00"
+    },
+    {
+      "id": "c4863187-a901-4b2e-bd2f-c991c2308ba7",
+      "company_id": "786aff35-25d3-483a-9c98-ca8c00ce95e7",
+      "opportunity_id": "4097e5b3-36da-4f84-a638-eae02df453b6",
+      "company_name": "Patreon",
+      "industry": "unknown",
+      "country": "unknown",
+      "matched_icp_key": "custom_ai_solutions",
+      "matched_icp_name": "Custom AI Solutions",
+      "service_match": "AI Automation",
+      "fit_score": 39.6,
+      "intent_score": 12.0,
+      "budget_score": 35.0,
+      "budget_band": "small",
+      "urgency_score": 12.0,
+      "accessibility_score": 66.9,
+      "competition_score": 80.0,
+      "revenue_opportunity_score": 37.39,
+      "tier": "low",
+      "why_now": "Hiring 32 roles including Marketing Manager, Marketing Manager, Marketing Manager, Marketing Manager. Trigger: support or ops hiring surge. Intent signal: hiring_volume:32. Industry matches Custom AI Solutions. Technology stack hits: hubspot. Ideal time to pitch AI Automation.",
+      "buying_signals": [
+        "hiring_volume:32",
+        "support_or_ops_hiring_surge"
+      ],
+      "negative_signals": [],
+      "score_breakdown": [
+        {
+          "name": "fit",
+          "value": 39.6,
+          "weight": 0.25,
+          "evidence": [
+            "Industry matches Custom AI Solutions",
+            "Technology stack hits: hubspot",
+            "Hiring signals: operations"
+          ],
+          "explanation": "Company fit 39.6/100 against ICP 'Custom AI Solutions' (ICP match 28.0)."
+        },
+        {
+          "name": "intent",
+          "value": 12.0,
+          "weight": 0.2,
+          "evidence": [
+            "hiring_volume:32"
+          ],
+          "explanation": "Buying intent 12.0/100 from 1 active signals."
+        },
+        {
+          "name": "budget",
+          "value": 35.0,
+          "weight": 0.15,
+          "evidence": [
+            "Budget band small",
+            "Employees unknown"
+          ],
+          "explanation": "Budget capacity estimated as small (35.0/100)."
+        },
+        {
+          "name": "urgency",
+          "value": 12.0,
+          "weight": 0.15,
+          "evidence": [
+            "support_or_ops_hiring_surge"
+          ],
+          "explanation": "Urgency 12.0/100 \u2014 why-now pressure from 1 triggers."
+        },
+        {
+          "name": "accessibility",
+          "value": 66.9,
+          "weight": 0.15,
+          "evidence": [
+            "Verified email path",
+            "Website present",
+            "Website/domain available",
+            "12 decision maker(s) identified",
+            "Verification score 86"
+          ],
+          "explanation": "Accessibility 66.9/100 based on channels and decision makers."
+        },
+        {
+          "name": "competition",
+          "value": 80.0,
+          "weight": 0.1,
+          "evidence": [
+            "Vendor categories present: ai, crm",
+            "crm: hubspot",
+            "ai: openai",
+            "Opportunity gap categories open: 4"
+          ],
+          "explanation": "Competition gap 80.0/100 \u2014 2 vendor categories present, 4 open wedges."
+        }
+      ],
+      "evidence_chain": [
+        "Industry matches Custom AI Solutions",
+        "Technology stack hits: hubspot",
+        "Hiring signals: operations",
+        "hiring_volume:32",
+        "Budget band small",
+        "Employees unknown",
+        "support_or_ops_hiring_surge",
+        "Verified email path",
+        "Website present",
+        "Website/domain available",
+        "12 decision maker(s) identified",
+        "Verification score 86",
+        "Vendor categories present: ai, crm",
+        "crm: hubspot",
+        "ai: openai",
+        "Opportunity gap categories open: 4"
+      ],
+      "explanations": {
+        "tier": "low",
+        "country": "unknown",
+        "why_now": "Hiring 32 roles including Marketing Manager, Marketing Manager, Marketing Manager, Marketing Manager. Trigger: support or ops hiring surge. Intent signal: hiring_volume:32. Industry matches Custom AI Solutions. Technology stack hits: hubspot. Ideal time to pitch AI Automation.",
+        "industry": "unknown"
+      },
+      "hunter_triggered": false,
+      "hunter_tasks": [],
+      "proceed_to_copilot": false,
+      "scoring_version": "tai-v1",
+      "created_at": "2026-07-28T23:59:00.646287+00:00"
+    },
+    {
+      "id": "cf109c84-a835-4ac6-9e7d-2c67f0d5ecac",
+      "company_id": "786aff35-25d3-483a-9c98-ca8c00ce95e7",
+      "opportunity_id": "c657eaf3-481d-43a3-a321-40544ca4fcb8",
+      "company_name": "Patreon",
+      "industry": "unknown",
+      "country": "unknown",
+      "matched_icp_key": "custom_ai_solutions",
+      "matched_icp_name": "Custom AI Solutions",
+      "service_match": "AI Automation",
+      "fit_score": 39.6,
+      "intent_score": 12.0,
+      "budget_score": 35.0,
+      "budget_band": "small",
+      "urgency_score": 12.0,
+      "accessibility_score": 66.84,
+      "competition_score": 80.0,
+      "revenue_opportunity_score": 37.38,
+      "tier": "low",
+      "why_now": "Hiring 32 roles including Marketing Manager, Marketing Manager, Marketing Manager, Marketing Manager. Trigger: support or ops hiring surge. Intent signal: hiring_volume:32. Industry matches Custom AI Solutions. Technology stack hits: hubspot. Ideal time to pitch AI Automation.",
+      "buying_signals": [
+        "hiring_volume:32",
+        "support_or_ops_hiring_surge"
+      ],
+      "negative_signals": [],
+      "score_breakdown": [
+        {
+          "name": "fit",
+          "value": 39.6,
+          "weight": 0.25,
+          "evidence": [
+            "Industry matches Custom AI Solutions",
+            "Technology stack hits: hubspot",
+            "Hiring signals: operations"
+          ],
+          "explanation": "Company fit 39.6/100 against ICP 'Custom AI Solutions' (ICP match 28.0)."
+        },
+        {
+          "name": "intent",
+          "value": 12.0,
+          "weight": 0.2,
+          "evidence": [
+            "hiring_volume:32"
+          ],
+          "explanation": "Buying intent 12.0/100 from 1 active signals."
+        },
+        {
+          "name": "budget",
+          "value": 35.0,
+          "weight": 0.15,
+          "evidence": [
+            "Budget band small",
+            "Employees unknown"
+          ],
+          "explanation": "Budget capacity estimated as small (35.0/100)."
+        },
+        {
+          "name": "urgency",
+          "value": 12.0,
+          "weight": 0.15,
+          "evidence": [
+            "support_or_ops_hiring_surge"
+          ],
+          "explanation": "Urgency 12.0/100 \u2014 why-now pressure from 1 triggers."
+        },
+        {
+          "name": "accessibility",
+          "value": 66.84,
+          "weight": 0.15,
+          "evidence": [
+            "Verified email path",
+            "Website present",
+            "Website/domain available",
+            "12 decision maker(s) identified",
+            "Verification score 86"
+          ],
+          "explanation": "Accessibility 66.8/100 based on channels and decision makers."
+        },
+        {
+          "name": "competition",
+          "value": 80.0,
+          "weight": 0.1,
+          "evidence": [
+            "Vendor categories present: ai, crm",
+            "crm: hubspot",
+            "ai: openai",
+            "Opportunity gap categories open: 4"
+          ],
+          "explanation": "Competition gap 80.0/100 \u2014 2 vendor categories present, 4 open wedges."
+        }
+      ],
+      "evidence_chain": [
+        "Industry matches Custom AI Solutions",
+        "Technology stack hits: hubspot",
+        "Hiring signals: operations",
+        "hiring_volume:32",
+        "Budget band small",
+        "Employees unknown",
+        "support_or_ops_hiring_surge",
+        "Verified email path",
+        "Website present",
+        "Website/domain available",
+        "12 decision maker(s) identified",
+        "Verification score 86",
+        "Vendor categories present: ai, crm",
+        "crm: hubspot",
+        "ai: openai",
+        "Opportunity gap categories open: 4"
+      ],
+      "explanations": {
+        "tier": "low",
+        "country": "unknown",
+        "why_now": "Hiring 32 roles including Marketing Manager, Marketing Manager, Marketing Manager, Marketing Manager. Trigger: support or ops hiring surge. Intent signal: hiring_volume:32. Industry matches Custom AI Solutions. Technology stack hits: hubspot. Ideal time to pitch AI Automation.",
+        "industry": "unknown"
+      },
+      "hunter_triggered": false,
+      "hunter_tasks": [],
+      "proceed_to_copilot": false,
+      "scoring_version": "tai-v1",
+      "created_at": "2026-07-28T23:59:00.651643+00:00"
+    },
+    {
+      "id": "3bec6a11-b7c4-49a7-a0b2-ba9fb8f9adb4",
+      "company_id": "8568229c-c0a6-4831-aa02-ac3240b5f71d",
+      "opportunity_id": "78c50fb4-3c5b-4553-a0f6-e225d3f896f4",
+      "company_name": "This",
+      "industry": "unknown",
+      "country": "unknown",
+      "matched_icp_key": "comai",
+      "matched_icp_name": "COMAI",
+      "service_match": "COMAI",
+      "fit_score": 36.8,
+      "intent_score": 9.0,
+      "budget_score": 35.0,
+      "budget_band": "small",
+      "urgency_score": 0.0,
+      "accessibility_score": 68.54,
+      "competition_score": 100.0,
+      "revenue_opportunity_score": 36.53,
+      "tier": "low",
+      "why_now": "Intent signal: scaling. Industry matches COMAI. Technology stack hits: shopify. Ideal time to pitch COMAI.",
+      "buying_signals": [
+        "scaling"
+      ],
+      "negative_signals": [],
+      "score_breakdown": [
+        {
+          "name": "fit",
+          "value": 36.8,
+          "weight": 0.25,
+          "evidence": [
+            "Industry matches COMAI",
+            "Technology stack hits: shopify"
+          ],
+          "explanation": "Company fit 36.8/100 against ICP 'COMAI' (ICP match 24.0)."
+        },
+        {
+          "name": "intent",
+          "value": 9.0,
+          "weight": 0.2,
+          "evidence": [
+            "scaling"
+          ],
+          "explanation": "Buying intent 9.0/100 from 1 active signals."
+        },
+        {
+          "name": "budget",
+          "value": 35.0,
+          "weight": 0.15,
+          "evidence": [
+            "Budget band small",
+            "Employees unknown"
+          ],
+          "explanation": "Budget capacity estimated as small (35.0/100)."
+        },
+        {
+          "name": "urgency",
+          "value": 0.0,
+          "weight": 0.15,
+          "evidence": [],
+          "explanation": "Urgency 0.0/100 \u2014 why-now pressure from 0 triggers."
+        },
+        {
+          "name": "accessibility",
+          "value": 68.54,
+          "weight": 0.15,
+          "evidence": [
+            "Verified email path",
+            "LinkedIn reachability",
+            "Website present",
+            "Website/domain available",
+            "1 decision maker(s) identified",
+            "Verification score 84"
+          ],
+          "explanation": "Accessibility 68.5/100 based on channels and decision makers."
+        },
+        {
+          "name": "competition",
+          "value": 100.0,
+          "weight": 0.1,
+          "evidence": [
+            "Vendor categories present: none",
+            "Opportunity gap categories open: 6"
+          ],
+          "explanation": "Competition gap 100.0/100 \u2014 0 vendor categories present, 6 open wedges."
+        }
+      ],
+      "evidence_chain": [
+        "Industry matches COMAI",
+        "Technology stack hits: shopify",
+        "scaling",
+        "Budget band small",
+        "Employees unknown",
+        "Verified email path",
+        "LinkedIn reachability",
+        "Website present",
+        "Website/domain available",
+        "1 decision maker(s) identified",
+        "Verification score 84",
+        "Vendor categories present: none",
+        "Opportunity gap categories open: 6"
+      ],
+      "explanations": {
+        "tier": "low",
+        "country": "unknown",
+        "why_now": "Intent signal: scaling. Industry matches COMAI. Technology stack hits: shopify. Ideal time to pitch COMAI.",
+        "industry": "unknown"
+      },
+      "hunter_triggered": false,
+      "hunter_tasks": [],
+      "proceed_to_copilot": false,
+      "scoring_version": "tai-v1",
+      "created_at": "2026-07-29T00:01:05.731390+00:00"
+    },
+    {
+      "id": "4d8b7b3d-502d-4fcb-90d8-4b851966c782",
+      "company_id": "0a910312-c5a6-4c85-b044-d5efd3bdd3c7",
+      "opportunity_id": "a33d63ee-a0a9-402e-a3f0-55c30381bb9d",
+      "company_name": "Frontend-Only",
+      "industry": "unknown",
+      "country": "unknown",
+      "matched_icp_key": "custom_ai_solutions",
+      "matched_icp_name": "Custom AI Solutions",
+      "service_match": "AI Automation",
+      "fit_score": 29.2,
+      "intent_score": 9.0,
+      "budget_score": 35.0,
+      "budget_band": "small",
+      "urgency_score": 0.0,
+      "accessibility_score": 68.04,
+      "competition_score": 100.0,
+      "revenue_opportunity_score": 34.56,
+      "tier": "low",
+      "why_now": "Intent signal: scaling. Industry matches Custom AI Solutions. Business model saas fits ICP. Ideal time to pitch AI Automation.",
+      "buying_signals": [
+        "scaling"
+      ],
+      "negative_signals": [],
+      "score_breakdown": [
+        {
+          "name": "fit",
+          "value": 29.2,
+          "weight": 0.25,
+          "evidence": [
+            "Industry matches Custom AI Solutions",
+            "Business model saas fits ICP"
+          ],
+          "explanation": "Company fit 29.2/100 against ICP 'Custom AI Solutions' (ICP match 26.0)."
+        },
+        {
+          "name": "intent",
+          "value": 9.0,
+          "weight": 0.2,
+          "evidence": [
+            "scaling"
+          ],
+          "explanation": "Buying intent 9.0/100 from 1 active signals."
+        },
+        {
+          "name": "budget",
+          "value": 35.0,
+          "weight": 0.15,
+          "evidence": [
+            "Budget band small",
+            "Employees unknown"
+          ],
+          "explanation": "Budget capacity estimated as small (35.0/100)."
+        },
+        {
+          "name": "urgency",
+          "value": 0.0,
+          "weight": 0.15,
+          "evidence": [],
+          "explanation": "Urgency 0.0/100 \u2014 why-now pressure from 0 triggers."
+        },
+        {
+          "name": "accessibility",
+          "value": 68.04,
+          "weight": 0.15,
+          "evidence": [
+            "Verified email path",
+            "LinkedIn reachability",
+            "Website present",
+            "Website/domain available",
+            "1 decision maker(s) identified",
+            "Verification score 80"
+          ],
+          "explanation": "Accessibility 68.0/100 based on channels and decision makers."
+        },
+        {
+          "name": "competition",
+          "value": 100.0,
+          "weight": 0.1,
+          "evidence": [
+            "Vendor categories present: none",
+            "Opportunity gap categories open: 6"
+          ],
+          "explanation": "Competition gap 100.0/100 \u2014 0 vendor categories present, 6 open wedges."
+        }
+      ],
+      "evidence_chain": [
+        "Industry matches Custom AI Solutions",
+        "Business model saas fits ICP",
+        "scaling",
+        "Budget band small",
+        "Employees unknown",
+        "Verified email path",
+        "LinkedIn reachability",
+        "Website present",
+        "Website/domain available",
+        "1 decision maker(s) identified",
+        "Verification score 80",
+        "Vendor categories present: none",
+        "Opportunity gap categories open: 6"
+      ],
+      "explanations": {
+        "tier": "low",
+        "country": "unknown",
+        "why_now": "Intent signal: scaling. Industry matches Custom AI Solutions. Business model saas fits ICP. Ideal time to pitch AI Automation.",
+        "industry": "unknown"
+      },
+      "hunter_triggered": false,
+      "hunter_tasks": [],
+      "proceed_to_copilot": false,
+      "scoring_version": "tai-v1",
+      "created_at": "2026-07-29T00:01:05.741793+00:00"
+    },
+    {
+      "id": "5d1b70d4-b2d2-478b-829e-3eb86ee334e2",
+      "company_id": "11111111-1111-1111-1111-111111111111",
+      "opportunity_id": "22222222-2222-2222-2222-222222222222",
+      "company_name": "Acme Logistics",
+      "industry": "logistics",
+      "country": "unknown",
+      "matched_icp_key": "custom_ai_solutions",
+      "matched_icp_name": "Custom AI Solutions",
+      "service_match": "AI Automation",
+      "fit_score": 45.5,
+      "intent_score": 9.0,
+      "budget_score": 35.0,
+      "budget_band": "small",
+      "urgency_score": 9.0,
+      "accessibility_score": 41.19,
+      "competition_score": 80.0,
+      "revenue_opportunity_score": 33.95,
+      "tier": "low",
+      "why_now": "Acme Logistics matches ICP signals with scoreable buying pressure. Trigger: expansion. Industry matches Custom AI Solutions. Technology stack hits: salesforce. Ideal time to pitch AI Automation.",
+      "buying_signals": [
+        "expansion"
+      ],
+      "negative_signals": [],
+      "score_breakdown": [
+        {
+          "name": "fit",
+          "value": 45.5,
+          "weight": 0.25,
+          "evidence": [
+            "Industry matches Custom AI Solutions",
+            "Technology stack hits: salesforce",
+            "Growth signals: expansion",
+            "Business model b2b fits ICP"
+          ],
+          "explanation": "Company fit 45.5/100 against ICP 'Custom AI Solutions' (ICP match 35.0)."
+        },
+        {
+          "name": "intent",
+          "value": 9.0,
+          "weight": 0.2,
+          "evidence": [
+            "expansion"
+          ],
+          "explanation": "Buying intent 9.0/100 from 1 active signals."
+        },
+        {
+          "name": "budget",
+          "value": 35.0,
+          "weight": 0.15,
+          "evidence": [
+            "Budget band small",
+            "Employees unknown"
+          ],
+          "explanation": "Budget capacity estimated as small (35.0/100)."
+        },
+        {
+          "name": "urgency",
+          "value": 9.0,
+          "weight": 0.15,
+          "evidence": [
+            "expansion"
+          ],
+          "explanation": "Urgency 9.0/100 \u2014 why-now pressure from 1 triggers."
+        },
+        {
+          "name": "accessibility",
+          "value": 41.19,
+          "weight": 0.15,
+          "evidence": [
+            "LinkedIn reachability",
+            "Website present",
+            "Website/domain available",
+            "No decision maker identified yet",
+            "Verification score 75"
+          ],
+          "explanation": "Accessibility 41.2/100 based on channels and decision makers."
+        },
+        {
+          "name": "competition",
+          "value": 80.0,
+          "weight": 0.1,
+          "evidence": [
+            "Vendor categories present: ai, crm",
+            "crm: salesforce",
+            "ai: openai",
+            "Opportunity gap categories open: 4"
+          ],
+          "explanation": "Competition gap 80.0/100 \u2014 2 vendor categories present, 4 open wedges."
+        }
+      ],
+      "evidence_chain": [
+        "Industry matches Custom AI Solutions",
+        "Technology stack hits: salesforce",
+        "Growth signals: expansion",
+        "Business model b2b fits ICP",
+        "expansion",
+        "Budget band small",
+        "Employees unknown",
+        "LinkedIn reachability",
+        "Website present",
+        "Website/domain available",
+        "No decision maker identified yet",
+        "Verification score 75",
+        "Vendor categories present: ai, crm",
+        "crm: salesforce",
+        "ai: openai",
+        "Opportunity gap categories open: 4"
+      ],
+      "explanations": {
+        "tier": "low",
+        "country": "unknown",
+        "why_now": "Acme Logistics matches ICP signals with scoreable buying pressure. Trigger: expansion. Industry matches Custom AI Solutions. Technology stack hits: salesforce. Ideal time to pitch AI Automation.",
+        "industry": "logistics"
+      },
+      "hunter_triggered": false,
+      "hunter_tasks": [],
+      "proceed_to_copilot": false,
+      "scoring_version": "tai-v1",
+      "created_at": "2026-07-28T23:59:00.576934+00:00"
+    },
+    {
+      "id": "a0dc9b85-374b-4826-988f-5a4abbf67a67",
+      "company_id": "b84eae49-c422-4da1-b2ff-59820b8bc8c5",
+      "opportunity_id": "f9bf0640-c984-46ed-9d99-3bf3be91d682",
+      "company_name": "Coding",
+      "industry": "unknown",
+      "country": "unknown",
+      "matched_icp_key": "mobile_app_development",
+      "matched_icp_name": "Mobile App Development",
+      "service_match": "Mobile App Development",
+      "fit_score": 23.9,
+      "intent_score": 18.0,
+      "budget_score": 35.0,
+      "budget_band": "small",
+      "urgency_score": 9.0,
+      "accessibility_score": 30.73,
+      "competition_score": 100.0,
+      "revenue_opportunity_score": 30.78,
+      "tier": "low",
+      "why_now": "Trigger: expansion. Intent signal: scaling. Industry matches Mobile App Development. Growth signals: expansion. Ideal time to pitch Mobile App Development.",
+      "buying_signals": [
+        "expansion",
+        "scaling"
+      ],
+      "negative_signals": [],
+      "score_breakdown": [
+        {
+          "name": "fit",
+          "value": 23.9,
+          "weight": 0.25,
+          "evidence": [
+            "Industry matches Mobile App Development",
+            "Growth signals: expansion",
+            "Funding stage expanding"
+          ],
+          "explanation": "Company fit 23.9/100 against ICP 'Mobile App Development' (ICP match 27.0)."
+        },
+        {
+          "name": "intent",
+          "value": 18.0,
+          "weight": 0.2,
+          "evidence": [
+            "expansion",
+            "scaling"
+          ],
+          "explanation": "Buying intent 18.0/100 from 2 active signals."
+        },
+        {
+          "name": "budget",
+          "value": 35.0,
+          "weight": 0.15,
+          "evidence": [
+            "Budget band small",
+            "Employees unknown"
+          ],
+          "explanation": "Budget capacity estimated as small (35.0/100)."
+        },
+        {
+          "name": "urgency",
+          "value": 9.0,
+          "weight": 0.15,
+          "evidence": [
+            "expansion"
+          ],
+          "explanation": "Urgency 9.0/100 \u2014 why-now pressure from 1 triggers."
+        },
+        {
+          "name": "accessibility",
+          "value": 30.73,
+          "weight": 0.15,
+          "evidence": [
+            "LinkedIn reachability",
+            "1 decision maker(s) identified"
+          ],
+          "explanation": "Accessibility 30.7/100 based on channels and decision makers."
+        },
+        {
+          "name": "competition",
+          "value": 100.0,
+          "weight": 0.1,
+          "evidence": [
+            "Vendor categories present: none",
+            "Opportunity gap categories open: 6"
+          ],
+          "explanation": "Competition gap 100.0/100 \u2014 0 vendor categories present, 6 open wedges."
+        }
+      ],
+      "evidence_chain": [
+        "Industry matches Mobile App Development",
+        "Growth signals: expansion",
+        "Funding stage expanding",
+        "expansion",
+        "scaling",
+        "Budget band small",
+        "Employees unknown",
+        "LinkedIn reachability",
+        "1 decision maker(s) identified",
+        "Vendor categories present: none",
+        "Opportunity gap categories open: 6"
+      ],
+      "explanations": {
+        "tier": "low",
+        "country": "unknown",
+        "why_now": "Trigger: expansion. Intent signal: scaling. Industry matches Mobile App Development. Growth signals: expansion. Ideal time to pitch Mobile App Development.",
+        "industry": "unknown"
+      },
+      "hunter_triggered": false,
+      "hunter_tasks": [],
+      "proceed_to_copilot": false,
+      "scoring_version": "tai-v1",
+      "created_at": "2026-07-29T00:01:05.759073+00:00"
+    },
+    {
+      "id": "7ce8892c-265e-447d-82a7-ecf4eb21fbb5",
+      "company_id": "298ba5ea-3f4d-45b1-8484-96480ffd0daa",
+      "opportunity_id": "8f4c475a-8921-4562-83a3-4f889232354d",
+      "company_name": "Building",
+      "industry": "unknown",
+      "country": "unknown",
+      "matched_icp_key": "custom_ai_solutions",
+      "matched_icp_name": "Custom AI Solutions",
+      "service_match": "AI Automation",
+      "fit_score": 33.4,
+      "intent_score": 9.0,
+      "budget_score": 35.0,
+      "budget_band": "small",
+      "urgency_score": 0.0,
+      "accessibility_score": 48.44,
+      "competition_score": 80.0,
+      "revenue_opportunity_score": 30.67,
+      "tier": "low",
+      "why_now": "Intent signal: scaling. Industry matches Custom AI Solutions. Technology stack hits: salesforce. Ideal time to pitch AI Automation.",
+      "buying_signals": [
+        "scaling"
+      ],
+      "negative_signals": [],
+      "score_breakdown": [
+        {
+          "name": "fit",
+          "value": 33.4,
+          "weight": 0.25,
+          "evidence": [
+            "Industry matches Custom AI Solutions",
+            "Technology stack hits: salesforce",
+            "Business model saas fits ICP"
+          ],
+          "explanation": "Company fit 33.4/100 against ICP 'Custom AI Solutions' (ICP match 32.0)."
+        },
+        {
+          "name": "intent",
+          "value": 9.0,
+          "weight": 0.2,
+          "evidence": [
+            "scaling"
+          ],
+          "explanation": "Buying intent 9.0/100 from 1 active signals."
+        },
+        {
+          "name": "budget",
+          "value": 35.0,
+          "weight": 0.15,
+          "evidence": [
+            "Budget band small",
+            "Employees unknown"
+          ],
+          "explanation": "Budget capacity estimated as small (35.0/100)."
+        },
+        {
+          "name": "urgency",
+          "value": 0.0,
+          "weight": 0.15,
+          "evidence": [],
+          "explanation": "Urgency 0.0/100 \u2014 why-now pressure from 0 triggers."
+        },
+        {
+          "name": "accessibility",
+          "value": 48.44,
+          "weight": 0.15,
+          "evidence": [
+            "LinkedIn reachability",
+            "Website present",
+            "Website/domain available",
+            "1 decision maker(s) identified"
+          ],
+          "explanation": "Accessibility 48.4/100 based on channels and decision makers."
+        },
+        {
+          "name": "competition",
+          "value": 80.0,
+          "weight": 0.1,
+          "evidence": [
+            "Vendor categories present: ai, crm",
+            "crm: salesforce",
+            "ai: openai",
+            "Opportunity gap categories open: 4"
+          ],
+          "explanation": "Competition gap 80.0/100 \u2014 2 vendor categories present, 4 open wedges."
+        }
+      ],
+      "evidence_chain": [
+        "Industry matches Custom AI Solutions",
+        "Technology stack hits: salesforce",
+        "Business model saas fits ICP",
+        "scaling",
+        "Budget band small",
+        "Employees unknown",
+        "LinkedIn reachability",
+        "Website present",
+        "Website/domain available",
+        "1 decision maker(s) identified",
+        "Vendor categories present: ai, crm",
+        "crm: salesforce",
+        "ai: openai",
+        "Opportunity gap categories open: 4"
+      ],
+      "explanations": {
+        "tier": "low",
+        "country": "unknown",
+        "why_now": "Intent signal: scaling. Industry matches Custom AI Solutions. Technology stack hits: salesforce. Ideal time to pitch AI Automation.",
+        "industry": "unknown"
+      },
+      "hunter_triggered": false,
+      "hunter_tasks": [],
+      "proceed_to_copilot": false,
+      "scoring_version": "tai-v1",
+      "created_at": "2026-07-29T00:01:05.776245+00:00"
+    },
+    {
+      "id": "830adbd4-02e6-4173-ba6a-c28e4471a1a8",
+      "company_id": "d143f70f-34b5-4089-ba9e-f0ec8802bee2",
+      "opportunity_id": "a2e3cd2d-cba1-4284-818f-e6ee82c9b32c",
+      "company_name": "OSINT",
+      "industry": "unknown",
+      "country": "unknown",
+      "matched_icp_key": "mobile_app_development",
+      "matched_icp_name": "Mobile App Development",
+      "service_match": "Mobile App Development",
+      "fit_score": 21.8,
+      "intent_score": 9.0,
+      "budget_score": 35.0,
+      "budget_band": "small",
+      "urgency_score": 0.0,
+      "accessibility_score": 47.51,
+      "competition_score": 100.0,
+      "revenue_opportunity_score": 29.63,
+      "tier": "low",
+      "why_now": "Intent signal: scaling. Industry matches Mobile App Development. Funding stage mature. Ideal time to pitch Mobile App Development.",
+      "buying_signals": [
+        "scaling"
+      ],
+      "negative_signals": [],
+      "score_breakdown": [
+        {
+          "name": "fit",
+          "value": 21.8,
+          "weight": 0.25,
+          "evidence": [
+            "Industry matches Mobile App Development",
+            "Funding stage mature"
+          ],
+          "explanation": "Company fit 21.8/100 against ICP 'Mobile App Development' (ICP match 24.0)."
+        },
+        {
+          "name": "intent",
+          "value": 9.0,
+          "weight": 0.2,
+          "evidence": [
+            "scaling"
+          ],
+          "explanation": "Buying intent 9.0/100 from 1 active signals."
+        },
+        {
+          "name": "budget",
+          "value": 35.0,
+          "weight": 0.15,
+          "evidence": [
+            "Budget band small",
+            "Employees unknown"
+          ],
+          "explanation": "Budget capacity estimated as small (35.0/100)."
+        },
+        {
+          "name": "urgency",
+          "value": 0.0,
+          "weight": 0.15,
+          "evidence": [],
+          "explanation": "Urgency 0.0/100 \u2014 why-now pressure from 0 triggers."
+        },
+        {
+          "name": "accessibility",
+          "value": 47.51,
+          "weight": 0.15,
+          "evidence": [
+            "LinkedIn reachability",
+            "Website present",
+            "Website/domain available",
+            "1 decision maker(s) identified"
+          ],
+          "explanation": "Accessibility 47.5/100 based on channels and decision makers."
+        },
+        {
+          "name": "competition",
+          "value": 100.0,
+          "weight": 0.1,
+          "evidence": [
+            "Vendor categories present: none",
+            "Opportunity gap categories open: 6"
+          ],
+          "explanation": "Competition gap 100.0/100 \u2014 0 vendor categories present, 6 open wedges."
+        }
+      ],
+      "evidence_chain": [
+        "Industry matches Mobile App Development",
+        "Funding stage mature",
+        "scaling",
+        "Budget band small",
+        "Employees unknown",
+        "LinkedIn reachability",
+        "Website present",
+        "Website/domain available",
+        "1 decision maker(s) identified",
+        "Vendor categories present: none",
+        "Opportunity gap categories open: 6"
+      ],
+      "explanations": {
+        "tier": "low",
+        "country": "unknown",
+        "why_now": "Intent signal: scaling. Industry matches Mobile App Development. Funding stage mature. Ideal time to pitch Mobile App Development.",
+        "industry": "unknown"
+      },
+      "hunter_triggered": false,
+      "hunter_tasks": [],
+      "proceed_to_copilot": false,
+      "scoring_version": "tai-v1",
+      "created_at": "2026-07-28T23:59:00.715453+00:00"
+    },
+    {
+      "id": "01d0265f-7459-468a-a6dc-ca7e7cede6a7",
+      "company_id": "68ff5f1a-dad0-4866-9f4d-d533e764c4cc",
+      "opportunity_id": "34804f1e-591e-4d2f-825a-df78e0421415",
+      "company_name": "Edtech",
+      "industry": "Technology",
+      "country": "Unknown",
+      "matched_icp_key": "custom_ai_solutions",
+      "matched_icp_name": "Custom AI Solutions",
+      "service_match": "AI Automation",
+      "fit_score": 32.15,
+      "intent_score": 12.0,
+      "budget_score": 35.0,
+      "budget_band": "small",
+      "urgency_score": 10.0,
+      "accessibility_score": 16.0,
+      "competition_score": 100.0,
+      "revenue_opportunity_score": 29.59,
+      "tier": "low",
+      "why_now": "Trigger: funding. Industry matches Custom AI Solutions. Buying signals: funding. Ideal time to pitch AI Automation.",
+      "buying_signals": [
+        "funding"
+      ],
+      "negative_signals": [],
+      "score_breakdown": [
+        {
+          "name": "fit",
+          "value": 32.15,
+          "weight": 0.25,
+          "evidence": [
+            "Industry matches Custom AI Solutions",
+            "Buying signals: funding",
+            "Growth signals: funding"
+          ],
+          "explanation": "Company fit 32.1/100 against ICP 'Custom AI Solutions' (ICP match 24.5)."
+        },
+        {
+          "name": "intent",
+          "value": 12.0,
+          "weight": 0.2,
+          "evidence": [
+            "funding"
+          ],
+          "explanation": "Buying intent 12.0/100 from 1 active signals."
+        },
+        {
+          "name": "budget",
+          "value": 35.0,
+          "weight": 0.15,
+          "evidence": [
+            "Budget band small",
+            "Employees unknown",
+            "Market Unknown multiplier 1.0"
+          ],
+          "explanation": "Budget capacity estimated as small (35.0/100)."
+        },
+        {
+          "name": "urgency",
+          "value": 10.0,
+          "weight": 0.15,
+          "evidence": [
+            "funding"
+          ],
+          "explanation": "Urgency 10.0/100 \u2014 why-now pressure from 1 triggers."
+        },
+        {
+          "name": "accessibility",
+          "value": 16.0,
+          "weight": 0.15,
+          "evidence": [
+            "Website present",
+            "Website/domain available",
+            "No decision maker identified yet"
+          ],
+          "explanation": "Accessibility 16.0/100 based on channels and decision makers."
+        },
+        {
+          "name": "competition",
+          "value": 100.0,
+          "weight": 0.1,
+          "evidence": [
+            "Vendor categories present: none",
+            "Opportunity gap categories open: 6"
+          ],
+          "explanation": "Competition gap 100.0/100 \u2014 0 vendor categories present, 6 open wedges."
+        }
+      ],
+      "evidence_chain": [
+        "Industry matches Custom AI Solutions",
+        "Buying signals: funding",
+        "Growth signals: funding",
+        "funding",
+        "Budget band small",
+        "Employees unknown",
+        "Market Unknown multiplier 1.0",
+        "Website present",
+        "Website/domain available",
+        "No decision maker identified yet",
+        "Vendor categories present: none",
+        "Opportunity gap categories open: 6"
+      ],
+      "explanations": {
+        "tier": "low",
+        "country": "Unknown",
+        "why_now": "Trigger: funding. Industry matches Custom AI Solutions. Buying signals: funding. Ideal time to pitch AI Automation.",
+        "industry": "Technology"
+      },
+      "hunter_triggered": false,
+      "hunter_tasks": [],
+      "proceed_to_copilot": false,
+      "scoring_version": "tai-v1",
+      "created_at": "2026-07-29T00:01:05.766241+00:00"
+    },
+    {
+      "id": "cd8295b5-1f52-40ac-b751-a980348ea30e",
+      "company_id": "94b29ff3-fa01-4bab-bd88-ebe003d39d35",
+      "opportunity_id": "756c3b59-5a52-4823-aaa7-739d97fcc1b4",
+      "company_name": "DeepSeek",
+      "industry": "unknown",
+      "country": "unknown",
+      "matched_icp_key": "mobile_app_development",
+      "matched_icp_name": "Mobile App Development",
+      "service_match": "Mobile App Development",
+      "fit_score": 35.35,
+      "intent_score": 12.0,
+      "budget_score": 35.0,
+      "budget_band": "small",
+      "urgency_score": 10.0,
+      "accessibility_score": 16.0,
+      "competition_score": 90.0,
+      "revenue_opportunity_score": 29.39,
+      "tier": "low",
+      "why_now": "Trigger: funding. Industry matches Mobile App Development. Buying signals: funding. Ideal time to pitch Mobile App Development.",
+      "buying_signals": [
+        "funding"
+      ],
+      "negative_signals": [],
+      "score_breakdown": [
+        {
+          "name": "fit",
+          "value": 35.35,
+          "weight": 0.25,
+          "evidence": [
+            "Industry matches Mobile App Development",
+            "Buying signals: funding",
+            "Growth signals: funding",
+            "Funding stage scaling"
+          ],
+          "explanation": "Company fit 35.3/100 against ICP 'Mobile App Development' (ICP match 30.5)."
+        },
+        {
+          "name": "intent",
+          "value": 12.0,
+          "weight": 0.2,
+          "evidence": [
+            "funding"
+          ],
+          "explanation": "Buying intent 12.0/100 from 1 active signals."
+        },
+        {
+          "name": "budget",
+          "value": 35.0,
+          "weight": 0.15,
+          "evidence": [
+            "Budget band small",
+            "Employees unknown"
+          ],
+          "explanation": "Budget capacity estimated as small (35.0/100)."
+        },
+        {
+          "name": "urgency",
+          "value": 10.0,
+          "weight": 0.15,
+          "evidence": [
+            "funding"
+          ],
+          "explanation": "Urgency 10.0/100 \u2014 why-now pressure from 1 triggers."
+        },
+        {
+          "name": "accessibility",
+          "value": 16.0,
+          "weight": 0.15,
+          "evidence": [
+            "Website present",
+            "Website/domain available",
+            "No decision maker identified yet"
+          ],
+          "explanation": "Accessibility 16.0/100 based on channels and decision makers."
+        },
+        {
+          "name": "competition",
+          "value": 90.0,
+          "weight": 0.1,
+          "evidence": [
+            "Vendor categories present: ai",
+            "ai: openai",
+            "Opportunity gap categories open: 5"
+          ],
+          "explanation": "Competition gap 90.0/100 \u2014 1 vendor categories present, 5 open wedges."
+        }
+      ],
+      "evidence_chain": [
+        "Industry matches Mobile App Development",
+        "Buying signals: funding",
+        "Growth signals: funding",
+        "Funding stage scaling",
+        "funding",
+        "Budget band small",
+        "Employees unknown",
+        "Website present",
+        "Website/domain available",
+        "No decision maker identified yet",
+        "Vendor categories present: ai",
+        "ai: openai",
+        "Opportunity gap categories open: 5"
+      ],
+      "explanations": {
+        "tier": "low",
+        "country": "unknown",
+        "why_now": "Trigger: funding. Industry matches Mobile App Development. Buying signals: funding. Ideal time to pitch Mobile App Development.",
+        "industry": "unknown"
+      },
+      "hunter_triggered": false,
+      "hunter_tasks": [],
+      "proceed_to_copilot": false,
+      "scoring_version": "tai-v1",
+      "created_at": "2026-07-28T23:59:00.722644+00:00"
+    },
+    {
+      "id": "22ed0216-7ca9-465d-986b-50741e1fa87a",
+      "company_id": "94b29ff3-fa01-4bab-bd88-ebe003d39d35",
+      "opportunity_id": "d56107af-6d66-466d-bc97-268552e573bf",
+      "company_name": "DeepSeek",
+      "industry": "unknown",
+      "country": "unknown",
+      "matched_icp_key": "mobile_app_development",
+      "matched_icp_name": "Mobile App Development",
+      "service_match": "Mobile App Development",
+      "fit_score": 35.35,
+      "intent_score": 12.0,
+      "budget_score": 35.0,
+      "budget_band": "small",
+      "urgency_score": 10.0,
+      "accessibility_score": 16.0,
+      "competition_score": 90.0,
+      "revenue_opportunity_score": 29.39,
+      "tier": "low",
+      "why_now": "Trigger: funding. Industry matches Mobile App Development. Buying signals: funding. Ideal time to pitch Mobile App Development.",
+      "buying_signals": [
+        "funding"
+      ],
+      "negative_signals": [],
+      "score_breakdown": [
+        {
+          "name": "fit",
+          "value": 35.35,
+          "weight": 0.25,
+          "evidence": [
+            "Industry matches Mobile App Development",
+            "Buying signals: funding",
+            "Growth signals: funding",
+            "Funding stage scaling"
+          ],
+          "explanation": "Company fit 35.3/100 against ICP 'Mobile App Development' (ICP match 30.5)."
+        },
+        {
+          "name": "intent",
+          "value": 12.0,
+          "weight": 0.2,
+          "evidence": [
+            "funding"
+          ],
+          "explanation": "Buying intent 12.0/100 from 1 active signals."
+        },
+        {
+          "name": "budget",
+          "value": 35.0,
+          "weight": 0.15,
+          "evidence": [
+            "Budget band small",
+            "Employees unknown"
+          ],
+          "explanation": "Budget capacity estimated as small (35.0/100)."
+        },
+        {
+          "name": "urgency",
+          "value": 10.0,
+          "weight": 0.15,
+          "evidence": [
+            "funding"
+          ],
+          "explanation": "Urgency 10.0/100 \u2014 why-now pressure from 1 triggers."
+        },
+        {
+          "name": "accessibility",
+          "value": 16.0,
+          "weight": 0.15,
+          "evidence": [
+            "Website present",
+            "Website/domain available",
+            "No decision maker identified yet"
+          ],
+          "explanation": "Accessibility 16.0/100 based on channels and decision makers."
+        },
+        {
+          "name": "competition",
+          "value": 90.0,
+          "weight": 0.1,
+          "evidence": [
+            "Vendor categories present: ai",
+            "ai: openai",
+            "Opportunity gap categories open: 5"
+          ],
+          "explanation": "Competition gap 90.0/100 \u2014 1 vendor categories present, 5 open wedges."
+        }
+      ],
+      "evidence_chain": [
+        "Industry matches Mobile App Development",
+        "Buying signals: funding",
+        "Growth signals: funding",
+        "Funding stage scaling",
+        "funding",
+        "Budget band small",
+        "Employees unknown",
+        "Website present",
+        "Website/domain available",
+        "No decision maker identified yet",
+        "Vendor categories present: ai",
+        "ai: openai",
+        "Opportunity gap categories open: 5"
+      ],
+      "explanations": {
+        "tier": "low",
+        "country": "unknown",
+        "why_now": "Trigger: funding. Industry matches Mobile App Development. Buying signals: funding. Ideal time to pitch Mobile App Development.",
+        "industry": "unknown"
+      },
+      "hunter_triggered": false,
+      "hunter_tasks": [],
+      "proceed_to_copilot": false,
+      "scoring_version": "tai-v1",
+      "created_at": "2026-07-28T23:59:00.586806+00:00"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+# Competitor, Partner, Client, Demo Company Configuration
+# Companies listed here are ALWAYS rejected by the Discovery Quality Engine.
+
+competitors:
+  - google
+  - microsoft
+  - amazon
+  - meta
+  - apple
+  - salesforce
+  - hubspot
+  - oracle
+  - sap
+  - adobe
+  - service now
+  - zendesk
+  - freshworks
+  - intercom
+  - drift
+  - outreach
+  - salesloft
+  - apollo
+  - zoominfo
+  - linkedin
+
+partners:
+  - deloitte
+  - accenture
+  - ibm
+
+existing_clients:
+  # Add existing client company names here
+
+internal_test:
+  - test company
+  - acme corp
+  - demo inc
+  - example llc
+  - sample organization
+
+demo_companies:
+  - demo company
+  - sandbox corp
+  - staging inc
+  - playground llc

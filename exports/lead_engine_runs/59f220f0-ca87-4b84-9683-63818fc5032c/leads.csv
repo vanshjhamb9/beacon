@@ -1,0 +1,2 @@
+id,company,founder_name,founder_role,email,phone,website,city,category,size,employee_estimate,employee_estimate_source,platform,intent_score,grade,why,signal,subject,body,outreach_status,source
+b98102f2-9e42-5b39-9313-7a82f219b38d,House of EM5,,Founder,em5support@indiainfotech.com,914217733917,https://houseofem5.com,Indore,beauty,small/mid D2C,26,size_field:small/mid D2C,D2C,83.0,SALES_READY,Found 1 instances of faq_volume references,live_discovery,,,ready,live_verified_enrichment

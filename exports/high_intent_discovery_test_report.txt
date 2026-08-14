@@ -1,0 +1,297 @@
+======================================================================
+HIGH-INTENT OPPORTUNITY DISCOVERY TEST REPORT
+Generated: 2026-08-08 19:12:28
+Scoring Model: Intent*0.35 + Evidence Quality*0.20 + ICP Fit*0.15 + Outsourcing Fit*0.20 + Service Match*0.10
+======================================================================
+
+SUMMARY:
+  Total opportunities: 20
+  HIGH_PRIORITY: 17
+  QUALIFIED: 3
+  NEEDS_RESEARCH: 0
+  REJECT: 0
+
+======================================================================
+ALL OPPORTUNITIES (sorted by score):
+======================================================================
+
+1. [HIGH_PRIORITY] Shopify WhatsApp Chatbot Developer (Upwork)
+   ID: HI-018
+   Person: Upwork Client
+   Platform: Upwork
+   Score: 93.5
+   Intent: 97 | Evidence: 93 | ICP: 100 | Outsource: 100 | Service: 60
+   URL: https://www.upwork.com/nx/search/jobs/?q=Shopify+WhatsApp+chatbot+developer
+   Date: Active
+   Services: Shopify, WhatsApp, chatbot, e-commerce
+   Industry: E-commerce
+   Stage: GROWING
+   Outsourcing Intent: EXPLICIT
+   Notes: Upwork client needs Shopify WhatsApp chatbot. Perfect COMAI + Shopify match.
+
+2. [HIGH_PRIORITY] SaaS MVP Development (Upwork)
+   ID: HI-012
+   Person: Upwork Client
+   Platform: Upwork
+   Score: 92.8
+   Intent: 95 | Evidence: 90 | ICP: 90 | Outsource: 100 | Service: 80
+   URL: https://www.upwork.com/nx/search/jobs/?q=SaaS+MVP+development
+   Date: Active
+   Services: SaaS MVP, full stack, backend, API
+   Industry: SaaS
+   Stage: EARLY
+   Outsourcing Intent: EXPLICIT
+   Notes: Active Upwork job posting for SaaS MVP development. Client is actively hiring.
+
+3. [HIGH_PRIORITY] WhatsApp Customer Service Bot (Upwork)
+   ID: HI-020
+   Person: Upwork Client
+   Platform: Upwork
+   Score: 92.8
+   Intent: 96 | Evidence: 91 | ICP: 100 | Outsource: 100 | Service: 60
+   URL: https://www.upwork.com/nx/search/jobs/?q=WhatsApp+customer+service+bot
+   Date: Active
+   Services: WhatsApp, chatbot, customer support, automation
+   Industry: Customer Service
+   Stage: GROWING
+   Outsourcing Intent: EXPLICIT
+   Notes: Upwork client needs WhatsApp customer service bot. Perfect COMAI match.
+
+4. [HIGH_PRIORITY] WhatsApp Chatbot for E-commerce (Upwork)
+   ID: HI-019
+   Person: Upwork Client
+   Platform: Upwork
+   Score: 92.2
+   Intent: 95 | Evidence: 90 | ICP: 100 | Outsource: 100 | Service: 60
+   URL: https://www.upwork.com/nx/search/jobs/?q=WhatsApp+chatbot+for+e-commerce
+   Date: Active
+   Services: WhatsApp, chatbot, e-commerce, customer support
+   Industry: E-commerce
+   Stage: GROWING
+   Outsourcing Intent: EXPLICIT
+   Notes: Upwork client needs WhatsApp chatbot for e-commerce. Strong COMAI match.
+
+5. [HIGH_PRIORITY] Build SaaS MVP in 5 Days (Upwork)
+   ID: HI-015
+   Person: Upwork Client
+   Platform: Upwork
+   Score: 91.5
+   Intent: 96 | Evidence: 92 | ICP: 90 | Outsource: 100 | Service: 60
+   URL: https://www.upwork.com/nx/search/jobs/?q=build+SaaS+MVP+in+5+days
+   Date: Active
+   Services: SaaS MVP, rapid development, full stack
+   Industry: SaaS
+   Stage: EARLY
+   Outsourcing Intent: EXPLICIT
+   Notes: Upwork client wants SaaS MVP built in 5 days. Urgent need.
+
+6. [HIGH_PRIORITY] Revenue SaaS Hiring Full-Stack Engineer
+   ID: HI-004
+   Person: Unknown (r/cofounderhunt)
+   Platform: Reddit
+   Score: 90.8
+   Intent: 92 | Evidence: 88 | ICP: 100 | Outsource: 100 | Service: 60
+   URL: https://www.reddit.com/r/cofounderhunt/comments/1ul570p/
+   Date: 2-3 months ago
+   Services: SaaS, full stack, backend, API
+   Industry: SaaS
+   Stage: GROWING
+   Outsourcing Intent: EXPLICIT
+   Notes: Revenue SaaS explicitly hiring full-stack engineer. Strong outsourcing signal.
+
+7. [HIGH_PRIORITY] Full-Stack SaaS MVP Developer (Upwork)
+   ID: HI-017
+   Person: Upwork Client
+   Platform: Upwork
+   Score: 90.2
+   Intent: 94 | Evidence: 89 | ICP: 90 | Outsource: 100 | Service: 60
+   URL: https://www.upwork.com/nx/search/jobs/?q=full-stack+SaaS+MVP+developer
+   Date: Active
+   Services: SaaS MVP, full stack, backend, frontend
+   Industry: SaaS
+   Stage: EARLY
+   Outsourcing Intent: EXPLICIT
+   Notes: Upwork client needs full-stack SaaS MVP developer. Active job.
+
+8. [HIGH_PRIORITY] WhatsApp Inventory Management Bot (Upwork)
+   ID: HI-014
+   Person: Upwork Client
+   Platform: Upwork
+   Score: 90.1
+   Intent: 94 | Evidence: 91 | ICP: 100 | Outsource: 100 | Service: 40
+   URL: https://www.upwork.com/nx/search/jobs/?q=WhatsApp+inventory+management+bot
+   Date: Active
+   Services: WhatsApp, chatbot, inventory management, automation
+   Industry: E-commerce
+   Stage: GROWING
+   Outsourcing Intent: EXPLICIT
+   Notes: Upwork client needs WhatsApp inventory management bot. Perfect COMAI match.
+
+9. [HIGH_PRIORITY] Fast SaaS MVP Builder (Upwork)
+   ID: HI-013
+   Person: Upwork Client
+   Platform: Upwork
+   Score: 89.7
+   Intent: 93 | Evidence: 88 | ICP: 90 | Outsource: 100 | Service: 60
+   URL: https://www.upwork.com/nx/search/jobs/?q=fast+SaaS+MVP+builder
+   Date: Active
+   Services: SaaS MVP, rapid development, full stack
+   Industry: SaaS
+   Stage: EARLY
+   Outsourcing Intent: EXPLICIT
+   Notes: Upwork client needs fast SaaS MVP builder. Active job posting.
+
+10. [HIGH_PRIORITY] Retail Tech Cofounder Needed
+   ID: HI-003
+   Person: Unknown (r/cofounderhunt)
+   Platform: Reddit
+   Score: 86.7
+   Intent: 88 | Evidence: 82 | ICP: 90 | Outsource: 100 | Service: 60
+   URL: https://www.reddit.com/r/cofounderhunt/comments/1uh95i9/
+   Date: 2-3 months ago
+   Services: SaaS MVP, retail tech, full stack
+   Industry: Retail/E-commerce
+   Stage: EARLY
+   Outsourcing Intent: EXPLICIT
+   Notes: Retail tech cofounder. Building SaaS for retail industry.
+
+11. [HIGH_PRIORITY] n8n Workflow with WhatsApp Integration (Upwork)
+   ID: HI-016
+   Person: Upwork Client
+   Platform: Upwork
+   Score: 85.8
+   Intent: 91 | Evidence: 87 | ICP: 70 | Outsource: 100 | Service: 60
+   URL: https://www.upwork.com/nx/search/jobs/?q=n8n+workflow+WhatsApp+integration
+   Date: Active
+   Services: n8n, WhatsApp, workflow automation, API integration
+   Industry: Automation
+   Stage: EARLY
+   Outsourcing Intent: EXPLICIT
+   Notes: Upwork client needs n8n workflow with WhatsApp integration.
+
+12. [HIGH_PRIORITY] AI Systems Technical Cofounder Needed
+   ID: HI-001
+   Person: Aggressive_Buy_4411
+   Platform: Reddit
+   Score: 85.0
+   Intent: 90 | Evidence: 85 | ICP: 70 | Outsource: 100 | Service: 60
+   URL: https://www.reddit.com/r/cofounderhunt/comments/1tt8lgf/
+   Date: 2-3 months ago
+   Services: AI, full stack, backend
+   Industry: AI/ML
+   Stage: EARLY
+   Outsourcing Intent: EXPLICIT
+   Notes: Looking for technical cofounder for AI systems. Explicitly hiring. Early stage startup.
+
+13. [HIGH_PRIORITY] Agency Hiring Web Developer
+   ID: HI-009
+   Person: sine-si
+   Platform: Reddit
+   Score: 84.9
+   Intent: 90 | Evidence: 82 | ICP: 100 | Outsource: 100 | Service: 20
+   URL: https://www.reddit.com/r/WebDeveloperJobs/comments/1u6nmyq/
+   Date: 3+ months ago
+   Services: web development, frontend, backend
+   Industry: Agency
+   Stage: GROWING
+   Outsourcing Intent: EXPLICIT
+   Notes: Agency hiring web developer. Explicit job posting.
+
+14. [HIGH_PRIORITY] Finance App Developer Needed
+   ID: HI-008
+   Person: FlyFunny8902
+   Platform: Reddit
+   Score: 84.3
+   Intent: 88 | Evidence: 85 | ICP: 70 | Outsource: 100 | Service: 60
+   URL: https://www.reddit.com/r/AppDevelopers/comments/1thtcwj/
+   Date: 2-3 months ago
+   Services: mobile app, finance, iOS, android
+   Industry: Finance
+   Stage: EARLY
+   Outsourcing Intent: EXPLICIT
+   Notes: Looking for developer for finance app. Explicitly hiring.
+
+15. [HIGH_PRIORITY] iOS App Cofounder Needed
+   ID: HI-002
+   Person: Unknown (r/cofounderhunt)
+   Platform: Reddit
+   Score: 82.2
+   Intent: 85 | Evidence: 80 | ICP: 70 | Outsource: 100 | Service: 60
+   URL: https://www.reddit.com/r/cofounderhunt/comments/1sjnpg5/
+   Date: 2-3 months ago
+   Services: iOS, mobile app, react native
+   Industry: Mobile App
+   Stage: EARLY
+   Outsourcing Intent: EXPLICIT
+   Notes: Looking for iOS app cofounder. Explicitly seeking technical partner.
+
+16. [HIGH_PRIORITY] WhatsApp Chatbot for Customer Service
+   ID: HI-006
+   Person: GENERICO_____
+   Platform: Reddit
+   Score: 82.2
+   Intent: 85 | Evidence: 80 | ICP: 70 | Outsource: 100 | Service: 60
+   URL: https://www.reddit.com/r/n8n/comments/1k6f7cd/
+   Date: 3+ months ago
+   Services: WhatsApp, chatbot, customer support, n8n
+   Industry: Customer Service
+   Stage: EARLY
+   Outsourcing Intent: EXPLICIT
+   Notes: Explicitly needs WhatsApp chatbot for customer service. Perfect COMAI match.
+
+17. [HIGH_PRIORITY] AI Video/Animation Technical Cofounder
+   ID: HI-005
+   Person: Authority0fReddit
+   Platform: Reddit
+   Score: 81.5
+   Intent: 87 | Evidence: 83 | ICP: 70 | Outsource: 100 | Service: 40
+   URL: https://www.reddit.com/r/cofounderhunt/comments/1v31w66/
+   Date: 1 month ago
+   Services: AI, video, animation, backend
+   Industry: AI/Media
+   Stage: EARLY
+   Outsourcing Intent: EXPLICIT
+   Notes: AI video/animation technical cofounder. Early stage, needs AI expertise.
+
+18. [QUALIFIED] First-Time Builder, WhatsApp API Banned
+   ID: HI-007
+   Person: Fair-Resort8854
+   Platform: Reddit
+   Score: 77.8
+   Intent: 82 | Evidence: 78 | ICP: 70 | Outsource: 75 | Service: 80
+   URL: https://www.reddit.com/r/WhatsappBusinessAPI/comments/1ukimj2/
+   Date: 2-3 months ago
+   Services: WhatsApp, chatbot, API integration
+   Industry: WhatsApp Business
+   Stage: EARLY
+   Outsourcing Intent: STRONG
+   Notes: First-time builder, WhatsApp API got banned. Needs help with WhatsApp integration.
+
+19. [QUALIFIED] Healthcare SaaS Bootstrapping
+   ID: HI-011
+   Person: neb2357
+   Platform: Reddit
+   Score: 77.2
+   Intent: 83 | Evidence: 78 | ICP: 90 | Outsource: 75 | Service: 40
+   URL: https://www.reddit.com/r/startups/comments/1tzxh1l/
+   Date: 2-3 months ago
+   Services: SaaS, healthcare, backend, API
+   Industry: Healthcare
+   Stage: EARLY
+   Outsourcing Intent: STRONG
+   Notes: Bootstrapping healthcare SaaS. Needs technical help.
+
+20. [QUALIFIED] Developer Building Micro-SaaS
+   ID: HI-010
+   Person: Specialist-Step1314
+   Platform: Reddit
+   Score: 65.8
+   Intent: 75 | Evidence: 70 | ICP: 90 | Outsource: 50 | Service: 20
+   URL: https://www.reddit.com/r/SaaS/comments/1qvg6dc/
+   Date: 4+ months ago
+   Services: SaaS, micro-saaS, full stack
+   Industry: SaaS
+   Stage: EARLY
+   Outsourcing Intent: POSSIBLE
+   Notes: Developer building micro-SaaS. May need development help.
+

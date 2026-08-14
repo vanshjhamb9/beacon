@@ -1,0 +1,379 @@
+{
+  "mission": "Phase 2 \u2014 Revenue Readiness Perfection live audit",
+  "generated_at": "2026-07-25T16:09:56.142700+00:00",
+  "impact_statement": "This change increased Revenue Ready companies from 10 to 10.",
+  "before": {
+    "verified_companies": 194,
+    "business_emails": 55,
+    "decision_makers": 24,
+    "decision_maker_emails": 1,
+    "decision_maker_contact_methods": 10,
+    "sales_ready": 13,
+    "revenue_ready": 10,
+    "confidence_ge_90": 11,
+    "trust_ge_95": 10
+  },
+  "after": {
+    "verified_companies": 194,
+    "business_emails": 54,
+    "decision_makers": 24,
+    "decision_maker_emails": 0,
+    "decision_maker_contact_methods": 10,
+    "sales_ready": 13,
+    "revenue_ready": 10,
+    "confidence_ge_90": 10,
+    "trust_ge_95": 10
+  },
+  "promoted": [
+    {
+      "company_id": "3dac17bd-7aab-4e38-b339-5e98250ea979",
+      "company": "CircuitHub",
+      "logo": null,
+      "website": "https://circuithub.com",
+      "decision_maker": "Andrew Seddon (Founder / CEO)",
+      "decision_maker_email": null,
+      "business_email": "support@circuithub.com",
+      "why_now": "YC portfolio company (Winter 2012) \u2014 expansion / growth context",
+      "recommended_service": "AI Recruiting Automation",
+      "confidence": 99.0,
+      "trust": 99.0,
+      "revenue_ready": true,
+      "last_verified": "2026-07-25",
+      "evidence_count": 4,
+      "blockers": []
+    },
+    {
+      "company_id": "41445fd5-b6a0-4a26-9095-12a019d6fca5",
+      "company": "Quartzy",
+      "logo": null,
+      "website": "https://quartzy.com",
+      "decision_maker": "Jayant Kulkarni (Founder / CEO)",
+      "decision_maker_email": null,
+      "business_email": "support@quartzy.com",
+      "why_now": "YC portfolio company (Summer 2011) \u2014 expansion / growth context",
+      "recommended_service": "AI Recruiting Automation",
+      "confidence": 99.0,
+      "trust": 99.0,
+      "revenue_ready": true,
+      "last_verified": "2026-07-25",
+      "evidence_count": 4,
+      "blockers": []
+    },
+    {
+      "company_id": "4ec3b262-5659-44b4-9da6-ca67e4335d95",
+      "company": "SmartAsset",
+      "logo": null,
+      "website": "https://smartasset.com",
+      "decision_maker": "Michael Carvin (Founder / CEO)",
+      "decision_maker_email": null,
+      "business_email": "info@smartasset.com",
+      "why_now": "YC portfolio company (Summer 2012) \u2014 expansion / growth context",
+      "recommended_service": "AI Recruiting Automation",
+      "confidence": 99.0,
+      "trust": 99.0,
+      "revenue_ready": true,
+      "last_verified": "2026-07-25",
+      "evidence_count": 4,
+      "blockers": []
+    },
+    {
+      "company_id": "4d7a25e0-3fe8-46ab-a7de-23bdd3c71db2",
+      "company": "Multiply Labs",
+      "logo": null,
+      "website": "https://multiplylabs.com",
+      "decision_maker": "Fred Parietti (Founder / CEO)",
+      "decision_maker_email": null,
+      "business_email": "marketing@multiplylabs.com",
+      "why_now": "YC portfolio company (Summer 2016) \u2014 expansion / growth context",
+      "recommended_service": "AI Recruiting Automation",
+      "confidence": 99.0,
+      "trust": 99.0,
+      "revenue_ready": true,
+      "last_verified": "2026-07-25",
+      "evidence_count": 4,
+      "blockers": []
+    },
+    {
+      "company_id": "32909923-e982-469a-9936-66e0ed5aaed4",
+      "company": "PiinPoint",
+      "logo": null,
+      "website": "https://piinpoint.com",
+      "decision_maker": "Jim Robeson (CEO)",
+      "decision_maker_email": null,
+      "business_email": "info@piinpoint.com",
+      "why_now": "YC portfolio company (Winter 2014) \u2014 expansion / growth context",
+      "recommended_service": "AI Recruiting Automation",
+      "confidence": 99.0,
+      "trust": 99.0,
+      "revenue_ready": true,
+      "last_verified": "2026-07-25",
+      "evidence_count": 4,
+      "blockers": []
+    },
+    {
+      "company_id": "3c83b422-9a8a-4cf4-8226-05ba2b77f585",
+      "company": "Ambient.ai",
+      "logo": null,
+      "website": "https://ambient.ai",
+      "decision_maker": "Shikhar Shrestha (Founder / CEO)",
+      "decision_maker_email": null,
+      "business_email": "sales@ambient.ai",
+      "why_now": "YC portfolio company (Winter 2017) \u2014 expansion / growth context",
+      "recommended_service": "AI Recruiting Automation",
+      "confidence": 99.0,
+      "trust": 99.0,
+      "revenue_ready": true,
+      "last_verified": "2026-07-25",
+      "evidence_count": 4,
+      "blockers": []
+    },
+    {
+      "company_id": "43f250b4-34c0-41ca-8a53-bb9ea665c1b3",
+      "company": "Heroic Labs",
+      "logo": null,
+      "website": "https://heroiclabs.com",
+      "decision_maker": "Chris Molozian (Founder / CEO)",
+      "decision_maker_email": null,
+      "business_email": "sales@heroiclabs.com",
+      "why_now": "YC portfolio company (Summer 2015) \u2014 expansion / growth context",
+      "recommended_service": "AI Recruiting Automation",
+      "confidence": 99.0,
+      "trust": 99.0,
+      "revenue_ready": true,
+      "last_verified": "2026-07-25",
+      "evidence_count": 4,
+      "blockers": []
+    },
+    {
+      "company_id": "172c1791-4004-4e85-abf5-6ffc9e6d28b1",
+      "company": "Verge Genomics",
+      "logo": null,
+      "website": "https://vergegenomics.com",
+      "decision_maker": "Alice Zhang (Founder / CEO)",
+      "decision_maker_email": null,
+      "business_email": "info@vergegenomics.com",
+      "why_now": "YC portfolio company (Summer 2015) \u2014 expansion / growth context",
+      "recommended_service": "AI Recruiting Automation",
+      "confidence": 99.0,
+      "trust": 99.0,
+      "revenue_ready": true,
+      "last_verified": "2026-07-25",
+      "evidence_count": 4,
+      "blockers": []
+    },
+    {
+      "company_id": "8d12a4b6-6d70-4d7b-8bd2-10350fd8ab11",
+      "company": "Giveffect",
+      "logo": null,
+      "website": "https://giveffect.com",
+      "decision_maker": "Abbey Scott (Chief Executive Officer)",
+      "decision_maker_email": null,
+      "business_email": "support@giveffect.com",
+      "why_now": "YC portfolio company (Winter 2015) \u2014 expansion / growth context",
+      "recommended_service": "AI Recruiting Automation",
+      "confidence": 99.0,
+      "trust": 99.0,
+      "revenue_ready": true,
+      "last_verified": "2026-07-25",
+      "evidence_count": 4,
+      "blockers": []
+    },
+    {
+      "company_id": "bf5105f2-be96-460c-a9c1-b364a726d7e7",
+      "company": "Amplitude",
+      "logo": null,
+      "website": "https://amplitude.com",
+      "decision_maker": "Spenser Skates (Founder / CEO)",
+      "decision_maker_email": null,
+      "business_email": "sales@amplitude.com",
+      "why_now": "YC portfolio company (Winter 2012) \u2014 expansion / growth context",
+      "recommended_service": "AI Recruiting Automation",
+      "confidence": 99.0,
+      "trust": 99.0,
+      "revenue_ready": true,
+      "last_verified": "2026-07-25",
+      "evidence_count": 4,
+      "blockers": []
+    }
+  ],
+  "still_blocked": [
+    {
+      "company_id": "b00a49f9-d37c-40b2-b52c-5c00991d37d3",
+      "company": "tiimo ApS",
+      "logo": null,
+      "website": "https://tiimoapp.com",
+      "decision_maker": "Melissa (Co-Founder)",
+      "decision_maker_email": null,
+      "business_email": "support@tiimoapp.com",
+      "why_now": "Active App Store product listing \u2014 consumer/SaaS growth signal",
+      "recommended_service": "AI Customer Support Automation",
+      "confidence": 88.0,
+      "trust": 80.0,
+      "revenue_ready": false,
+      "last_verified": "2026-07-25",
+      "evidence_count": 3,
+      "blockers": [
+        "Generic Decision Maker",
+        "Low Confidence",
+        "Low Trust"
+      ]
+    },
+    {
+      "company_id": "77b05b8d-60d0-4b6f-8ee6-6af509ed0efe",
+      "company": "Stripe",
+      "logo": null,
+      "website": "https://stripe.com",
+      "decision_maker": "Patrick Collison (Founder / CEO)",
+      "decision_maker_email": null,
+      "business_email": null,
+      "why_now": "YC portfolio company (Summer 2009) \u2014 expansion / growth context",
+      "recommended_service": "AI Recruiting Automation",
+      "confidence": 88.0,
+      "trust": 75.0,
+      "revenue_ready": false,
+      "last_verified": "2026-07-25",
+      "evidence_count": 4,
+      "blockers": [
+        "Missing Email",
+        "Low Confidence",
+        "Low Trust"
+      ]
+    },
+    {
+      "company_id": "741c6b44-c62e-4e63-b14f-b846bd9ce88a",
+      "company": "GitHub: zapier/wade-skills",
+      "logo": null,
+      "website": "https://zapier.com",
+      "decision_maker": "Marcelo Lebre (Co-Founder)",
+      "decision_maker_email": null,
+      "business_email": "privacy@zapier.com",
+      "why_now": "Active GitHub identity with official website",
+      "recommended_service": "AI Customer Support Automation",
+      "confidence": 82.0,
+      "trust": 65.0,
+      "revenue_ready": false,
+      "last_verified": "2026-07-25",
+      "evidence_count": 3,
+      "blockers": [
+        "Missing Email",
+        "Missing Intent",
+        "Low Confidence",
+        "Low Trust"
+      ]
+    }
+  ],
+  "blocker_counts": {
+    "Generic Decision Maker": 1,
+    "Low Confidence": 3,
+    "Low Trust": 3,
+    "Missing Email": 2,
+    "Missing Intent": 1
+  },
+  "confidence_distribution": [
+    99.0,
+    99.0,
+    88.0,
+    88.0,
+    82.0,
+    99.0,
+    99.0,
+    99.0,
+    99.0,
+    99.0,
+    99.0,
+    99.0,
+    99.0
+  ],
+  "trust_distribution": [
+    99.0,
+    99.0,
+    80.0,
+    75.0,
+    65.0,
+    99.0,
+    99.0,
+    99.0,
+    99.0,
+    99.0,
+    99.0,
+    99.0,
+    99.0
+  ],
+  "cto_answers": {
+    "1_revenue_ready": 10,
+    "2_verified_decision_makers": 24,
+    "3_decision_maker_contact_methods": 10,
+    "3b_decision_maker_emails_name_matched": 0,
+    "4_why_now_count": 10,
+    "5_promoted_today": [
+      "CircuitHub",
+      "Quartzy",
+      "SmartAsset",
+      "Multiply Labs",
+      "PiinPoint",
+      "Ambient.ai",
+      "Heroic Labs",
+      "Verge Genomics",
+      "Giveffect",
+      "Amplitude"
+    ],
+    "6_still_blocked": [
+      {
+        "company": "tiimo ApS",
+        "blockers": [
+          "Generic Decision Maker",
+          "Low Confidence",
+          "Low Trust"
+        ]
+      },
+      {
+        "company": "Stripe",
+        "blockers": [
+          "Missing Email",
+          "Low Confidence",
+          "Low Trust"
+        ]
+      },
+      {
+        "company": "GitHub: zapier/wade-skills",
+        "blockers": [
+          "Missing Email",
+          "Missing Intent",
+          "Low Confidence",
+          "Low Trust"
+        ]
+      }
+    ],
+    "7_vansh_contact_10": "YES"
+  },
+  "acceptance": {
+    "sales_ready": {
+      "target": 13,
+      "actual": 13
+    },
+    "revenue_ready": {
+      "target": 10,
+      "actual": 10
+    },
+    "decision_makers": {
+      "target": 24,
+      "actual": 24
+    },
+    "decision_maker_contact_methods": {
+      "target": 10,
+      "actual": 10
+    },
+    "decision_maker_emails_name_matched": {
+      "target": "public evidence only (no fabrication)",
+      "actual": 0
+    },
+    "confidence_ge_90": {
+      "target": 10,
+      "actual": 10
+    },
+    "trust_ge_95": {
+      "target": 10,
+      "actual": 10
+    }
+  }
+}

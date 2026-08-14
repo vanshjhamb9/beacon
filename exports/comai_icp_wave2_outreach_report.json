@@ -1,0 +1,557 @@
+{
+  "generated_at": "2026-08-14T00:40:48.945273+00:00",
+  "from": "vansh@inowix.in",
+  "cc": [
+    "vanshjhamb9@gmail.com",
+    "ragibali84@gmail.com"
+  ],
+  "attempted": 34,
+  "sent": 34,
+  "failed": 0,
+  "results": [
+    {
+      "company": "Earthly Jewels",
+      "founder_name": "",
+      "to_email": "hello@earthlyjewels.co",
+      "phone": "+91 93212 94329",
+      "subject": "Earthly Jewels — WhatsApp AI sales agent for your jewellery brand",
+      "send_result": {
+        "success": true,
+        "to": "hello@earthlyjewels.co",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Earthly Jewels — WhatsApp AI sales agent for your jewellery brand"
+      }
+    },
+    {
+      "company": "Tiny Jewels",
+      "founder_name": "",
+      "to_email": "hello@tinyjewels.in",
+      "phone": "+91 91120 20009",
+      "subject": "Tiny Jewels — WhatsApp AI sales agent for your jewellery brand",
+      "send_result": {
+        "success": true,
+        "to": "hello@tinyjewels.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Tiny Jewels — WhatsApp AI sales agent for your jewellery brand"
+      }
+    },
+    {
+      "company": "Purecarat",
+      "founder_name": "",
+      "to_email": "hello@purecarat.in",
+      "phone": "+91 81609 49270",
+      "subject": "Purecarat — WhatsApp AI sales agent for your jewellery brand",
+      "send_result": {
+        "success": true,
+        "to": "hello@purecarat.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Purecarat — WhatsApp AI sales agent for your jewellery brand"
+      }
+    },
+    {
+      "company": "Mridah",
+      "founder_name": "",
+      "to_email": "hello@mridah.com",
+      "phone": "+91 97043 33588",
+      "subject": "Mridah — WhatsApp AI sales agent for your jewellery brand",
+      "send_result": {
+        "success": true,
+        "to": "hello@mridah.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Mridah — WhatsApp AI sales agent for your jewellery brand"
+      }
+    },
+    {
+      "company": "Mridah",
+      "founder_name": "",
+      "to_email": "help@mridah.com",
+      "phone": "+91 97043 33588",
+      "subject": "Mridah — WhatsApp AI sales agent for your jewellery brand",
+      "send_result": {
+        "success": true,
+        "to": "help@mridah.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Mridah — WhatsApp AI sales agent for your jewellery brand"
+      }
+    },
+    {
+      "company": "TINCH Jewels",
+      "founder_name": "",
+      "to_email": "hello@tinch.co.in",
+      "phone": "+91 77188 29472",
+      "subject": "TINCH Jewels — WhatsApp AI sales agent for your jewellery brand",
+      "send_result": {
+        "success": true,
+        "to": "hello@tinch.co.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "TINCH Jewels — WhatsApp AI sales agent for your jewellery brand"
+      }
+    },
+    {
+      "company": "Svaraa Jewels",
+      "founder_name": "Chahat Shah",
+      "to_email": "care@svaraa.com",
+      "phone": "+91 70694 56456",
+      "subject": "Svaraa Jewels — WhatsApp AI sales agent for your jewellery brand",
+      "send_result": {
+        "success": true,
+        "to": "care@svaraa.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Svaraa Jewels — WhatsApp AI sales agent for your jewellery brand"
+      }
+    },
+    {
+      "company": "Azga",
+      "founder_name": "",
+      "to_email": "hello@azga.in",
+      "phone": "+91 87796 66047",
+      "subject": "Azga — WhatsApp AI sales agent for your jewellery brand",
+      "send_result": {
+        "success": true,
+        "to": "hello@azga.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Azga — WhatsApp AI sales agent for your jewellery brand"
+      }
+    },
+    {
+      "company": "Culturati",
+      "founder_name": "",
+      "to_email": "hello@culturati.in",
+      "phone": "+91 72042 36809",
+      "subject": "Culturati — WhatsApp AI sales agent for your jewellery brand",
+      "send_result": {
+        "success": true,
+        "to": "hello@culturati.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Culturati — WhatsApp AI sales agent for your jewellery brand"
+      }
+    },
+    {
+      "company": "Ciceroni",
+      "founder_name": "",
+      "to_email": "customercare@ciceroni.in",
+      "phone": "+91 99040 45564",
+      "subject": "Ciceroni — WhatsApp AI sales agent for your jewellery brand",
+      "send_result": {
+        "success": true,
+        "to": "customercare@ciceroni.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Ciceroni — WhatsApp AI sales agent for your jewellery brand"
+      }
+    },
+    {
+      "company": "Ciceroni",
+      "founder_name": "",
+      "to_email": "hello@ciceroni.in",
+      "phone": "+91 99040 45564",
+      "subject": "Ciceroni — WhatsApp AI sales agent for your jewellery brand",
+      "send_result": {
+        "success": true,
+        "to": "hello@ciceroni.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Ciceroni — WhatsApp AI sales agent for your jewellery brand"
+      }
+    },
+    {
+      "company": "Amama",
+      "founder_name": "",
+      "to_email": "customercare@amama.in",
+      "phone": "+91 79821 90311",
+      "subject": "Amama — WhatsApp AI sales agent for your jewellery brand",
+      "send_result": {
+        "success": true,
+        "to": "customercare@amama.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Amama — WhatsApp AI sales agent for your jewellery brand"
+      }
+    },
+    {
+      "company": "Kalki Millets",
+      "founder_name": "Santhi TJ",
+      "to_email": "hello@kalkimillets.in",
+      "phone": "+91 63815 92082",
+      "subject": "Kalki Millets — WhatsApp AI sales agent for your food brand",
+      "send_result": {
+        "success": true,
+        "to": "hello@kalkimillets.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Kalki Millets — WhatsApp AI sales agent for your food brand"
+      }
+    },
+    {
+      "company": "Samasta Foods",
+      "founder_name": "Sushant Kalra",
+      "to_email": "hello@samastafoods.com",
+      "phone": "",
+      "subject": "Samasta Foods — WhatsApp AI sales agent for your food brand",
+      "send_result": {
+        "success": true,
+        "to": "hello@samastafoods.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Samasta Foods — WhatsApp AI sales agent for your food brand"
+      }
+    },
+    {
+      "company": "Satvikveda",
+      "founder_name": "Vimal Navapariya",
+      "to_email": "vimal@satvikveda.in",
+      "phone": "",
+      "subject": "Satvikveda — WhatsApp AI sales agent for your food brand",
+      "send_result": {
+        "success": true,
+        "to": "vimal@satvikveda.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Satvikveda — WhatsApp AI sales agent for your food brand"
+      }
+    },
+    {
+      "company": "Lunévra Beauty",
+      "founder_name": "Zuber Rao",
+      "to_email": "zuber@lunevra.in",
+      "phone": "",
+      "subject": "Lunévra Beauty — WhatsApp AI sales agent for your skincare brand",
+      "send_result": {
+        "success": true,
+        "to": "zuber@lunevra.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Lunévra Beauty — WhatsApp AI sales agent for your skincare brand"
+      }
+    },
+    {
+      "company": "Koshah Cosmetics",
+      "founder_name": "Poonam Joshi",
+      "to_email": "koshahcosmetics@gmail.com",
+      "phone": "",
+      "subject": "Koshah Cosmetics — WhatsApp AI sales agent for your beauty brand",
+      "send_result": {
+        "success": true,
+        "to": "koshahcosmetics@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Koshah Cosmetics — WhatsApp AI sales agent for your beauty brand"
+      }
+    },
+    {
+      "company": "D'Moraa",
+      "founder_name": "Brinda Vaja",
+      "to_email": "dmoraa.personalcare@gmail.com",
+      "phone": "",
+      "subject": "D'Moraa — WhatsApp AI sales agent for your skincare brand",
+      "send_result": {
+        "success": true,
+        "to": "dmoraa.personalcare@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "D'Moraa — WhatsApp AI sales agent for your skincare brand"
+      }
+    },
+    {
+      "company": "VeraMoss",
+      "founder_name": "Shriram Deshpande",
+      "to_email": "veramossglobal@gmail.com",
+      "phone": "+91 96997 94249",
+      "subject": "VeraMoss — WhatsApp AI sales agent for your lifestyle brand",
+      "send_result": {
+        "success": true,
+        "to": "veramossglobal@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "VeraMoss — WhatsApp AI sales agent for your lifestyle brand"
+      }
+    },
+    {
+      "company": "Reborn Naturals",
+      "founder_name": "Smit Daredia",
+      "to_email": "smitdworks@gmail.com",
+      "phone": "",
+      "subject": "Reborn Naturals — WhatsApp AI sales agent for your beauty brand",
+      "send_result": {
+        "success": true,
+        "to": "smitdworks@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Reborn Naturals — WhatsApp AI sales agent for your beauty brand"
+      }
+    },
+    {
+      "company": "SVARASYA",
+      "founder_name": "",
+      "to_email": "contact@svarasya.com",
+      "phone": "+91 99713 21001",
+      "subject": "SVARASYA — WhatsApp AI sales agent for your skincare brand",
+      "send_result": {
+        "success": true,
+        "to": "contact@svarasya.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "SVARASYA — WhatsApp AI sales agent for your skincare brand"
+      }
+    },
+    {
+      "company": "Prathaa",
+      "founder_name": "Sukanya Bhattacharya",
+      "to_email": "hello@prathaa.in",
+      "phone": "+91 90823 40500",
+      "subject": "Prathaa — WhatsApp AI sales agent for your fashion brand",
+      "send_result": {
+        "success": true,
+        "to": "hello@prathaa.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Prathaa — WhatsApp AI sales agent for your fashion brand"
+      }
+    },
+    {
+      "company": "Kreation by KJ",
+      "founder_name": "",
+      "to_email": "hello.kreationbykj@zohomail.in",
+      "phone": "+91 62906 56219",
+      "subject": "Kreation by KJ — WhatsApp AI sales agent for your fashion brand",
+      "send_result": {
+        "success": true,
+        "to": "hello.kreationbykj@zohomail.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Kreation by KJ — WhatsApp AI sales agent for your fashion brand"
+      }
+    },
+    {
+      "company": "Summer by Priyanka Gupta",
+      "founder_name": "Priyanka Gupta",
+      "to_email": "info@lovesummer.in",
+      "phone": "+91 98990 70899",
+      "subject": "Summer by Priyanka Gupta — WhatsApp AI sales agent for your fashion brand",
+      "send_result": {
+        "success": true,
+        "to": "info@lovesummer.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Summer by Priyanka Gupta — WhatsApp AI sales agent for your fashion brand"
+      }
+    },
+    {
+      "company": "The Ethnic Label",
+      "founder_name": "",
+      "to_email": "hello@theethniclabel.com",
+      "phone": "+91 70219 91231",
+      "subject": "The Ethnic Label — WhatsApp AI sales agent for your fashion brand",
+      "send_result": {
+        "success": true,
+        "to": "hello@theethniclabel.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "The Ethnic Label — WhatsApp AI sales agent for your fashion brand"
+      }
+    },
+    {
+      "company": "ODE THE LABEL",
+      "founder_name": "",
+      "to_email": "thelabelode@gmail.com",
+      "phone": "",
+      "subject": "ODE THE LABEL — WhatsApp AI sales agent for your fashion brand",
+      "send_result": {
+        "success": true,
+        "to": "thelabelode@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "ODE THE LABEL — WhatsApp AI sales agent for your fashion brand"
+      }
+    },
+    {
+      "company": "PR LABEL",
+      "founder_name": "",
+      "to_email": "hello@prthelabel.com",
+      "phone": "",
+      "subject": "PR LABEL — WhatsApp AI sales agent for your fashion brand",
+      "send_result": {
+        "success": true,
+        "to": "hello@prthelabel.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "PR LABEL — WhatsApp AI sales agent for your fashion brand"
+      }
+    },
+    {
+      "company": "PR LABEL",
+      "founder_name": "",
+      "to_email": "theprlabel@gmail.com",
+      "phone": "",
+      "subject": "PR LABEL — WhatsApp AI sales agent for your fashion brand",
+      "send_result": {
+        "success": true,
+        "to": "theprlabel@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "PR LABEL — WhatsApp AI sales agent for your fashion brand"
+      }
+    },
+    {
+      "company": "Rajasvi Decor",
+      "founder_name": "",
+      "to_email": "rajasvidecor@gmail.com",
+      "phone": "+91 88023 76186",
+      "subject": "Rajasvi Decor — WhatsApp AI sales agent for your home brand",
+      "send_result": {
+        "success": true,
+        "to": "rajasvidecor@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Rajasvi Decor — WhatsApp AI sales agent for your home brand"
+      }
+    },
+    {
+      "company": "Jaivik Store",
+      "founder_name": "",
+      "to_email": "jaivikstore24@gmail.com",
+      "phone": "+91 99874 05367",
+      "subject": "Jaivik Store — WhatsApp AI sales agent for your home brand",
+      "send_result": {
+        "success": true,
+        "to": "jaivikstore24@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Jaivik Store — WhatsApp AI sales agent for your home brand"
+      }
+    },
+    {
+      "company": "Spark Soul",
+      "founder_name": "",
+      "to_email": "econnsparksoul@gmail.com",
+      "phone": "+91 92745 08929",
+      "subject": "Spark Soul — WhatsApp AI sales agent for your home brand",
+      "send_result": {
+        "success": true,
+        "to": "econnsparksoul@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Spark Soul — WhatsApp AI sales agent for your home brand"
+      }
+    },
+    {
+      "company": "Greeniecan India",
+      "founder_name": "Dhirender",
+      "to_email": "dhirender@greeniecan.com",
+      "phone": "+91 99106 28263",
+      "subject": "Greeniecan India — WhatsApp AI sales agent for your personal care brand",
+      "send_result": {
+        "success": true,
+        "to": "dhirender@greeniecan.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Greeniecan India — WhatsApp AI sales agent for your personal care brand"
+      }
+    },
+    {
+      "company": "Greeniecan India",
+      "founder_name": "Dhirender",
+      "to_email": "greeniecan@gmail.com",
+      "phone": "+91 99116 35443",
+      "subject": "Greeniecan India — WhatsApp AI sales agent for your personal care brand",
+      "send_result": {
+        "success": true,
+        "to": "greeniecan@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Greeniecan India — WhatsApp AI sales agent for your personal care brand"
+      }
+    },
+    {
+      "company": "Amama",
+      "founder_name": "",
+      "to_email": "marketing@amama.in",
+      "phone": "+91 98185 23953",
+      "subject": "Amama — WhatsApp AI sales agent for your jewellery brand",
+      "send_result": {
+        "success": true,
+        "to": "marketing@amama.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Amama — WhatsApp AI sales agent for your jewellery brand"
+      }
+    }
+  ]
+}

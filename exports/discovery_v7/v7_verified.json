@@ -1,0 +1,450 @@
+{
+  "audit_name": "V7 Contact + Currentness Verification",
+  "audit_date": "2026-08-08T21:43:27.825348",
+  "total_leads": 5,
+  "summary": {
+    "SALES_READY": 0,
+    "NEEDS_RESEARCH": 1,
+    "REJECT": 4
+  },
+  "leads": [
+    {
+      "opportunity_id": "V6-REDDIT-001",
+      "v6_classification": "HIGH_PRIORITY",
+      "company": "MarylandBid",
+      "person": "betapunch",
+      "verification_date": "2026-08-08T21:43:17.790304",
+      "currentness": {
+        "source_url": "https://old.reddit.com/r/forhire/comments/1spxdi9/",
+        "post_exists": true,
+        "post_date": "2026-04-19",
+        "last_observed": "2026-08-08",
+        "currentness": "CURRENT",
+        "verification_method": "URL_ACCESS_CHECK",
+        "evidence": [
+          {
+            "claim": "Reddit post accessibility",
+            "value": "HTTP 200",
+            "source": "https://old.reddit.com/r/forhire/comments/1spxdi9/",
+            "confidence": "VERIFIED"
+          }
+        ]
+      },
+      "contact": {
+        "decision_maker_name": "betapunch",
+        "decision_maker_role": "Founder",
+        "decision_maker_confidence": "UNVERIFIED",
+        "email": "",
+        "email_status": "UNKNOWN",
+        "linkedin": "",
+        "linkedin_status": "UNKNOWN",
+        "reddit_username": "betapunch",
+        "reddit_verified": true,
+        "company_website": "https://www.marylandbid.com",
+        "company_website_status": "VERIFIED",
+        "founder_website": "",
+        "founder_website_status": "UNKNOWN",
+        "instagram": "",
+        "instagram_status": "UNKNOWN",
+        "contact_channels": [
+          "Reddit DM (u/betapunch)"
+        ],
+        "evidence": [
+          {
+            "claim": "Company website exists",
+            "value": "https://www.marylandbid.com",
+            "confidence": "VERIFIED"
+          },
+          {
+            "claim": "Reddit profile exists",
+            "value": "https://www.reddit.com/user/betapunch/",
+            "confidence": "VERIFIED"
+          }
+        ],
+        "missing_info": [
+          "Real name",
+          "Email address",
+          "LinkedIn profile",
+          "Phone number"
+        ]
+      },
+      "cross_source_evidence": [
+        {
+          "claim": "Live platform",
+          "value": "marylandbid.com is operational",
+          "source": "Direct URL access",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Budget confirmed",
+          "value": "$15,000 - $20,000",
+          "source": "Reddit post",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Tech stack",
+          "value": "Next.js 14, Supabase, Stripe Connect",
+          "source": "Reddit post",
+          "confidence": "VERIFIED"
+        }
+      ],
+      "gates": {
+        "requirement_verified": true,
+        "currentness_verified": true,
+        "decision_maker_verified": false,
+        "outsourcing_intent_explicit": true,
+        "service_match_verified": true,
+        "contact_channel_verified": false,
+        "competitor_free": true,
+        "safety_clear": true
+      },
+      "final_salesability": "REJECT",
+      "rejection_reasons": [
+        "Decision maker identity not verified (Reddit username only)",
+        "No email address found",
+        "No LinkedIn profile found",
+        "Missing info: Real name, Email address, LinkedIn profile, Phone number"
+      ]
+    },
+    {
+      "opportunity_id": "V6-REDDIT-003",
+      "v6_classification": "HIGH_PRIORITY",
+      "company": "Kilova",
+      "person": "Paloma Chiara",
+      "verification_date": "2026-08-08T21:43:22.911333",
+      "currentness": {
+        "source_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+        "post_exists": true,
+        "post_date": "2026-07-13",
+        "last_observed": "2026-08-08",
+        "currentness": "CURRENT",
+        "verification_method": "URL_ACCESS_CHECK",
+        "evidence": [
+          {
+            "claim": "Reddit post accessibility",
+            "value": "HTTP 200",
+            "source": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+            "confidence": "VERIFIED"
+          }
+        ]
+      },
+      "contact": {
+        "decision_maker_name": "Paloma Chiara",
+        "decision_maker_role": "Founder",
+        "decision_maker_confidence": "VERIFIED",
+        "email": "kilova.app@gmail.com",
+        "email_status": "PUBLIC_UNVERIFIED",
+        "linkedin": "https://linkedin.com/in/paloma-chiara",
+        "linkedin_status": "UNVERIFIED",
+        "reddit_username": "paloma_chiara",
+        "reddit_verified": true,
+        "company_website": "https://kilova.app",
+        "company_website_status": "VERIFIED",
+        "founder_website": "https://palomachiara.com",
+        "founder_website_status": "VERIFIED",
+        "instagram": "@paloma_chiara.coach",
+        "instagram_status": "VERIFIED",
+        "contact_channels": [
+          "Email (kilova.app@gmail.com)",
+          "LinkedIn DM",
+          "Instagram DM",
+          "Contact form (palomachiara.com/contact/)"
+        ],
+        "evidence": [
+          {
+            "claim": "Company website exists",
+            "value": "https://kilova.app",
+            "confidence": "VERIFIED"
+          },
+          {
+            "claim": "Founder website exists",
+            "value": "https://palomachiara.com",
+            "confidence": "VERIFIED"
+          },
+          {
+            "claim": "LinkedIn profile exists",
+            "value": "https://linkedin.com/in/paloma-chiara",
+            "confidence": "NOT_VERIFIED"
+          },
+          {
+            "claim": "Instagram profile exists",
+            "value": "https://www.instagram.com/paloma_chiara.coach/",
+            "confidence": "VERIFIED"
+          },
+          {
+            "claim": "Email published on website",
+            "value": "kilova.app@gmail.com",
+            "confidence": "PUBLIC_UNVERIFIED"
+          }
+        ],
+        "missing_info": [
+          "Email deliverability confirmation"
+        ]
+      },
+      "cross_source_evidence": [
+        {
+          "claim": "Live web app",
+          "value": "kilova.app is operational",
+          "source": "Direct URL access",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Founder identity",
+          "value": "Paloma Chiara",
+          "source": "kilova.app + palomachiara.com",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Budget confirmed",
+          "value": "$2,000 USD MVP",
+          "source": "Reddit post",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Pricing model",
+          "value": "$5/month subscription",
+          "source": "kilova.app",
+          "confidence": "VERIFIED"
+        }
+      ],
+      "gates": {
+        "requirement_verified": true,
+        "currentness_verified": true,
+        "decision_maker_verified": false,
+        "outsourcing_intent_explicit": true,
+        "service_match_verified": true,
+        "contact_channel_verified": false,
+        "competitor_free": true,
+        "safety_clear": true
+      },
+      "final_salesability": "NEEDS_RESEARCH",
+      "rejection_reasons": [
+        "Email status: PUBLIC_UNVERIFIED (not confirmed deliverable)"
+      ]
+    },
+    {
+      "opportunity_id": "V6-REDDIT-002",
+      "v6_classification": "QUALIFIED",
+      "company": "Entertainment News Publisher",
+      "person": "jason23a",
+      "verification_date": "2026-08-08T21:43:26.517626",
+      "currentness": {
+        "source_url": "https://old.reddit.com/r/forhire/comments/1u9a9d8/",
+        "post_exists": true,
+        "post_date": "2026-07-08",
+        "last_observed": "2026-08-08",
+        "currentness": "CURRENT",
+        "verification_method": "URL_ACCESS_CHECK",
+        "evidence": [
+          {
+            "claim": "Reddit post accessibility",
+            "value": "HTTP 200",
+            "source": "https://old.reddit.com/r/forhire/comments/1u9a9d8/",
+            "confidence": "VERIFIED"
+          }
+        ]
+      },
+      "contact": {
+        "decision_maker_name": "jason23a",
+        "decision_maker_role": "Unknown",
+        "decision_maker_confidence": "UNKNOWN",
+        "email": "",
+        "email_status": "UNKNOWN",
+        "linkedin": "",
+        "linkedin_status": "UNKNOWN",
+        "reddit_username": "jason23a",
+        "reddit_verified": true,
+        "company_website": "",
+        "company_website_status": "UNKNOWN",
+        "founder_website": "",
+        "founder_website_status": "UNKNOWN",
+        "instagram": "",
+        "instagram_status": "UNKNOWN",
+        "contact_channels": [
+          "Reddit DM (u/jason23a)"
+        ],
+        "evidence": [],
+        "missing_info": [
+          "Real name",
+          "Company name",
+          "Email",
+          "LinkedIn",
+          "Role"
+        ]
+      },
+      "cross_source_evidence": [
+        {
+          "claim": "Reddit post exists",
+          "value": "https://old.reddit.com/r/forhire/comments/1u9a9d8/",
+          "confidence": "VERIFIED"
+        }
+      ],
+      "gates": {
+        "requirement_verified": true,
+        "currentness_verified": true,
+        "decision_maker_verified": false,
+        "outsourcing_intent_explicit": true,
+        "service_match_verified": true,
+        "contact_channel_verified": false,
+        "competitor_free": true,
+        "safety_clear": true
+      },
+      "final_salesability": "REJECT",
+      "rejection_reasons": [
+        "Decision maker identity not verified",
+        "Company/publishing business not identified",
+        "No email address found",
+        "No LinkedIn profile found"
+      ]
+    },
+    {
+      "opportunity_id": "V6-REDDIT-004",
+      "v6_classification": "QUALIFIED",
+      "company": "Zolly",
+      "person": "Evening_Acadia_6021",
+      "verification_date": "2026-08-08T21:43:27.765494",
+      "currentness": {
+        "source_url": "https://www.reddit.com/r/hiredev/comments/1u79xa6/",
+        "post_exists": true,
+        "post_date": "2026-07-05",
+        "last_observed": "2026-08-08",
+        "currentness": "CURRENT",
+        "verification_method": "URL_ACCESS_CHECK",
+        "evidence": [
+          {
+            "claim": "Reddit post accessibility",
+            "value": "HTTP 200",
+            "source": "https://www.reddit.com/r/hiredev/comments/1u79xa6/",
+            "confidence": "VERIFIED"
+          }
+        ]
+      },
+      "contact": {
+        "decision_maker_name": "Evening_Acadia_6021",
+        "decision_maker_role": "Unknown",
+        "decision_maker_confidence": "UNKNOWN",
+        "email": "",
+        "email_status": "UNKNOWN",
+        "linkedin": "",
+        "linkedin_status": "UNKNOWN",
+        "reddit_username": "Evening_Acadia_6021",
+        "reddit_verified": false,
+        "company_website": "",
+        "company_website_status": "UNKNOWN",
+        "founder_website": "",
+        "founder_website_status": "UNKNOWN",
+        "instagram": "",
+        "instagram_status": "UNKNOWN",
+        "contact_channels": [
+          "Reddit DM"
+        ],
+        "evidence": [],
+        "missing_info": [
+          "Real name",
+          "Company website",
+          "Email",
+          "LinkedIn",
+          "Role"
+        ]
+      },
+      "cross_source_evidence": [
+        {
+          "claim": "Reddit post exists",
+          "value": "https://www.reddit.com/r/hiredev/comments/1u79xa6/",
+          "confidence": "VERIFIED"
+        }
+      ],
+      "gates": {
+        "requirement_verified": true,
+        "currentness_verified": true,
+        "decision_maker_verified": false,
+        "outsourcing_intent_explicit": true,
+        "service_match_verified": true,
+        "contact_channel_verified": false,
+        "competitor_free": true,
+        "safety_clear": true
+      },
+      "final_salesability": "REJECT",
+      "rejection_reasons": [
+        "Decision maker identity not verified",
+        "SaaS application 'Zolly' not found",
+        "No email address found",
+        "No LinkedIn profile found",
+        "Low budget ($300)"
+      ]
+    },
+    {
+      "opportunity_id": "V6-REDDIT-005",
+      "v6_classification": "QUALIFIED",
+      "company": "Neurodivergent Products Startup",
+      "person": "Anonymous",
+      "verification_date": "2026-08-08T21:43:27.796320",
+      "currentness": {
+        "source_url": "https://www.reddit.com/r/forhire/comments/1tor0zh/",
+        "post_exists": true,
+        "post_date": "2026-07-01",
+        "last_observed": "2026-08-08",
+        "currentness": "CURRENT",
+        "verification_method": "URL_ACCESS_CHECK",
+        "evidence": [
+          {
+            "claim": "Reddit post accessibility",
+            "value": "HTTP 200",
+            "source": "https://www.reddit.com/r/forhire/comments/1tor0zh/",
+            "confidence": "VERIFIED"
+          }
+        ]
+      },
+      "contact": {
+        "decision_maker_name": "Anonymous",
+        "decision_maker_role": "Unknown",
+        "decision_maker_confidence": "UNKNOWN",
+        "email": "",
+        "email_status": "UNKNOWN",
+        "linkedin": "",
+        "linkedin_status": "UNKNOWN",
+        "reddit_username": "",
+        "reddit_verified": false,
+        "company_website": "",
+        "company_website_status": "UNKNOWN",
+        "founder_website": "",
+        "founder_website_status": "UNKNOWN",
+        "instagram": "",
+        "instagram_status": "UNKNOWN",
+        "contact_channels": [],
+        "evidence": [],
+        "missing_info": [
+          "Person identity",
+          "Company name",
+          "Email",
+          "LinkedIn",
+          "All contact info"
+        ]
+      },
+      "cross_source_evidence": [
+        {
+          "claim": "Reddit post exists",
+          "value": "https://www.reddit.com/r/forhire/comments/1tor0zh/",
+          "confidence": "VERIFIED"
+        }
+      ],
+      "gates": {
+        "requirement_verified": true,
+        "currentness_verified": true,
+        "decision_maker_verified": false,
+        "outsourcing_intent_explicit": true,
+        "service_match_verified": true,
+        "contact_channel_verified": false,
+        "competitor_free": true,
+        "safety_clear": true
+      },
+      "final_salesability": "REJECT",
+      "rejection_reasons": [
+        "Anonymous identity - cannot verify decision maker",
+        "No contact information available",
+        "No company information available",
+        "Cannot proceed without identity"
+      ]
+    }
+  ]
+}

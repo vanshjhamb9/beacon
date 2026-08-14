@@ -1,0 +1,365 @@
+{
+  "generated_at": "2026-08-14T00:31:28.226163+00:00",
+  "from": "vansh@inowix.in",
+  "cc": [
+    "vanshjhamb9@gmail.com",
+    "ragibali84@gmail.com"
+  ],
+  "attempted": 22,
+  "sent": 22,
+  "failed": 0,
+  "results": [
+    {
+      "company": "Elinor Jewels",
+      "founder_name": "Nazneen Mogal",
+      "to_email": "elinorjewels@gmail.com",
+      "subject": "Elinor Jewels — WhatsApp AI sales agent for your jewellery store",
+      "intent_score": 96,
+      "send_result": {
+        "success": true,
+        "to": "elinorjewels@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Elinor Jewels — WhatsApp AI sales agent for your jewellery store"
+      }
+    },
+    {
+      "company": "Elinor Jewels",
+      "founder_name": "Nazneen Mogal",
+      "to_email": "support@elinorjewels.com",
+      "subject": "Elinor Jewels — WhatsApp AI sales agent for your jewellery store",
+      "intent_score": 95,
+      "send_result": {
+        "success": true,
+        "to": "support@elinorjewels.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Elinor Jewels — WhatsApp AI sales agent for your jewellery store"
+      }
+    },
+    {
+      "company": "C11 Aura",
+      "founder_name": "Navjot Kaur",
+      "to_email": "navjotkaurwork@gmail.com",
+      "subject": "C11 Aura — WhatsApp AI sales agent for your skincare store",
+      "intent_score": 94,
+      "send_result": {
+        "success": true,
+        "to": "navjotkaurwork@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "C11 Aura — WhatsApp AI sales agent for your skincare store"
+      }
+    },
+    {
+      "company": "SEREKO",
+      "founder_name": "Malvika Jain",
+      "to_email": "mj@serekoshop.com",
+      "subject": "SEREKO — WhatsApp AI sales agent for your skincare store",
+      "intent_score": 93,
+      "send_result": {
+        "success": true,
+        "to": "mj@serekoshop.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "SEREKO — WhatsApp AI sales agent for your skincare store"
+      }
+    },
+    {
+      "company": "The Label Jenn",
+      "founder_name": "Jinita Sheth",
+      "to_email": "labeljenn.jinita@gmail.com",
+      "subject": "The Label Jenn — WhatsApp AI sales agent for your fashion store",
+      "intent_score": 92,
+      "send_result": {
+        "success": true,
+        "to": "labeljenn.jinita@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "The Label Jenn — WhatsApp AI sales agent for your fashion store"
+      }
+    },
+    {
+      "company": "Premkala",
+      "founder_name": "Khyati Radadiya",
+      "to_email": "care@premakala.in",
+      "subject": "Premkala — WhatsApp AI sales agent for your fashion store",
+      "intent_score": 91,
+      "send_result": {
+        "success": true,
+        "to": "care@premakala.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Premkala — WhatsApp AI sales agent for your fashion store"
+      }
+    },
+    {
+      "company": "Naitra Jewelry",
+      "founder_name": "",
+      "to_email": "collab@naitra.in",
+      "subject": "Naitra Jewelry — WhatsApp AI sales agent for your jewellery store",
+      "intent_score": 90,
+      "send_result": {
+        "success": true,
+        "to": "collab@naitra.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Naitra Jewelry — WhatsApp AI sales agent for your jewellery store"
+      }
+    },
+    {
+      "company": "Teejh",
+      "founder_name": "Satish Singh",
+      "to_email": "satish@jokerandwitch.com",
+      "subject": "Teejh — WhatsApp AI sales agent for your jewellery store",
+      "intent_score": 89,
+      "send_result": {
+        "success": true,
+        "to": "satish@jokerandwitch.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Teejh — WhatsApp AI sales agent for your jewellery store"
+      }
+    },
+    {
+      "company": "Teejh",
+      "founder_name": "Satish Singh",
+      "to_email": "support@teejh.com",
+      "subject": "Teejh — WhatsApp AI sales agent for your jewellery store",
+      "intent_score": 88,
+      "send_result": {
+        "success": true,
+        "to": "support@teejh.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Teejh — WhatsApp AI sales agent for your jewellery store"
+      }
+    },
+    {
+      "company": "ShopSiiri",
+      "founder_name": "Meghna Kanumilli",
+      "to_email": "shopsiiri@gmail.com",
+      "subject": "ShopSiiri — WhatsApp AI sales agent for your jewellery store",
+      "intent_score": 87,
+      "send_result": {
+        "success": true,
+        "to": "shopsiiri@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "ShopSiiri — WhatsApp AI sales agent for your jewellery store"
+      }
+    },
+    {
+      "company": "Frenesi Fashion",
+      "founder_name": "Tanvi Pathania",
+      "to_email": "hello@frenesifashion.com",
+      "subject": "Frenesi Fashion — WhatsApp AI sales agent for your fashion store",
+      "intent_score": 86,
+      "send_result": {
+        "success": true,
+        "to": "hello@frenesifashion.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Frenesi Fashion — WhatsApp AI sales agent for your fashion store"
+      }
+    },
+    {
+      "company": "Sadabahaar Jewelry",
+      "founder_name": "Seema",
+      "to_email": "hello@sadabahaarjewelry.com",
+      "subject": "Sadabahaar Jewelry — WhatsApp AI sales agent for your jewellery store",
+      "intent_score": 85,
+      "send_result": {
+        "success": true,
+        "to": "hello@sadabahaarjewelry.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Sadabahaar Jewelry — WhatsApp AI sales agent for your jewellery store"
+      }
+    },
+    {
+      "company": "Dermalist Skincare",
+      "founder_name": "Mayur Bambhaniya",
+      "to_email": "dermalistskincare@gmail.com",
+      "subject": "Dermalist Skincare — WhatsApp AI sales agent for your skincare store",
+      "intent_score": 84,
+      "send_result": {
+        "success": true,
+        "to": "dermalistskincare@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Dermalist Skincare — WhatsApp AI sales agent for your skincare store"
+      }
+    },
+    {
+      "company": "Mogasu",
+      "founder_name": "",
+      "to_email": "hello@mogasu.com",
+      "subject": "Mogasu — WhatsApp AI sales agent for your fashion store",
+      "intent_score": 83,
+      "send_result": {
+        "success": true,
+        "to": "hello@mogasu.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Mogasu — WhatsApp AI sales agent for your fashion store"
+      }
+    },
+    {
+      "company": "Mogasu",
+      "founder_name": "",
+      "to_email": "mogasu.goa@gmail.com",
+      "subject": "Mogasu — WhatsApp AI sales agent for your fashion store",
+      "intent_score": 82,
+      "send_result": {
+        "success": true,
+        "to": "mogasu.goa@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Mogasu — WhatsApp AI sales agent for your fashion store"
+      }
+    },
+    {
+      "company": "B77 Life",
+      "founder_name": "",
+      "to_email": "hello@b77life.com",
+      "subject": "B77 Life — WhatsApp AI sales agent for your fashion store",
+      "intent_score": 81,
+      "send_result": {
+        "success": true,
+        "to": "hello@b77life.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "B77 Life — WhatsApp AI sales agent for your fashion store"
+      }
+    },
+    {
+      "company": "Siyoura Natural Care",
+      "founder_name": "Nikki Pandey",
+      "to_email": "info@siyouranaturalcare.com",
+      "subject": "Siyoura Natural Care — WhatsApp AI sales agent for your beauty store",
+      "intent_score": 80,
+      "send_result": {
+        "success": true,
+        "to": "info@siyouranaturalcare.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Siyoura Natural Care — WhatsApp AI sales agent for your beauty store"
+      }
+    },
+    {
+      "company": "Precious Jewels",
+      "founder_name": "Priyanka Sethi",
+      "to_email": "preciousjewels265@gmail.com",
+      "subject": "Precious Jewels — WhatsApp AI sales agent for your jewellery store",
+      "intent_score": 79,
+      "send_result": {
+        "success": true,
+        "to": "preciousjewels265@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Precious Jewels — WhatsApp AI sales agent for your jewellery store"
+      }
+    },
+    {
+      "company": "Tviya Jewels",
+      "founder_name": "Harsh Ghelani",
+      "to_email": "tviyajewels@gmail.com",
+      "subject": "Tviya Jewels — WhatsApp AI sales agent for your jewellery store",
+      "intent_score": 78,
+      "send_result": {
+        "success": true,
+        "to": "tviyajewels@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Tviya Jewels — WhatsApp AI sales agent for your jewellery store"
+      }
+    },
+    {
+      "company": "Fawwnity",
+      "founder_name": "Priya Sharma",
+      "to_email": "support@fawwnity.com",
+      "subject": "Fawwnity — WhatsApp AI sales agent for your skincare store",
+      "intent_score": 77,
+      "send_result": {
+        "success": true,
+        "to": "support@fawwnity.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Fawwnity — WhatsApp AI sales agent for your skincare store"
+      }
+    },
+    {
+      "company": "Valencia Bodycare",
+      "founder_name": "Esha Zad",
+      "to_email": "eshwarizad16@gmail.com",
+      "subject": "Valencia Bodycare — WhatsApp AI sales agent for your beauty store",
+      "intent_score": 76,
+      "send_result": {
+        "success": true,
+        "to": "eshwarizad16@gmail.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Valencia Bodycare — WhatsApp AI sales agent for your beauty store"
+      }
+    },
+    {
+      "company": "Mittal Sarees",
+      "founder_name": "",
+      "to_email": "support@mittalsarees.com",
+      "subject": "Mittal Sarees — WhatsApp AI sales agent for your fashion store",
+      "intent_score": 75,
+      "send_result": {
+        "success": true,
+        "to": "support@mittalsarees.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Mittal Sarees — WhatsApp AI sales agent for your fashion store"
+      }
+    }
+  ]
+}

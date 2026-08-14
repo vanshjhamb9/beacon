@@ -1,0 +1,655 @@
+[
+  {
+    "id": "abbf2c07-edd7-41f1-bf2a-01a02b47798f",
+    "company": "Peak Digital Agency",
+    "domain": "peakdigital.com",
+    "classification": "ACTIVE_BUYING_EVENT",
+    "business_type": "DIRECT_CUSTOMER",
+    "problem": "Needs WhatsApp automation",
+    "why_now": "Actively seeking a solution",
+    "solution": "COMAI -- WhatsApp AI Automation",
+    "outreach_reason": "Peak Digital Agency has an explicit need for customer support automation. They are actively looking for a solution.",
+    "contact": {
+      "email": null,
+      "author": "agency_owner",
+      "twitter": null,
+      "linkedin": null
+    },
+    "evidence": [
+      {
+        "type": "content",
+        "value": "We're a digital marketing agency serving 50+ ecommerce clients. Many of them need WhatsApp automation but we don't have the technical capability to build it. Looking for a white-label chatbot solution we can resell to our clients.",
+        "source": "reddit"
+      },
+      {
+        "type": "buying_signal",
+        "signal": "need_whatsapp_automation",
+        "confidence": 0.8,
+        "description": "Needs WhatsApp automation"
+      },
+      {
+        "type": "partner_signal",
+        "services": [
+          "agency_serves_ecommerce",
+          "provides_ecommerce_marketing"
+        ],
+        "confidence": 0.7
+      }
+    ],
+    "freshness": "CURRENT",
+    "days_old": 0,
+    "contact_type": "UNKNOWN",
+    "is_high_contactability": false,
+    "source_url": "https://reddit.com/r/digital_marketing/test3",
+    "source": "reddit",
+    "published_at": "2026-08-10T20:25:36.638396+00:00",
+    "pain_signals": [],
+    "buying_signals": [
+      {
+        "type": "need_whatsapp_automation",
+        "description": "Needs WhatsApp automation"
+      }
+    ],
+    "partner_signals": [
+      {
+        "type": "agency_partner",
+        "services": [
+          "agency_serves_ecommerce",
+          "provides_ecommerce_marketing"
+        ]
+      }
+    ],
+    "icp_score": 0.6,
+    "outreach_preparation": {
+      "company": "Peak Digital Agency",
+      "contact": "N/A",
+      "problem": "Needs WhatsApp automation",
+      "why_now": "Actively seeking a solution",
+      "evidence": [
+        {
+          "type": "content",
+          "value": "We're a digital marketing agency serving 50+ ecommerce clients. Many of them need WhatsApp automation but we don't have the technical capability to build it. Looking for a white-label chatbot solution we can resell to our clients.",
+          "source": "reddit"
+        },
+        {
+          "type": "buying_signal",
+          "signal": "need_whatsapp_automation",
+          "confidence": 0.8,
+          "description": "Needs WhatsApp automation"
+        },
+        {
+          "type": "partner_signal",
+          "services": [
+            "agency_serves_ecommerce",
+            "provides_ecommerce_marketing"
+          ],
+          "confidence": 0.7
+        }
+      ],
+      "solution": "COMAI -- WhatsApp AI Automation",
+      "why_comai": "COMAI can help Peak Digital Agency automate customer support with AI-powered WhatsApp chatbots, reducing support burden and improving response times.",
+      "buyer_name": "agency_owner",
+      "buyer_role": "founder",
+      "why_inowix": null,
+      "business_type": "UNKNOWN",
+      "outreach_angle": "active_buyer",
+      "opportunity_type": "ACTIVE_BUYING_EVENT",
+      "outreach_message": {
+        "email": {
+          "body": "Hi agency_owner,\n\nI noticed you're looking for Needs WhatsApp automation.\n\nBased on what I've seen, Needs WhatsApp automation is a challenge you're facing.\n\nWe help ecommerce businesses automate customer support with AI-powered WhatsApp chatbots. Our clients typically see 60% reduction in support tickets and 3x faster response times.\n\nWould you be open to a quick 15-minute call to discuss how we can help?\n\nBest,\nVansh Jhamb\nFounder\nInowix Technologies\nvansh@inowix.in\nhttps://www.inowix.in/",
+          "style": "founder_to_founder",
+          "channel": "email",
+          "subject": "Helping Peak Digital Agency with Needs WhatsApp automation",
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "We're a digital marketing agency serving 50+ ecommerce clients. Many of them need WhatsApp automation but we don't have the technical capability to build it. Looking for a white-label chatbot solution we can resell to our clients.",
+              "source": "reddit"
+            },
+            {
+              "type": "buying_signal",
+              "signal": "need_whatsapp_automation",
+              "confidence": 0.8,
+              "description": "Needs WhatsApp automation"
+            },
+            {
+              "type": "partner_signal",
+              "services": [
+                "agency_serves_ecommerce",
+                "provides_ecommerce_marketing"
+              ],
+              "confidence": 0.7
+            }
+          ],
+          "quality_scores": {
+            "readability": 0.9,
+            "personalization": 0.8,
+            "evidence_coverage": 0.7,
+            "professional_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: Peak Digital Agency",
+            "Problem: Needs WhatsApp automation",
+            "Signal: Needs WhatsApp automation"
+          ]
+        },
+        "linkedin": {
+          "body": "Hi agency_owner,\n\nSaw you're looking for help with Needs WhatsApp automation.\n\nWould love to connect and learn more about what you're building at Peak Digital Agency.\n\nBest,\nVansh",
+          "style": "founder_to_founder",
+          "channel": "linkedin",
+          "subject": null,
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "We're a digital marketing agency serving 50+ ecommerce clients. Many of them need WhatsApp automation but we don't have the technical capability to build it. Looking for a white-label chatbot solution we can resell to our clients.",
+              "source": "reddit"
+            },
+            {
+              "type": "buying_signal",
+              "signal": "need_whatsapp_automation",
+              "confidence": 0.8,
+              "description": "Needs WhatsApp automation"
+            }
+          ],
+          "quality_scores": {
+            "brevity": 0.9,
+            "personalization": 0.7,
+            "professional_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: Peak Digital Agency",
+            "Problem: Needs WhatsApp automation",
+            "Signal: Needs WhatsApp automation"
+          ]
+        },
+        "whatsapp": {
+          "body": "Hi agency_owner, I noticed Needs WhatsApp automation. We help businesses like Peak Digital Agency with COMAI -- WhatsApp AI Automation. Would love to chat! - Vansh, Inowix",
+          "style": "founder_to_founder",
+          "channel": "whatsapp",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "brevity": 0.9,
+            "casual_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: Peak Digital Agency",
+            "Problem: Needs WhatsApp automation"
+          ]
+        },
+        "reddit_dm": {
+          "body": "Hey agency_owner,\n\nSaw your post about Needs WhatsApp automation. I've helped similar companies with COMAI -- WhatsApp AI Automation.\n\nHappy to share some insights if you're interested. No pitch, just useful info.\n\nBest,\nVansh",
+          "style": "founder_to_founder",
+          "channel": "reddit_dm",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "non_salesy": 0.9,
+            "helpful_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: Peak Digital Agency",
+            "Problem: Needs WhatsApp automation"
+          ]
+        }
+      },
+      "follow_up_sequence": [
+        {
+          "day": "0",
+          "body": "Initial outreach to Peak Digital Agency",
+          "channel": "email"
+        },
+        {
+          "day": "2",
+          "body": "Follow-up: Any thoughts on my previous email about Needs WhatsApp automation?",
+          "channel": "email"
+        },
+        {
+          "day": "5",
+          "body": "LinkedIn connection request with note about Peak Digital Agency",
+          "channel": "linkedin"
+        },
+        {
+          "day": "7",
+          "body": "Final follow-up: Happy to chat whenever works for you.",
+          "channel": "email"
+        }
+      ],
+      "recommended_channel": "email",
+      "personalization_points": [
+        "Company: Peak Digital Agency",
+        "Problem: Needs WhatsApp automation",
+        "Signal: Needs WhatsApp automation"
+      ]
+    },
+    "cto_test": false
+  },
+  {
+    "id": "2c446e16-8aef-49bc-b088-af7c8d2dd034",
+    "company": "QuickShip Commerce",
+    "domain": "quickshipcommerce.com",
+    "classification": "ACTIVE_BUYING_EVENT",
+    "business_type": "DIRECT_CUSTOMER",
+    "problem": "Actively looking for a chatbot solution",
+    "why_now": "Actively seeking a solution",
+    "solution": "COMAI -- WhatsApp AI Automation",
+    "outreach_reason": "QuickShip Commerce has an explicit need for customer support automation. They are actively looking for a solution.",
+    "contact": {
+      "email": null,
+      "author": "ecommerce_founder_42",
+      "twitter": null,
+      "linkedin": null
+    },
+    "evidence": [
+      {
+        "type": "content",
+        "value": "We're a Shopify store doing 500+ orders/day and our support team is drowning in WhatsApp messages. Most are order tracking questions, returns, and product inquiries. We need a chatbot or automation solution. Anyone used COMAI or similar?",
+        "source": "reddit"
+      },
+      {
+        "type": "buying_signal",
+        "signal": "looking_for_chatbot",
+        "confidence": 0.8,
+        "description": "Actively looking for a chatbot solution"
+      }
+    ],
+    "freshness": "CURRENT",
+    "days_old": 0,
+    "contact_type": "UNKNOWN",
+    "is_high_contactability": false,
+    "source_url": "https://reddit.com/r/ecommerce/test1",
+    "source": "reddit",
+    "published_at": "2026-08-10T20:25:36.638396+00:00",
+    "pain_signals": [],
+    "buying_signals": [
+      {
+        "type": "looking_for_chatbot",
+        "description": "Actively looking for a chatbot solution"
+      }
+    ],
+    "partner_signals": [],
+    "icp_score": 1.0,
+    "outreach_preparation": {
+      "company": "QuickShip Commerce",
+      "contact": "N/A",
+      "problem": "Actively looking for a chatbot solution",
+      "why_now": "Actively seeking a solution",
+      "evidence": [
+        {
+          "type": "content",
+          "value": "We're a Shopify store doing 500+ orders/day and our support team is drowning in WhatsApp messages. Most are order tracking questions, returns, and product inquiries. We need a chatbot or automation solution. Anyone used COMAI or similar?",
+          "source": "reddit"
+        },
+        {
+          "type": "buying_signal",
+          "signal": "looking_for_chatbot",
+          "confidence": 0.8,
+          "description": "Actively looking for a chatbot solution"
+        }
+      ],
+      "solution": "COMAI -- WhatsApp AI Automation",
+      "why_comai": "COMAI can help QuickShip Commerce automate customer support with AI-powered WhatsApp chatbots, reducing support burden and improving response times.",
+      "buyer_name": "ecommerce_founder_42",
+      "buyer_role": "founder",
+      "why_inowix": null,
+      "business_type": "UNKNOWN",
+      "outreach_angle": "active_buyer",
+      "opportunity_type": "ACTIVE_BUYING_EVENT",
+      "outreach_message": {
+        "email": {
+          "body": "Hi ecommerce_founder_42,\n\nI noticed you're looking for Actively looking for a chatbot solution.\n\nBased on what I've seen, Actively looking for a chatbot solution is a challenge you're facing.\n\nWe help ecommerce businesses automate customer support with AI-powered WhatsApp chatbots. Our clients typically see 60% reduction in support tickets and 3x faster response times.\n\nWould you be open to a quick 15-minute call to discuss how we can help?\n\nBest,\nVansh Jhamb\nFounder\nInowix Technologies\nvansh@inowix.in\nhttps://www.inowix.in/",
+          "style": "founder_to_founder",
+          "channel": "email",
+          "subject": "Helping QuickShip Commerce with Actively looking for a chatbot solution",
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "We're a Shopify store doing 500+ orders/day and our support team is drowning in WhatsApp messages. Most are order tracking questions, returns, and product inquiries. We need a chatbot or automation solution. Anyone used COMAI or similar?",
+              "source": "reddit"
+            },
+            {
+              "type": "buying_signal",
+              "signal": "looking_for_chatbot",
+              "confidence": 0.8,
+              "description": "Actively looking for a chatbot solution"
+            }
+          ],
+          "quality_scores": {
+            "readability": 0.9,
+            "personalization": 0.8,
+            "evidence_coverage": 0.7,
+            "professional_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: QuickShip Commerce",
+            "Problem: Actively looking for a chatbot solution",
+            "Signal: Actively looking for a chatbot solution"
+          ]
+        },
+        "linkedin": {
+          "body": "Hi ecommerce_founder_42,\n\nSaw you're looking for help with Actively looking for a chatbot solution.\n\nWould love to connect and learn more about what you're building at QuickShip Commerce.\n\nBest,\nVansh",
+          "style": "founder_to_founder",
+          "channel": "linkedin",
+          "subject": null,
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "We're a Shopify store doing 500+ orders/day and our support team is drowning in WhatsApp messages. Most are order tracking questions, returns, and product inquiries. We need a chatbot or automation solution. Anyone used COMAI or similar?",
+              "source": "reddit"
+            },
+            {
+              "type": "buying_signal",
+              "signal": "looking_for_chatbot",
+              "confidence": 0.8,
+              "description": "Actively looking for a chatbot solution"
+            }
+          ],
+          "quality_scores": {
+            "brevity": 0.9,
+            "personalization": 0.7,
+            "professional_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: QuickShip Commerce",
+            "Problem: Actively looking for a chatbot solution",
+            "Signal: Actively looking for a chatbot solution"
+          ]
+        },
+        "whatsapp": {
+          "body": "Hi ecommerce_founder_42, I noticed Actively looking for a chatbot solution. We help businesses like QuickShip Commerce with COMAI -- WhatsApp AI Automation. Would love to chat! - Vansh, Inowix",
+          "style": "founder_to_founder",
+          "channel": "whatsapp",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "brevity": 0.9,
+            "casual_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: QuickShip Commerce",
+            "Problem: Actively looking for a chatbot solution"
+          ]
+        },
+        "reddit_dm": {
+          "body": "Hey ecommerce_founder_42,\n\nSaw your post about Actively looking for a chatbot solution. I've helped similar companies with COMAI -- WhatsApp AI Automation.\n\nHappy to share some insights if you're interested. No pitch, just useful info.\n\nBest,\nVansh",
+          "style": "founder_to_founder",
+          "channel": "reddit_dm",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "non_salesy": 0.9,
+            "helpful_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: QuickShip Commerce",
+            "Problem: Actively looking for a chatbot solution"
+          ]
+        }
+      },
+      "follow_up_sequence": [
+        {
+          "day": "0",
+          "body": "Initial outreach to QuickShip Commerce",
+          "channel": "email"
+        },
+        {
+          "day": "2",
+          "body": "Follow-up: Any thoughts on my previous email about Actively looking for a chatbot solution?",
+          "channel": "email"
+        },
+        {
+          "day": "5",
+          "body": "LinkedIn connection request with note about QuickShip Commerce",
+          "channel": "linkedin"
+        },
+        {
+          "day": "7",
+          "body": "Final follow-up: Happy to chat whenever works for you.",
+          "channel": "email"
+        }
+      ],
+      "recommended_channel": "email",
+      "personalization_points": [
+        "Company: QuickShip Commerce",
+        "Problem: Actively looking for a chatbot solution",
+        "Signal: Actively looking for a chatbot solution"
+      ]
+    },
+    "cto_test": false
+  },
+  {
+    "id": "3f847cde-f513-485b-80ac-634a7af19f65",
+    "company": "Glow Skincare",
+    "domain": "glowskincare.co",
+    "classification": "ACTIVE_BUYING_EVENT",
+    "business_type": "DIRECT_CUSTOMER",
+    "problem": "Actively looking for a chatbot solution",
+    "why_now": "Actively seeking a solution",
+    "solution": "COMAI -- WhatsApp AI Automation",
+    "outreach_reason": "Glow Skincare has an explicit need for customer support automation. They are actively looking for a solution.",
+    "contact": {
+      "email": null,
+      "author": "dtc_founder",
+      "twitter": null,
+      "linkedin": null
+    },
+    "evidence": [
+      {
+        "type": "content",
+        "value": "We're a growing D2C skincare brand and customer support is becoming a bottleneck. We get 200+ WhatsApp messages daily and our team can't keep up. Looking for AI chatbot or automation solution. Budget is $500/mo. Any recommendations?",
+        "source": "hacker_news"
+      },
+      {
+        "type": "pain_signal",
+        "signal": "ecommerce_pain",
+        "confidence": 0.7,
+        "description": "Ecommerce business with operational challenges"
+      },
+      {
+        "type": "buying_signal",
+        "signal": "looking_for_chatbot",
+        "confidence": 0.8,
+        "description": "Actively looking for a chatbot solution"
+      },
+      {
+        "type": "buying_signal",
+        "signal": "need_whatsapp_automation",
+        "confidence": 0.8,
+        "description": "Needs WhatsApp automation"
+      }
+    ],
+    "freshness": "CURRENT",
+    "days_old": 0,
+    "contact_type": "UNKNOWN",
+    "is_high_contactability": false,
+    "source_url": "https://news.ycombinator.com/item?id=test2",
+    "source": "hacker_news",
+    "published_at": "2026-08-10T20:25:36.638396+00:00",
+    "pain_signals": [
+      {
+        "type": "ecommerce_pain",
+        "description": "Ecommerce business with operational challenges"
+      }
+    ],
+    "buying_signals": [
+      {
+        "type": "looking_for_chatbot",
+        "description": "Actively looking for a chatbot solution"
+      },
+      {
+        "type": "need_whatsapp_automation",
+        "description": "Needs WhatsApp automation"
+      }
+    ],
+    "partner_signals": [],
+    "icp_score": 0.75,
+    "outreach_preparation": {
+      "company": "Glow Skincare",
+      "contact": "N/A",
+      "problem": "Actively looking for a chatbot solution",
+      "why_now": "Actively seeking a solution",
+      "evidence": [
+        {
+          "type": "content",
+          "value": "We're a growing D2C skincare brand and customer support is becoming a bottleneck. We get 200+ WhatsApp messages daily and our team can't keep up. Looking for AI chatbot or automation solution. Budget is $500/mo. Any recommendations?",
+          "source": "hacker_news"
+        },
+        {
+          "type": "pain_signal",
+          "signal": "ecommerce_pain",
+          "confidence": 0.7,
+          "description": "Ecommerce business with operational challenges"
+        },
+        {
+          "type": "buying_signal",
+          "signal": "looking_for_chatbot",
+          "confidence": 0.8,
+          "description": "Actively looking for a chatbot solution"
+        },
+        {
+          "type": "buying_signal",
+          "signal": "need_whatsapp_automation",
+          "confidence": 0.8,
+          "description": "Needs WhatsApp automation"
+        }
+      ],
+      "solution": "COMAI -- WhatsApp AI Automation",
+      "why_comai": "COMAI can help Glow Skincare automate customer support with AI-powered WhatsApp chatbots, reducing support burden and improving response times.",
+      "buyer_name": "dtc_founder",
+      "buyer_role": "founder",
+      "why_inowix": null,
+      "business_type": "UNKNOWN",
+      "outreach_angle": "active_buyer",
+      "opportunity_type": "ACTIVE_BUYING_EVENT",
+      "outreach_message": {
+        "email": {
+          "body": "Hi dtc_founder,\n\nI noticed you're looking for Actively looking for a chatbot solution.\n\nBased on what I've seen, Actively looking for a chatbot solution is a challenge you're facing.\n\nWe help ecommerce businesses automate customer support with AI-powered WhatsApp chatbots. Our clients typically see 60% reduction in support tickets and 3x faster response times.\n\nWould you be open to a quick 15-minute call to discuss how we can help?\n\nBest,\nVansh Jhamb\nFounder\nInowix Technologies\nvansh@inowix.in\nhttps://www.inowix.in/",
+          "style": "founder_to_founder",
+          "channel": "email",
+          "subject": "Helping Glow Skincare with Actively looking for a chatbot solution",
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "We're a growing D2C skincare brand and customer support is becoming a bottleneck. We get 200+ WhatsApp messages daily and our team can't keep up. Looking for AI chatbot or automation solution. Budget is $500/mo. Any recommendations?",
+              "source": "hacker_news"
+            },
+            {
+              "type": "pain_signal",
+              "signal": "ecommerce_pain",
+              "confidence": 0.7,
+              "description": "Ecommerce business with operational challenges"
+            },
+            {
+              "type": "buying_signal",
+              "signal": "looking_for_chatbot",
+              "confidence": 0.8,
+              "description": "Actively looking for a chatbot solution"
+            }
+          ],
+          "quality_scores": {
+            "readability": 0.9,
+            "personalization": 0.8,
+            "evidence_coverage": 0.7,
+            "professional_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: Glow Skincare",
+            "Problem: Actively looking for a chatbot solution",
+            "Pain: Ecommerce business with operational challenges",
+            "Signal: Actively looking for a chatbot solution"
+          ]
+        },
+        "linkedin": {
+          "body": "Hi dtc_founder,\n\nSaw you're looking for help with Actively looking for a chatbot solution.\n\nWould love to connect and learn more about what you're building at Glow Skincare.\n\nBest,\nVansh",
+          "style": "founder_to_founder",
+          "channel": "linkedin",
+          "subject": null,
+          "evidence_chain": [
+            {
+              "type": "content",
+              "value": "We're a growing D2C skincare brand and customer support is becoming a bottleneck. We get 200+ WhatsApp messages daily and our team can't keep up. Looking for AI chatbot or automation solution. Budget is $500/mo. Any recommendations?",
+              "source": "hacker_news"
+            },
+            {
+              "type": "pain_signal",
+              "signal": "ecommerce_pain",
+              "confidence": 0.7,
+              "description": "Ecommerce business with operational challenges"
+            }
+          ],
+          "quality_scores": {
+            "brevity": 0.9,
+            "personalization": 0.7,
+            "professional_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: Glow Skincare",
+            "Problem: Actively looking for a chatbot solution",
+            "Pain: Ecommerce business with operational challenges",
+            "Signal: Actively looking for a chatbot solution"
+          ]
+        },
+        "whatsapp": {
+          "body": "Hi dtc_founder, I noticed Actively looking for a chatbot solution. We help businesses like Glow Skincare with COMAI -- WhatsApp AI Automation. Would love to chat! - Vansh, Inowix",
+          "style": "founder_to_founder",
+          "channel": "whatsapp",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "brevity": 0.9,
+            "casual_tone": 0.8
+          },
+          "personalization_points": [
+            "Company: Glow Skincare",
+            "Problem: Actively looking for a chatbot solution"
+          ]
+        },
+        "reddit_dm": {
+          "body": "Hey dtc_founder,\n\nSaw your post about Actively looking for a chatbot solution. I've helped similar companies with COMAI -- WhatsApp AI Automation.\n\nHappy to share some insights if you're interested. No pitch, just useful info.\n\nBest,\nVansh",
+          "style": "founder_to_founder",
+          "channel": "reddit_dm",
+          "subject": null,
+          "evidence_chain": [],
+          "quality_scores": {
+            "non_salesy": 0.9,
+            "helpful_tone": 0.9
+          },
+          "personalization_points": [
+            "Company: Glow Skincare",
+            "Problem: Actively looking for a chatbot solution"
+          ]
+        }
+      },
+      "follow_up_sequence": [
+        {
+          "day": "0",
+          "body": "Initial outreach to Glow Skincare",
+          "channel": "email"
+        },
+        {
+          "day": "2",
+          "body": "Follow-up: Any thoughts on my previous email about Actively looking for a chatbot solution?",
+          "channel": "email"
+        },
+        {
+          "day": "5",
+          "body": "LinkedIn connection request with note about Glow Skincare",
+          "channel": "linkedin"
+        },
+        {
+          "day": "7",
+          "body": "Final follow-up: Happy to chat whenever works for you.",
+          "channel": "email"
+        }
+      ],
+      "recommended_channel": "email",
+      "personalization_points": [
+        "Company: Glow Skincare",
+        "Problem: Actively looking for a chatbot solution",
+        "Pain: Ecommerce business with operational challenges",
+        "Signal: Actively looking for a chatbot solution"
+      ]
+    },
+    "cto_test": false
+  }
+]

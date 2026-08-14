@@ -1,0 +1,100 @@
+{
+  "audit_name": "V6 Verified Opportunities — Final",
+  "audit_date": "2026-08-08",
+  "total_verified": 2,
+  "high_priority": [
+    {
+      "opportunity_id": "V6-REDDIT-001",
+      "person": "betapunch",
+      "person_role": "Founder",
+      "company": "MarylandBid",
+      "company_website": "https://www.marylandbid.com",
+      "source_type": "REDDIT",
+      "source_url": "https://old.reddit.com/r/forhire/comments/1spxdi9/",
+      "source_verification": "EXACT_POST_URL",
+      "cross_source_verification": "CONFIRMED_VIA_WEBSITE",
+      "posted_at": "3 months ago",
+      "currentness": "STRONG",
+      "requirement": "Build production app from existing specs — Next.js 14, Supabase, Tailwind, DocuSign, Twilio, Stripe Connect",
+      "requirement_verification": "VERIFIED",
+      "outsourcing_intent": "EXPLICIT_OUTSOURCING",
+      "budget": "$15,000 - $20,000",
+      "timeline": "Not specified",
+      "primary_business_unit": "CUSTOM_SOFTWARE",
+      "service_match": ["Custom Software Development", "SaaS Development", "Full-Stack Development"],
+      "competitor_risk": "LOW",
+      "opportunity_score": 88,
+      "classification": "HIGH_PRIORITY",
+      "primary_buying_signal": "Budget $15-20k confirmed, live platform with active users",
+      "why_now": "Platform live, needs production build",
+      "evidence": [
+        {"claim": "Live website", "value": "marylandbid.com", "confidence": "VERIFIED"},
+        {"claim": "Budget confirmed", "value": "$15,000 - $20,000", "confidence": "VERIFIED"},
+        {"claim": "Tech stack specified", "value": "Next.js 14, Supabase, Stripe", "confidence": "VERIFIED"},
+        {"claim": "Founder identity", "value": "betapunch (Reddit verified)", "confidence": "VERIFIED"}
+      ]
+    },
+    {
+      "opportunity_id": "V6-REDDIT-003",
+      "person": "paloma_chiara",
+      "person_role": "Founder",
+      "company": "Kilova",
+      "company_website": "https://kilova.app",
+      "founder_website": "https://palomachiara.com",
+      "founder_instagram": "@paloma_chiara.coach",
+      "source_type": "REDDIT",
+      "source_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+      "source_verification": "EXACT_POST_URL",
+      "cross_source_verification": "CONFIRMED_VIA_WEBSITE_AND_INSTAGRAM",
+      "posted_at": "Recent",
+      "currentness": "STRONG",
+      "requirement": "React Native mobile app (iOS + Android) for menstrual cycle planning app",
+      "requirement_verification": "VERIFIED",
+      "outsourcing_intent": "EXPLICIT_OUTSOURCING",
+      "budget": "$2,000 USD total for MVP",
+      "timeline": "Not specified",
+      "primary_business_unit": "CUSTOM_SOFTWARE",
+      "service_match": ["Mobile App Development", "React Native", "iOS/Android Development"],
+      "competitor_risk": "LOW",
+      "opportunity_score": 88,
+      "classification": "HIGH_PRIORITY",
+      "primary_buying_signal": "Live web app with paying users, needs mobile apps",
+      "why_now": "Existing user base, clear mobile requirement",
+      "evidence": [
+        {"claim": "Live website", "value": "kilova.app", "confidence": "VERIFIED"},
+        {"claim": "Founder verified", "value": "Paloma Chiara", "confidence": "VERIFIED"},
+        {"claim": "Pricing confirmed", "value": "$5/month subscription", "confidence": "VERIFIED"},
+        {"claim": "Current developer", "value": "Jake Kirby (web app)", "confidence": "VERIFIED"}
+      ]
+    }
+  ],
+  "qualified_needing_verification": [
+    {
+      "opportunity_id": "V6-REDDIT-002",
+      "person": "jason23a",
+      "company": "Entertainment News Publisher",
+      "source_url": "https://old.reddit.com/r/forhire/comments/1u9a9d8/",
+      "budget": "$15+/hr",
+      "classification": "QUALIFIED",
+      "next_step": "Verify publishing company and person identity"
+    },
+    {
+      "opportunity_id": "V6-REDDIT-004",
+      "person": "Evening_Acadia_6021",
+      "company": "Zolly",
+      "source_url": "https://www.reddit.com/r/hiredev/comments/1u79xa6/",
+      "budget": "$300",
+      "classification": "QUALIFIED",
+      "next_step": "Verify Zolly SaaS application"
+    },
+    {
+      "opportunity_id": "V6-REDDIT-005",
+      "person": "Anonymous",
+      "company": "Neurodivergent Products Startup",
+      "source_url": "https://www.reddit.com/r/forhire/comments/1tor0zh/",
+      "budget": "€1,000",
+      "classification": "QUALIFIED",
+      "next_step": "Identify founder before outreach"
+    }
+  ]
+}

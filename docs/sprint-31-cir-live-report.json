@@ -1,0 +1,506 @@
+{
+  "total_companies": 500,
+  "reconstructed": 500,
+  "business_profile_pct": 84.0,
+  "industry_icp_pct": 84.0,
+  "technology_service_pct": 84.0,
+  "contact_pct": 84.0,
+  "revenue_ready": 0,
+  "priority_accounts": 420,
+  "founder_queue": 420,
+  "false_fabrications": 0,
+  "elapsed_ms": 4.59,
+  "classification_distribution": {
+    "Priority Account": 420,
+    "Rejected": 80
+  },
+  "top_accounts": [
+    {
+      "company": "Firm0",
+      "website": "https://firm0.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm1",
+      "website": "https://firm1.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm2",
+      "website": "https://firm2.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm3",
+      "website": "https://firm3.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm5",
+      "website": "https://firm5.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm6",
+      "website": "https://firm6.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm7",
+      "website": "https://firm7.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm8",
+      "website": "https://firm8.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm10",
+      "website": "https://firm10.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm11",
+      "website": "https://firm11.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm12",
+      "website": "https://firm12.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm13",
+      "website": "https://firm13.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm15",
+      "website": "https://firm15.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm16",
+      "website": "https://firm16.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm17",
+      "website": "https://firm17.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm18",
+      "website": "https://firm18.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm20",
+      "website": "https://firm20.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm21",
+      "website": "https://firm21.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm22",
+      "website": "https://firm22.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm23",
+      "website": "https://firm23.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm25",
+      "website": "https://firm25.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm26",
+      "website": "https://firm26.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm27",
+      "website": "https://firm27.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm28",
+      "website": "https://firm28.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm30",
+      "website": "https://firm30.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm31",
+      "website": "https://firm31.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm32",
+      "website": "https://firm32.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm33",
+      "website": "https://firm33.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm35",
+      "website": "https://firm35.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm36",
+      "website": "https://firm36.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm37",
+      "website": "https://firm37.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm38",
+      "website": "https://firm38.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm40",
+      "website": "https://firm40.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm41",
+      "website": "https://firm41.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm42",
+      "website": "https://firm42.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm43",
+      "website": "https://firm43.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm45",
+      "website": "https://firm45.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm46",
+      "website": "https://firm46.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm47",
+      "website": "https://firm47.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    },
+    {
+      "company": "Firm48",
+      "website": "https://firm48.io",
+      "score": 97.35,
+      "class": "Priority Account",
+      "best_service": "AI Agents",
+      "signals": [
+        "AI Hiring",
+        "Security",
+        "Hiring"
+      ]
+    }
+  ],
+  "evidence": [
+    "total:500",
+    "active:500",
+    "business_pct:84.0",
+    "founder_queue:420"
+  ],
+  "wall_ms": 806.27
+}

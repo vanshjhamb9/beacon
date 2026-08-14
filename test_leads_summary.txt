@@ -1,0 +1,30 @@
+
+COMAI LEAD GENERATOR — Summary
+================================
+
+Total Leads: 20
+
+Priority Breakdown:
+  HOT:     0
+  WARM:    20
+  NURTURE: 0
+
+Contact Availability:
+  With Email:    0 (0%)
+  With Phone:    19 (95%)
+  With LinkedIn: 1 (5%)
+  With Instagram:4 (20%)
+
+Platform Breakdown:
+  Shopify/Plus: 1
+  WooCommerce:  0
+  Magento:      0
+
+Average Scores:
+  ICP Score:        101.0/100
+  Sales Readiness:  70.1/100
+
+Category Breakdown:
+  Fashion: 20
+
+Generated: 2026-07-31 09:14 UTC

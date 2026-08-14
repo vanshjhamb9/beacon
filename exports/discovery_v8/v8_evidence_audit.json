@@ -1,0 +1,346 @@
+{
+  "audit_name": "V8 Evidence Audit",
+  "audit_date": "2026-08-08T22:20:39.145514",
+  "total_opportunities": 5,
+  "evidence": [
+    {
+      "opportunity_id": "V8-001",
+      "company": "MarylandBid",
+      "source_evidence": [
+        {
+          "claim": "Original Reddit post accessed",
+          "value": "HTTP 200 - Content verified",
+          "source": "Direct URL access",
+          "source_url": "https://old.reddit.com/r/forhire/comments/1spxdi9/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138115"
+        }
+      ],
+      "person_evidence": [
+        {
+          "claim": "Reddit username verified",
+          "value": "betapunch",
+          "source": "Reddit",
+          "source_url": "https://www.reddit.com/user/betapunch/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138126"
+        },
+        {
+          "claim": "Company website exists",
+          "value": "marylandbid.com",
+          "source": "Direct URL access",
+          "source_url": "https://www.marylandbid.com",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138130"
+        }
+      ],
+      "company_evidence": [
+        {
+          "claim": "Live website with active auctions",
+          "value": "Platform operational with listings",
+          "source": "Direct URL access",
+          "source_url": "https://www.marylandbid.com",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138137"
+        }
+      ],
+      "currentness_evidence": [
+        {
+          "claim": "Post date verified",
+          "value": "111 days old",
+          "source": "Reddit post metadata",
+          "source_url": "https://old.reddit.com/r/forhire/comments/1spxdi9/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138176"
+        }
+      ],
+      "outsourcing_evidence": [
+        {
+          "claim": "Post explicitly hiring developer",
+          "value": "[Hiring] tag + budget + requirements",
+          "source": "Reddit post",
+          "source_url": "https://old.reddit.com/r/forhire/comments/1spxdi9/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138183"
+        }
+      ],
+      "service_evidence": [
+        {
+          "claim": "Tech stack matches Inowix capabilities",
+          "value": "Next.js, Supabase, Stripe Connect",
+          "source": "Reddit post",
+          "source_url": "https://old.reddit.com/r/forhire/comments/1spxdi9/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138189"
+        }
+      ],
+      "contact_evidence": [
+        {
+          "claim": "Reddit DM available",
+          "value": "u/betapunch",
+          "source": "Reddit",
+          "source_url": "https://www.reddit.com/user/betapunch/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138194"
+        }
+      ]
+    },
+    {
+      "opportunity_id": "V8-002",
+      "company": "Kilova",
+      "source_evidence": [
+        {
+          "claim": "Original Reddit post accessed",
+          "value": "HTTP 200 - Content verified",
+          "source": "Direct URL access",
+          "source_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138253"
+        }
+      ],
+      "person_evidence": [
+        {
+          "claim": "Reddit username verified",
+          "value": "paloma_chiara",
+          "source": "Reddit",
+          "source_url": "https://www.reddit.com/user/paloma_chiara/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138260"
+        },
+        {
+          "claim": "LinkedIn profile found",
+          "value": "linkedin.com/in/paloma-chiara",
+          "source": "LinkedIn",
+          "source_url": "https://linkedin.com/in/paloma-chiara",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138263"
+        },
+        {
+          "claim": "Company website verified",
+          "value": "kilova.app",
+          "source": "Direct URL access",
+          "source_url": "https://kilova.app",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138266"
+        },
+        {
+          "claim": "Founder website verified",
+          "value": "palomachiara.com",
+          "source": "Direct URL access",
+          "source_url": "https://palomachiara.com",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138269"
+        }
+      ],
+      "company_evidence": [
+        {
+          "claim": "Live web app with paying users",
+          "value": "$5/month subscription",
+          "source": "Direct URL access",
+          "source_url": "https://kilova.app",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138275"
+        }
+      ],
+      "currentness_evidence": [
+        {
+          "claim": "Post date verified",
+          "value": "26 days old",
+          "source": "Reddit post metadata",
+          "source_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138289"
+        }
+      ],
+      "outsourcing_evidence": [
+        {
+          "claim": "Post explicitly hiring developer",
+          "value": "[HIRING] tag + budget + requirements",
+          "source": "Reddit post",
+          "source_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138294"
+        }
+      ],
+      "service_evidence": [
+        {
+          "claim": "Tech stack matches Inowix capabilities",
+          "value": "React Native, iOS, Android",
+          "source": "Reddit post",
+          "source_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138299"
+        }
+      ],
+      "contact_evidence": [
+        {
+          "claim": "Multiple contact channels available",
+          "value": "Email, LinkedIn, Instagram, Contact form",
+          "source": "Multiple sources",
+          "source_url": "https://kilova.app",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138311"
+        }
+      ]
+    },
+    {
+      "opportunity_id": "V8-003",
+      "company": "Entertainment News Publisher",
+      "source_evidence": [
+        {
+          "claim": "Original Reddit post accessed",
+          "value": "HTTP 200 - Content verified",
+          "source": "Direct URL access",
+          "source_url": "https://old.reddit.com/r/forhire/comments/1u9a9d8/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138349"
+        }
+      ],
+      "person_evidence": [
+        {
+          "claim": "Reddit username verified",
+          "value": "jason23a",
+          "source": "Reddit",
+          "source_url": "https://www.reddit.com/user/jason23a/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138357"
+        }
+      ],
+      "company_evidence": [],
+      "currentness_evidence": [
+        {
+          "claim": "Post date verified",
+          "value": "31 days old",
+          "source": "Reddit post metadata",
+          "source_url": "https://old.reddit.com/r/forhire/comments/1u9a9d8/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138372"
+        }
+      ],
+      "outsourcing_evidence": [
+        {
+          "claim": "Post explicitly hiring developer",
+          "value": "[Hiring] tag + requirements",
+          "source": "Reddit post",
+          "source_url": "https://old.reddit.com/r/forhire/comments/1u9a9d8/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138376"
+        }
+      ],
+      "service_evidence": [
+        {
+          "claim": "Tech stack matches Inowix capabilities",
+          "value": "WordPress, Web Development",
+          "source": "Reddit post",
+          "source_url": "https://old.reddit.com/r/forhire/comments/1u9a9d8/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138381"
+        }
+      ],
+      "contact_evidence": [
+        {
+          "claim": "Reddit DM available",
+          "value": "u/jason23a",
+          "source": "Reddit",
+          "source_url": "https://www.reddit.com/user/jason23a/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138386"
+        }
+      ]
+    },
+    {
+      "opportunity_id": "V8-004",
+      "company": "Zolly",
+      "source_evidence": [
+        {
+          "claim": "Original Reddit post accessed",
+          "value": "HTTP 200 - Content verified",
+          "source": "Direct URL access",
+          "source_url": "https://www.reddit.com/r/hiredev/comments/1u79xa6/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138415"
+        }
+      ],
+      "person_evidence": [],
+      "company_evidence": [],
+      "currentness_evidence": [
+        {
+          "claim": "Post date verified",
+          "value": "34 days old",
+          "source": "Reddit post metadata",
+          "source_url": "https://www.reddit.com/r/hiredev/comments/1u79xa6/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138429"
+        }
+      ],
+      "outsourcing_evidence": [
+        {
+          "claim": "Post explicitly hiring developer",
+          "value": "Hiring post with budget",
+          "source": "Reddit post",
+          "source_url": "https://www.reddit.com/r/hiredev/comments/1u79xa6/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138433"
+        }
+      ],
+      "service_evidence": [
+        {
+          "claim": "Tech stack matches Inowix capabilities",
+          "value": "SaaS, Frontend",
+          "source": "Reddit post",
+          "source_url": "https://www.reddit.com/r/hiredev/comments/1u79xa6/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138438"
+        }
+      ],
+      "contact_evidence": []
+    },
+    {
+      "opportunity_id": "V8-005",
+      "company": "Neurodivergent Products Startup",
+      "source_evidence": [
+        {
+          "claim": "Original Reddit post accessed",
+          "value": "HTTP 200 - Content verified",
+          "source": "Direct URL access",
+          "source_url": "https://www.reddit.com/r/forhire/comments/1tor0zh/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138469"
+        }
+      ],
+      "person_evidence": [],
+      "company_evidence": [],
+      "currentness_evidence": [
+        {
+          "claim": "Post date verified",
+          "value": "38 days old",
+          "source": "Reddit post metadata",
+          "source_url": "https://www.reddit.com/r/forhire/comments/1tor0zh/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138481"
+        }
+      ],
+      "outsourcing_evidence": [
+        {
+          "claim": "Post explicitly hiring developer",
+          "value": "[Hiring] tag + budget",
+          "source": "Reddit post",
+          "source_url": "https://www.reddit.com/r/forhire/comments/1tor0zh/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138486"
+        }
+      ],
+      "service_evidence": [
+        {
+          "claim": "Tech stack matches Inowix capabilities",
+          "value": "Web Development, Accessibility",
+          "source": "Reddit post",
+          "source_url": "https://www.reddit.com/r/forhire/comments/1tor0zh/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138490"
+        }
+      ],
+      "contact_evidence": []
+    }
+  ]
+}

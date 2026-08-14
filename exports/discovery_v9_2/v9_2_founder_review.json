@@ -1,0 +1,219 @@
+[
+  {
+    "opportunity_id": "V9-08082309",
+    "company": "ai-powered compliance platform mvp",
+    "buyer": "Reddit/IndieHackers user",
+    "role": "Developer",
+    "buying_event": "Senior Full-Stack Developer for AI-powered Compliance Platform MVP",
+    "requirement": "Looking for dev to build MVP, has Figma designs, $15K-$35K budget, Stripe integration needed",
+    "budget": "unknown",
+    "source": "Reddit r/AppDevelopers",
+    "source_date": "2026-07-15",
+    "currentness": "CURRENT",
+    "outsourcing_intent": "EXPLICIT",
+    "inowix_service_match": "SaaS MVP development",
+    "contacts_found": {
+      "email": {
+        "value": null,
+        "status": "UNKNOWN"
+      },
+      "linkedin": {
+        "value": null,
+        "status": "UNKNOWN"
+      },
+      "phone": {
+        "value": null,
+        "status": "UNKNOWN"
+      }
+    },
+    "recommended_contact_channel": "PLATFORM_DM",
+    "why_human_review_required": "Contactability is MEDIUM (needs HIGH); Contact owner match is LIKELY (needs VERIFIED); Evidence consistency FAIL; Reproducibility FAIL",
+    "founder_decision": null
+  },
+  {
+    "opportunity_id": "V9-08082309",
+    "company": "ai-driven camera app",
+    "buyer": "Reddit/IndieHackers user",
+    "role": "Developer",
+    "buying_event": "Mobile Developer for AI-driven camera app",
+    "requirement": "Hiring mobile dev, clear budget $8K-$15K",
+    "budget": "unknown",
+    "source": "Reddit r/AppDevelopers",
+    "source_date": "2026-07-14",
+    "currentness": "CURRENT",
+    "outsourcing_intent": "EXPLICIT",
+    "inowix_service_match": "Mobile app development",
+    "contacts_found": {
+      "email": {
+        "value": null,
+        "status": "UNKNOWN"
+      },
+      "linkedin": {
+        "value": null,
+        "status": "UNKNOWN"
+      },
+      "phone": {
+        "value": null,
+        "status": "UNKNOWN"
+      }
+    },
+    "recommended_contact_channel": "PLATFORM_DM",
+    "why_human_review_required": "Contactability is MEDIUM (needs HIGH); Contact owner match is LIKELY (needs VERIFIED); Evidence consistency FAIL; Reproducibility FAIL",
+    "founder_decision": null
+  },
+  {
+    "opportunity_id": "V9-08082309",
+    "company": "high-converting service website",
+    "buyer": "Reddit/IndieHackers user",
+    "role": "Developer",
+    "buying_event": "Web Dev for High-Converting Service Website",
+    "requirement": "Paid ads specialist starting agency, needs SEO-optimized website, $540 budget",
+    "budget": "unknown",
+    "source": "Reddit r/WebDevJobs",
+    "source_date": "2026-07-10",
+    "currentness": "CURRENT",
+    "outsourcing_intent": "EXPLICIT",
+    "inowix_service_match": "Website development",
+    "contacts_found": {
+      "email": {
+        "value": null,
+        "status": "UNKNOWN"
+      },
+      "linkedin": {
+        "value": null,
+        "status": "UNKNOWN"
+      },
+      "phone": {
+        "value": null,
+        "status": "UNKNOWN"
+      }
+    },
+    "recommended_contact_channel": "PLATFORM_DM",
+    "why_human_review_required": "Contactability is MEDIUM (needs HIGH); Contact owner match is LIKELY (needs VERIFIED); Evidence consistency FAIL; Reproducibility FAIL",
+    "founder_decision": null
+  },
+  {
+    "opportunity_id": "V9-08082309",
+    "company": "multiple upcoming projects",
+    "buyer": "Reddit/IndieHackers user",
+    "role": "Developer",
+    "buying_event": "Web Developers for Multiple Upcoming Projects",
+    "requirement": "Hiring freelance web dev, $15/hr or project basis",
+    "budget": "unknown",
+    "source": "Reddit r/WebDevJobs",
+    "source_date": "2026-07-09",
+    "currentness": "CURRENT",
+    "outsourcing_intent": "EXPLICIT",
+    "inowix_service_match": "Multiple web projects",
+    "contacts_found": {
+      "email": {
+        "value": null,
+        "status": "UNKNOWN"
+      },
+      "linkedin": {
+        "value": null,
+        "status": "UNKNOWN"
+      },
+      "phone": {
+        "value": null,
+        "status": "UNKNOWN"
+      }
+    },
+    "recommended_contact_channel": "PLATFORM_DM",
+    "why_human_review_required": "Contactability is MEDIUM (needs HIGH); Contact owner match is LIKELY (needs VERIFIED); Evidence consistency FAIL; Reproducibility FAIL",
+    "founder_decision": null
+  },
+  {
+    "opportunity_id": "V9-08082309",
+    "company": "fast-growing saas (myarchitectai)",
+    "buyer": "Reddit/IndieHackers user",
+    "role": "Developer",
+    "buying_event": "Full-Stack Developer for Fast-growing SaaS (MyArchitectAI)",
+    "requirement": "Bootstrapped SaaS hiring full-stack, $20-$50/hr, Next.js/Supabase/TypeScript, long-term, 15+ hrs/week",
+    "budget": "unknown",
+    "source": "IndieHackers",
+    "source_date": "2026-07-08",
+    "currentness": "CURRENT",
+    "outsourcing_intent": "EXPLICIT",
+    "inowix_service_match": "SaaS development",
+    "contacts_found": {
+      "email": {
+        "value": null,
+        "status": "UNKNOWN"
+      },
+      "linkedin": {
+        "value": null,
+        "status": "UNKNOWN"
+      },
+      "phone": {
+        "value": null,
+        "status": "UNKNOWN"
+      }
+    },
+    "recommended_contact_channel": "PLATFORM_DM",
+    "why_human_review_required": "Contactability is MEDIUM (needs HIGH); Contact owner match is LIKELY (needs VERIFIED); Evidence consistency FAIL; Reproducibility FAIL",
+    "founder_decision": null
+  },
+  {
+    "opportunity_id": "V9-08082309",
+    "company": "unknown",
+    "buyer": "Reddit/IndieHackers user",
+    "role": "Business Owner",
+    "buying_event": "Build a Centralized Custom WhatsApp Chatbot System (PHP/MySQL)",
+    "requirement": "Client seeking WhatsApp chatbot developer",
+    "budget": "unknown",
+    "source": "Upwork",
+    "source_date": "2026-07-12",
+    "currentness": "CURRENT",
+    "outsourcing_intent": "EXPLICIT",
+    "inowix_service_match": "WhatsApp chatbot development",
+    "contacts_found": {
+      "email": {
+        "value": null,
+        "status": "UNKNOWN"
+      },
+      "linkedin": {
+        "value": null,
+        "status": "UNKNOWN"
+      },
+      "phone": {
+        "value": null,
+        "status": "UNKNOWN"
+      }
+    },
+    "recommended_contact_channel": "PLATFORM_DM",
+    "why_human_review_required": "Contactability is MEDIUM (needs HIGH); Contact owner match is LIKELY (needs VERIFIED); Evidence consistency FAIL; Reproducibility FAIL",
+    "founder_decision": null
+  },
+  {
+    "opportunity_id": "V9-08082309",
+    "company": "unknown",
+    "buyer": "Reddit/IndieHackers user",
+    "role": "Business Owner",
+    "buying_event": "Non-tech guy needing SaaS built",
+    "requirement": "Non-technical founder exploring SaaS build costs",
+    "budget": "unknown",
+    "source": "Reddit r/SaaS",
+    "source_date": "2026-06-20",
+    "currentness": "CURRENT",
+    "outsourcing_intent": "EXPLICIT",
+    "inowix_service_match": "SaaS development",
+    "contacts_found": {
+      "email": {
+        "value": null,
+        "status": "UNKNOWN"
+      },
+      "linkedin": {
+        "value": null,
+        "status": "UNKNOWN"
+      },
+      "phone": {
+        "value": null,
+        "status": "UNKNOWN"
+      }
+    },
+    "recommended_contact_channel": "PLATFORM_DM",
+    "why_human_review_required": "Contactability is MEDIUM (needs HIGH); Contact owner match is LIKELY (needs VERIFIED); Evidence consistency FAIL; Reproducibility FAIL",
+    "founder_decision": null
+  }
+]

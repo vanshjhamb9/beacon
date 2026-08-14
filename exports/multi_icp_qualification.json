@@ -1,0 +1,1616 @@
+[
+  {
+    "company_name": "Open Secret",
+    "domain": "opensecret.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 50 Cr (2026) led by Desai Brothers Group. Mumbai-based D2C healthy snacking brand expanding offline retail and product portfolio.",
+    "founder": "",
+    "company_stage": "growing",
+    "funding_summary": "Raised Rs 50 Cr (2026) led by Desai Brothers Group",
+    "comai_score": 58,
+    "comai_confidence": 1.0,
+    "comai_evidence": [
+      "Industry 'food_snacks' is D2C-relevant",
+      "D2C/online model confirmed",
+      "Multi-channel presence (support complexity)",
+      "Growth may create automation needs",
+      "Active expansion signals present"
+    ],
+    "comai_missing": [
+      "Customer volume data unknown"
+    ],
+    "saas_score": 43,
+    "saas_confidence": 1.0,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Funding received — some product budget",
+      "Technology/product signals present",
+      "AI/automation adoption signals",
+      "Expansion may require product development"
+    ],
+    "saas_missing": [
+      "Engineering team size unknown",
+      "Integration needs unknown"
+    ],
+    "custom_score": 23,
+    "custom_confidence": 0.6,
+    "custom_evidence": [
+      "Industry 'food_snacks' — lower custom software need",
+      "Platform/marketplace model — custom build opportunity",
+      "Geographic expansion may need custom systems"
+    ],
+    "custom_missing": [
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed"
+    ],
+    "best_opportunity": "COMAI",
+    "opportunity_confidence": 0.5,
+    "primary_buying_signal": "Funding round (2026)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations; Active expansion",
+    "evidence_summary": "Industry 'food_snacks' is D2C-relevant; D2C/online model confirmed; Multi-channel presence (support complexity); Growth may create automation needs; Active expansion signals present",
+    "missing_information": "Customer volume data unknown; Engineering team size unknown; Integration needs unknown; Operational complexity not assessed; Organizational complexity unknown",
+    "recommended_research": "Verify founder identity and LinkedIn; Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems"
+  },
+  {
+    "company_name": "The Sweet Change",
+    "domain": "thesweetchange.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Natural sugar alternatives brand, 70% revenue from D2C channel. Monk fruit-based formulations. Growing D2C-first business.",
+    "founder": "",
+    "company_stage": "growing",
+    "funding_summary": "Natural sugar alternatives brand, 70% revenue from D2C channel. Monk fruit-based formulations. Growi",
+    "comai_score": 58,
+    "comai_confidence": 1.0,
+    "comai_evidence": [
+      "Industry 'food_health' is D2C-relevant",
+      "D2C/online model confirmed",
+      "Growth signals suggest customer traction",
+      "Growth may create automation needs",
+      "Active expansion signals present"
+    ],
+    "comai_missing": [
+      "Channel mix unknown"
+    ],
+    "saas_score": 15,
+    "saas_confidence": 0.4,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Expansion may require product development"
+    ],
+    "saas_missing": [
+      "Funding level not clear",
+      "Product complexity not assessed",
+      "Engineering team size unknown",
+      "AI adoption not assessed",
+      "Integration needs unknown"
+    ],
+    "custom_score": 13,
+    "custom_confidence": 0.4,
+    "custom_evidence": [
+      "Industry 'food_health' — lower custom software need",
+      "Geographic expansion may need custom systems"
+    ],
+    "custom_missing": [
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified"
+    ],
+    "best_opportunity": "COMAI",
+    "opportunity_confidence": 0.7,
+    "primary_buying_signal": "D2C growth",
+    "why_now": "Growth phase — scaling operations; Active expansion",
+    "evidence_summary": "Industry 'food_health' is D2C-relevant; D2C/online model confirmed; Growth signals suggest customer traction; Growth may create automation needs; Active expansion signals present",
+    "missing_information": "Channel mix unknown; Funding level not clear; Product complexity not assessed; Engineering team size unknown; AI adoption not assessed",
+    "recommended_research": "Verify founder identity and LinkedIn; Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems"
+  },
+  {
+    "company_name": "Nester",
+    "domain": "nesterstore.com",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 19 Cr Pre-Series A (Feb 2026) led by Fireside Ventures. Design-led home appliance brand, stainless steel kitchen products. Founded Jan 2025 — very early stage.",
+    "founder": "Abhinav Singh",
+    "company_stage": "early",
+    "funding_summary": "Raised Rs 19 Cr Pre-Series A (Feb 2026) led by Fireside Ventures",
+    "comai_score": 33,
+    "comai_confidence": 0.6,
+    "comai_evidence": [
+      "Industry 'home_appliances' is D2C-relevant",
+      "Growth may create automation needs",
+      "Active expansion signals present"
+    ],
+    "comai_missing": [
+      "Online sales model not confirmed",
+      "Customer volume data unknown",
+      "Channel mix unknown"
+    ],
+    "saas_score": 55,
+    "saas_confidence": 1.0,
+    "saas_evidence": [
+      "Early stage — likely building product",
+      "Institutional funding — product development budget likely",
+      "Technology/product signals present",
+      "AI/automation adoption signals",
+      "Expansion may require product development"
+    ],
+    "saas_missing": [
+      "Engineering team size unknown",
+      "Integration needs unknown"
+    ],
+    "custom_score": 15,
+    "custom_confidence": 0.2,
+    "custom_evidence": [
+      "Geographic expansion may need custom systems"
+    ],
+    "custom_missing": [
+      "Industry complexity not assessed",
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified"
+    ],
+    "best_opportunity": "SAAS_DEVELOPMENT",
+    "opportunity_confidence": 0.7,
+    "primary_buying_signal": "Pre-Series A funding (Feb 2026)",
+    "why_now": "Recent funding (2025-2026); Early stage — building systems; Active expansion",
+    "evidence_summary": "Industry 'home_appliances' is D2C-relevant; Growth may create automation needs; Active expansion signals present; Early stage — likely building product; Institutional funding — product development budget likely",
+    "missing_information": "Online sales model not confirmed; Customer volume data unknown; Channel mix unknown; Engineering team size unknown; Integration needs unknown",
+    "recommended_research": "Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems; Verify company website and actual products"
+  },
+  {
+    "company_name": "Age Care Labs",
+    "domain": "agecarelabs.com",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 85 Cr Series B1 (Jul 2026) led by Rainmatter. Elder care startup operating Emoha and Epoch Elder Care brands. Building tech platform.",
+    "founder": "",
+    "company_stage": "growing",
+    "funding_summary": "Raised Rs 85 Cr Series B1 (Jul 2026) led by Rainmatter",
+    "comai_score": 13,
+    "comai_confidence": 0.2,
+    "comai_evidence": [
+      "Growth may create automation needs"
+    ],
+    "comai_missing": [
+      "Industry not clearly D2C-relevant",
+      "Online sales model not confirmed",
+      "Customer volume data unknown",
+      "Channel mix unknown",
+      "No explicit buying intent confirmed"
+    ],
+    "saas_score": 55,
+    "saas_confidence": 1.0,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Institutional funding — product development budget likely",
+      "Technology/product signals present",
+      "Engineering signals present",
+      "AI/automation adoption signals"
+    ],
+    "saas_missing": [
+      "Integration needs unknown",
+      "Expansion plans not confirmed"
+    ],
+    "custom_score": 28,
+    "custom_confidence": 0.4,
+    "custom_evidence": [
+      "Growth signals suggest organizational complexity",
+      "Platform/marketplace model — custom build opportunity"
+    ],
+    "custom_missing": [
+      "Industry complexity not assessed",
+      "Operational complexity not assessed",
+      "Digital transformation needs not assessed",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "SAAS_DEVELOPMENT",
+    "opportunity_confidence": 0.7,
+    "primary_buying_signal": "Series B1 funding (Jul 2026)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations",
+    "evidence_summary": "Growth may create automation needs; Growing stage — may need product development; Institutional funding — product development budget likely; Technology/product signals present; Engineering signals present",
+    "missing_information": "Industry not clearly D2C-relevant; Online sales model not confirmed; Customer volume data unknown; Channel mix unknown; No explicit buying intent confirmed",
+    "recommended_research": "Verify founder identity and LinkedIn; Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems"
+  },
+  {
+    "company_name": "Asaya",
+    "domain": "asaya.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 28 Cr Pre-Series A (Sep 2025) led by RPSG Capital. 400% YoY growth, 5 lakh+ customers, science-driven skincare for hyperpigmentation. Patented MelaMe molecule.",
+    "founder": "Neeraj Biyani",
+    "company_stage": "growing",
+    "funding_summary": "Raised Rs 28 Cr Pre-Series A (Sep 2025) led by RPSG Capital",
+    "comai_score": 53,
+    "comai_confidence": 1.0,
+    "comai_evidence": [
+      "Industry 'skincare' is D2C-relevant",
+      "Growth signals suggest customer traction",
+      "Multi-channel presence (support complexity)",
+      "Growth may create automation needs",
+      "Active expansion signals present"
+    ],
+    "comai_missing": [
+      "Online sales model not confirmed"
+    ],
+    "saas_score": 30,
+    "saas_confidence": 0.6,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Institutional funding — product development budget likely",
+      "Expansion may require product development"
+    ],
+    "saas_missing": [
+      "Product complexity not assessed",
+      "Engineering team size unknown",
+      "AI adoption not assessed",
+      "Integration needs unknown"
+    ],
+    "custom_score": 13,
+    "custom_confidence": 0.4,
+    "custom_evidence": [
+      "Industry 'skincare' — lower custom software need",
+      "Geographic expansion may need custom systems"
+    ],
+    "custom_missing": [
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified"
+    ],
+    "best_opportunity": "COMAI",
+    "opportunity_confidence": 0.7,
+    "primary_buying_signal": "Pre-Series A funding (Sep 2025)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations; Active expansion",
+    "evidence_summary": "Industry 'skincare' is D2C-relevant; Growth signals suggest customer traction; Multi-channel presence (support complexity); Growth may create automation needs; Active expansion signals present",
+    "missing_information": "Online sales model not confirmed; Product complexity not assessed; Engineering team size unknown; AI adoption not assessed; Integration needs unknown",
+    "recommended_research": "Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems; Verify company website and actual products"
+  },
+  {
+    "company_name": "Zeroharm Sciences",
+    "domain": "zeroharm.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 40 Cr (Feb 2026) from Kotak Alternate Asset. Nutraceutical company with patented nanotechnology for supplement efficacy. Hyderabad-based.",
+    "founder": "Sachin",
+    "company_stage": "growing",
+    "funding_summary": "Raised Rs 40 Cr (Feb 2026) from Kotak Alternate Asset",
+    "comai_score": 18,
+    "comai_confidence": 0.4,
+    "comai_evidence": [
+      "Growth may create automation needs",
+      "Active expansion signals present"
+    ],
+    "comai_missing": [
+      "Industry not clearly D2C-relevant",
+      "Online sales model not confirmed",
+      "Customer volume data unknown",
+      "Channel mix unknown"
+    ],
+    "saas_score": 53,
+    "saas_confidence": 1.0,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Funding received — some product budget",
+      "Technology/product signals present",
+      "Engineering signals present",
+      "AI/automation adoption signals",
+      "Expansion may require product development"
+    ],
+    "saas_missing": [
+      "Integration needs unknown"
+    ],
+    "custom_score": 15,
+    "custom_confidence": 0.2,
+    "custom_evidence": [
+      "Geographic expansion may need custom systems"
+    ],
+    "custom_missing": [
+      "Industry complexity not assessed",
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified"
+    ],
+    "best_opportunity": "SAAS_DEVELOPMENT",
+    "opportunity_confidence": 0.7,
+    "primary_buying_signal": "Rs 40 Cr investment (Feb 2026)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations; Active expansion",
+    "evidence_summary": "Growth may create automation needs; Active expansion signals present; Growing stage — may need product development; Funding received — some product budget; Technology/product signals present",
+    "missing_information": "Industry not clearly D2C-relevant; Online sales model not confirmed; Customer volume data unknown; Channel mix unknown; Integration needs unknown",
+    "recommended_research": "Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems; Verify company website and actual products"
+  },
+  {
+    "company_name": "PlayBlue",
+    "domain": "playblue.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "D2C brand targeting Rs 100 Cr revenue, focusing on operational profitability before next funding round.",
+    "founder": "",
+    "company_stage": "growing",
+    "funding_summary": "D2C brand targeting Rs 100 Cr revenue, focusing on operational profitability before next funding rou",
+    "comai_score": 48,
+    "comai_confidence": 0.8,
+    "comai_evidence": [
+      "D2C/ecommerce mentioned in discovery",
+      "D2C/online model confirmed",
+      "Growth signals suggest customer traction",
+      "Growth may create automation needs"
+    ],
+    "comai_missing": [
+      "Channel mix unknown",
+      "No explicit buying intent confirmed"
+    ],
+    "saas_score": 10,
+    "saas_confidence": 0.2,
+    "saas_evidence": [
+      "Growing stage — may need product development"
+    ],
+    "saas_missing": [
+      "Funding level not clear",
+      "Product complexity not assessed",
+      "Engineering team size unknown",
+      "AI adoption not assessed",
+      "Integration needs unknown",
+      "Expansion plans not confirmed"
+    ],
+    "custom_score": 10,
+    "custom_confidence": 0.0,
+    "custom_evidence": [],
+    "custom_missing": [
+      "Industry complexity not assessed",
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "COMAI",
+    "opportunity_confidence": 0.7,
+    "primary_buying_signal": "Revenue scaling",
+    "why_now": "Growth phase — scaling operations",
+    "evidence_summary": "D2C/ecommerce mentioned in discovery; D2C/online model confirmed; Growth signals suggest customer traction; Growth may create automation needs; Growing stage — may need product development",
+    "missing_information": "Channel mix unknown; No explicit buying intent confirmed; Funding level not clear; Product complexity not assessed; Engineering team size unknown",
+    "recommended_research": "Verify founder identity and LinkedIn; Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems"
+  },
+  {
+    "company_name": "Neothera",
+    "domain": "neothera.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 9 Cr Pre-Seed (Jul 2026). Skin health startup, very early stage with institutional backing.",
+    "founder": "",
+    "company_stage": "early",
+    "funding_summary": "Raised Rs 9 Cr Pre-Seed (Jul 2026)",
+    "comai_score": 20,
+    "comai_confidence": 0.2,
+    "comai_evidence": [
+      "Industry 'skincare' is D2C-relevant"
+    ],
+    "comai_missing": [
+      "Online sales model not confirmed",
+      "Customer volume data unknown",
+      "Channel mix unknown",
+      "Automation gap not assessed",
+      "No explicit buying intent confirmed"
+    ],
+    "saas_score": 47,
+    "saas_confidence": 0.8,
+    "saas_evidence": [
+      "Early stage — likely building product",
+      "Early funding — building product",
+      "Technology/product signals present",
+      "AI/automation adoption signals"
+    ],
+    "saas_missing": [
+      "Engineering team size unknown",
+      "Integration needs unknown",
+      "Expansion plans not confirmed"
+    ],
+    "custom_score": 8,
+    "custom_confidence": 0.2,
+    "custom_evidence": [
+      "Industry 'skincare' — lower custom software need"
+    ],
+    "custom_missing": [
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "SAAS_DEVELOPMENT",
+    "opportunity_confidence": 0.7,
+    "primary_buying_signal": "Pre-Seed funding (Jul 2026)",
+    "why_now": "Recent funding (2025-2026); Early stage — building systems",
+    "evidence_summary": "Industry 'skincare' is D2C-relevant; Early stage — likely building product; Early funding — building product; Technology/product signals present; AI/automation adoption signals",
+    "missing_information": "Online sales model not confirmed; Customer volume data unknown; Channel mix unknown; Automation gap not assessed; No explicit buying intent confirmed",
+    "recommended_research": "Verify founder identity and LinkedIn; Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems"
+  },
+  {
+    "company_name": "Salad Days",
+    "domain": "saladdays.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 30 Cr Series A (2026) co-led by V3 Ventures and Client Associates. Healthy food brand.",
+    "founder": "",
+    "company_stage": "growing",
+    "funding_summary": "Raised Rs 30 Cr Series A (2026) co-led by V3 Ventures and Client Associates",
+    "comai_score": 30,
+    "comai_confidence": 0.4,
+    "comai_evidence": [
+      "Industry 'food_health' is D2C-relevant",
+      "Likely D2C based on industry"
+    ],
+    "comai_missing": [
+      "Customer volume data unknown",
+      "Channel mix unknown",
+      "Automation gap not assessed",
+      "No explicit buying intent confirmed"
+    ],
+    "saas_score": 45,
+    "saas_confidence": 0.8,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Institutional funding — product development budget likely",
+      "Technology/product signals present",
+      "AI/automation adoption signals"
+    ],
+    "saas_missing": [
+      "Engineering team size unknown",
+      "Integration needs unknown",
+      "Expansion plans not confirmed"
+    ],
+    "custom_score": 8,
+    "custom_confidence": 0.2,
+    "custom_evidence": [
+      "Industry 'food_health' — lower custom software need"
+    ],
+    "custom_missing": [
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "SAAS_DEVELOPMENT",
+    "opportunity_confidence": 0.5,
+    "primary_buying_signal": "Series A funding (2026)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations",
+    "evidence_summary": "Industry 'food_health' is D2C-relevant; Likely D2C based on industry; Growing stage — may need product development; Institutional funding — product development budget likely; Technology/product signals present",
+    "missing_information": "Customer volume data unknown; Channel mix unknown; Automation gap not assessed; No explicit buying intent confirmed; Engineering team size unknown",
+    "recommended_research": "Verify founder identity and LinkedIn; Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems"
+  },
+  {
+    "company_name": "Sotrue",
+    "domain": "sotrue.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Achieved Rs 100 Cr ARR (Jul 2026). D2C beauty brand with digital-first growth strategy.",
+    "founder": "",
+    "company_stage": "growing",
+    "funding_summary": "Achieved Rs 100 Cr ARR (Jul 2026)",
+    "comai_score": 45,
+    "comai_confidence": 0.6,
+    "comai_evidence": [
+      "Industry 'beauty' is D2C-relevant",
+      "D2C/online model confirmed",
+      "Growth signals suggest customer traction"
+    ],
+    "comai_missing": [
+      "Channel mix unknown",
+      "Automation gap not assessed",
+      "No explicit buying intent confirmed"
+    ],
+    "saas_score": 10,
+    "saas_confidence": 0.2,
+    "saas_evidence": [
+      "Growing stage — may need product development"
+    ],
+    "saas_missing": [
+      "Funding level not clear",
+      "Product complexity not assessed",
+      "Engineering team size unknown",
+      "AI adoption not assessed",
+      "Integration needs unknown",
+      "Expansion plans not confirmed"
+    ],
+    "custom_score": 18,
+    "custom_confidence": 0.4,
+    "custom_evidence": [
+      "Industry 'beauty' — lower custom software need",
+      "Digital transformation signals"
+    ],
+    "custom_missing": [
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Custom platform opportunity not identified",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "COMAI",
+    "opportunity_confidence": 0.7,
+    "primary_buying_signal": "Rs 100 Cr ARR milestone",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations",
+    "evidence_summary": "Industry 'beauty' is D2C-relevant; D2C/online model confirmed; Growth signals suggest customer traction; Growing stage — may need product development; Industry 'beauty' — lower custom software need",
+    "missing_information": "Channel mix unknown; Automation gap not assessed; No explicit buying intent confirmed; Funding level not clear; Product complexity not assessed",
+    "recommended_research": "Verify founder identity and LinkedIn; Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems"
+  },
+  {
+    "company_name": "Khoya",
+    "domain": "khoya.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Secured strategic investment from Atelier Expressions (Jul 2026). Premium Indian sweets brand, D2C website + retail stores in Delhi.",
+    "founder": "Sid Mathur",
+    "company_stage": "growing",
+    "funding_summary": "Secured strategic investment from Atelier Expressions (Jul 2026)",
+    "comai_score": 45,
+    "comai_confidence": 0.6,
+    "comai_evidence": [
+      "Industry 'food_sweets' is D2C-relevant",
+      "D2C/online model confirmed",
+      "Multi-channel presence (support complexity)"
+    ],
+    "comai_missing": [
+      "Customer volume data unknown",
+      "Automation gap not assessed",
+      "No explicit buying intent confirmed"
+    ],
+    "saas_score": 30,
+    "saas_confidence": 0.6,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Technology/product signals present",
+      "AI/automation adoption signals"
+    ],
+    "saas_missing": [
+      "Funding level not clear",
+      "Engineering team size unknown",
+      "Integration needs unknown",
+      "Expansion plans not confirmed"
+    ],
+    "custom_score": 8,
+    "custom_confidence": 0.2,
+    "custom_evidence": [
+      "Industry 'food_sweets' — lower custom software need"
+    ],
+    "custom_missing": [
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "COMAI",
+    "opportunity_confidence": 0.5,
+    "primary_buying_signal": "Strategic investment (Jul 2026)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations",
+    "evidence_summary": "Industry 'food_sweets' is D2C-relevant; D2C/online model confirmed; Multi-channel presence (support complexity); Growing stage — may need product development; Technology/product signals present",
+    "missing_information": "Customer volume data unknown; Automation gap not assessed; No explicit buying intent confirmed; Funding level not clear; Engineering team size unknown",
+    "recommended_research": "Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems; Verify company website and actual products"
+  },
+  {
+    "company_name": "Econovus Packaging",
+    "domain": "econovus.com",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 40 Cr Pre-Series A (Jul 2026) led by Rainmatter (Zerodha). Sustainable packaging company for D2C brands.",
+    "founder": "",
+    "company_stage": "growing",
+    "funding_summary": "Raised Rs 40 Cr Pre-Series A (Jul 2026) led by Rainmatter (Zerodha)",
+    "comai_score": 30,
+    "comai_confidence": 0.4,
+    "comai_evidence": [
+      "D2C/ecommerce mentioned in discovery",
+      "D2C/online model confirmed"
+    ],
+    "comai_missing": [
+      "Customer volume data unknown",
+      "Channel mix unknown",
+      "Automation gap not assessed",
+      "No explicit buying intent confirmed"
+    ],
+    "saas_score": 45,
+    "saas_confidence": 0.8,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Institutional funding — product development budget likely",
+      "Technology/product signals present",
+      "AI/automation adoption signals"
+    ],
+    "saas_missing": [
+      "Engineering team size unknown",
+      "Integration needs unknown",
+      "Expansion plans not confirmed"
+    ],
+    "custom_score": 18,
+    "custom_confidence": 0.2,
+    "custom_evidence": [
+      "Industry 'packaging' has operational complexity"
+    ],
+    "custom_missing": [
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "SAAS_DEVELOPMENT",
+    "opportunity_confidence": 0.5,
+    "primary_buying_signal": "Pre-Series A funding (Jul 2026)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations",
+    "evidence_summary": "D2C/ecommerce mentioned in discovery; D2C/online model confirmed; Growing stage — may need product development; Institutional funding — product development budget likely; Technology/product signals present",
+    "missing_information": "Customer volume data unknown; Channel mix unknown; Automation gap not assessed; No explicit buying intent confirmed; Engineering team size unknown",
+    "recommended_research": "Verify founder identity and LinkedIn; Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems"
+  },
+  {
+    "company_name": "DrinkPrime",
+    "domain": "drinkprime.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised $18M (Apr 2026). Water purification subscription startup. IoT-enabled water purifiers on subscription model.",
+    "founder": "",
+    "company_stage": "growing",
+    "funding_summary": "Raised $18M (Apr 2026)",
+    "comai_score": 18,
+    "comai_confidence": 0.4,
+    "comai_evidence": [
+      "Growth may create automation needs",
+      "Active expansion signals present"
+    ],
+    "comai_missing": [
+      "Industry not clearly D2C-relevant",
+      "Online sales model not confirmed",
+      "Customer volume data unknown",
+      "Channel mix unknown"
+    ],
+    "saas_score": 43,
+    "saas_confidence": 1.0,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Funding received — some product budget",
+      "Technology/product signals present",
+      "AI/automation adoption signals",
+      "Expansion may require product development"
+    ],
+    "saas_missing": [
+      "Engineering team size unknown",
+      "Integration needs unknown"
+    ],
+    "custom_score": 15,
+    "custom_confidence": 0.2,
+    "custom_evidence": [
+      "Geographic expansion may need custom systems"
+    ],
+    "custom_missing": [
+      "Industry complexity not assessed",
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified"
+    ],
+    "best_opportunity": "SAAS_DEVELOPMENT",
+    "opportunity_confidence": 0.7,
+    "primary_buying_signal": "$18M funding (Apr 2026)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations; Active expansion",
+    "evidence_summary": "Growth may create automation needs; Active expansion signals present; Growing stage — may need product development; Funding received — some product budget; Technology/product signals present",
+    "missing_information": "Industry not clearly D2C-relevant; Online sales model not confirmed; Customer volume data unknown; Channel mix unknown; Engineering team size unknown",
+    "recommended_research": "Verify founder identity and LinkedIn; Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems"
+  },
+  {
+    "company_name": "Cookie Cartel",
+    "domain": "cookiecartel.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "D2C dessert brand, raised funding on Shark Tank India (2026). Gurugram-based, expanding into more markets.",
+    "founder": "",
+    "company_stage": "early",
+    "funding_summary": "D2C dessert brand, raised funding on Shark Tank India (2026)",
+    "comai_score": 43,
+    "comai_confidence": 0.6,
+    "comai_evidence": [
+      "Industry 'food_dessert' is D2C-relevant",
+      "D2C/online model confirmed",
+      "Growth may create automation needs"
+    ],
+    "comai_missing": [
+      "Customer volume data unknown",
+      "Channel mix unknown",
+      "No explicit buying intent confirmed"
+    ],
+    "saas_score": 23,
+    "saas_confidence": 0.4,
+    "saas_evidence": [
+      "Early stage — likely building product",
+      "Funding received — some product budget"
+    ],
+    "saas_missing": [
+      "Product complexity not assessed",
+      "Engineering team size unknown",
+      "AI adoption not assessed",
+      "Integration needs unknown",
+      "Expansion plans not confirmed"
+    ],
+    "custom_score": 16,
+    "custom_confidence": 0.4,
+    "custom_evidence": [
+      "Industry 'food_dessert' — lower custom software need",
+      "Growth signals suggest organizational complexity"
+    ],
+    "custom_missing": [
+      "Operational complexity not assessed",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "COMAI",
+    "opportunity_confidence": 0.5,
+    "primary_buying_signal": "Shark Tank funding",
+    "why_now": "Recent funding (2025-2026); Early stage — building systems",
+    "evidence_summary": "Industry 'food_dessert' is D2C-relevant; D2C/online model confirmed; Growth may create automation needs; Early stage — likely building product; Funding received — some product budget",
+    "missing_information": "Customer volume data unknown; Channel mix unknown; No explicit buying intent confirmed; Product complexity not assessed; Engineering team size unknown",
+    "recommended_research": "Verify founder identity and LinkedIn; Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems"
+  },
+  {
+    "company_name": "Grabox",
+    "domain": "grabox.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 40 Cr (Mar 2026) from 8i Ventures, Titan Capital Winners Fund. Data-driven sampling platform. Founded Oct 2023, Bangalore.",
+    "founder": "Dhruv",
+    "company_stage": "early",
+    "funding_summary": "Raised Rs 40 Cr (Mar 2026) from 8i Ventures, Titan Capital Winners Fund",
+    "comai_score": 5,
+    "comai_confidence": 0.0,
+    "comai_evidence": [],
+    "comai_missing": [
+      "Industry not clearly D2C-relevant",
+      "Online sales model not confirmed",
+      "Customer volume data unknown",
+      "Channel mix unknown",
+      "Automation gap not assessed",
+      "No explicit buying intent confirmed"
+    ],
+    "saas_score": 43,
+    "saas_confidence": 0.8,
+    "saas_evidence": [
+      "Early stage — likely building product",
+      "Funding received — some product budget",
+      "Technology/product signals present",
+      "AI/automation adoption signals"
+    ],
+    "saas_missing": [
+      "Engineering team size unknown",
+      "Integration needs unknown",
+      "Expansion plans not confirmed"
+    ],
+    "custom_score": 20,
+    "custom_confidence": 0.2,
+    "custom_evidence": [
+      "Platform/marketplace model — custom build opportunity"
+    ],
+    "custom_missing": [
+      "Industry complexity not assessed",
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "SAAS_DEVELOPMENT",
+    "opportunity_confidence": 0.7,
+    "primary_buying_signal": "Series A funding (Mar 2026)",
+    "why_now": "Recent funding (2025-2026); Early stage — building systems",
+    "evidence_summary": "Early stage — likely building product; Funding received — some product budget; Technology/product signals present; AI/automation adoption signals; Platform/marketplace model — custom build opportunity",
+    "missing_information": "Industry not clearly D2C-relevant; Online sales model not confirmed; Customer volume data unknown; Channel mix unknown; Automation gap not assessed",
+    "recommended_research": "Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems; Verify company website and actual products"
+  },
+  {
+    "company_name": "Bonkers Corner",
+    "domain": "bonkerscorner.com",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Series A at Rs 48M valuation (Mar 2026). Streetwear brand, Rs 123 Cr revenue FY25 with Rs 4 Cr profit. Mumbai-based, Gen Z focused.",
+    "founder": "Shubham",
+    "company_stage": "growing",
+    "funding_summary": "Raised Series A at Rs 48M valuation (Mar 2026)",
+    "comai_score": 40,
+    "comai_confidence": 0.6,
+    "comai_evidence": [
+      "Industry 'fashion_streetwear' is D2C-relevant",
+      "Likely D2C based on industry",
+      "Growth signals suggest customer traction"
+    ],
+    "comai_missing": [
+      "Channel mix unknown",
+      "Automation gap not assessed",
+      "No explicit buying intent confirmed"
+    ],
+    "saas_score": 25,
+    "saas_confidence": 0.4,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Institutional funding — product development budget likely"
+    ],
+    "saas_missing": [
+      "Product complexity not assessed",
+      "Engineering team size unknown",
+      "AI adoption not assessed",
+      "Integration needs unknown",
+      "Expansion plans not confirmed"
+    ],
+    "custom_score": 8,
+    "custom_confidence": 0.2,
+    "custom_evidence": [
+      "Industry 'fashion_streetwear' — lower custom software need"
+    ],
+    "custom_missing": [
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "COMAI",
+    "opportunity_confidence": 0.5,
+    "primary_buying_signal": "Series A funding (Mar 2026)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations",
+    "evidence_summary": "Industry 'fashion_streetwear' is D2C-relevant; Likely D2C based on industry; Growth signals suggest customer traction; Growing stage — may need product development; Institutional funding — product development budget likely",
+    "missing_information": "Channel mix unknown; Automation gap not assessed; No explicit buying intent confirmed; Product complexity not assessed; Engineering team size unknown",
+    "recommended_research": "Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems; Verify company website and actual products"
+  },
+  {
+    "company_name": "WishCare",
+    "domain": "wishcare.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 20 Cr (2023) led by Unilever Ventures. Skincare brand with accelerating revenue. Institutional backing from Unilever.",
+    "founder": "",
+    "company_stage": "growing",
+    "funding_summary": "Raised Rs 20 Cr (2023) led by Unilever Ventures",
+    "comai_score": 30,
+    "comai_confidence": 0.4,
+    "comai_evidence": [
+      "Industry 'skincare' is D2C-relevant",
+      "Growth signals suggest customer traction"
+    ],
+    "comai_missing": [
+      "Online sales model not confirmed",
+      "Channel mix unknown",
+      "Automation gap not assessed",
+      "No explicit buying intent confirmed"
+    ],
+    "saas_score": 18,
+    "saas_confidence": 0.4,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Funding received — some product budget"
+    ],
+    "saas_missing": [
+      "Product complexity not assessed",
+      "Engineering team size unknown",
+      "AI adoption not assessed",
+      "Integration needs unknown",
+      "Expansion plans not confirmed"
+    ],
+    "custom_score": 8,
+    "custom_confidence": 0.2,
+    "custom_evidence": [
+      "Industry 'skincare' — lower custom software need"
+    ],
+    "custom_missing": [
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "COMAI",
+    "opportunity_confidence": 0.5,
+    "primary_buying_signal": "Institutional backing",
+    "why_now": "Growth phase — scaling operations",
+    "evidence_summary": "Industry 'skincare' is D2C-relevant; Growth signals suggest customer traction; Growing stage — may need product development; Funding received — some product budget; Industry 'skincare' — lower custom software need",
+    "missing_information": "Online sales model not confirmed; Channel mix unknown; Automation gap not assessed; No explicit buying intent confirmed; Product complexity not assessed",
+    "recommended_research": "Verify founder identity and LinkedIn; Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems"
+  },
+  {
+    "company_name": "HyugaLife",
+    "domain": "hyugalife.com",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 100 Cr Series A (Apr 2026) led by IvyCap Ventures. Bengaluru-based nutrition marketplace with 450+ brands, 10K+ products, 1.5M+ registered users.",
+    "founder": "Sachin Parikh",
+    "company_stage": "growing",
+    "funding_summary": "Raised Rs 100 Cr Series A (Apr 2026) led by IvyCap Ventures",
+    "comai_score": 50,
+    "comai_confidence": 0.8,
+    "comai_evidence": [
+      "Industry 'health_nutrition' is D2C-relevant",
+      "D2C/online model confirmed",
+      "Multi-channel presence (support complexity)",
+      "Active expansion signals present"
+    ],
+    "comai_missing": [
+      "Customer volume data unknown",
+      "Automation gap not assessed"
+    ],
+    "saas_score": 50,
+    "saas_confidence": 1.0,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Institutional funding — product development budget likely",
+      "Technology/product signals present",
+      "AI/automation adoption signals",
+      "Expansion may require product development"
+    ],
+    "saas_missing": [
+      "Engineering team size unknown",
+      "Integration needs unknown"
+    ],
+    "custom_score": 20,
+    "custom_confidence": 0.2,
+    "custom_evidence": [
+      "Platform/marketplace model — custom build opportunity"
+    ],
+    "custom_missing": [
+      "Industry complexity not assessed",
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "NURTURE",
+    "opportunity_confidence": 0.3,
+    "primary_buying_signal": "Series A funding (April 2026)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations; Active expansion",
+    "evidence_summary": "Industry 'health_nutrition' is D2C-relevant; D2C/online model confirmed; Multi-channel presence (support complexity); Active expansion signals present; Growing stage — may need product development",
+    "missing_information": "Customer volume data unknown; Automation gap not assessed; Engineering team size unknown; Integration needs unknown; Industry complexity not assessed",
+    "recommended_research": "Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems; Verify company website and actual products"
+  },
+  {
+    "company_name": "BeastLife",
+    "domain": "beastlife.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 20 Cr Pre-Series A (Mar 2026) at Rs 320 Cr valuation. Revenue grew from Rs 36 Cr (FY25) to Rs 100 Cr (FY26). Sports nutrition brand.",
+    "founder": "Gaurav Taneja",
+    "company_stage": "growing",
+    "funding_summary": "Raised Rs 20 Cr Pre-Series A (Mar 2026) at Rs 320 Cr valuation",
+    "comai_score": 53,
+    "comai_confidence": 1.0,
+    "comai_evidence": [
+      "Industry 'sports_nutrition' is D2C-relevant",
+      "Growth signals suggest customer traction",
+      "Multi-channel presence (support complexity)",
+      "Growth may create automation needs",
+      "Active expansion signals present"
+    ],
+    "comai_missing": [
+      "Online sales model not confirmed"
+    ],
+    "saas_score": 50,
+    "saas_confidence": 1.0,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Institutional funding — product development budget likely",
+      "Technology/product signals present",
+      "AI/automation adoption signals",
+      "Expansion may require product development"
+    ],
+    "saas_missing": [
+      "Engineering team size unknown",
+      "Integration needs unknown"
+    ],
+    "custom_score": 23,
+    "custom_confidence": 0.4,
+    "custom_evidence": [
+      "Growth signals suggest organizational complexity",
+      "Geographic expansion may need custom systems"
+    ],
+    "custom_missing": [
+      "Industry complexity not assessed",
+      "Operational complexity not assessed",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified"
+    ],
+    "best_opportunity": "MULTIPLE_OPPORTUNITIES",
+    "opportunity_confidence": 0.4,
+    "primary_buying_signal": "Pre-Series A funding (Mar 2026)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations; Active expansion",
+    "evidence_summary": "Industry 'sports_nutrition' is D2C-relevant; Growth signals suggest customer traction; Multi-channel presence (support complexity); Growth may create automation needs; Active expansion signals present",
+    "missing_information": "Online sales model not confirmed; Engineering team size unknown; Integration needs unknown; Industry complexity not assessed; Operational complexity not assessed",
+    "recommended_research": "Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems; Verify company website and actual products"
+  },
+  {
+    "company_name": "Anmasa",
+    "domain": "anmasa.com",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 30 Cr Seed (Jul 2026) led by Fireside Ventures. Hyperlocal fresh staples startup, manufactures after order placed, 90-minute delivery. Founded 2023.",
+    "founder": "Yatish Talvadia",
+    "company_stage": "early",
+    "funding_summary": "Raised Rs 30 Cr Seed (Jul 2026) led by Fireside Ventures",
+    "comai_score": 40,
+    "comai_confidence": 0.6,
+    "comai_evidence": [
+      "Industry 'food_grocery' is D2C-relevant",
+      "Likely D2C based on industry",
+      "Growth signals suggest customer traction"
+    ],
+    "comai_missing": [
+      "Channel mix unknown",
+      "Automation gap not assessed",
+      "No explicit buying intent confirmed"
+    ],
+    "saas_score": 47,
+    "saas_confidence": 0.8,
+    "saas_evidence": [
+      "Early stage — likely building product",
+      "Early funding — building product",
+      "Technology/product signals present",
+      "AI/automation adoption signals"
+    ],
+    "saas_missing": [
+      "Engineering team size unknown",
+      "Integration needs unknown",
+      "Expansion plans not confirmed"
+    ],
+    "custom_score": 23,
+    "custom_confidence": 0.4,
+    "custom_evidence": [
+      "Industry 'food_grocery' — lower custom software need",
+      "Operational complexity signals present"
+    ],
+    "custom_missing": [
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "NURTURE",
+    "opportunity_confidence": 0.3,
+    "primary_buying_signal": "Seed funding (Jul 2026)",
+    "why_now": "Recent funding (2025-2026); Early stage — building systems; Active expansion",
+    "evidence_summary": "Industry 'food_grocery' is D2C-relevant; Likely D2C based on industry; Growth signals suggest customer traction; Early stage — likely building product; Early funding — building product",
+    "missing_information": "Channel mix unknown; Automation gap not assessed; No explicit buying intent confirmed; Engineering team size unknown; Integration needs unknown",
+    "recommended_research": "Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems; Verify company website and actual products"
+  },
+  {
+    "company_name": "MyDesignation",
+    "domain": "mydesignation.com",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 40 Cr Series A (Feb 2026) led by RPSG Capital Ventures. Kerala-based D2C fashion, 1M+ customers, high repeat purchase rates. Founded 2020.",
+    "founder": "Swaroop Krishnan",
+    "company_stage": "growing",
+    "funding_summary": "Raised Rs 40 Cr Series A (Feb 2026) led by RPSG Capital Ventures",
+    "comai_score": 60,
+    "comai_confidence": 1.0,
+    "comai_evidence": [
+      "Industry 'fashion' is D2C-relevant",
+      "D2C/online model confirmed",
+      "Growth signals suggest customer traction",
+      "Multi-channel presence (support complexity)",
+      "Active expansion signals present"
+    ],
+    "comai_missing": [
+      "Automation gap not assessed"
+    ],
+    "saas_score": 50,
+    "saas_confidence": 1.0,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Institutional funding — product development budget likely",
+      "Technology/product signals present",
+      "AI/automation adoption signals",
+      "Expansion may require product development"
+    ],
+    "saas_missing": [
+      "Engineering team size unknown",
+      "Integration needs unknown"
+    ],
+    "custom_score": 8,
+    "custom_confidence": 0.2,
+    "custom_evidence": [
+      "Industry 'fashion' — lower custom software need"
+    ],
+    "custom_missing": [
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "MULTIPLE_OPPORTUNITIES",
+    "opportunity_confidence": 0.4,
+    "primary_buying_signal": "Series A funding (Feb 2026)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations; Active expansion",
+    "evidence_summary": "Industry 'fashion' is D2C-relevant; D2C/online model confirmed; Growth signals suggest customer traction; Multi-channel presence (support complexity); Active expansion signals present",
+    "missing_information": "Automation gap not assessed; Engineering team size unknown; Integration needs unknown; Operational complexity not assessed; Organizational complexity unknown",
+    "recommended_research": "Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems; Verify company website and actual products"
+  },
+  {
+    "company_name": "Good Monk",
+    "domain": "goodmonk.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 33 Cr (2026) at Rs 175 Cr valuation. Nutrition brand with tasteless mixes for everyday food. Rapid growth, expanded across online marketplaces.",
+    "founder": "",
+    "company_stage": "growing",
+    "funding_summary": "Raised Rs 33 Cr (2026) at Rs 175 Cr valuation",
+    "comai_score": 58,
+    "comai_confidence": 1.0,
+    "comai_evidence": [
+      "Industry 'nutrition' is D2C-relevant",
+      "D2C/online model confirmed",
+      "Multi-channel presence (support complexity)",
+      "Growth may create automation needs",
+      "Active expansion signals present"
+    ],
+    "comai_missing": [
+      "Customer volume data unknown"
+    ],
+    "saas_score": 48,
+    "saas_confidence": 1.0,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Funding received — some product budget",
+      "Technology/product signals present",
+      "AI/automation adoption signals",
+      "Multi-platform suggests integration needs",
+      "Expansion may require product development"
+    ],
+    "saas_missing": [
+      "Engineering team size unknown"
+    ],
+    "custom_score": 25,
+    "custom_confidence": 0.4,
+    "custom_evidence": [
+      "Platform/marketplace model — custom build opportunity",
+      "Geographic expansion may need custom systems"
+    ],
+    "custom_missing": [
+      "Industry complexity not assessed",
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed"
+    ],
+    "best_opportunity": "MULTIPLE_OPPORTUNITIES",
+    "opportunity_confidence": 0.4,
+    "primary_buying_signal": "Funding round (2026)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations; Active expansion",
+    "evidence_summary": "Industry 'nutrition' is D2C-relevant; D2C/online model confirmed; Multi-channel presence (support complexity); Growth may create automation needs; Active expansion signals present",
+    "missing_information": "Customer volume data unknown; Engineering team size unknown; Industry complexity not assessed; Operational complexity not assessed; Organizational complexity unknown",
+    "recommended_research": "Verify founder identity and LinkedIn; Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems"
+  },
+  {
+    "company_name": "Agilitas Sports",
+    "domain": "agilitassports.com",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 225 Cr (Jun 2026) from Nexus + Rainmatter. Sportswear and athleisure, vertically integrated. Founded 2023 by ex-Puma MD Abhishek Ganguly.",
+    "founder": "Abhishek Ganguly",
+    "company_stage": "growing",
+    "funding_summary": "Raised Rs 225 Cr (Jun 2026) from Nexus + Rainmatter",
+    "comai_score": 33,
+    "comai_confidence": 0.6,
+    "comai_evidence": [
+      "Industry 'sportswear' is D2C-relevant",
+      "Growth may create automation needs",
+      "Active expansion signals present"
+    ],
+    "comai_missing": [
+      "Online sales model not confirmed",
+      "Customer volume data unknown",
+      "Channel mix unknown"
+    ],
+    "saas_score": 43,
+    "saas_confidence": 1.0,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Funding received — some product budget",
+      "Technology/product signals present",
+      "AI/automation adoption signals",
+      "Expansion may require product development"
+    ],
+    "saas_missing": [
+      "Engineering team size unknown",
+      "Integration needs unknown"
+    ],
+    "custom_score": 48,
+    "custom_confidence": 0.8,
+    "custom_evidence": [
+      "Operational complexity signals present",
+      "Growth signals suggest organizational complexity",
+      "Platform/marketplace model — custom build opportunity",
+      "Geographic expansion may need custom systems"
+    ],
+    "custom_missing": [
+      "Industry complexity not assessed",
+      "Digital transformation needs not assessed"
+    ],
+    "best_opportunity": "NURTURE",
+    "opportunity_confidence": 0.3,
+    "primary_buying_signal": "Rs 225 Cr funding (Jun 2026)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations; Active expansion",
+    "evidence_summary": "Industry 'sportswear' is D2C-relevant; Growth may create automation needs; Active expansion signals present; Growing stage — may need product development; Funding received — some product budget",
+    "missing_information": "Online sales model not confirmed; Customer volume data unknown; Channel mix unknown; Engineering team size unknown; Integration needs unknown",
+    "recommended_research": "Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems; Verify company website and actual products"
+  },
+  {
+    "company_name": "CUNIN",
+    "domain": "cunin.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised $450K Pre-Seed (2026) co-led by All In Capital and Huddle Ventures. Culture-led lifestyle brand in fragrance segment. Very early stage.",
+    "founder": "Kunal Shukla",
+    "company_stage": "early",
+    "funding_summary": "Raised $450K Pre-Seed (2026) co-led by All In Capital and Huddle Ventures",
+    "comai_score": 43,
+    "comai_confidence": 0.8,
+    "comai_evidence": [
+      "Industry 'fragrance_lifestyle' is D2C-relevant",
+      "Multi-channel presence (support complexity)",
+      "Growth may create automation needs",
+      "Active expansion signals present"
+    ],
+    "comai_missing": [
+      "Online sales model not confirmed",
+      "Customer volume data unknown"
+    ],
+    "saas_score": 52,
+    "saas_confidence": 1.0,
+    "saas_evidence": [
+      "Early stage — likely building product",
+      "Early funding — building product",
+      "Technology/product signals present",
+      "AI/automation adoption signals",
+      "Expansion may require product development"
+    ],
+    "saas_missing": [
+      "Engineering team size unknown",
+      "Integration needs unknown"
+    ],
+    "custom_score": 15,
+    "custom_confidence": 0.2,
+    "custom_evidence": [
+      "Geographic expansion may need custom systems"
+    ],
+    "custom_missing": [
+      "Industry complexity not assessed",
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified"
+    ],
+    "best_opportunity": "MULTIPLE_OPPORTUNITIES",
+    "opportunity_confidence": 0.4,
+    "primary_buying_signal": "Pre-Seed funding (2026)",
+    "why_now": "Recent funding (2025-2026); Early stage — building systems; Active expansion",
+    "evidence_summary": "Industry 'fragrance_lifestyle' is D2C-relevant; Multi-channel presence (support complexity); Growth may create automation needs; Active expansion signals present; Early stage — likely building product",
+    "missing_information": "Online sales model not confirmed; Customer volume data unknown; Engineering team size unknown; Integration needs unknown; Industry complexity not assessed",
+    "recommended_research": "Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems; Verify company website and actual products"
+  },
+  {
+    "company_name": "Basil",
+    "domain": "yourbasil.com",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised $2M Pre-Series A (Feb 2026) led by Prime Venture Partners. Kids essentials — bento boxes, lunchboxes, insulated jars. Rs 36 Cr ARR, targeting Rs 100 Cr FY27.",
+    "founder": "Harini Rajagopalan",
+    "company_stage": "growing",
+    "funding_summary": "Raised $2M Pre-Series A (Feb 2026) led by Prime Venture Partners",
+    "comai_score": 30,
+    "comai_confidence": 0.4,
+    "comai_evidence": [
+      "Industry 'kids_essentials' is D2C-relevant",
+      "Growth signals suggest customer traction"
+    ],
+    "comai_missing": [
+      "Online sales model not confirmed",
+      "Channel mix unknown",
+      "Automation gap not assessed",
+      "No explicit buying intent confirmed"
+    ],
+    "saas_score": 25,
+    "saas_confidence": 0.4,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Institutional funding — product development budget likely"
+    ],
+    "saas_missing": [
+      "Product complexity not assessed",
+      "Engineering team size unknown",
+      "AI adoption not assessed",
+      "Integration needs unknown",
+      "Expansion plans not confirmed"
+    ],
+    "custom_score": 10,
+    "custom_confidence": 0.0,
+    "custom_evidence": [],
+    "custom_missing": [
+      "Industry complexity not assessed",
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "NURTURE",
+    "opportunity_confidence": 0.3,
+    "primary_buying_signal": "Pre-Series A funding (Feb 2026)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations",
+    "evidence_summary": "Industry 'kids_essentials' is D2C-relevant; Growth signals suggest customer traction; Growing stage — may need product development; Institutional funding — product development budget likely",
+    "missing_information": "Online sales model not confirmed; Channel mix unknown; Automation gap not assessed; No explicit buying intent confirmed; Product complexity not assessed",
+    "recommended_research": "Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems; Verify company website and actual products"
+  },
+  {
+    "company_name": "Anveshan",
+    "domain": "anveshan.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 150 Cr Series B (Jun 2026). Farm-to-fork D2C food brand. Building supply chain from farm to consumer.",
+    "founder": "",
+    "company_stage": "growing",
+    "funding_summary": "Raised Rs 150 Cr Series B (Jun 2026)",
+    "comai_score": 48,
+    "comai_confidence": 0.8,
+    "comai_evidence": [
+      "Industry 'food_organic' is D2C-relevant",
+      "D2C/online model confirmed",
+      "Growth may create automation needs",
+      "Active expansion signals present"
+    ],
+    "comai_missing": [
+      "Customer volume data unknown",
+      "Channel mix unknown"
+    ],
+    "saas_score": 50,
+    "saas_confidence": 1.0,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Institutional funding — product development budget likely",
+      "Technology/product signals present",
+      "AI/automation adoption signals",
+      "Expansion may require product development"
+    ],
+    "saas_missing": [
+      "Engineering team size unknown",
+      "Integration needs unknown"
+    ],
+    "custom_score": 46,
+    "custom_confidence": 0.8,
+    "custom_evidence": [
+      "Industry 'food_organic' has operational complexity",
+      "Operational complexity signals present",
+      "Growth signals suggest organizational complexity",
+      "Geographic expansion may need custom systems"
+    ],
+    "custom_missing": [
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified"
+    ],
+    "best_opportunity": "NURTURE",
+    "opportunity_confidence": 0.3,
+    "primary_buying_signal": "Series B funding (Jun 2026)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations; Active expansion",
+    "evidence_summary": "Industry 'food_organic' is D2C-relevant; D2C/online model confirmed; Growth may create automation needs; Active expansion signals present; Growing stage — may need product development",
+    "missing_information": "Customer volume data unknown; Channel mix unknown; Engineering team size unknown; Integration needs unknown; Digital transformation needs not assessed",
+    "recommended_research": "Verify founder identity and LinkedIn; Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems"
+  },
+  {
+    "company_name": "Promom",
+    "domain": "promom.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 30 Cr (Jul 2026) led by Fireside Ventures. D2C brand in promotion/marketing space.",
+    "founder": "",
+    "company_stage": "growing",
+    "funding_summary": "Raised Rs 30 Cr (Jul 2026) led by Fireside Ventures",
+    "comai_score": 30,
+    "comai_confidence": 0.4,
+    "comai_evidence": [
+      "D2C/ecommerce mentioned in discovery",
+      "D2C/online model confirmed"
+    ],
+    "comai_missing": [
+      "Customer volume data unknown",
+      "Channel mix unknown",
+      "Automation gap not assessed",
+      "No explicit buying intent confirmed"
+    ],
+    "saas_score": 38,
+    "saas_confidence": 0.8,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Funding received — some product budget",
+      "Technology/product signals present",
+      "AI/automation adoption signals"
+    ],
+    "saas_missing": [
+      "Engineering team size unknown",
+      "Integration needs unknown",
+      "Expansion plans not confirmed"
+    ],
+    "custom_score": 10,
+    "custom_confidence": 0.0,
+    "custom_evidence": [],
+    "custom_missing": [
+      "Industry complexity not assessed",
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "NURTURE",
+    "opportunity_confidence": 0.3,
+    "primary_buying_signal": "Funding round (Jul 2026)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations",
+    "evidence_summary": "D2C/ecommerce mentioned in discovery; D2C/online model confirmed; Growing stage — may need product development; Funding received — some product budget; Technology/product signals present",
+    "missing_information": "Customer volume data unknown; Channel mix unknown; Automation gap not assessed; No explicit buying intent confirmed; Engineering team size unknown",
+    "recommended_research": "Verify founder identity and LinkedIn; Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems"
+  },
+  {
+    "company_name": "Supply6",
+    "domain": "supply6.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised $1.1M Seed (2025) led by ZeroPearl VC. Daily nutrition brand with 200K+ customers, 45% repeat purchase rate.",
+    "founder": "",
+    "company_stage": "early",
+    "funding_summary": "Raised $1",
+    "comai_score": 30,
+    "comai_confidence": 0.4,
+    "comai_evidence": [
+      "Industry 'nutrition' is D2C-relevant",
+      "Growth signals suggest customer traction"
+    ],
+    "comai_missing": [
+      "Online sales model not confirmed",
+      "Channel mix unknown",
+      "Automation gap not assessed",
+      "No explicit buying intent confirmed"
+    ],
+    "saas_score": 27,
+    "saas_confidence": 0.4,
+    "saas_evidence": [
+      "Early stage — likely building product",
+      "Early funding — building product"
+    ],
+    "saas_missing": [
+      "Product complexity not assessed",
+      "Engineering team size unknown",
+      "AI adoption not assessed",
+      "Integration needs unknown",
+      "Expansion plans not confirmed"
+    ],
+    "custom_score": 10,
+    "custom_confidence": 0.0,
+    "custom_evidence": [],
+    "custom_missing": [
+      "Industry complexity not assessed",
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "NURTURE",
+    "opportunity_confidence": 0.3,
+    "primary_buying_signal": "Seed funding (2025)",
+    "why_now": "Recent funding (2025-2026); Early stage — building systems",
+    "evidence_summary": "Industry 'nutrition' is D2C-relevant; Growth signals suggest customer traction; Early stage — likely building product; Early funding — building product",
+    "missing_information": "Online sales model not confirmed; Channel mix unknown; Automation gap not assessed; No explicit buying intent confirmed; Product complexity not assessed",
+    "recommended_research": "Verify founder identity and LinkedIn; Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems"
+  },
+  {
+    "company_name": "TruNativ",
+    "domain": "trunativ.in",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Clean-label functional nutrition brand. Everyday nutrition including protein, fiber, collagen. Growing market presence.",
+    "founder": "",
+    "company_stage": "growing",
+    "funding_summary": "Clean-label functional nutrition brand. Everyday nutrition including protein, fiber, collagen. Growi",
+    "comai_score": 20,
+    "comai_confidence": 0.2,
+    "comai_evidence": [
+      "Industry 'nutrition' is D2C-relevant"
+    ],
+    "comai_missing": [
+      "Online sales model not confirmed",
+      "Customer volume data unknown",
+      "Channel mix unknown",
+      "Automation gap not assessed",
+      "No explicit buying intent confirmed"
+    ],
+    "saas_score": 10,
+    "saas_confidence": 0.2,
+    "saas_evidence": [
+      "Growing stage — may need product development"
+    ],
+    "saas_missing": [
+      "Funding level not clear",
+      "Product complexity not assessed",
+      "Engineering team size unknown",
+      "AI adoption not assessed",
+      "Integration needs unknown",
+      "Expansion plans not confirmed"
+    ],
+    "custom_score": 10,
+    "custom_confidence": 0.0,
+    "custom_evidence": [],
+    "custom_missing": [
+      "Industry complexity not assessed",
+      "Operational complexity not assessed",
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "NURTURE",
+    "opportunity_confidence": 0.3,
+    "primary_buying_signal": "No explicit buying signal confirmed",
+    "why_now": "Growth phase — scaling operations",
+    "evidence_summary": "Industry 'nutrition' is D2C-relevant; Growing stage — may need product development",
+    "missing_information": "Online sales model not confirmed; Customer volume data unknown; Channel mix unknown; Automation gap not assessed; No explicit buying intent confirmed",
+    "recommended_research": "Verify founder identity and LinkedIn; Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems"
+  },
+  {
+    "company_name": "Suminter India Organics",
+    "domain": "suminter.com",
+    "discovery_source": "funding_announcements",
+    "discovery_date": "2026-08-08",
+    "discovery_reason": "Raised Rs 25 Cr (Jul 2026). Organic food ingredient sourcing company scaling operations.",
+    "founder": "",
+    "company_stage": "growing",
+    "funding_summary": "Raised Rs 25 Cr (Jul 2026)",
+    "comai_score": 38,
+    "comai_confidence": 0.6,
+    "comai_evidence": [
+      "Industry 'food_organic' is D2C-relevant",
+      "Likely D2C based on industry",
+      "Growth may create automation needs"
+    ],
+    "comai_missing": [
+      "Customer volume data unknown",
+      "Channel mix unknown",
+      "No explicit buying intent confirmed"
+    ],
+    "saas_score": 38,
+    "saas_confidence": 0.8,
+    "saas_evidence": [
+      "Growing stage — may need product development",
+      "Funding received — some product budget",
+      "Technology/product signals present",
+      "AI/automation adoption signals"
+    ],
+    "saas_missing": [
+      "Engineering team size unknown",
+      "Integration needs unknown",
+      "Expansion plans not confirmed"
+    ],
+    "custom_score": 33,
+    "custom_confidence": 0.4,
+    "custom_evidence": [
+      "Industry 'food_organic' has operational complexity",
+      "Operational complexity signals present"
+    ],
+    "custom_missing": [
+      "Organizational complexity unknown",
+      "Digital transformation needs not assessed",
+      "Custom platform opportunity not identified",
+      "Expansion custom needs not assessed"
+    ],
+    "best_opportunity": "NURTURE",
+    "opportunity_confidence": 0.3,
+    "primary_buying_signal": "Funding (Jul 2026)",
+    "why_now": "Recent funding (2025-2026); Growth phase — scaling operations",
+    "evidence_summary": "Industry 'food_organic' is D2C-relevant; Likely D2C based on industry; Growth may create automation needs; Growing stage — may need product development; Funding received — some product budget",
+    "missing_information": "Customer volume data unknown; Channel mix unknown; No explicit buying intent confirmed; Engineering team size unknown; Integration needs unknown",
+    "recommended_research": "Verify founder identity and LinkedIn; Verify ecommerce platform (Shopify/WooCommerce); Check engineering team size and tech stack; Assess operational complexity and legacy systems"
+  }
+]

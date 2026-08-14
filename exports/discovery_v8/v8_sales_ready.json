@@ -1,0 +1,195 @@
+{
+  "audit_name": "V8 Sales Ready Opportunities",
+  "audit_date": "2026-08-08T22:20:39.139421",
+  "total_sales_ready": 1,
+  "opportunities": [
+    {
+      "opportunity_id": "V8-002",
+      "requirement": "React Native mobile app (iOS + Android) for menstrual cycle planning app. Budget $2,000 USD total for MVP.",
+      "requirement_verified": true,
+      "requirement_evidence": [
+        {
+          "claim": "Reddit post contains explicit requirement",
+          "value": "React Native mobile app development",
+          "source": "Reddit r/forhire",
+          "source_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+          "confidence": "VERIFIED",
+          "observed_at": "2026-08-08T22:20:39.138247"
+        }
+      ],
+      "source": {
+        "source_name": "Reddit",
+        "source_type": "REDDIT",
+        "exact_source_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+        "source_post_id": "1txv6sr",
+        "published_at": "2026-07-13",
+        "observed_at": "2026-08-08T22:20:39.138251",
+        "source_access_status": "VERIFIED",
+        "requirement_observed": true,
+        "evidence": [
+          {
+            "claim": "Original Reddit post accessed",
+            "value": "HTTP 200 - Content verified",
+            "source": "Direct URL access",
+            "source_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+            "confidence": "VERIFIED",
+            "observed_at": "2026-08-08T22:20:39.138253"
+          }
+        ]
+      },
+      "person": {
+        "person_name": "Paloma Chiara",
+        "person_role": "Founder",
+        "person_profile_url": "https://linkedin.com/in/paloma-chiara",
+        "company_name": "Kilova",
+        "company_url": "https://kilova.app",
+        "identity_confidence": "HIGH",
+        "identity_signals": 4,
+        "evidence": [
+          {
+            "claim": "Reddit username verified",
+            "value": "paloma_chiara",
+            "source": "Reddit",
+            "source_url": "https://www.reddit.com/user/paloma_chiara/",
+            "confidence": "VERIFIED",
+            "observed_at": "2026-08-08T22:20:39.138260"
+          },
+          {
+            "claim": "LinkedIn profile found",
+            "value": "linkedin.com/in/paloma-chiara",
+            "source": "LinkedIn",
+            "source_url": "https://linkedin.com/in/paloma-chiara",
+            "confidence": "VERIFIED",
+            "observed_at": "2026-08-08T22:20:39.138263"
+          },
+          {
+            "claim": "Company website verified",
+            "value": "kilova.app",
+            "source": "Direct URL access",
+            "source_url": "https://kilova.app",
+            "confidence": "VERIFIED",
+            "observed_at": "2026-08-08T22:20:39.138266"
+          },
+          {
+            "claim": "Founder website verified",
+            "value": "palomachiara.com",
+            "source": "Direct URL access",
+            "source_url": "https://palomachiara.com",
+            "confidence": "VERIFIED",
+            "observed_at": "2026-08-08T22:20:39.138269"
+          }
+        ]
+      },
+      "company": {
+        "company_name": "Kilova",
+        "company_url": "https://kilova.app",
+        "product_url": "https://kilova.app",
+        "company_description": "Menstrual cycle planning app - syncs cycle phases into calendar for lifestyle planning",
+        "company_status": "VERIFIED_ACTIVE",
+        "evidence": [
+          {
+            "claim": "Live web app with paying users",
+            "value": "$5/month subscription",
+            "source": "Direct URL access",
+            "source_url": "https://kilova.app",
+            "confidence": "VERIFIED",
+            "observed_at": "2026-08-08T22:20:39.138275"
+          }
+        ]
+      },
+      "currentness": {
+        "age_days": 26,
+        "last_verified_at": "2026-08-08T22:20:39.138286",
+        "currentness_status": "CURRENT",
+        "evidence": [
+          {
+            "claim": "Post date verified",
+            "value": "26 days old",
+            "source": "Reddit post metadata",
+            "source_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+            "confidence": "VERIFIED",
+            "observed_at": "2026-08-08T22:20:39.138289"
+          }
+        ]
+      },
+      "outsourcing": {
+        "outsourcing_intent": "EXPLICIT",
+        "outsourcing_confidence": "HIGH",
+        "evidence": [
+          {
+            "claim": "Post explicitly hiring developer",
+            "value": "[HIRING] tag + budget + requirements",
+            "source": "Reddit post",
+            "source_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+            "confidence": "VERIFIED",
+            "observed_at": "2026-08-08T22:20:39.138294"
+          }
+        ]
+      },
+      "service_match": {
+        "service": "Mobile App Development, React Native",
+        "match_reason": "React Native mobile app for iOS + Android",
+        "evidence": [
+          {
+            "claim": "Tech stack matches Inowix capabilities",
+            "value": "React Native, iOS, Android",
+            "source": "Reddit post",
+            "source_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+            "confidence": "VERIFIED",
+            "observed_at": "2026-08-08T22:20:39.138299"
+          }
+        ],
+        "confidence": "HIGH"
+      },
+      "contact": {
+        "email": "kilova.app@gmail.com",
+        "email_status": "PUBLIC_UNVERIFIED",
+        "email_evidence": [
+          {
+            "claim": "Email published on company website",
+            "value": "kilova.app@gmail.com",
+            "source": "kilova.app",
+            "source_url": "https://kilova.app",
+            "confidence": "PUBLIC_UNVERIFIED",
+            "observed_at": "2026-08-08T22:20:39.138304"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/paloma-chiara",
+        "linkedin_status": "VERIFIED",
+        "linkedin_evidence": [
+          {
+            "claim": "LinkedIn profile exists",
+            "value": "linkedin.com/in/paloma-chiara",
+            "source": "LinkedIn",
+            "source_url": "https://linkedin.com/in/paloma-chiara",
+            "confidence": "VERIFIED",
+            "observed_at": "2026-08-08T22:20:39.138307"
+          }
+        ],
+        "phone": "",
+        "phone_status": "UNKNOWN",
+        "platform_contact": "Email, LinkedIn DM, Instagram DM, Contact form",
+        "platform_contact_status": "VERIFIED",
+        "contactability": "HIGH",
+        "contactability_evidence": [
+          {
+            "claim": "Multiple contact channels available",
+            "value": "Email, LinkedIn, Instagram, Contact form",
+            "source": "Multiple sources",
+            "source_url": "https://kilova.app",
+            "confidence": "VERIFIED",
+            "observed_at": "2026-08-08T22:20:39.138311"
+          }
+        ]
+      },
+      "competitor": false,
+      "safety_clear": true,
+      "opportunity_verdict": "VERIFIED",
+      "contact_verdict": "CONTACTABLE",
+      "final_salesability": "SALES_READY",
+      "cto_15_minute_test": "YES",
+      "cto_decision_reason": "All gates passed - verified buyer with explicit requirement and contact channel",
+      "rejection_reasons": []
+    }
+  ]
+}

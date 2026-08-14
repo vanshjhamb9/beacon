@@ -1,0 +1,314 @@
+{
+  "generated_at": "2026-08-13T23:57:52.870797+00:00",
+  "sent": 22,
+  "results": [
+    {
+      "company": "Nessie Labs",
+      "to_email": "founders@nessielabs.com",
+      "subject": "Nessie Labs — custom SaaS / AI capacity from Inowix",
+      "send_result": {
+        "success": true,
+        "to": "founders@nessielabs.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Nessie Labs — custom SaaS / AI capacity from Inowix"
+      }
+    },
+    {
+      "company": "Juno",
+      "to_email": "team@juno-chat.com",
+      "subject": "Juno — iOS (Inowix)",
+      "send_result": {
+        "success": true,
+        "to": "team@juno-chat.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Juno — iOS (Inowix)"
+      }
+    },
+    {
+      "company": "Prematch",
+      "to_email": "hello@prematchapp.de",
+      "subject": "Prematch — Flutter + iOS (Inowix)",
+      "send_result": {
+        "success": true,
+        "to": "hello@prematchapp.de",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Prematch — Flutter + iOS (Inowix)"
+      }
+    },
+    {
+      "company": "Prematch",
+      "to_email": "niklas@prematchapp.de",
+      "subject": "Prematch — White-label (Inowix)",
+      "send_result": {
+        "success": true,
+        "to": "niklas@prematchapp.de",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Prematch — White-label (Inowix)"
+      }
+    },
+    {
+      "company": "Jiga",
+      "to_email": "founders@jiga.io",
+      "subject": "Jiga — custom SaaS / AI capacity from Inowix",
+      "send_result": {
+        "success": true,
+        "to": "founders@jiga.io",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Jiga — custom SaaS / AI capacity from Inowix"
+      }
+    },
+    {
+      "company": "Runway (runway.team)",
+      "to_email": "hello@runway.team",
+      "subject": "Runway (runway.team) — custom SaaS / AI capacity from Inowix",
+      "send_result": {
+        "success": true,
+        "to": "hello@runway.team",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Runway (runway.team) — custom SaaS / AI capacity from Inowix"
+      }
+    },
+    {
+      "company": "ANORIA",
+      "to_email": "hello@anoria.com",
+      "subject": "ANORIA — iOS app + AI product engineering partner (Inowix)",
+      "send_result": {
+        "success": true,
+        "to": "hello@anoria.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "ANORIA — iOS app + AI product engineering partner (Inowix)"
+      }
+    },
+    {
+      "company": "Willow Voice",
+      "to_email": "allan@willowvoice.com",
+      "subject": "Willow Voice — Native iOS + AI product engineering capa (Inowix)",
+      "send_result": {
+        "success": true,
+        "to": "allan@willowvoice.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Willow Voice — Native iOS + AI product engineering capa (Inowix)"
+      }
+    },
+    {
+      "company": "HomeTeams",
+      "to_email": "katie@hometeams.io",
+      "subject": "For Steve — HomeTeams product capacity (Inowix)",
+      "send_result": {
+        "success": true,
+        "to": "katie@hometeams.io",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "For Steve — HomeTeams product capacity (Inowix)"
+      }
+    },
+    {
+      "company": "Replo",
+      "to_email": "yuxin@replo.app",
+      "subject": "Replo — custom SaaS / AI capacity from Inowix",
+      "send_result": {
+        "success": true,
+        "to": "yuxin@replo.app",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Replo — custom SaaS / AI capacity from Inowix"
+      }
+    },
+    {
+      "company": "Sei AI",
+      "to_email": "founders@seiright.com",
+      "subject": "Sei AI — custom SaaS / AI capacity from Inowix",
+      "send_result": {
+        "success": true,
+        "to": "founders@seiright.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Sei AI — custom SaaS / AI capacity from Inowix"
+      }
+    },
+    {
+      "company": "vishwa.ai",
+      "to_email": "hello@vishwa.ai",
+      "subject": "vishwa.ai — custom SaaS / AI capacity from Inowix",
+      "send_result": {
+        "success": true,
+        "to": "hello@vishwa.ai",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "vishwa.ai — custom SaaS / AI capacity from Inowix"
+      }
+    },
+    {
+      "company": "Helium",
+      "to_email": "founders@tryhelium.com",
+      "subject": "Helium — custom SaaS / AI capacity from Inowix",
+      "send_result": {
+        "success": true,
+        "to": "founders@tryhelium.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Helium — custom SaaS / AI capacity from Inowix"
+      }
+    },
+    {
+      "company": "Boock.ai",
+      "to_email": "hello@boock.ai",
+      "subject": "Boock.ai — Custom AI agents + SaaS MVP build partne (Inowix)",
+      "send_result": {
+        "success": true,
+        "to": "hello@boock.ai",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Boock.ai — Custom AI agents + SaaS MVP build partne (Inowix)"
+      }
+    },
+    {
+      "company": "AIVOA Technology",
+      "to_email": "waseem.mulla@aivoa.ai",
+      "subject": "AIVOA Technology — Custom AI solutions (Inowix)",
+      "send_result": {
+        "success": true,
+        "to": "waseem.mulla@aivoa.ai",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "AIVOA Technology — Custom AI solutions (Inowix)"
+      }
+    },
+    {
+      "company": "Cookiy AI",
+      "to_email": "hiring@cookiy.ai",
+      "subject": "Cookiy AI — custom SaaS / AI capacity from Inowix",
+      "send_result": {
+        "success": true,
+        "to": "hiring@cookiy.ai",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Cookiy AI — custom SaaS / AI capacity from Inowix"
+      }
+    },
+    {
+      "company": "Songscription",
+      "to_email": "hello@songscription.ai",
+      "subject": "Songscription — iOS (Inowix)",
+      "send_result": {
+        "success": true,
+        "to": "hello@songscription.ai",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Songscription — iOS (Inowix)"
+      }
+    },
+    {
+      "company": "Apexnova",
+      "to_email": "hello@apexnova.in",
+      "subject": "Apexnova × Inowix — white-label eng capacity",
+      "send_result": {
+        "success": true,
+        "to": "hello@apexnova.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Apexnova × Inowix — white-label eng capacity"
+      }
+    },
+    {
+      "company": "Torkk",
+      "to_email": "hr@torkk.in",
+      "subject": "Torkk — Flutter app + Node (Inowix)",
+      "send_result": {
+        "success": true,
+        "to": "hr@torkk.in",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Torkk — Flutter app + Node (Inowix)"
+      }
+    },
+    {
+      "company": "UnClaimedX (Pass Down)",
+      "to_email": "hello@unclaimedx.com",
+      "subject": "UnClaimedX (Pass Down) — Flutter + secure SaaS mobile build partn (Inowix)",
+      "send_result": {
+        "success": true,
+        "to": "hello@unclaimedx.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "UnClaimedX (Pass Down) — Flutter + secure SaaS mobile build partn (Inowix)"
+      }
+    },
+    {
+      "company": "Helium",
+      "to_email": "hi@tryhelium.com",
+      "subject": "Helium — custom SaaS / AI capacity from Inowix",
+      "send_result": {
+        "success": true,
+        "to": "hi@tryhelium.com",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Helium — custom SaaS / AI capacity from Inowix"
+      }
+    },
+    {
+      "company": "Lyzr AI",
+      "to_email": "contact@lyzr.ai",
+      "subject": "Lyzr AI — custom SaaS / AI capacity from Inowix",
+      "send_result": {
+        "success": true,
+        "to": "contact@lyzr.ai",
+        "cc": [
+          "vanshjhamb9@gmail.com",
+          "ragibali84@gmail.com"
+        ],
+        "subject": "Lyzr AI — custom SaaS / AI capacity from Inowix"
+      }
+    }
+  ]
+}

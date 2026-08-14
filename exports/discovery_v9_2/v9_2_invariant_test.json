@@ -1,0 +1,41 @@
+{
+  "tests": [
+    {
+      "test": "All opportunities are NEEDS_RESEARCH",
+      "pass": true
+    },
+    {
+      "test": "All opportunities have requirement_verified == TRUE",
+      "pass": true
+    },
+    {
+      "test": "All opportunities are CURRENT",
+      "pass": true
+    },
+    {
+      "test": "All opportunities have EXPLICIT outsourcing intent",
+      "pass": true
+    },
+    {
+      "test": "Contact research tasks match opportunity count",
+      "pass": true
+    },
+    {
+      "test": "All contact tasks are HUMAN_REVIEW_REQUIRED",
+      "pass": true
+    },
+    {
+      "test": "All founder decisions are PENDING",
+      "pass": true
+    },
+    {
+      "test": "No outreach cards generated (pending founder approval)",
+      "pass": true
+    },
+    {
+      "test": "No emails classified as VERIFIED",
+      "pass": true
+    }
+  ],
+  "production_status": "PASS"
+}

@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 222 47% 5%;
+  --foreground: 210 40% 98%;
+  --card: 222 36% 8%;
+  --card-foreground: 210 40% 98%;
+  --primary: 152 60% 42%;
+  --primary-foreground: 222 47% 5%;
+  --muted: 222 24% 13%;
+  --muted-foreground: 215 16% 68%;
+  --border: 217 22% 18%;
+  --input: 217 22% 18%;
+  --ring: 152 60% 42%;
+  --radius: 0.85rem;
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.28);
+  --status-ready: 152 60% 45%;
+  --status-info: 210 80% 58%;
+  --status-attention: 32 92% 52%;
+  --status-blocked: 0 72% 55%;
+  --status-inactive: 220 10% 55%;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(ellipse 70% 45% at 0% -8%, rgba(52, 211, 153, 0.1), transparent 50%),
+    radial-gradient(ellipse 55% 35% at 100% 0%, rgba(56, 189, 248, 0.07), transparent 45%),
+    linear-gradient(180deg, #0a101c 0%, #0b1220 40%, #0a0f18 100%);
+  color: hsl(var(--foreground));
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: rgba(52, 211, 153, 0.28);
+}
+
+.font-display {
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.font-mono {
+  font-family: var(--font-mono), ui-monospace, monospace;
+}
+
+.shadow-soft {
+  box-shadow: var(--shadow-soft);
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.25);
+  border-radius: 999px;
+}
+
+@keyframes sheet-in {
+  from {
+    transform: translateX(12px);
+    opacity: 0.85;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-in {
+  animation: sheet-in 0.2s ease-out;
+}
+
+.slide-in-from-right {
+  animation-name: sheet-in;
+}

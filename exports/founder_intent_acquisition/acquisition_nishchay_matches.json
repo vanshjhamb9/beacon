@@ -1,0 +1,60 @@
+[
+  {
+    "opportunity_id": "nishchay_jaiswal_tavyn",
+    "source": "Reddit r/SaaS",
+    "source_url": "https://www.reddit.com/r/SaaS/comments/1vh5tah/",
+    "source_post_id": "1vh5tah",
+    "published_at": "2026-08-08T00:00:00Z",
+    "observed_at": "2026-08-09T14:36:40.190095+00:00",
+    "author_username": "Nishchay_Jaiswal",
+    "author_name": "Nishchay Jaiswal",
+    "author_profile_url": "https://www.reddit.com/user/Nishchay_Jaiswal",
+    "company": "Tavyn",
+    "company_url": "https://tavyn.dev/",
+    "product": "Tavyn - SEO AI Agent",
+    "product_url": "https://tavyn.dev/",
+    "raw_signal": "Looking for a developer / small studio to help with Tavyn",
+    "buying_event": "looking for a developer",
+    "requirement": "looking for a developer",
+    "budget": "$500",
+    "timeline": "3 weeks",
+    "outsourcing_intent": true,
+    "outsourcing_evidence": [
+      "looking for a developer"
+    ],
+    "identity_confidence": "HIGH",
+    "identity_evidence": [
+      "username",
+      "real_name",
+      "company",
+      "company_url"
+    ],
+    "email": "",
+    "email_status": "",
+    "email_evidence": [],
+    "linkedin_url": "",
+    "linkedin_status": "",
+    "x_url": "",
+    "x_status": "",
+    "platform_contact": "",
+    "contactability": "MEDIUM",
+    "service_match": "SAAS_DEVELOPMENT",
+    "service_match_confidence": 0.6,
+    "freshness": "HOT",
+    "acquisition_priority": "CRITICAL",
+    "handoff_to_v9": true,
+    "rejection_reason": "",
+    "nishchay_pattern": {
+      "has_founder": true,
+      "has_product": true,
+      "has_development_need": true,
+      "has_external_help": true,
+      "has_timeline": true,
+      "has_budget": true,
+      "has_identifiable_person": true,
+      "has_contact_channel": false,
+      "score": 7,
+      "matched": true
+    }
+  }
+]

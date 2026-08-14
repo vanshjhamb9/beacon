@@ -1,0 +1,151 @@
+{
+  "generated_at": "2026-08-13T23:36:48.185553+00:00",
+  "from": "vansh@inowix.in",
+  "cc": [
+    "vanshjhamb9@gmail.com",
+    "ragibali84@gmail.com"
+  ],
+  "sent": 0,
+  "failed": 15,
+  "results": [
+    {
+      "company": "Prematch",
+      "founder_name": "Lukas Röhle",
+      "to_email": "hello@prematchapp.de",
+      "subject": "Prematch — Flutter/iOS capacity from Inowix (while you hire)",
+      "intent_date": "2026-08-14 (posted today)",
+      "send_result": {
+        "success": false,
+        "to": "hello@prematchapp.de",
+        "error": "Connection unexpectedly closed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      },
+      "sent_at": "2026-08-13T23:36:48.185379+00:00"
+    },
+    {
+      "company": "Prematch",
+      "to_email": "niklas@prematchapp.de",
+      "subject": "Prematch — Flutter/iOS capacity from Inowix (while you hire)",
+      "send_result": {
+        "success": false,
+        "error": "skipped_after_failure"
+      }
+    },
+    {
+      "company": "HomeTeams",
+      "to_email": "katie@hometeams.io",
+      "subject": "For Steve — HomeTeams full-stack / AI capacity (Inowix)",
+      "send_result": {
+        "success": false,
+        "error": "skipped_after_failure"
+      }
+    },
+    {
+      "company": "ANORIA",
+      "to_email": "hello@anoria.com",
+      "subject": "ANORIA — iOS + AI product engineering partner (Inowix)",
+      "send_result": {
+        "success": false,
+        "error": "skipped_after_failure"
+      }
+    },
+    {
+      "company": "Sei AI",
+      "to_email": "founders@seiright.com",
+      "subject": "Sei AI — custom SaaS / AI build capacity from Inowix",
+      "send_result": {
+        "success": false,
+        "error": "skipped_after_failure"
+      }
+    },
+    {
+      "company": "AIVOA Technology",
+      "to_email": "waseem.mulla@aivoa.ai",
+      "subject": "AIVOA Technology — custom SaaS / AI build capacity from Inowix",
+      "send_result": {
+        "success": false,
+        "error": "skipped_after_failure"
+      }
+    },
+    {
+      "company": "Willow Voice",
+      "to_email": "allan@willowvoice.com",
+      "subject": "Willow Voice — iOS + AI product engineering partner (Inowix)",
+      "send_result": {
+        "success": false,
+        "error": "skipped_after_failure"
+      }
+    },
+    {
+      "company": "Runway (runway.team)",
+      "to_email": "hello@runway.team",
+      "subject": "Runway (runway.team) — custom SaaS / AI build capacity from Inowix",
+      "send_result": {
+        "success": false,
+        "error": "skipped_after_failure"
+      }
+    },
+    {
+      "company": "Jiga",
+      "to_email": "founders@jiga.io",
+      "subject": "Jiga — custom SaaS / AI build capacity from Inowix",
+      "send_result": {
+        "success": false,
+        "error": "skipped_after_failure"
+      }
+    },
+    {
+      "company": "Boock.ai",
+      "to_email": "hello@boock.ai",
+      "subject": "Boock.ai — custom SaaS / AI build capacity from Inowix",
+      "send_result": {
+        "success": false,
+        "error": "skipped_after_failure"
+      }
+    },
+    {
+      "company": "Songscription",
+      "to_email": "hello@songscription.ai",
+      "subject": "Songscription — iOS + AI product engineering partner (Inowix)",
+      "send_result": {
+        "success": false,
+        "error": "skipped_after_failure"
+      }
+    },
+    {
+      "company": "Apexnova",
+      "to_email": "hello@apexnova.in",
+      "subject": "Apexnova — Flutter/iOS capacity from Inowix (while you hire)",
+      "send_result": {
+        "success": false,
+        "error": "skipped_after_failure"
+      }
+    },
+    {
+      "company": "Torkk (BlackOriginX)",
+      "to_email": "hr@torkk.in",
+      "subject": "Torkk (BlackOriginX) — Flutter/iOS capacity from Inowix (while you hire)",
+      "send_result": {
+        "success": false,
+        "error": "skipped_after_failure"
+      }
+    },
+    {
+      "company": "UnClaimedX (Pass Down)",
+      "to_email": "hello@unclaimedx.com",
+      "subject": "UnClaimedX (Pass Down) — Flutter/iOS capacity from Inowix (while you hire)",
+      "send_result": {
+        "success": false,
+        "error": "skipped_after_failure"
+      }
+    },
+    {
+      "company": "Lyzr AI",
+      "to_email": "contact@lyzr.ai",
+      "subject": "Lyzr AI — custom SaaS / AI build capacity from Inowix",
+      "send_result": {
+        "success": false,
+        "error": "skipped_after_failure"
+      }
+    }
+  ]
+}

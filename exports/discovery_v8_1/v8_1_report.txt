@@ -1,0 +1,43 @@
+======================================================================
+V8.1 PRODUCTION HARDENING REPORT
+Generated: 2026-08-08T22:32:22.408456
+======================================================================
+
+DISCOVERY FUNNEL:
+  TOTAL_DISCOVERED: 1
+  EXACT_SOURCE_VERIFIED: 1
+  REQUIREMENT_VERIFIED: 1
+  BUYING_EVENT_VERIFIED: 1
+  IDENTITY_HIGH: 1
+  COMPANY_VERIFIED: 1
+  CURRENT: 1
+  EXPLICIT_OUTSOURCING: 1
+  SERVICE_MATCH_HIGH: 1
+  CONTACT_HIGH: 0
+  EVIDENCE_CONSISTENCY_PASS: 1
+  REPRODUCIBILITY_PASS: 0
+  SALES_READY: 0
+  NEEDS_RESEARCH: 1
+  REJECTED: 0
+
+======================================================================
+SALES_READY LEADS
+======================================================================
+
+  NO SALES_READY LEADS
+
+======================================================================
+NEEDS_RESEARCH LEADS
+======================================================================
+
+V8-002: Kilova
+  Rejection Reasons:
+    - Failed gate: contactability
+    - Failed gate: reproducibility
+
+======================================================================
+REJECTED LEADS
+======================================================================
+
+  NO REJECTED LEADS
+

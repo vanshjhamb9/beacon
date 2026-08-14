@@ -1,0 +1,82 @@
+[
+  {
+    "id": "6f176f68-5aa5-4960-9b90-03202c22242e",
+    "source": "devto",
+    "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
+    "content": "I don’t know about you, but every time I scroll through my news feed, I can't help but trip over yet another article about how AI companies are racking up an impressive pile of debt. It’s dizzying, right? I’ve been exploring this topic for a while now, and it's become clear there's a lot more than what meets the eye. Ever wondered why some of the most hyped startups are keeping their financial struggles on the down-low? Let’s dive into this murky water together. The Illusion of Easy Money When I",
+    "url": "https://dev.to/technoblogger14o3/ai-companies-are-trying-to-hide-a-staggering-amount-of-debt-3hfi",
+    "published_at": "2026-07-23 21:37:11+05:30",
+    "author": "Aman Shekhar",
+    "subreddit": "",
+    "score": 0,
+    "num_comments": 0,
+    "service_matches": [
+      {
+        "business_unit": "COMAI",
+        "services": [
+          "comai_whatsapp",
+          "comai_chatbot",
+          "comai_shopify"
+        ],
+        "matched_keyword": "automate customer support",
+        "confidence": 0.8
+      }
+    ],
+    "has_company": false,
+    "company_signals": [],
+    "is_current": true,
+    "currentness_reason": "16d_old",
+    "has_contact": false,
+    "contact_reason": "NO_CONTACT",
+    "is_consistent": true,
+    "consistency_signals": [
+      "title_present",
+      "content_present",
+      "author_present"
+    ],
+    "gates_passed": 4,
+    "gates_total": 6,
+    "classification": "NEEDS_RESEARCH",
+    "processed_at": "2026-08-09T11:20:13.760271+00:00"
+  },
+  {
+    "id": "f9f76fa6-31c5-4ba3-bdf0-e71885f71161",
+    "source": "devto",
+    "title": "From Idea to MVP in Weeks: How a Studio Compresses the Build",
+    "content": "Most MVP timelines are not lost to writing features. They are lost to deciding things that did not need deciding, and to redoing setup that should have been standard. July 13, 2026 When a build runs long, the instinct is to blame the amount of code. That is almost never where the time went. We have shipped enough first versions to know that the schedule is rarely lost to writing features. It is lost to three quieter things: decisions that were never actually made, setup that gets rebuilt from sc",
+    "url": "https://dev.to/senternet/from-idea-to-mvp-in-weeks-how-a-studio-compresses-the-build-50ij",
+    "published_at": "2026-07-19 02:18:59+05:30",
+    "author": "Matt Senter",
+    "subreddit": "",
+    "score": 0,
+    "num_comments": 0,
+    "service_matches": [
+      {
+        "business_unit": "SAAS_DEVELOPMENT",
+        "services": [
+          "saas_dev_team",
+          "saas_product",
+          "saas_mvp"
+        ],
+        "matched_keyword": "mvp development",
+        "confidence": 0.8
+      }
+    ],
+    "has_company": false,
+    "company_signals": [],
+    "is_current": true,
+    "currentness_reason": "21d_old",
+    "has_contact": false,
+    "contact_reason": "NO_CONTACT",
+    "is_consistent": true,
+    "consistency_signals": [
+      "title_present",
+      "content_present",
+      "author_present"
+    ],
+    "gates_passed": 4,
+    "gates_total": 6,
+    "classification": "NEEDS_RESEARCH",
+    "processed_at": "2026-08-09T11:20:13.819301+00:00"
+  }
+]

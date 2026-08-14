@@ -1,0 +1,2623 @@
+{
+  "operation": "first_client",
+  "pass": 2,
+  "started_at": "2026-07-23T20:29:32.234702+00:00",
+  "original_baseline": {
+    "companies": 95,
+    "with_domain": 94,
+    "opportunities": 482,
+    "companies_with_evidence": 410,
+    "companies_with_email_contact": 2,
+    "companies_with_phone_contact": 1
+  },
+  "before_pass2_active": 62,
+  "after": {
+    "companies": 22,
+    "enriched": 22,
+    "website_verified_ops": 22,
+    "sales_ready_evaluated": 0,
+    "top25_with_email": 9,
+    "top25_with_phone": 16,
+    "top25_with_dm": 0
+  },
+  "rejection_reasons": {
+    "low_intent_no_evidence": 17,
+    "website_unreachable": 15,
+    "invalid_domain": 10,
+    "fake_or_non_business_name": 7,
+    "no_website": 1,
+    "name_domain_incoherent_or_media": 38
+  },
+  "collectors": {
+    "best": [
+      {
+        "source": "product_hunt",
+        "collected": 1100,
+        "emitted": 574,
+        "duplicates": 526,
+        "failures": 0,
+        "emit_pct": 52.2,
+        "dup_pct": 47.8
+      },
+      {
+        "source": "devto",
+        "collected": 528,
+        "emitted": 139,
+        "duplicates": 389,
+        "failures": 0,
+        "emit_pct": 26.3,
+        "dup_pct": 73.7
+      },
+      {
+        "source": "sec_edgar",
+        "collected": 150,
+        "emitted": 25,
+        "duplicates": 125,
+        "failures": 73,
+        "emit_pct": 16.7,
+        "dup_pct": 83.3
+      }
+    ],
+    "worst": [
+      {
+        "source": "indie_hackers",
+        "collected": 0,
+        "emitted": 0,
+        "duplicates": 0,
+        "failures": 42,
+        "emit_pct": 0.0,
+        "dup_pct": 0.0
+      },
+      {
+        "source": "github_trending",
+        "collected": 1973,
+        "emitted": 26,
+        "duplicates": 1947,
+        "failures": 0,
+        "emit_pct": 1.3,
+        "dup_pct": 98.7
+      },
+      {
+        "source": "reddit",
+        "collected": 2025,
+        "emitted": 67,
+        "duplicates": 1958,
+        "failures": 7,
+        "emit_pct": 3.3,
+        "dup_pct": 96.7
+      }
+    ],
+    "all": [
+      {
+        "source": "product_hunt",
+        "collected": 1100,
+        "emitted": 574,
+        "duplicates": 526,
+        "failures": 0,
+        "emit_pct": 52.2,
+        "dup_pct": 47.8
+      },
+      {
+        "source": "devto",
+        "collected": 528,
+        "emitted": 139,
+        "duplicates": 389,
+        "failures": 0,
+        "emit_pct": 26.3,
+        "dup_pct": 73.7
+      },
+      {
+        "source": "sec_edgar",
+        "collected": 150,
+        "emitted": 25,
+        "duplicates": 125,
+        "failures": 73,
+        "emit_pct": 16.7,
+        "dup_pct": 83.3
+      },
+      {
+        "source": "rss",
+        "collected": 2060,
+        "emitted": 88,
+        "duplicates": 1972,
+        "failures": 0,
+        "emit_pct": 4.3,
+        "dup_pct": 95.7
+      },
+      {
+        "source": "hacker_news",
+        "collected": 2660,
+        "emitted": 91,
+        "duplicates": 2569,
+        "failures": 10,
+        "emit_pct": 3.4,
+        "dup_pct": 96.6
+      },
+      {
+        "source": "reddit",
+        "collected": 2025,
+        "emitted": 67,
+        "duplicates": 1958,
+        "failures": 7,
+        "emit_pct": 3.3,
+        "dup_pct": 96.7
+      },
+      {
+        "source": "github_trending",
+        "collected": 1973,
+        "emitted": 26,
+        "duplicates": 1947,
+        "failures": 0,
+        "emit_pct": 1.3,
+        "dup_pct": 98.7
+      },
+      {
+        "source": "indie_hackers",
+        "collected": 0,
+        "emitted": 0,
+        "duplicates": 0,
+        "failures": 42,
+        "emit_pct": 0.0,
+        "dup_pct": 0.0
+      }
+    ],
+    "disabled_now": [
+      "indie_hackers",
+      "sec_edgar",
+      "github_trending"
+    ]
+  },
+  "top_25": [
+    {
+      "company_id": "de2511ec-e8b8-4fa0-aefd-28f3511859df",
+      "company": "Screenpipe",
+      "website": "https://screenpipe.com",
+      "domain": "screenpipe.com",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "medium; high; high",
+      "pain": "AI / automation motion",
+      "opportunity": "Screenpipe is evaluated as an opportunity with score 58.5. The decision is based on 3 context record(s), 3 signal(s), and 24 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "medium",
+          "source": null
+        },
+        {
+          "summary": "high",
+          "source": null
+        },
+        {
+          "summary": "high",
+          "source": null
+        },
+        {
+          "summary": "Customer Support",
+          "source": null
+        },
+        {
+          "summary": "Customer Support",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "support@screenpi.pe"
+      ],
+      "phones": [
+        "6748-37607",
+        "912910325433",
+        "2077045452579778664"
+      ],
+      "service_match": "AI Knowledge Assistant for Internal Ops",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$30k-$55k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 58.5327,
+      "evidence_count": 24
+    },
+    {
+      "company_id": "f191b22c-bfb2-43b8-8bc8-b9db9ed4d053",
+      "company": "Beyond",
+      "website": "https://fluctara.com",
+      "domain": "fluctara.com",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "medium; high; high",
+      "pain": "AI / automation motion",
+      "opportunity": "Beyond is evaluated as an opportunity with score 54.3. The decision is based on 7 context record(s), 7 signal(s), and 36 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "medium",
+          "source": null
+        },
+        {
+          "summary": "high",
+          "source": null
+        },
+        {
+          "summary": "high",
+          "source": null
+        },
+        {
+          "summary": "high",
+          "source": null
+        },
+        {
+          "summary": "medium",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "privacy@fluctara.com"
+      ],
+      "phones": [
+        "0009-0009-3560-0851"
+      ],
+      "service_match": "AI Knowledge Assistant for Internal Ops",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$30k-$55k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 54.342,
+      "evidence_count": 66
+    },
+    {
+      "company_id": "77e2e5dd-9791-414c-9d19-589c742c9fbb",
+      "company": "palmier-io",
+      "website": "https://palmier.io",
+      "domain": "palmier.io",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "medium; Customer Support; Reduce Manual Work",
+      "pain": "AI / automation motion",
+      "opportunity": "palmier-io is evaluated as an opportunity with score 50.9. The decision is based on 1 context record(s), 1 signal(s), and 6 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "medium",
+          "source": null
+        },
+        {
+          "summary": "Customer Support",
+          "source": null
+        },
+        {
+          "summary": "Reduce Manual Work",
+          "source": null
+        },
+        {
+          "summary": "Anthropic",
+          "source": null
+        },
+        {
+          "summary": "process_automation",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "founders@palmier.io"
+      ],
+      "phones": [
+        "104.26540284360189",
+        "12.14691943127962",
+        "43.63507109004739"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 50.9494,
+      "evidence_count": 6
+    },
+    {
+      "company_id": "51b468e0-8c11-4858-b91b-aa5ef3069bbb",
+      "company": "onecli",
+      "website": "https://onecli.sh",
+      "domain": "onecli.sh",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "onecli is evaluated as an opportunity with score 44.8. The decision is based on 1 context record(s), 1 signal(s), and 6 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "Anthropic",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "support@onecli.sh",
+        "legal@onecli.sh"
+      ],
+      "phones": [
+        "89937385190",
+        "1 1 0 0 0-1-1",
+        "1 1 0 0 0-1 1"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 44.8073,
+      "evidence_count": 6
+    },
+    {
+      "company_id": "d09813ea-0a79-4dea-abcc-4ecefd31292f",
+      "company": "MCP",
+      "website": "https://dosync.dev",
+      "domain": "dosync.dev",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "MCP is evaluated as an opportunity with score 44.7. The decision is based on 1 context record(s), 1 signal(s), and 6 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "Anthropic",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "rgiuliani@dosync.dev"
+      ],
+      "phones": [],
+      "service_match": "Workflow Automation",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 44.7307,
+      "evidence_count": 6
+    },
+    {
+      "company_id": "8cdc6a35-3dc1-4357-9df5-416d63396677",
+      "company": "Deep",
+      "website": "https://pagewatch.tech",
+      "domain": "pagewatch.tech",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "AI / automation motion",
+      "opportunity": "Deep is evaluated as an opportunity with score 43.2. The decision is based on 2 context record(s), 2 signal(s), and 11 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Deep Learning & Computer Vision in Web Diffing: Solving Layout Shifts with Neural Embeddings and SSIM",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "support@pagewatch.tech"
+      ],
+      "phones": [
+        "4 14 6-6 2-3",
+        "22 22-5-10-5 10",
+        "0 3.517-1.009 6.799-2.753 9.571"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 43.2327,
+      "evidence_count": 16
+    },
+    {
+      "company_id": "d797508c-93e8-4e1e-b2da-2c3b5e851a5b",
+      "company": "Monday.com",
+      "website": "https://monday.com",
+      "domain": "monday.com",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Customer Support; Improve Business Performance",
+      "pain": "low; Customer Support; Improve Business Performance",
+      "opportunity": "Monday.com is evaluated as an opportunity with score 41.3. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Customer Support",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Monday.com lays off hundreds to focus on AI",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "support@monday.com"
+      ],
+      "phones": [
+        "22 2026 13",
+        "1784467913",
+        "0 0 256 256"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 41.2514,
+      "evidence_count": 5
+    },
+    {
+      "company_id": "03d528d0-c29d-40ed-8e40-b312466c0290",
+      "company": "Reotrucks",
+      "website": "https://reotrucks.com",
+      "domain": "reotrucks.com",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "Reotrucks is evaluated as an opportunity with score 41.1. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: REO Trucks I4 4WD Pickup Truck Starts at $21,500",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "partners@reotrucks.com",
+        "press@reotrucks.com",
+        "hello@reotrucks.com"
+      ],
+      "phones": [
+        "37889503466",
+        "3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7",
+        "18.4 5.6 16.8 7.2"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 41.1322,
+      "evidence_count": 5
+    },
+    {
+      "company_id": "87ace1aa-50fc-4808-8581-6e3928ed0cc6",
+      "company": "Tangled",
+      "website": "https://tangled.org",
+      "domain": "tangled.org",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "Tangled is evaluated as an opportunity with score 40.9. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Gleam Is Now on Tangled",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "team@tangled.org",
+        "security@tangled.org"
+      ],
+      "phones": [
+        "0 0 118 31",
+        "78.6118 9.75728",
+        "79.2832 9.75733 79.8454 9.87208 80.2983 10.101"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 40.925,
+      "evidence_count": 15
+    },
+    {
+      "company_id": "0551cb9e-f2dd-45d0-bd6c-b0e360e9499d",
+      "company": "Benlandautaylor",
+      "website": "https://benlandautaylor.com",
+      "domain": "benlandautaylor.com",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "Benlandautaylor is evaluated as an opportunity with score 41.0. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: If You Build It, They Will Come",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [],
+      "phones": [
+        "1521040324",
+        "38193.52728",
+        "47895.94566655"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 40.9575,
+      "evidence_count": 5
+    },
+    {
+      "company_id": "90c71e86-51f1-4a1a-8575-c06d6a98e936",
+      "company": "Maurycyz",
+      "website": "https://maurycyz.com",
+      "domain": "maurycyz.com",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "Maurycyz is evaluated as an opportunity with score 40.8. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Regressive JPEGs",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [],
+      "phones": [
+        "2026-07-17",
+        "2026-07-16",
+        "2026-07-12"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 40.8154,
+      "evidence_count": 5
+    },
+    {
+      "company_id": "e6497a93-5ccb-4664-84be-7a6d131301bb",
+      "company": "BorgShield",
+      "website": "https://backup.sh",
+      "domain": "backup.sh",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "Scaling; low; Improve Business Performance",
+      "pain": "Scaling; low; Improve Business Performance",
+      "opportunity": "BorgShield is evaluated as an opportunity with score 44.8. The decision is based on 1 context record(s), 1 signal(s), and 8 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "Scaling",
+          "source": null
+        },
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "Azure",
+          "source": null
+        },
+        {
+          "summary": "GCP",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [],
+      "phones": [],
+      "service_match": "Workflow Automation",
+      "confidence": 55.0,
+      "readiness": 55.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Do not contact \u2014 incomplete truth",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [
+        "can_contact",
+        "who_decides"
+      ],
+      "opportunity_score": 44.7522,
+      "evidence_count": 8
+    },
+    {
+      "company_id": "3fde0d37-9dfd-446d-ac23-7d2f1deaa020",
+      "company": "Charlesazam",
+      "website": "https://charlesazam.com",
+      "domain": "charlesazam.com",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "AI / automation motion",
+      "opportunity": "Charlesazam is evaluated as an opportunity with score 43.3. The decision is based on 1 context record(s), 1 signal(s), and 6 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "OpenAI",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [],
+      "phones": [
+        "7240316043074666498",
+        "3833353437343",
+        "2875383436"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 55.0,
+      "readiness": 55.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Do not contact \u2014 incomplete truth",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [
+        "who_decides"
+      ],
+      "opportunity_score": 43.3158,
+      "evidence_count": 6
+    },
+    {
+      "company_id": "d8082d07-b7de-41bb-b136-038a723711ac",
+      "company": "It",
+      "website": "https://q3edit.com",
+      "domain": "q3edit.com",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "It is evaluated as an opportunity with score 41.2. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Show HN: Q3Edit \u2013 Edit and play Quake 3 maps in the browser",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [],
+      "phones": [],
+      "service_match": "Workflow Automation",
+      "confidence": 55.0,
+      "readiness": 55.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Do not contact \u2014 incomplete truth",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [
+        "can_contact",
+        "who_decides"
+      ],
+      "opportunity_score": 41.1916,
+      "evidence_count": 5
+    },
+    {
+      "company_id": "3812f83f-da89-4811-863c-7af4b0ef177b",
+      "company": "I made YAFL",
+      "website": "https://yafl.dev",
+      "domain": "yafl.dev",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "I made YAFL is evaluated as an opportunity with score 41.2. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Show HN: I made YAFL \u2013 a E2EE file handoff for AI agents",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [],
+      "phones": [],
+      "service_match": "Workflow Automation",
+      "confidence": 55.0,
+      "readiness": 55.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Do not contact \u2014 incomplete truth",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [
+        "can_contact",
+        "who_decides"
+      ],
+      "opportunity_score": 41.1599,
+      "evidence_count": 5
+    },
+    {
+      "company_id": "2803ad37-a0cc-462b-97f6-a59722293e65",
+      "company": "Imaxxing",
+      "website": "https://imaxxing.io",
+      "domain": "imaxxing.io",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "Imaxxing is evaluated as an opportunity with score 41.0. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Show HN: Get alerts for good seats at 70mm IMAX showings of The Odyssey",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [],
+      "phones": [],
+      "service_match": "Workflow Automation",
+      "confidence": 55.0,
+      "readiness": 55.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Do not contact \u2014 incomplete truth",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [
+        "can_contact",
+        "who_decides"
+      ],
+      "opportunity_score": 40.978,
+      "evidence_count": 5
+    },
+    {
+      "company_id": "5f37e0fb-47e6-4961-8929-d92a073b1dfd",
+      "company": "Stephen",
+      "website": "https://stephen.bochinski.dev",
+      "domain": "stephen.bochinski.dev",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "Stephen is evaluated as an opportunity with score 41.0. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: The Kimi K3 Moment",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [],
+      "phones": [],
+      "service_match": "Workflow Automation",
+      "confidence": 55.0,
+      "readiness": 55.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Do not contact \u2014 incomplete truth",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [
+        "can_contact",
+        "who_decides"
+      ],
+      "opportunity_score": 40.9639,
+      "evidence_count": 5
+    },
+    {
+      "company_id": "3a184376-bc70-414f-b7c4-48902b6526a4",
+      "company": "Negroniventurestudios",
+      "website": "https://negroniventurestudios.com",
+      "domain": "negroniventurestudios.com",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "Negroniventurestudios is evaluated as an opportunity with score 40.9. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: The Computer at the Bottom of a Canal",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [],
+      "phones": [
+        "1783585676",
+        "000 0) 0 0",
+        "1742394974515-1024"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 55.0,
+      "readiness": 55.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Do not contact \u2014 incomplete truth",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [
+        "who_decides"
+      ],
+      "opportunity_score": 40.9453,
+      "evidence_count": 5
+    },
+    {
+      "company_id": "4147026f-bf62-4b6f-9c8f-53160057fa6a",
+      "company": "Reactormag",
+      "website": "https://reactormag.com",
+      "domain": "reactormag.com",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "Reactormag is evaluated as an opportunity with score 40.9. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: The Fermi Paradox, Percolation, and Inbreeding",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [],
+      "phones": [
+        "18354337094947214126",
+        "2026-07-22",
+        "2023-11-14"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 55.0,
+      "readiness": 55.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Do not contact \u2014 incomplete truth",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [
+        "who_decides"
+      ],
+      "opportunity_score": 40.941,
+      "evidence_count": 5
+    },
+    {
+      "company_id": "61417a40-ab58-4060-a105-ebb2bb7b2904",
+      "company": "Elixir-lang.org",
+      "website": "https://elixir-lang.org",
+      "domain": "elixir-lang.org",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "Elixir-lang.org is evaluated as an opportunity with score 40.9. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Elixir-lang.org has a new design",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [],
+      "phones": [
+        "4051638905",
+        "0 0 583 245",
+        "125.504 111.281"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 55.0,
+      "readiness": 55.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Do not contact \u2014 incomplete truth",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [
+        "who_decides"
+      ],
+      "opportunity_score": 40.9198,
+      "evidence_count": 5
+    },
+    {
+      "company_id": "997d82d5-d6ea-4622-87b3-ad414868852c",
+      "company": "Vulkan",
+      "website": "https://vulkan-tutorial.com",
+      "domain": "vulkan-tutorial.com",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "Vulkan is evaluated as an opportunity with score 40.9. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Vulkan Tutorial",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [],
+      "phones": [
+        "1540204404",
+        "78110-1540"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 55.0,
+      "readiness": 55.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Do not contact \u2014 incomplete truth",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [
+        "who_decides"
+      ],
+      "opportunity_score": 40.8961,
+      "evidence_count": 5
+    },
+    {
+      "company_id": "0d01f92e-306c-4c86-9d54-09b28a95b401",
+      "company": "Deepmind",
+      "website": "https://deepmind.google",
+      "domain": "deepmind.google",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "Deepmind is evaluated as an opportunity with score 40.9. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Our Approach to Bioresilience: Isomorphic Labs and Google DeepMind",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [],
+      "phones": [
+        "16.41 5.41",
+        "8 8 8 8 1.41-1.41",
+        "7.59 18.59"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 55.0,
+      "readiness": 55.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Do not contact \u2014 incomplete truth",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [
+        "who_decides"
+      ],
+      "opportunity_score": 40.8934,
+      "evidence_count": 5
+    }
+  ],
+  "founder_queue_10": [
+    {
+      "company_id": "de2511ec-e8b8-4fa0-aefd-28f3511859df",
+      "company": "Screenpipe",
+      "website": "https://screenpipe.com",
+      "domain": "screenpipe.com",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "medium; high; high",
+      "pain": "AI / automation motion",
+      "opportunity": "Screenpipe is evaluated as an opportunity with score 58.5. The decision is based on 3 context record(s), 3 signal(s), and 24 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "medium",
+          "source": null
+        },
+        {
+          "summary": "high",
+          "source": null
+        },
+        {
+          "summary": "high",
+          "source": null
+        },
+        {
+          "summary": "Customer Support",
+          "source": null
+        },
+        {
+          "summary": "Customer Support",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "support@screenpi.pe"
+      ],
+      "phones": [
+        "6748-37607",
+        "912910325433",
+        "2077045452579778664"
+      ],
+      "service_match": "AI Knowledge Assistant for Internal Ops",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$30k-$55k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 58.5327,
+      "evidence_count": 24
+    },
+    {
+      "company_id": "f191b22c-bfb2-43b8-8bc8-b9db9ed4d053",
+      "company": "Beyond",
+      "website": "https://fluctara.com",
+      "domain": "fluctara.com",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "medium; high; high",
+      "pain": "AI / automation motion",
+      "opportunity": "Beyond is evaluated as an opportunity with score 54.3. The decision is based on 7 context record(s), 7 signal(s), and 36 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "medium",
+          "source": null
+        },
+        {
+          "summary": "high",
+          "source": null
+        },
+        {
+          "summary": "high",
+          "source": null
+        },
+        {
+          "summary": "high",
+          "source": null
+        },
+        {
+          "summary": "medium",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "privacy@fluctara.com"
+      ],
+      "phones": [
+        "0009-0009-3560-0851"
+      ],
+      "service_match": "AI Knowledge Assistant for Internal Ops",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$30k-$55k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 54.342,
+      "evidence_count": 66
+    },
+    {
+      "company_id": "77e2e5dd-9791-414c-9d19-589c742c9fbb",
+      "company": "palmier-io",
+      "website": "https://palmier.io",
+      "domain": "palmier.io",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "medium; Customer Support; Reduce Manual Work",
+      "pain": "AI / automation motion",
+      "opportunity": "palmier-io is evaluated as an opportunity with score 50.9. The decision is based on 1 context record(s), 1 signal(s), and 6 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "medium",
+          "source": null
+        },
+        {
+          "summary": "Customer Support",
+          "source": null
+        },
+        {
+          "summary": "Reduce Manual Work",
+          "source": null
+        },
+        {
+          "summary": "Anthropic",
+          "source": null
+        },
+        {
+          "summary": "process_automation",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "founders@palmier.io"
+      ],
+      "phones": [
+        "104.26540284360189",
+        "12.14691943127962",
+        "43.63507109004739"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 50.9494,
+      "evidence_count": 6
+    },
+    {
+      "company_id": "51b468e0-8c11-4858-b91b-aa5ef3069bbb",
+      "company": "onecli",
+      "website": "https://onecli.sh",
+      "domain": "onecli.sh",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "onecli is evaluated as an opportunity with score 44.8. The decision is based on 1 context record(s), 1 signal(s), and 6 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "Anthropic",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "support@onecli.sh",
+        "legal@onecli.sh"
+      ],
+      "phones": [
+        "89937385190",
+        "1 1 0 0 0-1-1",
+        "1 1 0 0 0-1 1"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 44.8073,
+      "evidence_count": 6
+    },
+    {
+      "company_id": "d09813ea-0a79-4dea-abcc-4ecefd31292f",
+      "company": "MCP",
+      "website": "https://dosync.dev",
+      "domain": "dosync.dev",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "MCP is evaluated as an opportunity with score 44.7. The decision is based on 1 context record(s), 1 signal(s), and 6 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "Anthropic",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "rgiuliani@dosync.dev"
+      ],
+      "phones": [],
+      "service_match": "Workflow Automation",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 44.7307,
+      "evidence_count": 6
+    },
+    {
+      "company_id": "8cdc6a35-3dc1-4357-9df5-416d63396677",
+      "company": "Deep",
+      "website": "https://pagewatch.tech",
+      "domain": "pagewatch.tech",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "AI / automation motion",
+      "opportunity": "Deep is evaluated as an opportunity with score 43.2. The decision is based on 2 context record(s), 2 signal(s), and 11 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Deep Learning & Computer Vision in Web Diffing: Solving Layout Shifts with Neural Embeddings and SSIM",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "support@pagewatch.tech"
+      ],
+      "phones": [
+        "4 14 6-6 2-3",
+        "22 22-5-10-5 10",
+        "0 3.517-1.009 6.799-2.753 9.571"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 43.2327,
+      "evidence_count": 16
+    },
+    {
+      "company_id": "d797508c-93e8-4e1e-b2da-2c3b5e851a5b",
+      "company": "Monday.com",
+      "website": "https://monday.com",
+      "domain": "monday.com",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Customer Support; Improve Business Performance",
+      "pain": "low; Customer Support; Improve Business Performance",
+      "opportunity": "Monday.com is evaluated as an opportunity with score 41.3. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Customer Support",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Monday.com lays off hundreds to focus on AI",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "support@monday.com"
+      ],
+      "phones": [
+        "22 2026 13",
+        "1784467913",
+        "0 0 256 256"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 41.2514,
+      "evidence_count": 5
+    },
+    {
+      "company_id": "03d528d0-c29d-40ed-8e40-b312466c0290",
+      "company": "Reotrucks",
+      "website": "https://reotrucks.com",
+      "domain": "reotrucks.com",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "Reotrucks is evaluated as an opportunity with score 41.1. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: REO Trucks I4 4WD Pickup Truck Starts at $21,500",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "partners@reotrucks.com",
+        "press@reotrucks.com",
+        "hello@reotrucks.com"
+      ],
+      "phones": [
+        "37889503466",
+        "3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7",
+        "18.4 5.6 16.8 7.2"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 41.1322,
+      "evidence_count": 5
+    },
+    {
+      "company_id": "87ace1aa-50fc-4808-8581-6e3928ed0cc6",
+      "company": "Tangled",
+      "website": "https://tangled.org",
+      "domain": "tangled.org",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "Tangled is evaluated as an opportunity with score 40.9. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Gleam Is Now on Tangled",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [
+        "team@tangled.org",
+        "security@tangled.org"
+      ],
+      "phones": [
+        "0 0 118 31",
+        "78.6118 9.75728",
+        "79.2832 9.75733 79.8454 9.87208 80.2983 10.101"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 40.925,
+      "evidence_count": 15
+    },
+    {
+      "company_id": "0551cb9e-f2dd-45d0-bd6c-b0e360e9499d",
+      "company": "Benlandautaylor",
+      "website": "https://benlandautaylor.com",
+      "domain": "benlandautaylor.com",
+      "industry": "Technology",
+      "country": "Unknown",
+      "why_now": "low; Operations; Improve Business Performance",
+      "pain": "low; Operations; Improve Business Performance",
+      "opportunity": "Benlandautaylor is evaluated as an opportunity with score 41.0. The decision is based on 1 context record(s), 1 signal(s), and 5 evidence item(s). Score direction: increased.",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: If You Build It, They Will Come",
+          "source": null
+        }
+      ],
+      "decision_maker": null,
+      "verified_emails": [],
+      "phones": [
+        "1521040324",
+        "38193.52728",
+        "47895.94566655"
+      ],
+      "service_match": "Workflow Automation",
+      "confidence": 85.0,
+      "readiness": 85.0,
+      "estimated_deal": "$20k-$40k",
+      "next_action": "Send cold email using verified address",
+      "verdict": "REJECTED",
+      "lock_unlocked": false,
+      "questions_missing": [],
+      "opportunity_score": 40.9575,
+      "evidence_count": 5
+    }
+  ],
+  "every_survivor_with_evidence": [
+    {
+      "company": "Screenpipe",
+      "website": "https://screenpipe.com",
+      "evidence": [
+        {
+          "summary": "medium",
+          "source": null
+        },
+        {
+          "summary": "high",
+          "source": null
+        },
+        {
+          "summary": "high",
+          "source": null
+        },
+        {
+          "summary": "Customer Support",
+          "source": null
+        },
+        {
+          "summary": "Customer Support",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "Beyond",
+      "website": "https://fluctara.com",
+      "evidence": [
+        {
+          "summary": "medium",
+          "source": null
+        },
+        {
+          "summary": "high",
+          "source": null
+        },
+        {
+          "summary": "high",
+          "source": null
+        },
+        {
+          "summary": "high",
+          "source": null
+        },
+        {
+          "summary": "medium",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "palmier-io",
+      "website": "https://palmier.io",
+      "evidence": [
+        {
+          "summary": "medium",
+          "source": null
+        },
+        {
+          "summary": "Customer Support",
+          "source": null
+        },
+        {
+          "summary": "Reduce Manual Work",
+          "source": null
+        },
+        {
+          "summary": "Anthropic",
+          "source": null
+        },
+        {
+          "summary": "process_automation",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "onecli",
+      "website": "https://onecli.sh",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "Anthropic",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "MCP",
+      "website": "https://dosync.dev",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "Anthropic",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "Deep",
+      "website": "https://pagewatch.tech",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Deep Learning & Computer Vision in Web Diffing: Solving Layout Shifts with Neural Embeddings and SSIM",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "Monday.com",
+      "website": "https://monday.com",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Customer Support",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Monday.com lays off hundreds to focus on AI",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "Reotrucks",
+      "website": "https://reotrucks.com",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: REO Trucks I4 4WD Pickup Truck Starts at $21,500",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "Tangled",
+      "website": "https://tangled.org",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Gleam Is Now on Tangled",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "Benlandautaylor",
+      "website": "https://benlandautaylor.com",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: If You Build It, They Will Come",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "Maurycyz",
+      "website": "https://maurycyz.com",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Regressive JPEGs",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "BorgShield",
+      "website": "https://backup.sh",
+      "evidence": [
+        {
+          "summary": "Scaling",
+          "source": null
+        },
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "Azure",
+          "source": null
+        },
+        {
+          "summary": "GCP",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "Charlesazam",
+      "website": "https://charlesazam.com",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "OpenAI",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "It",
+      "website": "https://q3edit.com",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Show HN: Q3Edit \u2013 Edit and play Quake 3 maps in the browser",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "I made YAFL",
+      "website": "https://yafl.dev",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Show HN: I made YAFL \u2013 a E2EE file handoff for AI agents",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "Imaxxing",
+      "website": "https://imaxxing.io",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Show HN: Get alerts for good seats at 70mm IMAX showings of The Odyssey",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "Stephen",
+      "website": "https://stephen.bochinski.dev",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: The Kimi K3 Moment",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "Negroniventurestudios",
+      "website": "https://negroniventurestudios.com",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: The Computer at the Bottom of a Canal",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "Reactormag",
+      "website": "https://reactormag.com",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: The Fermi Paradox, Percolation, and Inbreeding",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "Elixir-lang.org",
+      "website": "https://elixir-lang.org",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Elixir-lang.org has a new design",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "Vulkan",
+      "website": "https://vulkan-tutorial.com",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Vulkan Tutorial",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    },
+    {
+      "company": "Deepmind",
+      "website": "https://deepmind.google",
+      "evidence": [
+        {
+          "summary": "low",
+          "source": null
+        },
+        {
+          "summary": "Operations",
+          "source": null
+        },
+        {
+          "summary": "Improve Business Performance",
+          "source": null
+        },
+        {
+          "summary": "general_market_activity",
+          "source": null
+        },
+        {
+          "summary": "Market Mention: Our Approach to Bioresilience: Isomorphic Labs and Google DeepMind",
+          "source": null
+        }
+      ],
+      "verdict": "REJECTED"
+    }
+  ],
+  "missing_data": [
+    {
+      "company": "Screenpipe",
+      "missing": [
+        "decision_maker",
+        "country"
+      ]
+    },
+    {
+      "company": "Beyond",
+      "missing": [
+        "decision_maker",
+        "country"
+      ]
+    },
+    {
+      "company": "palmier-io",
+      "missing": [
+        "decision_maker",
+        "country"
+      ]
+    },
+    {
+      "company": "onecli",
+      "missing": [
+        "decision_maker",
+        "country"
+      ]
+    },
+    {
+      "company": "MCP",
+      "missing": [
+        "phone",
+        "decision_maker",
+        "country"
+      ]
+    },
+    {
+      "company": "Deep",
+      "missing": [
+        "decision_maker",
+        "country"
+      ]
+    },
+    {
+      "company": "Monday.com",
+      "missing": [
+        "decision_maker",
+        "country"
+      ]
+    },
+    {
+      "company": "Reotrucks",
+      "missing": [
+        "decision_maker",
+        "country"
+      ]
+    },
+    {
+      "company": "Tangled",
+      "missing": [
+        "decision_maker",
+        "country"
+      ]
+    },
+    {
+      "company": "Benlandautaylor",
+      "missing": [
+        "verified_email",
+        "decision_maker",
+        "country"
+      ]
+    },
+    {
+      "company": "Maurycyz",
+      "missing": [
+        "verified_email",
+        "decision_maker",
+        "country"
+      ]
+    },
+    {
+      "company": "BorgShield",
+      "missing": [
+        "verified_email",
+        "phone",
+        "decision_maker",
+        "country",
+        "question:can_contact",
+        "question:who_decides"
+      ]
+    },
+    {
+      "company": "Charlesazam",
+      "missing": [
+        "verified_email",
+        "decision_maker",
+        "country",
+        "question:who_decides"
+      ]
+    },
+    {
+      "company": "It",
+      "missing": [
+        "verified_email",
+        "phone",
+        "decision_maker",
+        "country",
+        "question:can_contact",
+        "question:who_decides"
+      ]
+    },
+    {
+      "company": "I made YAFL",
+      "missing": [
+        "verified_email",
+        "phone",
+        "decision_maker",
+        "country",
+        "question:can_contact",
+        "question:who_decides"
+      ]
+    },
+    {
+      "company": "Imaxxing",
+      "missing": [
+        "verified_email",
+        "phone",
+        "decision_maker",
+        "country",
+        "question:can_contact",
+        "question:who_decides"
+      ]
+    },
+    {
+      "company": "Stephen",
+      "missing": [
+        "verified_email",
+        "phone",
+        "decision_maker",
+        "country",
+        "question:can_contact",
+        "question:who_decides"
+      ]
+    },
+    {
+      "company": "Negroniventurestudios",
+      "missing": [
+        "verified_email",
+        "decision_maker",
+        "country",
+        "question:who_decides"
+      ]
+    },
+    {
+      "company": "Reactormag",
+      "missing": [
+        "verified_email",
+        "decision_maker",
+        "country",
+        "question:who_decides"
+      ]
+    },
+    {
+      "company": "Elixir-lang.org",
+      "missing": [
+        "verified_email",
+        "decision_maker",
+        "country",
+        "question:who_decides"
+      ]
+    },
+    {
+      "company": "Vulkan",
+      "missing": [
+        "verified_email",
+        "decision_maker",
+        "country",
+        "question:who_decides"
+      ]
+    },
+    {
+      "company": "Deepmind",
+      "missing": [
+        "verified_email",
+        "decision_maker",
+        "country",
+        "question:who_decides"
+      ]
+    }
+  ],
+  "blockers": [
+    "Sales Ready = 0 (need 25). Corpus lacks decision makers + attributed intent.",
+    "Verified business emails in queue = 9 (need 12+).",
+    "Decision makers = 0 (need 15+). Public pages rarely expose named buyers.",
+    "Only 22 coherent companies remain after cleanup (need 25+ outreach-grade).",
+    "Production LOCKED until founder manually approves 20 random companies at \u226595%.",
+    "Root cause: collectors create article/person tokens as companies; domain extraction often wrong.",
+    "Next ops step: only ingest Product Hunt + Dev.to with strict company+domain extractors; pause HN/Reddit/RSS entity creation."
+  ],
+  "rates": {
+    "cleanup_from_415_pct": 94.7,
+    "website_verification_rate_pct": 100.0,
+    "email_recovery_among_verified_pct": 40.9
+  },
+  "acceptance": {
+    "real_companies_active": 22,
+    "verified_websites": 22,
+    "decision_makers": 0,
+    "verified_emails": 9,
+    "phones": 16,
+    "sales_ready": 0,
+    "production_locked": true,
+    "founder_manual_qa_pending": true
+  }
+}

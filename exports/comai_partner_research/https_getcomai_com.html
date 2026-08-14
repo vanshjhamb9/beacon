@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="苏州斯拓锐网络科技有限公司">
+    <meta name="description" content="苏州斯拓锐网络科技有限公司是一家专注于为移动物联网开源开发平台。">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="js/assets/images/favicon.png">
+    <title>苏州斯拓锐网络科技有限公司</title>
+    <!-- Bootstrap Core CSS -->
+    <!--[if lt IE 9]>
+    <![endif]-->
+	
+	<script>
+        // 获取浏览器语言
+        const userLang = navigator.language || navigator.userLanguage;
+        // 判断语言是否为中文
+        if (userLang.startsWith('zh')) {
+            // 如果是中文，重定向到中文页面
+            window.location.replace('/cn/index.html');
+        } else {
+            // 否则，重定向到英文页面
+            window.location.replace('/en/index.html');
+        }
+    </script>
+
+</head>
+
+<!-- <body class="">
+  <script>
+         window.okkiConfigs = window.okkiConfigs || [];
+         function okkiAdd() { okkiConfigs.push(arguments); };
+         okkiAdd("analytics", { siteId: "60781-23529", gId: "" });
+       </script>
+       <script async src="//tfile.xiaoman.cn/okki/analyze.js?id=60781-23529-"></script>    
+ </body> -->
+</html>

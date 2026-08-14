@@ -1,0 +1,138 @@
+{
+  "audit_name": "V8.2 Contact Verification",
+  "audit_date": "2026-08-08T22:39:59.447364",
+  "total_opportunities": 1,
+  "verifications": [
+    {
+      "opportunity_id": "V8-002",
+      "channels": [
+        {
+          "channel": "EMAIL",
+          "value": "kilova.app@gmail.com",
+          "status": "PUBLIC_UNVERIFIED",
+          "owner_match": "LIKELY",
+          "company_match": "LIKELY",
+          "verification_source": "Company website",
+          "verification_url": "https://kilova.app",
+          "observed_at": "2026-08-08T22:39:56.661126",
+          "confidence": "PUBLIC_UNVERIFIED",
+          "evidence": [
+            {
+              "claim": "Email found on company website",
+              "value": "kilova.app@gmail.com",
+              "source": "Company website",
+              "source_url": "https://kilova.app",
+              "confidence": "PUBLIC_UNVERIFIED",
+              "observed_at": "2026-08-08T22:39:56.661059"
+            }
+          ]
+        },
+        {
+          "channel": "LINKEDIN",
+          "value": "https://linkedin.com/in/paloma-chiara",
+          "status": "UNKNOWN",
+          "owner_match": "UNKNOWN",
+          "company_match": "UNKNOWN",
+          "verification_source": "LinkedIn",
+          "verification_url": "https://linkedin.com/in/paloma-chiara",
+          "observed_at": "2026-08-08T22:39:57.948508",
+          "confidence": "UNKNOWN",
+          "evidence": []
+        },
+        {
+          "channel": "REDDIT",
+          "value": "u/Paloma Chiara",
+          "status": "UNKNOWN",
+          "owner_match": "UNKNOWN",
+          "company_match": "UNKNOWN",
+          "verification_source": "Reddit",
+          "verification_url": "https://www.reddit.com/user/Paloma Chiara/",
+          "observed_at": "2026-08-08T22:39:57.948822",
+          "confidence": "UNKNOWN",
+          "evidence": []
+        }
+      ],
+      "primary_contact": "kilova.app@gmail.com",
+      "primary_contact_type": "EMAIL",
+      "primary_contact_status": "PUBLIC_UNVERIFIED",
+      "contact_owner_match": "LIKELY",
+      "contactability": "MEDIUM",
+      "contactability_evidence": [],
+      "email": "kilova.app@gmail.com",
+      "email_status": "PUBLIC_UNVERIFIED",
+      "email_evidence": [
+        {
+          "claim": "Email found on company website",
+          "value": "kilova.app@gmail.com",
+          "source": "Company website",
+          "source_url": "https://kilova.app",
+          "confidence": "PUBLIC_UNVERIFIED",
+          "observed_at": "2026-08-08T22:39:56.661059"
+        }
+      ],
+      "linkedin_url": "https://linkedin.com/in/paloma-chiara",
+      "linkedin_status": "UNKNOWN",
+      "linkedin_evidence": [],
+      "platform_contact": "u/Paloma Chiara",
+      "platform_contact_status": "UNKNOWN",
+      "evidence_reproducibility": true,
+      "reproducibility_evidence": [
+        {
+          "claim": "Requirement verified from source",
+          "primary_source": "Original source",
+          "primary_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+          "secondary_source": "Company website",
+          "secondary_url": "https://kilova.app",
+          "reproducible": true,
+          "verified_at": "2026-08-08T22:39:57.992667"
+        },
+        {
+          "claim": "Person identity verified",
+          "primary_source": "Direct URL access",
+          "primary_url": "https://www.reddit.com/user/paloma_chiara/",
+          "secondary_source": "Reddit",
+          "secondary_url": "https://linkedin.com/in/paloma-chiara",
+          "reproducible": true,
+          "verified_at": "2026-08-08T22:39:57.992694"
+        },
+        {
+          "claim": "Company website verified",
+          "primary_source": "Direct URL access",
+          "primary_url": "https://kilova.app",
+          "secondary_source": "Evidence",
+          "secondary_url": "https://kilova.app",
+          "reproducible": true,
+          "verified_at": "2026-08-08T22:39:58.402410"
+        },
+        {
+          "claim": "Contact channel available",
+          "primary_source": "Email",
+          "primary_url": "kilova.app@gmail.com",
+          "secondary_source": "None",
+          "secondary_url": "",
+          "reproducible": true,
+          "verified_at": "2026-08-08T22:39:58.402431"
+        }
+      ],
+      "source_snapshots": [
+        {
+          "source_url": "https://www.reddit.com/r/forhire/comments/1txv6sr/",
+          "source_type": "REDDIT",
+          "access_status": "VERIFIED",
+          "retrieved_at": "2026-08-08T22:39:58.450527",
+          "published_at": "2026-07-13",
+          "content_verified": true,
+          "verification_method": "URL_ACCESS_CHECK"
+        }
+      ],
+      "final_salesability": "NEEDS_RESEARCH",
+      "cto_15_minute_test": "NO",
+      "cto_decision_reason": "Failed gate: contactability; Failed gate: primary_contact_status; Failed gate: contact_owner_match",
+      "rejection_reasons": [
+        "Failed gate: contactability",
+        "Failed gate: primary_contact_status",
+        "Failed gate: contact_owner_match"
+      ]
+    }
+  ]
+}
