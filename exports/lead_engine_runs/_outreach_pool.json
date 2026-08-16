@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-14T21:55:26.219995+00:00",
-  "count": 16,
+  "updated_at": "2026-08-16T23:38:04.128591+00:00",
+  "count": 30,
   "leads": [
     {
       "company": "Bevzilla",
@@ -56,7 +56,10 @@
         "soft_generic_inbox",
         "icp_core"
       ],
-      "pooled_at": "2026-08-14T21:17:02.323811+00:00"
+      "pooled_at": "2026-08-14T21:17:02.323811+00:00",
+      "subject": "Bevzilla — WhatsApp replies before the cart goes cold",
+      "body": "Hi there,\n\nI was looking at Bevzilla (New Delhi). What stood out is that no WhatsApp chat on site · No chatbot on site · Found 58 instances of return_policy references · Found 9 instances of shipping_info….\n\nI'm Vansh, founder of Inowix. We built COMAI to handle WhatsApp and Instagram commerce chat for Indian food brands — product questions, order updates, and follow-ups in seconds, including after hours.\n\nFor a team like yours on Shopify, that usually means more conversions from the same ad spend without adding another support shift.\n\nWould a short 15-minute walkthrough of how COMAI could sit on Bevzilla's WhatsApp be useful?\n\nBest,\nVansh Jhamb\nFounder, Inowix\nvansh@inowix.in\nhttps://inowix.in",
+      "draft_status": "drafted"
     },
     {
       "company": "Nua Woman",
@@ -387,7 +390,10 @@
         "platform:shopify",
         "icp_core"
       ],
-      "pooled_at": "2026-08-14T21:17:02.323862+00:00"
+      "pooled_at": "2026-08-14T21:17:02.323862+00:00",
+      "subject": "Tjori — WhatsApp replies before the cart goes cold",
+      "body": "Hi there,\n\nI was looking at Tjori (New Delhi). What stood out is that no WhatsApp chat on site · No chatbot on site · Found 117 instances of return_policy references · Found 118 instances of shipping_info….\n\nI'm Vansh, founder of Inowix. We built COMAI to handle WhatsApp and Instagram commerce chat for Indian fashion brands — product questions, order updates, and follow-ups in seconds, including after hours.\n\nFor a team like yours on Shopify, that usually means more conversions from the same ad spend without adding another support shift.\n\nWould a short 15-minute walkthrough of how COMAI could sit on Tjori's WhatsApp be useful?\n\nBest,\nVansh Jhamb\nFounder, Inowix\nvansh@inowix.in\nhttps://inowix.in",
+      "draft_status": "drafted"
     },
     {
       "company": "AND Designs",
@@ -876,6 +882,1043 @@
         "icp_core"
       ],
       "pooled_at": "2026-08-14T21:41:52.171689+00:00"
+    },
+    {
+      "company": "Sarishta",
+      "founder_name": "",
+      "founder_role": "",
+      "email": "imagetextile@gmail.com",
+      "phone": "",
+      "website": "https://sarishta.com",
+      "domain": "sarishta.com",
+      "city": "Mumbai",
+      "category": "home_decor",
+      "size": "",
+      "platform": "google_ads",
+      "technologies": [
+        "google_ads"
+      ],
+      "pain_types": [
+        "faq_volume",
+        "return_policy",
+        "shipping_info"
+      ],
+      "growth_signals": [
+        {
+          "type": "advertising",
+          "evidence": "Paid ads stack detected: google_ads",
+          "confidence": 0.8,
+          "source": "homepage_html"
+        }
+      ],
+      "buying_signals": [
+        {
+          "type": "automation_gap_on_ads_brand",
+          "evidence": "Growing commerce/ads brand without chatbot automation",
+          "confidence": 0.9,
+          "source": "derived"
+        },
+        {
+          "type": "ops_support_gap",
+          "evidence": "Returns/COD friction without chatbot coverage",
+          "confidence": 0.82,
+          "source": "derived"
+        }
+      ],
+      "chat_gap": true,
+      "whatsapp_bot": false,
+      "why": "No chatbot automation on site · Found 3 instances of return_policy references · Found 1 instances of shipping_info references · advertising: Paid ads stack detected: google_ads · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · stack: google_ads",
+      "signal": "live_discovery",
+      "intent_score": 95.0,
+      "source": "live_verified_enrichment",
+      "company_type": "d2c_brand",
+      "enriched": true,
+      "year_founded": null,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "year_founded_soft_miss": true,
+      "tech_match": false,
+      "employee_estimate": 2,
+      "employee_estimate_source": "why_text",
+      "headcount_soft_miss": true,
+      "to_email": "imagetextile@gmail.com",
+      "id": "fa358418-6a5b-5b16-8332-89e4dbe845e8",
+      "_dedupe_rank": 118.0,
+      "whatsapp_already": false,
+      "intent_signals": 6,
+      "strong_signals": [
+        "chat_gap",
+        "ads_active",
+        "ops_pain",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "live_gap_corroborated"
+      ],
+      "signal_families": [
+        "gap",
+        "growth",
+        "live",
+        "stack"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "emp~2",
+        "chat_gap",
+        "ads_active",
+        "ops_pain",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "live_gap_corroborated",
+        "families:gap,growth,live,stack",
+        "platform:google_ads",
+        "icp_core"
+      ],
+      "pooled_at": "2026-08-15T11:01:43.614346+00:00",
+      "subject": "Sarishta — WhatsApp replies before the cart goes cold",
+      "body": "Hi there,\n\nI was looking at Sarishta (Mumbai). What stood out is that no chatbot automation on site · Found 3 instances of return_policy references · Found 1 instances of shipping_info references ·….\n\nI'm Vansh, founder of Inowix. We built COMAI to handle WhatsApp and Instagram commerce chat for Indian home_decor brands — product questions, order updates, and follow-ups in seconds, including after hours.\n\nFor a team like yours on google_ads, that usually means more conversions from the same ad spend without adding another support shift.\n\nWould a short 15-minute walkthrough of how COMAI could sit on Sarishta's WhatsApp be useful?\n\nBest,\nVansh Jhamb\nFounder, Inowix\nvansh@inowix.in\nhttps://inowix.in",
+      "draft_status": "drafted"
+    },
+    {
+      "company": "Baaya Design",
+      "founder_name": "",
+      "founder_role": "",
+      "email": "info@baayadesign.com",
+      "phone": "+918928420056",
+      "website": "https://baayadesign.com",
+      "domain": "baayadesign.com",
+      "city": "Mumbai",
+      "category": "home_decor",
+      "size": "",
+      "platform": "woocommerce",
+      "technologies": [
+        "woocommerce"
+      ],
+      "pain_types": [
+        "return_policy",
+        "shipping_info",
+        "cod_available"
+      ],
+      "growth_signals": [],
+      "buying_signals": [],
+      "chat_gap": false,
+      "whatsapp_bot": false,
+      "why": "Web chatbot present on site · Found 11 instances of return_policy references · Found 1 instances of shipping_info references · Found 53 instances of cod_available references · stack: woocommerce",
+      "signal": "live_discovery",
+      "intent_score": 69.0,
+      "source": "live_verified_enrichment",
+      "company_type": "d2c_brand",
+      "enriched": true,
+      "year_founded": null,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "year_founded_soft_miss": true,
+      "tech_match": true,
+      "employee_estimate": 6,
+      "employee_estimate_source": "why_text",
+      "soft_generic_email": true,
+      "to_email": "info@baayadesign.com",
+      "id": "0f003e95-a361-5cb0-a38e-80307c624d0f",
+      "_dedupe_rank": 109.0,
+      "whatsapp_already": false,
+      "intent_signals": 5,
+      "strong_signals": [
+        "ops_pain",
+        "stack_plus_gap",
+        "brand_inbox",
+        "brand_inbox_plus_cue",
+        "phone_plus_context"
+      ],
+      "signal_families": [
+        "gap",
+        "reach",
+        "stack"
+      ],
+      "grade": "QUALIFIED",
+      "evidence": [
+        "phone:+918928420056",
+        "emp~6",
+        "ops_pain",
+        "stack_plus_gap",
+        "brand_inbox",
+        "brand_inbox_plus_cue",
+        "phone_plus_context",
+        "families:gap,reach,stack",
+        "platform:woocommerce",
+        "soft_generic_inbox",
+        "icp_core"
+      ],
+      "pooled_at": "2026-08-15T11:01:43.614368+00:00"
+    },
+    {
+      "company": "Suhani Pittie",
+      "founder_name": "",
+      "founder_role": "",
+      "email": "shop@suhanipittie.com",
+      "phone": "+91-9014089000",
+      "website": "https://suhanipittie.com",
+      "domain": "suhanipittie.com",
+      "city": "Hyderabad",
+      "category": "jewellery",
+      "size": "",
+      "platform": "shopify",
+      "technologies": [
+        "shopify",
+        "google_ads",
+        "gtm"
+      ],
+      "pain_types": [
+        "faq_volume",
+        "return_policy",
+        "shipping_info",
+        "cod_available",
+        "contact_page"
+      ],
+      "growth_signals": [
+        {
+          "type": "hiring",
+          "evidence": "/careers",
+          "confidence": 0.75,
+          "source": "homepage_html"
+        },
+        {
+          "type": "advertising",
+          "evidence": "Paid ads stack detected: google_ads, gtm",
+          "confidence": 0.8,
+          "source": "homepage_html"
+        }
+      ],
+      "buying_signals": [
+        {
+          "type": "automation_gap_on_ads_brand",
+          "evidence": "Growing commerce/ads brand without chatbot automation",
+          "confidence": 0.9,
+          "source": "derived"
+        },
+        {
+          "type": "ops_support_gap",
+          "evidence": "Returns/COD friction without chatbot coverage",
+          "confidence": 0.82,
+          "source": "derived"
+        },
+        {
+          "type": "hiring_with_support_gap",
+          "evidence": "Hiring while support automation gap exists",
+          "confidence": 0.92,
+          "source": "derived"
+        }
+      ],
+      "chat_gap": true,
+      "whatsapp_bot": false,
+      "why": "No chatbot automation on site · Found 68 instances of return_policy references · Found 16 instances of shipping_info references · Found 20 instances of cod_available references · Found 7 instances of contact_page references · hiring: /careers · advertising: Paid ads stack detected: google_ads, gtm · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · Hiring while support automation gap exists · stack: shopify, google_ads, gtm",
+      "signal": "live_discovery",
+      "intent_score": 89.0,
+      "source": "live_verified_enrichment",
+      "company_type": "d2c_brand",
+      "enriched": true,
+      "year_founded": null,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "year_founded_soft_miss": true,
+      "type_soft_miss": true,
+      "tech_match": true,
+      "employee_estimate": 42,
+      "employee_estimate_source": "why_text",
+      "headcount_soft_miss": true,
+      "soft_generic_email": true,
+      "to_email": "shop@suhanipittie.com",
+      "id": "0f9a11be-d773-504c-a9b0-93d3b82dd4ab",
+      "_dedupe_rank": 121.0,
+      "whatsapp_already": false,
+      "intent_signals": 9,
+      "strong_signals": [
+        "chat_gap",
+        "hiring_intent",
+        "ads_active",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "phone_plus_context",
+        "live_gap_corroborated"
+      ],
+      "signal_families": [
+        "gap",
+        "growth",
+        "live",
+        "reach",
+        "stack"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "phone:+91-9014089000",
+        "emp~42",
+        "chat_gap",
+        "hiring_intent",
+        "ads_active",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "phone_plus_context",
+        "live_gap_corroborated",
+        "families:gap,growth,live,reach,stack",
+        "platform:shopify",
+        "soft_generic_inbox",
+        "icp_core"
+      ],
+      "pooled_at": "2026-08-15T11:10:22.630695+00:00"
+    },
+    {
+      "company": "Tribe Amrapali",
+      "founder_name": "",
+      "founder_role": "",
+      "email": "tribebyamrapalionline@gmail.com",
+      "phone": "+91-7229835888",
+      "website": "https://tribeamrapali.com",
+      "domain": "tribeamrapali.com",
+      "city": "Jaipur",
+      "category": "jewellery",
+      "size": "",
+      "platform": "meta_pixel",
+      "technologies": [
+        "meta_pixel",
+        "google_ads",
+        "gtm"
+      ],
+      "pain_types": [
+        "faq_volume",
+        "return_policy",
+        "shipping_info",
+        "cod_available",
+        "contact_page"
+      ],
+      "growth_signals": [
+        {
+          "type": "advertising",
+          "evidence": "Paid ads stack detected: google_ads, gtm, meta_pixel",
+          "confidence": 0.8,
+          "source": "homepage_html"
+        }
+      ],
+      "buying_signals": [
+        {
+          "type": "automation_gap_on_ads_brand",
+          "evidence": "Growing commerce/ads brand without chatbot automation",
+          "confidence": 0.9,
+          "source": "derived"
+        },
+        {
+          "type": "ops_support_gap",
+          "evidence": "Returns/COD friction without chatbot coverage",
+          "confidence": 0.82,
+          "source": "derived"
+        }
+      ],
+      "chat_gap": true,
+      "whatsapp_bot": false,
+      "why": "No chatbot automation on site · Found 12 instances of return_policy references · Found 6 instances of shipping_info references · Found 6 instances of cod_available references · Found 2 instances of contact_page references · advertising: Paid ads stack detected: google_ads, gtm, meta_pixel · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · stack: meta_pixel, google_ads, gtm",
+      "signal": "live_discovery",
+      "intent_score": 96.0,
+      "source": "live_verified_enrichment",
+      "company_type": "d2c_brand",
+      "enriched": true,
+      "year_founded": null,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "year_founded_soft_miss": true,
+      "type_soft_miss": true,
+      "tech_match": false,
+      "employee_estimate": 9,
+      "employee_estimate_source": "why_text",
+      "to_email": "tribebyamrapalionline@gmail.com",
+      "id": "ae09ef93-693b-532e-9ae9-addc03d1099c",
+      "_dedupe_rank": 118.0,
+      "whatsapp_already": false,
+      "intent_signals": 7,
+      "strong_signals": [
+        "chat_gap",
+        "ads_active",
+        "ops_pain",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "phone_plus_context",
+        "live_gap_corroborated"
+      ],
+      "signal_families": [
+        "gap",
+        "growth",
+        "live",
+        "reach",
+        "stack"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "phone:+91-7229835888",
+        "emp~9",
+        "chat_gap",
+        "ads_active",
+        "ops_pain",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "phone_plus_context",
+        "live_gap_corroborated",
+        "families:gap,growth,live,reach,stack",
+        "platform:meta_pixel",
+        "icp_core"
+      ],
+      "pooled_at": "2026-08-15T11:10:22.630713+00:00"
+    },
+    {
+      "company": "Deconstruct",
+      "founder_name": "",
+      "founder_role": "",
+      "email": "admin@deconstruct.in",
+      "phone": "",
+      "website": "https://deconstruct.in",
+      "domain": "deconstruct.in",
+      "city": "Hyderabad",
+      "category": "skincare",
+      "size": "",
+      "platform": "",
+      "technologies": [],
+      "pain_types": [
+        "return_policy",
+        "cod_available"
+      ],
+      "growth_signals": [],
+      "buying_signals": [
+        {
+          "type": "ops_support_gap",
+          "evidence": "Returns/COD friction without chatbot coverage",
+          "confidence": 0.82,
+          "source": "derived"
+        }
+      ],
+      "chat_gap": true,
+      "whatsapp_bot": false,
+      "why": "No chatbot automation on site · Found 3 instances of return_policy references · Found 3 instances of cod_available references · Returns/COD friction without chatbot coverage",
+      "signal": "live_discovery",
+      "intent_score": 68.0,
+      "source": "live_verified_enrichment",
+      "company_type": "d2c_brand",
+      "enriched": true,
+      "year_founded": null,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "year_founded_soft_miss": true,
+      "tech_match": false,
+      "employee_estimate": 3,
+      "employee_estimate_source": "why_text",
+      "headcount_soft_miss": true,
+      "to_email": "admin@deconstruct.in",
+      "id": "8e9f1a6b-77e0-5d78-b570-533f50d4c4a9",
+      "_dedupe_rank": 106.0,
+      "whatsapp_already": false,
+      "intent_signals": 3,
+      "strong_signals": [
+        "chat_gap",
+        "ops_pain",
+        "live_gap_corroborated"
+      ],
+      "signal_families": [
+        "gap",
+        "live"
+      ],
+      "grade": "QUALIFIED",
+      "evidence": [
+        "emp~3",
+        "chat_gap",
+        "ops_pain",
+        "live_gap_corroborated",
+        "families:gap,live",
+        "icp_core"
+      ],
+      "pooled_at": "2026-08-15T12:16:54.787171+00:00"
+    },
+    {
+      "company": "WoodenStreet",
+      "founder_name": "",
+      "founder_role": "",
+      "email": "care@woodenstreet.com",
+      "phone": "+91-9314444747",
+      "website": "https://woodenstreet.com",
+      "domain": "woodenstreet.com",
+      "city": "Jaipur",
+      "category": "home_decor",
+      "size": "",
+      "platform": "",
+      "technologies": [],
+      "pain_types": [
+        "faq_volume",
+        "return_policy",
+        "shipping_info",
+        "cod_available",
+        "contact_page"
+      ],
+      "growth_signals": [
+        {
+          "type": "hiring",
+          "evidence": "/careers",
+          "confidence": 0.75,
+          "source": "homepage_html"
+        },
+        {
+          "type": "expansion",
+          "evidence": "PAN INDIA",
+          "confidence": 0.75,
+          "source": "homepage_html"
+        },
+        {
+          "type": "expansion",
+          "evidence": "Pan India",
+          "confidence": 0.75,
+          "source": "intent_page:/careers"
+        },
+        {
+          "type": "hiring",
+          "evidence": "Customer Care Executive",
+          "confidence": 0.85,
+          "source": "intent_page:/careers"
+        }
+      ],
+      "buying_signals": [
+        {
+          "type": "ops_support_gap",
+          "evidence": "Returns/COD friction without chatbot coverage",
+          "confidence": 0.82,
+          "source": "derived"
+        },
+        {
+          "type": "hiring_with_support_gap",
+          "evidence": "Hiring while support automation gap exists",
+          "confidence": 0.92,
+          "source": "derived"
+        }
+      ],
+      "chat_gap": true,
+      "whatsapp_bot": false,
+      "why": "No chatbot automation on site · Found 23 instances of return_policy references · Found 34 instances of shipping_info references · Found 33 instances of cod_available references · Found 1 instances of contact_page references · hiring: /careers · expansion: PAN INDIA · expansion: Pan India · hiring: Customer Care Executive · Returns/COD friction without chatbot coverage · Hiring while support automation gap exists",
+      "signal": "live_discovery",
+      "intent_score": 87.0,
+      "source": "live_verified_enrichment",
+      "company_type": "d2c_brand",
+      "enriched": true,
+      "year_founded": null,
+      "outreach_status": "pooled",
+      "industry_adjacent": true,
+      "icp_tier": "adjacent",
+      "year_founded_soft_miss": true,
+      "tech_match": false,
+      "employee_estimate": 28,
+      "employee_estimate_source": "why_text",
+      "soft_generic_email": true,
+      "to_email": "care@woodenstreet.com",
+      "id": "f41eafff-f5eb-54ee-936f-bbf72499d5c8",
+      "_dedupe_rank": 121.0,
+      "whatsapp_already": false,
+      "intent_signals": 9,
+      "strong_signals": [
+        "chat_gap",
+        "hiring_intent",
+        "growth_motion",
+        "ops_pain",
+        "high_intent_composite",
+        "brand_inbox",
+        "brand_inbox_plus_cue",
+        "phone_plus_context",
+        "live_gap_corroborated"
+      ],
+      "signal_families": [
+        "gap",
+        "growth",
+        "live",
+        "reach"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "phone:+91-9314444747",
+        "emp~28",
+        "chat_gap",
+        "hiring_intent",
+        "growth_motion",
+        "ops_pain",
+        "high_intent_composite",
+        "brand_inbox",
+        "brand_inbox_plus_cue",
+        "phone_plus_context",
+        "live_gap_corroborated",
+        "families:gap,growth,live,reach",
+        "soft_generic_inbox",
+        "industry_adjacent"
+      ],
+      "pooled_at": "2026-08-15T12:19:12.327103+00:00"
+    },
+    {
+      "company": "Suhani Pittie",
+      "founder_name": "",
+      "founder_role": "",
+      "email": "stouvant@suhanipittie.com",
+      "phone": "+91-9014089000",
+      "website": "https://suhanipittie.com",
+      "domain": "suhanipittie.com",
+      "city": "Hyderabad",
+      "category": "jewellery",
+      "size": "",
+      "platform": "shopify",
+      "technologies": [
+        "shopify",
+        "google_ads",
+        "gtm"
+      ],
+      "pain_types": [
+        "faq_volume",
+        "return_policy",
+        "shipping_info",
+        "cod_available",
+        "contact_page"
+      ],
+      "growth_signals": [
+        {
+          "type": "hiring",
+          "evidence": "/careers",
+          "confidence": 0.75,
+          "source": "homepage_html"
+        },
+        {
+          "type": "advertising",
+          "evidence": "Paid ads stack detected: google_ads, gtm",
+          "confidence": 0.8,
+          "source": "homepage_html"
+        }
+      ],
+      "buying_signals": [
+        {
+          "type": "automation_gap_on_ads_brand",
+          "evidence": "Growing commerce/ads brand without chatbot automation",
+          "confidence": 0.9,
+          "source": "derived"
+        },
+        {
+          "type": "ops_support_gap",
+          "evidence": "Returns/COD friction without chatbot coverage",
+          "confidence": 0.82,
+          "source": "derived"
+        },
+        {
+          "type": "hiring_with_support_gap",
+          "evidence": "Hiring while support automation gap exists",
+          "confidence": 0.92,
+          "source": "derived"
+        }
+      ],
+      "chat_gap": true,
+      "whatsapp_bot": false,
+      "why": "No chatbot automation on site · Found 68 instances of return_policy references · Found 16 instances of shipping_info references · Found 20 instances of cod_available references · Found 7 instances of contact_page references · hiring: /careers · advertising: Paid ads stack detected: google_ads, gtm · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · Hiring while support automation gap exists · stack: shopify, google_ads, gtm",
+      "signal": "live_discovery",
+      "intent_score": 96.0,
+      "source": "live_verified_enrichment",
+      "company_type": "d2c_brand",
+      "enriched": true,
+      "year_founded": null,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "year_founded_soft_miss": true,
+      "tech_match": true,
+      "employee_estimate": 42,
+      "employee_estimate_source": "why_text",
+      "headcount_soft_miss": true,
+      "to_email": "stouvant@suhanipittie.com",
+      "id": "1eec8e04-a016-5aa8-92ad-b737d4a0517a",
+      "_dedupe_rank": 121.0,
+      "whatsapp_already": false,
+      "intent_signals": 9,
+      "strong_signals": [
+        "chat_gap",
+        "hiring_intent",
+        "ads_active",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "phone_plus_context",
+        "live_gap_corroborated"
+      ],
+      "signal_families": [
+        "gap",
+        "growth",
+        "live",
+        "reach",
+        "stack"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "phone:+91-9014089000",
+        "emp~42",
+        "chat_gap",
+        "hiring_intent",
+        "ads_active",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "phone_plus_context",
+        "live_gap_corroborated",
+        "families:gap,growth,live,reach,stack",
+        "platform:shopify",
+        "icp_core"
+      ],
+      "pooled_at": "2026-08-16T21:44:44.875541+00:00",
+      "subject": "Suhani Pittie — WhatsApp replies before the cart goes cold",
+      "body": "Hi there,\n\nI was looking at Suhani Pittie (Hyderabad). What stood out is that no chatbot automation on site · Found 68 instances of return_policy references · Found 16 instances of shipping_info references · Found….\n\nI'm Vansh, founder of Inowix. We built COMAI to handle WhatsApp and Instagram commerce chat for Indian jewellery brands — product questions, order updates, and follow-ups in seconds, including after hours.\n\nFor a team like yours on Shopify, that usually means more conversions from the same ad spend without adding another support shift.\n\nWould a short 15-minute walkthrough of how COMAI could sit on Suhani Pittie's WhatsApp be useful?\n\nBest,\nVansh Jhamb\nFounder, Inowix\nvansh@inowix.in\nhttps://inowix.in",
+      "draft_status": "drafted"
+    },
+    {
+      "company": "SecureFlow",
+      "founder_name": "Alex Chen",
+      "founder_role": "CTO",
+      "email": "alex@secureflow.io",
+      "phone": "",
+      "website": "https://secureflow.io",
+      "domain": "secureflow.io",
+      "city": "",
+      "category": "SaaS",
+      "size": "medium",
+      "platform": "",
+      "why": "B2B SaaS preparing for enterprise sales. Needs penetration testing before Series B. · Services: penetration_testing, web_app_security, api_security",
+      "signal": "SALES_READY",
+      "intent_score": 95.0,
+      "source": "cybersecurity_engine",
+      "company_type": "saas_product",
+      "enriched": true,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "year_founded_soft_miss": true,
+      "employee_estimate": 75,
+      "employee_estimate_source": "size_field:medium",
+      "named_founder": true,
+      "to_email": "alex@secureflow.io",
+      "id": "bb3b41d2-c2c3-5a0a-8c43-5af6fd1f7bc2",
+      "_dedupe_rank": 120.0,
+      "intent_signals": 4,
+      "strong_signals": [
+        "verified_buying_event",
+        "founder_reachable",
+        "service_match",
+        "icp_core"
+      ],
+      "signal_families": [
+        "gap",
+        "reach"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "source:cybersecurity_engine",
+        "industry:SaaS",
+        "verified_buying_event",
+        "founder_reachable",
+        "service_match",
+        "icp_core",
+        "families:gap,reach"
+      ],
+      "pooled_at": "2026-08-16T23:37:10.730294+00:00"
+    },
+    {
+      "company": "PayFlow",
+      "founder_name": "Sarah Williams",
+      "founder_role": "Head of Security",
+      "email": "sarah.williams@payflow.com",
+      "phone": "",
+      "website": "https://payflow.com",
+      "domain": "payflow.com",
+      "city": "",
+      "category": "Fintech",
+      "size": "medium",
+      "platform": "",
+      "why": "Fintech SaaS needs VAPT before SOC 2 audit. Enterprise customers requiring security assessment. · Services: penetration_testing, vulnerability_assessment, compliance",
+      "signal": "SALES_READY",
+      "intent_score": 95.0,
+      "source": "cybersecurity_engine",
+      "company_type": "saas_product",
+      "enriched": true,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "year_founded_soft_miss": true,
+      "employee_estimate": 75,
+      "employee_estimate_source": "size_field:medium",
+      "named_founder": true,
+      "to_email": "sarah.williams@payflow.com",
+      "id": "52ca5ad2-e375-5193-a168-80a6b21f8987",
+      "_dedupe_rank": 120.0,
+      "intent_signals": 4,
+      "strong_signals": [
+        "verified_buying_event",
+        "founder_reachable",
+        "service_match",
+        "icp_core"
+      ],
+      "signal_families": [
+        "gap",
+        "reach"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "source:cybersecurity_engine",
+        "industry:Fintech",
+        "verified_buying_event",
+        "founder_reachable",
+        "service_match",
+        "icp_core",
+        "families:gap,reach"
+      ],
+      "pooled_at": "2026-08-16T23:37:10.730311+00:00"
+    },
+    {
+      "company": "HealthTech Solutions",
+      "founder_name": "Dr. James Morrison",
+      "founder_role": "CEO",
+      "email": "james@healthtech-solutions.com",
+      "phone": "+1-555-0456",
+      "website": "https://healthtech-solutions.com",
+      "domain": "healthtech-solutions.com",
+      "city": "",
+      "category": "Healthtech",
+      "size": "medium",
+      "platform": "",
+      "why": "Healthcare SaaS needs security audit for HIPAA compliance. Enterprise customers require penetration testing documentatio · Services: penetration_testing, security_audit, compliance",
+      "signal": "SALES_READY",
+      "intent_score": 95.0,
+      "source": "cybersecurity_engine",
+      "company_type": "saas_product",
+      "enriched": true,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "year_founded_soft_miss": true,
+      "employee_estimate": 75,
+      "employee_estimate_source": "size_field:medium",
+      "named_founder": true,
+      "to_email": "james@healthtech-solutions.com",
+      "id": "df30468e-383a-5694-95b6-15f51adf1a8a",
+      "_dedupe_rank": 120.0,
+      "intent_signals": 4,
+      "strong_signals": [
+        "verified_buying_event",
+        "founder_reachable",
+        "service_match",
+        "icp_core"
+      ],
+      "signal_families": [
+        "gap",
+        "reach"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "source:cybersecurity_engine",
+        "industry:Healthtech",
+        "verified_buying_event",
+        "founder_reachable",
+        "service_match",
+        "icp_core",
+        "families:gap,reach"
+      ],
+      "pooled_at": "2026-08-16T23:37:10.730315+00:00"
+    },
+    {
+      "company": "CloudVault",
+      "founder_name": "Mark Thompson",
+      "founder_role": "CTO",
+      "email": "mark@cloudvault.io",
+      "phone": "",
+      "website": "https://cloudvault.io",
+      "domain": "cloudvault.io",
+      "city": "",
+      "category": "SaaS",
+      "size": "medium",
+      "platform": "",
+      "why": "Cloud storage SaaS expanding to EU market. Needs ISO 27001 compliance and security assessment. · Services: cloud_security, penetration_testing, compliance",
+      "signal": "SALES_READY",
+      "intent_score": 95.0,
+      "source": "cybersecurity_engine",
+      "company_type": "saas_product",
+      "enriched": true,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "year_founded_soft_miss": true,
+      "employee_estimate": 75,
+      "employee_estimate_source": "size_field:medium",
+      "named_founder": true,
+      "to_email": "mark@cloudvault.io",
+      "id": "6d1889f4-fa51-5632-ad27-671bd2b55163",
+      "_dedupe_rank": 120.0,
+      "intent_signals": 4,
+      "strong_signals": [
+        "verified_buying_event",
+        "founder_reachable",
+        "service_match",
+        "icp_core"
+      ],
+      "signal_families": [
+        "gap",
+        "reach"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "source:cybersecurity_engine",
+        "industry:SaaS",
+        "verified_buying_event",
+        "founder_reachable",
+        "service_match",
+        "icp_core",
+        "families:gap,reach"
+      ],
+      "pooled_at": "2026-08-16T23:37:10.730318+00:00"
+    },
+    {
+      "company": "FinTrack Analytics",
+      "founder_name": "Priya Sharma",
+      "founder_role": "VP Engineering",
+      "email": "priya@fintrack.io",
+      "phone": "",
+      "website": "https://fintrack.io",
+      "domain": "fintrack.io",
+      "city": "",
+      "category": "Fintech",
+      "size": "medium",
+      "platform": "",
+      "why": "Financial analytics platform handling sensitive data. Needs PCI DSS compliance and security testing. · Services: penetration_testing, api_security, compliance",
+      "signal": "SALES_READY",
+      "intent_score": 95.0,
+      "source": "cybersecurity_engine",
+      "company_type": "saas_product",
+      "enriched": true,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "year_founded_soft_miss": true,
+      "employee_estimate": 75,
+      "employee_estimate_source": "size_field:medium",
+      "named_founder": true,
+      "to_email": "priya@fintrack.io",
+      "id": "78893a56-c2c4-5078-895a-c983e1b82805",
+      "_dedupe_rank": 120.0,
+      "intent_signals": 4,
+      "strong_signals": [
+        "verified_buying_event",
+        "founder_reachable",
+        "service_match",
+        "icp_core"
+      ],
+      "signal_families": [
+        "gap",
+        "reach"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "source:cybersecurity_engine",
+        "industry:Fintech",
+        "verified_buying_event",
+        "founder_reachable",
+        "service_match",
+        "icp_core",
+        "families:gap,reach"
+      ],
+      "pooled_at": "2026-08-16T23:37:10.730321+00:00"
+    },
+    {
+      "company": "MediConnect",
+      "founder_name": "Dr. Sarah Lee",
+      "founder_role": "CTO",
+      "email": "sarah@mediconnect.health",
+      "phone": "+61-400-123-456",
+      "website": "https://mediconnect.health",
+      "domain": "mediconnect.health",
+      "city": "",
+      "category": "Healthtech",
+      "size": "medium",
+      "platform": "",
+      "why": "Healthcare platform connecting patients and providers. Needs HIPAA/Privacy Act compliance and security testing. · Services: penetration_testing, compliance, security_audit",
+      "signal": "SALES_READY",
+      "intent_score": 95.0,
+      "source": "cybersecurity_engine",
+      "company_type": "saas_product",
+      "enriched": true,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "year_founded_soft_miss": true,
+      "employee_estimate": 75,
+      "employee_estimate_source": "size_field:medium",
+      "named_founder": true,
+      "to_email": "sarah@mediconnect.health",
+      "id": "e3b18aa9-1c68-5826-aa10-f44d36524f8b",
+      "_dedupe_rank": 120.0,
+      "intent_signals": 4,
+      "strong_signals": [
+        "verified_buying_event",
+        "founder_reachable",
+        "service_match",
+        "icp_core"
+      ],
+      "signal_families": [
+        "gap",
+        "reach"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "source:cybersecurity_engine",
+        "industry:Healthtech",
+        "verified_buying_event",
+        "founder_reachable",
+        "service_match",
+        "icp_core",
+        "families:gap,reach"
+      ],
+      "pooled_at": "2026-08-16T23:37:10.730323+00:00"
+    },
+    {
+      "company": "HRTech Global",
+      "founder_name": "Lisa Chang",
+      "founder_role": "CISO",
+      "email": "lisa@hrtechglobal.com",
+      "phone": "",
+      "website": "https://hrtechglobal.com",
+      "domain": "hrtechglobal.com",
+      "city": "",
+      "category": "HRTech",
+      "size": "medium",
+      "platform": "",
+      "why": "HR management platform handling employee PII. Needs SOC 2 compliance and security testing. · Services: penetration_testing, compliance, security_audit",
+      "signal": "SALES_READY",
+      "intent_score": 94.0,
+      "source": "cybersecurity_engine",
+      "company_type": "saas_product",
+      "enriched": true,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "year_founded_soft_miss": true,
+      "employee_estimate": 75,
+      "employee_estimate_source": "size_field:medium",
+      "named_founder": true,
+      "to_email": "lisa@hrtechglobal.com",
+      "id": "23183037-7fed-5bb7-9f64-eeb804be4398",
+      "_dedupe_rank": 120.0,
+      "intent_signals": 3,
+      "strong_signals": [
+        "verified_buying_event",
+        "founder_reachable",
+        "service_match"
+      ],
+      "signal_families": [
+        "gap",
+        "reach"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "source:cybersecurity_engine",
+        "industry:HRTech",
+        "verified_buying_event",
+        "founder_reachable",
+        "service_match",
+        "families:gap,reach"
+      ],
+      "pooled_at": "2026-08-16T23:37:10.730326+00:00"
     }
   ]
 }

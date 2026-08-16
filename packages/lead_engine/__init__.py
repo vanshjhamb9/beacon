@@ -635,7 +635,12 @@ async def _live_discover_new(
     exclude_emails: set[str],
     batch_limit: int = 40,
 ) -> list[dict[str, Any]]:
-    """Live website enrichment for verified mid D2C brands matching ICP specialties."""
+    """Live website enrichment for verified mid D2C brands matching ICP specialties.
+    
+    For cybersecurity: Uses the cybersecurity engine's collectors to discover new leads.
+    """
+    if product == "cybersecurity":
+        return await _live_discover_cybersecurity(icp, exclude_emails=exclude_emails, batch_limit=batch_limit)
     if product != "comai":
         return []
     try:
@@ -870,6 +875,117 @@ async def _live_discover_new(
         )
     return out
 
+
+async def _live_discover_cybersecurity(
+    icp: dict[str, Any],
+    *,
+    exclude_emails: set[str],
+    batch_limit: int = 40,
+) -> list[dict[str, Any]]:
+    """Live discovery for cybersecurity leads using the cybersecurity engine collectors."""
+    try:
+        import httpx
+        from cybersecurity_engine.engine import CybersecurityDiscoveryEngine
+        from cybersecurity_engine.sources.reddit_cybersecurity import RedditCybersecurityCollector
+        from cybersecurity_engine.sources.hackernews_cybersecurity import HackerNewsCybersecurityCollector
+        from cybersecurity_engine.sources.web_search_cybersecurity import WebSearchCybersecurityCollector
+        from cybersecurity_engine.sources.company_blog_cybersecurity import CompanyBlogCybersecurityCollector
+        from cybersecurity_engine.signal_detector import CybersecuritySignalDetector
+        from cybersecurity_engine.evidence_engine import SalesReadinessEvaluator
+        from cybersecurity_engine.models import Company, Contact, CybersecurityOpportunity, OpportunityPriority, OpportunityType, ServiceLane
+        from cybersecurity_engine.sources import RawSignal
+    except ImportError as exc:
+        logger.warning("Cybersecurity live discovery imports failed: %s", exc)
+        return []
+
+    all_signals: list[RawSignal] = []
+    seen_urls: set[str] = set()
+
+    async with httpx.AsyncClient(
+        headers={
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        },
+        follow_redirects=True,
+        timeout=httpx.Timeout(15.0),
+    ) as client:
+        # Collect from all sources (smaller batch for live discovery)
+        collectors = [
+            ("Reddit", RedditCybersecurityCollector(client, max_items=20)),
+            ("HackerNews", HackerNewsCybersecurityCollector(client, max_items=20)),
+            ("WebSearch", WebSearchCybersecurityCollector(client, max_items=20)),
+        ]
+
+        for name, collector in collectors:
+            try:
+                signals = await collector.collect()
+                for s in signals:
+                    if s.url not in seen_urls:
+                        seen_urls.add(s.url)
+                        all_signals.append(s)
+                logger.info("Cybersecurity live discovery %s: %d signals", name, len(signals))
+            except Exception as e:
+                logger.warning("Cybersecurity live discovery %s failed: %s", name, e)
+
+    if not all_signals:
+        return []
+
+    # Convert signals to lead format
+    signal_detector = CybersecuritySignalDetector()
+    leads: list[dict[str, Any]] = []
+    seen_emails: set[str] = set()
+
+    for signal in all_signals[:batch_limit]:
+        try:
+            # Classify the signal
+            full_text = f"{signal.title} {signal.content}"
+            priority, buying_event = signal_detector.detect_priority(
+                full_text, source_tier=signal.source_tier
+            )
+
+            # Skip P3 (no signal)
+            if priority == OpportunityPriority.P3:
+                continue
+
+            # Extract contact info from signal
+            contact_name = signal.author or ""
+            contact_email = ""  # Not available from Reddit/HN
+
+            # Skip if email already seen or excluded
+            if contact_email and (contact_email in seen_emails or contact_email in exclude_emails):
+                continue
+            if contact_email:
+                seen_emails.add(contact_email)
+
+            # Build lead dict matching expected format
+            lead = {
+                "company": f"Company from {signal.source}",
+                "founder_name": contact_name,
+                "founder_role": "",
+                "email": contact_email,
+                "phone": "",
+                "website": signal.url,
+                "domain": signal.url.split("//")[-1].split("/")[0] if "//" in signal.url else "",
+                "city": "",
+                "category": "Cybersecurity",
+                "size": "",
+                "platform": "",
+                "why": signal.content[:200] if signal.content else signal.title,
+                "signal": priority.value if hasattr(priority, 'value') else str(priority),
+                "intent_score": float(min(85, 50 + signal.score)),
+                "source": f"cybersecurity_{signal.source}",
+                "company_type": "saas_product",
+                "enriched": False,
+                "buying_event_type": buying_event.event_type if buying_event else "",
+                "services_needed": buying_event.services_needed if buying_event else [],
+            }
+            leads.append(lead)
+        except Exception as e:
+            logger.debug("Failed to classify cybersecurity signal: %s", e)
+            continue
+
+    logger.info("Cybersecurity live discovery: %d leads from %d signals", len(leads), len(all_signals))
+    return leads
 
 
 def _persist_sent_emails(extra: set[str] | list[str]) -> None:
@@ -1573,6 +1689,96 @@ def _load_csv_leads(path: Path) -> list[dict[str, Any]]:
     return out
 
 
+def _extract_cybersecurity_leads(icp: dict[str, Any]) -> list[dict[str, Any]]:
+    """Load cybersecurity leads from exports and map to LeadEngineLead format."""
+    cyb_exports = ROOT / "exports" / "cybersecurity"
+    paths = [
+        cyb_exports / "cybersecurity_sales_ready.json",
+        cyb_exports / "cybersecurity_outreach_queue.json",
+    ]
+    # Also glob any additional cybersecurity JSON files
+    if cyb_exports.exists():
+        for extra in sorted(cyb_exports.glob("*.json")):
+            if extra not in paths and "rejected" not in extra.name and "evidence_audit" not in extra.name:
+                paths.append(extra)
+
+    leads: list[dict[str, Any]] = []
+    seen_emails: set[str] = set()
+    for path in paths:
+        if not path.exists():
+            continue
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            rows = data if isinstance(data, list) else data.get("leads") or []
+            for r in rows:
+                if not isinstance(r, dict):
+                    continue
+                # Nested structure: company is an object, contact is an object
+                company_obj = r.get("company") or {}
+                if isinstance(company_obj, str):
+                    company_obj = {"name": company_obj}
+                contact = r.get("contact") or {}
+                if isinstance(contact, str):
+                    contact = {"name": contact}
+                email = contact.get("email") or r.get("email") or ""
+                if not email or "@" not in email:
+                    continue
+                email = email.lower().strip()
+                if email in seen_emails:
+                    continue
+                seen_emails.add(email)
+                company_name = company_obj.get("name") or r.get("company") or ""
+                domain = company_obj.get("url") or r.get("domain") or ""
+                if domain and not domain.startswith("http"):
+                    domain = "https://" + domain
+                services = r.get("services_needed") or []
+                if isinstance(services, list) and services:
+                    service_str = ", ".join(services[:5])
+                else:
+                    service_str = str(services) if services else ""
+                ev_conf = (r.get("evidence_confidence") or "").upper()
+                score_map = {"HIGH": 85, "MEDIUM": 65, "LOW": 45}
+                intent_score = score_map.get(ev_conf, 50)
+                verdict = (r.get("final_verdict") or r.get("verdict") or "").upper()
+                grade = "SALES_READY" if verdict == "SALES_READY" else "QUALIFIED" if verdict == "QUALIFIED" else "NURTURE"
+                why_bits = []
+                be = r.get("buying_event") or {}
+                if isinstance(be, dict):
+                    if be.get("description"):
+                        why_bits.append(be["description"][:120])
+                    if be.get("services_needed"):
+                        svc = be["services_needed"]
+                        if isinstance(svc, list):
+                            why_bits.append(f"Services: {', '.join(svc[:3])}")
+                ev_chain = r.get("evidence_chain") or r.get("evidence") or []
+                if isinstance(ev_chain, list):
+                    for ev in ev_chain[:3]:
+                        if isinstance(ev, dict) and ev.get("snippet"):
+                            why_bits.append(ev["snippet"][:100])
+                leads.append({
+                    "company": company_name,
+                    "founder_name": contact.get("name") or "",
+                    "founder_role": contact.get("title") or contact.get("role") or "",
+                    "email": email,
+                    "phone": contact.get("phone") or "",
+                    "website": domain,
+                    "domain": re.sub(r"^https?://(www\.)?", "", domain).split("/")[0].lower(),
+                    "city": company_obj.get("city") or r.get("city") or "",
+                    "category": company_obj.get("industry") or r.get("industry") or "Cybersecurity",
+                    "size": str(company_obj.get("company_size") or company_obj.get("employee_count") or ""),
+                    "platform": "",
+                    "why": " · ".join(why_bits) or f"Cybersecurity lead: {service_str}",
+                    "signal": verdict or "cybersecurity_verified",
+                    "intent_score": float(intent_score),
+                    "source": "cybersecurity_engine",
+                    "company_type": "saas_product",
+                    "icp_tier": "core",
+                })
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("Failed loading cybersecurity leads from %s: %s", path, exc)
+    return leads
+
+
 def _extract_leads(product: str, icp: dict[str, Any]) -> list[dict[str, Any]]:
     """Parameter-driven extraction: founder-quality seeds first, then wave CSVs.
 
@@ -1580,6 +1786,8 @@ def _extract_leads(product: str, icp: dict[str, Any]) -> list[dict[str, Any]]:
     Also merges verified-brand discovery domains that match industry/city,
     attaching contacts only when we already have a verified email in seeds.
     """
+    if product == "cybersecurity":
+        return _extract_cybersecurity_leads(icp)
     if product == "comai":
         paths = [
             ROOT / "exports" / "comai_icp_founder_leads.csv",
@@ -1890,6 +2098,58 @@ def _score_leads(leads: list[dict[str, Any]], product: str) -> list[dict[str, An
             base = 45.0
         score = base if base > 0 else 38.0
         why = str(lead.get("why") or lead.get("signal") or "").lower()
+
+        # Cybersecurity-specific scoring
+        if product == "cybersecurity":
+            strong: list[str] = []
+            families: set[str] = set()
+            if "SALES_READY" in str(lead.get("signal") or "").upper():
+                strong.append("verified_buying_event")
+                families.add("gap")
+                score = max(score, 80.0)
+            elif "QUALIFIED" in str(lead.get("signal") or "").upper():
+                strong.append("verified_pain")
+                families.add("gap")
+                score = max(score, 68.0)
+            if lead.get("email") and lead.get("founder_name"):
+                strong.append("founder_reachable")
+                families.add("reach")
+                score += 8
+            elif lead.get("email"):
+                strong.append("contact_verified")
+                families.add("reach")
+                score += 4
+            if any(k in why for k in ("penetration testing", "vapt", "security audit", "compliance")):
+                strong.append("service_match")
+                families.add("gap")
+                score += 6
+            if lead.get("category") and any(
+                k in str(lead.get("category")).lower()
+                for k in ("saas", "fintech", "healthtech", "ecommerce")
+            ):
+                strong.append("icp_core")
+                score += 5
+            lead["intent_signals"] = len(strong)
+            lead["strong_signals"] = strong
+            lead["signal_families"] = sorted(families)
+            family_count = len(families)
+            score = min(95.0, max(0.0, score))
+            sales_ready = score >= 75 and family_count >= 2 and strong
+            qualified = score >= 60 and strong
+            grade = "SALES_READY" if sales_ready else "QUALIFIED" if qualified else "NURTURE"
+            lead["intent_score"] = round(score, 1)
+            lead["grade"] = grade
+            lead["evidence"] = [
+                x for x in [
+                    f"source:{lead.get('source', 'cybersecurity_engine')}",
+                    lead.get("category") and f"industry:{lead.get('category')}",
+                    *[s for s in strong],
+                    f"families:{','.join(sorted(families))}" if families else "",
+                ]
+                if x
+            ]
+            scored.append(lead)
+            continue
         strong = _strong_comai_signals(lead, product)
         families = _signal_families(strong)
         lead["intent_signals"] = len(strong)
