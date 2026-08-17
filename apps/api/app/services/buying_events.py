@@ -3,7 +3,7 @@
 CRITICAL RULES:
 1. Keywords are ONLY discovery triggers - they NEVER qualify a lead
 2. The original source must prove an actual business problem
-3. Two lanes: COMAI and INOWIX with separate ICPs
+3. Three lanes: COMAI, INOWIX, and CYBER with separate ICPs
 4. 6-level classification system
 5. QUALITY > QUANTITY
 """
@@ -42,11 +42,21 @@ class FreshnessGate:
     REJECT = "REJECT"            # >14 days - rejected
 
 
-def classify_freshness(published_at: datetime) -> tuple[str, int]:
-    """Classify event freshness. Returns (status, days_old)."""
+def classify_freshness(published_at: datetime, lane: str | None = None) -> tuple[str, int]:
+    """Classify event freshness. Returns (status, days_old).
+
+    CYBER keeps a 90-day window (HOT/CURRENT 0-30, research 31-90).
+    Other lanes keep 0-7 CURRENT, 8-14 NEEDS_RESEARCH, >14 REJECT.
+    """
     if not published_at:
         return FreshnessGate.REJECT, 999
     days_old = (datetime.now(UTC) - published_at).days
+    if lane == "CYBER":
+        if days_old <= 30:
+            return FreshnessGate.CURRENT, days_old
+        if days_old <= 90:
+            return FreshnessGate.NEEDS_RESEARCH, days_old
+        return FreshnessGate.REJECT, days_old
     if days_old <= 7:
         return FreshnessGate.CURRENT, days_old
     elif days_old <= 14:
@@ -149,11 +159,12 @@ def check_false_positive(event: RawEvent) -> tuple[bool, str | None]:
 
 
 class BuyingEventDetector:
-    """Routes to lane-specific detectors for COMAI and INOWIX.
+    """Routes to lane-specific detectors for COMAI, INOWIX, and CYBER.
     
-    Two-Lane Architecture:
+    Three-Lane Architecture:
     - Lane A: COMAI (WhatsApp + AI Customer Support for Ecommerce)
     - Lane B: INOWIX (SaaS + Custom Software + AI + Mobile/Web Development)
+    - Lane C: CYBER (high-intent cybersecurity buyers)
     """
 
     def __init__(self, session: AsyncSession, lane: str = None):
@@ -163,11 +174,14 @@ class BuyingEventDetector:
         # Import lane-specific detectors
         from app.services.lane_a_comai_detector import LaneA_COMAI_Detector
         from app.services.lane_b_inowix_detector import LaneB_INOWIX_Detector
+        from app.services.lane_c_cyber_detector import LaneC_CYBER_Detector
         
         if lane == "COMAI":
             self.detector = LaneA_COMAI_Detector(session)
         elif lane == "INOWIX":
             self.detector = LaneB_INOWIX_Detector(session)
+        elif lane == "CYBER":
+            self.detector = LaneC_CYBER_Detector(session)
         else:
             self.detector = None
 
@@ -182,12 +196,16 @@ class BuyingEventDetector:
         if department == "COMAI":
             from app.services.lane_a_comai_detector import LaneA_COMAI_Detector
             detector = LaneA_COMAI_Detector(self.session)
+        elif department == "CYBER":
+            from app.services.lane_c_cyber_detector import LaneC_CYBER_Detector
+            detector = LaneC_CYBER_Detector(self.session)
         else:
             from app.services.lane_b_inowix_detector import LaneB_INOWIX_Detector
             detector = LaneB_INOWIX_Detector(self.session)
 
-        # Only process RECEIVED events from last 14 days (hard cutoff)
-        cutoff_date = datetime.now(UTC) - timedelta(days=14)
+        # CYBER: 90-day cutoff. Other lanes: 14-day hard cutoff.
+        lookback_days = 90 if department == "CYBER" else 14
+        cutoff_date = datetime.now(UTC) - timedelta(days=lookback_days)
         result = await self.session.execute(
             select(RawEvent).where(
                 RawEvent.status == "RECEIVED",
@@ -200,7 +218,7 @@ class BuyingEventDetector:
 
         for event in raw_events:
             # STEP 1: Freshness gate
-            freshness, days_old = classify_freshness(event.published_at)
+            freshness, days_old = classify_freshness(event.published_at, lane=department)
 
             # STEP 2: Platform-only filter
             if self._is_platform_only_event(event):

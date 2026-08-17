@@ -22,6 +22,34 @@ competitors:
   - apollo
   - zoominfo
   - linkedin
+  - rapid7
+  - tenable
+  - qualys
+  - crowdstrike
+  - palo alto
+  - sentinelone
+  - hackerone
+  - bugcrowd
+  - intigriti
+  - cobalt
+  - synack
+  - bishop fox
+  - ncc group
+  - mandiant
+  - offensive security
+  - portswigger
+  - detectify
+  - pentest-tools
+  - trustedsec
+  - secureworks
+  - zscaler
+  - checkmarx
+  - veracode
+  - netspi
+  - trail of bits
+  - cure53
+  - praetorian
+  - nowsecure
 
 partners:
   - deloitte

@@ -174,6 +174,109 @@ async def _detect_inowix_events_async():
         }
 
 
+@shared_task(name="buying_events.detect_cyber_events")
+def detect_cyber_events():
+    """Detect CYBER buying events with lane-specific logic."""
+    import asyncio
+    asyncio.run(_detect_cyber_events_async())
+
+
+async def _detect_cyber_events_async():
+    """Async implementation of CYBER detection. Does not send outreach."""
+    async with AsyncSessionLocal() as session:
+        from app.services.buying_events import BuyingEventDetector
+        
+        detector = BuyingEventDetector(session, lane="CYBER")
+        events = await detector.detect_buying_events("CYBER", batch_size=500)
+        
+        saved = 0
+        for ev in events:
+            buying_event = BuyingEvent(
+                raw_event_id=ev["raw_event_id"],
+                department=BuyingEventDepartment.CYBER,
+                event_type=ev["event_type"],
+                confidence=ev["confidence"],
+                evidence=ev["evidence"],
+                company_name=ev["company_name"],
+                company_domain=ev.get("company_domain"),
+                contact_info=ev.get("contact_info", {}),
+                disqualifiers=ev.get("disqualifiers", []),
+                status=BuyingEventStatus.VERIFIED,
+                verified_at=ev.get("verified_at"),
+                problem=ev.get("problem"),
+                why_now=ev.get("why_now"),
+                solution_match=ev.get("solution_match"),
+                classification=BuyingEventClassification(ev["classification"]),
+                business_type=ev.get("business_type"),
+                outreach_reason=ev.get("outreach_reason"),
+                freshness=ev.get("freshness"),
+                days_old=ev.get("days_old", 999),
+                contact_type=ev.get("contact_type"),
+                is_high_contactability=ev.get("is_high_contactability", False),
+                pain_signals=ev.get("pain_signals", []),
+                buying_signals=ev.get("buying_signals", []),
+                partner_signals=ev.get("partner_signals", []),
+                icp_match_score=ev.get("icp_match_score", 0.0),
+                outreach_preparation=ev.get("outreach_preparation"),
+                cto_test_result=ev.get("cto_test_result", False),
+            )
+            session.add(buying_event)
+            saved += 1
+            
+            raw_event = await session.get(RawEvent, ev["raw_event_id"])
+            if raw_event:
+                raw_event.status = RawEventStatus.PROCESSED
+        
+        await session.commit()
+        
+        classifications = {}
+        for ev in events:
+            cls = ev["classification"]
+            classifications[cls] = classifications.get(cls, 0) + 1
+        
+        logger.info(f"CYBER: Saved {saved} verified buying events")
+        return {
+            "lane": "CYBER",
+            "detected": len(events),
+            "saved": saved,
+            "classifications": classifications,
+        }
+
+
+@shared_task(name="buying_events.run_cyber_discovery_daily")
+def run_cyber_discovery_daily():
+    """Daily Lane C buyer search. Writes exports + workspace queue. Never sends outreach."""
+    import asyncio
+    asyncio.run(_run_cyber_discovery_daily_async())
+
+
+async def _run_cyber_discovery_daily_async():
+    from pathlib import Path
+
+    from packages.cybersecurity_discovery.exporters import write_exports
+    from packages.cybersecurity_discovery.pipeline import run_cybersecurity_discovery
+    from packages.cybersecurity_discovery.workspace_sync import sync_to_workspace
+
+    result = await run_cybersecurity_discovery(limit=150, enrich=True)
+    root = Path(__file__).resolve().parents[3]
+    written = write_exports(result, root / "exports" / "cybersecurity_discovery")
+    synced = sync_to_workspace(result)
+    logger.info(
+        "Daily cyber discovery: discovered=%s sales_ready=%s needs_research=%s workspace=%s",
+        result.counters.get("TOTAL_DISCOVERED", 0),
+        result.counters.get("SALES_READY", 0),
+        result.counters.get("NEEDS_RESEARCH", 0),
+        synced,
+    )
+    return {
+        "lane": "CYBER",
+        "counters": result.counters,
+        "written": list(written),
+        "workspace": synced,
+        "outreach_sent": False,
+    }
+
+
 @shared_task(name="buying_events.generate_outreach_queue")
 def generate_outreach_queue():
     """Generate final outreach queue from SALES_READY opportunities."""
@@ -200,6 +303,7 @@ async def _generate_outreach_queue_async():
         # Separate by lane
         comai_opportunities = [o for o in opportunities if o.department == BuyingEventDepartment.COMAI]
         inowix_opportunities = [o for o in opportunities if o.department == BuyingEventDepartment.INOWIX]
+        cyber_opportunities = [o for o in opportunities if o.department == BuyingEventDepartment.CYBER]
         
         # Build outreach queue
         outreach_queue = {
@@ -214,10 +318,16 @@ async def _generate_outreach_queue_async():
                 "partner_opportunities": [],
                 "verified_pain": [],
             },
+            "cyber": {
+                "direct_customers": [],
+                "partner_opportunities": [],
+                "verified_pain": [],
+            },
             "summary": {
                 "total_sales_ready": len(opportunities),
                 "comai_sales_ready": len(comai_opportunities),
                 "inowix_sales_ready": len(inowix_opportunities),
+                "cyber_sales_ready": len(cyber_opportunities),
             },
         }
         
@@ -260,6 +370,26 @@ async def _generate_outreach_queue_async():
                 outreach_queue["inowix"]["direct_customers"].append(entry)
             elif opp.classification == BuyingEventClassification.VERIFIED_PAIN:
                 outreach_queue["inowix"]["verified_pain"].append(entry)
+
+        for opp in cyber_opportunities:
+            if opp.classification == BuyingEventClassification.PARTNER_OPPORTUNITY:
+                continue
+            entry = {
+                "id": str(opp.id),
+                "company": opp.company_name,
+                "domain": opp.company_domain,
+                "classification": opp.classification.value,
+                "problem": opp.problem,
+                "why_now": opp.why_now,
+                "solution": opp.solution_match,
+                "contact": opp.contact_info,
+                "outreach_preparation": opp.outreach_preparation,
+                "cto_test": opp.cto_test_result,
+            }
+            if opp.classification == BuyingEventClassification.ACTIVE_BUYING_EVENT:
+                outreach_queue["cyber"]["direct_customers"].append(entry)
+            elif opp.classification == BuyingEventClassification.VERIFIED_PAIN:
+                outreach_queue["cyber"]["verified_pain"].append(entry)
         
         logger.info(f"Outreach queue generated: {len(opportunities)} SALES_READY opportunities")
         return outreach_queue

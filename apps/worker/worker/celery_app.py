@@ -1,4 +1,5 @@
 from celery import Celery
+from celery.schedules import crontab
 
 from app.core.config import get_settings
 
@@ -476,6 +477,14 @@ celery_app.conf.update(
         "detect-inowix-events": {
             "task": "buying_events.detect_inowix_events",
             "schedule": 900,  # Every 15 minutes
+        },
+        "detect-cyber-events": {
+            "task": "buying_events.detect_cyber_events",
+            "schedule": 900,  # Every 15 minutes — opportunistic RawEvent scan
+        },
+        "run-cyber-discovery-daily": {
+            "task": "buying_events.run_cyber_discovery_daily",
+            "schedule": crontab(hour=3, minute=30),  # 09:00 IST
         },
         "generate-outreach-queue": {
             "task": "buying_events.generate_outreach_queue",

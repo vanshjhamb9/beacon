@@ -1063,7 +1063,7 @@ export const beaconApi = {
     apiPost<{ status: string; result: Record<string, unknown> }>("/leads/seed", {}),
 
   leadStats: () =>
-    apiGet<{ total: number; comai: number; inowix: number; by_stage: Record<string, number> }>("/leads/stats"),
+    apiGet<{ total: number; comai: number; inowix: number; cyber: number; by_stage: Record<string, number> }>("/leads/stats"),
 
   companyUniverse: (limit = 100) =>
     apiGet<{
@@ -1474,14 +1474,16 @@ export const beaconApi = {
 
   /** Unified Sales Workspace — Lead Engine backed Home/Leads/Pipeline/Outreach/Analytics */
   workspaceOverview: () => apiGet<Record<string, unknown>>("/workspace/overview"),
-  workspaceLeads: (params?: { limit?: number; search?: string }) => {
+  workspaceLeads: (params?: { limit?: number; search?: string; status?: string }) => {
     const q = new URLSearchParams();
-    q.set("limit", String(params?.limit ?? 200));
+    q.set("limit", String(params?.limit ?? 300));
     if (params?.search) q.set("search", params.search);
+    if (params?.status && params.status !== "all") q.set("status", params.status);
     return apiGet<{
       items: Array<Record<string, unknown>>;
       total: number;
       stage_counts: Record<string, number>;
+      filter_counts?: Record<string, number>;
       source?: string;
     }>(`/workspace/leads?${q.toString()}`);
   },
@@ -2309,3 +2311,112 @@ export type LeadEngineLead = {
   enriched?: boolean;
   already_contacted?: boolean;
 };
+
+// ── Partner Leads API ──────────────────────────────────────
+
+export type PartnerLeadRecord = {
+  id: string;
+  agency_name: string;
+  agency_url: string | null;
+  country: string | null;
+  city: string | null;
+  agency_type: string | null;
+  employees: string | null;
+  founded: number | null;
+  clients: string | null;
+  client_count: number | null;
+  revenue_generated: string | null;
+  revenue_managed: string | null;
+  notable_clients: string[];
+  decision_maker: string | null;
+  decision_maker_role: string | null;
+  email: string | null;
+  phone: string | null;
+  linkedin: string | null;
+  contactability: string | null;
+  services: string[];
+  certifications: string[];
+  tier: string | null;
+  client_access_score: number | null;
+  comai_fit_score: number | null;
+  final_score: number | null;
+  why_this_agency: string | null;
+  comai_fit: string | null;
+  pitch_angle: string | null;
+  status: string;
+  outreach_sent: boolean;
+  response_received: boolean;
+  meeting_scheduled: boolean;
+  partner_converted: boolean;
+  source: string | null;
+  created_at: string;
+  updated_at: string;
+};
+
+export type PartnerLeadsStats = {
+  total: number;
+  tier_a: number;
+  tier_b: number;
+  tier_c: number;
+  contacted: number;
+  responded: number;
+  meetings: number;
+  converted: number;
+  high_contactability: number;
+  by_country: Record<string, number>;
+  by_type: Record<string, number>;
+  avg_final_score: number;
+  avg_client_access_score: number;
+  avg_comai_fit_score: number;
+};
+
+export async function getPartnerLeads(params?: {
+  tier?: string;
+  status?: string;
+  country?: string;
+  agency_type?: string;
+  contactability?: string;
+  search?: string;
+  limit?: number;
+  offset?: number;
+}) {
+  const query = new URLSearchParams();
+  if (params?.tier) query.set("tier", params.tier);
+  if (params?.status) query.set("status", params.status);
+  if (params?.country) query.set("country", params.country);
+  if (params?.agency_type) query.set("agency_type", params.agency_type);
+  if (params?.contactability) query.set("contactability", params.contactability);
+  if (params?.search) query.set("search", params.search);
+  if (params?.limit) query.set("limit", String(params.limit));
+  if (params?.offset) query.set("offset", String(params.offset));
+  return apiGet<{ total: number; items: PartnerLeadRecord[] }>(
+    `/partner-leads?${query}`
+  );
+}
+
+export async function getPartnerLeadsStats() {
+  return apiGet<PartnerLeadsStats>("/partner-leads/stats");
+}
+
+export async function getPartnerLead(id: string) {
+  return apiGet<PartnerLeadRecord>(`/partner-leads/${id}`);
+}
+
+export async function updatePartnerLead(
+  id: string,
+  data: Partial<{
+    status: string;
+    tier: string;
+    outreach_sent: boolean;
+    response_received: boolean;
+    meeting_scheduled: boolean;
+    partner_converted: boolean;
+    notes: string;
+  }>
+) {
+  return apiPut<PartnerLeadRecord>(`/partner-leads/${id}`, data);
+}
+
+export async function exportPartnerLeads() {
+  return apiGet<PartnerLeadRecord[]>("/partner-leads/export/all");
+}

@@ -29,6 +29,56 @@ class IntentPattern:
 # These are explicit statements of need. Highest priority.
 
 ACTIVE_REQUIREMENT_PATTERNS: list[IntentPattern] = [
+    # --- CYBERSECURITY ---
+    IntentPattern(
+        keywords=["need penetration testing", "need pentest", "looking for pentest",
+                   "need vapt", "looking for vapt", "need a pentest",
+                   "penetration testing company", "looking for cybersecurity company"],
+        business_unit="CYBERSECURITY",
+        services=["cyber_pentest", "cyber_web_vapt", "cyber_va"],
+        intent_level="ACTIVE_REQUIREMENT",
+        base_score=99,
+        description="Explicit pentest / VAPT / cybersecurity vendor request",
+    ),
+    IntentPattern(
+        keywords=["need security audit", "need security assessment", "need vulnerability assessment",
+                   "customer requires penetration test", "need soc 2 security testing",
+                   "need iso 27001 security", "need pci dss testing"],
+        business_unit="CYBERSECURITY",
+        services=["cyber_compliance", "cyber_audit", "cyber_va"],
+        intent_level="ACTIVE_REQUIREMENT",
+        base_score=97,
+        description="Compliance or customer-required security testing",
+    ),
+    IntentPattern(
+        keywords=["need help fixing a vulnerability", "platform was compromised",
+                   "security incident", "need someone to investigate a security issue",
+                   "need external security team"],
+        business_unit="CYBERSECURITY",
+        services=["cyber_remediation", "cyber_pentest"],
+        intent_level="ACTIVE_REQUIREMENT",
+        base_score=96,
+        description="Incident, vulnerability, or external team request",
+    ),
+    IntentPattern(
+        keywords=["need pentest before production", "need security review before launch",
+                   "need pre-launch security", "enterprise customer requires security audit"],
+        business_unit="CYBERSECURITY",
+        services=["cyber_prelaunch", "cyber_pentest"],
+        intent_level="ACTIVE_REQUIREMENT",
+        base_score=95,
+        description="Pre-launch / enterprise security validation",
+    ),
+    IntentPattern(
+        keywords=["need cybersecurity partner", "looking for vapt partner",
+                   "need pentesting partner", "need white-label cybersecurity"],
+        business_unit="CYBERSECURITY",
+        services=["cyber_pentest", "cyber_web_vapt"],
+        intent_level="ACTIVE_REQUIREMENT",
+        base_score=90,
+        description="Security partner / white-label request (not a direct client)",
+    ),
+
     # --- HIRING SIGNALS (highest priority — explicit need) ---
     IntentPattern(
         keywords=["hiring chatbot developer", "hiring ai chatbot", "hiring whatsapp developer",

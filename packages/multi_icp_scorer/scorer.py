@@ -224,6 +224,50 @@ CUSTOM_SOFTWARE_RULES: list[ICPRule] = [
     ),
 ]
 
+# ============================================================
+# CYBERSECURITY RULES
+# ============================================================
+
+CYBER_RULES: list[ICPRule] = [
+    ICPRule(
+        dimension="explicit_security_request",
+        evidence_keywords=["pentest", "penetration test", "vapt", "security audit",
+                           "vulnerability assessment", "cybersecurity company"],
+        score_contribution=30,
+        evidence_confidence=EvidenceConfidence.HIGH,
+        description="Explicit cybersecurity buying language",
+    ),
+    ICPRule(
+        dimension="compliance_trigger",
+        evidence_keywords=["soc 2", "iso 27001", "pci dss", "hipaa", "gdpr security"],
+        score_contribution=20,
+        evidence_confidence=EvidenceConfidence.HIGH,
+        description="Compliance-driven security testing",
+    ),
+    ICPRule(
+        dimension="software_surface",
+        evidence_keywords=["saas", "web app", "api", "mobile app", "platform", "cloud"],
+        score_contribution=15,
+        evidence_confidence=EvidenceConfidence.MEDIUM,
+        description="Software attack surface",
+    ),
+    ICPRule(
+        dimension="external_help",
+        evidence_keywords=["looking for", "need a", "external", "consultant", "vendor", "agency"],
+        score_contribution=20,
+        evidence_confidence=EvidenceConfidence.HIGH,
+        description="Seeking external help",
+    ),
+    ICPRule(
+        dimension="prelaunch_or_incident",
+        evidence_keywords=["before launch", "going live", "compromised", "security incident",
+                           "security vulnerability"],
+        score_contribution=15,
+        evidence_confidence=EvidenceConfidence.HIGH,
+        description="Pre-launch or incident trigger",
+    ),
+]
+
 
 def evaluate_icp(
     text: str,
@@ -286,6 +330,7 @@ def score_all_icps(
         BusinessUnit.COMAI: evaluate_icp(text, COMAI_RULES),
         BusinessUnit.SAAS_DEVELOPMENT: evaluate_icp(text, SAAS_DEVELOPMENT_RULES),
         BusinessUnit.CUSTOM_SOFTWARE: evaluate_icp(text, CUSTOM_SOFTWARE_RULES),
+        BusinessUnit.CYBERSECURITY: evaluate_icp(text, CYBER_RULES),
     }
 
 

@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 import sys
 import time
 import uuid
@@ -28,9 +29,12 @@ if str(ROOT) not in sys.path:
 EXPORT_ROOT = ROOT / "exports" / "lead_engine_runs"
 STAGES_PATH = EXPORT_ROOT / "_workspace_stages.json"
 OUTREACH_PATH = EXPORT_ROOT / "_workspace_outreach.json"
+CYBER_WORKSPACE_PATH = EXPORT_ROOT / "_cyber_workspace.json"
 ACTIVITY_PATH = EXPORT_ROOT / "_workspace_activity.json"
 
 VALID_STAGES = ("new", "contacted", "replied", "meeting", "won", "lost")
+CONTACTED_STAGES = ("contacted", "replied", "meeting", "won")
+_NAME_NOISE_RE = re.compile(r"\s+(?:soft\s+)?mid$", re.IGNORECASE)
 
 
 def _engine():
@@ -105,11 +109,22 @@ def _lead_id(email: str) -> str:
 
 
 def _product_label(lead: dict[str, Any]) -> str:
-    lane = str(lead.get("lane") or lead.get("company_type") or "").lower()
+    lane = str(lead.get("lane") or lead.get("company_type") or lead.get("department") or "").lower()
     src = str(lead.get("source") or "").lower()
+    if "cyber" in lane or "cyber" in src or "vapt" in lane or "pentest" in src:
+        return "Cyber"
     if "inowix" in lane or "saas" in lane or "inowix" in src:
         return "Inowix"
     return "COMAI"
+
+
+def _clean_company_name(name: str) -> str:
+    cleaned = _NAME_NOISE_RE.sub("", (name or "").strip()).strip()
+    return cleaned or (name or "Unknown")
+
+
+def _has_contact_data(email: str, phone: str, website: str, why: str, score: float) -> bool:
+    return bool(email) and bool(website or phone) and (bool(why) or score >= 58)
 
 
 def _website_url(raw: dict[str, Any]) -> str:
@@ -124,7 +139,7 @@ def _website_url(raw: dict[str, Any]) -> str:
 
 def _normalize_lead(raw: dict[str, Any], stages: dict[str, str], sent: set[str]) -> dict[str, Any]:
     email = (raw.get("email") or raw.get("to_email") or "").lower().strip()
-    company = str(raw.get("company") or raw.get("company_name") or "Unknown")
+    company = _clean_company_name(str(raw.get("company") or raw.get("company_name") or "Unknown"))
     score = float(raw.get("intent_score") or raw.get("score") or 0)
     stage = stages.get(email) or "new"
     if email in sent and stage == "new":
@@ -178,10 +193,10 @@ def _normalize_lead(raw: dict[str, Any], stages: dict[str, str], sent: set[str])
         "email": email,
         "phone": phone,
         "website": website,
-        "source_url": website,
+        "source_url": raw.get("source_url") or website,
         "domain": raw.get("domain") or "",
         "city": raw.get("city") or "",
-        "country": raw.get("country") or "India",
+        "country": raw.get("country") or ("India" if product != "Cyber" else ""),
         "industry": raw.get("category") or raw.get("industry") or "",
         "category": raw.get("category") or raw.get("industry") or "",
         "stage": stage,
@@ -207,6 +222,10 @@ def _normalize_lead(raw: dict[str, Any], stages: dict[str, str], sent: set[str])
         "subject": raw.get("subject") or "",
         "body": raw.get("body") or "",
         "outreach_status": outreach_status,
+        "contacted": stage in CONTACTED_STAGES,
+        "not_contacted": stage == "new",
+        "has_contact_data": _has_contact_data(email, phone, website, why, score),
+        "is_new": stage == "new",
         "tags": [product, grade or "QUALIFIED"],
         "platform": raw.get("platform") or "",
         "size": raw.get("size") or "",
@@ -233,25 +252,49 @@ def _collect_raw_leads() -> list[dict[str, Any]]:
 
     # Merge recent run CSVs / run.json leads for extra coverage
     if EXPORT_ROOT.exists():
+        import csv as _csv
+
         runs = sorted(
             [p for p in EXPORT_ROOT.iterdir() if p.is_dir()],
             key=lambda p: p.stat().st_mtime,
             reverse=True,
-        )[:8]
+        )[:12]
         for run_dir in runs:
             meta = run_dir / "run.json"
-            if not meta.exists():
+            if meta.exists():
+                try:
+                    data = json.loads(meta.read_text(encoding="utf-8"))
+                    for lead in data.get("leads") or []:
+                        if not isinstance(lead, dict):
+                            continue
+                        email = (lead.get("email") or "").lower().strip()
+                        if email and email not in by_email:
+                            by_email[email] = lead
+                except Exception:  # noqa: BLE001
+                    pass
+            csv_path = run_dir / "leads.csv"
+            if not csv_path.exists():
                 continue
             try:
-                data = json.loads(meta.read_text(encoding="utf-8"))
-                for lead in data.get("leads") or []:
-                    if not isinstance(lead, dict):
-                        continue
-                    email = (lead.get("email") or "").lower().strip()
-                    if email and email not in by_email:
-                        by_email[email] = lead
+                with csv_path.open(encoding="utf-8", newline="") as fh:
+                    for row in _csv.DictReader(fh):
+                        email = (row.get("email") or "").lower().strip()
+                        if email and email not in by_email:
+                            by_email[email] = dict(row)
             except Exception:  # noqa: BLE001
                 continue
+    if CYBER_WORKSPACE_PATH.exists():
+        try:
+            data = json.loads(CYBER_WORKSPACE_PATH.read_text(encoding="utf-8"))
+            for lead in data.get("leads") or []:
+                if not isinstance(lead, dict):
+                    continue
+                email = (lead.get("email") or "").lower().strip()
+                key = email or str(lead.get("source_url") or lead.get("id") or "")
+                if key and key not in by_email:
+                    by_email[key] = lead
+        except Exception:  # noqa: BLE001
+            pass
     return list(by_email.values())
 
 
@@ -378,24 +421,60 @@ async def sync_workspace(body: SyncBody | None = None) -> dict[str, Any]:
     }
 
 
-@router.get("/leads")
-async def workspace_leads(limit: int = 200, search: str | None = None) -> dict[str, Any]:
-    leads = _build_workspace_leads()
+def _filter_leads(
+    leads: list[dict[str, Any]],
+    *,
+    search: str | None = None,
+    status: str | None = None,
+) -> list[dict[str, Any]]:
+    out = leads
     if search:
         q = search.lower().strip()
-        leads = [
+        out = [
             x
-            for x in leads
+            for x in out
             if q in str(x.get("company_name") or "").lower()
             or q in str(x.get("email") or "").lower()
             or q in str(x.get("industry") or "").lower()
             or q in str(x.get("city") or "").lower()
+            or q in str(x.get("department") or "").lower()
         ]
+    status_key = (status or "all").lower().strip()
+    if status_key in ("new", "not_contacted", "not-contacted"):
+        out = [x for x in out if x.get("stage") == "new"]
+    elif status_key == "contacted":
+        out = [x for x in out if x.get("stage") in CONTACTED_STAGES]
+    elif status_key in ("with_data", "with-data", "data"):
+        out = [x for x in out if x.get("has_contact_data")]
+    elif status_key in ("incomplete", "no_data"):
+        out = [x for x in out if not x.get("has_contact_data")]
+    return out
+
+
+@router.get("/leads")
+async def workspace_leads(
+    limit: int = 300,
+    search: str | None = None,
+    status: str | None = None,
+) -> dict[str, Any]:
+    all_leads = _build_workspace_leads()
+    leads = _filter_leads(all_leads, search=search, status=status)
+    counts = _stage_counts(all_leads)
+    with_data = sum(1 for x in all_leads if x.get("has_contact_data"))
+    not_contacted = counts["new"]
+    contacted = counts["contacted"] + counts["replied"] + counts["meeting"] + counts["won"]
     leads = leads[: max(1, min(limit, 500))]
     return {
         "items": leads,
         "total": len(leads),
-        "stage_counts": _stage_counts(leads),
+        "stage_counts": counts,
+        "filter_counts": {
+            "all": len(all_leads),
+            "new": counts["new"],
+            "not_contacted": not_contacted,
+            "contacted": contacted,
+            "with_data": with_data,
+        },
         "source": "lead_engine_workspace",
     }
 
@@ -493,7 +572,13 @@ async def draft_workspace_lead(lead_id: str) -> dict[str, Any]:
     email = str(lead.get("email") or "").lower()
     if not email:
         raise HTTPException(status_code=400, detail="Lead has no email")
-    product = "inowix" if str(lead.get("department") or "").startswith("Inowix") else "comai"
+    dept = str(lead.get("department") or "")
+    if dept.startswith("Cyber") or "cyber" in dept.lower():
+        product = "cyber"
+    elif dept.startswith("Inowix"):
+        product = "inowix"
+    else:
+        product = "comai"
     try:
         from packages.outreach_generator.hyperpersonal import draft_for_product
     except Exception as exc:  # noqa: BLE001
@@ -652,7 +737,20 @@ async def workspace_overview() -> dict[str, Any]:
             "avg_deal_size": 15000 if counts["won"] else 12000,
             "win_rate": round(counts["won"] / total * 100, 1),
         },
-        "top_leads": leads[:10],
+        "top_leads": [x for x in leads if x.get("stage") == "new"][:20] or leads[:12],
+        "new_leads": [x for x in leads if x.get("stage") == "new"][:20],
+        "department_counts": {
+            "COMAI": sum(1 for x in leads if str(x.get("department") or "") == "COMAI"),
+            "Inowix": sum(1 for x in leads if str(x.get("department") or "") == "Inowix"),
+            "Cyber": sum(1 for x in leads if str(x.get("department") or "") == "Cyber"),
+        },
+        "filter_counts": {
+            "all": len(leads),
+            "new": counts["new"],
+            "not_contacted": counts["new"],
+            "contacted": contacted_plus,
+            "with_data": sum(1 for x in leads if x.get("has_contact_data")),
+        },
         "feed": activity[:20],
         "source": "lead_engine_workspace",
     }

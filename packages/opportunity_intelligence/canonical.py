@@ -34,6 +34,7 @@ class BusinessUnit(StrEnum):
     COMAI = "COMAI"
     SAAS_DEVELOPMENT = "SAAS_DEVELOPMENT"
     CUSTOM_SOFTWARE = "CUSTOM_SOFTWARE"
+    CYBERSECURITY = "CYBERSECURITY"
 
 
 class QualificationStatus(StrEnum):

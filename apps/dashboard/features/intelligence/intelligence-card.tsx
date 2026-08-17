@@ -15,9 +15,9 @@ export function IntelligenceCard() {
   });
 
   const stats = useQuery({
-    queryKey: ["lead-stats"],
-    queryFn: () => beaconApi.leadStats(),
-    refetchInterval: 30_000,
+    queryKey: ["workspace-overview"],
+    queryFn: () => beaconApi.workspaceOverview(),
+    refetchInterval: 20_000,
   });
 
   if (analysis.isLoading || stats.isLoading) {
@@ -25,7 +25,15 @@ export function IntelligenceCard() {
   }
 
   const data = analysis.data;
-  const statsData = stats.data;
+  const overview = (stats.data || {}) as Record<string, unknown>;
+  const dept = (overview.department_counts || {}) as Record<string, number>;
+  const stages = (overview.stage_counts || {}) as Record<string, number>;
+  const statsData = {
+    comai: Number(dept.COMAI || 0),
+    inowix: Number(dept.Inowix || 0),
+    cyber: Number(dept.Cyber || 0),
+    new: Number(stages.new || 0),
+  };
   const recommendations = data?.recommendations || [];
 
   return (
@@ -38,7 +46,7 @@ export function IntelligenceCard() {
       </CardHeader>
       <CardContent className="space-y-4">
         {/* Department Stats */}
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-3 gap-3">
           <div className="rounded-lg border border-purple-500/20 bg-purple-500/5 p-3">
             <div className="text-xs text-purple-400">COMAI</div>
             <div className="text-2xl font-bold">{statsData?.comai || 0}</div>
@@ -49,6 +57,11 @@ export function IntelligenceCard() {
             <div className="text-2xl font-bold">{statsData?.inowix || 0}</div>
             <div className="text-xs text-muted-foreground">leads</div>
           </div>
+          <div className="rounded-lg border border-emerald-500/20 bg-emerald-500/5 p-3">
+            <div className="text-xs text-emerald-400">Cyber</div>
+            <div className="text-2xl font-bold">{statsData?.cyber || 0}</div>
+            <div className="text-xs text-muted-foreground">leads</div>
+          </div>
         </div>
 
         {/* Conversion Rates */}
@@ -57,7 +70,8 @@ export function IntelligenceCard() {
             <span className="text-muted-foreground">Conversion Rate</span>
             <span className="font-medium">
               {((data.analysis.comai.conversion_rate || 0) * 100).toFixed(0)}% COMAI /{" "}
-              {((data.analysis.inowix?.conversion_rate || 0) * 100).toFixed(0)}% Inowix
+              {((data.analysis.inowix?.conversion_rate || 0) * 100).toFixed(0)}% Inowix /{" "}
+              {((data.analysis.cyber?.conversion_rate || 0) * 100).toFixed(0)}% Cyber
             </span>
           </div>
         )}

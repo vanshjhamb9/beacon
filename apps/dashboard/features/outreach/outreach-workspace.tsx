@@ -32,11 +32,13 @@ type Campaign = {
   sent_at?: string;
   intent_score?: number;
   grade?: string;
+  department?: string;
 };
 
 export function OutreachWorkspace() {
   const queryClient = useQueryClient();
   const [filter, setFilter] = useState<"all" | "pending" | "sent" | "replied">("all");
+  const [deptFilter, setDeptFilter] = useState<"all" | "comai" | "inowix" | "cyber">("all");
 
   const { data, isLoading } = useQuery({
     queryKey: ["workspace-outreach"],
@@ -79,11 +81,18 @@ export function OutreachWorkspace() {
   ];
 
   const filteredCampaigns = campaigns.filter((c) => {
-    if (filter === "all") return true;
-    if (filter === "pending") return c.status === "pending" || c.status === "draft";
-    if (filter === "sent") return c.status === "sent" || c.status === "delivered";
-    if (filter === "replied") return c.status === "replied";
-    return true;
+    if (filter === "pending") {
+      if (c.status !== "pending" && c.status !== "draft") return false;
+    } else if (filter === "sent") {
+      if (c.status !== "sent" && c.status !== "delivered") return false;
+    } else if (filter === "replied") {
+      if (c.status !== "replied") return false;
+    }
+    if (deptFilter === "all") return true;
+    const dept = String(c.department || "").toLowerCase();
+    if (deptFilter === "cyber") return dept.includes("cyber");
+    if (deptFilter === "inowix") return dept.startsWith("inowix");
+    return dept.startsWith("comai");
   });
 
   if (isLoading) return <Skeleton className="h-96 w-full" />;
@@ -94,7 +103,7 @@ export function OutreachWorkspace() {
         <div>
           <h1 className="font-display text-2xl font-semibold">Outreach</h1>
           <p className="text-sm text-muted-foreground">
-            Lead Engine outreach queue — approve drafts or mark sent
+            Lead Engine + Cyber queue — approve drafts here. Sending is still a separate confirm.
           </p>
         </div>
         <Button variant="outline" onClick={() => syncMutation.mutate()} disabled={syncMutation.isPending}>
@@ -130,6 +139,11 @@ export function OutreachWorkspace() {
         {(["all", "pending", "sent", "replied"] as const).map((f) => (
           <Button key={f} variant={filter === f ? "default" : "outline"} size="sm" onClick={() => setFilter(f)}>
             {f.charAt(0).toUpperCase() + f.slice(1)}
+          </Button>
+        ))}
+        {(["all", "comai", "inowix", "cyber"] as const).map((d) => (
+          <Button key={d} variant={deptFilter === d ? "default" : "outline"} size="sm" onClick={() => setDeptFilter(d)}>
+            {d === "all" ? "All lanes" : d.toUpperCase()}
           </Button>
         ))}
       </div>

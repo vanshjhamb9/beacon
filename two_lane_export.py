@@ -27,6 +27,7 @@ async def run_two_lane_export():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     os.makedirs(f"{OUTPUT_DIR}/COMAI", exist_ok=True)
     os.makedirs(f"{OUTPUT_DIR}/INOWIX", exist_ok=True)
+    os.makedirs(f"{OUTPUT_DIR}/CYBER", exist_ok=True)
     os.makedirs(f"{OUTPUT_DIR}/OUTREACH_QUEUE", exist_ok=True)
 
     async with AsyncSessionLocal() as session:
@@ -68,7 +69,7 @@ async def run_two_lane_export():
         print(f"Processing {len(events)} buying events...\n")
 
         # Initialize pipelines
-        comai_pipeline = {
+            comai_pipeline = {
             "direct_customers": [],
             "partner_opportunities": [],
             "verified_pain": [],
@@ -84,9 +85,18 @@ async def run_two_lane_export():
             "rejected": [],
         }
 
+        cyber_pipeline = {
+            "direct_customers": [],
+            "partner_opportunities": [],
+            "verified_pain": [],
+            "nurture": [],
+            "rejected": [],
+        }
+
         outreach_queue = {
             "comai": [],
             "inowix": [],
+            "cyber": [],
         }
 
         for row in events:
@@ -137,9 +147,26 @@ async def run_two_lane_export():
                 else:
                     comai_pipeline["rejected"].append(opportunity)
 
-                # Add to outreach queue if SALES_READY
                 if classification in ["ACTIVE_BUYING_EVENT", "VERIFIED_PAIN"] and cto_test:
                     outreach_queue["comai"].append(opportunity)
+
+            elif department == "CYBER":
+                if classification == "ACTIVE_BUYING_EVENT":
+                    cyber_pipeline["direct_customers"].append(opportunity)
+                elif classification == "PARTNER_OPPORTUNITY":
+                    cyber_pipeline["partner_opportunities"].append(opportunity)
+                elif classification == "VERIFIED_PAIN":
+                    cyber_pipeline["verified_pain"].append(opportunity)
+                elif classification in ["ICP_OPPORTUNITY", "NURTURE"]:
+                    cyber_pipeline["nurture"].append(opportunity)
+                else:
+                    cyber_pipeline["rejected"].append(opportunity)
+                if (
+                    classification in ["ACTIVE_BUYING_EVENT", "VERIFIED_PAIN"]
+                    and cto_test
+                    and classification != "PARTNER_OPPORTUNITY"
+                ):
+                    outreach_queue["cyber"].append(opportunity)
 
             else:  # INOWIX
                 if classification == "ACTIVE_BUYING_EVENT":
@@ -153,7 +180,6 @@ async def run_two_lane_export():
                 else:
                     inowix_pipeline["rejected"].append(opportunity)
 
-                # Add to outreach queue if SALES_READY
                 if classification in ["ACTIVE_BUYING_EVENT", "VERIFIED_PAIN"] and cto_test:
                     outreach_queue["inowix"].append(opportunity)
 
@@ -171,13 +197,21 @@ async def run_two_lane_export():
         _write_json(f"{OUTPUT_DIR}/INOWIX/nurture.json", inowix_pipeline["nurture"])
         _write_json(f"{OUTPUT_DIR}/INOWIX/rejected.json", inowix_pipeline["rejected"])
 
+        # Write CYBER pipeline (partners stay in partner_opportunities only)
+        _write_json(f"{OUTPUT_DIR}/CYBER/direct_customers.json", cyber_pipeline["direct_customers"])
+        _write_json(f"{OUTPUT_DIR}/CYBER/partner_opportunities.json", cyber_pipeline["partner_opportunities"])
+        _write_json(f"{OUTPUT_DIR}/CYBER/verified_pain.json", cyber_pipeline["verified_pain"])
+        _write_json(f"{OUTPUT_DIR}/CYBER/nurture.json", cyber_pipeline["nurture"])
+        _write_json(f"{OUTPUT_DIR}/CYBER/rejected.json", cyber_pipeline["rejected"])
+
         # Write outreach queue
         _write_json(f"{OUTPUT_DIR}/OUTREACH_QUEUE/comai_sales_ready.json", outreach_queue["comai"])
         _write_json(f"{OUTPUT_DIR}/OUTREACH_QUEUE/inowix_sales_ready.json", outreach_queue["inowix"])
+        _write_json(f"{OUTPUT_DIR}/OUTREACH_QUEUE/cyber_sales_ready.json", outreach_queue["cyber"])
 
         # Generate final report
         report = _generate_report(
-            events, comai_pipeline, inowix_pipeline, outreach_queue
+            events, comai_pipeline, inowix_pipeline, outreach_queue, cyber_pipeline
         )
         with open(f"{OUTPUT_DIR}/final_report.txt", "w", encoding="utf-8") as f:
             f.write(report)
@@ -200,10 +234,18 @@ async def run_two_lane_export():
                 "nurture": len(inowix_pipeline["nurture"]),
                 "rejected": len(inowix_pipeline["rejected"]),
             },
+            "cyber": {
+                "direct_customers": len(cyber_pipeline["direct_customers"]),
+                "partner_opportunities": len(cyber_pipeline["partner_opportunities"]),
+                "verified_pain": len(cyber_pipeline["verified_pain"]),
+                "nurture": len(cyber_pipeline["nurture"]),
+                "rejected": len(cyber_pipeline["rejected"]),
+            },
             "outreach_queue": {
                 "comai": len(outreach_queue["comai"]),
                 "inowix": len(outreach_queue["inowix"]),
-                "total": len(outreach_queue["comai"]) + len(outreach_queue["inowix"]),
+                "cyber": len(outreach_queue["cyber"]),
+                "total": len(outreach_queue["comai"]) + len(outreach_queue["inowix"]) + len(outreach_queue["cyber"]),
             },
         }
 
@@ -215,11 +257,18 @@ def _write_json(filepath: str, data: list):
     print(f"Written: {filepath} ({len(data)} records)")
 
 
-def _generate_report(events, comai_pipeline, inowix_pipeline, outreach_queue) -> str:
+def _generate_report(events, comai_pipeline, inowix_pipeline, outreach_queue, cyber_pipeline=None) -> str:
     """Generate final report."""
+    cyber_pipeline = cyber_pipeline or {
+        "direct_customers": [],
+        "partner_opportunities": [],
+        "verified_pain": [],
+        "nurture": [],
+        "rejected": [],
+    }
     report = []
     report.append("=" * 70)
-    report.append("  BEACON TWO-LANE ARCHITECTURE REPORT")
+    report.append("  BEACON THREE-LANE ARCHITECTURE REPORT")
     report.append("  Generated: " + datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S UTC"))
     report.append("=" * 70)
 
@@ -240,20 +289,30 @@ def _generate_report(events, comai_pipeline, inowix_pipeline, outreach_queue) ->
     report.append(f"  Nurture:                    {len(inowix_pipeline['nurture'])}")
     report.append(f"  Rejected:                   {len(inowix_pipeline['rejected'])}")
 
+    report.append("\n--- CYBER PIPELINE ---")
+    report.append(f"  Direct Customers:           {len(cyber_pipeline['direct_customers'])}")
+    report.append(f"  Partner Opportunities:      {len(cyber_pipeline['partner_opportunities'])}")
+    report.append(f"  Verified Pain:              {len(cyber_pipeline['verified_pain'])}")
+    report.append(f"  Nurture:                    {len(cyber_pipeline['nurture'])}")
+    report.append(f"  Rejected:                   {len(cyber_pipeline['rejected'])}")
+
     report.append("\n--- FINAL OUTREACH QUEUE ---")
     report.append(f"  COMAI SALES_READY:          {len(outreach_queue['comai'])}")
     report.append(f"  INOWIX SALES_READY:         {len(outreach_queue['inowix'])}")
-    report.append(f"  TOTAL SALES_READY:          {len(outreach_queue['comai']) + len(outreach_queue['inowix'])}")
+    report.append(f"  CYBER SALES_READY:          {len(outreach_queue.get('cyber', []))}")
+    report.append(
+        f"  TOTAL SALES_READY:          {len(outreach_queue['comai']) + len(outreach_queue['inowix']) + len(outreach_queue.get('cyber', []))}"
+    )
 
     report.append("\n--- TOP OPPORTUNITIES ---")
-    for opp in (outreach_queue["comai"] + outreach_queue["inowix"])[:5]:
+    for opp in (outreach_queue["comai"] + outreach_queue["inowix"] + outreach_queue.get("cyber", []))[:5]:
         report.append(f"\n  {opp['company']} ({opp['classification']})")
         report.append(f"    Problem:  {opp['problem']}")
         report.append(f"    Contact:  {opp['contact']}")
         report.append(f"    CTO Test: {opp['cto_test']}")
 
     report.append("\n--- QUALITY GATES ---")
-    report.append(f"  Two-lane architecture:      PASS")
+    report.append(f"  Three-lane architecture:    PASS")
     report.append(f"  6-level classification:     PASS")
     report.append(f"  ICP evaluation:             PASS")
     report.append(f"  Pain vs buying intent:      PASS")

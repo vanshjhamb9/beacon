@@ -199,6 +199,14 @@ class LeadDiscoveryService:
             )
         ).scalar() or 0
 
+        cyber_count = (
+            await self.session.execute(
+                select(func.count()).select_from(BuyingEvent).where(
+                    BuyingEvent.department == BuyingEventDepartment.CYBER
+                )
+            )
+        ).scalar() or 0
+
         stage_counts = {}
         rows = (
             await self.session.execute(
@@ -213,5 +221,6 @@ class LeadDiscoveryService:
             "total": total,
             "comai": comai_count,
             "inowix": inowix_count,
+            "cyber": cyber_count,
             "by_stage": stage_counts,
         }

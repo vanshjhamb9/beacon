@@ -63,6 +63,30 @@ export function HomeWorkspace() {
     },
   });
 
+  const cyberDiscoveryMutation = useMutation({
+    mutationFn: async () => {
+      await beaconApi.workspaceSync();
+      return beaconApi.leadEngineStart({
+        product: "cyber",
+        limit: 80,
+        icp: {
+          specialties: ["pentest", "vapt", "soc2", "appsec"],
+          industries: ["saas", "fintech", "healthtech", "software"],
+          countries: ["United States", "United Kingdom", "Canada", "Australia", "Germany", "India"],
+          company_types: ["saas_product"],
+          employee_count_min: 2,
+          employee_count_max: 500,
+          technology_stack: ["aws", "api", "saas"],
+        },
+      });
+    },
+    onSuccess: () => {
+      void queryClient.invalidateQueries({ queryKey: ["workspace-overview"] });
+      void queryClient.invalidateQueries({ queryKey: ["workspace-leads"] });
+      void queryClient.invalidateQueries({ queryKey: ["lead-engine-runs"] });
+    },
+  });
+
   const isLoading = overview.isLoading;
   const data = (overview.data || {}) as Record<string, unknown>;
   const kpisRaw = (data.kpis || {}) as Record<string, number>;
@@ -74,20 +98,35 @@ export function HomeWorkspace() {
   const total = Number(kpisRaw.total_leads || topLeads.length || 0);
   const newCount = Number(kpisRaw.new_today || stageCounts.new || 0);
 
+  const newLeads = ((data.new_leads as Array<Record<string, unknown>>) || topLeads).filter(
+    (lead) => String(lead.stage || "new") === "new",
+  );
+  const contactedCount = Number(kpisRaw.contacted || stageCounts.contacted || 0);
+  const withDataCount = Number(
+    (data.filter_counts as Record<string, number> | undefined)?.with_data || newLeads.length,
+  );
   const kpis = [
-    { label: "New Today", value: String(newCount), icon: Target, color: "text-blue-500" },
-    { label: "In Pipeline", value: String(total), icon: Users, color: "text-purple-500" },
+    { label: "New leads", value: String(newCount), icon: Target, color: "text-blue-500", href: "/leads?status=new" },
     {
-      label: "Contacted",
-      value: String(kpisRaw.contacted || stageCounts.contacted || 0),
-      icon: Mail,
-      color: "text-orange-500",
+      label: "Not contacted",
+      value: String(newCount),
+      icon: Users,
+      color: "text-purple-500",
+      href: "/leads?status=not_contacted",
     },
     {
-      label: "Replied",
-      value: String(kpisRaw.replied || stageCounts.replied || 0),
+      label: "Contacted",
+      value: String(contactedCount),
+      icon: Mail,
+      color: "text-orange-500",
+      href: "/leads?status=contacted",
+    },
+    {
+      label: "With data",
+      value: String(withDataCount),
       icon: FileText,
       color: "text-green-500",
+      href: "/leads?status=with_data",
     },
   ];
 
@@ -131,6 +170,23 @@ export function HomeWorkspace() {
               </>
             )}
           </Button>
+          <Button
+            variant="outline"
+            onClick={() => cyberDiscoveryMutation.mutate()}
+            disabled={cyberDiscoveryMutation.isPending}
+          >
+            {cyberDiscoveryMutation.isPending ? (
+              <>
+                <RefreshCw className="mr-2 h-4 w-4 animate-spin" />
+                Searching cyber buyers...
+              </>
+            ) : (
+              <>
+                <Zap className="mr-2 h-4 w-4" />
+                Find Cyber Buyers
+              </>
+            )}
+          </Button>
           <Button variant="outline" onClick={() => syncMutation.mutate()} disabled={syncMutation.isPending}>
             {syncMutation.isPending ? "Syncing..." : "Sync Workspace"}
           </Button>
@@ -157,17 +213,19 @@ export function HomeWorkspace() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.05 * idx, duration: 0.3 }}
           >
-            <Card className="border-border/60 bg-card/60">
-              <CardContent className="p-4">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="text-[11px] uppercase tracking-[0.12em] text-muted-foreground">{kpi.label}</p>
-                    <p className="mt-1 font-display text-3xl font-semibold">{kpi.value}</p>
+            <Link href={kpi.href}>
+              <Card className="border-border/60 bg-card/60 transition-colors hover:border-primary/40">
+                <CardContent className="p-4">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <p className="text-[11px] uppercase tracking-[0.12em] text-muted-foreground">{kpi.label}</p>
+                      <p className="mt-1 font-display text-3xl font-semibold">{kpi.value}</p>
+                    </div>
+                    <kpi.icon className={cn("h-8 w-8 opacity-50", kpi.color)} />
                   </div>
-                  <kpi.icon className={cn("h-8 w-8 opacity-50", kpi.color)} />
-                </div>
-              </CardContent>
-            </Card>
+                </CardContent>
+              </Card>
+            </Link>
           </motion.div>
         ))}
       </section>
@@ -215,16 +273,16 @@ export function HomeWorkspace() {
       <div className="grid gap-6 lg:grid-cols-[1fr_350px]">
         <section>
           <div className="mb-3 flex items-center justify-between">
-            <h2 className="font-display text-lg font-semibold">Today&apos;s New Leads</h2>
+            <h2 className="font-display text-lg font-semibold">New leads to contact</h2>
             <Button variant="ghost" size="sm" asChild>
-              <Link href="/leads">
+              <Link href="/leads?status=new">
                 View All
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
           </div>
 
-          {topLeads.length === 0 ? (
+          {newLeads.length === 0 ? (
             <Card>
               <CardContent className="p-8 text-center">
                 <Target className="mx-auto h-12 w-12 text-muted-foreground/50" />
@@ -235,7 +293,7 @@ export function HomeWorkspace() {
             </Card>
           ) : (
             <div className="space-y-3">
-              {topLeads.map((lead, idx) => (
+              {newLeads.slice(0, 12).map((lead, idx) => (
                 <motion.div
                   key={String(lead.id || idx)}
                   initial={{ opacity: 0, x: -10 }}

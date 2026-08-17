@@ -58,6 +58,7 @@ class IntelligenceLoop:
         # Categorize by department
         comai_events = [e for e in all_events if e.department == BuyingEventDepartment.COMAI]
         inowix_events = [e for e in all_events if e.department == BuyingEventDepartment.INOWIX]
+        cyber_events = [e for e in all_events if e.department == BuyingEventDepartment.CYBER]
 
         # Calculate metrics
         def calc_metrics(events):
@@ -127,6 +128,8 @@ class IntelligenceLoop:
             "total_events": len(all_events),
             "comai": calc_metrics(comai_events),
             "inowix": calc_metrics(inowix_events),
+            "cyber": calc_metrics(cyber_events),
+            "cyber": calc_metrics(cyber_events),
             "top_sources": [
                 {"source": k, **v}
                 for k, v in top_sources
@@ -170,6 +173,15 @@ class IntelligenceLoop:
         # Department balance check
         comai = analysis.get("comai", {})
         inowix = analysis.get("inowix", {})
+        cyber = analysis.get("cyber", {})
+
+        if (cyber.get("total") or 0) == 0:
+            recommendations.append({
+                "type": "coverage",
+                "department": "CYBER",
+                "action": "Run the Cyber Lead Engine daily — no CYBER buying events in the last window",
+                "priority": "high",
+            })
 
         if comai.get("total", 0) > 0 and inowix.get("total", 0) > 0:
             comai_rate = comai.get("verification_rate", 0)

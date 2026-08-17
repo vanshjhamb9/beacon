@@ -223,8 +223,30 @@ https://inowix.in"""
     return HyperDraft(subject=subject, body=body.strip(), product="inowix", hook_used=hook)
 
 
+def draft_cyber(lead: dict[str, Any]) -> HyperDraft:
+    company = str(lead.get("company") or lead.get("company_name") or "your team")
+    first = str(lead.get("founder_name") or "").split()[0]
+    greeting = f"Hi {first}," if first else "Hi,"
+    why = str(lead.get("why") or lead.get("why_now") or "a public request for security testing")
+    service = str(lead.get("service_match") or "penetration testing")
+    subject = f"Security testing for {company}"
+    body = f"""{greeting}
+
+Noticed {why.rstrip('.')}. Inowix can run {service} and return a commercial report your engineering team can act on — scoped, evidence-backed, no tool-spam.
+
+If the requirement is still open, would a 15-minute scoping call this week help?
+
+Vansh Jhamb
+Founder, Inowix
+vansh@inowix.in
+https://inowix.in"""
+    return HyperDraft(subject=subject, body=body.strip(), product="cyber", hook_used="cyber_buying_event")
+
+
 def draft_for_product(product: str, lead: dict[str, Any]) -> HyperDraft:
     p = (product or "comai").lower().strip()
+    if p in ("cyber", "cybersecurity", "inowix_cyber"):
+        return draft_cyber(lead)
     if p in ("inowix", "inowix_direct", "inowix_partner"):
         return draft_inowix(lead)
     return draft_comai(lead)

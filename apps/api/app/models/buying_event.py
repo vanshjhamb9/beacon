@@ -5,7 +5,7 @@ CRITICAL RULES:
 2. The original source must prove an actual business problem
 3. Generic emails are NOT decision-maker contacts
 4. QUALITY > QUANTITY
-5. Two lanes: COMAI and INOWIX with separate ICPs
+5. Three lanes: COMAI, INOWIX, and CYBER with separate ICPs
 6. 6-level classification system
 """
 
@@ -32,6 +32,7 @@ class BuyingEventDepartment(StrEnum):
     """Business unit lane."""
     COMAI = "COMAI"
     INOWIX = "INOWIX"
+    CYBER = "CYBER"
 
 
 class BuyingEventClassification(StrEnum):
@@ -83,7 +84,7 @@ class OutreachChannel(StrEnum):
 class BuyingEvent(BaseModel):
     """Verified buying event - Two-Lane Architecture.
     
-    Two independent lanes: COMAI and INOWIX.
+    Three independent lanes: COMAI, INOWIX, and CYBER.
     6-level classification: ACTIVE_BUYING_EVENT, VERIFIED_PAIN, ICP_OPPORTUNITY,
                             PARTNER_OPPORTUNITY, NURTURE, REJECT.
     """

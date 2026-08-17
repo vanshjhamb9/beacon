@@ -43,6 +43,12 @@ class RedditCollectorConfig(CollectorSourceConfig):
             "smallbusiness",
             "artificial",
             "MachineLearning",
+            "netsec",
+            "AskNetsec",
+            "cybersecurity",
+            "sysadmin",
+            "msp",
+            "ITManagers",
         ]
     )
 
@@ -94,6 +100,11 @@ class PainSignalCollectorConfig(CollectorSourceConfig):
             "pythonhelp",
             "webdev",
             "startups",
+            "netsec",
+            "AskNetsec",
+            "cybersecurity",
+            "sysadmin",
+            "msp",
         ]
     )
     rate_limit_per_minute: int = Field(default=10, ge=1, le=60)

@@ -21,6 +21,7 @@ from packages.discovery_engine.sources.twitter_intent import TwitterIntentDiscov
 from packages.discovery_engine.sources.linkedin_intent import LinkedInIntentDiscovery
 from packages.discovery_engine.sources.upwork_intent import UpworkIntentDiscovery
 from packages.discovery_engine.sources.startup_community import StartupCommunityDiscovery
+from packages.discovery_engine.sources.cyber_intent import CyberIntentDiscovery
 
 logger = logging.getLogger(__name__)
 
@@ -37,6 +38,7 @@ class DiscoveryEngine:
             ProductHuntIntentDiscovery(),
             UpworkIntentDiscovery(),
             StartupCommunityDiscovery(),
+            CyberIntentDiscovery(),
             # Legacy sources
             FundingDiscovery(),
             HiringDiscovery(),

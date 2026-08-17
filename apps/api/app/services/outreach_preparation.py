@@ -362,9 +362,16 @@ Vansh"""
         
         if opportunity.department.value == "COMAI":
             return """We help ecommerce businesses automate customer support with AI-powered WhatsApp chatbots. Our clients typically see 60% reduction in support tickets and 3x faster response times."""
-        
-        else:  # INOWIX
-            return """We help startups and growing businesses ship software faster. Our team has built MVPs, SaaS platforms, and mobile apps for companies at every stage."""
+
+        if getattr(opportunity.department, "value", "") == "CYBER" or str(opportunity.department) == "CYBER":
+            matched = opportunity.solution_match or "penetration testing / VAPT"
+            return (
+                f"Inowix runs {matched} for software teams that need a current commercial report — "
+                "web/API/mobile testing, compliance evidence for SOC 2 / ISO 27001, and remediation support. "
+                "We do not guess emails or scan without a scoped engagement."
+            )
+
+        return """We help startups and growing businesses ship software faster. Our team has built MVPs, SaaS platforms, and mobile apps for companies at every stage."""
     
     def _build_cta(self, opportunity: BuyingEvent) -> str:
         """Build call-to-action."""
