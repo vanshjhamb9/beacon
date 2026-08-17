@@ -16,6 +16,16 @@ ROOT = Path(__file__).resolve().parents[4]
 SEEN_PATH = ROOT / "exports" / "comai_b2b_partners" / "_seen_domains.json"
 EXPORT_DIR = ROOT / "exports" / "comai_b2b_partners"
 
+# WhatsApp API/BSP/automation providers — these are COMAI competitors, NOT partners
+COMPETITOR_DOMAINS = {
+    "wati.io", "wati.com", "aisensy.com", "interakt.shop",
+    "whatsboost.in", "quickreply.ai", "watease.com",
+    "waba.nxccontrols.in", "getitsms.com", "heltar.com",
+    "oncloudapi.com", "akestech.com", "gupshup.com",
+    "twilio.com", "zoko.io", "delightchat.io", "kepsla.com",
+    "whapi.cloud", "respond.io", "simpli.fi",
+}
+
 # ============================================================
 # AGENCY SEED DATABASE — 500+ agencies across 4 priority tiers
 # ============================================================
@@ -950,7 +960,7 @@ def main():
         comai_partner_fit = calculate_comai_partner_fit(services, client_industries, agency["type"])
         partner_intent = classify_partner_intent(agency, services, client_count)
         partner_tier = determine_partner_tier(client_access_score, comai_partner_fit, partner_intent)
-        competitor = False  # No competitors in seed list
+        competitor = domain in COMPETITOR_DOMAINS
         safety_clear = True
         final_verdict = determine_final_verdict(partner_tier, competitor, safety_clear, client_count)
 

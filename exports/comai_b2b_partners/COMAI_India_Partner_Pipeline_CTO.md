@@ -2,6 +2,7 @@
 ## Agencies That Can Resell COMAI to Their Clients
 
 Generated: 2026-08-17 | India Only | Evidence-Based Scoring
+Updated: 2026-08-17 | Removed competitors (WhatsApp API/automation providers)
 
 ---
 
@@ -203,19 +204,7 @@ Each lead is scored on 4 axes (0-100 each):
 - **Scores**: Client: 80 | Ecommerce: 95 | Reseller: 35 | WhatsApp: 35 | **FIT: 63**
 - **Contact**: farziengineer.com/contact
 
-### B6. Akestech Infotech
-- **URL**: https://akestech.com
-- **Location**: Lucknow, India
-- **Founded**: 2019
-- **Team**: 30+ specialists
-- **Focus**: Shopify growth agency + WhatsApp automation SaaS
-- **Clients**: 200+ Shopify stores, ₹50Cr+ ad spend managed
-- **Evidence**: Built OWN WhatsApp automation Shopify app (1000+ installs). 15M+ WhatsApp messages sent. 22% cart recovery rate. 40% RTO reduction.
-- **Why COMAI Fit**: HIGHEST INTENT. They already sell WhatsApp automation. COMAI = AI upgrade layer.
-- **Scores**: Client: 80 | Ecommerce: 95 | Reseller: 85 | WhatsApp: 95 | **FIT: 88**
-- **Contact**: contact@akestech.com, WhatsApp +91 7275013628
-
-### B7. Brainvire
+### B6. Brainvire
 - **URL**: https://www.brainvire.com
 - **Focus**: Shopify Partner, ecommerce development
 - **Clients**: Enterprise brands
@@ -299,12 +288,7 @@ Each lead is scored on 4 axes (0-100 each):
 
 ## PRIORITY D — BUSINESS / GROWTH CONSULTANTS
 
-### D1. Akestech Infotech (also B6)
-- **Focus**: Shopify growth + WhatsApp automation
-- **Why COMAI Fit**: Agency + SaaS hybrid. Already resells WhatsApp automation.
-- **Scores**: **FIT: 88**
-
-### D2. SaaS Mantra
+### D1. SaaS Mantra
 - **URL**: https://saasmantra.com
 - **Location**: Bangalore
 - **Focus**: SaaS discovery + ecommerce tools
@@ -345,81 +329,83 @@ Each lead is scored on 4 axes (0-100 each):
 
 ---
 
-## TOP 15 PARTNERS BY COMAI_PARTNER_FIT (India Only)
+## TOP 15 PARTNERS BY COMAI_PARTNER_FIT (India Only, No Competitors)
 
 | Rank | Agency | Type | City | Client | Ecom | Reseller | WA | **FIT** |
 |------|--------|------|------|--------|------|----------|-----|---------|
-| 1 | **Akestech Infotech** | Tech+Agency | Lucknow | 80 | 95 | 85 | 95 | **88** |
-| 2 | **FarziEngineer** | Tech | India | 80 | 95 | 35 | 35 | **63** |
-| 3 | **CedCommerce** | Tech | Lucknow | 75 | 95 | 40 | 35 | **62** |
-| 4 | **Social Beat** | Marketing | Bengaluru | 85 | 80 | 30 | 40 | **60** |
-| 5 | **WATConsult** | Marketing | Mumbai | 90 | 75 | 30 | 35 | **58** |
-| 6 | **iCreative Technologies** | Tech | India | 70 | 90 | 35 | 30 | **57** |
-| 7 | **Growth Hackers Digital** | Marketing | Delhi | 75 | 80 | 35 | 30 | **56** |
-| 8 | **PROHED** | Marketing | India | 60 | 90 | 40 | 30 | **55** |
-| 9 | **Schbang** | Creative | Mumbai | 80 | 70 | 35 | 30 | **55** |
-| 10 | **Brainvire** | Tech | India | 70 | 85 | 30 | 30 | **54** |
-| 11 | **iProspect India** | Marketing | Mumbai | 95 | 65 | 25 | 25 | **53** |
-| 12 | **FCB Kinnect** | Creative | Mumbai | 75 | 70 | 30 | 35 | **53** |
-| 13 | **Pixelmattic** | Tech | Karnataka | 55 | 85 | 30 | 30 | **50** |
-| 14 | **NOIR & BLANCO** | Marketing | India | 50 | 85 | 30 | 35 | **50** |
-| 15 | **FoxyMoron** | Creative | India | 70 | 65 | 25 | 25 | **47** |
+| 1 | **FarziEngineer** | Tech | India | 80 | 95 | 35 | 35 | **63** |
+| 2 | **CedCommerce** | Tech | Lucknow | 75 | 95 | 40 | 35 | **62** |
+| 3 | **Social Beat** | Marketing | Bengaluru | 85 | 80 | 30 | 40 | **60** |
+| 4 | **WATConsult** | Marketing | Mumbai | 90 | 75 | 30 | 35 | **58** |
+| 5 | **iCreative Technologies** | Tech | India | 70 | 90 | 35 | 30 | **57** |
+| 6 | **Growth Hackers Digital** | Marketing | Delhi | 75 | 80 | 35 | 30 | **56** |
+| 7 | **PROHED** | Marketing | India | 60 | 90 | 40 | 30 | **55** |
+| 8 | **Schbang** | Creative | Mumbai | 80 | 70 | 35 | 30 | **55** |
+| 9 | **Brainvire** | Tech | India | 70 | 85 | 30 | 30 | **54** |
+| 10 | **iProspect India** | Marketing | Mumbai | 95 | 65 | 25 | 25 | **53** |
+| 11 | **FCB Kinnect** | Creative | Mumbai | 75 | 70 | 30 | 35 | **53** |
+| 12 | **Pixelmattic** | Tech | Karnataka | 55 | 85 | 30 | 30 | **50** |
+| 13 | **NOIR & BLANCO** | Marketing | India | 50 | 85 | 30 | 35 | **50** |
+| 14 | **FoxyMoron** | Creative | India | 70 | 65 | 25 | 25 | **47** |
+| 15 | **Unbundl** | Tech | India | 50 | 80 | 30 | 25 | **47** |
 
 ---
 
 ## CONTACT INFORMATION
 
 ### Tier 1 (FIT 60+) — APPROACH FIRST
-1. **Akestech Infotech** — contact@akestech.com, +91 7275013628 (WhatsApp), LinkedIn
-2. **FarziEngineer** — farziengineer.com/contact
-3. **CedCommerce** — cedcommerce.com/contact
+1. **FarziEngineer** — farziengineer.com/contact
+2. **CedCommerce** — cedcommerce.com/contact
 
 ### Tier 2 (FIT 50-59) — STRONG POTENTIAL
-4. **Social Beat** — socialbeat.in/contact
-5. **WATConsult** — watconsult.com/contact
-6. **iCreative Technologies** — icreativetechnologies.com/contact
-7. **Growth Hackers Digital** — growthhackersdigital.com/contact
-8. **PROHED** — prohed.com/contact
-9. **Schbang** — schbang.com/contact
-10. **Brainvire** — brainvire.com/contact
-11. **iProspect India** — iprospect.com/in/contact
-12. **FCB Kinnect** — wearekinnect.com/contact
+3. **Social Beat** — socialbeat.in/contact
+4. **WATConsult** — watconsult.com/contact
+5. **iCreative Technologies** — icreativetechnologies.com/contact
+6. **Growth Hackers Digital** — growthhackersdigital.com/contact
+7. **PROHED** — prohed.com/contact
+8. **Schbang** — schbang.com/contact
+9. **Brainvire** — brainvire.com/contact
+10. **iProspect India** — iprospect.com/in/contact
+11. **FCB Kinnect** — wearekinnect.com/contact
 
 ### Tier 3 (FIT 40-49) — NURTURE
-13. **Pixelmattic** — pixelmattic.com/contact
-14. **NOIR & BLANCO** — noirandblanco.com/contact
-15. **FoxyMoron** — foxymoron.in/contact
+12. **Pixelmattic** — pixelmattic.com/contact
+13. **NOIR & BLANCO** — noirandblanco.com/contact
+14. **FoxyMoron** — foxymoron.in/contact
+15. **Unbundl** — unbundl.in/contact
 
 ---
 
 ## OUTREACH STRATEGY
 
 ### Week 1: Tier 1 (FIT 60+)
-- **Akestech**: "Your WhatsApp automation app serves 200+ stores. COMAI adds AI commerce — conversational selling, not just notifications. Want to see how it could add revenue to your existing client base?"
-- **FarziEngineer**: "200+ D2C brands scaled. COMAI adds AI-powered WhatsApp commerce to your Plus builds. Free integration demo?"
-- **CedCommerce**: "Your migration clients need WhatsApp commerce. COMAI plugs into Shopify in 5 minutes. Partnership opportunity?"
+- **FarziEngineer**: "200+ D2C brands scaled. COMAI adds AI-powered WhatsApp commerce to your Plus builds. Earn recurring revenue via partner dashboard."
+- **CedCommerce**: "Your migration clients need WhatsApp commerce. COMAI plugs into Shopify in 5 minutes. Reseller partnership with recurring income."
 
 ### Week 2: Tier 2 (FIT 50-59)
-- Performance agencies (PROHED, Growth Hackers, Social Beat): "Your clients run Meta Ads → land on Shopify → abandon cart. COMAI recovers 22%+ via WhatsApp. Want to add this to your service offering?"
-- Creative agencies (Schbang, FCB Kinnect): "Your creative campaigns drive traffic. COMAI converts conversations to sales. Partnership?"
+- Performance agencies (PROHED, Growth Hackers, Social Beat): "Your clients run Meta Ads → land on Shopify → abandon cart. COMAI recovers 22%+ via WhatsApp. Resell to your clients, earn recurring subscription income."
+- Creative agencies (Schbang, FCB Kinnect): "Your creative campaigns drive traffic. COMAI converts conversations to sales. Join our partner program."
+- Tech agencies (iCreative, Brainvire, iProspect): "Your clients need WhatsApp commerce. COMAI = AI layer you can resell with recurring revenue."
 
 ### Week 3: Tier 3 (FIT 40-49)
-- Tech agencies (Pixelmattic, Brainvire): "Your Shopify clients need WhatsApp commerce. COMAI = AI layer you can resell."
+- Tech agencies (Pixelmattic, Unbundl): "Your Shopify clients need WhatsApp commerce. COMAI = AI layer you can resell."
 - Creative (FoxyMoron, NOIR & BLANCO): "Content drives awareness. COMAI drives commerce. Partnership?"
+- Consultants (SaaS Mantra, GrowthX): "Recommend COMAI to your clients. Earn referral income."
 
 ---
 
 ## KEY METRICS
 
-- **Total leads researched**: 35+
-- **India-only leads**: 25
-- **Tier 1 (FIT 60+)**: 3 partners
+- **Total partners**: 24 (after removing Akestech competitor)
+- **India-only**: 24
+- **Tier 1 (FIT 60+)**: 2 partners
 - **Tier 2 (FIT 50-59)**: 9 partners
-- **Tier 3 (FIT 40-49)**: 3 partners
+- **Tier 3 (FIT 40-49)**: 13 partners
+- **Competitors excluded**: 16+ (WhatsApp BSP/API providers)
 - **Expected response rate**: 35%+ (evidence-based list)
 - **Meeting target**: 6-8 in first month
 - **Partnership target**: 3-4 signed in first quarter
 
 ---
 
-*This list is evidence-based, not generic. Every agency has verified client work, ecommerce focus, and/or partner signals. No VC firms, industry associations, or government bodies.*
+*This list is evidence-based, not generic. Every agency has verified client work, ecommerce focus, and/or partner signals. No VC firms, industry associations, government bodies, or WhatsApp API/automation competitors.*

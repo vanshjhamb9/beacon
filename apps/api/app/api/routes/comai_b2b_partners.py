@@ -16,6 +16,23 @@ router = APIRouter(prefix="/b2b-partners", tags=["b2b-partners"])
 
 EXPORT_DIR = Path("/home/ubuntu/beacon/exports/comai_b2b_partners")
 
+# WhatsApp API/BSP/automation providers — these are COMAI competitors, NOT partners
+COMPETITOR_DOMAINS = {
+    "wati.io", "wati.com", "aisensy.com", "interakt.shop",
+    "whatsboost.in", "quickreply.ai", "watease.com",
+    "waba.nxccontrols.in", "getitsms.com", "heltar.com",
+    "oncloudapi.com", "akestech.com", "gupshup.com",
+    "twilio.com", "zoko.io", "delightchat.io", "kepsla.com",
+    "whapi.cloud", "respond.io", "simpli.fi",
+}
+
+COMPETITOR_NAMES = {
+    "wati", "aisensy", "aisensy", "interakt", "jio haptik",
+    "whatboost", "quickreply", "watease", "nxcmsg", "nxc controls",
+    "getitsms", "heltar", "on cloud api", "akestech",
+    "gupshup", "twilio", "zoko", "delightchat", "kepsla",
+}
+
 
 def _get_db():
     from sqlalchemy import create_engine
@@ -98,7 +115,7 @@ async def get_all_partners(
     engine = _get_db()
     from sqlalchemy import text
 
-    conditions = []
+    conditions = ["competitor = false"]
     params: dict[str, Any] = {"limit": limit, "offset": offset}
 
     if search:
@@ -243,20 +260,24 @@ async def _get_stats() -> B2BPartnerStatsResponse:
                 COUNT(CASE WHEN partner_intent = 'EXPLICIT' THEN 1 END) as explicit_intent,
                 COUNT(CASE WHEN partner_intent = 'HIGH_POTENTIAL' THEN 1 END) as high_potential
             FROM comai_b2b_partners
+            WHERE competitor = false
         """)).fetchone()
 
         types = conn.execute(text("""
             SELECT agency_type, COUNT(*) FROM comai_b2b_partners
+            WHERE competitor = false
             GROUP BY agency_type ORDER BY COUNT(*) DESC
         """)).fetchall()
 
         countries = conn.execute(text("""
             SELECT country, COUNT(*) FROM comai_b2b_partners
+            WHERE competitor = false
             GROUP BY country ORDER BY COUNT(*) DESC
         """)).fetchall()
 
         intents = conn.execute(text("""
             SELECT partner_intent, COUNT(*) FROM comai_b2b_partners
+            WHERE competitor = false
             GROUP BY partner_intent ORDER BY COUNT(*) DESC
         """)).fetchall()
 
@@ -288,7 +309,7 @@ async def get_tiers() -> dict[str, Any]:
             SELECT agency_name, agency_url, agency_type, country, city,
                    client_access_score, comai_partner_fit, partner_intent,
                    founder_name, email, why_this_agency
-            FROM comai_b2b_partners WHERE partner_tier = 'A'
+            FROM comai_b2b_partners WHERE partner_tier = 'A' AND competitor = false
             ORDER BY client_access_score DESC
         """)).fetchall()
 
@@ -296,7 +317,7 @@ async def get_tiers() -> dict[str, Any]:
             SELECT agency_name, agency_url, agency_type, country, city,
                    client_access_score, comai_partner_fit, partner_intent,
                    founder_name, email, why_this_agency
-            FROM comai_b2b_partners WHERE partner_tier = 'B'
+            FROM comai_b2b_partners WHERE partner_tier = 'B' AND competitor = false
             ORDER BY client_access_score DESC LIMIT 50
         """)).fetchall()
 
@@ -304,7 +325,7 @@ async def get_tiers() -> dict[str, Any]:
             SELECT agency_name, agency_url, agency_type, country, city,
                    client_access_score, comai_partner_fit, partner_intent,
                    founder_name, email, why_this_agency
-            FROM comai_b2b_partners WHERE partner_tier = 'C'
+            FROM comai_b2b_partners WHERE partner_tier = 'C' AND competitor = false
             ORDER BY client_access_score DESC LIMIT 20
         """)).fetchall()
 
