@@ -57,7 +57,7 @@ class LeadEngineICP(BaseModel):
 
 
 class StartRunBody(BaseModel):
-    product: str = Field(default="comai", description="comai | inowix")
+    product: str = Field(default="comai", description="comai | inowix | cybersecurity")
     limit: int = Field(default=80, ge=1, le=150)
     icp: LeadEngineICP = Field(default_factory=LeadEngineICP)
 
@@ -137,8 +137,8 @@ async def auto_status() -> dict[str, Any]:
 async def auto_start(body: AutoStartBody) -> dict[str, Any]:
     le = _engine()
     product = body.product.lower().strip()
-    if product not in ("comai", "inowix"):
-        raise HTTPException(status_code=400, detail="product must be comai or inowix")
+    if product not in ("comai", "inowix", "cybersecurity"):
+        raise HTTPException(status_code=400, detail="product must be comai, inowix, or cybersecurity")
     return le.start_auto_scheduler(
         product=product,
         icp=body.icp.model_dump(),
@@ -229,8 +229,8 @@ async def lead_engine_presets() -> dict[str, Any]:
 async def start_run(body: StartRunBody) -> dict[str, Any]:
     le = _engine()
     product = body.product.lower().strip()
-    if product not in ("comai", "inowix"):
-        raise HTTPException(status_code=400, detail="product must be comai or inowix")
+    if product not in ("comai", "inowix", "cybersecurity"):
+        raise HTTPException(status_code=400, detail="product must be comai, inowix, or cybersecurity")
     job = le.create_run(product=product, icp=body.icp.model_dump(), limit=body.limit)
     asyncio.create_task(le.run_pipeline(job["run_id"]))
     return _public_job(job)
@@ -359,7 +359,7 @@ async def send_approved(run_id: str, body: SendBody) -> dict[str, Any]:
             subject=lead["subject"],
             body_html=html_body(lead["body"]),
             body_text=lead["body"],
-            from_name="Vansh Jhamb | COMAI" if product == "comai" else "Vansh Jhamb | Inowix",
+            from_name="Vansh Jhamb | Cybersecurity" if product == "cybersecurity" else "Vansh Jhamb | COMAI" if product == "comai" else "Vansh Jhamb | Inowix",
             cc=cc,
             retries=2,
             retry_backoff_sec=8,
@@ -409,3 +409,50 @@ async def export_csv(run_id: str) -> FileResponse:
     if not path or not Path(path).exists():
         raise HTTPException(status_code=404, detail="export not ready")
     return FileResponse(path, filename=f"lead_engine_{run_id}.csv", media_type="text/csv")
+
+
+class MegaExtractionRequest(BaseModel):
+    limit: int = Field(default=40, ge=1, le=100)
+    enrich_founders: bool = Field(default=True)
+
+
+@router.post("/mega-extract")
+async def trigger_mega_extraction(body: MegaExtractionRequest) -> dict[str, Any]:
+    """Trigger mega lead extraction with founder enrichment."""
+    try:
+        from worker.mega_extraction_tasks import mega_extract_with_enrichment
+        result = mega_extract_with_enrichment.delay(
+            limit=body.limit,
+            enrich_founders=body.enrich_founders,
+        )
+        return {
+            "status": "started",
+            "task_id": result.id,
+            "limit": body.limit,
+            "enrich_founders": body.enrich_founders,
+        }
+    except Exception as e:
+        logger.error(f"Failed to start mega extraction: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/mega-extract/status")
+async def mega_extraction_status() -> dict[str, Any]:
+    """Get status of mega extraction."""
+    from pathlib import Path
+    import json
+
+    seen_path = Path(__file__).resolve().parents[5] / "exports" / "lead_engine_runs" / "_mega_seen_domains.json"
+
+    seen_count = 0
+    if seen_path.exists():
+        try:
+            seen_count = len(json.loads(seen_path.read_text()))
+        except Exception:
+            pass
+
+    return {
+        "seen_domains": seen_count,
+        "status": "active",
+        "schedule": "every 20 minutes",
+    }
