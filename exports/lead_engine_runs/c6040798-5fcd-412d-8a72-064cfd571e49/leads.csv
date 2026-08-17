@@ -1,0 +1,46 @@
+id,company,founder_name,founder_role,email,phone,website,city,category,size,employee_estimate,employee_estimate_source,platform,technologies,intent_score,grade,signal_families,strong_signals,growth_signals,buying_signals,pain_types,why,signal,subject,body,outreach_status,source
+1eec8e04-a016-5aa8-92ad-b737d4a0517a,Suhani Pittie,,,stouvant@suhanipittie.com,+91-9014089000,https://suhanipittie.com,Hyderabad,jewellery,,42,why_text,shopify,"['shopify', 'google_ads', 'gtm']",96.0,SALES_READY,"gap,growth,live,reach,stack","chat_gap,hiring_intent,ads_active,ops_pain,stack_plus_gap,ads_plus_automation_gap,high_intent_composite,phone_plus_context,live_gap_corroborated","[{'type': 'hiring', 'evidence': '/careers', 'confidence': 0.75, 'source': 'homepage_html'}, {'type': 'advertising', 'evidence': 'Paid ads stack detected: google_ads, gtm', 'confidence': 0.8, 'source': 'homepage_html'}]","[{'type': 'automation_gap_on_ads_brand', 'evidence': 'Growing commerce/ads brand without chatbot automation', 'confidence': 0.9, 'source': 'derived'}, {'type': 'ops_support_gap', 'evidence': 'Returns/COD friction without chatbot coverage', 'confidence': 0.82, 'source': 'derived'}, {'type': 'hiring_with_support_gap', 'evidence': 'Hiring while support automation gap exists', 'confidence': 0.92, 'source': 'derived'}]","['faq_volume', 'return_policy', 'shipping_info', 'cod_available', 'contact_page']","No chatbot automation on site · Found 68 instances of return_policy references · Found 16 instances of shipping_info references · Found 20 instances of cod_available references · Found 7 instances of contact_page references · hiring: /careers · advertising: Paid ads stack detected: google_ads, gtm · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · Hiring while support automation gap exists · stack: shopify, google_ads, gtm",live_discovery,Suhani Pittie — WhatsApp replies before the cart goes cold,"Hi there,
+
+I was looking at Suhani Pittie (Hyderabad). What stood out is that no chatbot automation on site · Found 68 instances of return_policy references · Found 16 instances of shipping_info references · Found….
+
+I'm Vansh, founder of Inowix. We built COMAI to handle WhatsApp and Instagram commerce chat for Indian jewellery brands — product questions, order updates, and follow-ups in seconds, including after hours.
+
+For a team like yours on Shopify, that usually means more conversions from the same ad spend without adding another support shift.
+
+Would a short 15-minute walkthrough of how COMAI could sit on Suhani Pittie's WhatsApp be useful?
+
+Best,
+Vansh Jhamb
+Founder, Inowix
+vansh@inowix.in
+https://inowix.in",sent,live_verified_enrichment
+ff9ae95c-4137-58e3-aad2-30a6f59d9d95,Bevzilla,,,info@bevzilla.com,917180176327,https://bevzilla.com,New Delhi,food,,33,why_text,shopify,['shopify'],96.0,SALES_READY,"gap,growth,live,reach,stack","chat_gap,growth_motion,ops_pain,stack_plus_gap,ads_plus_automation_gap,high_intent_composite,brand_inbox,brand_inbox_plus_cue,phone_plus_context,live_gap_corroborated","[{'type': 'expansion', 'evidence': 'now available in', 'confidence': 0.75, 'source': 'homepage_html'}]","[{'type': 'automation_gap_on_ads_brand', 'evidence': 'Growing commerce/ads brand without chatbot automation', 'confidence': 0.9, 'source': 'derived'}, {'type': 'ops_support_gap', 'evidence': 'Returns/COD friction without chatbot coverage', 'confidence': 0.82, 'source': 'derived'}]","['faq_volume', 'return_policy', 'shipping_info', 'cod_available', 'contact_page']",No chatbot automation on site · Found 58 instances of return_policy references · Found 9 instances of shipping_info references · Found 4 instances of cod_available references · Found 4 instances of contact_page references · expansion: now available in · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · stack: shopify,live_discovery,Bevzilla — WhatsApp replies before the cart goes cold,"Hi there,
+
+I was looking at Bevzilla (New Delhi). What stood out is that no chatbot automation on site · Found 58 instances of return_policy references · Found 9 instances of shipping_info references · Found 4….
+
+I'm Vansh, founder of Inowix. We built COMAI to handle WhatsApp and Instagram commerce chat for Indian food brands — product questions, order updates, and follow-ups in seconds, including after hours.
+
+For a team like yours on Shopify, that usually means more conversions from the same ad spend without adding another support shift.
+
+Would a short 15-minute walkthrough of how COMAI could sit on Bevzilla's WhatsApp be useful?
+
+Best,
+Vansh Jhamb
+Founder, Inowix
+vansh@inowix.in
+https://inowix.in",sent,live_verified_enrichment
+8e9f1a6b-77e0-5d78-b570-533f50d4c4a9,Deconstruct,,,admin@deconstruct.in,,https://deconstruct.in,Hyderabad,skincare,,3,why_text,,[],68.0,QUALIFIED,"gap,live","chat_gap,ops_pain,live_gap_corroborated",[],"[{'type': 'ops_support_gap', 'evidence': 'Returns/COD friction without chatbot coverage', 'confidence': 0.82, 'source': 'derived'}]","['return_policy', 'cod_available']",No chatbot automation on site · Found 3 instances of return_policy references · Found 3 instances of cod_available references · Returns/COD friction without chatbot coverage,live_discovery,Deconstruct — WhatsApp replies before the cart goes cold,"Hi there,
+
+I was looking at Deconstruct (Hyderabad). What stood out is that no chatbot automation on site · Found 3 instances of return_policy references · Found 3 instances of cod_available references ·….
+
+I'm Vansh, founder of Inowix. We built COMAI to handle WhatsApp and Instagram commerce chat for Indian skincare brands — product questions, order updates, and follow-ups in seconds, including after hours.
+
+For a team like yours, that usually means more conversions from the same ad spend without adding another support shift.
+
+Would a short 15-minute walkthrough of how COMAI could sit on Deconstruct's WhatsApp be useful?
+
+Best,
+Vansh Jhamb
+Founder, Inowix
+vansh@inowix.in
+https://inowix.in",sent,live_verified_enrichment

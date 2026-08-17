@@ -1,0 +1,96 @@
+{
+  "run_id": "f3ee61a4-669e-41cb-a9e5-38da64ea61a5",
+  "product": "comai",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 281,
+    "enriched": 224,
+    "scored": 0,
+    "ready": 0,
+    "sent": 0,
+    "rejected": 227,
+    "new_unique": 0,
+    "live_discovered": 1,
+    "soft_flagged": 302,
+    "icp_core": 0,
+    "icp_adjacent": 0,
+    "pooled_added": 0
+  },
+  "rejects": {
+    "mega_brand": 50,
+    "headcount": 1,
+    "unknown_size": 0,
+    "industry": 46,
+    "city": 39,
+    "country": 0,
+    "domain": 0,
+    "name": 0,
+    "type": 0,
+    "agency": 24,
+    "generic_email": 10,
+    "no_email": 11,
+    "no_founder": 0,
+    "tech": 0,
+    "year_founded": 0,
+    "already_seen": 0,
+    "already_sent": 41,
+    "prior_run": 0,
+    "low_intent": 5,
+    "already_surfaced": 0
+  },
+  "icp": {
+    "key": "comai",
+    "name": "COMAI \u2014 Buyability-First Discovery",
+    "service_match": "COMAI",
+    "employee_count_min": 5,
+    "employee_count_max": 50,
+    "company_size_min": null,
+    "company_size_max": null,
+    "industries": [
+      "fashion",
+      "beauty",
+      "jewellery",
+      "skincare",
+      "food"
+    ],
+    "specialties": [
+      "fashion",
+      "skincare",
+      "beauty",
+      "jewellery",
+      "home"
+    ],
+    "countries": [
+      "India"
+    ],
+    "headquarters_cities": [
+      "Delhi",
+      "Mumbai",
+      "Bangalore",
+      "Hyderabad",
+      "Pune"
+    ],
+    "technology_stack": [
+      "shopify",
+      "meta ads",
+      "woocommerce"
+    ],
+    "company_types": [
+      "d2c_brand"
+    ],
+    "year_founded_min": 2018,
+    "year_founded_max": 2026,
+    "linkedin_url_required": false,
+    "company_name_contains": [],
+    "domains": [],
+    "lists": [
+      "COMAI \u2014 Buyability-First Discovery"
+    ],
+    "funding_stages": [],
+    "hiring_signals": [],
+    "negative_signals": []
+  },
+  "generated_at": "2026-08-15T12:16:09.391589+00:00",
+  "lead_count": 0
+}

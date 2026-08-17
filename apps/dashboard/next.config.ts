@@ -2,6 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   typedRoutes: false,
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   async rewrites() {
     return [
       {

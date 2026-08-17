@@ -1,0 +1,16 @@
+id,company,founder_name,founder_role,email,phone,website,city,category,size,employee_estimate,employee_estimate_source,platform,technologies,intent_score,grade,signal_families,strong_signals,growth_signals,buying_signals,pain_types,why,signal,subject,body,outreach_status,source
+ae09ef93-693b-532e-9ae9-addc03d1099c,Tribe Amrapali,,,tribebyamrapalionline@gmail.com,+91-7229835888,https://tribeamrapali.com,Jaipur,jewellery,,9,why_text,meta_pixel,"['meta_pixel', 'google_ads', 'gtm']",96.0,SALES_READY,"gap,growth,live,reach,stack","chat_gap,ads_active,ops_pain,ads_plus_automation_gap,high_intent_composite,phone_plus_context,live_gap_corroborated","[{'type': 'advertising', 'evidence': 'Paid ads stack detected: google_ads, gtm, meta_pixel', 'confidence': 0.8, 'source': 'homepage_html'}]","[{'type': 'automation_gap_on_ads_brand', 'evidence': 'Growing commerce/ads brand without chatbot automation', 'confidence': 0.9, 'source': 'derived'}, {'type': 'ops_support_gap', 'evidence': 'Returns/COD friction without chatbot coverage', 'confidence': 0.82, 'source': 'derived'}]","['faq_volume', 'return_policy', 'shipping_info', 'cod_available', 'contact_page']","No chatbot automation on site · Found 12 instances of return_policy references · Found 6 instances of shipping_info references · Found 6 instances of cod_available references · Found 2 instances of contact_page references · advertising: Paid ads stack detected: google_ads, gtm, meta_pixel · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · stack: meta_pixel, google_ads, gtm",live_discovery,Tribe Amrapali — WhatsApp replies before the cart goes cold,"Hi there,
+
+I was looking at Tribe Amrapali (Jaipur). What stood out is that no chatbot automation on site · Found 12 instances of return_policy references · Found 6 instances of shipping_info references · Found 6….
+
+I'm Vansh, founder of Inowix. We built COMAI to handle WhatsApp and Instagram commerce chat for Indian jewellery brands — product questions, order updates, and follow-ups in seconds, including after hours.
+
+For a team like yours on meta_pixel, that usually means more conversions from the same ad spend without adding another support shift.
+
+Would a short 15-minute walkthrough of how COMAI could sit on Tribe Amrapali's WhatsApp be useful?
+
+Best,
+Vansh Jhamb
+Founder, Inowix
+vansh@inowix.in
+https://inowix.in",sent,live_verified_enrichment

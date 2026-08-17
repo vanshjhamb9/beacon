@@ -1,0 +1,97 @@
+{
+  "run_id": "e2b13c06-157e-4341-89ae-012bc06f8ac6",
+  "product": "inowix",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 37,
+    "enriched": 37,
+    "scored": 0,
+    "ready": 0,
+    "sent": 0,
+    "rejected": 36,
+    "new_unique": 0,
+    "live_discovered": 0,
+    "soft_flagged": 43,
+    "icp_core": 0,
+    "icp_adjacent": 0,
+    "pooled_added": 0
+  },
+  "rejects": {
+    "mega_brand": 0,
+    "headcount": 0,
+    "unknown_size": 0,
+    "industry": 0,
+    "city": 33,
+    "country": 0,
+    "domain": 0,
+    "name": 0,
+    "type": 0,
+    "agency": 0,
+    "generic_email": 2,
+    "no_email": 0,
+    "no_founder": 0,
+    "tech": 0,
+    "year_founded": 0,
+    "already_seen": 0,
+    "already_sent": 0,
+    "prior_run": 0,
+    "low_intent": 1,
+    "already_surfaced": 0
+  },
+  "icp": {
+    "key": "inowix",
+    "name": "INOWIX \u2014 High-Intent SaaS / Build Capacity",
+    "service_match": "Inowix",
+    "employee_count_min": 2,
+    "employee_count_max": 70,
+    "company_size_min": null,
+    "company_size_max": null,
+    "industries": [
+      "saas",
+      "software",
+      "health"
+    ],
+    "specialties": [
+      "ai",
+      "mobile",
+      "health",
+      "software",
+      "saas"
+    ],
+    "countries": [
+      "India",
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "Israel",
+      "Singapore"
+    ],
+    "headquarters_cities": [
+      "Delhi",
+      "Mumbai",
+      "Hyderabad"
+    ],
+    "technology_stack": [
+      "react",
+      "flutter",
+      "ios"
+    ],
+    "company_types": [
+      "saas_product"
+    ],
+    "year_founded_min": 2018,
+    "year_founded_max": 2026,
+    "linkedin_url_required": false,
+    "company_name_contains": [],
+    "domains": [],
+    "lists": [
+      "INOWIX \u2014 High-Intent SaaS / Build Capacity"
+    ],
+    "funding_stages": [],
+    "hiring_signals": [],
+    "negative_signals": []
+  },
+  "generated_at": "2026-08-15T11:09:28.116106+00:00",
+  "lead_count": 0
+}
