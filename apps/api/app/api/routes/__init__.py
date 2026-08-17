@@ -7,6 +7,7 @@ from app.api.routes.autonomous_sales_agent import router as autonomous_sales_age
 from app.api.routes.campaigns import router as campaigns_router
 from app.api.routes.client_execution import router as client_execution_router
 from app.api.routes.communication import router as communication_router
+from app.api.routes.cybersecurity import router as cybersecurity_router
 from app.api.routes.context import router as context_router
 from app.api.routes.copilot import router as copilot_router
 from app.api.routes.decision import router as decision_router
@@ -72,6 +73,7 @@ from app.api.routes.intelligence_loop import router as intelligence_loop_router
 from app.api.routes.company_universe import router as company_universe_router
 from app.api.routes.buying_events_api import router as buying_events_router
 from app.api.routes.workspace_hub import router as workspace_hub_router
+from app.api.routes.unified_leads import router as unified_leads_router
 
 from app.api.routes.discovery_quality_engine.v2 import router as dqe_v2_router
 from app.api.routes.opportunity_validation import validation_router as lovp_router
@@ -86,6 +88,7 @@ router.include_router(autonomous_sales_agent_router)
 router.include_router(client_execution_router)
 router.include_router(campaigns_router)
 router.include_router(communication_router)
+router.include_router(cybersecurity_router)
 router.include_router(context_router)
 router.include_router(copilot_router)
 router.include_router(decision_router)
@@ -152,6 +155,7 @@ router.include_router(intelligence_loop_router)
 router.include_router(company_universe_router)
 router.include_router(buying_events_router)
 router.include_router(workspace_hub_router)
+router.include_router(unified_leads_router)
 router.include_router(dqe_v2_router)
 router.include_router(lovp_router)
 router.include_router(lrop_router)

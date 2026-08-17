@@ -4,12 +4,14 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import {
   Building2,
   CheckSquare,
+  Clock,
   Loader2,
   Play,
   Save,
   Send,
   Sparkles,
   Square,
+  Zap,
 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 
@@ -25,7 +27,7 @@ import {
 } from "@/lib/api/beacon";
 import { cn } from "@/lib/utils";
 
-type Product = "comai" | "inowix";
+type Product = "comai" | "inowix" | "cybersecurity";
 
 type IcpDraft = {
   key: string;
@@ -61,6 +63,24 @@ const INDUSTRY_OPTIONS = [
 ];
 
 const TECH_OPTIONS = ["shopify", "woocommerce", "whatsapp", "meta ads", "flutter", "ios", "react"];
+
+const CYB_INDUSTRY_OPTIONS = [
+  "SaaS", "Fintech", "Healthtech", "Ecommerce", "AI",
+  "EdTech", "HRTech", "InsurTech", "LegalTech", "PropTech", "Logistics",
+];
+const CYB_SERVICE_OPTIONS = [
+  "penetration_testing", "vulnerability_assessment", "web_app_security",
+  "api_security", "cloud_security", "compliance", "security_audit",
+];
+const CYB_GEO_TIER1 = [
+  "United States", "United Kingdom", "Canada", "Australia", "UAE",
+  "Saudi Arabia", "Singapore", "Switzerland", "Netherlands", "Germany",
+];
+const CYB_GEO_TIER2 = [
+  "Ireland", "Sweden", "Norway", "Denmark", "Finland", "France",
+  "New Zealand", "Japan", "South Korea", "Israel",
+];
+const CYB_PRIORITY_OPTIONS = ["P0 only", "P0 + P1", "All"];
 const TYPE_OPTIONS = [
   { id: "d2c_brand", label: "D2C brand" },
   { id: "agency_partner", label: "Agency partner" },
@@ -78,6 +98,27 @@ const CITY_OPTIONS = [
 ];
 
 function defaultIcp(product: Product): IcpDraft {
+  if (product === "cybersecurity") {
+    return {
+      key: "cybersecurity-lead-engine",
+      name: "Cybersecurity Lead Engine",
+      service_match: "cybersecurity",
+      lists: ["cybersecurity-leads"],
+      company_name_contains: "",
+      domains: "",
+      linkedin_url_required: false,
+      employee_count_min: 5,
+      employee_count_max: 10000,
+      industries: ["SaaS", "Fintech", "Healthtech", "Ecommerce"],
+      company_types: ["saas_product"],
+      countries: CYB_GEO_TIER1,
+      headquarters_cities: [],
+      specialties: CYB_SERVICE_OPTIONS,
+      year_founded_min: 2015,
+      year_founded_max: 2026,
+      technology_stack: [],
+    };
+  }
   return {
     key: product === "comai" ? "comai-lead-engine" : "inowix-lead-engine",
     name: product === "comai" ? "COMAI Lead Engine" : "Inowix Lead Engine",
@@ -416,7 +457,7 @@ export function LeadEngineWorkspace() {
           </p>
         </div>
         <div className="flex items-center gap-2 rounded-xl border border-border/60 bg-card/40 p-1">
-          {(["comai", "inowix"] as const).map((p) => (
+          {(["comai", "inowix", "cybersecurity"] as const).map((p) => (
             <button
               key={p}
               type="button"
@@ -436,139 +477,213 @@ export function LeadEngineWorkspace() {
         <div className="rounded-xl border border-border/60 bg-muted/20 px-4 py-2 text-sm">{message}</div>
       ) : null}
 
+      {/* Mega Extraction Status */}
+      <MegaExtractionStatus />
+
       <div className="grid gap-6 lg:grid-cols-[320px_1fr]">
         {/* COMPANY filters — Apollo-style */}
         <Card className="h-fit border-border/60 bg-card/50">
           <CardHeader className="pb-2">
             <div className="flex items-center gap-2">
               <Building2 className="h-4 w-4 text-muted-foreground" />
-              <CardTitle className="text-sm font-semibold uppercase tracking-wide">Company</CardTitle>
+              <CardTitle className="text-sm font-semibold uppercase tracking-wide">
+                {product === "cybersecurity" ? "Cybersecurity ICP" : "Company"}
+              </CardTitle>
             </div>
             <CardDescription>
-              Hard filters: mega brands out · unknown headcount out · founder/personal emails preferred
+              {product === "cybersecurity"
+                ? "Filter by service needs, industry, geography, and priority level"
+                : "Hard filters: mega brands out · unknown headcount out · founder/personal emails preferred"}
             </CardDescription>
           </CardHeader>
           <CardContent className="max-h-[70vh] space-y-0 overflow-y-auto pr-1">
-            <FilterRow label="Lists">
-              <input
-                className="w-full rounded-lg border border-border/60 bg-background px-3 py-2 text-sm"
-                value={icp.lists.join(", ")}
-                onChange={(e) =>
-                  setIcp((s) => ({
-                    ...s,
-                    lists: e.target.value
-                      .split(",")
-                      .map((x) => x.trim())
-                      .filter(Boolean),
-                  }))
-                }
-                placeholder="Saved ICP list names"
-              />
-            </FilterRow>
-            <FilterRow label="Company Name">
-              <input
-                className="w-full rounded-lg border border-border/60 bg-background px-3 py-2 text-sm"
-                value={icp.company_name_contains}
-                onChange={(e) => setIcp((s) => ({ ...s, company_name_contains: e.target.value }))}
-                placeholder="Contains…"
-              />
-            </FilterRow>
-            <FilterRow label="Domain">
-              <input
-                className="w-full rounded-lg border border-border/60 bg-background px-3 py-2 text-sm"
-                value={icp.domains}
-                onChange={(e) => setIcp((s) => ({ ...s, domains: e.target.value }))}
-                placeholder="brand.com, …"
-              />
-            </FilterRow>
-            <FilterRow label="Professional Network URL">
-              <label className="flex items-center gap-2 text-sm text-muted-foreground">
-                <input
-                  type="checkbox"
-                  checked={icp.linkedin_url_required}
-                  onChange={(e) => setIcp((s) => ({ ...s, linkedin_url_required: e.target.checked }))}
-                />
-                Prefer LinkedIn-accessible founders
-              </label>
-            </FilterRow>
-            <FilterRow label="Headcount">
-              <div className="flex items-center gap-2">
-                <input
-                  type="number"
-                  className="w-full rounded-lg border border-border/60 bg-background px-3 py-2 text-sm"
-                  value={icp.employee_count_min}
-                  onChange={(e) =>
-                    setIcp((s) => ({ ...s, employee_count_min: Number(e.target.value) || 0 }))
-                  }
-                />
-                <span className="text-xs text-muted-foreground">to</span>
-                <input
-                  type="number"
-                  className="w-full rounded-lg border border-border/60 bg-background px-3 py-2 text-sm"
-                  value={icp.employee_count_max}
-                  onChange={(e) =>
-                    setIcp((s) => ({ ...s, employee_count_max: Number(e.target.value) || 0 }))
-                  }
-                />
-              </div>
-            </FilterRow>
-            <FilterRow label="Industry">
-              <ChipMulti
-                options={INDUSTRY_OPTIONS}
-                selected={icp.industries}
-                onChange={(industries) => setIcp((s) => ({ ...s, industries }))}
-              />
-            </FilterRow>
-            <FilterRow label="Type">
-              <ChipMulti
-                options={TYPE_OPTIONS.map((t) => t.id)}
-                selected={icp.company_types}
-                onChange={(company_types) => setIcp((s) => ({ ...s, company_types }))}
-              />
-            </FilterRow>
-            <FilterRow label="Headquarters">
-              <ChipMulti
-                options={CITY_OPTIONS}
-                selected={icp.headquarters_cities}
-                onChange={(headquarters_cities) => setIcp((s) => ({ ...s, headquarters_cities }))}
-              />
-              <p className="mt-2 text-[11px] text-muted-foreground">Country: India (preset)</p>
-            </FilterRow>
-            <FilterRow label="Specialties">
-              <ChipMulti
-                options={INDUSTRY_OPTIONS}
-                selected={icp.specialties}
-                onChange={(specialties) => setIcp((s) => ({ ...s, specialties }))}
-              />
-            </FilterRow>
-            <FilterRow label="Year founded">
-              <div className="flex items-center gap-2">
-                <input
-                  type="number"
-                  className="w-full rounded-lg border border-border/60 bg-background px-3 py-2 text-sm"
-                  value={icp.year_founded_min}
-                  onChange={(e) =>
-                    setIcp((s) => ({ ...s, year_founded_min: Number(e.target.value) || 2000 }))
-                  }
-                />
-                <span className="text-xs text-muted-foreground">to</span>
-                <input
-                  type="number"
-                  className="w-full rounded-lg border border-border/60 bg-background px-3 py-2 text-sm"
-                  value={icp.year_founded_max}
-                  onChange={(e) =>
-                    setIcp((s) => ({ ...s, year_founded_max: Number(e.target.value) || 2026 }))
-                  }
-                />
-              </div>
-            </FilterRow>
-            <FilterRow label="Technologies">
-              <ChipMulti
-                options={TECH_OPTIONS}
-                selected={icp.technology_stack}
-                onChange={(technology_stack) => setIcp((s) => ({ ...s, technology_stack }))}
-              />
-            </FilterRow>
+            {product === "cybersecurity" ? (
+              <>
+                <FilterRow label="Service Needs">
+                  <ChipMulti
+                    options={CYB_SERVICE_OPTIONS}
+                    selected={icp.specialties}
+                    onChange={(specialties) => setIcp((s) => ({ ...s, specialties }))}
+                  />
+                </FilterRow>
+                <FilterRow label="Industry">
+                  <ChipMulti
+                    options={CYB_INDUSTRY_OPTIONS}
+                    selected={icp.industries}
+                    onChange={(industries) => setIcp((s) => ({ ...s, industries }))}
+                  />
+                </FilterRow>
+                <FilterRow label="Geography (Tier 1)">
+                  <ChipMulti
+                    options={CYB_GEO_TIER1}
+                    selected={icp.countries}
+                    onChange={(countries) => setIcp((s) => ({ ...s, countries }))}
+                  />
+                </FilterRow>
+                <FilterRow label="Geography (Tier 2)">
+                  <ChipMulti
+                    options={CYB_GEO_TIER2}
+                    selected={icp.countries.filter((c) => CYB_GEO_TIER2.includes(c))}
+                    onChange={(t2) => {
+                      const t1 = icp.countries.filter((c) => CYB_GEO_TIER1.includes(c));
+                      setIcp((s) => ({ ...s, countries: [...t1, ...t2] }));
+                    }}
+                  />
+                </FilterRow>
+                <FilterRow label="Company Size">
+                  <div className="flex items-center gap-2">
+                    <input
+                      type="number"
+                      className="w-full rounded-lg border border-border/60 bg-background px-3 py-2 text-sm"
+                      value={icp.employee_count_min}
+                      onChange={(e) =>
+                        setIcp((s) => ({ ...s, employee_count_min: Number(e.target.value) || 0 }))
+                      }
+                    />
+                    <span className="text-xs text-muted-foreground">to</span>
+                    <input
+                      type="number"
+                      className="w-full rounded-lg border border-border/60 bg-background px-3 py-2 text-sm"
+                      value={icp.employee_count_max}
+                      onChange={(e) =>
+                        setIcp((s) => ({ ...s, employee_count_max: Number(e.target.value) || 0 }))
+                      }
+                    />
+                  </div>
+                </FilterRow>
+                <FilterRow label="Company Name">
+                  <input
+                    className="w-full rounded-lg border border-border/60 bg-background px-3 py-2 text-sm"
+                    value={icp.company_name_contains}
+                    onChange={(e) => setIcp((s) => ({ ...s, company_name_contains: e.target.value }))}
+                    placeholder="Contains…"
+                  />
+                </FilterRow>
+              </>
+            ) : (
+              <>
+                <FilterRow label="Lists">
+                  <input
+                    className="w-full rounded-lg border border-border/60 bg-background px-3 py-2 text-sm"
+                    value={icp.lists.join(", ")}
+                    onChange={(e) =>
+                      setIcp((s) => ({
+                        ...s,
+                        lists: e.target.value
+                          .split(",")
+                          .map((x) => x.trim())
+                          .filter(Boolean),
+                      }))
+                    }
+                    placeholder="Saved ICP list names"
+                  />
+                </FilterRow>
+                <FilterRow label="Company Name">
+                  <input
+                    className="w-full rounded-lg border border-border/60 bg-background px-3 py-2 text-sm"
+                    value={icp.company_name_contains}
+                    onChange={(e) => setIcp((s) => ({ ...s, company_name_contains: e.target.value }))}
+                    placeholder="Contains…"
+                  />
+                </FilterRow>
+                <FilterRow label="Domain">
+                  <input
+                    className="w-full rounded-lg border border-border/60 bg-background px-3 py-2 text-sm"
+                    value={icp.domains}
+                    onChange={(e) => setIcp((s) => ({ ...s, domains: e.target.value }))}
+                    placeholder="brand.com, …"
+                  />
+                </FilterRow>
+                <FilterRow label="Professional Network URL">
+                  <label className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <input
+                      type="checkbox"
+                      checked={icp.linkedin_url_required}
+                      onChange={(e) => setIcp((s) => ({ ...s, linkedin_url_required: e.target.checked }))}
+                    />
+                    Prefer LinkedIn-accessible founders
+                  </label>
+                </FilterRow>
+                <FilterRow label="Headcount">
+                  <div className="flex items-center gap-2">
+                    <input
+                      type="number"
+                      className="w-full rounded-lg border border-border/60 bg-background px-3 py-2 text-sm"
+                      value={icp.employee_count_min}
+                      onChange={(e) =>
+                        setIcp((s) => ({ ...s, employee_count_min: Number(e.target.value) || 0 }))
+                      }
+                    />
+                    <span className="text-xs text-muted-foreground">to</span>
+                    <input
+                      type="number"
+                      className="w-full rounded-lg border border-border/60 bg-background px-3 py-2 text-sm"
+                      value={icp.employee_count_max}
+                      onChange={(e) =>
+                        setIcp((s) => ({ ...s, employee_count_max: Number(e.target.value) || 0 }))
+                      }
+                    />
+                  </div>
+                </FilterRow>
+                <FilterRow label="Industry">
+                  <ChipMulti
+                    options={INDUSTRY_OPTIONS}
+                    selected={icp.industries}
+                    onChange={(industries) => setIcp((s) => ({ ...s, industries }))}
+                  />
+                </FilterRow>
+                <FilterRow label="Type">
+                  <ChipMulti
+                    options={TYPE_OPTIONS.map((t) => t.id)}
+                    selected={icp.company_types}
+                    onChange={(company_types) => setIcp((s) => ({ ...s, company_types }))}
+                  />
+                </FilterRow>
+                <FilterRow label="Headquarters">
+                  <ChipMulti
+                    options={CITY_OPTIONS}
+                    selected={icp.headquarters_cities}
+                    onChange={(headquarters_cities) => setIcp((s) => ({ ...s, headquarters_cities }))}
+                  />
+                  <p className="mt-2 text-[11px] text-muted-foreground">Country: India (preset)</p>
+                </FilterRow>
+                <FilterRow label="Specialties">
+                  <ChipMulti
+                    options={INDUSTRY_OPTIONS}
+                    selected={icp.specialties}
+                    onChange={(specialties) => setIcp((s) => ({ ...s, specialties }))}
+                  />
+                </FilterRow>
+                <FilterRow label="Year founded">
+                  <div className="flex items-center gap-2">
+                    <input
+                      type="number"
+                      className="w-full rounded-lg border border-border/60 bg-background px-3 py-2 text-sm"
+                      value={icp.year_founded_min}
+                      onChange={(e) =>
+                        setIcp((s) => ({ ...s, year_founded_min: Number(e.target.value) || 2000 }))
+                      }
+                    />
+                    <span className="text-xs text-muted-foreground">to</span>
+                    <input
+                      type="number"
+                      className="w-full rounded-lg border border-border/60 bg-background px-3 py-2 text-sm"
+                      value={icp.year_founded_max}
+                      onChange={(e) =>
+                        setIcp((s) => ({ ...s, year_founded_max: Number(e.target.value) || 2026 }))
+                      }
+                    />
+                  </div>
+                </FilterRow>
+                <FilterRow label="Technologies">
+                  <ChipMulti
+                    options={TECH_OPTIONS}
+                    selected={icp.technology_stack}
+                    onChange={(technology_stack) => setIcp((s) => ({ ...s, technology_stack }))}
+                  />
+                </FilterRow>
+              </>
+            )}
           </CardContent>
         </Card>
 
@@ -783,9 +898,13 @@ export function LeadEngineWorkspace() {
             <CardHeader className="pb-2">
               <div className="flex items-center justify-between gap-3">
                 <div>
-                  <CardTitle className="text-base">High-intent leads</CardTitle>
+                  <CardTitle className="text-base">
+                    {product === "cybersecurity" ? "Cybersecurity Leads" : "High-intent leads"}
+                  </CardTitle>
                   <CardDescription>
-                    Mid D2C · ICP-strict · strong signals (not FAQ-only) · Premkala drafts
+                    {product === "cybersecurity"
+                      ? "Companies with active cybersecurity buying signals · P0/P1 priority · verified contacts"
+                      : "Mid D2C · ICP-strict · strong signals (not FAQ-only) · Premkala drafts"}
                   </CardDescription>
                 </div>
                 {leads.length > 0 ? (
@@ -832,11 +951,23 @@ export function LeadEngineWorkspace() {
                       <tr className="border-b border-border/50">
                         <th className="py-2 pr-2" />
                         <th className="py-2 pr-3">Company</th>
-                        <th className="py-2 pr-3">Founder</th>
-                        <th className="py-2 pr-3">Email</th>
-                        <th className="py-2 pr-3">Phone</th>
-                        <th className="py-2 pr-3">Score</th>
-                        <th className="py-2">Evidence</th>
+                        {product === "cybersecurity" ? (
+                          <>
+                            <th className="py-2 pr-3">Priority</th>
+                            <th className="py-2 pr-3">Contact</th>
+                            <th className="py-2 pr-3">Services</th>
+                            <th className="py-2 pr-3">Score</th>
+                            <th className="py-2">Evidence</th>
+                          </>
+                        ) : (
+                          <>
+                            <th className="py-2 pr-3">Founder</th>
+                            <th className="py-2 pr-3">Email</th>
+                            <th className="py-2 pr-3">Phone</th>
+                            <th className="py-2 pr-3">Score</th>
+                            <th className="py-2">Evidence</th>
+                          </>
+                        )}
                       </tr>
                     </thead>
                     <tbody>
@@ -865,36 +996,72 @@ export function LeadEngineWorkspace() {
                                 {lead.city ? ` · ${lead.city}` : ""}
                               </div>
                             </td>
-                            <td className="py-2.5 pr-3">{lead.founder_name || "—"}</td>
-                            <td className="py-2.5 pr-3 font-mono text-xs">{lead.email}</td>
-                            <td className="py-2.5 pr-3 text-xs">{lead.phone || "—"}</td>
-                            <td className="py-2.5 pr-3">
-                              <Badge variant="outline">{lead.intent_score ?? "—"}</Badge>
-                              <div className="mt-1 text-[10px] text-muted-foreground">{lead.grade}</div>
-                              {lead.already_contacted ? (
-                                <div className="mt-1 text-[10px] text-amber-500">already contacted</div>
-                              ) : null}
-                            </td>
-                            <td className="py-2.5">
-                              <div className="max-w-[220px] text-xs text-muted-foreground line-clamp-2">
-                                {lead.why || lead.signal || "—"}
-                              </div>
-                              {lead.subject ? (
-                                <button
-                                  type="button"
-                                  className="mt-1 text-[11px] text-primary hover:underline"
-                                  onClick={() =>
-                                    setPreview({
-                                      subject: lead.subject!,
-                                      body: lead.body || "",
-                                      company: lead.company,
-                                    })
-                                  }
-                                >
-                                  Preview draft
-                                </button>
-                              ) : null}
-                            </td>
+                            {product === "cybersecurity" ? (
+                              <>
+                                <td className="py-2.5 pr-3">
+                                  <Badge variant="outline" className={cn(
+                                    "text-[10px]",
+                                    lead.signal?.includes("ACTIVE") ? "border-red-500/40 text-red-500" :
+                                    lead.signal?.includes("VERIFIED") ? "border-yellow-500/40 text-yellow-500" :
+                                    "border-blue-500/40 text-blue-500",
+                                  )}>
+                                    {lead.signal || lead.grade || "—"}
+                                  </Badge>
+                                </td>
+                                <td className="py-2.5 pr-3">
+                                  <div className="text-sm">{lead.founder_name || "—"}</div>
+                                  <div className="text-xs text-muted-foreground">{lead.founder_role || ""}</div>
+                                  <div className="font-mono text-xs text-muted-foreground">{lead.email}</div>
+                                </td>
+                                <td className="py-2.5 pr-3">
+                                  <div className="max-w-[160px] text-xs text-muted-foreground line-clamp-2">
+                                    {lead.why || "—"}
+                                  </div>
+                                </td>
+                                <td className="py-2.5 pr-3">
+                                  <Badge variant="outline">{lead.intent_score ?? "—"}</Badge>
+                                  <div className="mt-1 text-[10px] text-muted-foreground">{lead.grade}</div>
+                                </td>
+                                <td className="py-2.5">
+                                  <div className="max-w-[220px] text-xs text-muted-foreground line-clamp-2">
+                                    {lead.signal || "—"}
+                                  </div>
+                                </td>
+                              </>
+                            ) : (
+                              <>
+                                <td className="py-2.5 pr-3">{lead.founder_name || "—"}</td>
+                                <td className="py-2.5 pr-3 font-mono text-xs">{lead.email}</td>
+                                <td className="py-2.5 pr-3 text-xs">{lead.phone || "—"}</td>
+                                <td className="py-2.5 pr-3">
+                                  <Badge variant="outline">{lead.intent_score ?? "—"}</Badge>
+                                  <div className="mt-1 text-[10px] text-muted-foreground">{lead.grade}</div>
+                                  {lead.already_contacted ? (
+                                    <div className="mt-1 text-[10px] text-amber-500">already contacted</div>
+                                  ) : null}
+                                </td>
+                                <td className="py-2.5">
+                                  <div className="max-w-[220px] text-xs text-muted-foreground line-clamp-2">
+                                    {lead.why || lead.signal || "—"}
+                                  </div>
+                                  {lead.subject ? (
+                                    <button
+                                      type="button"
+                                      className="mt-1 text-[11px] text-primary hover:underline"
+                                      onClick={() =>
+                                        setPreview({
+                                          subject: lead.subject!,
+                                          body: lead.body || "",
+                                          company: lead.company,
+                                        })
+                                      }
+                                    >
+                                      Preview draft
+                                    </button>
+                                  ) : null}
+                                </td>
+                              </>
+                            )}
                           </tr>
                         );
                       })}
@@ -946,5 +1113,79 @@ export function LeadEngineWorkspace() {
         </div>
       ) : null}
     </div>
+  );
+}
+
+function MegaExtractionStatus() {
+  const [status, setStatus] = useState<{
+    active: boolean;
+    schedule: string;
+    seen_domains: number;
+    total_mega_extracted: number;
+    last_extraction: string;
+  } | null>(null);
+
+  useEffect(() => {
+    const fetchStatus = async () => {
+      try {
+        const res = await fetch("/api/v1/unified-leads/extraction-status");
+        if (res.ok) setStatus(await res.json());
+      } catch (e) {
+        console.error("Failed to fetch extraction status", e);
+      }
+    };
+    fetchStatus();
+    const interval = setInterval(fetchStatus, 10000);
+    return () => clearInterval(interval);
+  }, []);
+
+  if (!status) return null;
+
+  return (
+    <Card className="border-border/60 bg-card/50">
+      <CardHeader className="pb-2">
+        <div className="flex items-center gap-2">
+          <Clock className="h-4 w-4 text-muted-foreground" />
+          <CardTitle className="text-sm font-semibold uppercase tracking-wide">
+            Automated Mega Extraction
+          </CardTitle>
+          {status.active && (
+            <span className="ml-2 flex items-center gap-1.5 rounded-full bg-emerald-500/15 px-2 py-0.5 text-[10px] text-emerald-400">
+              <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" />
+              ACTIVE
+            </span>
+          )}
+        </div>
+        <CardDescription>
+          Runs every 20 minutes · Extracts CMO/CTO/VC/Founder decision makers
+        </CardDescription>
+      </CardHeader>
+      <CardContent>
+        <div className="flex flex-wrap gap-4 text-sm">
+          <div>
+            <span className="text-muted-foreground">Schedule: </span>
+            <span className="font-medium">{status.schedule}</span>
+          </div>
+          <div>
+            <span className="text-muted-foreground">Seen domains: </span>
+            <span className="font-medium">{status.seen_domains}</span>
+          </div>
+          <div>
+            <span className="text-muted-foreground">Extracted: </span>
+            <span className="font-medium text-emerald-400">
+              {status.total_mega_extracted}
+            </span>
+          </div>
+          {status.last_extraction && (
+            <div>
+              <span className="text-muted-foreground">Last run: </span>
+              <span className="font-medium">
+                {new Date(status.last_extraction).toLocaleString()}
+              </span>
+            </div>
+          )}
+        </div>
+      </CardContent>
+    </Card>
   );
 }

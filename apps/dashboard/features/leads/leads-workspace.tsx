@@ -1,137 +1,242 @@
 "use client";
 
-import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import { useCallback, useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Download, Filter, RefreshCw, Search, X, Zap } from "lucide-react";
+import {
+  ArrowRight,
+  Calendar,
+  Download,
+  Filter,
+  Phone,
+  Mail,
+  RefreshCw,
+  Search,
+  User,
+  X,
+  Zap,
+} from "lucide-react";
 import Link from "next/link";
-import { useMemo, useState } from "react";
 
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { Skeleton } from "@/components/ui/skeleton";
-import { beaconApi } from "@/lib/api/beacon";
-import { cn, formatScore } from "@/lib/utils";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
 
-type LeadFilters = {
+type Lead = {
+  id: string;
+  company_name: string;
+  founder_name: string;
+  decision_maker_role: string;
+  email: string;
+  phone: string;
+  website: string;
+  domain: string;
+  platform: string;
+  category: string;
   industry: string;
+  city: string;
   country: string;
-  score: string;
+  lead_priority: string;
+  comai_score: number;
+  sales_reason: string;
   source: string;
-  search: string;
+  linkedin_url: string;
+  created_at: string;
+  stage: string;
 };
 
-const INDUSTRIES = ["All", "fashion", "beauty", "jewellery", "lifestyle", "food", "home"];
-const COUNTRIES = ["All", "India"];
-const SCORES = ["All", "Hot (90-100)", "Warm (70-89)", "Cool (50-69)"];
-const SOURCES = ["All", "live_verified_enrichment", "lead_engine"];
+type Stats = {
+  total: number;
+  with_phone: number;
+  with_email: number;
+  with_both: number;
+  hot: number;
+  warm: number;
+  low: number;
+  with_founder: number;
+  with_role: number;
+  avg_score: number;
+};
+
+const CATEGORIES = [
+  "All",
+  "fashion",
+  "beauty",
+  "jewellery",
+  "food",
+  "home",
+  "electronics",
+  "health",
+];
+const PRIORITIES = ["All", "HOT", "WARM", "LOW"];
+const SOURCES = ["All", "mega_extraction", "import"];
+
+function priorityColor(priority: string) {
+  switch (priority) {
+    case "HOT":
+      return "bg-emerald-500/15 text-emerald-400 border-emerald-500/30";
+    case "WARM":
+      return "bg-amber-500/15 text-amber-400 border-amber-500/30";
+    default:
+      return "bg-slate-500/15 text-slate-400 border-slate-500/30";
+  }
+}
+
+function roleIcon(role: string) {
+  const r = role.toUpperCase();
+  if (r.includes("FOUNDER") || r.includes("CEO"))
+    return <User className="h-3 w-3 text-emerald-400" />;
+  if (r.includes("CTO") || r.includes("CMO") || r.includes("CFO"))
+    return <Zap className="h-3 w-3 text-amber-400" />;
+  return <User className="h-3 w-3 text-muted-foreground" />;
+}
 
 export function LeadsWorkspace() {
-  const queryClient = useQueryClient();
-  const [filters, setFilters] = useState<LeadFilters>({
-    industry: "All",
-    country: "All",
-    score: "All",
-    source: "All",
-    search: "",
-  });
-  const [page, setPage] = useState(1);
-  const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
-  const limit = 20;
+  const [leads, setLeads] = useState<Lead[]>([]);
+  const [stats, setStats] = useState<Stats | null>(null);
+  const [total, setTotal] = useState(0);
+  const [loading, setLoading] = useState(true);
+  const [search, setSearch] = useState("");
+  const [categoryFilter, setCategoryFilter] = useState("All");
+  const [priorityFilter, setPriorityFilter] = useState("All");
+  const [sourceFilter, setSourceFilter] = useState("All");
+  const [page, setPage] = useState(0);
+  const pageSize = 25;
 
-  const { data, isLoading } = useQuery({
-    queryKey: ["workspace-leads", filters.search],
-    queryFn: () => beaconApi.workspaceLeads({ limit: 300, search: filters.search || undefined }),
-    refetchInterval: 20_000,
-  });
+  const fetchLeads = useCallback(async () => {
+    setLoading(true);
+    try {
+      const params = new URLSearchParams();
+      params.set("limit", "500");
+      if (search) params.set("search", search);
+      if (categoryFilter !== "All") params.set("category", categoryFilter);
+      if (priorityFilter !== "All") params.set("priority", priorityFilter);
+      if (sourceFilter !== "All") params.set("source", sourceFilter);
 
-  const syncMutation = useMutation({
-    mutationFn: () => beaconApi.workspaceSync(),
-    onSuccess: () => {
-      void queryClient.invalidateQueries({ queryKey: ["workspace-leads"] });
-      void queryClient.invalidateQueries({ queryKey: ["workspace-overview"] });
-    },
-  });
-
-  const moveMutation = useMutation({
-    mutationFn: async (stage: string) => {
-      await Promise.all([...selectedIds].map((id) => beaconApi.workspaceSetStage(id, stage)));
-    },
-    onSuccess: () => {
-      setSelectedIds(new Set());
-      void queryClient.invalidateQueries({ queryKey: ["workspace-leads"] });
-      void queryClient.invalidateQueries({ queryKey: ["workspace-overview"] });
-    },
-  });
-
-  const leads = useMemo(() => {
-    const items = ((data as Record<string, unknown>)?.items as Array<Record<string, unknown>>) || [];
-    return items.filter((lead) => {
-      if (filters.industry !== "All") {
-        const ind = String(lead.industry || lead.category || "").toLowerCase();
-        if (!ind.includes(filters.industry.toLowerCase())) return false;
+      const res = await fetch(`/api/v1/unified-leads/all?${params}`);
+      if (res.ok) {
+        const data = await res.json();
+        setLeads(data.leads);
+        setTotal(data.total);
+        setStats(data.stats);
       }
-      if (filters.country !== "All" && String(lead.country || "") !== filters.country) return false;
-      if (filters.source !== "All" && String(lead.source || "") !== filters.source) return false;
-      if (filters.score !== "All") {
-        const score = Number(lead.score || lead.intent_score || 0);
-        if (filters.score === "Hot (90-100)" && (score < 90 || score > 100)) return false;
-        if (filters.score === "Warm (70-89)" && (score < 70 || score > 89)) return false;
-        if (filters.score === "Cool (50-69)" && (score < 50 || score > 69)) return false;
-      }
-      return true;
-    });
-  }, [data, filters]);
+    } catch (e) {
+      console.error("Failed to fetch leads", e);
+    }
+    setLoading(false);
+  }, [search, categoryFilter, priorityFilter, sourceFilter]);
 
-  const total = leads.length;
-  const paginatedLeads = leads.slice((page - 1) * limit, page * limit);
-  const totalPages = Math.max(1, Math.ceil(total / limit));
+  useEffect(() => {
+    fetchLeads();
+    const interval = setInterval(fetchLeads, 30000);
+    return () => clearInterval(interval);
+  }, [fetchLeads]);
 
-  const toggleSelectAll = () => {
-    if (selectedIds.size === paginatedLeads.length) setSelectedIds(new Set());
-    else setSelectedIds(new Set(paginatedLeads.map((l) => String(l.id))));
+  const filteredLeads = leads;
+  const paginatedLeads = filteredLeads.slice(
+    page * pageSize,
+    (page + 1) * pageSize
+  );
+  const totalPages = Math.max(1, Math.ceil(filteredLeads.length / pageSize));
+
+  const handleExport = () => {
+    window.open("/api/v1/ecommerce/export", "_blank");
   };
-
-  const clearFilters = () => {
-    setFilters({ industry: "All", country: "All", score: "All", source: "All", search: "" });
-    setPage(1);
-  };
-
-  const hasActiveFilters =
-    filters.industry !== "All" ||
-    filters.country !== "All" ||
-    filters.score !== "All" ||
-    filters.source !== "All" ||
-    filters.search !== "";
-
-  if (isLoading) return <Skeleton className="h-96 w-full" />;
 
   return (
-    <div className="mx-auto max-w-[1400px] space-y-6">
-      <div className="flex flex-wrap items-center justify-between gap-4">
+    <div className="space-y-6">
+      <div className="flex items-center justify-between">
         <div>
-          <h1 className="font-display text-2xl font-semibold">Leads</h1>
-          <p className="text-sm text-muted-foreground">{total} Lead Engine leads ready for outreach</p>
+          <h1 className="text-2xl font-bold tracking-tight">All Leads</h1>
+          <p className="text-muted-foreground">
+            {total} leads tracked across the entire pipeline
+          </p>
         </div>
         <div className="flex gap-2">
-          <Button variant="outline" onClick={() => syncMutation.mutate()} disabled={syncMutation.isPending}>
-            <RefreshCw className={cn("mr-2 h-4 w-4", syncMutation.isPending && "animate-spin")} />
-            Sync from Engine
+          <Button variant="outline" size="sm" onClick={fetchLeads}>
+            <RefreshCw className="mr-2 h-4 w-4" />
+            Refresh
           </Button>
-          <Button asChild>
+          <Button variant="outline" size="sm" onClick={handleExport}>
+            <Download className="mr-2 h-4 w-4" />
+            Export XLSX
+          </Button>
+          <Button size="sm" asChild>
             <Link href="/lead-engine">
               <Zap className="mr-2 h-4 w-4" />
-              Open Lead Engine
+              Lead Engine
             </Link>
-          </Button>
-          <Button variant="outline" size="sm" asChild>
-            <a href="/api/v1/lead-engine/pool?limit=100" target="_blank" rel="noreferrer">
-              <Download className="mr-2 h-4 w-4" />
-              Export Pool
-            </a>
           </Button>
         </div>
       </div>
+
+      {stats && (
+        <div className="grid gap-4 md:grid-cols-5">
+          <Card>
+            <CardContent className="p-4">
+              <p className="text-[11px] uppercase tracking-wider text-muted-foreground">
+                Total Leads
+              </p>
+              <p className="mt-1 text-2xl font-bold">{stats.total}</p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="p-4">
+              <p className="text-[11px] uppercase tracking-wider text-emerald-500">
+                With Phone
+              </p>
+              <p className="mt-1 text-2xl font-bold text-emerald-400">
+                {stats.with_phone}
+              </p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="p-4">
+              <p className="text-[11px] uppercase tracking-wider text-blue-500">
+                With Email
+              </p>
+              <p className="mt-1 text-2xl font-bold text-blue-400">
+                {stats.with_email}
+              </p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="p-4">
+              <p className="text-[11px] uppercase tracking-wider text-amber-500">
+                Decision Makers
+              </p>
+              <p className="mt-1 text-2xl font-bold text-amber-400">
+                {stats.with_role}
+              </p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="p-4">
+              <p className="text-[11px] uppercase tracking-wider text-purple-500">
+                Avg Score
+              </p>
+              <p className="mt-1 text-2xl font-bold text-purple-400">
+                {stats.avg_score}
+              </p>
+            </CardContent>
+          </Card>
+        </div>
+      )}
 
       <Card>
         <CardContent className="p-4">
@@ -143,133 +248,189 @@ export function LeadsWorkspace() {
             <div className="relative flex-1 sm:max-w-xs">
               <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
               <Input
-                placeholder="Search leads..."
-                value={filters.search}
+                placeholder="Search company, founder, email..."
+                value={search}
                 onChange={(e) => {
-                  setFilters({ ...filters, search: e.target.value });
-                  setPage(1);
+                  setSearch(e.target.value);
+                  setPage(0);
                 }}
                 className="h-9 pl-9"
               />
             </div>
-            {(
-              [
-                ["industry", INDUSTRIES],
-                ["country", COUNTRIES],
-                ["score", SCORES],
-                ["source", SOURCES],
-              ] as const
-            ).map(([key, opts]) => (
-              <select
-                key={key}
-                value={filters[key]}
-                onChange={(e) => {
-                  setFilters({ ...filters, [key]: e.target.value });
-                  setPage(1);
-                }}
-                className="h-9 rounded-md border border-border bg-card px-3 text-sm"
-              >
-                {opts.map((o) => (
-                  <option key={o} value={o}>
-                    {key[0].toUpperCase() + key.slice(1)}: {o}
-                  </option>
+            <Select
+              value={categoryFilter}
+              onValueChange={(v) => {
+                setCategoryFilter(v);
+                setPage(0);
+              }}
+            >
+              <SelectTrigger className="w-[140px]">
+                <SelectValue placeholder="Category" />
+              </SelectTrigger>
+              <SelectContent>
+                {CATEGORIES.map((c) => (
+                  <SelectItem key={c} value={c}>
+                    {c === "All" ? "All Categories" : c}
+                  </SelectItem>
                 ))}
-              </select>
-            ))}
-            {hasActiveFilters && (
-              <Button variant="ghost" size="sm" onClick={clearFilters}>
-                <X className="mr-1 h-4 w-4" />
-                Clear
-              </Button>
-            )}
+              </SelectContent>
+            </Select>
+            <Select
+              value={priorityFilter}
+              onValueChange={(v) => {
+                setPriorityFilter(v);
+                setPage(0);
+              }}
+            >
+              <SelectTrigger className="w-[140px]">
+                <SelectValue placeholder="Priority" />
+              </SelectTrigger>
+              <SelectContent>
+                {PRIORITIES.map((p) => (
+                  <SelectItem key={p} value={p}>
+                    {p === "All" ? "All Priorities" : p}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+            <Select
+              value={sourceFilter}
+              onValueChange={(v) => {
+                setSourceFilter(v);
+                setPage(0);
+              }}
+            >
+              <SelectTrigger className="w-[160px]">
+                <SelectValue placeholder="Source" />
+              </SelectTrigger>
+              <SelectContent>
+                {SOURCES.map((s) => (
+                  <SelectItem key={s} value={s}>
+                    {s === "All" ? "All Sources" : s.replace("_", " ")}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
           </div>
         </CardContent>
       </Card>
 
-      {selectedIds.size > 0 && (
-        <motion.div
-          initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="flex items-center gap-3 rounded-lg border border-primary/30 bg-primary/5 p-3"
-        >
-          <span className="text-sm font-medium">{selectedIds.size} selected</span>
-          <Button size="sm" onClick={() => moveMutation.mutate("contacted")} disabled={moveMutation.isPending}>
-            Mark Contacted
-          </Button>
-          <Button size="sm" variant="outline" onClick={() => moveMutation.mutate("lost")}>
-            Reject
-          </Button>
-          <Button size="sm" variant="ghost" onClick={() => setSelectedIds(new Set())}>
-            Cancel
-          </Button>
-        </motion.div>
-      )}
-
       <Card>
         <CardContent className="p-0">
-          {paginatedLeads.length === 0 ? (
-            <div className="p-8 text-center">
-              <Search className="mx-auto h-12 w-12 text-muted-foreground/50" />
-              <p className="mt-4 text-muted-foreground">No leads found. Run Lead Engine or Sync from Engine.</p>
+          {loading ? (
+            <div className="p-8 text-center text-muted-foreground">
+              Loading leads...
+            </div>
+          ) : paginatedLeads.length === 0 ? (
+            <div className="p-8 text-center text-muted-foreground">
+              No leads found.
             </div>
           ) : (
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead className="border-b border-border/60 bg-muted/30 text-left text-[11px] uppercase tracking-[0.12em] text-muted-foreground">
                   <tr>
-                    <th className="w-10 px-4 py-3">
-                      <input
-                        type="checkbox"
-                        checked={selectedIds.size === paginatedLeads.length && paginatedLeads.length > 0}
-                        onChange={toggleSelectAll}
-                        className="rounded border-border"
-                      />
-                    </th>
                     <th className="px-4 py-3 font-medium">Company</th>
-                    <th className="px-4 py-3 font-medium">Industry</th>
-                    <th className="px-4 py-3 font-medium">Country</th>
+                    <th className="px-4 py-3 font-medium">Founder</th>
+                    <th className="px-4 py-3 font-medium">Role</th>
+                    <th className="px-4 py-3 font-medium">Phone</th>
                     <th className="px-4 py-3 font-medium">Email</th>
+                    <th className="px-4 py-3 font-medium">Category</th>
+                    <th className="px-4 py-3 font-medium">City</th>
                     <th className="px-4 py-3 font-medium">Score</th>
-                    <th className="px-4 py-3 font-medium">Stage</th>
-                    <th className="w-10 px-4 py-3"></th>
+                    <th className="px-4 py-3 font-medium">Priority</th>
+                    <th className="px-4 py-3 font-medium">Reason</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {paginatedLeads.map((lead, idx) => {
-                    const leadId = String(lead.id || idx);
-                    return (
-                      <tr key={leadId} className="border-b border-border/40 hover:bg-muted/20">
-                        <td className="px-4 py-3">
-                          <input
-                            type="checkbox"
-                            checked={selectedIds.has(leadId)}
-                            onChange={() => {
-                              const next = new Set(selectedIds);
-                              if (next.has(leadId)) next.delete(leadId);
-                              else next.add(leadId);
-                              setSelectedIds(next);
-                            }}
-                            className="rounded border-border"
-                          />
-                        </td>
-                        <td className="px-4 py-3 font-medium">{String(lead.company_name || "Unknown")}</td>
-                        <td className="px-4 py-3 text-muted-foreground">{String(lead.industry || "—")}</td>
-                        <td className="px-4 py-3 text-muted-foreground">{String(lead.country || "—")}</td>
-                        <td className="px-4 py-3 text-muted-foreground">{String(lead.email || "—")}</td>
-                        <td className="px-4 py-3">
-                          <span className="rounded-full bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary">
-                            {formatScore(Number(lead.intent_score || lead.score || 0), 0)}
-                          </span>
-                        </td>
-                        <td className="px-4 py-3 capitalize text-muted-foreground">{String(lead.stage || "new")}</td>
-                        <td className="px-4 py-3">
-                          <Link href={`/leads/${leadId}`} className="text-primary hover:underline">
-                            <ArrowRight className="h-4 w-4" />
-                          </Link>
-                        </td>
-                      </tr>
-                    );
-                  })}
+                  {paginatedLeads.map((lead, idx) => (
+                    <motion.tr
+                      key={lead.id}
+                      initial={{ opacity: 0, y: 5 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.01 * idx }}
+                      className="border-b border-border/40 hover:bg-muted/20"
+                    >
+                      <td className="px-4 py-3 font-medium">
+                        <div>{lead.company_name}</div>
+                        {lead.website && (
+                          <a
+                            href={lead.website}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-[11px] text-blue-400 hover:underline"
+                          >
+                            {lead.domain || lead.website.slice(0, 30)}
+                          </a>
+                        )}
+                      </td>
+                      <td className="px-4 py-3">
+                        {lead.founder_name || (
+                          <span className="text-muted-foreground">—</span>
+                        )}
+                      </td>
+                      <td className="px-4 py-3">
+                        {lead.decision_maker_role ? (
+                          <div className="flex items-center gap-1.5">
+                            {roleIcon(lead.decision_maker_role)}
+                            <span className="text-xs">
+                              {lead.decision_maker_role}
+                            </span>
+                          </div>
+                        ) : (
+                          <span className="text-muted-foreground">—</span>
+                        )}
+                      </td>
+                      <td className="px-4 py-3">
+                        {lead.phone ? (
+                          <div className="flex items-center gap-1.5">
+                            <Phone className="h-3 w-3 text-emerald-400" />
+                            <span className="font-mono text-xs">
+                              {lead.phone}
+                            </span>
+                          </div>
+                        ) : (
+                          <span className="text-muted-foreground">—</span>
+                        )}
+                      </td>
+                      <td className="px-4 py-3">
+                        {lead.email ? (
+                          <div className="flex items-center gap-1.5">
+                            <Mail className="h-3 w-3 text-blue-400" />
+                            <span className="font-mono text-xs">
+                              {lead.email}
+                            </span>
+                          </div>
+                        ) : (
+                          <span className="text-muted-foreground">—</span>
+                        )}
+                      </td>
+                      <td className="px-4 py-3">
+                        <Badge variant="outline" className="text-xs">
+                          {lead.category || "—"}
+                        </Badge>
+                      </td>
+                      <td className="px-4 py-3 text-muted-foreground">
+                        {lead.city || "—"}
+                      </td>
+                      <td className="px-4 py-3">
+                        <span className="rounded-full bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary">
+                          {lead.comai_score.toFixed(0)}
+                        </span>
+                      </td>
+                      <td className="px-4 py-3">
+                        <Badge
+                          variant="outline"
+                          className={`text-xs ${priorityColor(lead.lead_priority)}`}
+                        >
+                          {lead.lead_priority}
+                        </Badge>
+                      </td>
+                      <td className="max-w-[200px] truncate px-4 py-3 text-xs text-muted-foreground">
+                        {lead.sales_reason}
+                      </td>
+                    </motion.tr>
+                  ))}
                 </tbody>
               </table>
             </div>
@@ -278,16 +439,30 @@ export function LeadsWorkspace() {
       </Card>
 
       {totalPages > 1 && (
-        <div className="flex items-center justify-center gap-2">
-          <Button variant="outline" size="sm" disabled={page <= 1} onClick={() => setPage((p) => p - 1)}>
-            Prev
-          </Button>
-          <span className="text-sm text-muted-foreground">
-            Page {page} / {totalPages}
-          </span>
-          <Button variant="outline" size="sm" disabled={page >= totalPages} onClick={() => setPage((p) => p + 1)}>
-            Next
-          </Button>
+        <div className="flex items-center justify-between">
+          <p className="text-sm text-muted-foreground">
+            Showing {page * pageSize + 1}-
+            {Math.min((page + 1) * pageSize, filteredLeads.length)} of{" "}
+            {filteredLeads.length}
+          </p>
+          <div className="flex gap-2">
+            <Button
+              variant="outline"
+              size="sm"
+              disabled={page === 0}
+              onClick={() => setPage((p) => p - 1)}
+            >
+              Previous
+            </Button>
+            <Button
+              variant="outline"
+              size="sm"
+              disabled={page >= totalPages - 1}
+              onClick={() => setPage((p) => p + 1)}
+            >
+              Next
+            </Button>
+          </div>
         </div>
       )}
     </div>

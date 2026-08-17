@@ -9,7 +9,6 @@ import {
   Radar,
   Send,
   Settings,
-  Shield,
   Sparkles,
   Target,
   X,
@@ -22,13 +21,12 @@ import { cn } from "@/lib/utils";
 const NAV = [
   { href: "/", label: "Dashboard", icon: Home },
   { href: "/today-leads", label: "Today's Leads", icon: Calendar },
-  { href: "/leads", label: "Leads", icon: Target },
-  { href: "/cybersecurity", label: "Cybersecurity", icon: Shield},
+  { href: "/leads", label: "All Leads", icon: Target },
+  { href: "/ecommerce-leads", label: "Ecommerce Leads", icon: Building2 },
+  { href: "/pipeline", label: "Pipeline", icon: FolderKanban },
   { href: "/lead-engine", label: "Lead Engine", icon: Radar },
-  { href: "/pipeline", label: "Qualified Leads", icon: FolderKanban },
-  { href: "/universe", label: "Company Universe", icon: Building2 },
-  { href: "/outreach", label: "Outreach", icon: Send },
   { href: "/analytics", label: "Analytics", icon: BarChart3 },
+  { href: "/outreach", label: "Outreach", icon: Send },
   { href: "/settings", label: "Settings", icon: Settings },
 ] as const;
 
