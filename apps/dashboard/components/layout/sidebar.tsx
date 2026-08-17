@@ -3,11 +3,13 @@
 import {
   BarChart3,
   Building2,
+  Calendar,
   FolderKanban,
   Home,
   Radar,
   Send,
   Settings,
+  Shield,
   Sparkles,
   Target,
   X,
@@ -19,7 +21,9 @@ import { cn } from "@/lib/utils";
 
 const NAV = [
   { href: "/", label: "Dashboard", icon: Home },
+  { href: "/today-leads", label: "Today's Leads", icon: Calendar },
   { href: "/leads", label: "Leads", icon: Target },
+  { href: "/cybersecurity", label: "Cybersecurity", icon: Shield},
   { href: "/lead-engine", label: "Lead Engine", icon: Radar },
   { href: "/pipeline", label: "Qualified Leads", icon: FolderKanban },
   { href: "/universe", label: "Company Universe", icon: Building2 },
