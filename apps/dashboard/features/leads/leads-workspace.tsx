@@ -4,7 +4,8 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { motion } from "framer-motion";
 import { ArrowRight, Download, Filter, RefreshCw, Search, X, Zap } from "lucide-react";
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { useMemo, useState, useEffect } from "react";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -18,32 +19,78 @@ type LeadFilters = {
   country: string;
   score: string;
   source: string;
+  status: string;
   search: string;
 };
 
-const INDUSTRIES = ["All", "fashion", "beauty", "jewellery", "lifestyle", "food", "home"];
-const COUNTRIES = ["All", "India"];
+const INDUSTRIES = ["All", "fashion", "beauty", "jewellery", "lifestyle", "food", "home", "saas", "fintech", "software"];
+const COUNTRIES = ["All", "India", "United States", "United Kingdom", "Canada", "Australia"];
 const SCORES = ["All", "Hot (90-100)", "Warm (70-89)", "Cool (50-69)"];
-const SOURCES = ["All", "live_verified_enrichment", "lead_engine"];
+const SOURCES = ["All", "live_verified_enrichment", "lead_engine", "cyber_discovery", "comai_b2b", "inowix", "cyber"];
+
+const STATUS_CHIPS: { id: string; label: string }[] = [
+  { id: "all", label: "All" },
+  { id: "new", label: "New leads" },
+  { id: "not_contacted", label: "Not contacted" },
+  { id: "contacted", label: "Contacted" },
+  { id: "with_data", label: "With data" },
+  { id: "b2b", label: "COMAI B2B Partners" },
+  { id: "today", label: "Today's New" },
+];
 
 export function LeadsWorkspace() {
   const queryClient = useQueryClient();
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const initialStatus = searchParams.get("status") || "all";
   const [filters, setFilters] = useState<LeadFilters>({
     industry: "All",
     country: "All",
     score: "All",
     source: "All",
+    status: initialStatus,
     search: "",
   });
   const [page, setPage] = useState(1);
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const limit = 20;
 
+  const setStatus = (status: string) => {
+    setFilters({ ...filters, status });
+    setPage(1);
+    const next = new URLSearchParams(searchParams.toString());
+    if (status === "all") next.delete("status");
+    else next.set("status", status);
+    router.replace(`/leads${next.toString() ? `?${next.toString()}` : ""}`, { scroll: false });
+  };
+
+  const [partnerLeads, setPartnerLeads] = useState<Array<Record<string, unknown>>>([]);
+
   const { data, isLoading } = useQuery({
-    queryKey: ["workspace-leads", filters.search],
-    queryFn: () => beaconApi.workspaceLeads({ limit: 300, search: filters.search || undefined }),
+    queryKey: ["workspace-leads", filters.search, filters.status],
+    queryFn: async () => {
+      if (filters.status === "b2b" || filters.status === "today") {
+        return { items: [], filter_counts: {} };
+      }
+      return beaconApi.workspaceLeads({
+        limit: 300,
+        search: filters.search || undefined,
+        status: filters.status,
+      });
+    },
     refetchInterval: 20_000,
   });
+
+  useEffect(() => {
+    if (filters.status === "b2b" || filters.status === "today") {
+      fetch("/api/v1/partner-leads?limit=200")
+        .then((r) => r.json())
+        .then((d) => setPartnerLeads(d.items || []))
+        .catch(() => setPartnerLeads([]));
+    } else {
+      setPartnerLeads([]);
+    }
+  }, [filters.status]);
 
   const syncMutation = useMutation({
     mutationFn: () => beaconApi.workspaceSync(),
@@ -64,7 +111,56 @@ export function LeadsWorkspace() {
     },
   });
 
+  const filterCounts = useMemo(() => {
+    const base = (data?.filter_counts || {}) as Record<string, number>;
+    return {
+      ...base,
+      b2b: partnerLeads.length,
+      today: partnerLeads.filter((l) => {
+        const d = new Date(l.created_at as string);
+        const now = new Date();
+        return (
+          d.getFullYear() === now.getFullYear() &&
+          d.getMonth() === now.getMonth() &&
+          d.getDate() === now.getDate()
+        );
+      }).length,
+    };
+  }, [data, partnerLeads]);
+
   const leads = useMemo(() => {
+    if (filters.status === "b2b" || filters.status === "today") {
+      let items = partnerLeads.map((l) => ({
+        ...l,
+        company_name: l.agency_name,
+        industry: l.agency_type,
+        score: l.final_score,
+        stage: l.status?.toLowerCase() || "new",
+        has_contact_data: Boolean(l.email || l.phone),
+        is_b2b: true,
+      }));
+      if (filters.search) {
+        const q = filters.search.toLowerCase();
+        items = items.filter(
+          (l) =>
+            String(l.company_name || "").toLowerCase().includes(q) ||
+            String(l.city || "").toLowerCase().includes(q) ||
+            String(l.decision_maker || "").toLowerCase().includes(q)
+        );
+      }
+      if (filters.status === "today") {
+        const now = new Date();
+        items = items.filter((l) => {
+          const d = new Date(l.created_at as string);
+          return (
+            d.getFullYear() === now.getFullYear() &&
+            d.getMonth() === now.getMonth() &&
+            d.getDate() === now.getDate()
+          );
+        });
+      }
+      return items;
+    }
     const items = ((data as Record<string, unknown>)?.items as Array<Record<string, unknown>>) || [];
     return items.filter((lead) => {
       if (filters.industry !== "All") {
@@ -93,8 +189,9 @@ export function LeadsWorkspace() {
   };
 
   const clearFilters = () => {
-    setFilters({ industry: "All", country: "All", score: "All", source: "All", search: "" });
+    setFilters({ industry: "All", country: "All", score: "All", source: "All", status: "all", search: "" });
     setPage(1);
+    router.replace("/leads", { scroll: false });
   };
 
   const hasActiveFilters =
@@ -102,6 +199,7 @@ export function LeadsWorkspace() {
     filters.country !== "All" ||
     filters.score !== "All" ||
     filters.source !== "All" ||
+    filters.status !== "all" ||
     filters.search !== "";
 
   if (isLoading) return <Skeleton className="h-96 w-full" />;
@@ -111,7 +209,13 @@ export function LeadsWorkspace() {
       <div className="flex flex-wrap items-center justify-between gap-4">
         <div>
           <h1 className="font-display text-2xl font-semibold">Leads</h1>
-          <p className="text-sm text-muted-foreground">{total} Lead Engine leads ready for outreach</p>
+          <p className="text-sm text-muted-foreground">
+            {filters.status === "b2b"
+              ? `${total} COMAI B2B partner leads`
+              : filters.status === "today"
+                ? `${total} leads added today`
+                : `${total} Lead Engine leads ready for outreach`}
+          </p>
         </div>
         <div className="flex gap-2">
           <Button variant="outline" onClick={() => syncMutation.mutate()} disabled={syncMutation.isPending}>
@@ -131,6 +235,29 @@ export function LeadsWorkspace() {
             </a>
           </Button>
         </div>
+      </div>
+
+      <div className="flex flex-wrap gap-2">
+        {STATUS_CHIPS.map((chip) => {
+          const count = chip.id === "all" ? filterCounts.all : filterCounts[chip.id];
+          const active = filters.status === chip.id;
+          return (
+            <button
+              key={chip.id}
+              type="button"
+              onClick={() => setStatus(chip.id)}
+              className={cn(
+                "rounded-full border px-3 py-1.5 text-sm font-medium transition",
+                active
+                  ? "border-primary bg-primary/15 text-foreground"
+                  : "border-border/70 bg-card text-muted-foreground hover:text-foreground",
+              )}
+            >
+              {chip.label}
+              {typeof count === "number" ? <span className="ml-1.5 text-xs opacity-70">{count}</span> : null}
+            </button>
+          );
+        })}
       </div>
 
       <Card>
@@ -196,6 +323,9 @@ export function LeadsWorkspace() {
           <Button size="sm" onClick={() => moveMutation.mutate("contacted")} disabled={moveMutation.isPending}>
             Mark Contacted
           </Button>
+          <Button size="sm" variant="outline" onClick={() => moveMutation.mutate("new")}>
+            Mark New
+          </Button>
           <Button size="sm" variant="outline" onClick={() => moveMutation.mutate("lost")}>
             Reject
           </Button>
@@ -226,17 +356,34 @@ export function LeadsWorkspace() {
                       />
                     </th>
                     <th className="px-4 py-3 font-medium">Company</th>
-                    <th className="px-4 py-3 font-medium">Industry</th>
-                    <th className="px-4 py-3 font-medium">Country</th>
-                    <th className="px-4 py-3 font-medium">Email</th>
-                    <th className="px-4 py-3 font-medium">Score</th>
-                    <th className="px-4 py-3 font-medium">Stage</th>
+                    {filters.status === "b2b" || filters.status === "today" ? (
+                      <>
+                        <th className="px-4 py-3 font-medium">Tier</th>
+                        <th className="px-4 py-3 font-medium">Score</th>
+                        <th className="px-4 py-3 font-medium">Decision Maker</th>
+                        <th className="px-4 py-3 font-medium">Phone</th>
+                        <th className="px-4 py-3 font-medium">Email</th>
+                        <th className="px-4 py-3 font-medium">Contact</th>
+                        <th className="px-4 py-3 font-medium">Pitch Angle</th>
+                      </>
+                    ) : (
+                      <>
+                        <th className="px-4 py-3 font-medium">Industry</th>
+                        <th className="px-4 py-3 font-medium">City</th>
+                        <th className="px-4 py-3 font-medium">Email</th>
+                        <th className="px-4 py-3 font-medium">Phone</th>
+                        <th className="px-4 py-3 font-medium">Score</th>
+                        <th className="px-4 py-3 font-medium">Stage</th>
+                      </>
+                    )}
                     <th className="w-10 px-4 py-3"></th>
                   </tr>
                 </thead>
                 <tbody>
                   {paginatedLeads.map((lead, idx) => {
                     const leadId = String(lead.id || idx);
+                    const complete = Boolean(lead.has_contact_data);
+                    const isB2B = Boolean(lead.is_b2b);
                     return (
                       <tr key={leadId} className="border-b border-border/40 hover:bg-muted/20">
                         <td className="px-4 py-3">
@@ -252,18 +399,74 @@ export function LeadsWorkspace() {
                             className="rounded border-border"
                           />
                         </td>
-                        <td className="px-4 py-3 font-medium">{String(lead.company_name || "Unknown")}</td>
-                        <td className="px-4 py-3 text-muted-foreground">{String(lead.industry || "—")}</td>
-                        <td className="px-4 py-3 text-muted-foreground">{String(lead.country || "—")}</td>
-                        <td className="px-4 py-3 text-muted-foreground">{String(lead.email || "—")}</td>
-                        <td className="px-4 py-3">
-                          <span className="rounded-full bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary">
-                            {formatScore(Number(lead.intent_score || lead.score || 0), 0)}
-                          </span>
+                        <td className="px-4 py-3 font-medium">
+                          {String(lead.company_name || "Unknown")}
+                          {isB2B && (
+                            <span className="ml-2 rounded bg-blue-500/10 px-1.5 py-0.5 text-[10px] text-blue-400">
+                              B2B
+                            </span>
+                          )}
+                          {complete && !isB2B ? (
+                            <span className="ml-2 rounded bg-emerald-500/10 px-1.5 py-0.5 text-[10px] text-emerald-400">
+                              data
+                            </span>
+                          ) : null}
                         </td>
-                        <td className="px-4 py-3 capitalize text-muted-foreground">{String(lead.stage || "new")}</td>
+                        {isB2B ? (
+                          <>
+                            <td className="px-4 py-3">
+                              <span className={`rounded-full px-2 py-0.5 text-xs font-medium ${
+                                lead.tier === "A" ? "bg-emerald-500/15 text-emerald-400" :
+                                lead.tier === "B" ? "bg-amber-500/15 text-amber-400" :
+                                "bg-slate-500/15 text-slate-400"
+                              }`}>
+                                {String(lead.tier || "C")}
+                              </span>
+                            </td>
+                            <td className="px-4 py-3">
+                              <span className="font-mono font-bold">{formatScore(Number(lead.score || 0), 0)}</span>
+                            </td>
+                            <td className="px-4 py-3 text-sm">
+                              <div>{String(lead.decision_maker || "—")}</div>
+                              <div className="text-xs text-muted-foreground">{String(lead.decision_maker_role || "")}</div>
+                            </td>
+                            <td className="px-4 py-3">
+                              {lead.phone ? (
+                                <a href={`tel:${lead.phone}`} className="text-green-400 hover:underline text-sm font-mono">
+                                  {String(lead.phone)}
+                                </a>
+                              ) : "—"}
+                            </td>
+                            <td className="px-4 py-3 text-muted-foreground text-sm">{String(lead.email || "—")}</td>
+                            <td className="px-4 py-3">
+                              <span className={`rounded-full px-2 py-0.5 text-xs font-medium ${
+                                lead.contactability === "HIGH" ? "bg-emerald-500/15 text-emerald-400" :
+                                lead.contactability === "MEDIUM" ? "bg-amber-500/15 text-amber-400" :
+                                "bg-red-500/15 text-red-400"
+                              }`}>
+                                {String(lead.contactability || "—")}
+                              </span>
+                            </td>
+                            <td className="px-4 py-3 text-xs text-muted-foreground max-w-[180px] truncate" title={String(lead.pitch_angle || "")}>
+                              {String(lead.pitch_angle || "—")}
+                            </td>
+                          </>
+                        ) : (
+                          <>
+                            <td className="px-4 py-3 text-muted-foreground">{String(lead.industry || "—")}</td>
+                            <td className="px-4 py-3 text-muted-foreground">{String(lead.city || "—")}</td>
+                            <td className="px-4 py-3 text-muted-foreground">{String(lead.email || "—")}</td>
+                            <td className="px-4 py-3 text-muted-foreground">{String(lead.phone || "—")}</td>
+                            <td className="px-4 py-3">
+                              <span className="rounded-full bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary">
+                                {formatScore(Number(lead.intent_score || lead.score || 0), 0)}
+                              </span>
+                            </td>
+                            <td className="px-4 py-3 capitalize text-muted-foreground">{String(lead.stage || "new")}</td>
+                          </>
+                        )}
                         <td className="px-4 py-3">
-                          <Link href={`/leads/${leadId}`} className="text-primary hover:underline">
+                          <Link href={isB2B ? `/partner-leads` : `/leads/${leadId}`} className="text-primary hover:underline">
                             <ArrowRight className="h-4 w-4" />
                           </Link>
                         </td>

@@ -34,11 +34,14 @@ function getStatusStage(status: string): Stage {
 export function PipelineKanban() {
   const queryClient = useQueryClient();
   const [draggedId, setDraggedId] = useState<string | null>(null);
-  const [deptFilter, setDeptFilter] = useState<"all" | "comai" | "inowix">("all");
+  const [deptFilter, setDeptFilter] = useState<"all" | "comai" | "inowix" | "cyber">("all");
+  const [statusFilter, setStatusFilter] = useState<"all" | "new" | "not_contacted" | "contacted" | "with_data">(
+    "all",
+  );
 
   const workspace = useQuery({
     queryKey: ["workspace-leads"],
-    queryFn: () => beaconApi.workspaceLeads({ limit: 200 }),
+    queryFn: () => beaconApi.workspaceLeads({ limit: 300 }),
     refetchInterval: 20_000,
   });
 
@@ -59,15 +62,29 @@ export function PipelineKanban() {
   );
 
   const items = useMemo(() => {
-    if (deptFilter === "all") return allItems;
-    return allItems.filter((item) => {
-      const dept = String(item.department || item.service_match || "");
-      return deptFilter === "comai" ? dept.startsWith("COMAI") : dept.startsWith("Inowix");
-    });
-  }, [allItems, deptFilter]);
+    let next = allItems;
+    if (deptFilter === "comai") {
+      next = next.filter((item) => String(item.department || item.service_match || item.lane || "").startsWith("COMAI"));
+    } else if (deptFilter === "cyber") {
+      next = next.filter((item) =>
+        String(item.department || item.lane || item.source || "").toLowerCase().includes("cyber"),
+      );
+    } else if (deptFilter === "inowix") {
+      next = next.filter((item) => String(item.department || item.service_match || "").startsWith("Inowix"));
+    }
+    if (statusFilter === "new" || statusFilter === "not_contacted") {
+      next = next.filter((item) => String(item.stage || "new") === "new");
+    } else if (statusFilter === "contacted") {
+      next = next.filter((item) => ["contacted", "replied", "meeting", "won"].includes(String(item.stage || "")));
+    } else if (statusFilter === "with_data") {
+      next = next.filter((item) => Boolean(item.has_contact_data));
+    }
+    return next;
+  }, [allItems, deptFilter, statusFilter]);
 
   const comaiCount = allItems.filter((i) => String(i.department || i.service_match || "").startsWith("COMAI")).length;
-  const inowixCount = allItems.length - comaiCount;
+  const cyberCount = allItems.filter((i) => String(i.department || i.lane || i.source || "").toLowerCase().includes("cyber")).length;
+  const inowixCount = allItems.filter((i) => String(i.department || i.service_match || "").startsWith("Inowix")).length;
 
   const leadsByStage: Record<Stage, Array<Record<string, unknown>>> = {
     new: [],
@@ -104,6 +121,30 @@ export function PipelineKanban() {
             {items.length} Lead Engine leads across {STAGES.length} stages
           </p>
         </div>
+        <div className="flex flex-col items-end gap-2">
+        <div className="flex flex-wrap gap-1 rounded-lg border border-border/60 bg-muted/20 p-1">
+          {(
+            [
+              ["all", "All"],
+              ["new", "New"],
+              ["not_contacted", "Not contacted"],
+              ["contacted", "Contacted"],
+              ["with_data", "With data"],
+            ] as const
+          ).map(([id, label]) => (
+            <button
+              key={id}
+              type="button"
+              onClick={() => setStatusFilter(id)}
+              className={cn(
+                "rounded-md px-3 py-1.5 text-sm font-medium transition-colors",
+                statusFilter === id ? "bg-background text-foreground shadow-sm" : "text-muted-foreground hover:text-foreground",
+              )}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
         <div className="flex gap-1 rounded-lg border border-border/60 bg-muted/20 p-1">
           <button
             onClick={() => setDeptFilter("all")}
@@ -132,7 +173,17 @@ export function PipelineKanban() {
           >
             Inowix ({inowixCount})
           </button>
+          <button
+            onClick={() => setDeptFilter("cyber")}
+            className={cn(
+              "rounded-md px-3 py-1.5 text-sm font-medium transition-colors",
+              deptFilter === "cyber" ? "bg-emerald-500/20 text-emerald-400 shadow-sm" : "text-muted-foreground hover:text-foreground"
+            )}
+          >
+            Cyber ({cyberCount})
+          </button>
         </div>
+      </div>
       </div>
 
       <div className="flex gap-4 overflow-x-auto pb-4 scrollbar-thin">

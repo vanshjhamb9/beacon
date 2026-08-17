@@ -1254,6 +1254,42 @@ def _city_match(city: str, wanted: list[str]) -> bool:
     return False
 
 
+# Known Indian metro/tier-2 cities — soft-pass even if not in ICP list
+_INDIAN_CITIES = {
+    "mumbai", "delhi", "new delhi", "ncr", "gurgaon", "gurugram", "noida", "delhi ncr",
+    "bangalore", "bengaluru", "hyderabad", "chennai", "pune", "kolkata", "calcutta",
+    "ahmedabad", "amdavad", "surat", "jaipur", "lucknow", "chandigarh", "indore",
+    "coimbatore", "kochi", "kochi", "bhopal", "nagpur", "visakhapatnam", "vizag",
+    "vadodara", "rajkot", "nashik", "thanjavur", "mysore", "mysuru", "goa",
+    "patna", "ranchi", "guwahati", "imphal", "shillong", "aizawl", "kohima",
+    "dehradun", "haridwar", "udaipur", "jodhpur", "varanasi", "prayagraj",
+    "kanpur", "agra", "meerut", "bareilly", "allahabad", "gorakhpur",
+    "mangalore", "hubli", "belgaum", "bellary", "tiruchirappalli", "madurai",
+    "tirunelveli", "salem", "erode", "thanjavur", "pollachi", "kumbakonam",
+    "kakinada", "guntur", "warangal", "nellore", "tirupati", "kurnool",
+    "raipur", "bilaspur", "jamshedpur", "ranchi", "dhanbad", "bokaro",
+    "siliguri", "darjeeling", "gangtok", "shimla", "manali", "mussoorie",
+}
+
+
+def _is_indian_city(city_lower: str) -> bool:
+    """Check if a city name looks like an Indian city (metro or tier-2/3)."""
+    if not city_lower:
+        return False
+    c = city_lower.strip()
+    # Exact match
+    if c in _INDIAN_CITIES:
+        return True
+    # Partial match — "sector 5 gurugram" etc.
+    for ic in _INDIAN_CITIES:
+        if ic in c or c in ic:
+            return True
+    # Indian state suffixes / patterns
+    if any(c.endswith(s) for s in ("pur", "garh", "abad", "nagar", "ganj", "dham", "patnam")):
+        return True
+    return False
+
+
 def _parse_year_founded(lead: dict[str, Any]) -> int | None:
     """Best-effort founded year from lead fields (never invent)."""
     for key in ("year_founded", "founded_year", "founded", "founding_year"):
@@ -1407,13 +1443,19 @@ def apply_icp_filters(
         else:
             lead["icp_tier"] = "core"
 
-        # City — HARD when HQ cities selected and city is a clear other metro.
-        # Blank / India / pan-India soft-pass (unknown HQ).
+        # City — SOFT-pass for any Indian city; HARD only for non-Indian metros.
+        # Indian metros not in ICP list should still get through for volume.
         if cities:
             c_norm = (city or "").lower().strip()
             if not c_norm or c_norm in ("india", "in", "pan-india", "pan india"):
                 soft_flags["city_unknown"] += 1
-            elif not _city_match(city, cities):
+            elif _city_match(city, cities):
+                pass  # exact match, no flag
+            elif _is_indian_city(c_norm):
+                # Indian city but not in ICP list — soft-pass for volume
+                lead["city_soft_miss"] = True
+                soft_flags["city_unknown"] += 1
+            else:
                 rejects["city"] += 1
                 continue
 
@@ -1436,7 +1478,7 @@ def apply_icp_filters(
                 soft_flags["year_unknown"] += 1
                 lead["year_founded_soft_miss"] = True
 
-        # Type / agency — HARD when D2C required
+        # Type / agency — HARD when D2C required (but allow agencies if ICP includes them)
         ctype = str(lead.get("company_type") or lead.get("lane") or "d2c_brand").lower()
         if "saas" in ctype or lead.get("lane") == "INOWIX":
             ctype = "saas_product"
@@ -1445,7 +1487,9 @@ def apply_icp_filters(
         else:
             ctype = "d2c_brand" if "d2c" in ctype or ctype in ("", "comai_direct") else ctype
 
-        if want_d2c and (_looks_like_agency(company, industry, email) or ctype == "agency_partner"):
+        # Only reject agencies if ICP doesn't include agency_partner type
+        agency_in_types = any("agency" in t or "partner" in t for t in types)
+        if want_d2c and not agency_in_types and (_looks_like_agency(company, industry, email) or ctype == "agency_partner"):
             rejects["agency"] += 1
             continue
         if types and not any(t in ctype for t in types):
@@ -2000,7 +2044,16 @@ def _score_leads(leads: list[dict[str, Any]], product: str) -> list[dict[str, An
             and not lead.get("weak_outreach_email")
         )
         qualified = score >= 58 and strong and not lead.get("weak_outreach_email")
-        grade = "SALES_READY" if sales_ready else "QUALIFIED" if qualified else "NURTURE"
+        # Volume leads: have contact info + decent score but no strong signals
+        _has_email = bool(lead.get("email"))
+        volume = (
+            not sales_ready
+            and not qualified
+            and _has_email
+            and score >= 35
+            and lead.get("icp_tier") == "core"
+        )
+        grade = "SALES_READY" if sales_ready else "QUALIFIED" if qualified else "VOLUME" if volume else "NURTURE"
         lead["intent_score"] = round(score, 1)
         lead["grade"] = grade
         est = lead.get("employee_estimate")
@@ -2044,9 +2097,14 @@ def _select_volume_icp_intent(
     limit: int,
     rejects: dict[str, int],
 ) -> list[dict[str, Any]]:
-    """Pick limit leads: core ICP + strong intent first; adjacent only with proof."""
+    """Pick limit leads: core ICP + strong intent first; adjacent only with proof.
+
+    Volume-first: include leads with basic contactability even without strong signals,
+    so the engine produces leads on first runs when signal data is sparse.
+    """
     core_hi: list[dict[str, Any]] = []
     core_mid: list[dict[str, Any]] = []
+    core_lo: list[dict[str, Any]] = []
     adj_hi: list[dict[str, Any]] = []
 
     for lead in scored:
@@ -2055,54 +2113,70 @@ def _select_volume_icp_intent(
         tier = lead.get("icp_tier") or "core"
         strong = lead.get("strong_signals") or []
         families = set(lead.get("signal_families") or _signal_families(list(strong)))
+        has_email = bool(lead.get("email"))
+        has_founder = bool(lead.get("founder_name"))
+        has_phone = bool(lead.get("phone"))
 
-        if signals < 1 or not strong:
-            rejects["low_intent"] = rejects.get("low_intent", 0) + 1
-            continue
+        # Weak outreach email without growth/gap signals — still include but lower priority
         if lead.get("weak_outreach_email") and "gap" not in families and "growth" not in families:
-            rejects["low_intent"] = rejects.get("low_intent", 0) + 1
+            if tier == "core" and has_email and score >= 40:
+                core_lo.append(lead)
+            else:
+                rejects["low_intent"] = rejects.get("low_intent", 0) + 1
             continue
 
-        # High-intent: growth and/or automation gap — WhatsApp links ignored
+        # High-intent: growth and/or automation gap
         core_hi_ok = (
             tier == "core"
-            and score >= 65
+            and score >= 60
             and signals >= 1
-            and lead.get("grade") != "NURTURE"
+            and lead.get("grade") in ("SALES_READY", "QUALIFIED")
             and (
                 "high_intent_composite" in strong
                 or "ads_plus_automation_gap" in strong
                 or ("growth" in families and "gap" in families)
-                or ("gap" in families and score >= 70)
+                or ("gap" in families and score >= 65)
                 or "founder_reachable" in strong
             )
         )
         core_ok = (
             tier == "core"
             and signals >= 1
-            and score >= 55
-            and lead.get("grade") != "NURTURE"
+            and score >= 50
+            and lead.get("grade") in ("SALES_READY", "QUALIFIED")
             and ("gap" in families or "growth" in families or "stack" in families)
+        )
+        # Volume fallback: core ICP + has contact info + reasonable score
+        # This ensures first runs produce leads even without strong signal detection
+        # NO grade filter — fallback exists specifically for leads that don't meet hi/mid thresholds
+        core_fallback = (
+            tier == "core"
+            and not core_hi_ok
+            and not core_ok
+            and has_email
+            and score >= 35
         )
         adj_ok = (
             bool(lead.get("industry_adjacent"))
-            and score >= 64
-            and len(families) >= 2
-            and ("gap" in families or "growth" in families)
-            and lead.get("grade") != "NURTURE"
+            and score >= 58
+            and len(families) >= 1
+            and ("gap" in families or "growth" in families or "stack" in families)
+            and lead.get("grade") in ("SALES_READY", "QUALIFIED", "VOLUME")
         )
 
         if core_hi_ok:
             core_hi.append(lead)
         elif core_ok:
             core_mid.append(lead)
+        elif core_fallback:
+            core_lo.append(lead)
         elif adj_ok:
             adj_hi.append(lead)
         else:
             rejects["low_intent"] = rejects.get("low_intent", 0) + 1
 
     out: list[dict[str, Any]] = []
-    for bucket in (core_hi, core_mid, adj_hi):
+    for bucket in (core_hi, core_mid, core_lo, adj_hi):
         for lead in bucket:
             if len(out) >= limit:
                 break
@@ -2177,6 +2251,41 @@ def _export_run(run_id: str, job: dict[str, Any]) -> None:
     job["export_csv"] = str(csv_path)
 
 
+async def _run_cyber_discovery_job(job: dict[str, Any], limit: int) -> None:
+    """Buyer-first cybersecurity discovery. Does not guess emails or auto-send."""
+    from packages.cybersecurity_discovery.exporters import write_exports
+    from packages.cybersecurity_discovery.lead_adapter import opportunities_to_lead_engine_rows
+    from packages.cybersecurity_discovery.pipeline import run_cybersecurity_discovery
+    from packages.cybersecurity_discovery.workspace_sync import sync_to_workspace
+
+    job["stage"] = "extracting"
+    job["progress_pct"] = 18
+    job["stage_label"] = "Searching public pentest / VAPT / audit buying events…"
+    result = await run_cybersecurity_discovery(limit=max(80, min(limit, 200)), enrich=True)
+    rows = opportunities_to_lead_engine_rows(result)
+    job["counts"]["extracted"] = result.counters.get("TOTAL_DISCOVERED", 0)
+    job["counts"]["scored"] = len(rows)
+    job["counts"]["ready"] = result.counters.get("SALES_READY", 0)
+    job["counts"]["rejected"] = result.counters.get("REJECTED", 0)
+    job["counts"]["new_unique"] = len(rows)
+    job["leads"] = rows
+    job["rejects"] = {"cyber": result.counters}
+    job["progress_pct"] = 82
+    job["stage"] = "ready"
+    job["stage_label"] = (
+        f"Cyber lane · {result.counters.get('SALES_READY', 0)} sales-ready · "
+        f"{result.counters.get('NEEDS_RESEARCH', 0)} need research"
+    )
+    out_dir = ROOT / "exports" / "cybersecurity_discovery"
+    write_exports(result, out_dir)
+    synced = sync_to_workspace(result)
+    job["counts"]["workspace_synced"] = synced.get("workspace_leads", 0)
+    job["status"] = "completed"
+    job["progress_pct"] = 100
+    job["finished_at"] = time.time()
+    _export_run(job["run_id"], job)
+
+
 async def run_pipeline(run_id: str) -> None:
     import asyncio
 
@@ -2191,6 +2300,10 @@ async def run_pipeline(run_id: str) -> None:
         job["stage_label"] = "Loading discovery sources & intent exports…"
         job["started_at"] = time.time()
         await asyncio.sleep(0.8)
+
+        if product == "cyber":
+            await _run_cyber_discovery_job(job, limit)
+            return
 
         seeds = _extract_leads(product, icp)
         job["counts"]["extracted"] = len(seeds)

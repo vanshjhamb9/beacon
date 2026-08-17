@@ -1,0 +1,690 @@
+business_unit: comai_b2b_partners
+name: "COMAI B2B Partner Discovery Engine"
+description: "Find agencies, consultants, creators, and service providers that can become COMAI partners/resellers and introduce COMAI to their existing business clients."
+
+# ============================================================
+# OBJECTIVE
+# ============================================================
+# Find HIGH-POTENTIAL B2B PARTNERS, not generic agencies.
+# The ideal partner already works with multiple businesses and can naturally introduce COMAI as an additional service/product.
+# QUALITY > QUANTITY.
+
+# ============================================================
+# IDEAL PARTNER TYPES
+# ============================================================
+
+partner_types:
+  priority_a_marketing:
+    name: "Marketing Agencies"
+    weight: 1.0
+    types:
+      - digital_marketing_agency
+      - performance_marketing_agency
+      - social_media_marketing_agency
+      - seo_agency
+      - ppc_google_ads_agency
+      - meta_ads_agency
+      - growth_marketing_agency
+      - d2c_ecommerce_marketing_agency
+      - lead_generation_agency
+      - crm_marketing_automation_agency
+      - email_sms_marketing_agency
+
+  priority_b_technology:
+    name: "Technology / Development Agencies"
+    weight: 0.9
+    types:
+      - website_development_agency
+      - shopify_agency
+      - woocommerce_agency
+      - ecommerce_development_agency
+      - web_development_company
+      - mobile_app_development_agency
+      - saas_development_agency
+      - software_development_agency
+      - ui_ux_agency
+      - automation_agency
+      - ai_agency
+      - crm_implementation_agency
+
+  priority_c_creative:
+    name: "Creative / Content Agencies"
+    weight: 0.7
+    types:
+      - video_production_agency
+      - content_agency
+      - creative_agency
+      - branding_agency
+      - influencer_marketing_agency
+      - social_media_content_studio
+      - ecommerce_content_agency
+
+  priority_d_consultants:
+    name: "Business / Growth Consultants"
+    weight: 0.6
+    types:
+      - ecommerce_consultant
+      - d2c_consultant
+      - growth_consultant
+      - sales_consultant
+      - business_consultant
+      - marketing_consultant
+      - shopify_consultant
+      - ecommerce_technology_consultant
+
+# ============================================================
+# HIGH-VALUE PARTNER SIGNALS
+# ============================================================
+
+high_value_signals:
+  client_evidence:
+    - multiple_business_clients
+    - ecommerce_d2c_clients
+    - shopify_woocommerce_clients
+    - smb_startup_clients
+    - brands_they_manage
+    - recurring_client_relationships
+
+  service_evidence:
+    - marketing_technology_implementation
+    - customer_acquisition_work
+    - crm_automation_work
+    - whatsapp_marketing_work
+    - lead_generation_work
+    - retention_conversion_work
+
+  partnership_evidence:
+    - client_technology_recommendations
+    - willingness_to_add_complementary_services
+    - reseller_white_label_partner_programs
+    - referral_partnerships
+    - affiliate_partnerships
+    - saas_partnerships
+
+# ============================================================
+# HIGH-INTENT PARTNER BUYING EVENTS
+# ============================================================
+
+high_intent_signals:
+  - looking_for_saas_partners
+  - looking_for_technology_partners
+  - looking_for_tools_for_clients
+  - looking_for_white_label_solutions
+  - looking_for_reseller_opportunities
+  - looking_for_referral_partners
+  - looking_for_ecommerce_tools_for_clients
+  - need_whatsapp_solution_for_clients
+  - need_chatbot_solution_for_clients
+  - looking_for_automation_tools_for_clients
+  - looking_for_additional_services_to_offer_clients
+  - looking_for_complementary_saas_products
+  - want_to_expand_service_offering
+  - looking_for_agencies_tools_to_partner_with
+  - looking_for_software_we_can_resell
+  - looking_for_solutions_we_can_offer_clients
+
+# ============================================================
+# INDIRECT BUT STRONG PARTNER SIGNALS
+# ============================================================
+
+indirect_strong_signals:
+  - publicly_showcase_10_plus_business_clients
+  - manage_shopify_stores
+  - manage_ecommerce_marketing_campaigns
+  - manage_whatsapp_marketing_for_clients
+  - build_ecommerce_websites
+  - run_meta_google_ads_for_d2c_brands
+  - provide_crm_automation_implementation
+  - manage_customer_retention
+  - offer_ecommerce_growth_services
+  - repeatedly_work_with_smb_d2c_brands
+  - already_resell_saas_technology_products
+
+# ============================================================
+# COMAI PARTNER VALUE PROPOSITION
+# ============================================================
+
+comai_value_proposition:
+  product_capabilities:
+    - whatsapp_ai_chatbot
+    - ai_customer_support
+    - product_recommendations
+    - lead_capture
+    - abandoned_cart_recovery
+    - conversational_commerce
+    - ecommerce_automation
+    - shopify_woocommerce_integration
+    - customer_memory_personalization
+
+  partner_benefits:
+    - recurring_revenue
+    - additional_revenue_from_existing_clients
+    - stronger_client_retention
+    - additional_service_product_without_building_technology
+    - ready_made_demos
+    - ready_made_content_scripts
+    - comai_handles_demo_onboarding_support
+    - partner_can_introduce_comai_to_existing_clients
+
+  # DO NOT claim guaranteed revenue or guaranteed client conversion
+  disclaimers:
+    - no_guaranteed_revenue
+    - no_guaranteed_client_conversion
+
+# ============================================================
+# PARTNER ICP
+# ============================================================
+
+partner_icp:
+  priority:
+    min_clients: 5
+    require_active_business_clients: true
+    require_portfolio_multiple_brands: true
+    require_recurring_client_service_model: true
+
+  strongest:
+    min_clients: 10
+    require_ecommerce_d2c_specialization: true
+    require_marketing_technology_relationship: true
+    require_decision_maker_identifiable: true
+    require_direct_contact_available: true
+
+  notes:
+    - small_agencies_still_valid_if_strong_client_relationships
+    - do_not_reject_agencies_only_because_they_are_small
+
+# ============================================================
+# TARGET COUNTRIES
+# ============================================================
+
+target_countries:
+  tier_1:
+    - India
+    - USA
+    - UK
+    - Canada
+    - Australia
+    - UAE
+    - Singapore
+    - Germany
+    - Netherlands
+    - Ireland
+    - New Zealand
+
+  prioritization_factors:
+    - agency_ecosystem
+    - ecommerce_penetration
+    - smb_d2c_density
+    - saas_adoption
+    - ability_to_pay
+    - partnership_openness
+
+# ============================================================
+# DECISION MAKER ROLES
+# ============================================================
+
+decision_maker_roles:
+  preferred_for_small_agencies:
+    - founder
+    - co_founder
+    - ceo
+    - agency_owner
+
+  acceptable:
+    - managing_director
+    - head_of_partnerships
+    - business_development_director
+    - growth_director
+    - client_services_director
+    - account_director
+
+  reject:
+    - junior_employee_unless_clearly_responsible_for_partnerships
+
+# ============================================================
+# DISCOVERY SOURCES
+# ============================================================
+
+discovery_sources:
+  tier_1_primary:
+    - agency_websites
+    - agency_portfolios
+    - linkedin
+    - linkedin_posts
+    - x_twitter
+    - agency_partnership_pages
+    - reseller_pages
+    - partners_pages
+    - our_clients_pages
+    - public_founder_posts
+    - ecommerce_communities
+    - agency_communities
+    - startup_communities
+
+  tier_2_secondary:
+    - clutch
+    - goodfirms
+    - designrush
+    - shopify_partner_ecosystem
+    - woocommerce_ecosystem
+    - agency_directories
+    - public_business_databases
+
+  tier_3_tertiary:
+    - google_search
+    - generic_directories
+    - company_databases
+
+  important_notes:
+    - directory_listing_equals_company_evidence
+    - directory_listing_not_partnership_intent
+
+# ============================================================
+# PARTNER INTENT CLASSIFICATION
+# ============================================================
+
+partner_intent_classification:
+  explicit_partnership_intent:
+    description: "Directly looking for SaaS partnerships, reseller programs, referral partnerships, white-label products, tools for clients"
+    examples:
+      - looking_for_saas_partners
+      - looking_for_reseller_opportunities
+      - looking_for_white_label_solutions
+      - need_whatsapp_solution_for_clients
+
+  high_partner_potential:
+    description: "Strong client portfolio + relevant service + clear access to business clients + decision maker identified"
+    requirements:
+      - strong_client_portfolio
+      - relevant_service
+      - clear_access_to_business_clients
+      - decision_maker_identified
+
+  medium_partner_potential:
+    description: "Relevant agency + some client evidence + unclear ability/willingness to resell"
+    requirements:
+      - relevant_agency
+      - some_client_evidence
+      - unclear_ability_willingness_to_resell
+
+  low_partner_potential:
+    description: "Agency exists but little evidence of relevant clients or partnership fit"
+    requirements:
+      - agency_exists
+      - little_evidence_of_relevant_clients
+      - little_evidence_of_partnership_fit
+
+  reject:
+    description: "Competitor, freelancer without agency/client base, job seeker, agency with no business-client evidence, irrelevant service, fake/inactive business, unclear identity"
+    criteria:
+      - competitor
+      - freelancer_without_agency_client_base
+      - job_seeker
+      - agency_with_no_business_client_evidence
+      - irrelevant_service
+      - fake_inactive_business
+      - unclear_identity
+
+# ============================================================
+# CLIENT ACCESS SCORE (0-100)
+# ============================================================
+
+client_access_scoring:
+  signals:
+    twenty_plus_identifiable_business_clients:
+      points: 30
+      evidence_required: "portfolio, case studies, client logos"
+
+    ten_plus_identifiable_business_clients:
+      points: 25
+      evidence_required: "portfolio, case studies, client logos"
+
+    five_plus_identifiable_business_clients:
+      points: 20
+      evidence_required: "portfolio, case studies, client logos"
+
+    ecommerce_d2c_specialization:
+      points: 20
+      evidence_required: "service descriptions, client examples"
+
+    shopify_woocommerce_specialization:
+      points: 15
+      evidence_required: "platform expertise evidence"
+
+    recurring_marketing_technology_services:
+      points: 15
+      evidence_required: "retainer-based service model"
+
+    crm_automation_services:
+      points: 15
+      evidence_required: "automation implementation evidence"
+
+    whatsapp_marketing_services:
+      points: 10
+      evidence_required: "whatsapp campaign evidence"
+
+    retention_conversion_services:
+      points: 10
+      evidence_required: "retention marketing evidence"
+
+    existing_saas_partnerships:
+      points: 10
+      evidence_required: "partner page, public announcements"
+
+    reseller_affiliate_program_experience:
+      points: 10
+      evidence_required: "active reseller programs"
+
+  cap: 100
+  rule: "Every score contribution must have evidence"
+
+# ============================================================
+# COMAI PARTNER FIT SCORE (0-100)
+# ============================================================
+
+comai_partner_fit_scoring:
+  evaluation_criteria:
+    client_overlap_with_comai_icp:
+      weight: 20
+      evidence_required: "ecommerce/d2c client examples"
+
+    ecommerce_exposure:
+      weight: 15
+      evidence_required: "ecommerce service offerings"
+
+    smb_exposure:
+      weight: 10
+      evidence_required: "smb client evidence"
+
+    d2c_exposure:
+      weight: 15
+      evidence_required: "d2c client evidence"
+
+    shopify_woocommerce_exposure:
+      weight: 15
+      evidence_required: "platform specialization"
+
+    marketing_relationship:
+      weight: 10
+      evidence_required: "marketing service offerings"
+
+    technology_relationship:
+      weight: 10
+      evidence_required: "technology implementation work"
+
+    automation_relationship:
+      weight: 5
+      evidence_required: "automation services"
+
+  rule: "NO SCORE WITHOUT EVIDENCE"
+
+# ============================================================
+# CONTACTABILITY
+# ============================================================
+
+contactability:
+  email_statuses:
+    - VERIFIED
+    - PUBLIC_UNVERIFIED
+    - INVALID
+    - UNKNOWN
+
+  never:
+    - guess_email_patterns
+    - generate_firstname_domain
+    - infer_personal_email
+    - mark_unverified_email_as_verified
+
+  contactability_levels:
+    high:
+      requirements:
+        - verified_email
+        - linkedin
+        - decision_maker_identified
+
+    medium:
+      requirements:
+        - public_unverified_email_linkedin
+        - decision_maker_identified
+
+    low:
+      requirements:
+        - limited_contact_information
+
+    none:
+      requirements:
+        - no_contact_route
+
+# ============================================================
+# SALES / PARTNER READY GATE
+# ============================================================
+
+partner_ready_gate:
+  comai_b2b_partner_ready_requires_all:
+    - agency_verified = TRUE
+    - relevant_service = TRUE
+    - business_clients_verified = TRUE
+    - comai_partner_fit >= 70
+    - decision_maker_identified = TRUE
+    - contactability >= MEDIUM
+    - competitor = FALSE
+    - safety_clear = TRUE
+
+  high_priority_partner:
+    requirements:
+      - partner_intent = EXPLICIT
+      - OR client_access_score >= 80 AND comai_partner_fit >= 80
+
+# ============================================================
+# PARTNER TIERS
+# ============================================================
+
+partner_tiers:
+  tier_a_hot_partner:
+    name: "HOT PARTNER"
+    requirements:
+      - explicit_partnership_tool_reseller_intent
+      - strong_client_portfolio
+      - high_comai_fit
+      - decision_maker
+      - verified_contact
+
+  tier_b_high_potential:
+    name: "HIGH POTENTIAL"
+    requirements:
+      - no_explicit_partnership_request
+      - strong_agency_client_ecosystem
+      - high_comai_fit
+      - decision_maker_contact_available
+
+  tier_c_nurture:
+    name: "NURTURE"
+    requirements:
+      - relevant_agency
+      - insufficient_evidence_of_partner_potential
+    note: "Do NOT put Tier C into the immediate outreach queue"
+
+# ============================================================
+# IMPORTANT SEPARATION
+# ============================================================
+
+important_separation:
+  partner_intent:
+    description: "Explicit signals of partnership/tool adoption interest"
+    examples:
+      - looking_for_saas_partners
+      - looking_for_reseller_opportunities
+
+  partner_potential:
+    description: "Evidence of ability to introduce COMAI to clients"
+    examples:
+      - strong_client_portfolio
+      - relevant_service
+      - clear_access_to_business_clients
+
+  example_agency_a:
+    name: "Agency A"
+    statement: "Looking for WhatsApp SaaS tools for our ecommerce clients."
+    partner_intent: EXPLICIT
+    partner_potential: HIGH
+
+  example_agency_b:
+    name: "Agency B"
+    statement: "Shopify agency with 40 ecommerce clients."
+    partner_intent: UNKNOWN
+    partner_potential: VERY_HIGH
+
+  note: "Both are valuable, but they require different outreach messaging."
+
+# ============================================================
+# OUTREACH REASON
+# ============================================================
+
+outreach_reason_generation:
+  required_fields:
+    - why_this_agency
+    - client_overlap
+    - comai_fit_reason
+    - partner_opportunity
+    - recommended_pitch_angle
+
+  good_examples:
+    - "Works with 25 Shopify brands and already provides retention marketing, making COMAI a natural complementary SaaS offering."
+    - "Agency actively looking for tools to improve WhatsApp conversion for ecommerce clients."
+
+  bad_examples:
+    - "Your agency would be a great partner."
+    - "We think you'd be a good fit for our partner program."
+
+  rule: "Do NOT generate generic outreach reasons"
+
+# ============================================================
+# FINAL RECORD
+# ============================================================
+
+final_record_fields:
+  identity:
+    - opportunity_id
+    - agency_name
+    - agency_url
+    - country
+    - city
+    - agency_type
+
+  decision_maker:
+    - founder_name
+    - founder_role
+    - linkedin_url
+    - identity_confidence
+
+  services_clients:
+    - services
+    - client_count_evidence
+    - client_examples
+    - client_industries
+
+  partner_intent:
+    - partner_intent
+    - partner_intent_evidence
+
+  scoring:
+    - client_access_score
+    - client_access_evidence
+    - comai_partner_fit
+    - comai_fit_evidence
+
+  outreach:
+    - recommended_pitch_angle
+    - why_this_agency
+
+  contactability:
+    - email
+    - email_status
+    - email_evidence
+    - linkedin_status
+    - contactability
+    - contactability_evidence
+
+  safety:
+    - competitor
+    - safety_clear
+
+  classification:
+    - partner_tier
+    - final_verdict
+    - rejection_reason
+
+# ============================================================
+# OUTPUTS
+# ============================================================
+
+outputs:
+  export_directory: "exports/comai_b2b_partners/"
+  files:
+    - comai_b2b_hot_partners.json
+    - comai_b2b_high_potential.json
+    - comai_b2b_nurture.json
+    - comai_b2b_rejected.json
+    - comai_b2b_evidence_audit.json
+    - comai_b2b_contactability_audit.json
+    - COMAI_B2B_FINAL_REPORT.md
+
+  report_metrics:
+    - TOTAL_DISCOVERED
+    - VERIFIED_AGENCIES
+    - EXPLICIT_PARTNERSHIP_INTENT
+    - HIGH_POTENTIAL
+    - HOT_PARTNERS
+    - CONTACTABLE
+    - TIER_A
+    - TIER_B
+    - TIER_C
+    - REJECTED
+
+  funnel_stages:
+    - DISCOVERED
+    - AGENCY_VERIFIED
+    - CLIENT_BASE_VERIFIED
+    - COMAI_FIT
+    - PARTNER_INTENT_POTENTIAL
+    - DECISION_MAKER
+    - CONTACTABLE
+    - PARTNER_READY
+    - OUTREACH_QUEUE
+
+# ============================================================
+# FINAL CTO TEST
+# ============================================================
+
+final_cto_test:
+  question: "If I were running COMAI, would I genuinely want this agency to introduce COMAI to its clients?"
+  answer_options:
+    - YES
+    - NO
+
+  yes_requires_evidence:
+    - they_work_with_businesses
+    - those_businesses_overlap_with_comai_target_market
+    - they_have_ongoing_client_relationship
+    - they_can_influence_client_technology_service_decisions
+    - they_have_credible_decision_maker
+    - beacon_has_legitimate_contact_route
+    - comai_solves_relevant_client_problem
+
+# ============================================================
+# FINAL PRINCIPLE
+# ============================================================
+
+final_principle:
+  - "COMAI B2B IS NOT AN AGENCY DIRECTORY."
+  - "WE ARE BUILDING A PARTNER ACQUISITION ENGINE."
+  - "Do NOT optimize for number of agencies."
+  - "Find agencies that can actually introduce COMAI to businesses."
+  - "CLIENT ACCESS > AGENCY SIZE."
+  - "PARTNER POTENTIAL > WEBSITE QUALITY."
+  - "BUYING/PARTNERSHIP INTENT > GENERIC AGENCY EXISTENCE."
+  - "EVIDENCE > ASSUMPTION."
+  - "QUALITY > QUANTITY."
+  - "DO NOT SEND OUTREACH AUTOMATICALLY."
+  - "Only qualified Tier A and selected Tier B partners enter the outreach queue after approval."
+  - "STOP AFTER GENERATING THE REPORT."
