@@ -57,6 +57,8 @@ celery_app = Celery(
         "worker.lead_discovery_tasks",
         "worker.buying_event_tasks",
         "worker.buying_event_enrichment_tasks",
+        "worker.mega_extraction_tasks",
+        "worker.b2b_partner_tasks",
     ],
 )
 
@@ -491,6 +493,15 @@ celery_app.conf.update(
         "enrich-buying-event-contacts": {
             "task": "buying_events.enrich_contacts",
             "schedule": 600,  # Every 10 minutes
+        },
+        "mega-extract-leads": {
+            "task": "lead_engine.mega_extract_with_enrichment",
+            "schedule": 1200,  # Every 20 minutes
+            "kwargs": {"limit": 40, "enrich_founders": True},
+        },
+        "discover-b2b-partners": {
+            "task": "b2b_partners.discover_partners",
+            "schedule": 21600,  # Every 6 hours
         },
     },
 )

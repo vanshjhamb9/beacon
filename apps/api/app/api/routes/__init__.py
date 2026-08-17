@@ -74,6 +74,7 @@ from app.api.routes.company_universe import router as company_universe_router
 from app.api.routes.buying_events_api import router as buying_events_router
 from app.api.routes.workspace_hub import router as workspace_hub_router
 from app.api.routes.unified_leads import router as unified_leads_router
+from app.api.routes.comai_b2b_partners import router as comai_b2b_partners_router
 
 from app.api.routes.discovery_quality_engine.v2 import router as dqe_v2_router
 from app.api.routes.opportunity_validation import validation_router as lovp_router
@@ -156,6 +157,7 @@ router.include_router(company_universe_router)
 router.include_router(buying_events_router)
 router.include_router(workspace_hub_router)
 router.include_router(unified_leads_router)
+router.include_router(comai_b2b_partners_router)
 router.include_router(dqe_v2_router)
 router.include_router(lovp_router)
 router.include_router(lrop_router)

@@ -11,6 +11,7 @@ import {
   Settings,
   Sparkles,
   Target,
+  Users,
   X,
 } from "lucide-react";
 import Link from "next/link";
@@ -23,6 +24,7 @@ const NAV = [
   { href: "/today-leads", label: "Today's Leads", icon: Calendar },
   { href: "/leads", label: "All Leads", icon: Target },
   { href: "/ecommerce-leads", label: "Ecommerce Leads", icon: Building2 },
+  { href: "/b2b-partners", label: "B2B Partners", icon: Users },
   { href: "/pipeline", label: "Pipeline", icon: FolderKanban },
   { href: "/lead-engine", label: "Lead Engine", icon: Radar },
   { href: "/analytics", label: "Analytics", icon: BarChart3 },
