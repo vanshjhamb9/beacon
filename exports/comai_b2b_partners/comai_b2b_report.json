@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-17T12:29:11.756188+00:00",
+  "total_discovered": 338,
+  "imported": 333,
+  "skipped": 5,
+  "tier_a": 3,
+  "tier_b": 159,
+  "tier_c": 176,
+  "explicit_intent": 3,
+  "high_potential": 224,
+  "medium_intent": 34,
+  "low_intent": 77,
+  "unknown_intent": 0,
+  "with_email": 0,
+  "with_phone": 0,
+  "contactable": 0,
+  "competitor": 0,
+  "by_type": {
+    "marketing": 103,
+    "technology": 129,
+    "creative": 59,
+    "consultant": 47
+  },
+  "by_country": {
+    "India": 133,
+    "USA": 65,
+    "UK": 32,
+    "UAE": 21,
+    "Australia": 29,
+    "Canada": 18,
+    "Singapore": 8,
+    "Germany": 8,
+    "Netherlands": 8,
+    "Ireland": 8,
+    "New Zealand": 8
+  }
+}
