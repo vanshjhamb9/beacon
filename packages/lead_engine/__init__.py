@@ -641,8 +641,6 @@ async def _live_discover_new(
     """
     if product == "cybersecurity":
         return await _live_discover_cybersecurity(icp, exclude_emails=exclude_emails, batch_limit=batch_limit)
-    if product != "comai":
-        return []
     try:
         from packages.ecommerce_leads.models import is_valid_email
         from packages.qualification_engine.enrichment import enrich_leads_batch
