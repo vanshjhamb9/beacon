@@ -1,0 +1,50 @@
+[
+  {
+    "opportunity_id": "fbe8a85c-1153-41d5-b809-503986dc1897",
+    "agency_name": "Aim n Launch",
+    "agency_url": "https://aimnlaunch.com",
+    "country": "USA",
+    "city": "UNKNOWN",
+    "agency_type": "marketing",
+    "founder_name": "",
+    "founder_role": "",
+    "linkedin_url": "",
+    "identity_confidence": 0.0,
+    "services": [
+      "digital marketing",
+      "seo",
+      "google ads",
+      "meta ads"
+    ],
+    "client_count_evidence": "",
+    "client_examples": [],
+    "client_industries": [
+      "retail",
+      "d2c",
+      "ecommerce"
+    ],
+    "partner_intent": "UNKNOWN",
+    "partner_intent_evidence": "",
+    "client_access_score": 0,
+    "client_access_evidence": "",
+    "comai_partner_fit": 0,
+    "comai_fit_evidence": "",
+    "recommended_pitch_angle": "",
+    "why_this_agency": "",
+    "email": "",
+    "email_status": "UNKNOWN",
+    "email_evidence": "",
+    "linkedin_status": "",
+    "contactability": "NONE",
+    "contactability_evidence": "",
+    "competitor": true,
+    "safety_clear": true,
+    "partner_tier": "C",
+    "final_verdict": "REJECT",
+    "rejection_reason": "Did not meet partner qualification criteria",
+    "evidence": [],
+    "discovered_at": "2026-08-17T14:10:22.683189+00:00",
+    "last_updated": "2026-08-17T14:10:22.683332+00:00",
+    "discovery_source": "web_research"
+  }
+]

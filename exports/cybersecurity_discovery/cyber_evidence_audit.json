@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-08-17T00:00:59Z",
+  "count": 1,
+  "items": [
+    {
+      "opportunity_id": "CYBER-ba5473cdaf",
+      "final_verdict": "SALES_READY",
+      "buying_event_verified": true,
+      "requirement_verified": true,
+      "requirement_evidence": [
+        {
+          "claim": "requirement_verified",
+          "value": "SOC 2 Type II using a Cobalt Web + API pentest?\nI’m trying to understand the SOC 2 process a little better, as I’m looking at Cobalt's human-led Web + API penetration test",
+          "source": "Reddit r/AskNetsec",
+          "source_url": "https://www.reddit.com/r/AskNetsec/comments/1vpk8x5/has_anyone_successfully_gotten_soc_2_type_ii/",
+          "confidence": "HIGH",
+          "observed_at": "2026-08-17T00:00:59Z"
+        }
+      ],
+      "security_problem_evidence": [
+        {
+          "claim": "requirement_verified",
+          "value": "SOC 2 Type II using a Cobalt Web + API pentest?\nI’m trying to understand the SOC 2 process a little better, as I’m looking at Cobalt's human-led Web + API penetration test",
+          "source": "Reddit r/AskNetsec",
+          "source_url": "https://www.reddit.com/r/AskNetsec/comments/1vpk8x5/has_anyone_successfully_gotten_soc_2_type_ii/",
+          "confidence": "HIGH",
+          "observed_at": "2026-08-17T00:00:59Z"
+        }
+      ],
+      "outsourcing_evidence": [
+        {
+          "claim": "outsourcing_intent",
+          "value": "EXPLICIT",
+          "source": "Reddit r/AskNetsec",
+          "source_url": "https://www.reddit.com/r/AskNetsec/comments/1vpk8x5/has_anyone_successfully_gotten_soc_2_type_ii/",
+          "confidence": "HIGH",
+          "observed_at": "2026-08-17T00:00:59Z"
+        }
+      ],
+      "currentness_evidence": [
+        {
+          "claim": "currentness",
+          "value": "HOT",
+          "source": "Reddit r/AskNetsec",
+          "source_url": "https://www.reddit.com/r/AskNetsec/comments/1vpk8x5/has_anyone_successfully_gotten_soc_2_type_ii/",
+          "confidence": "HIGH",
+          "observed_at": "2026-08-17T00:00:59Z"
+        },
+        {
+          "claim": "days_old",
+          "value": 0,
+          "source": "beacon",
+          "source_url": "",
+          "confidence": "HIGH",
+          "observed_at": "2026-08-17T00:00:59Z"
+        }
+      ],
+      "source_url": "https://www.reddit.com/r/AskNetsec/comments/1vpk8x5/has_anyone_successfully_gotten_soc_2_type_ii/",
+      "source_status": "VERIFIED",
+      "failed_gates": [],
+      "rejection_reason": null
+    }
+  ]
+}

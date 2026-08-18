@@ -1,0 +1,91 @@
+{
+  "run_id": "f70b2a94-c0cb-40d4-aead-2640c8d3bc06",
+  "product": "comai",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 281,
+    "enriched": 238,
+    "scored": 4,
+    "ready": 4,
+    "sent": 0,
+    "rejected": 255,
+    "new_unique": 3,
+    "live_discovered": 15,
+    "soft_flagged": 184,
+    "icp_core": 1,
+    "icp_adjacent": 3,
+    "pooled_added": 3
+  },
+  "rejects": {
+    "mega_brand": 50,
+    "headcount": 10,
+    "unknown_size": 0,
+    "industry": 101,
+    "city": 29,
+    "country": 0,
+    "domain": 0,
+    "name": 0,
+    "type": 0,
+    "agency": 24,
+    "generic_email": 4,
+    "no_email": 9,
+    "no_founder": 0,
+    "tech": 0,
+    "year_founded": 0,
+    "already_seen": 0,
+    "already_sent": 25,
+    "prior_run": 0,
+    "low_intent": 3,
+    "already_surfaced": 0
+  },
+  "icp": {
+    "key": null,
+    "name": null,
+    "service_match": null,
+    "employee_count_min": 5,
+    "employee_count_max": 80,
+    "company_size_min": null,
+    "company_size_max": null,
+    "industries": [],
+    "specialties": [
+      "beauty",
+      "skincare",
+      "wellness"
+    ],
+    "countries": [
+      "India"
+    ],
+    "headquarters_cities": [
+      "Mumbai",
+      "Delhi",
+      "New Delhi",
+      "Bangalore",
+      "Bengaluru",
+      "Hyderabad",
+      "Pune",
+      "Noida",
+      "Gurgaon",
+      "Gurugram",
+      "Chennai"
+    ],
+    "technology_stack": [
+      "shopify",
+      "woocommerce"
+    ],
+    "company_types": [
+      "d2c_brand"
+    ],
+    "year_founded_min": null,
+    "year_founded_max": null,
+    "linkedin_url_required": false,
+    "company_name_contains": [],
+    "domains": [],
+    "lists": [],
+    "funding_stages": [],
+    "hiring_signals": [],
+    "negative_signals": []
+  },
+  "generated_at": "2026-08-14T22:39:01.462002+00:00",
+  "lead_count": 4
+}

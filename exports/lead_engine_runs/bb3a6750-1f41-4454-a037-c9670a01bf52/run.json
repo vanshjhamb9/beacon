@@ -1,0 +1,106 @@
+{
+  "run_id": "bb3a6750-1f41-4454-a037-c9670a01bf52",
+  "product": "comai",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 281,
+    "enriched": 226,
+    "scored": 8,
+    "ready": 8,
+    "sent": 0,
+    "rejected": 188,
+    "new_unique": 4,
+    "live_discovered": 3,
+    "soft_flagged": 396,
+    "icp_core": 8,
+    "icp_adjacent": 0,
+    "pooled_added": 1
+  },
+  "rejects": {
+    "mega_brand": 50,
+    "headcount": 4,
+    "unknown_size": 0,
+    "industry": 46,
+    "city": 2,
+    "country": 0,
+    "domain": 0,
+    "name": 0,
+    "type": 0,
+    "agency": 0,
+    "generic_email": 16,
+    "no_email": 11,
+    "no_founder": 0,
+    "tech": 0,
+    "year_founded": 0,
+    "already_seen": 0,
+    "already_sent": 52,
+    "prior_run": 0,
+    "low_intent": 7,
+    "already_surfaced": 0
+  },
+  "icp": {
+    "key": "comai",
+    "name": "COMAI B2B Partner Discovery",
+    "service_match": "COMAI",
+    "employee_count_min": 5,
+    "employee_count_max": 50,
+    "company_size_min": null,
+    "company_size_max": null,
+    "industries": [
+      "fashion",
+      "beauty",
+      "skincare",
+      "jewellery",
+      "food",
+      "home",
+      "health",
+      "lifestyle"
+    ],
+    "specialties": [
+      "fashion",
+      "beauty",
+      "skincare",
+      "jewellery",
+      "food",
+      "home",
+      "health"
+    ],
+    "countries": [
+      "India"
+    ],
+    "headquarters_cities": [
+      "Mumbai",
+      "Delhi",
+      "Bangalore",
+      "Chennai",
+      "Hyderabad",
+      "Pune",
+      "Kolkata",
+      "Ahmedabad",
+      "Gurugram",
+      "Coimbatore",
+      "Kochi",
+      "Jaipur"
+    ],
+    "technology_stack": [
+      "shopify",
+      "woocommerce"
+    ],
+    "company_types": [
+      "d2c_brand",
+      "agency_partner"
+    ],
+    "year_founded_min": 2018,
+    "year_founded_max": 2026,
+    "linkedin_url_required": false,
+    "company_name_contains": [],
+    "domains": [],
+    "lists": [],
+    "funding_stages": [],
+    "hiring_signals": [],
+    "negative_signals": []
+  },
+  "generated_at": "2026-08-17T18:04:48.225708+00:00",
+  "lead_count": 8
+}

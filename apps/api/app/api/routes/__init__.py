@@ -7,7 +7,7 @@ from app.api.routes.autonomous_sales_agent import router as autonomous_sales_age
 from app.api.routes.campaigns import router as campaigns_router
 from app.api.routes.client_execution import router as client_execution_router
 from app.api.routes.communication import router as communication_router
-from app.api.routes.cybersecurity import router as cybersecurity_router
+# from app.api.routes.cybersecurity import router as cybersecurity_router  # Not implemented yet
 from app.api.routes.context import router as context_router
 from app.api.routes.copilot import router as copilot_router
 from app.api.routes.decision import router as decision_router
@@ -89,7 +89,7 @@ router.include_router(autonomous_sales_agent_router)
 router.include_router(client_execution_router)
 router.include_router(campaigns_router)
 router.include_router(communication_router)
-router.include_router(cybersecurity_router)
+# router.include_router(cybersecurity_router)  # Not implemented yet
 router.include_router(context_router)
 router.include_router(copilot_router)
 router.include_router(decision_router)

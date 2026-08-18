@@ -1,0 +1,75 @@
+{
+  "run_id": "8b506238-cd8a-45d1-b243-118e370a7379",
+  "product": "comai_b2b",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 66,
+    "enriched": 54,
+    "scored": 66,
+    "ready": 66,
+    "sent": 0,
+    "rejected": 0,
+    "new_unique": 66,
+    "soft_flagged": 0,
+    "icp_core": 66,
+    "icp_adjacent": 0
+  },
+  "rejects": {},
+  "icp": {
+    "key": "comai_b2b",
+    "name": "COMAI B2B Partner Discovery Engine",
+    "service_match": "COMAI B2B",
+    "employee_count_min": 5,
+    "employee_count_max": 1000,
+    "company_size_min": null,
+    "company_size_max": null,
+    "industries": [
+      "digital_marketing_agency",
+      "creative_agency",
+      "shopify_development_agency",
+      "ecommerce_consultancy"
+    ],
+    "specialties": [
+      "digital_marketing_agency",
+      "creative_agency",
+      "shopify_development_agency",
+      "ecommerce_consultancy"
+    ],
+    "countries": [
+      "India",
+      "USA",
+      "UK",
+      "Canada",
+      "Australia",
+      "UAE",
+      "Singapore",
+      "Germany",
+      "Netherlands",
+      "Ireland",
+      "New Zealand"
+    ],
+    "headquarters_cities": [],
+    "technology_stack": [
+      "shopify",
+      "woocommerce",
+      "meta_ads"
+    ],
+    "company_types": [
+      "agency_partner"
+    ],
+    "year_founded_min": 2015,
+    "year_founded_max": 2026,
+    "linkedin_url_required": false,
+    "company_name_contains": [],
+    "domains": [],
+    "lists": [
+      "COMAI B2B Partner Discovery Engine"
+    ],
+    "funding_stages": [],
+    "hiring_signals": [],
+    "negative_signals": []
+  },
+  "generated_at": "2026-08-17T19:28:01.184131+00:00",
+  "lead_count": 66
+}

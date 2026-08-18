@@ -1,0 +1,19 @@
+{
+  "run_id": "30b7fb29-986e-4dd7-8407-986b80874e03",
+  "product": "comai",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 0,
+    "enriched": 0,
+    "scored": 11,
+    "ready": 11,
+    "sent": 11,
+    "rejected": 0,
+    "new_unique": 11
+  },
+  "rejects": {},
+  "icp": {},
+  "generated_at": "2026-08-14T22:12:28.143843+00:00",
+  "lead_count": 11
+}

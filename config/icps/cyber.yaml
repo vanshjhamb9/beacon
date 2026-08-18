@@ -1,0 +1,221 @@
+business_unit: cyber
+name: "INOWIX — Cybersecurity High-Intent Buyers"
+description: "Businesses currently experiencing a security/compliance problem with evidence they may pay an external cybersecurity team to test, audit, remediate, or secure their platform"
+
+target_customer:
+  size: "Startups, growing, small, and mid-size software businesses"
+  age: "0-15 years"
+  geography: "Tier-1 high-ticket markets first; do not reject strong non-tier-1 evidence"
+  access: "CTO / Founder / CISO / VP Engineering public identity"
+  activity: "Explicit pentest, VAPT, audit, incident, or compliance-testing request"
+  technology: "SaaS / FinTech / HealthTech / apps / APIs processing sensitive data"
+
+target_industries:
+  - saas
+  - fintech
+  - healthtech
+  - edtech
+  - ecommerce
+  - ai startups
+  - b2b software
+  - mobile apps
+  - marketplace
+  - apis
+  - hrtech
+  - legaltech
+  - insurtech
+  - proptech
+  - logisticstech
+  - enterprise software
+
+min_employees: 2
+max_employees: 500
+prefer_employees_min: 5
+prefer_employees_max: 200
+
+min_revenue: 0
+max_revenue: 500000000
+
+target_countries:
+  - United States
+  - Canada
+  - United Kingdom
+  - Australia
+  - Germany
+  - Netherlands
+  - Switzerland
+  - Singapore
+  - United Arab Emirates
+  - Saudi Arabia
+  - Ireland
+  - France
+  - Sweden
+  - Norway
+  - Denmark
+  - Finland
+  - New Zealand
+  - Belgium
+
+target_cities:
+  - San Francisco
+  - New York
+  - London
+  - Toronto
+  - Sydney
+  - Berlin
+  - Amsterdam
+  - Singapore
+  - Dubai
+  - Dublin
+
+target_platforms:
+  - web application
+  - api
+  - mobile
+  - cloud
+  - aws
+  - azure
+  - gcp
+
+exclusion_rules:
+  mega_enterprises:
+    - google
+    - microsoft
+    - amazon
+    - meta
+    - apple
+  competitor_agencies:
+    - rapid7
+    - tenable
+    - qualys
+    - crowdstrike
+    - hackerone
+    - bugcrowd
+    - cobalt
+    - synack
+    - bishop fox
+    - ncc group
+    - mandiant
+    - portswigger
+    - detectify
+  company_size:
+    min_employees_exclude: 10000
+
+business_stages:
+  startup:
+    max_employees: 50
+    weight: 1.0
+  growing:
+    min_employees: 20
+    max_employees: 200
+    weight: 0.95
+  mid_size:
+    min_employees: 50
+    max_employees: 500
+    weight: 0.9
+
+buyability_scoring:
+  explicit_security_request: 40
+  compliance_deadline: 25
+  incident_or_vuln: 20
+  founder_or_cto_access: 15
+
+high_value_signals:
+  explicit_pentest_rfp: 30
+  customer_requires_pentest: 25
+  prelaunch_security: 20
+  vapt_partner_request: 15
+
+thresholds:
+  sales_ready: 68
+  qualified: 50
+  nurture: 30
+
+qualification_states:
+  SALES_READY: "Public cybersecurity buyer with a current commercial request and a reachable contact path"
+  QUALIFIED: "Verified requirement, remaining gates fail"
+  NURTURE: "Security trigger without commercial intent"
+  REJECT: "No buying event, competitor, news, or stale"
+
+services:
+  - name: Web Application VAPT
+    pitch: "Test and report web application vulnerabilities with evidence-backed findings"
+  - name: API Security Testing
+    pitch: "Assess API auth, access control, and injection risk before enterprise launch"
+  - name: Mobile Application Security Testing
+    pitch: "iOS/Android application security testing"
+  - name: Infrastructure Security Assessment
+    pitch: "External/internal infrastructure assessment"
+  - name: Vulnerability Assessment
+    pitch: "Prioritized vulnerability assessment"
+  - name: Penetration Testing
+    pitch: "Scoped penetration testing with a commercial report"
+  - name: Security Audit
+    pitch: "Independent security audit against stated controls"
+  - name: Security Hardening
+    pitch: "Hardening after a verified finding or failed test"
+  - name: Vulnerability Remediation
+    pitch: "Fix verified vulnerabilities with engineering support"
+  - name: Secure Code Review
+    pitch: "Review code for exploitable defects before launch"
+  - name: Cloud Security Assessment
+    pitch: "AWS/Azure/GCP security assessment"
+  - name: Compliance Security Testing
+    pitch: "SOC 2 / ISO 27001 / PCI / HIPAA / GDPR testing evidence"
+  - name: Pre-launch Security Assessment
+    pitch: "Security validation before go-live"
+  - name: Continuous Security Testing
+    pitch: "Retainer testing for teams that already outsource security"
+
+decision_maker_roles:
+  - CTO
+  - Founder
+  - Co-Founder
+  - CISO
+  - Head of Security
+  - VP Engineering
+  - Head of Engineering
+  - Technical Director
+  - IT Director
+  - Engineering Manager
+
+discovery_sources:
+  - type: reddit
+    queries:
+      - need penetration testing
+      - need VAPT
+      - looking for cybersecurity company
+      - need security audit
+      - customer requires pentest
+      - SOC 2 penetration test
+  - type: hacker_news
+    queries:
+      - need pentest
+      - SOC 2 penetration test
+      - hire a pentest
+      - need a security audit
+  - type: github_issues
+    queries:
+      - need a pentest
+      - looking for penetration testing
+  - type: stackexchange
+    queries:
+      - need pentest
+      - penetration testing company
+  - type: upwork
+    queries:
+      - penetration testing
+      - VAPT
+  - type: rfp
+    queries:
+      - penetration testing RFP
+      - vulnerability assessment RFP
+
+output_requirements:
+  must_answer:
+    - What is the buying event?
+    - What security problem is evidenced?
+    - Who is the buyer and how is identity verified?
+    - Which Inowix cybersecurity service matches the stated need?
+    - Is the requirement current?
+    - Is a real contact publicly available without guessing?
