@@ -1,0 +1,107 @@
+[
+  {
+    "opportunity_id": "CYBER-ba5473cdaf",
+    "company": null,
+    "company_url": null,
+    "country": null,
+    "industry": "APIs/platform",
+    "buyer_name": "MT_321",
+    "buyer_role": null,
+    "buyer_profile_url": "https://www.reddit.com/user/MT_321/",
+    "identity_confidence": "MEDIUM",
+    "buying_event": "Compliance / VAPT requirement",
+    "problem": "Compliance / VAPT requirement",
+    "why_now": "Compliance or customer-required security testing",
+    "intent_level": "HIGH",
+    "requirement_evidence": [
+      {
+        "claim": "requirement_verified",
+        "value": "SOC 2 Type II using a Cobalt Web + API pentest?\nI’m trying to understand the SOC 2 process a little better, as I’m looking at Cobalt's human-led Web + API penetration test",
+        "source": "Reddit r/AskNetsec",
+        "source_url": "https://www.reddit.com/r/AskNetsec/comments/1vpk8x5/has_anyone_successfully_gotten_soc_2_type_ii/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-17T00:00:59Z"
+      }
+    ],
+    "source_name": "Reddit r/AskNetsec",
+    "source_url": "https://www.reddit.com/r/AskNetsec/comments/1vpk8x5/has_anyone_successfully_gotten_soc_2_type_ii/",
+    "source_status": "VERIFIED",
+    "published_at": "2026-08-16T01:48:48+00:00",
+    "observed_at": "2026-08-17T00:00:59Z",
+    "security_problem": "SOC 2 Type II using a Cobalt Web + API pentest?\nI’m trying to understand the SOC 2 process a little better, as I’m looking at Cobalt's human-led Web + API penetration test",
+    "security_problem_evidence": [
+      {
+        "claim": "requirement_verified",
+        "value": "SOC 2 Type II using a Cobalt Web + API pentest?\nI’m trying to understand the SOC 2 process a little better, as I’m looking at Cobalt's human-led Web + API penetration test",
+        "source": "Reddit r/AskNetsec",
+        "source_url": "https://www.reddit.com/r/AskNetsec/comments/1vpk8x5/has_anyone_successfully_gotten_soc_2_type_ii/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-17T00:00:59Z"
+      }
+    ],
+    "outsourcing_intent": "EXPLICIT",
+    "outsourcing_evidence": [
+      {
+        "claim": "outsourcing_intent",
+        "value": "EXPLICIT",
+        "source": "Reddit r/AskNetsec",
+        "source_url": "https://www.reddit.com/r/AskNetsec/comments/1vpk8x5/has_anyone_successfully_gotten_soc_2_type_ii/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-17T00:00:59Z"
+      }
+    ],
+    "service_match": "API Security Testing",
+    "service_match_reason": "Buyer stated 'API pentest'",
+    "service_match_confidence": "HIGH",
+    "email": null,
+    "email_status": "UNKNOWN",
+    "email_evidence": [],
+    "linkedin_url": null,
+    "linkedin_status": "UNKNOWN",
+    "contactability": "MEDIUM",
+    "contactability_evidence": [
+      {
+        "claim": "contactability",
+        "value": "MEDIUM",
+        "source": "beacon",
+        "source_url": "https://www.reddit.com/r/AskNetsec/comments/1vpk8x5/has_anyone_successfully_gotten_soc_2_type_ii/",
+        "confidence": "MEDIUM",
+        "observed_at": "2026-08-17T00:00:59Z"
+      }
+    ],
+    "currentness": "HOT",
+    "currentness_evidence": [
+      {
+        "claim": "currentness",
+        "value": "HOT",
+        "source": "Reddit r/AskNetsec",
+        "source_url": "https://www.reddit.com/r/AskNetsec/comments/1vpk8x5/has_anyone_successfully_gotten_soc_2_type_ii/",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-17T00:00:59Z"
+      },
+      {
+        "claim": "days_old",
+        "value": 0,
+        "source": "beacon",
+        "source_url": "",
+        "confidence": "HIGH",
+        "observed_at": "2026-08-17T00:00:59Z"
+      }
+    ],
+    "competitor": false,
+    "safety_clear": true,
+    "opportunity_type": "SECURITY_COMPLIANCE_CLIENT",
+    "outreach_priority": "P2",
+    "cto_15_minute_test": "YES",
+    "cto_decision_reason": "Public buying request, still current, reachable, and Inowix can deliver the asked service",
+    "failed_gates": [],
+    "company_verified": false,
+    "requirement_verified": true,
+    "buying_event_verified": true,
+    "final_verdict": "SALES_READY",
+    "rejection_reason": null,
+    "title": "Has anyone successfully gotten SOC 2 Type II using a Cobalt Web + API pentest?",
+    "body_snippet": "I’m trying to understand the SOC 2 process a little better, as I’m looking at Cobalt's human-led Web + API penetration test as part of the evidence for a future SOC 2 Type II audit. Has anyone here actually gone through SOC 2 Type II this way (specifically using Cobalt’s human-led pentest)? I’m looking for an alternative and more affordable option that would work for a startup with a small budget",
+    "funnel_stage": "SALES_READY"
+  }
+]

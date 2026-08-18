@@ -1,0 +1,58 @@
+{
+  "run_id": "67d1e6de-0863-45b9-9be2-5b956f96fbfc",
+  "product": "comai",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 281,
+    "enriched": 231,
+    "scored": 7,
+    "ready": 7,
+    "sent": 0,
+    "rejected": 227,
+    "new_unique": 4,
+    "live_discovered": 8,
+    "soft_flagged": 141,
+    "icp_core": 6,
+    "icp_adjacent": 1,
+    "pooled_added": 4
+  },
+  "rejects": {
+    "mega_brand": 50,
+    "headcount": 0,
+    "unknown_size": 0,
+    "industry": 77,
+    "city": 0,
+    "country": 0,
+    "domain": 0,
+    "name": 0,
+    "type": 0,
+    "agency": 28,
+    "generic_email": 16,
+    "no_email": 8,
+    "no_founder": 0,
+    "tech": 0,
+    "year_founded": 0,
+    "already_seen": 0,
+    "already_sent": 43,
+    "prior_run": 0,
+    "low_intent": 4,
+    "already_surfaced": 1
+  },
+  "icp": {
+    "specialties": [
+      "jewellery",
+      "jewelry",
+      "accessories"
+    ],
+    "industries": [
+      "jewellery",
+      "jewelry"
+    ],
+    "countries": [
+      "India"
+    ]
+  },
+  "generated_at": "2026-08-17T07:11:30.909033+00:00",
+  "lead_count": 7
+}

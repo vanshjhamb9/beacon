@@ -1,0 +1,60 @@
+{
+  "run_id": "2e1a33c1-1fcb-46f9-a48f-220f1ed7508f",
+  "product": "comai",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 281,
+    "enriched": 235,
+    "scored": 11,
+    "ready": 11,
+    "sent": 0,
+    "rejected": 246,
+    "new_unique": 3,
+    "live_discovered": 12,
+    "soft_flagged": 146,
+    "icp_core": 2,
+    "icp_adjacent": 9,
+    "pooled_added": 3
+  },
+  "rejects": {
+    "mega_brand": 50,
+    "headcount": 0,
+    "unknown_size": 0,
+    "industry": 118,
+    "city": 0,
+    "country": 0,
+    "domain": 0,
+    "name": 0,
+    "type": 0,
+    "agency": 28,
+    "generic_email": 10,
+    "no_email": 10,
+    "no_founder": 0,
+    "tech": 0,
+    "year_founded": 0,
+    "already_seen": 0,
+    "already_sent": 23,
+    "prior_run": 0,
+    "low_intent": 6,
+    "already_surfaced": 1
+  },
+  "icp": {
+    "specialties": [
+      "food",
+      "beverage",
+      "food_beverage",
+      "snacks"
+    ],
+    "industries": [
+      "food",
+      "beverages",
+      "food_beverage"
+    ],
+    "countries": [
+      "India"
+    ]
+  },
+  "generated_at": "2026-08-17T07:23:34.473910+00:00",
+  "lead_count": 11
+}

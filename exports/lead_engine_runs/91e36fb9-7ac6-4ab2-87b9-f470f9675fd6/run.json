@@ -1,0 +1,60 @@
+{
+  "run_id": "91e36fb9-7ac6-4ab2-87b9-f470f9675fd6",
+  "product": "comai",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 281,
+    "enriched": 240,
+    "scored": 17,
+    "ready": 17,
+    "sent": 0,
+    "rejected": 237,
+    "new_unique": 16,
+    "live_discovered": 17,
+    "soft_flagged": 152,
+    "icp_core": 14,
+    "icp_adjacent": 3,
+    "pooled_added": 16
+  },
+  "rejects": {
+    "mega_brand": 50,
+    "headcount": 0,
+    "unknown_size": 0,
+    "industry": 101,
+    "city": 0,
+    "country": 0,
+    "domain": 0,
+    "name": 0,
+    "type": 0,
+    "agency": 28,
+    "generic_email": 10,
+    "no_email": 9,
+    "no_founder": 0,
+    "tech": 0,
+    "year_founded": 0,
+    "already_seen": 0,
+    "already_sent": 34,
+    "prior_run": 0,
+    "low_intent": 4,
+    "already_surfaced": 1
+  },
+  "icp": {
+    "specialties": [
+      "beauty",
+      "skincare",
+      "cosmetics",
+      "personal care"
+    ],
+    "industries": [
+      "beauty",
+      "skincare",
+      "cosmetics"
+    ],
+    "countries": [
+      "India"
+    ]
+  },
+  "generated_at": "2026-08-17T06:44:44.500274+00:00",
+  "lead_count": 17
+}

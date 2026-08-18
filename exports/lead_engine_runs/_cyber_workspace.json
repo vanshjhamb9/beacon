@@ -1,0 +1,39 @@
+{
+  "updated_at": "2026-08-17T00:01:00.336116+00:00",
+  "lane": "CYBER",
+  "sales_ready": 1,
+  "needs_research": 0,
+  "leads": [
+    {
+      "id": "ed51caab-b56a-576b-b9c8-8739bb6694c8",
+      "company": "u/MT_321",
+      "company_name": "u/MT_321",
+      "email": "",
+      "to_email": "",
+      "website": "",
+      "domain": "",
+      "founder_name": "MT_321",
+      "founder_role": "",
+      "linkedin": "",
+      "intent_score": 92.0,
+      "score": 92.0,
+      "grade": "SALES_READY",
+      "lane": "cyber",
+      "source": "cyber_discovery",
+      "why": "Compliance or customer-required security testing",
+      "why_now": "Compliance or customer-required security testing",
+      "service_match": "API Security Testing",
+      "department": "Cyber",
+      "country": "",
+      "industry": "APIs/platform",
+      "source_url": "https://www.reddit.com/r/AskNetsec/comments/1vpk8x5/has_anyone_successfully_gotten_soc_2_type_ii/",
+      "opportunity_id": "CYBER-ba5473cdaf",
+      "outreach_status": "pending",
+      "subject": "Security help for u/MT_321",
+      "body": "Hi MT_321,\n\nSaw the public note that your team is dealing with SOC 2 Type II using a Cobalt Web + API pentest?\nI\u2019m trying to understand the SOC 2 process a little better, as I\u2019m looking at Cobalt's human-led Web + API penetration test. Inowix can run API Security Testing and hand back a commercial report your team can act on.\n\nWould a 15-minute scoping call this week be useful?\n\nVansh Jhamb\nFounder, Inowix\nvansh@inowix.in\nhttps://inowix.in",
+      "strong_signals": [
+        "Compliance / VAPT requirement"
+      ]
+    }
+  ]
+}

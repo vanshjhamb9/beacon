@@ -1,0 +1,24 @@
+[
+  {
+    "opportunity_id": "test-123",
+    "agency_name": "Test Marketing Agency",
+    "email": "john@testmarketing.com",
+    "email_status": "PUBLIC_UNVERIFIED",
+    "email_evidence": "Found on website",
+    "linkedin_url": "https://linkedin.com/company/testmarketing",
+    "linkedin_status": "FOUND",
+    "contactability": "MEDIUM",
+    "contactability_evidence": "Public unverified email + LinkedIn found"
+  },
+  {
+    "opportunity_id": "test-456",
+    "agency_name": "Test Tech Agency",
+    "email": "info@testtech.com",
+    "email_status": "PUBLIC_UNVERIFIED",
+    "email_evidence": "",
+    "linkedin_url": "",
+    "linkedin_status": "",
+    "contactability": "MEDIUM",
+    "contactability_evidence": ""
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "opportunity_id": "test-123",
+    "agency_name": "Test Marketing Agency",
+    "client_access_score": 0,
+    "client_access_evidence": "",
+    "comai_partner_fit": 0,
+    "comai_fit_evidence": "",
+    "partner_intent": "EXPLICIT",
+    "partner_intent_evidence": "Looking for tools for clients"
+  },
+  {
+    "opportunity_id": "test-456",
+    "agency_name": "Test Tech Agency",
+    "client_access_score": 0,
+    "client_access_evidence": "",
+    "comai_partner_fit": 0,
+    "comai_fit_evidence": "",
+    "partner_intent": "UNKNOWN",
+    "partner_intent_evidence": ""
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-08-17T00:00:59Z",
+  "count": 1,
+  "items": [
+    {
+      "opportunity_id": "CYBER-ba5473cdaf",
+      "company": null,
+      "buyer_name": "MT_321",
+      "buyer_role": null,
+      "identity_confidence": "MEDIUM",
+      "email": null,
+      "email_status": "UNKNOWN",
+      "email_evidence": [],
+      "linkedin_url": null,
+      "linkedin_status": "UNKNOWN",
+      "contactability": "MEDIUM",
+      "contactability_evidence": [
+        {
+          "claim": "contactability",
+          "value": "MEDIUM",
+          "source": "beacon",
+          "source_url": "https://www.reddit.com/r/AskNetsec/comments/1vpk8x5/has_anyone_successfully_gotten_soc_2_type_ii/",
+          "confidence": "MEDIUM",
+          "observed_at": "2026-08-17T00:00:59Z"
+        }
+      ],
+      "guessed_email": false
+    }
+  ]
+}

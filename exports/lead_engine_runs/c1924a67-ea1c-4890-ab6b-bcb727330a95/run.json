@@ -1,0 +1,93 @@
+{
+  "run_id": "c1924a67-ea1c-4890-ab6b-bcb727330a95",
+  "product": "comai",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 281,
+    "enriched": 232,
+    "scored": 0,
+    "ready": 0,
+    "sent": 0,
+    "rejected": 249,
+    "new_unique": 0,
+    "live_discovered": 9,
+    "soft_flagged": 248,
+    "icp_core": 0,
+    "icp_adjacent": 0,
+    "pooled_added": 0
+  },
+  "rejects": {
+    "mega_brand": 50,
+    "headcount": 9,
+    "unknown_size": 0,
+    "industry": 46,
+    "city": 69,
+    "country": 0,
+    "domain": 0,
+    "name": 0,
+    "type": 0,
+    "agency": 24,
+    "generic_email": 8,
+    "no_email": 8,
+    "no_founder": 0,
+    "tech": 0,
+    "year_founded": 0,
+    "already_seen": 0,
+    "already_sent": 29,
+    "prior_run": 0,
+    "low_intent": 5,
+    "already_surfaced": 1
+  },
+  "icp": {
+    "key": "comai",
+    "name": "COMAI \u00e2\u20ac\u201d Buyability-First Discovery",
+    "service_match": "COMAI",
+    "employee_count_min": 5,
+    "employee_count_max": 52,
+    "company_size_min": null,
+    "company_size_max": null,
+    "industries": [
+      "fashion",
+      "beauty",
+      "jewellery",
+      "skincare",
+      "food",
+      "home",
+      "health"
+    ],
+    "specialties": [
+      "fashion",
+      "jewellery",
+      "skincare"
+    ],
+    "countries": [
+      "India"
+    ],
+    "headquarters_cities": [
+      "Delhi",
+      "Mumbai"
+    ],
+    "technology_stack": [
+      "shopify",
+      "whatsapp",
+      "meta ads"
+    ],
+    "company_types": [
+      "agency_partner"
+    ],
+    "year_founded_min": 2018,
+    "year_founded_max": 2026,
+    "linkedin_url_required": false,
+    "company_name_contains": [],
+    "domains": [],
+    "lists": [
+      "COMAI \u00e2\u20ac\u201d Buyability-First Discovery"
+    ],
+    "funding_stages": [],
+    "hiring_signals": [],
+    "negative_signals": []
+  },
+  "generated_at": "2026-08-17T17:40:15.173590+00:00",
+  "lead_count": 0
+}
