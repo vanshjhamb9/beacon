@@ -461,7 +461,7 @@ export function LeadEngineWorkspace() {
             <button
               key={p}
               type="button"
-              onClick={() => setProduct(p)}
+              onClick={() => { setProduct(p); setIcp(defaultIcp(p)); }}
               className={cn(
                 "rounded-lg px-3 py-1.5 text-sm font-medium capitalize transition",
                 product === p ? "bg-primary/15 text-foreground" : "text-muted-foreground",
