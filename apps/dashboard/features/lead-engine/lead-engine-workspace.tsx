@@ -27,7 +27,7 @@ import {
 } from "@/lib/api/beacon";
 import { cn } from "@/lib/utils";
 
-type Product = "comai" | "inowix" | "cybersecurity";
+type Product = "comai" | "inowix" | "cybersecurity" | "cyber";
 
 type IcpDraft = {
   key: string;
@@ -313,7 +313,7 @@ export function LeadEngineWorkspace() {
   const startAuto = useMutation({
     mutationFn: () =>
       beaconApi.leadEngineAutoStart({
-        product,
+        product: product === "cybersecurity" ? "cyber" : product,
         limit,
         interval_sec: 600,
         icp: icpPayload,
@@ -349,7 +349,7 @@ export function LeadEngineWorkspace() {
   });
 
   const startEngine = useMutation({
-    mutationFn: () => beaconApi.leadEngineStart({ product, limit, icp: icpPayload }),
+    mutationFn: () => beaconApi.leadEngineStart({ product: product === "cybersecurity" ? "cyber" : product, limit, icp: icpPayload }),
     onSuccess: (run: LeadEngineRun) => {
       setRunId(run.run_id);
       setSelected(new Set());
