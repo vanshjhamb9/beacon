@@ -106,7 +106,7 @@ def store_in_db(leads):
     from sqlalchemy.orm import Session
 
     db_url = "postgresql://beacon:beacon_password@127.0.0.1:5432/beacon"
-    engine = create_engine(db_url)
+    engine = create_engine(db_url, pool_size=2, max_overflow=2, pool_pre_ping=True)
     imported = 0
     skipped = 0
 

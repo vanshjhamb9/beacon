@@ -2,11 +2,11 @@
   "enabled": true,
   "interval_sec": 600,
   "product": "comai",
-  "limit": 80,
-  "last_run_id": "3183bbb8-6fbc-4d26-b050-fdc4f5865b5b",
-  "last_started_at": 1786741543.0845025,
+  "limit": 40,
+  "last_run_id": "d956bc4f-029e-4a12-b6ba-4e8065a6ee6e",
+  "last_started_at": 1787037839.3760092,
   "last_error": null,
-  "runs_completed": 1,
-  "pool_count": 0,
-  "pool_ready": 0
+  "runs_completed": 14,
+  "pool_count": 59,
+  "pool_ready": 59
 }

@@ -1,0 +1,46 @@
+id,company,founder_name,founder_role,email,phone,website,city,category,size,employee_estimate,employee_estimate_source,platform,technologies,intent_score,grade,signal_families,strong_signals,growth_signals,buying_signals,pain_types,why,signal,subject,body,outreach_status,source
+1b0cf8a5-84f2-5a53-8af1-2baa29285189,Nua Woman,,,care@nuawoman.com,918828926608,https://nuawoman.com,Mumbai,personal care,,41,why_text,meta_pixel,"['meta_pixel', 'google_ads', 'gtm', 'shiprocket', 'whatsapp_bot']",96.0,SALES_READY,"gap,growth,live,reach,stack","chat_gap,ads_active,ops_stack,whatsapp_bot_present,ops_pain,stack_plus_gap,ads_plus_automation_gap,high_intent_composite,brand_inbox,brand_inbox_plus_cue,phone_plus_context,live_gap_corroborated","[{'type': 'advertising', 'evidence': 'Paid ads stack detected: google_ads, gtm, meta_pixel', 'confidence': 0.8, 'source': 'homepage_html'}]","[{'type': 'automation_gap_on_ads_brand', 'evidence': 'Growing commerce/ads brand without chatbot automation', 'confidence': 0.9, 'source': 'derived'}, {'type': 'ops_support_gap', 'evidence': 'Returns/COD friction without chatbot coverage', 'confidence': 0.82, 'source': 'derived'}, {'type': 'ops_stack_without_automation', 'evidence': 'Ops/CRM stack present but no chatbot automation', 'confidence': 0.78, 'source': 'derived'}, {'type': 'wa_bot_without_web_chat', 'evidence': 'Has WhatsApp bot vendor but no web chatbot', 'confidence': 0.55, 'source': 'derived'}]","['faq_volume', 'return_policy', 'shipping_info', 'cod_available', 'contact_page']","No chatbot automation on site · WhatsApp bot/automation vendor detected · Found 8 instances of return_policy references · Found 74 instances of shipping_info references · Found 98 instances of cod_available references · Found 1 instances of contact_page references · advertising: Paid ads stack detected: google_ads, gtm, meta_pixel · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · Ops/CRM stack present but no chatbot automation · stack: meta_pixel, google_ads, gtm, shiprocket, whatsapp_bot",live_discovery,Nua Woman — WhatsApp replies before the cart goes cold,"Hi there,
+
+I was looking at Nua Woman (Mumbai). What stood out is that no chatbot automation on site · WhatsApp bot/automation vendor detected · Found 8 instances of return_policy references · Found 74….
+
+I'm Vansh, founder of Inowix. We built COMAI to handle WhatsApp and Instagram commerce chat for Indian personal care brands — product questions, order updates, and follow-ups in seconds, including after hours.
+
+For a team like yours on meta_pixel, that usually means more conversions from the same ad spend without adding another support shift.
+
+Would a short 15-minute walkthrough of how COMAI could sit on Nua Woman's WhatsApp be useful?
+
+Best,
+Vansh Jhamb
+Founder, Inowix
+vansh@inowix.in
+https://inowix.in",sent,live_verified_enrichment
+8e2b77df-8795-5c50-a806-ba23c3474b48,AND Designs,,,care@andindia.com,+91 7303030343,https://andindia.com,Mumbai,fashion,,47,why_text,gtm,['gtm'],91.0,SALES_READY,"gap,growth,live,reach,stack","growth_motion,ads_active,ops_pain,high_intent_composite,brand_inbox,brand_inbox_plus_cue,phone_plus_context,live_gap_corroborated","[{'type': 'new_products', 'evidence': 'New collection', 'confidence': 0.75, 'source': 'homepage_html'}, {'type': 'advertising', 'evidence': 'Paid ads stack detected: gtm', 'confidence': 0.8, 'source': 'homepage_html'}]",[],"['faq_volume', 'return_policy', 'shipping_info', 'cod_available', 'contact_page']",Web chatbot present on site · Found 52 instances of return_policy references · Found 42 instances of shipping_info references · Found 34 instances of cod_available references · Found 8 instances of contact_page references · new_products: New collection · advertising: Paid ads stack detected: gtm · stack: gtm,live_discovery,AND Designs — WhatsApp replies before the cart goes cold,"Hi there,
+
+I was looking at AND Designs (Mumbai). What stood out is that web chatbot present on site · Found 52 instances of return_policy references · Found 42 instances of shipping_info references · Found 34….
+
+I'm Vansh, founder of Inowix. We built COMAI to handle WhatsApp and Instagram commerce chat for Indian fashion brands — product questions, order updates, and follow-ups in seconds, including after hours.
+
+For a team like yours on gtm, that usually means more conversions from the same ad spend without adding another support shift.
+
+Would a short 15-minute walkthrough of how COMAI could sit on AND Designs's WhatsApp be useful?
+
+Best,
+Vansh Jhamb
+Founder, Inowix
+vansh@inowix.in
+https://inowix.in",sent,live_verified_enrichment
+16ac70aa-3d9f-5fc3-b33c-22e8164159e3,Farmley,,Founder,wecare@farmley.com,912852459156,https://farmley.com,New Delhi,food,,22,icp_midpoint_default,shopify,,59.2,QUALIFIED,"reach,stack","commerce_stack,brand_inbox,brand_inbox_plus_cue",,,,,,Farmley — WhatsApp replies before the cart goes cold,"Hi there,
+
+I was looking at Farmley (New Delhi). What stood out is that in New Delhi runs on Shopify, food buyers often need ingredient, fit, or order answers before they convert.
+
+I'm Vansh, founder of Inowix. We built COMAI to handle WhatsApp and Instagram commerce chat for Indian food brands — product questions, order updates, and follow-ups in seconds, including after hours.
+
+For a team like yours on Shopify, that usually means more conversions from the same ad spend without adding another support shift.
+
+Would a short 15-minute walkthrough of how COMAI could sit on Farmley's WhatsApp be useful?
+
+Best,
+Vansh Jhamb
+Founder, Inowix
+vansh@inowix.in
+https://inowix.in",sent,comai_buyability_results.json

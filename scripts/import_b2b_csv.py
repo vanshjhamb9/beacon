@@ -12,7 +12,7 @@ def main():
     from sqlalchemy import create_engine, text
     from sqlalchemy.orm import Session
 
-    engine = create_engine("postgresql://beacon:beacon_password@127.0.0.1:5432/beacon")
+    engine = create_engine("postgresql://beacon:beacon_password@127.0.0.1:5432/beacon", pool_size=2, max_overflow=2, pool_pre_ping=True)
 
     with open(CSV_PATH) as f:
         reader = csv.DictReader(f)
