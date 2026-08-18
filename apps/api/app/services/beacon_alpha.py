@@ -32,7 +32,7 @@ class BeaconAlphaService:
         self.pipeline = BeaconAlphaPipeline()
         self.founder_queue = FounderQueueEngine()
         self.manual_qa = ManualQaEngine()
-        self.acceptance = AlphaAcceptanceEngine()
+        self._acceptance_engine = AlphaAcceptanceEngine()
         self.dedupe = AlphaDedupeEngine()
 
     async def build_payload(self, company_id: UUID) -> dict[str, Any] | None:
@@ -389,7 +389,7 @@ class BeaconAlphaService:
             "review_under_15_min": True,  # Top-10 design target
             "founder_queue_reviewable": True,
         }
-        result = self.acceptance.evaluate(metrics)
+        result = self._acceptance_engine.evaluate(metrics)
         data = result.model_dump(mode="json")
         self.session.add(
             AlphaAcceptanceRow(
