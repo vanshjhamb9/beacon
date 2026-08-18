@@ -1,0 +1,27 @@
+
+COMAI ENHANCED LEAD EXTRACTION — Summary
+=========================================
+Total Qualified Leads: 20
+  HOT:     0 (Can call TODAY)
+  WARM:    2 (Can call THIS WEEK)
+  NURTURE: 18 (Follow-up sequence)
+
+Contact Availability:
+  Email:    1 (5%)
+  Phone:    20 (100%)
+
+Average Commercial Fit: 72.5/100
+
+Category Breakdown:
+  Fashion: 8
+  Jewellery: 2
+  Health & Wellness: 2
+  Bags: 2
+  Gifts: 1
+  Baby Products: 1
+  Pet Products: 1
+  Home Decor: 1
+  Beauty: 1
+  Food & Snacks: 1
+
+Generated: 2026-08-17 06:29 UTC

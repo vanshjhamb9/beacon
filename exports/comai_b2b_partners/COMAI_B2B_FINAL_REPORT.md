@@ -1,130 +1,77 @@
 # COMAI B2B Partner Discovery Report
 
-## Executive Summary
+Generated: 2026-08-17T12:29:11.756188+00:00
 
-- **Generated At**: 2026-08-17T14:11:08.636842+00:00
-- **Total Discovered**: 24
-- **Verified Agencies**: 23
-- **Explicit Partnership Intent**: 1
-- **High Potential**: 1
-- **Hot Partners**: 0
-- **Contactable**: 7
-- **Tier A (Hot)**: 0
-- **Tier B (High Potential)**: 1
-- **Tier C (Nurture)**: 22
-- **Rejected**: 1
+## Funnel Summary
 
-## Discovery Funnel
+| Stage | Count |
+|-------|-------|
+| DISCOVERED | 338 |
+| IMPORTED | 333 |
+| SKIPPED | 5 |
 
-```
-DISCOVERED
-    ↓
-AGENCY VERIFIED
-    ↓
-CLIENT BASE VERIFIED
-    ↓
-COMAI FIT
-    ↓
-PARTNER INTENT / POTENTIAL
-    ↓
-DECISION MAKER
-    ↓
-CONTACTABLE
-    ↓
-PARTNER READY
-    ↓
-OUTREACH QUEUE
-```
+## Partner Tiers
 
-## Tier A Partners (Immediate Outreach)
+| Tier | Count | Description |
+|------|-------|-------------|
+| Tier A (HOT) | 3 | Explicit partnership intent + strong portfolio |
+| Tier B (HIGH) | 159 | High potential, no explicit intent |
+| Tier C (NURTURE) | 176 | Relevant but insufficient evidence |
 
-No Tier A partners found.
+## Partner Intent
 
-## Tier B Partners (High Potential)
+| Intent | Count |
+|--------|-------|
+| EXPLICIT | 3 |
+| HIGH_POTENTIAL | 224 |
+| MEDIUM | 34 |
+| LOW | 77 |
+| UNKNOWN | 0 |
 
-### ITD GrowthLabs
-- **URL**: https://itdgrowthlabs.com
-- **Country**: USA
-- **Agency Type**: marketing
-- **Client Access Score**: 65
-- **COMAI Partner Fit**: 70
-- **Partner Intent**: UNKNOWN
-- **Contactability**: MEDIUM
-- **Email**: info@itdgrowthlabs.com (PUBLIC_UNVERIFIED)
-- **Decision Maker**: from kickoff (Founder)
-- **Why This Agency**: Has 300+ clients; Services: digital marketing, social media marketing, seo; Industries: health, technology, d2c
-- **Recommended Pitch Angle**: Strong COMAI fit: Agency's clients match COMAI ICP
+## Contactability
 
-## Tier C Partners (Nurture)
+| Metric | Count |
+|--------|-------|
+| With Email | 0 |
+| With Phone | 0 |
+| Contactable (HIGH/MEDIUM) | 0 |
+| Competitors | 0 |
 
-Count: 22
+## By Agency Type
 
-### Top Nurture Partners
+- marketing: 103
+- technology: 129
+- creative: 59
+- consultant: 47
 
-- **FlashReach** (USA) - marketing
-- **HavStrategy** (USA) - marketing
-- **Neuroid** (USA) - marketing
-- **Performify** (USA) - marketing
-- **Iblix Digital** (USA) - marketing
-- **Sqroot** (USA) - marketing
-- **Drop Scale Media** (USA) - marketing
-- **TruImpact** (USA) - marketing
-- **Socio Labs** (USA) - marketing
-- **Tangence** (USA) - marketing
+## By Country
 
-## Rejected Agencies
+- India: 133
+- USA: 65
+- UK: 32
+- Australia: 29
+- UAE: 21
+- Canada: 18
+- Singapore: 8
+- Germany: 8
+- Netherlands: 8
+- Ireland: 8
+- New Zealand: 8
 
-Count: 1
+## CTO Test
 
-### Top Rejection Reasons
+"If I were running COMAI, would I genuinely want this agency to introduce COMAI to its clients?"
 
-- **Did not meet partner qualification criteria**: 1
-
-## Evidence Audit
-
-### Client Access Score Distribution
-
-- **Average Score**: 44.1
-- **Min Score**: 0
-- **Max Score**: 65
-
-### COMAI Partner Fit Distribution
-
-- **Average Fit**: 58.9
-- **Min Fit**: 0
-- **Max Fit**: 70
-
-## Contactability Audit
-
-- **LOW**: 6
-- **MEDIUM**: 7
-- **NONE**: 10
-
-## Final CTO Test
-
-> "If I were running COMAI, would I genuinely want this agency to introduce COMAI to its clients?"
-
-### YES requires evidence that:
-
-1. They work with businesses.
-2. Those businesses overlap with COMAI's target market.
-3. They have an ongoing client relationship.
-4. They can influence client technology/service decisions.
-5. They have a credible decision maker.
-6. Beacon has a legitimate contact route.
-7. COMAI solves a relevant client problem.
+- YES: 162 partners (Tier A + Tier B)
+- NO: 0 rejected (competitors)
+- NURTURE: 176 (insufficient evidence)
 
 ## Final Principle
 
-- **COMAI B2B IS NOT AN AGENCY DIRECTORY.**
-- **WE ARE BUILDING A PARTNER ACQUISITION ENGINE.**
-- Do NOT optimize for number of agencies.
-- Find agencies that can actually introduce COMAI to businesses.
-- **CLIENT ACCESS > AGENCY SIZE.**
-- **PARTNER POTENTIAL > WEBSITE QUALITY.**
-- **BUYING/PARTNERSHIP INTENT > GENERIC AGENCY EXISTENCE.**
-- **EVIDENCE > ASSUMPTION.**
-- **QUALITY > QUANTITY.**
-- **DO NOT SEND OUTREACH AUTOMATICALLY.**
-- Only qualified Tier A and selected Tier B partners enter the outreach queue after approval.
-- **STOP AFTER GENERATING THE REPORT.**
+COMAI B2B IS NOT AN AGENCY DIRECTORY.
+WE ARE BUILDING A PARTNER ACQUISITION ENGINE.
+
+QUALITY > QUANTITY.
+CLIENT ACCESS > AGENCY SIZE.
+PARTNER POTENTIAL > WEBSITE QUALITY.
+EVIDENCE > ASSUMPTION.

@@ -1,0 +1,92 @@
+{
+  "run_id": "2ca4d2be-1bf6-4b00-9b41-73bcf9e04911",
+  "product": "comai",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 281,
+    "enriched": 226,
+    "scored": 0,
+    "ready": 0,
+    "sent": 0,
+    "rejected": 238,
+    "new_unique": 0,
+    "live_discovered": 3,
+    "soft_flagged": 90,
+    "icp_core": 0,
+    "icp_adjacent": 0,
+    "pooled_added": 0
+  },
+  "rejects": {
+    "mega_brand": 50,
+    "headcount": 3,
+    "unknown_size": 0,
+    "industry": 41,
+    "city": 61,
+    "country": 0,
+    "domain": 0,
+    "name": 0,
+    "type": 0,
+    "agency": 24,
+    "generic_email": 10,
+    "no_email": 12,
+    "no_founder": 0,
+    "tech": 0,
+    "year_founded": 0,
+    "already_seen": 0,
+    "already_sent": 34,
+    "prior_run": 0,
+    "low_intent": 3,
+    "already_surfaced": 0
+  },
+  "icp": {
+    "key": null,
+    "name": null,
+    "service_match": null,
+    "employee_count_min": 5,
+    "employee_count_max": 80,
+    "company_size_min": null,
+    "company_size_max": null,
+    "industries": [
+      "fashion",
+      "beauty",
+      "jewellery",
+      "lifestyle",
+      "ecommerce",
+      "d2c"
+    ],
+    "specialties": [
+      "fashion",
+      "beauty",
+      "jewellery",
+      "lifestyle"
+    ],
+    "countries": [
+      "India"
+    ],
+    "headquarters_cities": [
+      "Delhi",
+      "Mumbai",
+      "Bangalore",
+      "Bengaluru"
+    ],
+    "technology_stack": [
+      "shopify",
+      "woocommerce"
+    ],
+    "company_types": [
+      "d2c_brand"
+    ],
+    "year_founded_min": null,
+    "year_founded_max": null,
+    "linkedin_url_required": false,
+    "company_name_contains": [],
+    "domains": [],
+    "lists": [],
+    "funding_stages": [],
+    "hiring_signals": [],
+    "negative_signals": []
+  },
+  "generated_at": "2026-08-15T12:36:43.057000+00:00",
+  "lead_count": 0
+}

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-17T19:28:39.549004+00:00",
-  "count": 48,
+  "updated_at": "2026-08-18T07:26:24.756422+00:00",
+  "count": 59,
   "leads": [
     {
       "company": "Bevzilla",
@@ -2567,7 +2567,10 @@
         "soft_generic_inbox",
         "icp_core"
       ],
-      "pooled_at": "2026-08-17T06:44:43.834455+00:00"
+      "pooled_at": "2026-08-17T06:44:43.834455+00:00",
+      "subject": "Aqualogica — WhatsApp replies before the cart goes cold",
+      "body": "Hi there,\n\nI was looking at Aqualogica (Mumbai). What stood out is that web chatbot present on site Â· WhatsApp bot/automation vendor detected Â· Found 125 instances of return_policy references Â· Found 126….\n\nI'm Vansh, founder of Inowix. We built COMAI to handle WhatsApp and Instagram commerce chat for Indian skincare brands — product questions, order updates, and follow-ups in seconds, including after hours.\n\nFor a team like yours on Shopify, that usually means more conversions from the same ad spend without adding another support shift.\n\nWould a short 15-minute walkthrough of how COMAI could sit on Aqualogica's WhatsApp be useful?\n\nBest,\nVansh Jhamb\nFounder, Inowix\nvansh@inowix.in\nhttps://inowix.in",
+      "draft_status": "drafted"
     },
     {
       "company": "Sanfe",
@@ -4586,6 +4589,1183 @@
         "icp_core"
       ],
       "pooled_at": "2026-08-17T18:04:47.860581+00:00"
+    },
+    {
+      "company": "Suhani Pittie",
+      "founder_name": "",
+      "founder_role": "",
+      "email": "stouvant@suhanipittie.com",
+      "phone": "+91-9014089000",
+      "website": "https://suhanipittie.com",
+      "domain": "suhanipittie.com",
+      "city": "Hyderabad",
+      "category": "jewellery",
+      "size": "",
+      "platform": "shopify",
+      "technologies": [
+        "shopify",
+        "google_ads",
+        "gtm"
+      ],
+      "pain_types": [
+        "faq_volume",
+        "return_policy",
+        "shipping_info",
+        "cod_available",
+        "contact_page"
+      ],
+      "growth_signals": [
+        {
+          "type": "hiring",
+          "evidence": "/careers",
+          "confidence": 0.75,
+          "source": "homepage_html"
+        },
+        {
+          "type": "advertising",
+          "evidence": "Paid ads stack detected: google_ads, gtm",
+          "confidence": 0.8,
+          "source": "homepage_html"
+        }
+      ],
+      "buying_signals": [
+        {
+          "type": "automation_gap_on_ads_brand",
+          "evidence": "Growing commerce/ads brand without chatbot automation",
+          "confidence": 0.9,
+          "source": "derived"
+        },
+        {
+          "type": "ops_support_gap",
+          "evidence": "Returns/COD friction without chatbot coverage",
+          "confidence": 0.82,
+          "source": "derived"
+        },
+        {
+          "type": "hiring_with_support_gap",
+          "evidence": "Hiring while support automation gap exists",
+          "confidence": 0.92,
+          "source": "derived"
+        }
+      ],
+      "chat_gap": true,
+      "whatsapp_bot": false,
+      "why": "No chatbot automation on site · Found 68 instances of return_policy references · Found 16 instances of shipping_info references · Found 20 instances of cod_available references · Found 7 instances of contact_page references · hiring: /careers · advertising: Paid ads stack detected: google_ads, gtm · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · Hiring while support automation gap exists · stack: shopify, google_ads, gtm",
+      "signal": "live_discovery",
+      "intent_score": 96.0,
+      "source": "live_verified_enrichment",
+      "company_type": "d2c_brand",
+      "enriched": true,
+      "year_founded": null,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "year_founded_soft_miss": true,
+      "tech_match": true,
+      "employee_estimate": 42,
+      "employee_estimate_source": "why_text",
+      "headcount_soft_miss": true,
+      "to_email": "stouvant@suhanipittie.com",
+      "id": "1eec8e04-a016-5aa8-92ad-b737d4a0517a",
+      "_dedupe_rank": 121.0,
+      "whatsapp_already": false,
+      "intent_signals": 9,
+      "strong_signals": [
+        "chat_gap",
+        "hiring_intent",
+        "ads_active",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "phone_plus_context",
+        "live_gap_corroborated"
+      ],
+      "signal_families": [
+        "gap",
+        "growth",
+        "live",
+        "reach",
+        "stack"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "phone:+91-9014089000",
+        "emp~42",
+        "chat_gap",
+        "hiring_intent",
+        "ads_active",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "phone_plus_context",
+        "live_gap_corroborated",
+        "families:gap,growth,live,reach,stack",
+        "platform:shopify",
+        "icp_core"
+      ],
+      "pooled_at": "2026-08-18T03:53:02.234334+00:00"
+    },
+    {
+      "company": "Farmley",
+      "founder_name": "",
+      "founder_role": "Founder",
+      "email": "wecare@farmley.com",
+      "phone": "912852459156",
+      "website": "https://farmley.com",
+      "domain": "https://farmley.com",
+      "city": "New Delhi",
+      "category": "food",
+      "size": "",
+      "platform": "shopify",
+      "why": "",
+      "signal": "",
+      "intent_score": 59.2,
+      "source": "comai_buyability_results.json",
+      "company_type": "d2c_brand",
+      "lane": "",
+      "enriched": true,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "year_founded_soft_miss": true,
+      "tech_match": true,
+      "employee_estimate": 22,
+      "employee_estimate_source": "icp_midpoint_default",
+      "soft_generic_email": true,
+      "to_email": "wecare@farmley.com",
+      "id": "16ac70aa-3d9f-5fc3-b33c-22e8164159e3",
+      "_dedupe_rank": 68.2,
+      "whatsapp_already": false,
+      "intent_signals": 3,
+      "strong_signals": [
+        "commerce_stack",
+        "brand_inbox",
+        "brand_inbox_plus_cue"
+      ],
+      "signal_families": [
+        "reach",
+        "stack"
+      ],
+      "grade": "QUALIFIED",
+      "evidence": [
+        "phone:912852459156",
+        "emp~22",
+        "commerce_stack",
+        "brand_inbox",
+        "brand_inbox_plus_cue",
+        "families:reach,stack",
+        "platform:shopify",
+        "soft_generic_inbox",
+        "icp_core"
+      ],
+      "pooled_at": "2026-08-18T03:53:02.234358+00:00"
+    },
+    {
+      "company": "Tribe Amrapali",
+      "founder_name": "",
+      "founder_role": "",
+      "email": "tribebyamrapalionline@gmail.com",
+      "phone": "+91-7229835888",
+      "website": "https://tribeamrapali.com",
+      "domain": "tribeamrapali.com",
+      "city": "Jaipur",
+      "category": "jewellery",
+      "size": "",
+      "platform": "meta_pixel",
+      "technologies": [
+        "meta_pixel",
+        "google_ads",
+        "gtm"
+      ],
+      "pain_types": [
+        "faq_volume",
+        "return_policy",
+        "shipping_info",
+        "cod_available",
+        "contact_page"
+      ],
+      "growth_signals": [
+        {
+          "type": "advertising",
+          "evidence": "Paid ads stack detected: google_ads, gtm, meta_pixel",
+          "confidence": 0.8,
+          "source": "homepage_html"
+        }
+      ],
+      "buying_signals": [
+        {
+          "type": "automation_gap_on_ads_brand",
+          "evidence": "Growing commerce/ads brand without chatbot automation",
+          "confidence": 0.9,
+          "source": "derived"
+        },
+        {
+          "type": "ops_support_gap",
+          "evidence": "Returns/COD friction without chatbot coverage",
+          "confidence": 0.82,
+          "source": "derived"
+        }
+      ],
+      "chat_gap": true,
+      "whatsapp_bot": false,
+      "why": "No chatbot automation on site · Found 12 instances of return_policy references · Found 9 instances of shipping_info references · Found 6 instances of cod_available references · Found 2 instances of contact_page references · advertising: Paid ads stack detected: google_ads, gtm, meta_pixel · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · stack: meta_pixel, google_ads, gtm",
+      "signal": "live_discovery",
+      "intent_score": 96.0,
+      "source": "live_verified_enrichment",
+      "company_type": "d2c_brand",
+      "enriched": true,
+      "year_founded": null,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "to_email": "tribebyamrapalionline@gmail.com",
+      "id": "ae09ef93-693b-532e-9ae9-addc03d1099c",
+      "_dedupe_rank": 118.0,
+      "whatsapp_already": false,
+      "intent_signals": 7,
+      "strong_signals": [
+        "chat_gap",
+        "ads_active",
+        "ops_pain",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "phone_plus_context",
+        "live_gap_corroborated"
+      ],
+      "signal_families": [
+        "gap",
+        "growth",
+        "live",
+        "reach",
+        "stack"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "phone:+91-7229835888",
+        "chat_gap",
+        "ads_active",
+        "ops_pain",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "phone_plus_context",
+        "live_gap_corroborated",
+        "families:gap,growth,live,reach,stack",
+        "platform:meta_pixel",
+        "icp_core"
+      ],
+      "pooled_at": "2026-08-18T04:57:16.860318+00:00"
+    },
+    {
+      "company": "Amrapali Jewels Mid",
+      "founder_name": "",
+      "founder_role": "",
+      "email": "info@amrapalijewels.com",
+      "phone": "916176839102",
+      "website": "https://amrapalijewels.com",
+      "domain": "amrapalijewels.com",
+      "city": "Jaipur",
+      "category": "jewellery",
+      "size": "",
+      "platform": "shopify",
+      "technologies": [
+        "shopify",
+        "judgeme"
+      ],
+      "pain_types": [
+        "faq_volume",
+        "return_policy",
+        "shipping_info",
+        "cod_available",
+        "contact_page"
+      ],
+      "growth_signals": [],
+      "buying_signals": [
+        {
+          "type": "automation_gap_on_ads_brand",
+          "evidence": "Growing commerce/ads brand without chatbot automation",
+          "confidence": 0.9,
+          "source": "derived"
+        },
+        {
+          "type": "ops_support_gap",
+          "evidence": "Returns/COD friction without chatbot coverage",
+          "confidence": 0.82,
+          "source": "derived"
+        }
+      ],
+      "chat_gap": true,
+      "whatsapp_bot": false,
+      "why": "No chatbot automation on site · Found 76 instances of return_policy references · Found 16 instances of shipping_info references · Found 16 instances of cod_available references · Found 5 instances of contact_page references · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · stack: shopify, judgeme",
+      "signal": "live_discovery",
+      "intent_score": 94.0,
+      "source": "live_verified_enrichment",
+      "company_type": "d2c_brand",
+      "enriched": true,
+      "year_founded": null,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "soft_generic_email": true,
+      "to_email": "info@amrapalijewels.com",
+      "id": "170a30b6-0c1c-572a-9de2-2ef880319ac7",
+      "_dedupe_rank": 114.0,
+      "whatsapp_already": false,
+      "intent_signals": 9,
+      "strong_signals": [
+        "chat_gap",
+        "ops_stack",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "brand_inbox",
+        "brand_inbox_plus_cue",
+        "phone_plus_context",
+        "live_gap_corroborated"
+      ],
+      "signal_families": [
+        "gap",
+        "live",
+        "reach",
+        "stack"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "phone:916176839102",
+        "chat_gap",
+        "ops_stack",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "brand_inbox",
+        "brand_inbox_plus_cue",
+        "phone_plus_context",
+        "live_gap_corroborated",
+        "families:gap,live,reach,stack",
+        "platform:shopify",
+        "soft_generic_inbox",
+        "icp_core"
+      ],
+      "pooled_at": "2026-08-18T04:57:16.860342+00:00"
+    },
+    {
+      "company": "Snugkins",
+      "founder_name": "",
+      "founder_role": "",
+      "email": "snugkins.com@gmail.com",
+      "phone": "912421705493",
+      "website": "https://snugkins.com",
+      "domain": "snugkins.com",
+      "city": "Mumbai",
+      "category": "baby",
+      "size": "",
+      "platform": "shopify",
+      "technologies": [
+        "shopify",
+        "meta_pixel",
+        "gtm",
+        "shiprocket",
+        "razorpay",
+        "judgeme"
+      ],
+      "pain_types": [
+        "faq_volume",
+        "return_policy",
+        "shipping_info",
+        "cod_available",
+        "contact_page"
+      ],
+      "growth_signals": [
+        {
+          "type": "hiring",
+          "evidence": "/careers",
+          "confidence": 0.75,
+          "source": "homepage_html"
+        },
+        {
+          "type": "advertising",
+          "evidence": "Paid ads stack detected: gtm, meta_pixel",
+          "confidence": 0.8,
+          "source": "homepage_html"
+        }
+      ],
+      "buying_signals": [
+        {
+          "type": "automation_gap_on_ads_brand",
+          "evidence": "Growing commerce/ads brand without chatbot automation",
+          "confidence": 0.9,
+          "source": "derived"
+        },
+        {
+          "type": "ops_support_gap",
+          "evidence": "Returns/COD friction without chatbot coverage",
+          "confidence": 0.82,
+          "source": "derived"
+        },
+        {
+          "type": "hiring_with_support_gap",
+          "evidence": "Hiring while support automation gap exists",
+          "confidence": 0.92,
+          "source": "derived"
+        },
+        {
+          "type": "ops_stack_without_automation",
+          "evidence": "Ops/CRM stack present but no chatbot automation",
+          "confidence": 0.78,
+          "source": "derived"
+        }
+      ],
+      "chat_gap": true,
+      "whatsapp_bot": false,
+      "why": "No chatbot automation on site · Found 93 instances of return_policy references · Found 100 instances of shipping_info references · Found 91 instances of cod_available references · Found 6 instances of contact_page references · hiring: /careers · advertising: Paid ads stack detected: gtm, meta_pixel · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · Hiring while support automation gap exists · stack: shopify, meta_pixel, gtm, shiprocket, razorpay, judgeme",
+      "signal": "live_discovery",
+      "intent_score": 96.0,
+      "source": "live_verified_enrichment",
+      "company_type": "d2c_brand",
+      "enriched": true,
+      "year_founded": null,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "to_email": "snugkins.com@gmail.com",
+      "id": "2858928b-02ff-52e8-8e3e-852679ce8db6",
+      "_dedupe_rank": 121.0,
+      "whatsapp_already": false,
+      "intent_signals": 10,
+      "strong_signals": [
+        "chat_gap",
+        "hiring_intent",
+        "ads_active",
+        "ops_stack",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "phone_plus_context",
+        "live_gap_corroborated"
+      ],
+      "signal_families": [
+        "gap",
+        "growth",
+        "live",
+        "reach",
+        "stack"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "phone:912421705493",
+        "chat_gap",
+        "hiring_intent",
+        "ads_active",
+        "ops_stack",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "phone_plus_context",
+        "live_gap_corroborated",
+        "families:gap,growth,live,reach,stack",
+        "platform:shopify",
+        "icp_core"
+      ],
+      "pooled_at": "2026-08-18T04:59:01.807187+00:00"
+    },
+    {
+      "company": "Hammer",
+      "founder_name": "",
+      "founder_role": "",
+      "email": "info@hammeronline.in",
+      "phone": "915625854214",
+      "website": "https://hammeronline.in",
+      "domain": "hammeronline.in",
+      "city": "New Delhi",
+      "category": "electronics",
+      "size": "",
+      "platform": "shopify",
+      "technologies": [
+        "shopify",
+        "google_ads",
+        "gtm",
+        "shiprocket",
+        "razorpay",
+        "judgeme"
+      ],
+      "pain_types": [
+        "faq_volume",
+        "return_policy",
+        "shipping_info",
+        "cod_available",
+        "contact_page"
+      ],
+      "growth_signals": [
+        {
+          "type": "expansion",
+          "evidence": "PAN India",
+          "confidence": 0.75,
+          "source": "homepage_html"
+        },
+        {
+          "type": "new_products",
+          "evidence": "New Launch",
+          "confidence": 0.75,
+          "source": "homepage_html"
+        },
+        {
+          "type": "advertising",
+          "evidence": "Paid ads stack detected: google_ads, gtm",
+          "confidence": 0.8,
+          "source": "homepage_html"
+        }
+      ],
+      "buying_signals": [
+        {
+          "type": "automation_gap_on_ads_brand",
+          "evidence": "Growing commerce/ads brand without chatbot automation",
+          "confidence": 0.9,
+          "source": "derived"
+        },
+        {
+          "type": "ops_support_gap",
+          "evidence": "Returns/COD friction without chatbot coverage",
+          "confidence": 0.82,
+          "source": "derived"
+        },
+        {
+          "type": "ops_stack_without_automation",
+          "evidence": "Ops/CRM stack present but no chatbot automation",
+          "confidence": 0.78,
+          "source": "derived"
+        }
+      ],
+      "chat_gap": true,
+      "whatsapp_bot": false,
+      "why": "No chatbot automation on site · Found 334 instances of return_policy references · Found 33 instances of shipping_info references · Found 69 instances of cod_available references · Found 3 instances of contact_page references · expansion: PAN India · new_products: New Launch · advertising: Paid ads stack detected: google_ads, gtm · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · Ops/CRM stack present but no chatbot automation · stack: shopify, google_ads, gtm, shiprocket, razorpay, judgeme",
+      "signal": "live_discovery",
+      "intent_score": 96.0,
+      "source": "live_verified_enrichment",
+      "company_type": "d2c_brand",
+      "enriched": true,
+      "year_founded": null,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "soft_generic_email": true,
+      "to_email": "info@hammeronline.in",
+      "id": "bcb15e01-098b-5a62-8bc8-0ee1aba371c3",
+      "_dedupe_rank": 121.0,
+      "whatsapp_already": false,
+      "intent_signals": 12,
+      "strong_signals": [
+        "chat_gap",
+        "growth_motion",
+        "ads_active",
+        "ops_stack",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "brand_inbox",
+        "brand_inbox_plus_cue",
+        "phone_plus_context",
+        "live_gap_corroborated"
+      ],
+      "signal_families": [
+        "gap",
+        "growth",
+        "live",
+        "reach",
+        "stack"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "phone:915625854214",
+        "chat_gap",
+        "growth_motion",
+        "ads_active",
+        "ops_stack",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "brand_inbox",
+        "brand_inbox_plus_cue",
+        "phone_plus_context",
+        "live_gap_corroborated",
+        "families:gap,growth,live,reach,stack",
+        "platform:shopify",
+        "soft_generic_inbox",
+        "icp_core"
+      ],
+      "pooled_at": "2026-08-18T05:08:06.482968+00:00"
+    },
+    {
+      "company": "Leaf Studios",
+      "founder_name": "",
+      "founder_role": "",
+      "email": "support@leafstudios.in",
+      "phone": "913631470425",
+      "website": "https://leafstudios.in",
+      "domain": "leafstudios.in",
+      "city": "Mumbai",
+      "category": "electronics",
+      "size": "",
+      "platform": "shopify",
+      "technologies": [
+        "shopify",
+        "meta_pixel",
+        "google_ads",
+        "gtm",
+        "shiprocket",
+        "judgeme"
+      ],
+      "pain_types": [
+        "faq_volume",
+        "return_policy",
+        "shipping_info",
+        "cod_available",
+        "contact_page"
+      ],
+      "growth_signals": [
+        {
+          "type": "expansion",
+          "evidence": "now available in",
+          "confidence": 0.75,
+          "source": "homepage_html"
+        },
+        {
+          "type": "advertising",
+          "evidence": "Paid ads stack detected: google_ads, gtm, meta_pixel",
+          "confidence": 0.8,
+          "source": "homepage_html"
+        }
+      ],
+      "buying_signals": [
+        {
+          "type": "automation_gap_on_ads_brand",
+          "evidence": "Growing commerce/ads brand without chatbot automation",
+          "confidence": 0.9,
+          "source": "derived"
+        },
+        {
+          "type": "ops_support_gap",
+          "evidence": "Returns/COD friction without chatbot coverage",
+          "confidence": 0.82,
+          "source": "derived"
+        },
+        {
+          "type": "ops_stack_without_automation",
+          "evidence": "Ops/CRM stack present but no chatbot automation",
+          "confidence": 0.78,
+          "source": "derived"
+        }
+      ],
+      "chat_gap": true,
+      "whatsapp_bot": false,
+      "why": "No chatbot automation on site · Found 331 instances of return_policy references · Found 46 instances of shipping_info references · Found 21 instances of cod_available references · Found 2 instances of contact_page references · expansion: now available in · advertising: Paid ads stack detected: google_ads, gtm, meta_pixel · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · Ops/CRM stack present but no chatbot automation · stack: shopify, meta_pixel, google_ads, gtm, shiprocket, judgeme",
+      "signal": "live_discovery",
+      "intent_score": 96.0,
+      "source": "live_verified_enrichment",
+      "company_type": "d2c_brand",
+      "enriched": true,
+      "year_founded": null,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "soft_generic_email": true,
+      "to_email": "support@leafstudios.in",
+      "id": "0c210682-0126-5ee5-945d-45eeb30b59b3",
+      "_dedupe_rank": 121.0,
+      "whatsapp_already": false,
+      "intent_signals": 11,
+      "strong_signals": [
+        "chat_gap",
+        "growth_motion",
+        "ads_active",
+        "ops_stack",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "brand_support_plus_cue",
+        "phone_plus_context",
+        "live_gap_corroborated"
+      ],
+      "signal_families": [
+        "gap",
+        "growth",
+        "live",
+        "reach",
+        "stack"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "phone:913631470425",
+        "chat_gap",
+        "growth_motion",
+        "ads_active",
+        "ops_stack",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "brand_support_plus_cue",
+        "phone_plus_context",
+        "live_gap_corroborated",
+        "families:gap,growth,live,reach,stack",
+        "platform:shopify",
+        "soft_generic_inbox",
+        "icp_core"
+      ],
+      "pooled_at": "2026-08-18T05:08:06.482992+00:00"
+    },
+    {
+      "company": "The Summer House",
+      "founder_name": "",
+      "founder_role": "",
+      "email": "thegoodfolk@thesummerhouse.in",
+      "phone": "912471751874",
+      "website": "https://thesummerhouse.in",
+      "domain": "thesummerhouse.in",
+      "city": "Bengaluru",
+      "category": "fashion",
+      "size": "",
+      "platform": "shopify",
+      "technologies": [
+        "shopify",
+        "klaviyo",
+        "judgeme"
+      ],
+      "pain_types": [
+        "faq_volume",
+        "return_policy",
+        "shipping_info",
+        "cod_available",
+        "contact_page"
+      ],
+      "growth_signals": [
+        {
+          "type": "new_products",
+          "evidence": "new collection",
+          "confidence": 0.75,
+          "source": "homepage_html"
+        }
+      ],
+      "buying_signals": [
+        {
+          "type": "automation_gap_on_ads_brand",
+          "evidence": "Growing commerce/ads brand without chatbot automation",
+          "confidence": 0.9,
+          "source": "derived"
+        },
+        {
+          "type": "ops_support_gap",
+          "evidence": "Returns/COD friction without chatbot coverage",
+          "confidence": 0.82,
+          "source": "derived"
+        },
+        {
+          "type": "ops_stack_without_automation",
+          "evidence": "Ops/CRM stack present but no chatbot automation",
+          "confidence": 0.78,
+          "source": "derived"
+        }
+      ],
+      "chat_gap": true,
+      "whatsapp_bot": false,
+      "why": "No chatbot automation on site · Found 181 instances of return_policy references · Found 53 instances of shipping_info references · Found 24 instances of cod_available references · Found 2 instances of contact_page references · new_products: new collection · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · Ops/CRM stack present but no chatbot automation · stack: shopify, klaviyo, judgeme",
+      "signal": "live_discovery",
+      "intent_score": 96.0,
+      "source": "live_verified_enrichment",
+      "company_type": "d2c_brand",
+      "enriched": true,
+      "year_founded": null,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "to_email": "thegoodfolk@thesummerhouse.in",
+      "id": "d1e3e260-658a-54f9-96b6-4f0c1cdc4cfe",
+      "_dedupe_rank": 117.0,
+      "whatsapp_already": false,
+      "intent_signals": 9,
+      "strong_signals": [
+        "chat_gap",
+        "growth_motion",
+        "ops_stack",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "phone_plus_context",
+        "live_gap_corroborated"
+      ],
+      "signal_families": [
+        "gap",
+        "growth",
+        "live",
+        "reach",
+        "stack"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "phone:912471751874",
+        "chat_gap",
+        "growth_motion",
+        "ops_stack",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "phone_plus_context",
+        "live_gap_corroborated",
+        "families:gap,growth,live,reach,stack",
+        "platform:shopify",
+        "icp_core"
+      ],
+      "pooled_at": "2026-08-18T05:08:06.483000+00:00"
+    },
+    {
+      "company": "Bummer",
+      "founder_name": "",
+      "founder_role": "",
+      "email": "hello@bummer.in",
+      "phone": "+916357461992",
+      "website": "https://bummer.in",
+      "domain": "bummer.in",
+      "city": "Ahmedabad",
+      "category": "fashion",
+      "size": "",
+      "platform": "shopify",
+      "technologies": [
+        "shopify",
+        "gtm",
+        "shiprocket"
+      ],
+      "pain_types": [
+        "faq_volume",
+        "return_policy",
+        "shipping_info",
+        "cod_available",
+        "contact_page"
+      ],
+      "growth_signals": [
+        {
+          "type": "advertising",
+          "evidence": "Paid ads stack detected: gtm",
+          "confidence": 0.8,
+          "source": "homepage_html"
+        }
+      ],
+      "buying_signals": [
+        {
+          "type": "automation_gap_on_ads_brand",
+          "evidence": "Growing commerce/ads brand without chatbot automation",
+          "confidence": 0.9,
+          "source": "derived"
+        },
+        {
+          "type": "ops_support_gap",
+          "evidence": "Returns/COD friction without chatbot coverage",
+          "confidence": 0.82,
+          "source": "derived"
+        },
+        {
+          "type": "ops_stack_without_automation",
+          "evidence": "Ops/CRM stack present but no chatbot automation",
+          "confidence": 0.78,
+          "source": "derived"
+        }
+      ],
+      "chat_gap": true,
+      "whatsapp_bot": false,
+      "why": "No chatbot automation on site · Found 152 instances of return_policy references · Found 53 instances of shipping_info references · Found 21 instances of cod_available references · Found 1 instances of contact_page references · advertising: Paid ads stack detected: gtm · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · Ops/CRM stack present but no chatbot automation · stack: shopify, gtm, shiprocket",
+      "signal": "live_discovery",
+      "intent_score": 96.0,
+      "source": "live_verified_enrichment",
+      "company_type": "d2c_brand",
+      "enriched": true,
+      "year_founded": null,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "soft_generic_email": true,
+      "to_email": "hello@bummer.in",
+      "id": "142cf91f-096e-5941-a7b4-6f8714cfc3f4",
+      "_dedupe_rank": 118.0,
+      "whatsapp_already": false,
+      "intent_signals": 11,
+      "strong_signals": [
+        "chat_gap",
+        "ads_active",
+        "ops_stack",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "brand_inbox",
+        "brand_inbox_plus_cue",
+        "phone_plus_context",
+        "live_gap_corroborated"
+      ],
+      "signal_families": [
+        "gap",
+        "growth",
+        "live",
+        "reach",
+        "stack"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "phone:+916357461992",
+        "chat_gap",
+        "ads_active",
+        "ops_stack",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "brand_inbox",
+        "brand_inbox_plus_cue",
+        "phone_plus_context",
+        "live_gap_corroborated",
+        "families:gap,growth,live,reach,stack",
+        "platform:shopify",
+        "soft_generic_inbox",
+        "icp_core"
+      ],
+      "pooled_at": "2026-08-18T05:20:15.104123+00:00"
+    },
+    {
+      "company": "Auli Lifestyle",
+      "founder_name": "Aishwarya Biswas",
+      "founder_role": "Founder",
+      "email": "info@aulilifestyle.com",
+      "phone": "919594278588",
+      "website": "https://aulilifestyle.com",
+      "domain": "aulilifestyle.com",
+      "city": "Mumbai",
+      "category": "skincare",
+      "size": "",
+      "platform": "shopify",
+      "technologies": [
+        "shopify",
+        "shiprocket",
+        "judgeme",
+        "whatsapp_business_api",
+        "whatsapp_bot"
+      ],
+      "pain_types": [
+        "faq_volume",
+        "return_policy",
+        "shipping_info",
+        "cod_available",
+        "contact_page"
+      ],
+      "growth_signals": [
+        {
+          "type": "expansion",
+          "evidence": "now available in",
+          "confidence": 0.75,
+          "source": "homepage_html"
+        },
+        {
+          "type": "new_products",
+          "evidence": "New Launch",
+          "confidence": 0.75,
+          "source": "homepage_html"
+        }
+      ],
+      "buying_signals": [
+        {
+          "type": "automation_gap_on_ads_brand",
+          "evidence": "Growing commerce/ads brand without chatbot automation",
+          "confidence": 0.9,
+          "source": "derived"
+        },
+        {
+          "type": "ops_support_gap",
+          "evidence": "Returns/COD friction without chatbot coverage",
+          "confidence": 0.82,
+          "source": "derived"
+        },
+        {
+          "type": "ops_stack_without_automation",
+          "evidence": "Ops/CRM stack present but no chatbot automation",
+          "confidence": 0.78,
+          "source": "derived"
+        },
+        {
+          "type": "wa_bot_without_web_chat",
+          "evidence": "Has WhatsApp bot vendor but no web chatbot",
+          "confidence": 0.55,
+          "source": "derived"
+        }
+      ],
+      "chat_gap": true,
+      "whatsapp_bot": true,
+      "why": "No chatbot automation on site · WhatsApp bot/automation vendor detected · Found 139 instances of return_policy references · Found 34 instances of shipping_info references · Found 56 instances of cod_available references · Found 2 instances of contact_page references · expansion: now available in · new_products: New Launch · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · Ops/CRM stack present but no chatbot automation · stack: shopify, shiprocket, judgeme, whatsapp_business_api, whatsapp_bot",
+      "signal": "live_discovery",
+      "intent_score": 96.0,
+      "source": "live_verified_enrichment",
+      "company_type": "d2c_brand",
+      "enriched": true,
+      "year_founded": null,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "soft_generic_email": true,
+      "named_founder": true,
+      "to_email": "info@aulilifestyle.com",
+      "id": "6830afe5-ed53-5246-b4fc-9666109bd6b5",
+      "_dedupe_rank": 130.0,
+      "whatsapp_already": false,
+      "intent_signals": 13,
+      "strong_signals": [
+        "chat_gap",
+        "growth_motion",
+        "ops_stack",
+        "whatsapp_bot_present",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "founder_reachable",
+        "brand_inbox",
+        "brand_inbox_plus_cue",
+        "phone_plus_context",
+        "live_gap_corroborated"
+      ],
+      "signal_families": [
+        "gap",
+        "growth",
+        "live",
+        "reach",
+        "stack"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "phone:919594278588",
+        "chat_gap",
+        "growth_motion",
+        "ops_stack",
+        "whatsapp_bot_present",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "founder_reachable",
+        "brand_inbox",
+        "brand_inbox_plus_cue",
+        "phone_plus_context",
+        "live_gap_corroborated",
+        "families:gap,growth,live,reach,stack",
+        "platform:shopify",
+        "soft_generic_inbox",
+        "icp_core"
+      ],
+      "pooled_at": "2026-08-18T05:32:31.321845+00:00"
+    },
+    {
+      "company": "Carmesi",
+      "founder_name": "",
+      "founder_role": "",
+      "email": "care@mycarmesi.com",
+      "phone": "910710633241",
+      "website": "https://mycarmesi.com",
+      "domain": "mycarmesi.com",
+      "city": "Mumbai",
+      "category": "personal care",
+      "size": "",
+      "platform": "shopify",
+      "technologies": [
+        "shopify",
+        "judgeme",
+        "whatsapp_bot"
+      ],
+      "pain_types": [
+        "faq_volume",
+        "return_policy",
+        "shipping_info",
+        "cod_available",
+        "contact_page"
+      ],
+      "growth_signals": [
+        {
+          "type": "new_products",
+          "evidence": "New Launch",
+          "confidence": 0.75,
+          "source": "homepage_html"
+        }
+      ],
+      "buying_signals": [
+        {
+          "type": "automation_gap_on_ads_brand",
+          "evidence": "Growing commerce/ads brand without chatbot automation",
+          "confidence": 0.9,
+          "source": "derived"
+        },
+        {
+          "type": "ops_support_gap",
+          "evidence": "Returns/COD friction without chatbot coverage",
+          "confidence": 0.82,
+          "source": "derived"
+        },
+        {
+          "type": "wa_bot_without_web_chat",
+          "evidence": "Has WhatsApp bot vendor but no web chatbot",
+          "confidence": 0.55,
+          "source": "derived"
+        }
+      ],
+      "chat_gap": true,
+      "whatsapp_bot": true,
+      "why": "No chatbot automation on site · WhatsApp bot/automation vendor detected · Found 83 instances of return_policy references · Found 51 instances of shipping_info references · Found 21 instances of cod_available references · Found 2 instances of contact_page references · new_products: New Launch · Growing commerce/ads brand without chatbot automation · Returns/COD friction without chatbot coverage · Has WhatsApp bot vendor but no web chatbot · stack: shopify, judgeme, whatsapp_bot",
+      "signal": "live_discovery",
+      "intent_score": 96.0,
+      "source": "live_verified_enrichment",
+      "company_type": "d2c_brand",
+      "enriched": true,
+      "year_founded": null,
+      "outreach_status": "pooled",
+      "icp_tier": "core",
+      "soft_generic_email": true,
+      "to_email": "care@mycarmesi.com",
+      "id": "c10742c6-b550-5e16-bcc9-4bf6356484b0",
+      "_dedupe_rank": 117.0,
+      "whatsapp_already": false,
+      "intent_signals": 12,
+      "strong_signals": [
+        "chat_gap",
+        "growth_motion",
+        "ops_stack",
+        "whatsapp_bot_present",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "brand_inbox",
+        "brand_inbox_plus_cue",
+        "phone_plus_context",
+        "live_gap_corroborated"
+      ],
+      "signal_families": [
+        "gap",
+        "growth",
+        "live",
+        "reach",
+        "stack"
+      ],
+      "grade": "SALES_READY",
+      "evidence": [
+        "phone:910710633241",
+        "chat_gap",
+        "growth_motion",
+        "ops_stack",
+        "whatsapp_bot_present",
+        "ops_pain",
+        "stack_plus_gap",
+        "ads_plus_automation_gap",
+        "high_intent_composite",
+        "brand_inbox",
+        "brand_inbox_plus_cue",
+        "phone_plus_context",
+        "live_gap_corroborated",
+        "families:gap,growth,live,reach,stack",
+        "platform:shopify",
+        "soft_generic_inbox",
+        "icp_core"
+      ],
+      "pooled_at": "2026-08-18T05:54:50.561891+00:00"
     }
   ]
 }

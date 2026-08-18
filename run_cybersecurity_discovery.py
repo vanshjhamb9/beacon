@@ -1,83 +1,80 @@
-#!/usr/bin/env python3
-"""Beacon Lane C — one-shot cybersecurity buyer discovery.
+"""BEACON — Cybersecurity Buyer Discovery Engine.
 
-Writes exports/cybersecurity_discovery/ then STOPS.
-Does not send outreach. Does not scan targets. Does not guess emails.
+Run discovery for cybersecurity buying opportunities.
+
+Usage:
+    python run_cybersecurity_discovery.py
+    python run_cybersecurity_discovery.py --limit 100
+    python run_cybersecurity_discovery.py --output ./results
 """
 
-from __future__ import annotations
-
 import asyncio
-import logging
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
+# Add the project root and packages to the path
+sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent / "packages"))
 
-from packages.cybersecurity_discovery.exporters import write_exports
-from packages.cybersecurity_discovery.pipeline import run_cybersecurity_discovery
-
-OUTPUT_DIR = ROOT / "exports" / "cybersecurity_discovery"
+from cybersecurity_engine.engine import CybersecurityDiscoveryEngine
 
 
-async def main() -> int:
-    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+async def main():
+    """Run the cybersecurity discovery engine."""
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="BEACON — Cybersecurity Buyer Discovery Engine"
+    )
+    parser.add_argument(
+        "--limit", type=int, default=50,
+        help="Maximum opportunities to discover"
+    )
+    parser.add_argument(
+        "--output", type=str, default=".",
+        help="Output directory"
+    )
+    parser.add_argument(
+        "--sender-name", type=str, default="Security Team",
+        help="Sender name for outreach"
+    )
+    parser.add_argument(
+        "--sender-company", type=str, default="",
+        help="Sender company for outreach"
+    )
+    parser.add_argument(
+        "--max-per-source", type=int, default=30,
+        help="Max signals per source"
+    )
+
+    args = parser.parse_args()
+
+    engine = CybersecurityDiscoveryEngine(
+        output_dir=args.output,
+        sender_name=args.sender_name,
+        sender_company=args.sender_company,
+        max_items_per_source=args.max_per_source,
+    )
+
+    summary = await engine.run(limit=args.limit)
+
+    # Print final summary
+    print("\n" + "=" * 70)
+    print("FINAL SUMMARY")
     print("=" * 70)
-    print("BEACON — CYBERSECURITY HIGH-INTENT BUYER DISCOVERY")
-    print("CTO LANE. PUBLIC BUYING EVENTS WITH A REACHABLE PATH BECOME SALES READY.")
-    print("=" * 70)
-
-    result = await run_cybersecurity_discovery(limit=150, enrich=True)
-    written = write_exports(result, OUTPUT_DIR)
-    try:
-        from packages.cybersecurity_discovery.workspace_sync import sync_to_workspace
-        synced = sync_to_workspace(result)
-        print(f"\nWORKSPACE SYNC  leads={synced.get('workspace_leads', 0)} pool_added={synced.get('pool_added', 0)}")
-    except Exception as exc:  # noqa: BLE001
-        print(f"\nWORKSPACE SYNC SKIPPED: {exc}")
-
-    print("\nCOUNTERS")
-    for key in (
-        "TOTAL_DISCOVERED",
-        "BUYING_EVENTS",
-        "VERIFIED_REQUIREMENTS",
-        "HOT",
-        "HIGH_INTENT",
-        "CONTACTABLE",
-        "SALES_READY",
-        "PARTNER_OPPORTUNITIES",
-        "NEEDS_RESEARCH",
-        "REJECTED",
-    ):
-        print(f"  {key}: {result.counters.get(key, 0)}")
-
-    print("\nFUNNEL")
-    for stage, count in result.funnel.items():
-        print(f"  {stage}: {count}")
-
-    print("\nCTO — STRONGEST / GATE FAILURES")
-    ranked = (result.sales_ready + result.needs_research)[:8]
-    if not ranked:
-        ranked = [o for o in result.rejected if o.buying_event_verified][:8]
-    if not ranked:
-        print("  No opportunities close enough for a 15-minute contact.")
-    for opp in ranked:
-        print(f"  - {opp.company or opp.title}")
-        print(f"      verdict={opp.final_verdict} type={opp.opportunity_type}")
-        print(f"      CTO={opp.cto_15_minute_test} ({opp.cto_decision_reason})")
-        if opp.failed_gates:
-            print(f"      failed_gates={', '.join(opp.failed_gates)}")
-        print(f"      source={opp.source_url}")
-
-    print("\nWROTE")
-    for name, path in written.items():
+    print(f"Total Opportunities: {summary['total_opportunities']}")
+    print(f"SALES_READY: {summary['sales_ready']}")
+    print(f"MARKETING_READY: {summary['marketing_ready']}")
+    print(f"P0 (Active Buyers): {summary['p0_count']}")
+    print(f"P1 (Verified Pain): {summary['p1_count']}")
+    print(f"P2 (Outbound Prospects): {summary['p2_count']}")
+    print(f"\nOutput files:")
+    for name, path in summary['output_files'].items():
         print(f"  {name}: {path}")
 
-    print("\nSTOP. DO NOT SEND OUTREACH.")
-    return 0
+    return 0 if summary['sales_ready'] > 0 else 1
 
 
 if __name__ == "__main__":
-    raise SystemExit(asyncio.run(main()))
+    exit_code = asyncio.run(main())
+    sys.exit(exit_code)

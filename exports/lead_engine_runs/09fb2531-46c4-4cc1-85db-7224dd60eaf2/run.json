@@ -1,0 +1,96 @@
+{
+  "run_id": "09fb2531-46c4-4cc1-85db-7224dd60eaf2",
+  "product": "cybersecurity",
+  "status": "completed",
+  "stage": "ready",
+  "counts": {
+    "extracted": 7,
+    "enriched": 7,
+    "scored": 7,
+    "ready": 7,
+    "sent": 0,
+    "rejected": 0,
+    "new_unique": 0,
+    "live_discovered": 0,
+    "soft_flagged": 7,
+    "icp_core": 7,
+    "icp_adjacent": 0,
+    "pooled_added": 0
+  },
+  "rejects": {
+    "mega_brand": 0,
+    "headcount": 0,
+    "unknown_size": 0,
+    "industry": 0,
+    "city": 0,
+    "country": 0,
+    "domain": 0,
+    "name": 0,
+    "type": 0,
+    "agency": 0,
+    "generic_email": 0,
+    "no_email": 0,
+    "no_founder": 0,
+    "tech": 0,
+    "year_founded": 0,
+    "already_seen": 0,
+    "already_sent": 0,
+    "prior_run": 0,
+    "low_intent": 0,
+    "already_surfaced": 0
+  },
+  "icp": {
+    "key": "cybersecurity-lead-engine",
+    "name": "Cybersecurity Lead Engine",
+    "service_match": "cybersecurity",
+    "employee_count_min": 5,
+    "employee_count_max": 10000,
+    "company_size_min": null,
+    "company_size_max": null,
+    "industries": [
+      "SaaS",
+      "Fintech",
+      "Healthtech",
+      "Ecommerce"
+    ],
+    "specialties": [
+      "penetration_testing",
+      "vulnerability_assessment",
+      "web_app_security",
+      "api_security",
+      "cloud_security",
+      "compliance",
+      "security_audit"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "UAE",
+      "Saudi Arabia",
+      "Singapore",
+      "Switzerland",
+      "Netherlands",
+      "Germany"
+    ],
+    "headquarters_cities": [],
+    "technology_stack": [],
+    "company_types": [
+      "saas_product"
+    ],
+    "year_founded_min": 2015,
+    "year_founded_max": 2026,
+    "linkedin_url_required": false,
+    "company_name_contains": [],
+    "domains": [],
+    "lists": [
+      "cybersecurity-leads"
+    ],
+    "funding_stages": [],
+    "hiring_signals": [],
+    "negative_signals": []
+  },
+  "generated_at": "2026-08-16T23:38:04.432082+00:00",
+  "lead_count": 7
+}

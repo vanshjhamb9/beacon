@@ -25,7 +25,7 @@ class GroundTruthService:
         self.pipeline = GroundTruthPipeline()
         self.funnel = QualityFunnelEngine()
         self.daily = DailyImprovementReportEngine()
-        self.acceptance = GtAcceptanceEngine()
+        self._acceptance_engine = GtAcceptanceEngine()
         self.queue = GtFounderQueueEngine()
 
     async def build_payload(self, company_id: UUID) -> dict[str, Any] | None:
@@ -317,7 +317,7 @@ class GroundTruthService:
             metrics["verified_contact_percent"] = round(100.0 * contact_ok / count, 2)
             metrics["founder_email_confidence_percent"] = round(100.0 * int(funnel.get("sales_ready") or 0) / count, 2)
 
-        result = self.acceptance.evaluate(metrics)
+        result = self._acceptance_engine.evaluate(metrics)
         data = result.model_dump(mode="json")
         self.session.add(
             GtAcceptanceRow(

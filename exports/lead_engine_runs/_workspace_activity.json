@@ -1,6 +1,658 @@
 {
-  "updated_at": "2026-08-17T18:53:11.463420+00:00",
+  "updated_at": "2026-08-18T07:26:25.061493+00:00",
   "feed": [
+    {
+      "id": "f07abdea-515b-4568-8b1c-5b6c3d66cc9d",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 3 new leads pooled",
+      "meta": {
+        "run_id": "bf4cd309-48fd-4146-bb43-726f001000b4",
+        "ready": 3
+      },
+      "at": "2026-08-18T07:26:25.061474+00:00"
+    },
+    {
+      "id": "71a9a378-40e6-4041-bd02-0027752e7ea8",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 3 new leads pooled",
+      "meta": {
+        "run_id": "735295e3-c8f7-4918-add0-9f0a743f4982",
+        "ready": 3
+      },
+      "at": "2026-08-18T07:25:57.736049+00:00"
+    },
+    {
+      "id": "91876213-50bb-4d48-93f2-13a3c8af37dc",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 0 new leads pooled",
+      "meta": {
+        "run_id": "9ead1aa6-a230-4183-a31e-6d6fb19b3c75",
+        "ready": 0
+      },
+      "at": "2026-08-18T07:25:25.487933+00:00"
+    },
+    {
+      "id": "47af3604-8817-469e-bdff-4bc9fad21053",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 0 new leads pooled",
+      "meta": {
+        "run_id": "211c6d1c-01f2-4c31-b234-07bdb350cf77",
+        "ready": 0
+      },
+      "at": "2026-08-18T07:24:40.240167+00:00"
+    },
+    {
+      "id": "55352d2f-34ce-4c3d-8f90-34649590a795",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 6 new leads pooled",
+      "meta": {
+        "run_id": "d956bc4f-029e-4a12-b6ba-4e8065a6ee6e",
+        "ready": 6
+      },
+      "at": "2026-08-18T07:24:36.665397+00:00"
+    },
+    {
+      "id": "0628bd15-f47e-426e-b33a-97b2058c6ef7",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 0 new leads pooled",
+      "meta": {
+        "run_id": "5617a997-3575-414d-807b-5e9d9ea55370",
+        "ready": 0
+      },
+      "at": "2026-08-18T07:24:05.706521+00:00"
+    },
+    {
+      "id": "77994dea-2788-4a23-91f9-d19f4507f47e",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Kalki Fashion",
+      "meta": {
+        "id": "1a988da3-fde7-523b-b707-b18d790bf83f"
+      },
+      "at": "2026-08-18T07:15:55.137562+00:00"
+    },
+    {
+      "id": "a7b00c65-483a-4e86-acdf-eea25986b187",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Insight Cosmetics",
+      "meta": {
+        "id": "80e12501-371a-5aa0-aa71-f9e8de5c435c"
+      },
+      "at": "2026-08-18T07:15:51.549739+00:00"
+    },
+    {
+      "id": "00c4ecdf-2b0e-47ec-927d-a7de4075be83",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Lavie",
+      "meta": {
+        "id": "62cce450-917a-5a80-821c-5dce62c53ac0"
+      },
+      "at": "2026-08-18T07:15:45.061548+00:00"
+    },
+    {
+      "id": "b08cca22-a053-41d4-996a-30db967afe91",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Leaf Studios",
+      "meta": {
+        "id": "10defa1b-7b27-583a-b18a-4e1c54fd5685"
+      },
+      "at": "2026-08-18T07:15:42.288351+00:00"
+    },
+    {
+      "id": "540f0185-5866-46e3-ba4d-6b09e2129a19",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Mufti Jeans",
+      "meta": {
+        "id": "6fe9a4a5-d1ad-588e-8aaf-8f9589bb1a48"
+      },
+      "at": "2026-08-18T07:15:40.269546+00:00"
+    },
+    {
+      "id": "8a9e5e2d-e340-434f-907a-4c5d09228793",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Nicobar",
+      "meta": {
+        "id": "20673411-0f39-5072-9733-43b9878784e0"
+      },
+      "at": "2026-08-18T07:15:36.237665+00:00"
+    },
+    {
+      "id": "f543851c-238d-42e8-9857-66fd91047191",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Nobero",
+      "meta": {
+        "id": "1492a5f9-6042-5c32-904d-5a267c90bd56"
+      },
+      "at": "2026-08-18T07:15:26.824584+00:00"
+    },
+    {
+      "id": "bf63497d-4216-4524-acc1-2b145b973e5e",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Pee Safe",
+      "meta": {
+        "id": "2ad862d7-8269-5a65-939d-82a2895153d5"
+      },
+      "at": "2026-08-18T07:15:22.462742+00:00"
+    },
+    {
+      "id": "fbffa7aa-428d-4d02-bc57-1e798d2bd4eb",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Rage Coffee",
+      "meta": {
+        "id": "49c98fc2-e816-522f-b7fc-ffc7fa78ff9d"
+      },
+      "at": "2026-08-18T07:15:20.756253+00:00"
+    },
+    {
+      "id": "c3cbbf58-bc60-4d6d-9ffc-0990cc583273",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Reequil",
+      "meta": {
+        "id": "9b480dac-9112-5f19-8be0-79d40498c30e"
+      },
+      "at": "2026-08-18T07:15:12.624020+00:00"
+    },
+    {
+      "id": "c3aa9a7c-6ac2-450c-9187-6a88091ab47c",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Sanfe",
+      "meta": {
+        "id": "e9456925-fbf3-594b-b709-40e60c617ed8"
+      },
+      "at": "2026-08-18T07:15:09.602590+00:00"
+    },
+    {
+      "id": "93b91e85-3671-49b3-8808-fb69b63f9a08",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Seer Secrets",
+      "meta": {
+        "id": "64a6f29b-26a0-537e-a87a-0d24ea53d134"
+      },
+      "at": "2026-08-18T07:15:06.103491+00:00"
+    },
+    {
+      "id": "7fed8c00-af74-463a-828a-430921d01a72",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Setu Nutrition",
+      "meta": {
+        "id": "6aa94367-7054-5c8d-9632-625461314475"
+      },
+      "at": "2026-08-18T07:15:03.626331+00:00"
+    },
+    {
+      "id": "2cf83929-70c0-4f30-8d53-71310796a8ec",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Snugkins",
+      "meta": {
+        "id": "20d820ff-7ed9-5826-8eec-f56babb63c06"
+      },
+      "at": "2026-08-18T07:14:59.467149+00:00"
+    },
+    {
+      "id": "fd845456-2ed5-4e2d-9f41-09cf9e0cf913",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Soulflower",
+      "meta": {
+        "id": "85acf277-e6f0-55af-92cb-18f07c0af4d2"
+      },
+      "at": "2026-08-18T07:14:56.904736+00:00"
+    },
+    {
+      "id": "937770d7-c7ae-4f2d-a47b-22543da7eb4f",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Soultree",
+      "meta": {
+        "id": "33f3721b-f759-5b1c-9ad9-6b9498374112"
+      },
+      "at": "2026-08-18T07:14:39.548139+00:00"
+    },
+    {
+      "id": "cf264b05-dc92-4019-858d-f09592796cea",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Suhani Pittie",
+      "meta": {
+        "id": "d9b8e841-1fb8-5825-970c-9b9e4d44f25e"
+      },
+      "at": "2026-08-18T07:14:32.475785+00:00"
+    },
+    {
+      "id": "f4992976-5ab3-41b6-80e6-1d3d318cd549",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Suta",
+      "meta": {
+        "id": "eb6179a3-8fb0-5cd3-8c97-375a93560149"
+      },
+      "at": "2026-08-18T07:14:26.504137+00:00"
+    },
+    {
+      "id": "cadb455f-57a1-46bc-9a61-51e7111bd999",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Suta",
+      "meta": {
+        "id": "eb6179a3-8fb0-5cd3-8c97-375a93560149"
+      },
+      "at": "2026-08-18T07:14:19.554499+00:00"
+    },
+    {
+      "id": "df6e76fd-01d9-43f0-849b-f472b78c2647",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Swiss Beauty",
+      "meta": {
+        "id": "5129227d-8ba5-53be-a31d-3ae158e3d77d"
+      },
+      "at": "2026-08-18T07:14:16.246358+00:00"
+    },
+    {
+      "id": "50f424c2-1a7b-47e5-9449-ed7258cdeafa",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to The Bear House",
+      "meta": {
+        "id": "426f94fc-bd2c-5b2f-8e7d-da50d18c1b39"
+      },
+      "at": "2026-08-18T07:14:13.650442+00:00"
+    },
+    {
+      "id": "d169b5e8-d72c-442f-8fa9-09093f4f0c85",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to The Summer House",
+      "meta": {
+        "id": "7cfddaa7-1650-5b51-ac43-659d80febdb6"
+      },
+      "at": "2026-08-18T07:14:10.221353+00:00"
+    },
+    {
+      "id": "ccf36b72-303c-4344-8acc-1c9d0effde68",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 9 new leads pooled",
+      "meta": {
+        "run_id": "7317c36c-7a38-4bd8-99bc-34c9aed38e0a",
+        "ready": 9
+      },
+      "at": "2026-08-18T07:13:59.192250+00:00"
+    },
+    {
+      "id": "bbcfc94f-22bd-4eeb-a7aa-120ae07439e1",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to The Summer House",
+      "meta": {
+        "id": "70676322-5d01-5694-84ec-5b02c39b76ff"
+      },
+      "at": "2026-08-18T07:13:59.072728+00:00"
+    },
+    {
+      "id": "572d3eba-412e-4ee4-813e-fe60f443cd34",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Juicy Chemistry",
+      "meta": {
+        "id": "2906f9d6-a7de-59ee-992e-7ad5bdc2511a"
+      },
+      "at": "2026-08-18T07:13:51.965908+00:00"
+    },
+    {
+      "id": "1b5c0ad5-b6ef-4669-aedb-a1bd753d2480",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to The Label Life",
+      "meta": {
+        "id": "facc868f-3874-5ace-8cb9-bbf26ca95fe5"
+      },
+      "at": "2026-08-18T07:13:48.021895+00:00"
+    },
+    {
+      "id": "1f090062-50a8-4109-8523-958ce3fae127",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Voylla",
+      "meta": {
+        "id": "c00011f2-d482-5daf-8280-dfb822f5b3f0"
+      },
+      "at": "2026-08-18T07:13:39.003183+00:00"
+    },
+    {
+      "id": "5d52b067-8fad-483e-a65d-02e4ec054c9a",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Wellbeing Nutrition",
+      "meta": {
+        "id": "bc2df292-da72-5946-87c6-0965f5e806fc"
+      },
+      "at": "2026-08-18T07:13:36.576289+00:00"
+    },
+    {
+      "id": "67f147c7-4fac-45f3-b2f7-471945b7ca77",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Juicy Chemistry",
+      "meta": {
+        "id": "2906f9d6-a7de-59ee-992e-7ad5bdc2511a"
+      },
+      "at": "2026-08-18T07:13:32.673724+00:00"
+    },
+    {
+      "id": "016095fd-0ffc-4836-a9f6-5bc89e1339c2",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Caprese",
+      "meta": {
+        "id": "fefb4315-9e33-57fd-a8f6-56d040d981bc"
+      },
+      "at": "2026-08-18T07:13:23.236914+00:00"
+    },
+    {
+      "id": "ec5ef34a-2920-4c6b-bd65-1612b02f8473",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to The Beard Club",
+      "meta": {
+        "id": "d856b0e7-8eee-58b7-b252-7c5a1272e05a"
+      },
+      "at": "2026-08-18T07:13:20.867859+00:00"
+    },
+    {
+      "id": "7df0145d-7ada-4dc6-82a3-6514615dab45",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to XYXX",
+      "meta": {
+        "id": "64b91277-2664-53e2-a50e-57d21270c91b"
+      },
+      "at": "2026-08-18T07:13:18.899625+00:00"
+    },
+    {
+      "id": "3b740a74-7c9d-4159-8566-922b473550d4",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Open Secret",
+      "meta": {
+        "id": "1d1419a3-f846-55cf-9276-05588aa19f6e"
+      },
+      "at": "2026-08-18T07:13:16.531869+00:00"
+    },
+    {
+      "id": "4717f42a-a792-413e-934b-a65239d74a74",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to WoodenStreet",
+      "meta": {
+        "id": "da4388d8-17f9-54b3-9744-61436db20c02"
+      },
+      "at": "2026-08-18T07:13:14.588372+00:00"
+    },
+    {
+      "id": "8e64c2e3-3061-4442-b88a-f96e971ec2cc",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to The Moms Co",
+      "meta": {
+        "id": "16bbab90-a6ab-5bf9-8ec8-63c00a774287"
+      },
+      "at": "2026-08-18T07:12:57.246105+00:00"
+    },
+    {
+      "id": "b18dab84-e2bf-402d-a177-f5a12c8c5053",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Vaaree",
+      "meta": {
+        "id": "93078a9b-a927-56bb-986a-70d641624d60"
+      },
+      "at": "2026-08-18T07:12:55.508088+00:00"
+    },
+    {
+      "id": "30a53d2e-415c-4a66-a4b7-60a3939f0577",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to FableStreet",
+      "meta": {
+        "id": "c640a197-7235-52ac-a944-a01155d424fd"
+      },
+      "at": "2026-08-18T07:12:51.964640+00:00"
+    },
+    {
+      "id": "ec7c6dc8-83d5-4dda-b80c-151b02e73755",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Jaypore",
+      "meta": {
+        "id": "1b51af13-b311-575d-99e9-cac2f1a93509"
+      },
+      "at": "2026-08-18T07:12:50.893322+00:00"
+    },
+    {
+      "id": "d41a3bcc-cc67-427a-9004-56b123499c74",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to WoodenStreet",
+      "meta": {
+        "id": "0fd854f6-cd25-58e6-b7af-43eb4d1cf5d4"
+      },
+      "at": "2026-08-18T07:12:43.671770+00:00"
+    },
+    {
+      "id": "7ec05bb9-2345-4142-8180-58645d52af37",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Dressfolk",
+      "meta": {
+        "id": "eb904475-471e-50ae-9f33-832610b9c01d"
+      },
+      "at": "2026-08-18T07:12:40.709266+00:00"
+    },
+    {
+      "id": "e4eb34f2-5525-4a79-8070-1e2feb0340b9",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Slurrp Farm",
+      "meta": {
+        "id": "df3e8785-1711-5e4f-9ff9-ea701bf2e470"
+      },
+      "at": "2026-08-18T07:12:38.439491+00:00"
+    },
+    {
+      "id": "bdfe0189-9de6-46e9-b06d-ced7db83e4ec",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Hidesign",
+      "meta": {
+        "id": "07c9c467-d0fa-5b9e-9db3-2b93702d6c5a"
+      },
+      "at": "2026-08-18T07:12:30.440106+00:00"
+    },
+    {
+      "id": "2829a0f4-6d66-4222-ba33-d4523de81ee5",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Hammer",
+      "meta": {
+        "id": "e88886b5-1eaf-5c81-999b-863959df15d2"
+      },
+      "at": "2026-08-18T07:12:27.407965+00:00"
+    },
+    {
+      "id": "01795f70-e8c3-40de-91b8-59178685c732",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Dr. Sheth's",
+      "meta": {
+        "id": "69032c4f-16a9-530e-bbea-21041d6f09a8"
+      },
+      "at": "2026-08-18T07:12:25.559036+00:00"
+    },
+    {
+      "id": "60a00e95-f349-43a8-b427-bc8604ef7095",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Bummer",
+      "meta": {
+        "id": "5cbabe21-9d87-59a4-b372-e82783f14bac"
+      },
+      "at": "2026-08-18T07:12:19.162994+00:00"
+    },
+    {
+      "id": "7415609f-006c-4b65-8329-85ebbd2e3cbb",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Azah",
+      "meta": {
+        "id": "b37cd179-01c7-5395-8ea3-542f5d59f6cf"
+      },
+      "at": "2026-08-18T07:12:12.209462+00:00"
+    },
+    {
+      "id": "dacbd5c3-3a27-45b5-89f7-3149daf34ade",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Arata",
+      "meta": {
+        "id": "830f434c-0bfc-5e79-aad1-8c1f1a0f7e35"
+      },
+      "at": "2026-08-18T07:12:09.754989+00:00"
+    },
+    {
+      "id": "5c7e386d-f815-45df-8b71-3c86244b34ef",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Aqualogica",
+      "meta": {
+        "id": "f526c493-2188-5424-8c35-b45376e7aa07"
+      },
+      "at": "2026-08-18T07:11:50.905135+00:00"
+    },
+    {
+      "id": "2aef8904-bf6b-4bfd-9950-2f802648e0c4",
+      "event": "outreach_approve",
+      "detail": "Approved outreach to Aqualogica",
+      "meta": {
+        "id": "f526c493-2188-5424-8c35-b45376e7aa07"
+      },
+      "at": "2026-08-18T07:11:49.300079+00:00"
+    },
+    {
+      "id": "6f5b518e-733d-4e6a-bc47-9078ca0e41f9",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 11 new leads pooled",
+      "meta": {
+        "run_id": "1ecee468-b91e-4287-9f56-0ed89f6b6d26",
+        "ready": 11
+      },
+      "at": "2026-08-18T07:02:39.979572+00:00"
+    },
+    {
+      "id": "839f63d2-025f-4309-afb1-d9b4ddbc0b6a",
+      "event": "draft_generated",
+      "detail": "Draft ready for Aqualogica",
+      "meta": {
+        "email": "care@aqualogica.in",
+        "hook": "Web chatbot present on site \u00c2\u00b7 WhatsApp bot/automation vendor detected \u00c2\u00b7 Found 125 instances of return_policy references \u00c2\u00b7 Found 126\u2026"
+      },
+      "at": "2026-08-18T07:00:45.255575+00:00"
+    },
+    {
+      "id": "5508e929-a960-4016-927d-3f788ddc640e",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 7 new leads pooled",
+      "meta": {
+        "run_id": "b5d88732-61c8-4b95-ae84-0749a0e2dd24",
+        "ready": 7
+      },
+      "at": "2026-08-18T06:51:41.543305+00:00"
+    },
+    {
+      "id": "47843917-8ab8-4ea6-890b-765a013d9107",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 11 new leads pooled",
+      "meta": {
+        "run_id": "91082f67-b4a2-4798-8ab4-21d5d4983dba",
+        "ready": 11
+      },
+      "at": "2026-08-18T06:39:30.966374+00:00"
+    },
+    {
+      "id": "b02a0301-831f-4eef-9938-cb3386103b68",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 8 new leads pooled",
+      "meta": {
+        "run_id": "fa4a421c-aef2-4d5b-93b8-be1508804ad1",
+        "ready": 8
+      },
+      "at": "2026-08-18T06:28:28.933858+00:00"
+    },
+    {
+      "id": "21461d7d-298c-4864-a9bb-bfdfa8230802",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 3 new leads pooled",
+      "meta": {
+        "run_id": "05022a7a-65b0-492c-bb8e-04f1411f97d8",
+        "ready": 3
+      },
+      "at": "2026-08-18T06:16:17.860500+00:00"
+    },
+    {
+      "id": "4ad518f5-4503-4638-ae05-2c8025366aa6",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 13 new leads pooled",
+      "meta": {
+        "run_id": "5c3da60e-d609-4880-ab52-3f770115c984",
+        "ready": 13
+      },
+      "at": "2026-08-18T06:05:41.219555+00:00"
+    },
+    {
+      "id": "cd55aabb-0e49-4411-838e-86e15feae9aa",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 7 new leads pooled",
+      "meta": {
+        "run_id": "4caab96d-9dbf-4fd5-8b8a-c92725c74f0b",
+        "ready": 7
+      },
+      "at": "2026-08-18T05:54:50.867729+00:00"
+    },
+    {
+      "id": "2ebd99f1-65ef-4f14-ac9e-8eb883cd8d5b",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 11 new leads pooled",
+      "meta": {
+        "run_id": "dad5721a-f592-4615-bd7e-63a0c8a90536",
+        "ready": 11
+      },
+      "at": "2026-08-18T05:43:33.333868+00:00"
+    },
+    {
+      "id": "d49c4a5a-7b94-4549-9144-fe4770ef46ca",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 9 new leads pooled",
+      "meta": {
+        "run_id": "b41e778c-849e-42fd-926a-817d7d0b946c",
+        "ready": 9
+      },
+      "at": "2026-08-18T05:32:31.627105+00:00"
+    },
+    {
+      "id": "c57f1600-47b5-43f5-8f51-f9d133d8a914",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 3 new leads pooled",
+      "meta": {
+        "run_id": "6c745683-37bf-42f7-868f-1bd1eb48c4c4",
+        "ready": 3
+      },
+      "at": "2026-08-18T05:20:15.411552+00:00"
+    },
+    {
+      "id": "a8a0cf86-4a43-4b71-949e-5a2930fb8124",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 13 new leads pooled",
+      "meta": {
+        "run_id": "17d3455c-7a8c-4835-b869-16bca975b59e",
+        "ready": 13
+      },
+      "at": "2026-08-18T05:08:06.790529+00:00"
+    },
+    {
+      "id": "de90fb12-2346-4973-a3a6-78568fcc1338",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 7 new leads pooled",
+      "meta": {
+        "run_id": "bc1490c3-59d8-4ad2-9cfe-85c5572f33c3",
+        "ready": 7
+      },
+      "at": "2026-08-18T04:59:02.113787+00:00"
+    },
+    {
+      "id": "82b38f41-f9bc-497f-ba60-f1fbdff00c55",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 5 new leads pooled",
+      "meta": {
+        "run_id": "78a2406c-d29e-4356-bd82-dd8184ae3b04",
+        "ready": 5
+      },
+      "at": "2026-08-18T04:57:17.172274+00:00"
+    },
+    {
+      "id": "fcebc803-f518-4436-9df6-8f0be470401d",
+      "event": "lead_engine_run",
+      "detail": "Lead Engine ready \u00b7 5 new leads pooled",
+      "meta": {
+        "run_id": "64c50677-19f8-4b2b-a01d-fd5ceee099e1",
+        "ready": 5
+      },
+      "at": "2026-08-18T03:53:02.541208+00:00"
+    },
     {
       "id": "bd84d534-62c1-4ba3-938e-74b8ded8301a",
       "event": "lead_engine_run",
@@ -100,350 +752,6 @@
         "campaign_count": 42
       },
       "at": "2026-08-17T07:12:29.158520+00:00"
-    },
-    {
-      "id": "a52191b9-1d18-4d9b-a5a5-90e91905f678",
-      "event": "workspace_sync",
-      "detail": "Jewellery wave synced. 43 workspace leads.",
-      "meta": {
-        "stamped_new": 4,
-        "campaigns": 42
-      },
-      "at": "2026-08-17T07:12:27.094449+00:00"
-    },
-    {
-      "id": "32752201-ab76-43cd-93c6-6e39b1d268e0",
-      "event": "lead_engine_run",
-      "detail": "Lead Engine ready \u00b7 7 new leads pooled",
-      "meta": {
-        "run_id": "67d1e6de-0863-45b9-9be2-5b956f96fbfc",
-        "ready": 7
-      },
-      "at": "2026-08-17T07:11:30.910818+00:00"
-    },
-    {
-      "id": "ee991adf-1708-4dd2-ac51-3943e823594c",
-      "event": "workspace_sync",
-      "detail": "Synced 39 Lead Engine leads into Home / Leads / Pipeline / Outreach",
-      "meta": {
-        "lead_count": 39,
-        "campaign_count": 38
-      },
-      "at": "2026-08-17T07:06:35.333746+00:00"
-    },
-    {
-      "id": "e2bdccc7-36f6-424e-b86a-e8f7f04190a1",
-      "event": "workspace_sync",
-      "detail": "Synced 39 harvest leads into Home / Leads / Pipeline / Outreach",
-      "meta": {
-        "lead_count": 39,
-        "campaigns": 38,
-        "stamped_new": 27,
-        "drafted": 16
-      },
-      "at": "2026-08-17T07:06:05.609951+00:00"
-    },
-    {
-      "id": "7c0d924b-c857-4e92-8570-009bba64ff79",
-      "event": "lead_engine_run",
-      "detail": "Lead Engine ready \u00b7 17 new leads pooled",
-      "meta": {
-        "run_id": "91e36fb9-7ac6-4ab2-87b9-f470f9675fd6",
-        "ready": 17
-      },
-      "at": "2026-08-17T06:44:44.506476+00:00"
-    },
-    {
-      "id": "9c9cb52b-2656-4635-8d4e-b903bc02e536",
-      "event": "lead_engine_run",
-      "detail": "Lead Engine ready \u00b7 8 new leads pooled",
-      "meta": {
-        "run_id": "bf67ca4a-aa65-4129-aec7-5d6cb40fc3a7",
-        "ready": 8
-      },
-      "at": "2026-08-17T06:30:37.061038+00:00"
-    },
-    {
-      "id": "39dd1ffd-7837-4c4b-b2eb-978fc80392ee",
-      "event": "lead_engine_run",
-      "detail": "Lead Engine ready \u00b7 4 new leads pooled",
-      "meta": {
-        "run_id": "f70b2a94-c0cb-40d4-aead-2640c8d3bc06",
-        "ready": 4
-      },
-      "at": "2026-08-14T22:39:01.463504+00:00"
-    },
-    {
-      "id": "60915f68-f60e-408f-b758-3f35274a8fc2",
-      "event": "lead_engine_run",
-      "detail": "Lead Engine ready \u00b7 1 new leads pooled",
-      "meta": {
-        "run_id": "52d82f1c-4797-42de-8615-9c95ddc54195",
-        "ready": 1
-      },
-      "at": "2026-08-14T22:31:00.698981+00:00"
-    },
-    {
-      "id": "a330bcf5-f6b4-44c7-ab05-6ace390cf547",
-      "event": "lead_engine_run",
-      "detail": "Lead Engine ready \u00b7 0 new leads pooled",
-      "meta": {
-        "run_id": "2632c559-5279-4308-ba52-2b6155e6f0d0",
-        "ready": 0
-      },
-      "at": "2026-08-14T22:27:42.052722+00:00"
-    },
-    {
-      "id": "31a4494d-4fb6-4b6d-8df5-5d5f032cdffa",
-      "event": "lead_engine_run",
-      "detail": "Lead Engine ready \u00b7 0 new leads pooled",
-      "meta": {
-        "run_id": "e00c5c62-53e0-4b7a-b2e1-79a01ab996bf",
-        "ready": 0
-      },
-      "at": "2026-08-14T22:22:23.102533+00:00"
-    },
-    {
-      "id": "b5112403-d82e-4b42-bd0a-39490fe174b6",
-      "event": "lead_engine_run",
-      "detail": "Lead Engine ready \u00b7 0 new leads pooled",
-      "meta": {
-        "run_id": "b0bb5504-ad24-471a-b23a-3f1a5f27b60a",
-        "ready": 0
-      },
-      "at": "2026-08-14T22:14:19.099749+00:00"
-    },
-    {
-      "id": "6a53fc25-8797-4ed1-b8ba-a6ea78693f1e",
-      "event": "lead_engine_run",
-      "detail": "Lead Engine ready \u00b7 1 new leads pooled",
-      "meta": {
-        "run_id": "2a644dad-ccfd-4bab-9978-dcf3f2a653ad",
-        "ready": 1
-      },
-      "at": "2026-08-14T22:08:29.982146+00:00"
-    },
-    {
-      "id": "f3c11b88-1593-4083-a84c-4d976df438fa",
-      "event": "workspace_sync",
-      "detail": "Synced 16 Lead Engine leads into Home / Leads / Pipeline / Outreach",
-      "meta": {
-        "lead_count": 16,
-        "campaign_count": 16
-      },
-      "at": "2026-08-14T22:05:38.438697+00:00"
-    },
-    {
-      "id": "b7041c0d-ea5f-431f-9cba-d131f684034d",
-      "event": "stage_move",
-      "detail": "Bevzilla \u2192 lost",
-      "meta": {
-        "email": "info@bevzilla.com",
-        "stage": "lost"
-      },
-      "at": "2026-08-14T21:46:45.025306+00:00"
-    },
-    {
-      "id": "6334effe-8928-48eb-aa00-94719389ac9e",
-      "event": "outreach_sent",
-      "detail": "Marked sent to Carmesi <care@mycarmesi.com>",
-      "meta": {
-        "email": "care@mycarmesi.com",
-        "subject": "Carmesi \u2014 WhatsApp replies before the cart goes cold"
-      },
-      "at": "2026-08-14T21:46:44.938724+00:00"
-    },
-    {
-      "id": "18b410f7-cf62-4b25-a250-194bbc58a945",
-      "event": "draft_generated",
-      "detail": "Draft ready for Carmesi",
-      "meta": {
-        "email": "care@mycarmesi.com",
-        "hook": "WhatsApp present on site \u00b7 No chatbot on site \u00b7 Found 83 instances of return_policy references \u00b7 Found 51 instances of shipping_info\u2026"
-      },
-      "at": "2026-08-14T21:46:44.815615+00:00"
-    },
-    {
-      "id": "51aebb2d-d683-46b8-a68a-00888cded9aa",
-      "event": "outreach_approve",
-      "detail": "Approved outreach to Vaaree",
-      "meta": {
-        "id": "93078a9b-a927-56bb-986a-70d641624d60"
-      },
-      "at": "2026-08-14T21:39:11.827903+00:00"
-    },
-    {
-      "id": "2f659694-8f62-45c3-9e1b-0649eccef6d5",
-      "event": "outreach_approve",
-      "detail": "Approved outreach to AND Designs",
-      "meta": {
-        "id": "a2f50765-51ac-5ced-9e9b-00298a226785"
-      },
-      "at": "2026-08-14T21:39:10.465459+00:00"
-    },
-    {
-      "id": "52e849cf-5121-4357-9408-d19aaa6e6658",
-      "event": "outreach_approve",
-      "detail": "Approved outreach to The Beard Club",
-      "meta": {
-        "id": "d856b0e7-8eee-58b7-b252-7c5a1272e05a"
-      },
-      "at": "2026-08-14T21:39:09.258572+00:00"
-    },
-    {
-      "id": "dbfeb96e-50cb-40a6-afb7-cf83acca26bf",
-      "event": "outreach_approve",
-      "detail": "Approved outreach to Caprese",
-      "meta": {
-        "id": "fefb4315-9e33-57fd-a8f6-56d040d981bc"
-      },
-      "at": "2026-08-14T21:39:08.164374+00:00"
-    },
-    {
-      "id": "6e029629-4434-41ac-803a-8d0db85227dd",
-      "event": "outreach_approve",
-      "detail": "Approved outreach to The Moms Co",
-      "meta": {
-        "id": "16bbab90-a6ab-5bf9-8ec8-63c00a774287"
-      },
-      "at": "2026-08-14T21:39:06.192252+00:00"
-    },
-    {
-      "id": "7e272408-161c-4699-abbb-8a520749b640",
-      "event": "outreach_approve",
-      "detail": "Approved outreach to Tjori",
-      "meta": {
-        "id": "3477c7ff-bccc-5484-8041-b15821bff6ba"
-      },
-      "at": "2026-08-14T21:39:04.829717+00:00"
-    },
-    {
-      "id": "f1d3772d-dc41-413a-b05a-5dc213cdfe6c",
-      "event": "outreach_approve",
-      "detail": "Approved outreach to Nua Woman",
-      "meta": {
-        "id": "ee1ec84f-0675-5140-8725-5f44f187a052"
-      },
-      "at": "2026-08-14T21:39:01.480732+00:00"
-    },
-    {
-      "id": "2260f6fd-c27b-4cfa-bb25-b8c2167a476a",
-      "event": "stage_move",
-      "detail": "Amrapali Jewels Mid \u2192 replied",
-      "meta": {
-        "email": "info@amrapalijewels.com",
-        "stage": "replied"
-      },
-      "at": "2026-08-14T21:38:07.981480+00:00"
-    },
-    {
-      "id": "a89fa768-a2b8-4012-aba0-d67e96622f8f",
-      "event": "stage_move",
-      "detail": "Amrapali Jewels Mid \u2192 lost",
-      "meta": {
-        "email": "info@amrapalijewels.com",
-        "stage": "lost"
-      },
-      "at": "2026-08-14T21:38:02.405658+00:00"
-    },
-    {
-      "id": "36749a55-a337-498d-b602-ac945b048102",
-      "event": "stage_move",
-      "detail": "Amrapali Jewels Mid \u2192 meeting",
-      "meta": {
-        "email": "info@amrapalijewels.com",
-        "stage": "meeting"
-      },
-      "at": "2026-08-14T21:37:57.133749+00:00"
-    },
-    {
-      "id": "764438ae-fa25-44b2-a69b-f036dd22f4f2",
-      "event": "stage_move",
-      "detail": "Amrapali Jewels Mid \u2192 replied",
-      "meta": {
-        "email": "info@amrapalijewels.com",
-        "stage": "replied"
-      },
-      "at": "2026-08-14T21:37:48.757096+00:00"
-    },
-    {
-      "id": "d5a02715-5009-49a4-90e7-cff3fcfc581e",
-      "event": "stage_move",
-      "detail": "Carmesi \u2192 contacted",
-      "meta": {
-        "email": "care@mycarmesi.com",
-        "stage": "contacted"
-      },
-      "at": "2026-08-14T21:37:35.637437+00:00"
-    },
-    {
-      "id": "0fca9e2f-70bc-43d4-8ff5-e3bd510a242f",
-      "event": "stage_move",
-      "detail": "Carmesi \u2192 contacted",
-      "meta": {
-        "email": "care@mycarmesi.com",
-        "stage": "contacted"
-      },
-      "at": "2026-08-14T21:37:35.139052+00:00"
-    },
-    {
-      "id": "d990d01f-cd7b-400e-a21b-f8f248bb55d1",
-      "event": "stage_move",
-      "detail": "Carmesi \u2192 contacted",
-      "meta": {
-        "email": "care@mycarmesi.com",
-        "stage": "contacted"
-      },
-      "at": "2026-08-14T21:37:19.974603+00:00"
-    },
-    {
-      "id": "f156fcb8-9c70-481c-86df-7d2ec146c90e",
-      "event": "outreach_approve",
-      "detail": "Approved outreach to Bevzilla",
-      "meta": {
-        "id": "85df5233-c9a1-55a2-9b16-79e102c82bbf"
-      },
-      "at": "2026-08-14T21:35:08.878230+00:00"
-    },
-    {
-      "id": "3e66416a-7538-45dd-afc3-285307af4dd3",
-      "event": "workspace_sync",
-      "detail": "Synced 15 Lead Engine leads into Home / Leads / Pipeline / Outreach",
-      "meta": {
-        "lead_count": 15,
-        "campaign_count": 15
-      },
-      "at": "2026-08-14T21:35:08.625273+00:00"
-    },
-    {
-      "id": "a275ab11-c75e-4349-8c93-c7c02e81db82",
-      "event": "workspace_sync",
-      "detail": "Synced 15 Lead Engine leads into Home / Leads / Pipeline / Outreach",
-      "meta": {
-        "lead_count": 15,
-        "campaign_count": 15
-      },
-      "at": "2026-08-14T21:34:20.354817+00:00"
-    },
-    {
-      "id": "664c750e-fbd6-48dd-9dcf-f9e5db47c918",
-      "event": "stage_move",
-      "detail": "Amrapali Jewels Mid \u2192 contacted",
-      "meta": {
-        "email": "info@amrapalijewels.com",
-        "stage": "contacted"
-      },
-      "at": "2026-08-14T21:33:57.572937+00:00"
-    },
-    {
-      "id": "c4315821-2d8d-4873-8409-009f2043663b",
-      "event": "workspace_sync",
-      "detail": "Synced 15 Lead Engine leads into Home / Leads / Pipeline / Outreach",
-      "meta": {
-        "lead_count": 15,
-        "campaign_count": 15
-      },
-      "at": "2026-08-14T21:33:57.029971+00:00"
     }
   ]
 }

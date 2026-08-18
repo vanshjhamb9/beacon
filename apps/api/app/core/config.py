@@ -145,8 +145,8 @@ class Settings(BaseSettings):
     postgres_password: SecretStr = Field(default=SecretStr("beacon_password"))
     database_url: str | None = None
     database_echo: bool = False
-    database_pool_size: int = 10
-    database_max_overflow: int = 20
+    database_pool_size: int = 5
+    database_max_overflow: int = 5
 
     redis_host: str = "redis"
     redis_port: int = 6379

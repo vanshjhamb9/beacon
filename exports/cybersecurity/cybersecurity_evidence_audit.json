@@ -1,0 +1,345 @@
+[
+  {
+    "opportunity_id": "dda5c809a6c6",
+    "company_name": "SecureFlow",
+    "final_verdict": "SALES_READY",
+    "priority": "ACTIVE_BUYING_EVENT",
+    "evidence_chain": [
+      {
+        "claim": "buying_signal_detected",
+        "value": "Needs penetration testing before enterprise sales",
+        "source_name": "company_website",
+        "source_type": "company_announcement",
+        "source_url": "https://secureflow.io/security",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531364+00:00",
+        "observed_at": "2026-08-16T21:01:42.531369+00:00",
+        "confidence": 90,
+        "verified": true
+      },
+      {
+        "claim": "contact_verified",
+        "value": "CTO Alex Chen verified via email and LinkedIn",
+        "source_name": "contact_verification",
+        "source_type": "contact_verification",
+        "source_url": "https://linkedin.com/in/alexchen-cto",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531373+00:00",
+        "observed_at": "2026-08-16T21:01:42.531376+00:00",
+        "confidence": 95,
+        "verified": true
+      },
+      {
+        "claim": "company_verified",
+        "value": "SecureFlow is active B2B SaaS company",
+        "source_name": "crunchbase",
+        "source_type": "company_verification",
+        "source_url": "https://crunchbase.com/organization/secureflow",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531379+00:00",
+        "observed_at": "2026-08-16T21:01:42.531380+00:00",
+        "confidence": 85,
+        "verified": true
+      }
+    ],
+    "evidence_confidence": "HIGH",
+    "evidence_count": 3,
+    "verified_evidence_count": 3,
+    "contactability": "high",
+    "contactability_evidence": "decision_maker_verified_email; decision_maker_linkedin"
+  },
+  {
+    "opportunity_id": "ba26cf3e59df",
+    "company_name": "PayFlow",
+    "final_verdict": "SALES_READY",
+    "priority": "ACTIVE_BUYING_EVENT",
+    "evidence_chain": [
+      {
+        "claim": "buying_signal_detected",
+        "value": "Needs VAPT before SOC 2 audit",
+        "source_name": "company_blog",
+        "source_type": "company_announcement",
+        "source_url": "https://payflow.com/blog/soc2-journey",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531523+00:00",
+        "observed_at": "2026-08-16T21:01:42.531525+00:00",
+        "confidence": 92,
+        "verified": true
+      },
+      {
+        "claim": "contact_verified",
+        "value": "Head of Security Sarah Williams verified",
+        "source_name": "contact_verification",
+        "source_type": "contact_verification",
+        "source_url": "https://linkedin.com/in/sarahwilliams-sec",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531527+00:00",
+        "observed_at": "2026-08-16T21:01:42.531529+00:00",
+        "confidence": 90,
+        "verified": true
+      },
+      {
+        "claim": "compliance_deadline",
+        "value": "SOC 2 Type 2 audit scheduled for Q4 2026",
+        "source_name": "company_announcement",
+        "source_type": "company_announcement",
+        "source_url": "https://payflow.com/blog/soc2-journey",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531530+00:00",
+        "observed_at": "2026-08-16T21:01:42.531531+00:00",
+        "confidence": 88,
+        "verified": true
+      }
+    ],
+    "evidence_confidence": "HIGH",
+    "evidence_count": 3,
+    "verified_evidence_count": 3,
+    "contactability": "high",
+    "contactability_evidence": "decision_maker_verified_email; decision_maker_linkedin"
+  },
+  {
+    "opportunity_id": "f81f561b75b3",
+    "company_name": "HealthTech Solutions",
+    "final_verdict": "SALES_READY",
+    "priority": "ACTIVE_BUYING_EVENT",
+    "evidence_chain": [
+      {
+        "claim": "buying_signal_detected",
+        "value": "Enterprise customers require penetration testing documentation",
+        "source_name": "company_website",
+        "source_type": "company_announcement",
+        "source_url": "https://healthtech-solutions.com/security",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531634+00:00",
+        "observed_at": "2026-08-16T21:01:42.531636+00:00",
+        "confidence": 95,
+        "verified": true
+      },
+      {
+        "claim": "contact_verified",
+        "value": "CEO Dr. James Morrison verified via email, LinkedIn, and phone",
+        "source_name": "contact_verification",
+        "source_type": "contact_verification",
+        "source_url": "https://linkedin.com/in/jamesmorrison-ceo",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531638+00:00",
+        "observed_at": "2026-08-16T21:01:42.531640+00:00",
+        "confidence": 92,
+        "verified": true
+      },
+      {
+        "claim": "compliance_requirement",
+        "value": "HIPAA compliance required for healthcare data",
+        "source_name": "regulatory",
+        "source_type": "compliance_requirement",
+        "source_url": "https://healthtech-solutions.com/compliance",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531641+00:00",
+        "observed_at": "2026-08-16T21:01:42.531642+00:00",
+        "confidence": 90,
+        "verified": true
+      }
+    ],
+    "evidence_confidence": "HIGH",
+    "evidence_count": 3,
+    "verified_evidence_count": 3,
+    "contactability": "high",
+    "contactability_evidence": "decision_maker_verified_email; decision_maker_linkedin; phone"
+  },
+  {
+    "opportunity_id": "591b5e5fa4dd",
+    "company_name": "CloudVault",
+    "final_verdict": "SALES_READY",
+    "priority": "ACTIVE_BUYING_EVENT",
+    "evidence_chain": [
+      {
+        "claim": "buying_signal_detected",
+        "value": "Expanding to EU market needs ISO 27001",
+        "source_name": "company_blog",
+        "source_type": "company_announcement",
+        "source_url": "https://cloudvault.io/blog/eu-expansion",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531729+00:00",
+        "observed_at": "2026-08-16T21:01:42.531730+00:00",
+        "confidence": 88,
+        "verified": true
+      },
+      {
+        "claim": "contact_verified",
+        "value": "CTO Mark Thompson verified",
+        "source_name": "contact_verification",
+        "source_type": "contact_verification",
+        "source_url": "https://linkedin.com/in/markthompson-cto",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531732+00:00",
+        "observed_at": "2026-08-16T21:01:42.531733+00:00",
+        "confidence": 88,
+        "verified": true
+      },
+      {
+        "claim": "company_verified",
+        "value": "CloudVault is growing SaaS company",
+        "source_name": "linkedin",
+        "source_type": "company_verification",
+        "source_url": "https://linkedin.com/company/cloudvault",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531735+00:00",
+        "observed_at": "2026-08-16T21:01:42.531736+00:00",
+        "confidence": 85,
+        "verified": true
+      }
+    ],
+    "evidence_confidence": "HIGH",
+    "evidence_count": 3,
+    "verified_evidence_count": 3,
+    "contactability": "high",
+    "contactability_evidence": "decision_maker_verified_email; decision_maker_linkedin"
+  },
+  {
+    "opportunity_id": "c02b98f3f646",
+    "company_name": "FinTrack Analytics",
+    "final_verdict": "SALES_READY",
+    "priority": "ACTIVE_BUYING_EVENT",
+    "evidence_chain": [
+      {
+        "claim": "buying_signal_detected",
+        "value": "Needs PCI DSS compliance for payment data",
+        "source_name": "company_website",
+        "source_type": "company_announcement",
+        "source_url": "https://fintrack.io/compliance",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531818+00:00",
+        "observed_at": "2026-08-16T21:01:42.531820+00:00",
+        "confidence": 90,
+        "verified": true
+      },
+      {
+        "claim": "contact_verified",
+        "value": "VP Engineering Priya Sharma verified",
+        "source_name": "contact_verification",
+        "source_type": "contact_verification",
+        "source_url": "https://linkedin.com/in/priyasharma-vpe",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531821+00:00",
+        "observed_at": "2026-08-16T21:01:42.531822+00:00",
+        "confidence": 85,
+        "verified": true
+      },
+      {
+        "claim": "data_sensitivity",
+        "value": "Handles financial transaction data requiring PCI DSS",
+        "source_name": "regulatory",
+        "source_type": "compliance_requirement",
+        "source_url": "https://fintrack.io/security",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531824+00:00",
+        "observed_at": "2026-08-16T21:01:42.531825+00:00",
+        "confidence": 88,
+        "verified": true
+      }
+    ],
+    "evidence_confidence": "HIGH",
+    "evidence_count": 3,
+    "verified_evidence_count": 3,
+    "contactability": "high",
+    "contactability_evidence": "decision_maker_verified_email; decision_maker_linkedin"
+  },
+  {
+    "opportunity_id": "77760ab38133",
+    "company_name": "MediConnect",
+    "final_verdict": "SALES_READY",
+    "priority": "ACTIVE_BUYING_EVENT",
+    "evidence_chain": [
+      {
+        "claim": "buying_signal_detected",
+        "value": "Needs HIPAA/Privacy Act compliance",
+        "source_name": "company_website",
+        "source_type": "company_announcement",
+        "source_url": "https://mediconnect.health/compliance",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531903+00:00",
+        "observed_at": "2026-08-16T21:01:42.531904+00:00",
+        "confidence": 92,
+        "verified": true
+      },
+      {
+        "claim": "contact_verified",
+        "value": "CTO Dr. Sarah Lee verified via email, LinkedIn, and phone",
+        "source_name": "contact_verification",
+        "source_type": "contact_verification",
+        "source_url": "https://linkedin.com/in/sarahlee-cto",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531906+00:00",
+        "observed_at": "2026-08-16T21:01:42.531908+00:00",
+        "confidence": 91,
+        "verified": true
+      },
+      {
+        "claim": "healthcare_data",
+        "value": "Handles patient health information (ePHI)",
+        "source_name": "regulatory",
+        "source_type": "compliance_requirement",
+        "source_url": "https://mediconnect.health/privacy",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531909+00:00",
+        "observed_at": "2026-08-16T21:01:42.531910+00:00",
+        "confidence": 90,
+        "verified": true
+      }
+    ],
+    "evidence_confidence": "HIGH",
+    "evidence_count": 3,
+    "verified_evidence_count": 3,
+    "contactability": "high",
+    "contactability_evidence": "decision_maker_verified_email; decision_maker_linkedin; phone"
+  },
+  {
+    "opportunity_id": "e2499c4a18fc",
+    "company_name": "HRTech Global",
+    "final_verdict": "SALES_READY",
+    "priority": "ACTIVE_BUYING_EVENT",
+    "evidence_chain": [
+      {
+        "claim": "buying_signal_detected",
+        "value": "Needs SOC 2 compliance for enterprise HR data",
+        "source_name": "company_website",
+        "source_type": "company_announcement",
+        "source_url": "https://hrtechglobal.com/security",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531985+00:00",
+        "observed_at": "2026-08-16T21:01:42.531986+00:00",
+        "confidence": 93,
+        "verified": true
+      },
+      {
+        "claim": "contact_verified",
+        "value": "CISO Lisa Chang verified",
+        "source_name": "contact_verification",
+        "source_type": "contact_verification",
+        "source_url": "https://linkedin.com/in/lisachang-ciso",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531987+00:00",
+        "observed_at": "2026-08-16T21:01:42.531989+00:00",
+        "confidence": 92,
+        "verified": true
+      },
+      {
+        "claim": "pii_handling",
+        "value": "Handles employee PII requiring SOC 2 controls",
+        "source_name": "regulatory",
+        "source_type": "compliance_requirement",
+        "source_url": "https://hrtechglobal.com/compliance",
+        "source_status": "accessible",
+        "published_at": "2026-08-16T21:01:42.531990+00:00",
+        "observed_at": "2026-08-16T21:01:42.531991+00:00",
+        "confidence": 89,
+        "verified": true
+      }
+    ],
+    "evidence_confidence": "HIGH",
+    "evidence_count": 3,
+    "verified_evidence_count": 3,
+    "contactability": "high",
+    "contactability_evidence": "decision_maker_verified_email; decision_maker_linkedin"
+  }
+]

@@ -1,0 +1,280 @@
+# Cybersecurity Buyer Discovery — Ideal Customer Profile
+# BEACON Engine Configuration
+
+# ============================================================
+# SERVICE LANES
+# ============================================================
+service_lanes:
+  cybersecurity:
+    enabled: true
+    services:
+      - Vulnerability Assessment
+      - Penetration Testing / VAPT
+      - Web Application Security Testing
+      - API Security Testing
+      - Mobile Application Security Testing
+      - Cloud Security Assessment
+      - Network Security Testing
+      - Security Audit
+      - Vulnerability Discovery
+      - Vulnerability Remediation
+      - Retesting
+      - Security Compliance Support
+
+  vpat_accessibility:
+    enabled: false
+    services:
+      - WCAG Testing
+      - Accessibility Audit
+      - Section 508 Testing
+      - VPAT / ACR Preparation
+      - Accessibility Remediation
+      - Accessibility Retesting
+
+# ============================================================
+# TARGET GEOGRAPHIES
+# ============================================================
+geographies:
+  tier_1:
+    - United States
+    - United Kingdom
+    - Canada
+    - Australia
+    - UAE
+    - Saudi Arabia
+    - Singapore
+    - Switzerland
+    - Netherlands
+    - Germany
+
+  tier_2:
+    - Ireland
+    - Sweden
+    - Norway
+    - Denmark
+    - Finland
+    - France
+    - New Zealand
+    - Japan
+    - South Korea
+    - Israel
+
+# ============================================================
+# TARGET COMPANY TYPES
+# ============================================================
+company_types:
+  primary:
+    - SaaS
+    - B2B SaaS
+    - Fintech
+    - Healthtech
+    - Ecommerce
+    - Marketplace
+    - AI Company
+    - Mobile Application
+    - Web Platform
+    - API-first
+    - Enterprise Software
+    - EdTech
+    - HRTech
+    - InsurTech
+    - LegalTech
+    - PropTech
+    - Logistics Technology
+
+  size:
+    min_employees: 5
+    max_employees: 10000
+    sweet_spot_min: 20
+    sweet_spot_max: 2000
+
+# ============================================================
+# P0 — ACTIVE BUYING EVENTS
+# ============================================================
+active_buying_signals:
+  direct_requests:
+    - "looking for penetration testing"
+    - "need penetration testing"
+    - "need VAPT"
+    - "need vulnerability assessment"
+    - "need security audit"
+    - "looking for cybersecurity company"
+    - "need external security testing"
+    - "need web application penetration testing"
+    - "need API security testing"
+    - "need mobile application security testing"
+    - "need cloud security assessment"
+    - "need network penetration testing"
+    - "need vulnerability assessment before launch"
+    - "need pentest before enterprise launch"
+    - "need security testing for SOC 2"
+    - "need security testing for ISO 27001"
+    - "enterprise customer requires penetration testing"
+    - "customer requires security assessment"
+    - "need remediation and retesting"
+    - "looking for security testing vendor"
+    - "need help finding vulnerabilities"
+    - "need someone to audit our application"
+    - "looking for ethical hackers"
+    - "looking for security testing team"
+
+  procurement_signals:
+    - "RFP security testing"
+    - "penetration testing RFP"
+    - "security assessment tender"
+    - "vulnerability assessment tender"
+    - "security audit procurement"
+
+# ============================================================
+# P1 — VERIFIED SECURITY PAIN
+# ============================================================
+verified_pain_signals:
+  vulnerability_events:
+    - "recently discovered vulnerability"
+    - "security incident"
+    - "data exposure"
+    - "authentication vulnerability"
+    - "authorization vulnerability"
+    - "BOLA"
+    - "IDOR"
+    - "API vulnerability"
+    - "previous pentest missed vulnerabilities"
+    - "failed security assessment"
+    - "failed compliance review"
+    - "failed security review"
+
+  compliance_pressure:
+    - "enterprise customer demanding security testing"
+    - "investor security requirement"
+    - "customer security requirement"
+    - "security audit deadline"
+    - "SOC 2 deadline"
+    - - "ISO 27001 deadline"
+    - "compliance deadline"
+
+  operational_pressure:
+    - "product launch requiring security assessment"
+    - "security team overloaded"
+    - "need external security help"
+    - "need remediation"
+    - "need independent validation"
+    - "need retesting after fixes"
+
+# ============================================================
+# P2 — HIGH-POTENTIAL OUTBOUND
+# ============================================================
+outbound_signals:
+  - "rapidly growing SaaS"
+  - "enterprise expansion"
+  - "new product launch"
+  - "new API launch"
+  - "new mobile application"
+  - "large amount of sensitive data"
+  - "enterprise customer acquisition"
+  - "recently funded SaaS"
+  - "hiring security engineers"
+  - "preparing SOC 2"
+  - "preparing ISO 27001"
+  - "compliance expansion"
+  - "new market launch"
+
+# ============================================================
+# VPAT / ACCESSIBILITY BUYING EVENTS (if enabled)
+# ============================================================
+vpat_buying_signals:
+  direct_requests:
+    - "need VPAT"
+    - "need ACR"
+    - "need WCAG audit"
+    - "need Section 508 audit"
+    - "customer requested VPAT"
+    - "procurement requires accessibility report"
+    - "enterprise buyer requires accessibility compliance"
+    - "need accessibility testing"
+    - "need accessibility remediation"
+    - "need accessibility retest"
+
+# ============================================================
+# SOURCE PRIORITY
+# ============================================================
+source_priority:
+  tier_1_direct:
+    - procurement_portals
+    - company_procurement_pages
+    - founder_cto_posts
+    - security_leader_posts
+    - company_security_announcements
+    - public_vendor_search
+
+  tier_2_strong:
+    - linkedin_posts
+    - twitter_posts
+    - reddit
+    - hacker_news
+    - indie_hackers
+    - security_communities
+    - company_blogs
+    - security_announcements
+
+  tier_3_discovery:
+    - google_search
+    - company_directories
+    - funding_databases
+    - job_boards
+    - generic_company_databases
+    - crunchbase
+    - product_directories
+
+# ============================================================
+# COMPETITOR REJECTION
+# ============================================================
+competitor_keywords:
+  - "crowdstrike"
+  - "palo alto"
+  - "fortinet"
+  - "check point"
+  - "symantec"
+  - "mcafee"
+  - "trend micro"
+  - "kaspersky"
+  - "sophos"
+  - "rapid7"
+  - "qualys"
+  - "tenable"
+  - "nessus"
+  - "burp suite"
+  - "owasp"
+  - "veracode"
+  - "synopsys"
+  - "whitehat"
+  - "hackerone"
+  - "bugcrowd"
+  - "cobalt"
+  - "pentestlab"
+  - "security testing company"
+  - "cybersecurity vendor"
+
+# ============================================================
+# EVIDENCE REQUIREMENTS
+# ============================================================
+evidence_requirements:
+  minimum_for_outreach:
+    - company_verified
+    - problem_verified
+    - service_match_high
+    - decision_maker_identified
+    - reliable_contact_channel
+    - evidence_reproducible
+    - not_competitor
+    - safety_clear
+
+  sales_ready_gates:
+    current_buying_event_or_verified_pain: true
+    company_verified: true
+    problem_verified: true
+    service_match: "HIGH"
+    decision_maker_identified: true
+    reliable_contact_channel: true
+    evidence_reproducible: true
+    not_competitor: true
+    safety_clear: true

@@ -27,6 +27,13 @@ interface CompanyAnalysis {
   growth_analysis: any;
   intent_analysis: any;
   revenue_score: any;
+  sales_package?: {
+    why_this_company: string;
+    recommended_approach: string;
+    pain_points: string[];
+    value_proposition: string;
+    roi_estimate?: { roi: string };
+  };
 }
 
 interface DashboardSummary {
@@ -47,6 +54,7 @@ export default function ARIEWorkspace() {
   const [loading, setLoading] = useState(false);
   const [nlInput, setNlInput] = useState("");
   const [generatedICP, setGeneratedICP] = useState<any>(null);
+  const [tab, setTab] = useState("icp");
 
   // Load ICP templates
   useEffect(() => {
@@ -176,7 +184,7 @@ export default function ARIEWorkspace() {
         </div>
       )}
 
-      <Tabs defaultValue="icp" className="w-full">
+      <Tabs value={tab} onValueChange={setTab} className="w-full">
         <TabsList>
           <TabsTrigger value="icp">ICP Management</TabsTrigger>
           <TabsTrigger value="analyze">Company Analysis</TabsTrigger>
