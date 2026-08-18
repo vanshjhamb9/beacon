@@ -1,25 +1,32 @@
 """Run async worker coroutines safely under Celery's sync task model.
 
-Each Celery task uses ``asyncio.run``, which creates and closes an event loop.
-SQLAlchemy's async engine must dispose connections before that loop closes.
+Uses a single persistent event loop per worker process so that
+SQLAlchemy's async engine connections stay attached to the correct loop.
 """
 
 from __future__ import annotations
 
 import asyncio
+import threading
 from collections.abc import Coroutine
 from typing import TypeVar
 
-from app.db.session import engine
-
 T = TypeVar("T")
+
+_loop: asyncio.AbstractEventLoop | None = None
+_lock = threading.Lock()
+
+
+def _get_loop() -> asyncio.AbstractEventLoop:
+    global _loop
+    if _loop is None or _loop.is_closed():
+        with _lock:
+            if _loop is None or _loop.is_closed():
+                _loop = asyncio.new_event_loop()
+                asyncio.set_event_loop(_loop)
+    return _loop
 
 
 def run_async(coro: Coroutine[object, object, T]) -> T:
-    async def _runner() -> T:
-        try:
-            return await coro
-        finally:
-            await engine.dispose()
-
-    return asyncio.run(_runner())
+    loop = _get_loop()
+    return loop.run_until_complete(coro)
