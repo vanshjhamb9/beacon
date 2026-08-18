@@ -1,192 +1,202 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { motion } from "framer-motion";
-import { GripVertical, Phone, Mail, User, Zap } from "lucide-react";
+import { GripVertical } from "lucide-react";
 import Link from "next/link";
+import { useMemo, useState } from "react";
 
-import { Badge } from "@/components/ui/badge";
-import { Card, CardContent } from "@/components/ui/card";
+import { Skeleton } from "@/components/ui/skeleton";
+import { beaconApi } from "@/lib/api/beacon";
 import { cn, formatScore } from "@/lib/utils";
 
 type Stage = "new" | "contacted" | "replied" | "meeting" | "won" | "lost";
 
 const STAGES: { id: Stage; label: string; color: string; bgColor: string }[] = [
-  { id: "new", label: "New / Hot", color: "text-blue-500", bgColor: "bg-blue-500/10" },
-  { id: "contacted", label: "Warm", color: "text-orange-500", bgColor: "bg-orange-500/10" },
-  { id: "replied", label: "Contacted", color: "text-green-500", bgColor: "bg-green-500/10" },
+  { id: "new", label: "New", color: "text-blue-500", bgColor: "bg-blue-500/10" },
+  { id: "contacted", label: "Contacted", color: "text-orange-500", bgColor: "bg-orange-500/10" },
+  { id: "replied", label: "Replied", color: "text-green-500", bgColor: "bg-green-500/10" },
   { id: "meeting", label: "Meeting", color: "text-purple-500", bgColor: "bg-purple-500/10" },
   { id: "won", label: "Won", color: "text-emerald-500", bgColor: "bg-emerald-500/10" },
-  { id: "lost", label: "Low / Archive", color: "text-red-500", bgColor: "bg-red-500/10" },
+  { id: "lost", label: "Lost", color: "text-red-500", bgColor: "bg-red-500/10" },
 ];
 
-type Lead = {
-  id: string;
-  company_name: string;
-  founder_name: string;
-  decision_maker_role: string;
-  email: string;
-  phone: string;
-  website: string;
-  category: string;
-  city: string;
-  lead_priority: string;
-  intent_score: number;
-  sales_reason: string;
-  source: string;
-  stage: string;
-};
-
-function getStageFromPriority(priority: string, score: number): Stage {
-  if (priority === "HOT" || score >= 80) return "new";
-  if (priority === "WARM" || score >= 65) return "contacted";
-  if (priority === "LOW" && score >= 50) return "replied";
-  if (score < 50) return "lost";
+function getStatusStage(status: string): Stage {
+  const s = status.toLowerCase();
+  if (s === "contacted") return "contacted";
+  if (s === "replied") return "replied";
+  if (s === "meeting" || s === "proposal" || s === "negotiation") return "meeting";
+  if (s === "won") return "won";
+  if (s === "lost" || s === "garbage" || s === "archived") return "lost";
   return "new";
 }
 
-function priorityColor(priority: string) {
-  switch (priority) {
-    case "HOT":
-      return "bg-emerald-500/15 text-emerald-400 border-emerald-500/30";
-    case "WARM":
-      return "bg-amber-500/15 text-amber-400 border-amber-500/30";
-    default:
-      return "bg-slate-500/15 text-slate-400 border-slate-500/30";
-  }
-}
-
 export function PipelineKanban() {
-  const [leads, setLeads] = useState<Lead[]>([]);
-  const [loading, setLoading] = useState(true);
+  const queryClient = useQueryClient();
   const [draggedId, setDraggedId] = useState<string | null>(null);
+  const [deptFilter, setDeptFilter] = useState<"all" | "comai" | "inowix" | "cyber">("all");
+  const [statusFilter, setStatusFilter] = useState<"all" | "new" | "not_contacted" | "contacted" | "with_data">(
+    "all",
+  );
 
-  const fetchLeads = useCallback(async () => {
-    setLoading(true);
-    try {
-      const res = await fetch("/api/v1/unified-leads/pipeline");
-      if (res.ok) {
-        const data = await res.json();
-        setLeads(data.leads);
-      }
-    } catch (e) {
-      console.error("Failed to fetch pipeline leads", e);
+  const workspace = useQuery({
+    queryKey: ["workspace-leads"],
+    queryFn: () => beaconApi.workspaceLeads({ limit: 300 }),
+    refetchInterval: 20_000,
+  });
+
+  const transition = useMutation({
+    mutationFn: ({ id, status }: { id: string; status: string }) =>
+      beaconApi.workspaceSetStage(id, status),
+    onSuccess: () => {
+      void queryClient.invalidateQueries({ queryKey: ["workspace-leads"] });
+      void queryClient.invalidateQueries({ queryKey: ["workspace-overview"] });
+      void queryClient.invalidateQueries({ queryKey: ["workspace-outreach"] });
+      void queryClient.invalidateQueries({ queryKey: ["workspace-analytics"] });
+    },
+  });
+
+  const allItems = useMemo(
+    () => ((workspace.data?.items as Array<Record<string, unknown>>) || []) as Array<Record<string, unknown>>,
+    [workspace.data]
+  );
+
+  const items = useMemo(() => {
+    let next = allItems;
+    if (deptFilter === "comai") {
+      next = next.filter((item) => String(item.department || item.service_match || item.lane || "").startsWith("COMAI"));
+    } else if (deptFilter === "cyber") {
+      next = next.filter((item) =>
+        String(item.department || item.lane || item.source || "").toLowerCase().includes("cyber"),
+      );
+    } else if (deptFilter === "inowix") {
+      next = next.filter((item) => String(item.department || item.service_match || "").startsWith("Inowix"));
     }
-    setLoading(false);
-  }, []);
+    if (statusFilter === "new" || statusFilter === "not_contacted") {
+      next = next.filter((item) => String(item.stage || "new") === "new");
+    } else if (statusFilter === "contacted") {
+      next = next.filter((item) => ["contacted", "replied", "meeting", "won"].includes(String(item.stage || "")));
+    } else if (statusFilter === "with_data") {
+      next = next.filter((item) => Boolean(item.has_contact_data));
+    }
+    return next;
+  }, [allItems, deptFilter, statusFilter]);
 
-  useEffect(() => {
-    fetchLeads();
-    const interval = setInterval(fetchLeads, 30000);
-    return () => clearInterval(interval);
-  }, [fetchLeads]);
+  const comaiCount = allItems.filter((i) => String(i.department || i.service_match || "").startsWith("COMAI")).length;
+  const cyberCount = allItems.filter((i) => String(i.department || i.lane || i.source || "").toLowerCase().includes("cyber")).length;
+  const inowixCount = allItems.filter((i) => String(i.department || i.service_match || "").startsWith("Inowix")).length;
 
-  const leadsByStage: Record<Stage, Lead[]> = useMemo(() => {
-    const result: Record<Stage, Lead[]> = {
-      new: [],
-      contacted: [],
-      replied: [],
-      meeting: [],
-      won: [],
-      lost: [],
-    };
+  const leadsByStage: Record<Stage, Array<Record<string, unknown>>> = {
+    new: [],
+    contacted: [],
+    replied: [],
+    meeting: [],
+    won: [],
+    lost: [],
+  };
 
-    leads.forEach((lead) => {
-      const stage =
-        (lead.stage as Stage) ||
-        getStageFromPriority(lead.lead_priority, lead.intent_score);
-      result[stage].push(lead);
-    });
-
-    return result;
-  }, [leads]);
+  items.forEach((lead) => {
+    const stage = getStatusStage(String(lead.stage || lead.status || ""));
+    leadsByStage[stage].push(lead);
+  });
 
   const handleDragStart = (leadId: string) => setDraggedId(leadId);
   const handleDragOver = (e: React.DragEvent) => e.preventDefault();
   const handleDrop = (e: React.DragEvent, targetStage: Stage) => {
     e.preventDefault();
     if (draggedId) {
-      setLeads((prev) =>
-        prev.map((l) =>
-          l.id === draggedId ? { ...l, stage: targetStage } : l
-        )
-      );
+      transition.mutate({ id: draggedId, status: targetStage });
       setDraggedId(null);
     }
   };
 
-  if (loading) {
-    return (
-      <div className="space-y-6">
-        <div>
-          <h1 className="font-display text-2xl font-semibold">
-            Qualified Leads Pipeline
-          </h1>
-          <p className="text-muted-foreground">Loading pipeline...</p>
-        </div>
-        <div className="flex gap-4 overflow-x-auto pb-4">
-          {STAGES.map((stage) => (
-            <div key={stage.id} className="w-[280px] shrink-0">
-              <div
-                className={cn(
-                  "mb-3 flex items-center justify-between rounded-t-xl px-4 py-3",
-                  stage.bgColor
-                )}
-              >
-                <span className={cn("font-medium", stage.color)}>
-                  {stage.label}
-                </span>
-              </div>
-              <div className="flex flex-1 flex-col gap-2 rounded-b-xl border border-t-0 border-border/60 bg-muted/10 p-2 min-h-[200px]">
-                <div className="h-20 rounded-lg bg-muted/30 animate-pulse" />
-                <div className="h-20 rounded-lg bg-muted/30 animate-pulse" />
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    );
-  }
+  if (workspace.isLoading) return <Skeleton className="h-96 w-full" />;
 
   return (
-    <div className="space-y-6">
+    <div className="mx-auto max-w-[1400px] space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="font-display text-2xl font-semibold">
-            Qualified Leads Pipeline
-          </h1>
+          <h1 className="font-display text-2xl font-semibold">Qualified Leads</h1>
           <p className="text-sm text-muted-foreground">
-            {leads.length} leads across {STAGES.length} stages — drag to move
+            {items.length} Lead Engine leads across {STAGES.length} stages
           </p>
         </div>
-        <div className="flex gap-2">
-          <Link
-            href="/leads"
-            className="rounded-lg border border-border/60 px-3 py-1.5 text-sm text-muted-foreground hover:bg-muted/40"
-          >
-            View All Leads
-          </Link>
+        <div className="flex flex-col items-end gap-2">
+        <div className="flex flex-wrap gap-1 rounded-lg border border-border/60 bg-muted/20 p-1">
+          {(
+            [
+              ["all", "All"],
+              ["new", "New"],
+              ["not_contacted", "Not contacted"],
+              ["contacted", "Contacted"],
+              ["with_data", "With data"],
+            ] as const
+          ).map(([id, label]) => (
+            <button
+              key={id}
+              type="button"
+              onClick={() => setStatusFilter(id)}
+              className={cn(
+                "rounded-md px-3 py-1.5 text-sm font-medium transition-colors",
+                statusFilter === id ? "bg-background text-foreground shadow-sm" : "text-muted-foreground hover:text-foreground",
+              )}
+            >
+              {label}
+            </button>
+          ))}
         </div>
+        <div className="flex gap-1 rounded-lg border border-border/60 bg-muted/20 p-1">
+          <button
+            onClick={() => setDeptFilter("all")}
+            className={cn(
+              "rounded-md px-3 py-1.5 text-sm font-medium transition-colors",
+              deptFilter === "all" ? "bg-background text-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"
+            )}
+          >
+            All ({allItems.length})
+          </button>
+          <button
+            onClick={() => setDeptFilter("comai")}
+            className={cn(
+              "rounded-md px-3 py-1.5 text-sm font-medium transition-colors",
+              deptFilter === "comai" ? "bg-purple-500/20 text-purple-400 shadow-sm" : "text-muted-foreground hover:text-foreground"
+            )}
+          >
+            COMAI ({comaiCount})
+          </button>
+          <button
+            onClick={() => setDeptFilter("inowix")}
+            className={cn(
+              "rounded-md px-3 py-1.5 text-sm font-medium transition-colors",
+              deptFilter === "inowix" ? "bg-blue-500/20 text-blue-400 shadow-sm" : "text-muted-foreground hover:text-foreground"
+            )}
+          >
+            Inowix ({inowixCount})
+          </button>
+          <button
+            onClick={() => setDeptFilter("cyber")}
+            className={cn(
+              "rounded-md px-3 py-1.5 text-sm font-medium transition-colors",
+              deptFilter === "cyber" ? "bg-emerald-500/20 text-emerald-400 shadow-sm" : "text-muted-foreground hover:text-foreground"
+            )}
+          >
+            Cyber ({cyberCount})
+          </button>
+        </div>
+      </div>
       </div>
 
       <div className="flex gap-4 overflow-x-auto pb-4 scrollbar-thin">
         {STAGES.map((stage) => (
           <div
             key={stage.id}
-            className="flex w-[300px] shrink-0 flex-col"
+            className="flex w-[280px] shrink-0 flex-col"
             onDragOver={handleDragOver}
             onDrop={(e) => handleDrop(e, stage.id)}
           >
-            <div
-              className={cn(
-                "mb-3 flex items-center justify-between rounded-t-xl px-4 py-3",
-                stage.bgColor
-              )}
-            >
+            <div className={cn("mb-3 flex items-center justify-between rounded-t-xl px-4 py-3", stage.bgColor)}>
               <div className="flex items-center gap-2">
-                <span className={cn("font-medium", stage.color)}>
-                  {stage.label}
-                </span>
+                <span className={cn("font-medium", stage.color)}>{stage.label}</span>
                 <span className="rounded-full bg-background/50 px-2 py-0.5 text-xs font-medium">
                   {leadsByStage[stage.id]?.length || 0}
                 </span>
@@ -199,96 +209,65 @@ export function PipelineKanban() {
                   No leads
                 </div>
               ) : (
-                leadsByStage[stage.id]?.map((lead, idx) => (
-                  <motion.div
-                    key={lead.id}
-                    initial={{ opacity: 0, y: 5 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.02 * idx }}
-                    draggable
-                    onDragStart={() => handleDragStart(lead.id)}
-                    className={cn(
-                      "cursor-grab rounded-lg border border-border/60 bg-card p-3 transition-colors hover:border-primary/50 active:cursor-grabbing",
-                      draggedId === lead.id && "opacity-50"
-                    )}
-                  >
-                    <div className="flex items-start justify-between gap-2">
-                      <Link
-                        href={`/leads/${lead.id}`}
-                        className="font-medium hover:text-primary"
-                      >
-                        {lead.company_name}
-                      </Link>
-                      <GripVertical className="h-4 w-4 shrink-0 text-muted-foreground/50" />
-                    </div>
+                leadsByStage[stage.id]?.map((lead, idx) => {
+                  const leadId = String(lead.id || idx);
+                  const score = Number(lead.intent_score || lead.score || 0);
+                  return (
+                    <motion.div
+                      key={leadId}
+                      initial={{ opacity: 0, y: 5 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.02 * idx }}
+                      draggable
+                      onDragStart={() => handleDragStart(leadId)}
+                      className={cn(
+                        "cursor-grab rounded-lg border border-border/60 bg-card p-3 transition-colors hover:border-primary/50 active:cursor-grabbing",
+                        draggedId === leadId && "opacity-50"
+                      )}
+                    >
+                      <div className="flex items-start justify-between gap-2">
+                        <Link href={`/leads/${leadId}`} className="font-medium hover:text-primary">
+                          {String(lead.company_name || lead.company || "Unknown")}
+                        </Link>
+                        <GripVertical className="h-4 w-4 shrink-0 text-muted-foreground/50" />
+                      </div>
 
-                    <div className="mt-1.5 flex items-center gap-2">
-                      <span
-                        className={cn(
-                          "rounded-full px-2 py-0.5 text-xs font-medium",
-                          lead.intent_score >= 80
-                            ? "bg-green-500/10 text-green-500"
-                            : lead.intent_score >= 60
-                              ? "bg-yellow-500/10 text-yellow-500"
-                              : "bg-muted text-muted-foreground"
+                      {score > 0 && (
+                        <div className="mt-1">
+                          <span
+                            className={cn(
+                              "rounded-full px-2 py-0.5 text-xs font-medium",
+                              score >= 80
+                                ? "bg-green-500/10 text-green-500"
+                                : score >= 60
+                                  ? "bg-yellow-500/10 text-yellow-500"
+                                  : "bg-muted text-muted-foreground"
+                            )}
+                          >
+                            {formatScore(score, 0)}
+                          </span>
+                        </div>
+                      )}
+
+                      <p className="mt-2 line-clamp-2 text-xs text-muted-foreground">
+                        {String(lead.why_now || lead.description || "")}
+                      </p>
+
+                      <div className="mt-2 flex flex-wrap gap-1">
+                        {!!lead.department && (
+                          <span className="rounded bg-primary/10 px-1.5 py-0.5 text-[10px] text-primary">
+                            {String(lead.department)}
+                          </span>
                         )}
-                      >
-                        {formatScore(lead.intent_score, 0)}
-                      </span>
-                      <Badge
-                        variant="outline"
-                        className={`text-[10px] ${priorityColor(lead.lead_priority)}`}
-                      >
-                        {lead.lead_priority}
-                      </Badge>
-                    </div>
-
-                    {lead.founder_name && (
-                      <div className="mt-2 flex items-center gap-1.5 text-xs text-muted-foreground">
-                        <User className="h-3 w-3" />
-                        {lead.founder_name}
-                        {lead.decision_maker_role && (
-                          <span className="text-[10px]">
-                            ({lead.decision_maker_role})
+                        {!!lead.grade && (
+                          <span className="rounded bg-orange-500/10 px-1.5 py-0.5 text-[10px] text-orange-400">
+                            {String(lead.grade)}
                           </span>
                         )}
                       </div>
-                    )}
-
-                    {lead.email && (
-                      <div className="mt-1 flex items-center gap-1.5 text-xs text-muted-foreground">
-                        <Mail className="h-3 w-3 text-blue-400" />
-                        <span className="truncate font-mono">
-                          {lead.email}
-                        </span>
-                      </div>
-                    )}
-
-                    {lead.phone && (
-                      <div className="mt-1 flex items-center gap-1.5 text-xs text-muted-foreground">
-                        <Phone className="h-3 w-3 text-emerald-400" />
-                        <span className="font-mono">{lead.phone}</span>
-                      </div>
-                    )}
-
-                    <p className="mt-2 line-clamp-2 text-xs text-muted-foreground">
-                      {lead.sales_reason}
-                    </p>
-
-                    <div className="mt-2 flex flex-wrap gap-1">
-                      {lead.category && (
-                        <span className="rounded bg-primary/10 px-1.5 py-0.5 text-[10px] text-primary">
-                          {lead.category}
-                        </span>
-                      )}
-                      {lead.city && (
-                        <span className="rounded bg-orange-500/10 px-1.5 py-0.5 text-[10px] text-orange-400">
-                          {lead.city}
-                        </span>
-                      )}
-                    </div>
-                  </motion.div>
-                ))
+                    </motion.div>
+                  );
+                })
               )}
             </div>
           </div>

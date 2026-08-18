@@ -80,6 +80,7 @@ from app.api.routes.discovery_quality_engine.v2 import router as dqe_v2_router
 from app.api.routes.opportunity_validation import validation_router as lovp_router
 from app.api.routes.live_revenue_operations import operations_router as lrop_router
 from app.api.routes.beacon_observatory.observatory import router as bolr_router
+from app.api.routes.partner_leads import router as partner_leads_router
 
 router = APIRouter()
 router.include_router(acquisition_router)
@@ -162,5 +163,6 @@ router.include_router(dqe_v2_router)
 router.include_router(lovp_router)
 router.include_router(lrop_router)
 router.include_router(bolr_router)
+router.include_router(partner_leads_router)
 
 __all__ = ["router"]

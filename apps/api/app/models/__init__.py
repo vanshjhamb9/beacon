@@ -1,3 +1,4 @@
+from app.models.partner_leads import PartnerLead
 from app.models.acquisition import (
     AcquisitionDailyReport,
     CollectorRun,
@@ -987,4 +988,6 @@ __all__ = [
     "RdrpReadiness",
     "RdrpReliabilityScore",
     "RdrpVerificationHistory",
+    # Partner Leads
+    "PartnerLead",
 ]
