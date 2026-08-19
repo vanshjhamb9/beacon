@@ -2136,7 +2136,7 @@ def _score_leads(leads: list[dict[str, Any]], product: str) -> list[dict[str, An
 
         base = float(lead.get("intent_score") or 0)
         # Cap inherited inflated bases from old runs / live stamps
-        if base > 55:
+        if product != "inowix" and base > 55:
             base = 45.0
         score = base if base > 0 else 38.0
         why = str(lead.get("why") or lead.get("signal") or "").lower()
@@ -2402,7 +2402,7 @@ def _select_volume_icp_intent(
             and signals >= 1
             and score >= 50
             and lead.get("grade") in ("SALES_READY", "QUALIFIED")
-            and ("gap" in families or "growth" in families or "stack" in families)
+            and ("gap" in families or "growth" in families or "stack" in families or "product" in families)
         )
         # Volume fallback: core ICP + has contact info + reasonable score
         # This ensures first runs produce leads even without strong signal detection
@@ -2418,7 +2418,7 @@ def _select_volume_icp_intent(
             bool(lead.get("industry_adjacent"))
             and score >= 58
             and len(families) >= 1
-            and ("gap" in families or "growth" in families or "stack" in families)
+            and ("gap" in families or "growth" in families or "stack" in families or "product" in families or "reach" in families)
             and lead.get("grade") in ("SALES_READY", "QUALIFIED", "VOLUME")
         )
 
@@ -2577,9 +2577,8 @@ async def run_pipeline(run_id: str) -> None:
         surfaced = _load_surfaced_emails()
         # Multi-wave live discovery until we have enough NEW contacts or waves exhaust
         live_all: list[dict[str, Any]] = []
-        # Only exclude truly-sent + already-collected live emails.
-        # Do NOT exclude CSV seed emails — live enrichment is fresher intent evidence.
-        known_emails = set(sent)
+        # Exclude sent + surfaced emails so live discovery finds truly NEW companies.
+        known_emails = set(sent) | surfaced
         for wave in range(1, 4):
             need = max(12, min(24, limit - len(live_all)))
             batch = await _live_discover_new(

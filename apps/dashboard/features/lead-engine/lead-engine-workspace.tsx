@@ -225,7 +225,7 @@ export function LeadEngineWorkspace() {
       ...base,
       key: String(preset.key || product),
       name: String(preset.name || product),
-      service_match: product === "comai" ? "COMAI" : "Inowix",
+      service_match: product === "comai" ? "COMAI" : product === "cybersecurity" ? "Cybersecurity" : "Inowix",
       // Keep dashboard-friendly bands; YAML min/max can be too wide/narrow for Lead Engine
       employee_count_min: base.employee_count_min,
       employee_count_max: base.employee_count_max,
@@ -461,7 +461,7 @@ export function LeadEngineWorkspace() {
             <button
               key={p}
               type="button"
-              onClick={() => { setProduct(p); setIcp(defaultIcp(p)); }}
+              onClick={() => { setProduct(p); setIcp(defaultIcp(p)); setRunId(null); setSelected(new Set()); setMessage(null); }}
               className={cn(
                 "rounded-lg px-3 py-1.5 text-sm font-medium capitalize transition",
                 product === p ? "bg-primary/15 text-foreground" : "text-muted-foreground",
