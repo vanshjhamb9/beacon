@@ -80,6 +80,18 @@ BUYING_PATTERNS: dict[str, list[str]] = {
         r"(?:thinking|planning).{0,40}(?:about|of).{0,40}(?:getting|doing|hiring).{0,40}(?:pentest|security|audit|vapt)",
         r"(?:time|ready).{0,40}(?:for|to).{0,40}(?:get|do|have).{0,40}(?:pentest|security|audit|vapt|penetration)",
     ],
+    "modern_security_buying": [
+        r"(?:need|looking|seeking).{0,40}(?:AI|LLM|ML|machine\s+learning).{0,40}(?:security|red\s+team|pentest|audit|testing)",
+        r"(?:AI|LLM|ML).{0,40}(?:security|red\s+team|pentest|audit).{0,40}(?:need|looking|vendor|company)",
+        r"(?:need|looking|seeking).{0,40}(?:SBOM|software\s+bill).{0,40}(?:review|audit|assessment)",
+        r"(?:supply\s+chain|third[\s-]?party).{0,40}(?:security|assessment|audit|review).{0,40}(?:need|looking|vendor)",
+        r"(?:need|looking|seeking).{0,40}(?:shift[\s-]?left|DevSecOps|CI/?CD).{0,40}(?:security|testing|pentest)",
+        r"(?:need|looking|seeking).{0,40}(?:Kubernetes|k8s|AWS|Azure|cloud).{0,40}(?:security|pentest|audit|assessment)",
+        r"(?:need|looking|seeking).{0,40}(?:security\s+due\s+diligence|M&A\s+security|acquisition\s+security).{0,40}(?:review|assessment|audit)",
+        r"(?:penetration\s+test|security\s+audit|vapt).{0,40}(?:Kubernetes|k8s|container|Docker|cloud)",
+        r"(?:container|kubernetes|k8s).{0,40}(?:security|pentest|vulnerability).{0,40}(?:need|assessment|audit)",
+        r"(?:cloud\s+security|AWS\s+security|Azure\s+security).{0,40}(?:assessment|audit|pentest).{0,40}(?:need|looking)",
+    ],
 }
 
 PARTNER_PATTERNS: list[str] = [

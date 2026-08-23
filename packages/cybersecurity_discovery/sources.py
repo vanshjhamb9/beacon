@@ -281,8 +281,14 @@ async def discover_sources(limit: int = 120) -> list[RawDiscovery]:
         logger.info("Hacker News collected %s items", len(hn))
         github = await _github_issues(client, limit=25)
         logger.info("GitHub issues collected %s items", len(github))
+        stack = await _stackexchange(client, limit=20)
+        logger.info("Stack Exchange collected %s items", len(stack))
+        usaspending = await _usaspending_contracts(client, limit=15)
+        logger.info("USASpending collected %s items", len(usaspending))
+        cisa = await _cisa_kev(client, limit=10)
+        logger.info("CISA KEV collected %s items", len(cisa))
         ddg = await _duckduckgo(client, limit=min(40, limit))
-        found.extend([*seeded_live_buyers(), *_load_source_cache(), *hn, *reddit, *github, *ddg])
+        found.extend([*seeded_live_buyers(), *_load_source_cache(), *hn, *reddit, *github, *stack, *usaspending, *cisa, *ddg])
     deduped: dict[str, RawDiscovery] = {}
     for item in found:
         key = (item.source_url or "").rstrip("/").lower()
@@ -619,6 +625,53 @@ async def _hacker_news(client: httpx.AsyncClient, limit: int) -> list[RawDiscove
     tag_sets = ("story", "ask_hn", "comment")
     queries = list(dict.fromkeys([*HN_QUERIES, *HN_COMMENT_QUERIES]))
     since = int((datetime.now(UTC) - timedelta(days=90)).timestamp())
+
+    # Pass 1: Relevance-ranked search (best results first)
+    for query in queries[:12]:
+        if len(results) >= limit:
+            break
+        payload, _status = await _get_json(
+            client,
+            "https://hn.algolia.com/api/v1/search",
+            params={
+                "query": f'"{query}"',
+                "tags": "ask_hn",
+                "hitsPerPage": 10,
+                "numericFilters": f"created_at_i>{since}",
+            },
+        )
+        if not isinstance(payload, dict):
+            continue
+        for hit in payload.get("hits") or []:
+            if not isinstance(hit, dict):
+                continue
+            title = str(hit.get("title") or hit.get("story_title") or "").strip()
+            object_id = hit.get("objectID")
+            if not object_id:
+                continue
+            if not title:
+                title = str(hit.get("comment_text") or "")[:120]
+            created = hit.get("created_at")
+            published = None
+            if isinstance(created, str):
+                published = created if created.endswith("Z") else f"{created}Z" if "T" in created else created
+            author = str(hit.get("author") or "") or None
+            body = str(hit.get("story_text") or hit.get("comment_text") or "")[:4000]
+            results.append(
+                RawDiscovery(
+                    source_name="Hacker News",
+                    source_url=f"https://news.ycombinator.com/item?id={object_id}",
+                    title=title,
+                    body=body,
+                    published_at=published,
+                    author=author,
+                    author_profile_url=f"https://news.ycombinator.com/user?id={author}" if author else None,
+                    company_url_hint=str(hit.get("url") or "") or None,
+                    extra={"query": query, "tags": "ask_hn", "match": "relevance"},
+                )
+            )
+
+    # Pass 2: Date-ordered search (newer results)
     for query in queries:
         for tags in tag_sets:
             if len(results) >= limit:
@@ -663,54 +716,9 @@ async def _hacker_news(client: httpx.AsyncClient, limit: int) -> list[RawDiscove
                         extra={"query": query, "tags": tags},
                     )
                 )
-    if not results:
-        for query in queries:
-            for tags in ("ask_hn", "comment"):
-                if len(results) >= limit:
-                    return results[:limit]
-                payload, _status = await _get_json(
-                    client,
-                    "https://hn.algolia.com/api/v1/search_by_date",
-                    params={
-                        "query": query,
-                        "tags": tags,
-                        "hitsPerPage": 20,
-                        "numericFilters": f"created_at_i>{since}",
-                    },
-                )
-                if not isinstance(payload, dict):
-                    continue
-                for hit in payload.get("hits") or []:
-                    if not isinstance(hit, dict):
-                        continue
-                    title = str(hit.get("title") or hit.get("story_title") or "").strip()
-                    object_id = hit.get("objectID")
-                    if not object_id:
-                        continue
-                    if not title:
-                        title = str(hit.get("comment_text") or "")[:120]
-                    created = hit.get("created_at")
-                    published = None
-                    if isinstance(created, str):
-                        published = created if created.endswith("Z") else f"{created}Z" if "T" in created else created
-                    author = str(hit.get("author") or "") or None
-                    body = str(hit.get("story_text") or hit.get("comment_text") or "")[:4000]
-                    results.append(
-                        RawDiscovery(
-                            source_name="Hacker News",
-                            source_url=f"https://news.ycombinator.com/item?id={object_id}",
-                            title=title,
-                            body=body,
-                            published_at=published,
-                            author=author,
-                            author_profile_url=f"https://news.ycombinator.com/user?id={author}" if author else None,
-                            company_url_hint=str(hit.get("url") or "") or None,
-                            extra={"query": query, "tags": tags, "match": "unquoted"},
-                        )
-                    )
-                    if results and not _has_security_buyer_hint(results[-1]):
-                        results.pop()
-    for query in ("need pentest", "looking for pentest", "recommend pentest", "need VAPT"):
+
+    # Pass 3: Broader unquoted comment search
+    for query in ("need pentest", "looking for pentest", "recommend pentest", "need VAPT", "pentest for SaaS", "security audit startup"):
         if len(results) >= limit:
             break
         payload, _status = await _get_json(
@@ -883,9 +891,12 @@ async def _stackexchange(client: httpx.AsyncClient, limit: int) -> list[RawDisco
         return []
     results: list[RawDiscovery] = []
     for site, query in (
-        ("security", "need pentest"),
-        ("security", "penetration testing company"),
-        ("softwareengineering", "need a pentest"),
+        ("security", "penetration testing"),
+        ("security", "need a pentest"),
+        ("security", "VAPT"),
+        ("security", "hire security tester"),
+        ("infosec", "penetration testing company"),
+        ("softwareengineering", "security audit"),
     ):
         if len(results) >= limit:
             break
@@ -898,8 +909,7 @@ async def _stackexchange(client: httpx.AsyncClient, limit: int) -> list[RawDisco
                 "q": query,
                 "site": site,
                 "filter": "withbody",
-                "pagesize": 8,
-                "fromdate": int((datetime.now(UTC) - timedelta(days=90)).timestamp()),
+                "pagesize": 10,
             },
         )
         if status in {400, 403, 429} or not isinstance(payload, dict):
@@ -926,6 +936,97 @@ async def _stackexchange(client: httpx.AsyncClient, limit: int) -> list[RawDisco
                     extra={"via": "stackexchange", "query": query},
                 )
             )
+    return results[:limit]
+
+
+async def _usaspending_contracts(client: httpx.AsyncClient, limit: int) -> list[RawDiscovery]:
+    """Fetch government contracts for penetration testing / security audit from USASpending API."""
+    if limit <= 0:
+        return []
+    results: list[RawDiscovery] = []
+    queries = ["penetration testing", "security audit", "VAPT", "vulnerability assessment"]
+    for query in queries:
+        if len(results) >= limit:
+            break
+        try:
+            response = await client.post(
+                "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+                json={
+                    "filters": {
+                        "keywords": [query],
+                        "award_type_codes": ["A", "B", "C", "D"],  # grants and contracts
+                    },
+                    "limit": 10,
+                    "page": 1,
+                    "fields": ["Award Amount", "Awarding Agency", "Description", "Recipient Name", "Start Date"],
+                    "sort": "Award Amount",
+                    "order": "desc",
+                    "subawards": False,
+                },
+                headers={"Content-Type": "application/json", "User-Agent": USER_AGENT},
+            )
+            if response.status_code != 200:
+                continue
+            payload = response.json()
+        except Exception:
+            continue
+        for item in payload.get("results") or []:
+            desc = str(item.get("Description") or "")
+            award = str(item.get("Awarding Agency") or "")
+            recipient = str(item.get("Recipient Name") or "")
+            amount = item.get("Award Amount") or 0
+            title = f"{recipient} — {query} contract ({award})"
+            body = f"{desc}\nAward: ${amount:,.0f}\nAgency: {award}\nQuery: {query}"[:4000]
+            results.append(
+                RawDiscovery(
+                    source_name="USASpending",
+                    source_url=f"https://www.usaspending.gov/search/?hash=&query={query.replace(' ', '+')}",
+                    title=title,
+                    body=body,
+                    author=recipient or None,
+                    extra={"via": "usaspending", "query": query, "agency": award},
+                )
+            )
+    return results[:limit]
+
+
+async def _cisa_kev(client: httpx.AsyncClient, limit: int) -> list[RawDiscovery]:
+    """Fetch recent CISA Known Exploited Vulnerabilities for vendor urgency signals."""
+    if limit <= 0:
+        return []
+    try:
+        response = await client.get(
+            "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+            headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
+        )
+        if response.status_code != 200:
+            return []
+        payload = response.json()
+    except Exception:
+        return []
+    results: list[RawDiscovery] = []
+    vulns = payload.get("vulnerabilities") or []
+    for vuln in vulns[:limit]:
+        cve = str(vuln.get("cveID") or "")
+        vendor = str(vuln.get("vendorProject") or "")
+        product = str(vuln.get("product") or "")
+        name = str(vuln.get("vulnerabilityName") or "")
+        due = str(vuln.get("dueDate") or "")
+        title = f"{cve}: {name} ({vendor}/{product})"
+        body = (
+            f"Vendor: {vendor}\nProduct: {product}\nCVE: {cve}\n"
+            f"Remediation due: {due}\n"
+            f"{vuln.get('shortDescription', '')}"
+        )[:4000]
+        results.append(
+            RawDiscovery(
+                source_name="CISA KEV",
+                source_url=f"https://www.cve.org/CVERecord?id={cve}",
+                title=title,
+                body=body,
+                extra={"via": "cisa_kev", "cve": cve, "vendor": vendor, "product": product},
+            )
+        )
     return results[:limit]
 
 

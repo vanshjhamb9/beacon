@@ -30,6 +30,7 @@ BUYING_EVENT_LABELS = {
     "security_contractor": "External security contractor / hire",
     "compliance_driven": "Compliance / regulatory security requirement",
     "general_security_buying": "General security service buying intent",
+    "modern_security_buying": "Modern security (AI/cloud/DevSecOps/M&A) buying intent",
 }
 
 
@@ -98,6 +99,8 @@ def classify_opportunity_type(text: str, buying_hits: list[tuple[str, str]]) -> 
         return OpportunityType.SECURITY_REMEDIATION_CLIENT.value
     if "security_contractor" in categories:
         return OpportunityType.SECURITY_CONTRACTOR_CLIENT.value
+    if "modern_security_buying" in categories:
+        return OpportunityType.DIRECT_SECURITY_CLIENT.value
     if "prelaunch_enterprise" in categories or "vulnerability_security_issue" in categories:
         return OpportunityType.SECURITY_TESTING_CLIENT.value
     if "external_security_team" in categories:
