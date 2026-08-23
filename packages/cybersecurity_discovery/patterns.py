@@ -61,6 +61,25 @@ BUYING_PATTERNS: dict[str, list[str]] = {
         r"(?:looking\s+for|need)\s+(?:a\s+)?(?:cybersecurity\s+agency|appsec\s+engineer|security\s+contractor)",
         r"(?:contract|freelance|part[\s-]?time).{0,40}(?:pentest|vapt|application\s+security|appsec)",
     ],
+    "compliance_driven": [
+        r"(?:soc\s*2|iso\s*27001|pci[\s-]?dss|hipaa|gdpr).{0,80}(?:need|require|looking|before|audit|certification)",
+        r"(?:audit|certification|compliance).{0,80}(?:need|require|looking).{0,40}(?:pentest|security|test|assessment)",
+        r"(?:customer|client|investor|partner).{0,40}(?:requires?|asks?|needs?).{0,40}(?:security|pentest|audit|test)",
+        r"(?:before|prior\s+to).{0,40}(?:launch|go[\s-]?live|production|enterprise|series|funding).{0,60}(?:security|pentest|audit|test|assessment)",
+        r"(?:regulatory|compliance).{0,40}(?:requirement|obligation|deadline).{0,40}(?:security|pentest|audit)",
+    ],
+    "general_security_buying": [
+        r"(?:we|our|my|the)\s+(?:startup|company|saas|app|platform|product|website|api).{0,60}(?:need|require|looking).{0,40}(?:security|pentest|audit|assessment|testing|vapt)",
+        r"(?:need|require|looking|seeking).{0,40}(?:help|someone|team|company|firm|vendor|agency).{0,40}(?:with|for).{0,40}(?:security|pentest|audit|assessment|testing|vapt|vulnerability)",
+        r"(?:security|pentest|audit|assessment|vapt).{0,80}(?:recommend|suggest|anyone|who|advice|thoughts?)",
+        r"(?:budget|cost|price|affordable|cheap).{0,40}(?:pentest|security|audit|assessment|vapt|penetration)",
+        r"(?:small|early[\s-]?stage|seed[\s-]?stage).{0,40}(?:startup|company).{0,60}(?:security|pentest|audit|assessment)",
+        r"(?:anyone|has\s+anyone).{0,40}(?:used|tried|hired).{0,40}(?:pentester|pentest|vapt|security\s+(?:firm|company|consultant))",
+        r"(?:we|our).{0,40}(?:need|want|looking).{0,40}(?:someone|anyone).{0,40}(?:to|for).{0,40}(?:pentest|security|audit|vapt)",
+        r"(?:how|where)\s+(?:do|can)\s+(?:we|i|you)\s+(?:find|get|hire).{0,40}(?:pentest|security|audit|vapt)",
+        r"(?:thinking|planning).{0,40}(?:about|of).{0,40}(?:getting|doing|hiring).{0,40}(?:pentest|security|audit|vapt)",
+        r"(?:time|ready).{0,40}(?:for|to).{0,40}(?:get|do|have).{0,40}(?:pentest|security|audit|vapt|penetration)",
+    ],
 }
 
 PARTNER_PATTERNS: list[str] = [

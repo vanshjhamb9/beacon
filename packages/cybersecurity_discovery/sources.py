@@ -73,6 +73,19 @@ HN_QUERIES = (
     "customer requires penetration test",
     "looking for a pentester",
     "quotes for a pentest",
+    "security audit before launch",
+    "penetration test for startup",
+    "need external security team",
+    "vulnerability assessment vendor",
+    "pentest recommendation",
+    "security audit cost",
+    "affordable pentest",
+    "pentest for SaaS",
+    "security compliance pentest",
+    "who do you use for security",
+    "best pentest company",
+    "security testing vendor",
+    "appsec consultancy",
 )
 
 HN_COMMENT_QUERIES = (
@@ -84,6 +97,10 @@ HN_COMMENT_QUERIES = (
     "looking for a vapt",
     "recommend a pentester",
     "who do you use for pentest",
+    "security audit before launch",
+    "SOC 2 compliance pentest",
+    "affordable pentest startup",
+    "penetration test recommendation",
 )
 
 RFP_QUERIES = (
@@ -171,10 +188,10 @@ def seeded_live_buyers() -> list[RawDiscovery]:
             source_url="https://www.reddit.com/r/AskNetsec/comments/1vpk8x5/has_anyone_successfully_gotten_soc_2_type_ii/",
             title="Has anyone successfully gotten SOC 2 Type II using a Cobalt Web + API pentest?",
             body=(
-                "I’m trying to understand the SOC 2 process a little better, as I’m looking at "
+                "I'm trying to understand the SOC 2 process a little better, as I'm looking at "
                 "Cobalt's human-led Web + API penetration test as part of the evidence for a future "
                 "SOC 2 Type II audit. Has anyone here actually gone through SOC 2 Type II this way "
-                "(specifically using Cobalt’s human-led pentest)? I’m looking for an alternative "
+                "(specifically using Cobalt's human-led pentest)? I'm looking for an alternative "
                 "and more affordable option that would work for a startup with a small budget"
             ),
             published_at="2026-08-16T01:48:48+00:00",
@@ -264,12 +281,8 @@ async def discover_sources(limit: int = 120) -> list[RawDiscovery]:
         logger.info("Hacker News collected %s items", len(hn))
         github = await _github_issues(client, limit=25)
         logger.info("GitHub issues collected %s items", len(github))
-        stack = await _stackexchange(client, limit=20)
-        logger.info("Stack Exchange collected %s items", len(stack))
-        upwork = await _upwork_rss(client, limit=15)
-        logger.info("Upwork RSS collected %s items", len(upwork))
         ddg = await _duckduckgo(client, limit=min(40, limit))
-        found.extend([*seeded_live_buyers(), *_load_source_cache(), *hn, *reddit, *github, *stack, *upwork, *ddg])
+        found.extend([*seeded_live_buyers(), *_load_source_cache(), *hn, *reddit, *github, *ddg])
     deduped: dict[str, RawDiscovery] = {}
     for item in found:
         key = (item.source_url or "").rstrip("/").lower()
@@ -740,7 +753,7 @@ async def _hacker_news(client: httpx.AsyncClient, limit: int) -> list[RawDiscove
                 company_url_hint=str(hit.get("url") or "") or None,
                 extra={"query": query, "tags": "comment", "match": "unquoted_push"},
             )
-            if _has_pentest_language(item):
+            if _has_security_buyer_hint(item):
                 results.append(item)
     return results[:limit]
 
@@ -753,12 +766,26 @@ async def _duckduckgo(client: httpx.AsyncClient, limit: int) -> list[RawDiscover
         'site:reddit.com "looking for a pentest"',
         'site:reddit.com "need VAPT"',
         'site:reddit.com "SOC 2 pentest"',
+        'site:reddit.com "penetration testing company"',
+        'site:reddit.com "security audit startup"',
         'site:indiehackers.com "need pentest"',
         'site:indiehackers.com "security audit"',
         'site:linkedin.com/posts "looking for pentest"',
         'site:linkedin.com/posts "need VAPT"',
-        'site:upwork.com "penetration testing" "needed"',
+        'site:linkedin.com/posts "penetration testing"',
+        'site:linkedin.com/posts "security audit" "looking for"',
         'site:wellfound.com "penetration testing"',
+        'site:news.ycombinator.com "need a pentest"',
+        'site:news.ycombinator.com "security audit"',
+        '"need penetration testing" "startup"',
+        '"looking for VAPT" "SaaS"',
+        '"need security audit" "before launch"',
+        '"penetration test" "SOC 2" "looking for"',
+        '"need a pentest" startup',
+        '"looking for pentest" company',
+        '"need VAPT" SaaS',
+        '"security audit" startup budget',
+        '"hire pentester" freelance',
         *RFP_QUERIES,
     ]
     headers = {
@@ -800,46 +827,53 @@ async def _github_issues(client: httpx.AsyncClient, limit: int) -> list[RawDisco
     """Public GitHub issue search for explicit pentest/VAPT buyer language. No scanning of private repos."""
     if limit <= 0:
         return []
-    query = '"need a pentest" OR "looking for a pentest" OR "need VAPT" OR "hire a pentest"'
-    try:
-        response = await client.get(
-            "https://api.github.com/search/issues",
-            params={"q": query, "sort": "updated", "order": "desc", "per_page": min(25, limit)},
-            headers={"Accept": "application/vnd.github+json", "User-Agent": USER_AGENT},
-        )
-        if response.status_code != 200:
-            logger.warning("GitHub issue search blocked or empty (%s)", response.status_code)
-            return []
-        payload = response.json()
-    except Exception as exc:
-        logger.warning("GitHub issue search failed: %s", exc)
-        return []
-    if not isinstance(payload, dict):
-        return []
+    queries = [
+        '"need pentest" OR "security audit"',
+        '"looking for pentest" OR "need VAPT"',
+        '"penetration testing company" OR "security consultant"',
+    ]
     results: list[RawDiscovery] = []
-    for item in payload.get("items") or []:
-        if not isinstance(item, dict):
-            continue
-        title = str(item.get("title") or "").strip()
-        url = str(item.get("html_url") or "").strip()
-        if not title or not url:
-            continue
-        user = item.get("user") if isinstance(item.get("user"), dict) else {}
-        author = str(user.get("login") or "") or None
-        results.append(
-            RawDiscovery(
-                source_name="GitHub Issues",
-                source_url=url.split("?")[0],
-                title=title,
-                body=str(item.get("body") or "")[:4000],
-                published_at=str(item.get("created_at") or item.get("updated_at") or "") or None,
-                author=author,
-                author_profile_url=str(user.get("html_url") or "") or None,
-                extra={"via": "github_search"},
-            )
-        )
+    for query in queries:
         if len(results) >= limit:
             break
+        try:
+            response = await client.get(
+                "https://api.github.com/search/issues",
+                params={"q": query, "sort": "updated", "order": "desc", "per_page": min(25, limit)},
+                headers={"Accept": "application/vnd.github+json", "User-Agent": USER_AGENT},
+            )
+            if response.status_code != 200:
+                logger.warning("GitHub issue search blocked or empty (%s)", response.status_code)
+                continue
+            payload = response.json()
+        except Exception as exc:
+            logger.warning("GitHub issue search failed: %s", exc)
+            continue
+        if not isinstance(payload, dict):
+            continue
+        for item in payload.get("items") or []:
+            if not isinstance(item, dict):
+                continue
+            title = str(item.get("title") or "").strip()
+            url = str(item.get("html_url") or "").strip()
+            if not title or not url:
+                continue
+            user = item.get("user") if isinstance(item.get("user"), dict) else {}
+            author = str(user.get("login") or "") or None
+            results.append(
+                RawDiscovery(
+                    source_name="GitHub Issues",
+                    source_url=url.split("?")[0],
+                    title=title,
+                    body=str(item.get("body") or "")[:4000],
+                    published_at=str(item.get("created_at") or item.get("updated_at") or "") or None,
+                    author=author,
+                    author_profile_url=str(user.get("html_url") or "") or None,
+                    extra={"via": "github_search", "query": query},
+                )
+            )
+            if len(results) >= limit:
+                break
     return results[:limit]
 
 

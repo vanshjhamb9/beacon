@@ -506,7 +506,7 @@ def merge_into_outreach_pool(new_leads: list[dict[str, Any]]) -> int:
         email = (lead.get("email") or "").lower().strip()
         if not email or email in sent or email in have:
             continue
-        if float(lead.get("intent_score") or 0) < 55:
+        if float(lead.get("intent_score") or 0) < 45:
             continue
         if lead.get("already_contacted"):
             continue
@@ -644,7 +644,10 @@ async def _live_discover_new(
     try:
         from packages.ecommerce_leads.models import is_valid_email
         from packages.qualification_engine.enrichment import enrich_leads_batch
-        from packages.qualification_engine.verified_brands import get_verified_leads
+        if product == "inowix":
+            from packages.qualification_engine.saas_verified_brands import get_saas_verified_leads as get_verified_leads
+        else:
+            from packages.qualification_engine.verified_brands import get_verified_leads
     except Exception as exc:  # noqa: BLE001
         logger.warning("Live discovery imports failed: %s", exc)
         return []
@@ -1869,7 +1872,10 @@ def _extract_leads(product: str, icp: dict[str, Any]) -> list[dict[str, Any]]:
 
     # Discover additional brand shells from verified list matching ICP (no invented emails)
     try:
-        from packages.qualification_engine.verified_brands import get_verified_leads
+        if product == "inowix":
+            from packages.qualification_engine.saas_verified_brands import get_saas_verified_leads as get_verified_leads
+        else:
+            from packages.qualification_engine.verified_brands import get_verified_leads
 
         industries = [str(x).lower() for x in (icp.get("industries") or icp.get("specialties") or [])]
         cities = [str(x).lower() for x in (icp.get("headquarters_cities") or [])]
@@ -2263,7 +2269,7 @@ def _score_leads(leads: list[dict[str, Any]], product: str) -> list[dict[str, An
         if lead.get("soft_generic_email"):
             score -= soft_penalty
         if lead.get("weak_outreach_email"):
-            score -= 14
+            score -= 8
         if lead.get("headcount_soft_miss"):
             score -= 6
         if lead.get("type_soft_miss"):
@@ -2274,7 +2280,7 @@ def _score_leads(leads: list[dict[str, Any]], product: str) -> list[dict[str, An
         if faq_only or (lead.get("soft_generic_email") and not strong):
             score = min(score, 52.0)
         if lead.get("weak_outreach_email"):
-            score = min(score, 58.0)
+            score = min(score, 65.0)
 
         if not strong:
             score = min(score, 54.0)

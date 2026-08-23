@@ -49,6 +49,17 @@ target_cities:
   - New York
   - London
   - Tel Aviv
+  - Cologne
+  - Berlin
+  - Amsterdam
+  - Austin
+  - Seattle
+  - Boston
+  - Los Angeles
+  - Chicago
+  - Toronto
+  - Sydney
+  - Melbourne
 
 target_platforms:
   - react

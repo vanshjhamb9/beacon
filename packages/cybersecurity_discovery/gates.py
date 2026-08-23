@@ -228,11 +228,15 @@ def evaluate_gates(opp: CyberOpportunity) -> CyberOpportunity:
         opp.final_verdict = FinalVerdict.SALES_READY.value
         opp.funnel_stage = "SALES_READY"
         opp.outreach_priority = "P1" if opp.intent_level == IntentLevel.HOT.value else "P2"
-        opp.cto_15_minute_test, opp.cto_decision_reason = cto_test(opp)
-        if opp.cto_15_minute_test != "YES":
-            opp.final_verdict = FinalVerdict.NEEDS_RESEARCH.value
-            opp.funnel_stage = "CONTACT_VERIFIED"
-            opp.failed_gates.append("cto_15_minute_test")
+        if opp.intent_level != IntentLevel.HOT.value:
+            opp.cto_15_minute_test, opp.cto_decision_reason = cto_test(opp)
+            if opp.cto_15_minute_test != "YES":
+                opp.final_verdict = FinalVerdict.NEEDS_RESEARCH.value
+                opp.funnel_stage = "CONTACT_VERIFIED"
+                opp.failed_gates.append("cto_15_minute_test")
+        else:
+            opp.cto_15_minute_test = "YES"
+            opp.cto_decision_reason = "HOT intent — skipping CTO test"
         return opp
 
     opp.final_verdict = FinalVerdict.NEEDS_RESEARCH.value
@@ -282,7 +286,8 @@ def cto_test(opp: CyberOpportunity) -> tuple[str, str]:
 def _identifiable(opp: CyberOpportunity) -> bool:
     named = bool(opp.buyer_name) and opp.identity_confidence in {"HIGH", "MEDIUM", "LOW"}
     company = bool(opp.company) and (bool(opp.company_url) or opp.company_verified)
-    return named or company
+    company_hint = bool(opp.company) and bool(opp.buyer_name)
+    return named or company or company_hint
 
 
 def _still_active(opp: CyberOpportunity) -> bool:
@@ -358,14 +363,14 @@ def classify_contactability(opp: CyberOpportunity) -> None:
         opp.contactability = "HIGH" if named_inbox else "MEDIUM"
     elif has_named_buyer and (linkedin or has_profile or form or company_site):
         opp.contactability = "MEDIUM"
-    elif linkedin or form or company_site or has_email:
-        opp.contactability = "LOW"
     elif has_named_buyer and has_profile:
         opp.contactability = "MEDIUM"
+    elif linkedin or form or company_site or has_email:
+        opp.contactability = "LOW"
     elif has_named_buyer:
         opp.contactability = "LOW"
     else:
-        opp.contactability = "NONE"
+        opp.contactability = "LOW"
 
     opp.contactability_evidence.append(
         evidence_item(

@@ -28,6 +28,8 @@ BUYING_EVENT_LABELS = {
     "compliance_vapt": "Compliance / VAPT requirement",
     "prelaunch_enterprise": "Pre-launch / enterprise security requirement",
     "security_contractor": "External security contractor / hire",
+    "compliance_driven": "Compliance / regulatory security requirement",
+    "general_security_buying": "General security service buying intent",
 }
 
 
@@ -88,7 +90,7 @@ def classify_opportunity_type(text: str, buying_hits: list[tuple[str, str]]) -> 
     if is_partner_request(text):
         return OpportunityType.SECURITY_PARTNER.value
     categories = {c for c, _ in buying_hits}
-    if "compliance_vapt" in categories:
+    if "compliance_vapt" in categories or "compliance_driven" in categories:
         return OpportunityType.SECURITY_COMPLIANCE_CLIENT.value
     if "vulnerability_security_issue" in categories and any(
         t in lowered for t in ("fix", "remediat", "compromised", "incident", "breached")
@@ -99,6 +101,8 @@ def classify_opportunity_type(text: str, buying_hits: list[tuple[str, str]]) -> 
     if "prelaunch_enterprise" in categories or "vulnerability_security_issue" in categories:
         return OpportunityType.SECURITY_TESTING_CLIENT.value
     if "external_security_team" in categories:
+        return OpportunityType.DIRECT_SECURITY_CLIENT.value
+    if "general_security_buying" in categories:
         return OpportunityType.DIRECT_SECURITY_CLIENT.value
     if buying_hits:
         return OpportunityType.DIRECT_SECURITY_CLIENT.value

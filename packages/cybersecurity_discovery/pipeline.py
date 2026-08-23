@@ -68,7 +68,16 @@ async def run_cybersecurity_discovery(
             follow_redirects=True,
         )
     try:
+        ddg_enriched = 0
         for raw in raw_items:
+            if enrich and client is not None and raw.source_name == "DuckDuckGo" and raw.body == raw.title and ddg_enriched < 10:
+                try:
+                    page_html = await fetch_url(client, raw.source_url)
+                    if page_html:
+                        raw.body = page_html[:4000]
+                        ddg_enriched += 1
+                except Exception:
+                    pass
             opp = classify_raw(raw, observed)
             if opp.funnel_stage == "BUYING_EVENT":
                 funnel["BUYING_EVENT"] += 1
