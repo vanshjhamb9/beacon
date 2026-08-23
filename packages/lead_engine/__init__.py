@@ -820,6 +820,16 @@ async def _live_discover_new(
             platform = next((t for t in technologies if t in ("shopify", "woocommerce")), technologies[0])
         if technologies:
             why_bits.append("stack: " + ", ".join(technologies[:6]))
+        # For inowix: add SaaS-specific keywords to why_bits so inowix_signal fires
+        if product == "inowix":
+            cat = (getattr(e.raw, "industry", "") or "").lower()
+            why_bits.append("saas")
+            if any(k in cat for k in ("saas", "software", "tech", "b2b", "enterprise")):
+                why_bits.append("engineer")
+            if any(t in technologies for t in ("flutter", "react native", "swift", "ios", "android")):
+                why_bits.append("mobile")
+            if any(t in technologies for t in ("api", "rest", "graphql", "fastapi", "django", "express")):
+                why_bits.append("api")
 
         emp = getattr(e, "employee_count", None)
         size = str(emp) if isinstance(emp, int) and emp > 0 else ""
@@ -866,7 +876,7 @@ async def _live_discover_new(
                 "signal": "live_discovery",
                 "intent_score": min(58.0, base_intent),
                 "source": "live_verified_enrichment",
-                "company_type": "d2c_brand",
+                "company_type": "d2c_brand" if product != "inowix" else "saas_company",
                 "enriched": True,
                 # Legacy flag kept false — WA chat links no longer demote
                 "whatsapp_already": False,
@@ -2655,7 +2665,12 @@ async def run_pipeline(run_id: str) -> None:
             email = (lead.get("email") or "").lower().strip()
             if not email:
                 continue
-            if email in sent:
+            # For inowix live discovery: skip cross-product seen check (fresh SaaS leads)
+            is_live_inowix = (
+                product == "inowix"
+                and lead.get("source") == "live_verified_enrichment"
+            )
+            if not is_live_inowix and email in sent:
                 rejects["already_sent"] = rejects.get("already_sent", 0) + 1
                 continue
             if email in surfaced:
