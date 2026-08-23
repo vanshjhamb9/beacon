@@ -2665,12 +2665,16 @@ async def run_pipeline(run_id: str) -> None:
             email = (lead.get("email") or "").lower().strip()
             if not email:
                 continue
-            # For inowix live discovery: skip cross-product seen check (fresh SaaS leads)
+            # For inowix/comai live discovery: skip cross-product seen check (fresh leads)
             is_live_inowix = (
                 product == "inowix"
                 and lead.get("source") == "live_verified_enrichment"
             )
-            if not is_live_inowix and email in sent:
+            is_live_comai = (
+                product == "comai"
+                and lead.get("source") == "live_verified_enrichment"
+            )
+            if not is_live_inowix and not is_live_comai and email in sent:
                 rejects["already_sent"] = rejects.get("already_sent", 0) + 1
                 continue
             if email in surfaced:
