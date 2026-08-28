@@ -1091,38 +1091,44 @@ async def _live_discover_new(
         why_bits = []
         chat = getattr(e, "chatbot_state", None)
         chat_absent = False
-        if chat is not None and "ABSENT" in str(chat).upper():
-            why_bits.append("No chatbot automation on site")
-            chat_absent = True
-        elif chat is not None and "PRESENT" in str(chat).upper():
-            why_bits.append("Web chatbot present on site")
+        # COMAI-specific: chatbot/WhatsApp observations
+        if product == "comai":
+            if chat is not None and "ABSENT" in str(chat).upper():
+                why_bits.append("No chatbot automation on site")
+                chat_absent = True
+            elif chat is not None and "PRESENT" in str(chat).upper():
+                why_bits.append("Web chatbot present on site")
 
-        # WhatsApp chat links are ignored. Only note true WA *bot* vendors.
-        techs_early = [str(t).lower() for t in (getattr(e, "technologies", None) or []) if t]
-        wa_ev = str(getattr(e, "whatsapp_evidence", "") or "").lower()
-        has_wa_bot = "whatsapp_bot" in techs_early or (
-            "bot" in wa_ev and "PRESENT" in str(getattr(e, "whatsapp_state", "") or "").upper()
-        )
-        if has_wa_bot:
-            why_bits.append("WhatsApp bot/automation vendor detected")
+            # WhatsApp chat links are ignored. Only note true WA *bot* vendors.
+            techs_early = [str(t).lower() for t in (getattr(e, "technologies", None) or []) if t]
+            wa_ev = str(getattr(e, "whatsapp_evidence", "") or "").lower()
+            has_wa_bot = "whatsapp_bot" in techs_early or (
+                "bot" in wa_ev and "PRESENT" in str(getattr(e, "whatsapp_state", "") or "").upper()
+            )
+            if has_wa_bot:
+                why_bits.append("WhatsApp bot/automation vendor detected")
+        else:
+            techs_early = [str(t).lower() for t in (getattr(e, "technologies", None) or []) if t]
 
+        # Pain points: only for comai (faq_volume, whatsapp_pain, etc.)
         pains = getattr(e, "pain_points", None) or []
         pain_types: list[str] = []
-        for p in pains[:5]:
-            if isinstance(p, dict):
-                ptype = str(p.get("type") or "")
-                if ptype:
-                    pain_types.append(ptype)
-                if ptype == "faq_volume":
-                    continue
-                ev = str(p.get("evidence") or ptype)[:80]
-                if ev:
-                    why_bits.append(ev)
-            else:
-                s = str(p)
-                if "faq" in s.lower() and "whatsapp" not in s.lower():
-                    continue
-                why_bits.append(s[:80])
+        if product == "comai":
+            for p in pains[:5]:
+                if isinstance(p, dict):
+                    ptype = str(p.get("type") or "")
+                    if ptype:
+                        pain_types.append(ptype)
+                    if ptype == "faq_volume":
+                        continue
+                    ev = str(p.get("evidence") or ptype)[:80]
+                    if ev:
+                        why_bits.append(ev)
+                else:
+                    s = str(p)
+                    if "faq" in s.lower() and "whatsapp" not in s.lower():
+                        continue
+                    why_bits.append(s[:80])
 
         growth_raw = getattr(e, "growth_signals", None) or []
         growth_signals: list[dict[str, Any]] = [g for g in growth_raw if isinstance(g, dict)]
@@ -1152,7 +1158,12 @@ async def _live_discover_new(
             platform = next((t for t in technologies if t in ("shopify", "woocommerce")), technologies[0])
         if technologies:
             why_bits.append("stack: " + ", ".join(technologies[:6]))
+
+        emp = getattr(e, "employee_count", None)
+        size = str(emp) if isinstance(emp, int) and emp > 0 else ""
+
         # For inowix: add SaaS-specific keywords to why_bits so inowix_signal fires
+        # and build product-appropriate hooks for email drafts
         if product == "inowix":
             cat = (getattr(e.raw, "industry", "") or "").lower()
             why_bits.append("saas")
@@ -1162,9 +1173,20 @@ async def _live_discover_new(
                 why_bits.append("mobile")
             if any(t in technologies for t in ("api", "rest", "graphql", "fastapi", "django", "express")):
                 why_bits.append("api")
+            # Product-appropriate observations for email hooks
+            for g in growth_signals[:3]:
+                gtype = str(g.get("type") or "")
+                if gtype == "hiring":
+                    gev = str(g.get("evidence") or "")[:80]
+                    why_bits.append(f"hiring: {gev}" if gev else "hiring engineers")
+                elif gtype == "funding":
+                    why_bits.append("recently funded")
+                elif gtype == "new_products":
+                    why_bits.append("shipping new product")
+            # Note thin bench signals
+            if emp and isinstance(emp, int) and emp <= 15:
+                why_bits.append("small team likely needs eng capacity")
 
-        emp = getattr(e, "employee_count", None)
-        size = str(emp) if isinstance(emp, int) and emp > 0 else ""
         founder = _sanitize_founder_name(e.founder_name or "", company)
         # Base intent from growth / chat automation — WhatsApp links ignored
         base_intent = 46.0

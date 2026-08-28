@@ -119,24 +119,53 @@ function defaultIcp(product: Product): IcpDraft {
       technology_stack: [],
     };
   }
+  if (product === "inowix") {
+    return {
+      key: "inowix-lead-engine",
+      name: "Inowix Lead Engine",
+      service_match: "Inowix",
+      lists: ["Inowix tiny/mid eng"],
+      company_name_contains: "",
+      domains: "",
+      linkedin_url_required: false,
+      employee_count_min: 2,
+      employee_count_max: 70,
+      industries: ["saas", "software", "artificial intelligence", "mobile apps", "fintech", "healthtech", "ecommerce tooling", "developer tools", "productivity", "marketplace", "design tools", "data tools", "no-code", "analytics", "infrastructure", "devops", "cybersecurity", "edtech", "climate tech"],
+      company_types: ["saas_product"],
+      countries: ["India", "United States", "United Kingdom", "Germany", "Israel", "Singapore"],
+      headquarters_cities: [
+        "Bangalore", "Bengaluru", "Mumbai", "Delhi", "Hyderabad", "Pune", "Noida", "Ahmedabad", "Chennai", "Kochi", "Jaipur", "Goa",
+        "San Francisco", "New York", "Austin", "Seattle", "Boston", "Los Angeles", "Chicago", "Toronto",
+        "London",
+        "Cologne", "Berlin", "Munich",
+        "Tel Aviv",
+        "Amsterdam", "Paris", "Helsinki", "Stockholm", "Copenhagen", "Tallinn", "Lisbon", "Zurich", "Barcelona",
+        "Sydney", "Melbourne", "Tokyo", "Dubai", "Seoul", "Taipei", "Bangkok", "Ho Chi Minh City", "Sao Paulo",
+      ],
+      specialties: ["ai", "mobile"],
+      year_founded_min: 2018,
+      year_founded_max: 2026,
+      technology_stack: ["react", "flutter", "ios"],
+    };
+  }
   return {
-    key: product === "comai" ? "comai-lead-engine" : "inowix-lead-engine",
-    name: product === "comai" ? "COMAI Lead Engine" : "Inowix Lead Engine",
-    service_match: product === "comai" ? "COMAI" : "Inowix",
-    lists: [product === "comai" ? "COMAI small/mid D2C" : "Inowix tiny/mid eng"],
+    key: "comai-lead-engine",
+    name: "COMAI Lead Engine",
+    service_match: "COMAI",
+    lists: ["COMAI small/mid D2C"],
     company_name_contains: "",
     domains: "",
     linkedin_url_required: false,
-    employee_count_min: product === "comai" ? 5 : 2,
-    employee_count_max: product === "comai" ? 40 : 70,
-    industries: product === "comai" ? ["fashion", "beauty", "jewellery", "skincare", "food"] : ["saas", "software"],
-    company_types: product === "comai" ? ["d2c_brand"] : ["saas_product"],
+    employee_count_min: 5,
+    employee_count_max: 40,
+    industries: ["fashion", "beauty", "jewellery", "skincare", "food"],
+    company_types: ["d2c_brand"],
     countries: ["India"],
     headquarters_cities: [],
-    specialties: product === "comai" ? ["fashion", "jewellery", "skincare"] : ["ai", "mobile"],
+    specialties: ["fashion", "jewellery", "skincare"],
     year_founded_min: 2018,
     year_founded_max: 2026,
-    technology_stack: product === "comai" ? ["shopify", "whatsapp", "meta ads"] : ["react", "flutter", "ios"],
+    technology_stack: ["shopify", "whatsapp", "meta ads"],
   };
 }
 
