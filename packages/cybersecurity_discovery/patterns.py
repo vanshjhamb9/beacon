@@ -140,6 +140,14 @@ REJECT_PATTERNS: dict[str, list[str]] = {
         r"(?:hire\s+me|my\s+resume|open\s+to\s+work).{0,40}(?:security|pentest|appsec)",
         r"(?:i\s+want\s+to\s+(?:break\s+into|get\s+a\s+job\s+in)\s+cyber)",
     ],
+    "offering_services": [
+        r"(?:who\s+wants?\s+to\s+be\s+hired|who\s+is\s+hiring).{0,200}(?:security|pentest|ciso|cso|appsec)",
+        r"(?:freelance|fractional|contract).{0,30}(?:ciso|cso|security\s+(?:consultant|advisor|officer))",
+        r"(?:available\s+for\s+(?:hire|contract|freelance)).{0,40}(?:security|pentest|ciso)",
+        r"(?:i\s+(?:am|'m)\s+(?:a\s+)?(?:freelance|fractional|independent)\s+(?:ciso|cso|security))",
+        r"(?:my\s+(?:consulting|advisory)\s+(?:services|practice)).{0,40}(?:security|pentest)",
+        r"(?:check\s+out\s+my|see\s+my|view\s+my).{0,30}(?:portfolio|services| offerings).{0,30}(?:security|pentest)",
+    ],
     "student": [
         r"(?:student|coursework|assignment|college|university).{0,40}(?:pentest|vapt|cybersecurity)",
         r"(?:learning\s+(?:cyber|pentest)|bootcamp|tryhackme|hackthebox)\b",

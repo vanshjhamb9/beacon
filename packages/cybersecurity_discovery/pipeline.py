@@ -10,6 +10,7 @@ from urllib.parse import urlparse
 import httpx
 
 from packages.cybersecurity_discovery.classifier import classify_raw
+from packages.cybersecurity_discovery.contact_resolver import enrich_contacts
 from packages.cybersecurity_discovery.enrich import (
     apply_text_contacts,
     apply_website_contacts,
@@ -121,6 +122,26 @@ async def run_cybersecurity_discovery(
                 opp.company = maybe_company_from_url(opp.company_url) or raw.company_hint
             if opp.company and opp.company_url:
                 opp.company_verified = True
+
+            # Contact enrichment waterfall: HN profile, Reddit profile, website, email patterns, WHOIS
+            if client is not None and not opp.email:
+                try:
+                    enrich_result = await enrich_contacts(
+                        opp,
+                        client,
+                        HN_author=raw.author if "hackernews" in (raw.source_name or "").lower() or "Hacker News" in (raw.source_name or "") else None,
+                        Reddit_author=raw.author if "reddit" in (raw.source_name or "").lower() else None,
+                        company_url=opp.company_url,
+                    )
+                    if enrich_result.get("email"):
+                        opp.email = enrich_result["email"]
+                        opp.email_status = "VERIFIED" if enrich_result.get("contact_source") == "pattern_generation" else "FOUND"
+                    if enrich_result.get("buyer_name") and not opp.buyer_name:
+                        opp.buyer_name = enrich_result["buyer_name"]
+                    if enrich_result.get("company_url") and not opp.company_url:
+                        opp.company_url = enrich_result["company_url"]
+                except Exception:  # noqa: BLE001
+                    pass
 
             classify_contactability(opp)
             opp = evaluate_gates(opp)

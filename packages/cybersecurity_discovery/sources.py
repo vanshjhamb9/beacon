@@ -108,6 +108,19 @@ RFP_QUERIES = (
     'site:contractsfinder.service.gov.uk "penetration test"',
     'site:ted.europa.eu "vulnerability assessment"',
     'site:gov.uk "cyber security assessment" RFP',
+    'site:linkedin.com/posts "looking for pentest"',
+    'site:linkedin.com/posts "need VAPT"',
+    'site:linkedin.com/posts "penetration testing"',
+    'site:linkedin.com/posts "security audit" "looking for"',
+    'site:linkedin.com/posts "hiring penetration tester"',
+    'site:linkedin.com/posts "need security consultant"',
+    '"penetration test" "SOC 2" site:linkedin.com',
+    '"need a pentest" startup site:linkedin.com',
+    '"looking for VAPT" SaaS site:linkedin.com',
+    '"need security audit" "before launch" site:linkedin.com',
+    '"hiring" "penetration tester" "startup" OR "SaaS"',
+    '"looking for" "cybersecurity company" "SaaS" OR "startup"',
+    '"need" "security assessment" "SOC 2" OR "ISO 27001" OR "HIPAA"',
 )
 
 TIMEOUT = 20.0
@@ -218,6 +231,9 @@ def _raw_to_cache_dict(item: RawDiscovery) -> dict[str, Any]:
     }
 
 
+CACHE_TTL_DAYS = 30  # Evict cached sources older than 30 days
+
+
 def _save_source_cache(items: list[RawDiscovery]) -> None:
     if not items:
         return
@@ -225,8 +241,25 @@ def _save_source_cache(items: list[RawDiscovery]) -> None:
         CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
         existing = {str(x.get("source_url") or ""): x for x in _load_source_cache_dicts()}
         for item in items:
-            existing[item.source_url] = _raw_to_cache_dict(item)
-        CACHE_PATH.write_text(json.dumps(list(existing.values()), indent=2), encoding="utf-8")
+            cache_entry = _raw_to_cache_dict(item)
+            cache_entry["cached_at"] = datetime.now(UTC).isoformat()
+            existing[item.source_url] = cache_entry
+        # Evict entries older than TTL
+        now = datetime.now(UTC)
+        filtered = {}
+        for url, entry in existing.items():
+            cached_at_str = entry.get("cached_at")
+            if cached_at_str:
+                try:
+                    cached_at = datetime.fromisoformat(cached_at_str)
+                    if cached_at.tzinfo is None:
+                        cached_at = cached_at.replace(tzinfo=UTC)
+                    if (now - cached_at).days > CACHE_TTL_DAYS:
+                        continue
+                except (ValueError, TypeError):
+                    pass
+            filtered[url] = entry
+        CACHE_PATH.write_text(json.dumps(list(filtered.values()), indent=2), encoding="utf-8")
     except Exception as exc:
         logger.warning("Could not write cyber source cache: %s", exc)
 
@@ -287,8 +320,10 @@ async def discover_sources(limit: int = 120) -> list[RawDiscovery]:
         logger.info("USASpending collected %s items", len(usaspending))
         cisa = await _cisa_kev(client, limit=10)
         logger.info("CISA KEV collected %s items", len(cisa))
+        upwork = await _upwork_rss(client, limit=15)
+        logger.info("Upwork RSS collected %s items", len(upwork))
         ddg = await _duckduckgo(client, limit=min(40, limit))
-        found.extend([*seeded_live_buyers(), *_load_source_cache(), *hn, *reddit, *github, *stack, *usaspending, *cisa, *ddg])
+        found.extend([*seeded_live_buyers(), *_load_source_cache(), *hn, *reddit, *github, *stack, *usaspending, *cisa, *upwork, *ddg])
     deduped: dict[str, RawDiscovery] = {}
     for item in found:
         key = (item.source_url or "").rstrip("/").lower()
@@ -297,6 +332,32 @@ async def discover_sources(limit: int = 120) -> list[RawDiscovery]:
         deduped[key] = item
     logger.info("Discovered %s unique public items", len(deduped))
     return list(deduped.values())[:limit]
+
+
+async def _upwork_rss(client: httpx.AsyncClient, limit: int) -> list[RawDiscovery]:
+    """Fetch Upwork RSS feed for freelance cybersecurity work."""
+    results: list[RawDiscovery] = []
+    rss_urls = [
+        "https://www.upwork.com/ab/feed/jobs/rss?q=penetration+testing&sort=recency",
+        "https://www.upwork.com/ab/feed/jobs/rss?q=cybersecurity+audit&sort=recency",
+        "https://www.upwork.com/ab/feed/jobs/rss?q=VAPT&sort=recency",
+        "https://www.upwork.com/ab/feed/jobs/rss?q=security+assessment&sort=recency",
+    ]
+    for rss_url in rss_urls:
+        if len(results) >= limit:
+            break
+        try:
+            response = await client.get(rss_url, timeout=15.0)
+            if response.status_code != 200:
+                continue
+            items = _parse_feed_entries(response.text, "Upwork")
+            for item in items[:5]:
+                if len(results) >= limit:
+                    break
+                results.append(item)
+        except Exception as exc:
+            logger.debug("Upwork RSS failed for %s: %s", rss_url, exc)
+    return results
 
 
 def _parse_atom_entries(xml_text: str, default_source: str) -> list[RawDiscovery]:
@@ -815,17 +876,19 @@ async def _duckduckgo(client: httpx.AsyncClient, limit: int) -> list[RawDiscover
         except Exception as exc:
             logger.warning("DuckDuckGo search failed for %s: %s", query, exc)
             continue
-        for url, title in _parse_ddg_results(html)[:8]:
+        for url, title, snippet in _parse_ddg_results(html)[:8]:
             if _is_junk_search_url(url):
                 continue
             source = _source_from_url(url)
+            # Use snippet as body for better classifier accuracy
+            body_text = f"{title} {snippet}".strip()
             results.append(
                 RawDiscovery(
                     source_name=source,
                     source_url=url,
                     title=title,
-                    body=title,
-                    extra={"query": query},
+                    body=body_text or title,
+                    extra={"query": query, "ddg_snippet": snippet},
                 )
             )
     return results[:limit]
@@ -1069,28 +1132,42 @@ async def fetch_url(client: httpx.AsyncClient, url: str) -> str | None:
         return None
 
 
-def _parse_ddg_results(html: str) -> list[tuple[str, str]]:
+def _parse_ddg_results(html: str) -> list[tuple[str, str, str]]:
+    """Parse DuckDuckGo HTML results. Returns list of (url, title, snippet)."""
     import re
 
-    pairs: list[tuple[str, str]] = []
+    triples: list[tuple[str, str, str]] = []
+    # Try structured parsing with snippets
     for match in re.finditer(
-        r'uddg=([^&"]+)[^>]*>\s*([^<]+)',
+        r'uddg=([^&"]+)[^>]*>\s*([^<]+).*?<a[^>]*class="result__snippet"[^>]*>([^<]+)',
         html,
-        flags=re.IGNORECASE,
+        flags=re.IGNORECASE | re.DOTALL,
     ):
         from urllib.parse import unquote
-
         url = unquote(match.group(1))
         title = match.group(2).strip()
+        snippet = unescape(match.group(3)).strip()
         if url.startswith("http") and title:
-            pairs.append((url, title))
-    if not pairs:
+            triples.append((url, title, snippet))
+    if not triples:
+        # Fallback: extract URLs and titles, empty snippet
+        for match in re.finditer(
+            r'uddg=([^&"]+)[^>]*>\s*([^<]+)',
+            html,
+            flags=re.IGNORECASE,
+        ):
+            from urllib.parse import unquote
+            url = unquote(match.group(1))
+            title = match.group(2).strip()
+            if url.startswith("http") and title:
+                triples.append((url, title, ""))
+    if not triples:
         for match in re.finditer(r'href="(https?://[^"]+)"[^>]*>([^<]{8,180})', html):
             url = match.group(1)
             if "duckduckgo.com" in url:
                 continue
-            pairs.append((url, match.group(2).strip()))
-    return pairs
+            triples.append((url, match.group(2).strip(), ""))
+    return triples
 
 
 def _is_junk_search_url(url: str) -> bool:

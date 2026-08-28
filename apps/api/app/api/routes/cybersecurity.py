@@ -4,30 +4,32 @@ from __future__ import annotations
 
 import asyncio
 import json
+import logging
 from pathlib import Path
 from typing import Any
 
-from fastapi import APIRouter, HTTPException
-from fastapi.responses import FileResponse, PlainTextResponse
-from pydantic import BaseModel
+from fastapi import APIRouter, FileResponse, HTTPException
+from pydantic import BaseModel, Field
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/cybersecurity", tags=["cybersecurity"])
 
-EXPORT_DIR = Path("/home/ubuntu/beacon/exports/cybersecurity")
+EXPORT_DIR = Path("/home/ubuntu/beacon/exports/cybersecurity_discovery")
 
 
 class DiscoveryRunResponse(BaseModel):
     status: str
-    total_signals: int = 0
-    total_opportunities: int = 0
-    sales_ready: int = 0
-    marketing_ready: int = 0
-    not_ready: int = 0
-    p0_count: int = 0
-    p1_count: int = 0
-    p2_count: int = 0
-    elapsed_seconds: float = 0
-    output_files: dict[str, str] = {}
+    total_signals: int
+    total_opportunities: int
+    sales_ready: int
+    marketing_ready: int
+    not_ready: int
+    p0_count: int
+    p1_count: int
+    p2_count: int
+    elapsed_seconds: float
+    output_files: list[str] = Field(default_factory=list)
 
 
 class LeadSummary(BaseModel):
@@ -53,48 +55,58 @@ _discovery_lock = asyncio.Lock()
 
 @router.get("/run", response_model=DiscoveryRunResponse)
 async def run_discovery() -> DiscoveryRunResponse:
-    """Trigger a full cybersecurity discovery run."""
+    """Trigger a full cybersecurity discovery run using System A pipeline."""
     if _discovery_lock.locked():
         raise HTTPException(status_code=409, detail="Discovery already in progress")
     async with _discovery_lock:
         import sys
+        import time
         sys.path.insert(0, "/home/ubuntu/beacon/packages")
 
         try:
-            from cybersecurity_engine.engine import CybersecurityDiscoveryEngine
+            from cybersecurity_discovery.pipeline import run_cybersecurity_discovery
+            from cybersecurity_discovery.exporters import write_exports
         except ImportError as exc:
-            raise HTTPException(status_code=500, detail=f"Cybersecurity engine unavailable: {exc}") from exc
+            raise HTTPException(status_code=500, detail=f"Cybersecurity pipeline unavailable: {exc}") from exc
 
-        engine = CybersecurityDiscoveryEngine(
-            output_dir=str(EXPORT_DIR),
-            sender_name="Beacon Security Team",
-            max_items_per_source=20,
-        )
-
+        start = time.time()
         try:
-            summary = await engine.run(limit=30)
+            result = await run_cybersecurity_discovery(limit=80, enrich=True)
         except Exception as exc:
             raise HTTPException(status_code=500, detail=f"Discovery failed: {exc}") from exc
+        elapsed = time.time() - start
+
+        # Write exports
+        try:
+            output_files = write_exports(result, EXPORT_DIR)
+        except Exception as exc:
+            output_files = []
+            logger.warning("Failed to write exports: %s", exc)
+
+        # Count P0/P1/P2 from sales_ready leads
+        p0_count = sum(1 for o in result.sales_ready if o.intent_level in {"HOT", "HIGH"})
+        p1_count = sum(1 for o in result.sales_ready if o.intent_level == "MEDIUM")
+        p2_count = sum(1 for o in result.sales_ready if o.intent_level == "LOW")
 
         return DiscoveryRunResponse(
             status="completed",
-            total_signals=summary["total_signals"],
-            total_opportunities=summary["total_opportunities"],
-            sales_ready=summary["sales_ready"],
-            marketing_ready=summary["marketing_ready"],
-            not_ready=summary["not_ready"],
-            p0_count=summary["p0_count"],
-            p1_count=summary["p1_count"],
-            p2_count=summary["p2_count"],
-            elapsed_seconds=summary["elapsed_seconds"],
-            output_files=summary["output_files"],
+            total_signals=result.counters.get("TOTAL_DISCOVERED", 0),
+            total_opportunities=len(result.all_opportunities),
+            sales_ready=len(result.sales_ready),
+            marketing_ready=0,
+            not_ready=len(result.needs_research) + len(result.rejected),
+            p0_count=p0_count,
+            p1_count=p1_count,
+            p2_count=p2_count,
+            elapsed_seconds=round(elapsed, 1),
+            output_files=output_files,
         )
 
 
 @router.get("/leads", response_model=list[LeadSummary])
 async def list_leads() -> list[LeadSummary]:
     """List all SALES_READY leads from the latest export."""
-    filepath = EXPORT_DIR / "cybersecurity_sales_ready.json"
+    filepath = EXPORT_DIR / "cyber_sales_ready.json"
     if not filepath.exists():
         return []
 
@@ -102,20 +114,20 @@ async def list_leads() -> list[LeadSummary]:
     return [
         LeadSummary(
             opportunity_id=o.get("opportunity_id", ""),
-            company_name=o.get("company", {}).get("name", ""),
-            company_url=o.get("company", {}).get("url", ""),
-            country=o.get("company", {}).get("country", ""),
-            industry=o.get("company", {}).get("industry", ""),
-            priority=o.get("priority", ""),
-            final_verdict=o.get("final_verdict", ""),
-            buying_event=o.get("buying_event", {}).get("description", ""),
-            services_needed=o.get("buying_event", {}).get("services_needed", []),
-            decision_maker=o.get("contact", {}).get("name", ""),
-            email=o.get("contact", {}).get("email", ""),
-            email_status=o.get("contact", {}).get("email_status", ""),
-            contactability=o.get("contactability", ""),
-            evidence_count=o.get("evidence_chain", {}).__len__() if isinstance(o.get("evidence_chain"), list) else 0,
-            evidence_confidence=o.get("evidence_confidence", ""),
+            company_name=o.get("company") or "",
+            company_url=o.get("company_url") or "",
+            country=o.get("country") or "",
+            industry=o.get("industry") or "",
+            priority=o.get("intent_level") or "",
+            final_verdict=o.get("final_verdict") or "",
+            buying_event=o.get("buying_event_category") or "",
+            services_needed=o.get("services_needed") or [],
+            decision_maker=o.get("buyer_name") or "",
+            email=o.get("email") or "",
+            email_status=o.get("email_status") or "",
+            contactability=o.get("contactability") or "",
+            evidence_count=len(o.get("evidence") or []),
+            evidence_confidence=o.get("evidence_confidence") or "",
         )
         for o in data
     ]
@@ -125,12 +137,10 @@ async def list_leads() -> list[LeadSummary]:
 async def export_file(format_name: str):
     """Download an export file."""
     allowed = {
-        "json": ("cybersecurity_sales_ready.json", "application/json"),
-        "xlsx": ("cybersecurity_sales_ready.xlsx", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"),
-        "report": ("cybersecurity_report.txt", "text/plain"),
-        "outreach": ("cybersecurity_outreach_queue.json", "application/json"),
-        "rejected": ("cybersecurity_rejected.json", "application/json"),
-        "audit": ("cybersecurity_evidence_audit.json", "application/json"),
+        "json": ("cyber_sales_ready.json", "application/json"),
+        "rejected": ("cyber_rejected.json", "application/json"),
+        "audit": ("cyber_evidence_audit.json", "application/json"),
+        "all": ("cyber_all_opportunities.json", "application/json"),
     }
 
     if format_name not in allowed:
@@ -145,34 +155,24 @@ async def export_file(format_name: str):
     return FileResponse(path=str(filepath), filename=filename, media_type=media_type)
 
 
-@router.get("/report")
-async def get_report():
-    """Get the human-readable report."""
-    filepath = EXPORT_DIR / "cybersecurity_report.txt"
-    if not filepath.exists():
-        return PlainTextResponse("No report available. Run discovery first.")
-    return PlainTextResponse(content=filepath.read_text())
-
-
 @router.get("/summary")
 async def get_summary() -> dict[str, Any]:
     """Get summary statistics from the latest run."""
-    report_path = EXPORT_DIR / "cybersecurity_report.txt"
-    sales_path = EXPORT_DIR / "cybersecurity_sales_ready.json"
-    audit_path = EXPORT_DIR / "cybersecurity_evidence_audit.json"
+    sales_path = EXPORT_DIR / "cyber_sales_ready.json"
+    rejected_path = EXPORT_DIR / "cyber_rejected.json"
 
     result: dict[str, Any] = {
         "has_data": sales_path.exists(),
         "sales_ready_count": 0,
-        "total_evidence_items": 0,
+        "rejected_count": 0,
     }
 
     if sales_path.exists():
         data = json.loads(sales_path.read_text())
         result["sales_ready_count"] = len(data)
 
-    if audit_path.exists():
-        audit = json.loads(audit_path.read_text())
-        result["total_evidence_items"] = sum(a.get("evidence_count", 0) for a in audit)
+    if rejected_path.exists():
+        data = json.loads(rejected_path.read_text())
+        result["rejected_count"] = len(data)
 
     return result

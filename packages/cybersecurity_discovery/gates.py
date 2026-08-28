@@ -99,13 +99,46 @@ def classify_intent(opp: CyberOpportunity) -> str:
             "cybersecurity company",
         )
     )
+
+    # Company size signals: startup/SaaS/tech companies are better buyers
+    company_size_boost = False
+    company_size_signals = (
+        "startup", "saas", "b2b", "fintech", "healthtech", "edtech",
+        "series a", "series b", "seed round", "pre-seed", "just launched",
+        "y combinator", "yc", "techstars", "accelerator",
+        "founder", "co-founder", "cto", "vp engineering",
+    )
+    if any(signal in text for signal in company_size_signals):
+        company_size_boost = True
+
+    # Service specificity: specific security services are better buyers
+    service_specific_boost = False
+    service_specific_signals = (
+        "penetration test", "pen test", "vapt", "vulnerability assessment",
+        "security audit", "source code review", "web application security",
+        "api security", "mobile app security", "cloud security",
+        "soc 2", "iso 27001", "hipaa", "pci dss", "gdpr compliance",
+        "red team", "purple team", "incident response",
+    )
+    if sum(1 for signal in service_specific_signals if signal in text) >= 2:
+        service_specific_boost = True
+
     if explicit_hire and opp.outsourcing_intent == OutsourcingIntent.EXPLICIT.value:
         return IntentLevel.HOT.value
     if opp.outsourcing_intent in {OutsourcingIntent.EXPLICIT.value, OutsourcingIntent.HIGH.value} and opp.buying_event_verified:
+        # Boost to HOT if company is a good size AND requesting specific services
+        if company_size_boost and service_specific_boost:
+            return IntentLevel.HOT.value
         return IntentLevel.HIGH.value
     if opp.buying_event_verified:
+        # Boost to HIGH if company is a good size AND requesting specific services
+        if company_size_boost and service_specific_boost:
+            return IntentLevel.HIGH.value
         return IntentLevel.MEDIUM.value
     if opp.security_problem:
+        # Boost to MEDIUM if company is a good size AND requesting specific services
+        if company_size_boost and service_specific_boost:
+            return IntentLevel.MEDIUM.value
         return IntentLevel.LOW.value
     return IntentLevel.UNKNOWN.value
 
