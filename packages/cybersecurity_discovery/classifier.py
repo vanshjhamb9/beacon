@@ -22,6 +22,26 @@ from packages.cybersecurity_discovery.schema import (
     evidence_item,
 )
 
+
+def _sanitize_buyer_name(author: str | None) -> str | None:
+    """Return buyer name only if it looks like a real person's name, not a username."""
+    if not author:
+        return None
+    name = author.strip()
+    if name.lower() in {"unknown", "[deleted]", "none", "anonymous"}:
+        return None
+    # Reddit/social usernames: contain underscores, digits only, or are single lowercase words
+    if "_" in name:
+        return None
+    if name.isdigit():
+        return None
+    # Single word that's all lowercase or all digits = likely a username
+    if len(name.split()) == 1 and name == name.lower():
+        return None
+    # Names with mixed case and spaces are likely real (e.g., "John Smith", "Vansh Jhamb")
+    return name
+
+
 BUYING_EVENT_LABELS = {
     "vulnerability_security_issue": "Security vulnerability / incident / pentest need",
     "external_security_team": "External cybersecurity team request",
@@ -113,10 +133,16 @@ def classify_opportunity_type(text: str, buying_hits: list[tuple[str, str]]) -> 
 
 
 def infer_country(text: str, hint: str | None = None) -> str | None:
+    import re
     blob = f"{hint or ''} {text}".lower()
     for key, country in COUNTRY_HINTS.items():
-        if key in blob:
-            return country
+        # Use word-boundary matching for short codes (< 4 chars) to avoid false positives
+        if len(key) < 4:
+            if re.search(rf"(?<![a-z]){re.escape(key)}(?![a-z])", blob):
+                return country
+        else:
+            if key in blob:
+                return country
     return None
 
 
@@ -147,7 +173,7 @@ def classify_raw(raw: RawDiscovery, observed_at: str) -> CyberOpportunity:
         company_url=raw.company_url_hint,
         country=infer_country(raw.text, raw.country_hint),
         industry=infer_industry(raw.text),
-        buyer_name=raw.author if raw.author and raw.author.lower() not in {"unknown", "[deleted]", "none"} else None,
+        buyer_name=_sanitize_buyer_name(raw.author),
         buyer_profile_url=raw.author_profile_url,
         competitor=is_competitor(raw.company_hint or "") or (
             is_competitor(raw.text) and "we offer" in raw.text.lower()
@@ -247,9 +273,10 @@ def classify_raw(raw: RawDiscovery, observed_at: str) -> CyberOpportunity:
     elif opp.buyer_name:
         opp.identity_confidence = "LOW"
     if not opp.service_match and buying_hits:
-        opp.service_match = "Penetration Testing"
-        opp.service_match_reason = "Buying event implies paid security testing"
-        opp.service_match_confidence = "MEDIUM"
+        # Only match if the buying event explicitly mentions a specific service
+        opp.service_match = None
+        opp.service_match_confidence = None
+        opp.service_match_reason = None
     return opp
 
 

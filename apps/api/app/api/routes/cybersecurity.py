@@ -48,35 +48,47 @@ class LeadSummary(BaseModel):
     evidence_confidence: str
 
 
+_discovery_lock = asyncio.Lock()
+
+
 @router.get("/run", response_model=DiscoveryRunResponse)
 async def run_discovery() -> DiscoveryRunResponse:
     """Trigger a full cybersecurity discovery run."""
-    import sys
-    sys.path.insert(0, "/home/ubuntu/beacon/packages")
+    if _discovery_lock.locked():
+        raise HTTPException(status_code=409, detail="Discovery already in progress")
+    async with _discovery_lock:
+        import sys
+        sys.path.insert(0, "/home/ubuntu/beacon/packages")
 
-    from cybersecurity_engine.engine import CybersecurityDiscoveryEngine
+        try:
+            from cybersecurity_engine.engine import CybersecurityDiscoveryEngine
+        except ImportError as exc:
+            raise HTTPException(status_code=500, detail=f"Cybersecurity engine unavailable: {exc}") from exc
 
-    engine = CybersecurityDiscoveryEngine(
-        output_dir=str(EXPORT_DIR),
-        sender_name="Beacon Security Team",
-        max_items_per_source=20,
-    )
+        engine = CybersecurityDiscoveryEngine(
+            output_dir=str(EXPORT_DIR),
+            sender_name="Beacon Security Team",
+            max_items_per_source=20,
+        )
 
-    summary = await engine.run(limit=30)
+        try:
+            summary = await engine.run(limit=30)
+        except Exception as exc:
+            raise HTTPException(status_code=500, detail=f"Discovery failed: {exc}") from exc
 
-    return DiscoveryRunResponse(
-        status="completed",
-        total_signals=summary["total_signals"],
-        total_opportunities=summary["total_opportunities"],
-        sales_ready=summary["sales_ready"],
-        marketing_ready=summary["marketing_ready"],
-        not_ready=summary["not_ready"],
-        p0_count=summary["p0_count"],
-        p1_count=summary["p1_count"],
-        p2_count=summary["p2_count"],
-        elapsed_seconds=summary["elapsed_seconds"],
-        output_files=summary["output_files"],
-    )
+        return DiscoveryRunResponse(
+            status="completed",
+            total_signals=summary["total_signals"],
+            total_opportunities=summary["total_opportunities"],
+            sales_ready=summary["sales_ready"],
+            marketing_ready=summary["marketing_ready"],
+            not_ready=summary["not_ready"],
+            p0_count=summary["p0_count"],
+            p1_count=summary["p1_count"],
+            p2_count=summary["p2_count"],
+            elapsed_seconds=summary["elapsed_seconds"],
+            output_files=summary["output_files"],
+        )
 
 
 @router.get("/leads", response_model=list[LeadSummary])

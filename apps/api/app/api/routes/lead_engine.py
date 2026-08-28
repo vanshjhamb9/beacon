@@ -22,6 +22,9 @@ ROOT = Path(__file__).resolve().parents[5]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+# Per-run send lock to prevent concurrent sends for the same run
+_send_locks: dict[str, asyncio.Lock] = {}
+
 
 def _engine():
     try:
@@ -166,13 +169,20 @@ async def outreach_pool(limit: int = 100) -> dict[str, Any]:
 
 
 @router.post("/pool/load")
-async def load_pool_into_run(limit: int = 40) -> dict[str, Any]:
+async def load_pool_into_run(limit: int = 40, product: str = "comai") -> dict[str, Any]:
     """Create a synthetic completed run from the accumulated NEW outreach pool."""
     le = _engine()
-    leads = le.take_from_outreach_pool(limit=limit)
+    # Create run first so if take_from_outreach_pool fails, no leads are lost
+    job = le.create_run(product=product, icp={}, limit=limit)
+    try:
+        leads = le.take_from_outreach_pool(limit=limit)
+    except Exception:
+        # If pool take fails, clean up the empty run
+        le._JOBS.pop(job["run_id"], None)
+        raise HTTPException(status_code=500, detail="failed to take leads from outreach pool")
     if not leads:
+        le._JOBS.pop(job["run_id"], None)
         raise HTTPException(status_code=404, detail="outreach pool empty — start Auto-run or Start Engine first")
-    job = le.create_run(product="comai", icp={}, limit=limit)
     for lead in leads:
         email = (lead.get("email") or "").lower().strip()
         lead["email"] = email
@@ -304,17 +314,48 @@ async def send_approved(run_id: str, body: SendBody) -> dict[str, Any]:
     if not body.lead_ids:
         raise HTTPException(status_code=400, detail="lead_ids required")
 
+    # Per-run lock to prevent concurrent sends
+    lock = _send_locks.setdefault(run_id, asyncio.Lock())
+    if lock.locked():
+        raise HTTPException(status_code=409, detail="send already in progress for this run")
+
+    async with lock:
+        result = await asyncio.to_thread(_send_loop, le, job, body)
+
+    sent_emails = [
+        str(r.get("to_email") or "")
+        for r in result["results"]
+        if r.get("success") and r.get("to_email")
+    ]
+    if sent_emails:
+        try:
+            le._persist_sent_emails(sent_emails)  # noqa: SLF001
+        except Exception:  # noqa: BLE001
+            pass
+
+    job["counts"]["sent"] = result["sent"]
+    le._export_run(run_id, job)  # noqa: SLF001
+    return {
+        "run_id": run_id,
+        "sent": result["sent"],
+        "attempted": result["attempted"],
+        "results": result["results"],
+        "cc": result["cc"],
+    }
+
+
+def _send_loop(le, job: dict, body: SendBody) -> dict[str, Any]:
+    """Blocking send loop — runs in a thread via asyncio.to_thread."""
     try:
         from packages.outreach_generator.hyperpersonal import draft_for_product, html_body
     except ImportError:
         from outreach_generator.hyperpersonal import draft_for_product, html_body  # type: ignore
 
-    # Prefer root email_service used by CLI waves
     sys.path.insert(0, str(ROOT))
     try:
         from email_service import send_email
     except ImportError as exc:
-        raise HTTPException(status_code=500, detail=f"email_service unavailable: {exc}") from exc
+        return {"sent": 0, "attempted": 0, "results": [{"error": f"email_service unavailable: {exc}"}], "cc": []}
 
     cc = ["vanshjhamb9@gmail.com", "ragibali84@gmail.com"]
     product = job["product"]
@@ -385,24 +426,10 @@ async def send_approved(run_id: str, body: SendBody) -> dict[str, Any]:
                 "error": res.get("error"),
             }
         )
-        if not ok:
-            break
-        await asyncio.sleep(10)
+        # Continue processing all leads — don't break on failure
+        time.sleep(10)
 
-    sent_emails = [
-        str(r.get("to_email") or "")
-        for r in results
-        if r.get("success") and r.get("to_email")
-    ]
-    if sent_emails:
-        try:
-            le._persist_sent_emails(sent_emails)  # noqa: SLF001
-        except Exception:  # noqa: BLE001
-            pass
-
-    job["counts"]["sent"] = sent
-    le._export_run(run_id, job)  # noqa: SLF001
-    return {"run_id": run_id, "sent": sent, "attempted": len(results), "results": results, "cc": cc}
+    return {"sent": sent, "attempted": len(results), "results": results, "cc": cc}
 
 
 @router.get("/runs/{run_id}/export")

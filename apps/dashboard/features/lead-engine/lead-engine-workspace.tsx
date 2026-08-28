@@ -215,7 +215,8 @@ export function LeadEngineWorkspace() {
   });
 
   useEffect(() => {
-    const preset = presets.data?.presets?.[product];
+    const presetKey = product === "cybersecurity" ? "cyber" : product;
+    const preset = presets.data?.presets?.[presetKey];
     if (!preset || preset.error) {
       setIcp(defaultIcp(product));
       return;
@@ -223,8 +224,8 @@ export function LeadEngineWorkspace() {
     const base = defaultIcp(product);
     setIcp({
       ...base,
-      key: String(preset.key || product),
-      name: String(preset.name || product),
+      key: String(preset.key || presetKey),
+      name: String(preset.name || presetKey),
       service_match: product === "comai" ? "COMAI" : product === "cybersecurity" ? "Cybersecurity" : "Inowix",
       // Keep dashboard-friendly bands; YAML min/max can be too wide/narrow for Lead Engine
       employee_count_min: base.employee_count_min,
@@ -333,6 +334,7 @@ export function LeadEngineWorkspace() {
       setMessage("Auto-run stopped.");
       void qc.invalidateQueries({ queryKey: ["lead-engine-auto"] });
     },
+    onError: (e: Error) => setMessage(e.message || "Failed to stop auto-run"),
   });
 
   const loadPool = useMutation({
@@ -389,6 +391,7 @@ export function LeadEngineWorkspace() {
       }
       void qc.invalidateQueries({ queryKey: ["lead-engine-leads", runId] });
     },
+    onError: (e: Error) => setMessage(e.message || "Failed to generate drafts"),
   });
 
   const prepareOutreach = useMutation({

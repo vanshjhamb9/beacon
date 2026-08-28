@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { apiGet } from "@/lib/api/client";
 
 interface Lead {
   opportunity_id: string;
@@ -52,12 +53,12 @@ export function CybersecurityWorkspace() {
     setLoading(true);
     setError(null);
     try {
-      const [leadsRes, summaryRes] = await Promise.all([
-        fetch("/api/v1/cybersecurity/leads"),
-        fetch("/api/v1/cybersecurity/summary"),
+      const [leadsRes, summaryRes] = await Promise.allSettled([
+        apiGet<Lead[]>("/cybersecurity/leads"),
+        apiGet<Summary>("/cybersecurity/summary"),
       ]);
-      if (leadsRes.ok) setLeads(await leadsRes.json());
-      if (summaryRes.ok) setSummary(await summaryRes.json());
+      if (leadsRes.status === "fulfilled") setLeads(leadsRes.value);
+      if (summaryRes.status === "fulfilled") setSummary(summaryRes.value);
     } catch (e) {
       setError("Failed to fetch cybersecurity data");
     } finally {

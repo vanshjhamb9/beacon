@@ -635,12 +635,7 @@ async def _live_discover_new(
     exclude_emails: set[str],
     batch_limit: int = 40,
 ) -> list[dict[str, Any]]:
-    """Live website enrichment for verified mid D2C brands matching ICP specialties.
-    
-    For cybersecurity: Uses the cybersecurity engine's collectors to discover new leads.
-    """
-    if product == "cybersecurity":
-        return await _live_discover_cybersecurity(icp, exclude_emails=exclude_emails, batch_limit=batch_limit)
+    """Live website enrichment for verified mid D2C brands matching ICP specialties."""
     try:
         from packages.ecommerce_leads.models import is_valid_email
         from packages.qualification_engine.enrichment import enrich_leads_batch
@@ -887,118 +882,6 @@ async def _live_discover_new(
     return out
 
 
-async def _live_discover_cybersecurity(
-    icp: dict[str, Any],
-    *,
-    exclude_emails: set[str],
-    batch_limit: int = 40,
-) -> list[dict[str, Any]]:
-    """Live discovery for cybersecurity leads using the cybersecurity engine collectors."""
-    try:
-        import httpx
-        from cybersecurity_engine.engine import CybersecurityDiscoveryEngine
-        from cybersecurity_engine.sources.reddit_cybersecurity import RedditCybersecurityCollector
-        from cybersecurity_engine.sources.hackernews_cybersecurity import HackerNewsCybersecurityCollector
-        from cybersecurity_engine.sources.web_search_cybersecurity import WebSearchCybersecurityCollector
-        from cybersecurity_engine.sources.company_blog_cybersecurity import CompanyBlogCybersecurityCollector
-        from cybersecurity_engine.signal_detector import CybersecuritySignalDetector
-        from cybersecurity_engine.evidence_engine import SalesReadinessEvaluator
-        from cybersecurity_engine.models import Company, Contact, CybersecurityOpportunity, OpportunityPriority, OpportunityType, ServiceLane
-        from cybersecurity_engine.sources import RawSignal
-    except ImportError as exc:
-        logger.warning("Cybersecurity live discovery imports failed: %s", exc)
-        return []
-
-    all_signals: list[RawSignal] = []
-    seen_urls: set[str] = set()
-
-    async with httpx.AsyncClient(
-        headers={
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        },
-        follow_redirects=True,
-        timeout=httpx.Timeout(15.0),
-    ) as client:
-        # Collect from all sources (smaller batch for live discovery)
-        collectors = [
-            ("Reddit", RedditCybersecurityCollector(client, max_items=20)),
-            ("HackerNews", HackerNewsCybersecurityCollector(client, max_items=20)),
-            ("WebSearch", WebSearchCybersecurityCollector(client, max_items=20)),
-        ]
-
-        for name, collector in collectors:
-            try:
-                signals = await collector.collect()
-                for s in signals:
-                    if s.url not in seen_urls:
-                        seen_urls.add(s.url)
-                        all_signals.append(s)
-                logger.info("Cybersecurity live discovery %s: %d signals", name, len(signals))
-            except Exception as e:
-                logger.warning("Cybersecurity live discovery %s failed: %s", name, e)
-
-    if not all_signals:
-        return []
-
-    # Convert signals to lead format
-    signal_detector = CybersecuritySignalDetector()
-    leads: list[dict[str, Any]] = []
-    seen_emails: set[str] = set()
-
-    for signal in all_signals[:batch_limit]:
-        try:
-            # Classify the signal
-            full_text = f"{signal.title} {signal.content}"
-            priority, buying_event = signal_detector.detect_priority(
-                full_text, source_tier=signal.source_tier
-            )
-
-            # Skip P3 (no signal)
-            if priority == OpportunityPriority.P3:
-                continue
-
-            # Extract contact info from signal
-            contact_name = signal.author or ""
-            contact_email = ""  # Not available from Reddit/HN
-
-            # Skip if email already seen or excluded
-            if contact_email and (contact_email in seen_emails or contact_email in exclude_emails):
-                continue
-            if contact_email:
-                seen_emails.add(contact_email)
-
-            # Build lead dict matching expected format
-            lead = {
-                "company": f"Company from {signal.source}",
-                "founder_name": contact_name,
-                "founder_role": "",
-                "email": contact_email,
-                "phone": "",
-                "website": signal.url,
-                "domain": signal.url.split("//")[-1].split("/")[0] if "//" in signal.url else "",
-                "city": "",
-                "category": "Cybersecurity",
-                "size": "",
-                "platform": "",
-                "why": signal.content[:200] if signal.content else signal.title,
-                "signal": priority.value if hasattr(priority, 'value') else str(priority),
-                "intent_score": float(min(85, 50 + signal.score)),
-                "source": f"cybersecurity_{signal.source}",
-                "company_type": "saas_product",
-                "enriched": False,
-                "buying_event_type": buying_event.event_type if buying_event else "",
-                "services_needed": buying_event.services_needed if buying_event else [],
-            }
-            leads.append(lead)
-        except Exception as e:
-            logger.debug("Failed to classify cybersecurity signal: %s", e)
-            continue
-
-    logger.info("Cybersecurity live discovery: %d leads from %d signals", len(leads), len(all_signals))
-    return leads
-
-
 def _persist_sent_emails(extra: set[str] | list[str]) -> None:
     EXPORT_ROOT.mkdir(parents=True, exist_ok=True)
     current = _load_sent_emails()
@@ -1198,7 +1081,10 @@ def _is_garbage_email(email: str) -> bool:
     if not e or "@" not in e:
         return True
     local = _email_local(e)
-    if "u003e" in e or "u003c" in e or "&lt;" in e or "&gt;" in e or "%3c" in e:
+    if "u003e" in e or "u003c" in e or "&lt;" in e or "&gt;" in e or "%3c" in e or "%3e" in e:
+        return True
+    # Check for decoded angle brackets in local part
+    if ">" in local or "<" in local:
         return True
     if local.startswith(("http", "www", "img", "png", "jpg", "css", "js", ".")):
         return True
@@ -1216,9 +1102,11 @@ def _is_generic_email(email: str) -> bool:
         return True
     if local in HARD_REJECT_LOCALPARTS or local in DESK_REJECT_LOCALPARTS:
         return True
-    if any(local.startswith(p) for p in HARD_REJECT_LOCALPARTS):
+    # Use word-boundary-aware startswith: "hr" should NOT catch "hradmin"
+    # Only match "hr", "hr.something", "hr-something", "hr_something"
+    if any(local == p or local.startswith(p + ".") or local.startswith(p + "-") or local.startswith(p + "_") for p in HARD_REJECT_LOCALPARTS):
         return True
-    if any(local.startswith(p) for p in DESK_REJECT_LOCALPARTS):
+    if any(local == p or local.startswith(p + ".") or local.startswith(p + "-") or local.startswith(p + "_") for p in DESK_REJECT_LOCALPARTS):
         return True
     host = (email or "").split("@", 1)[-1].lower().strip()
     if any(host == d or host.endswith("." + d) for d in CONGLOMERATE_EMAIL_DOMAINS):
