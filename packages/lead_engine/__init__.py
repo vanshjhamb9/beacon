@@ -628,6 +628,257 @@ def stop_auto_scheduler() -> dict[str, Any]:
     return get_auto_status()
 
 
+_YC_HIRING_URL = "https://yc-oss.github.io/api/companies/hiring.json"
+_YC_TOP_URL = "https://yc-oss.github.io/api/companies/top.json"
+_yc_cache: list[dict[str, Any]] | None = None
+_yc_cache_ts: float = 0.0
+
+
+def _fetch_yc_companies() -> list[dict[str, Any]]:
+    """Fetch YC companies from the public OSS mirror. Cached for 6 hours."""
+    global _yc_cache, _yc_cache_ts  # noqa: PLW0603
+    import time
+    now = time.time()
+    if _yc_cache is not None and (now - _yc_cache_ts) < 21600:
+        return _yc_cache
+    try:
+        import httpx
+        rows: list[dict[str, Any]] = []
+        for url in (_YC_HIRING_URL, _YC_TOP_URL):
+            try:
+                resp = httpx.get(url, timeout=30.0, headers={"User-Agent": "BeaconLeadEngine/1.0"})
+                if resp.status_code >= 400:
+                    continue
+                data = resp.json()
+                if isinstance(data, list):
+                    rows.extend(data)
+                elif isinstance(data, dict) and isinstance(data.get("companies"), list):
+                    rows.extend(data["companies"])
+            except Exception:  # noqa: BLE001
+                continue
+        _yc_cache = rows
+        _yc_cache_ts = now
+        logger.info("YC OSS: fetched %d companies", len(rows))
+        return rows
+    except Exception as exc:  # noqa: BLE001
+        logger.warning("YC OSS fetch failed: %s", exc)
+        return _yc_cache or []
+
+
+def _yc_to_leads(industries: list[str], cities: list[str]) -> list[dict[str, Any]]:
+    """Convert YC OSS data to lead dicts matching the verified brands format."""
+    from packages.ecommerce_leads.models import RawEcommerceLead
+    rows = _fetch_yc_companies()
+    leads: list[dict[str, Any]] = []
+    seen_domains: set[str] = set()
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        name = str(row.get("name") or "").strip()
+        if not name:
+            continue
+        website = row.get("website") or ""
+        if not website:
+            continue
+        if not website.startswith("http"):
+            website = f"https://{website}"
+        domain = website.replace("https://", "").replace("http://", "").rstrip("/")
+        if not domain or domain in seen_domains:
+            continue
+        seen_domains.add(domain)
+        # Extract industry from YC data
+        yc_industries = row.get("industries") or []
+        if isinstance(yc_industries, list) and yc_industries:
+            industry = str(yc_industries[0]).lower()
+        else:
+            industry = str(row.get("industry") or "saas").lower()
+        # Map YC industry tags to ICP-friendly terms
+        industry_map = {
+            "ai": "artificial intelligence",
+            "fintech": "fintech",
+            "health": "healthtech",
+            "education": "edtech",
+            "ecommerce": "marketplace",
+            "productivity": "productivity",
+            "devtools": "developer tools",
+            "developer tools": "developer tools",
+            "design": "design tools",
+            "security": "cybersecurity",
+            "infrastructure": "developer tools",
+        }
+        industry = industry_map.get(industry, industry)
+        location = str(row.get("all_locations") or row.get("location") or "")
+        city = location.split(",")[0].strip() if location else ""
+        is_hiring = bool(row.get("isHiring") or row.get("is_hiring"))
+        batch = str(row.get("batch") or "")
+        founders = []
+        for f in row.get("founders") or []:
+            if isinstance(f, dict) and (f.get("full_name") or f.get("name")):
+                founders.append({
+                    "name": str(f.get("full_name") or f.get("name")),
+                    "role": str(f.get("title") or f.get("role") or "Founder"),
+                })
+        lead = {
+            "company": name,
+            "company_name": name,
+            "domain": domain,
+            "website": website,
+            "industry": industry,
+            "city": city,
+            "source": "yc_oss",
+            "yc_batch": batch,
+            "yc_is_hiring": is_hiring,
+            "yc_founders": founders,
+            "company_type": "saas_product",
+        }
+        leads.append(lead)
+    return leads
+
+
+_HN_ALGOLIA_URL = "https://hn.algolia.com/api/v1/search_by_date"
+_HN_SAAS_QUERIES = [
+    '"Show HN" SaaS startup',
+    '"Show HN" launched',
+    '"Show HN" MVP',
+    '"Ask HN" hiring engineer',
+    '"Ask HN" looking for co-founder',
+    '"Ask HN" need developer',
+    'building SaaS',
+    'launched today startup',
+    'YC startup hiring',
+    'looking for technical co-founder',
+    'founding engineer hire',
+    'need full stack developer',
+    'seeking CTO co-founder',
+]
+_hn_saas_cache: list[dict[str, Any]] | None = None
+_hn_saas_cache_ts: float = 0.0
+
+
+async def _fetch_hn_saas_signals(client: httpx.AsyncClient, limit: int = 30) -> list[dict[str, Any]]:
+    """Fetch recent HN posts about SaaS startups/hiring. Cached for 2 hours."""
+    global _hn_saas_cache, _hn_saas_cache_ts  # noqa: PLW0603
+    import time
+    now = time.time()
+    if _hn_saas_cache is not None and (now - _hn_saas_cache_ts) < 7200:
+        return _hn_saas_cache[:limit]
+    import time as _time
+    since = int(_time.time()) - (90 * 86400)  # 90 days
+    results: list[dict[str, Any]] = []
+    seen_ids: set[str] = set()
+    for query in _HN_SAAS_QUERIES:
+        if len(results) >= limit:
+            break
+        try:
+            resp = await client.get(
+                _HN_ALGOLIA_URL,
+                params={
+                    "query": query,
+                    "tags": "story",
+                    "hitsPerPage": 10,
+                    "numericFilters": f"created_at_i>{since}",
+                },
+                timeout=15.0,
+            )
+            if resp.status_code >= 400:
+                continue
+            data = resp.json()
+            for hit in data.get("hits") or []:
+                if not isinstance(hit, dict):
+                    continue
+                object_id = hit.get("objectID", "")
+                if not object_id or object_id in seen_ids:
+                    continue
+                seen_ids.add(object_id)
+                title = str(hit.get("title") or hit.get("story_title") or "").strip()
+                url = str(hit.get("url") or "") or None
+                author = str(hit.get("author") or "") or None
+                body = str(hit.get("story_text") or hit.get("comment_text") or "")[:2000]
+                created = hit.get("created_at")
+                published = None
+                if isinstance(created, str):
+                    published = created if created.endswith("Z") else f"{created}Z" if "T" in created else created
+                website = None
+                if url:
+                    try:
+                        from urllib.parse import urlparse as _urlparse
+                        host = _urlparse(url).netloc.lower().removeprefix("www.")
+                        if host and "ycombinator.com" not in host and "github.com" not in host:
+                            website = f"https://{host}"
+                    except Exception:  # noqa: BLE001
+                        pass
+                results.append({
+                    "title": title,
+                    "url": f"https://news.ycombinator.com/item?id={object_id}",
+                    "author": author,
+                    "body": body,
+                    "published": published,
+                    "website": website,
+                    "source": "hn_algolia_saas",
+                    "query": query,
+                })
+        except Exception:  # noqa: BLE001
+            continue
+    _hn_saas_cache = results
+    _hn_saas_cache_ts = now
+    logger.info("HN Algolia SaaS: found %d posts", len(results))
+    return results[:limit]
+
+
+def _hn_to_leads(signals: list[dict[str, Any]], industries: list[str], cities: list[str]) -> list[dict[str, Any]]:
+    """Convert HN SaaS signals to lead dicts."""
+    leads: list[dict[str, Any]] = []
+    for sig in signals:
+        website = sig.get("website")
+        if not website:
+            continue
+        domain = website.replace("https://", "").replace("http://", "").rstrip("/")
+        if not domain:
+            continue
+        title = sig.get("title", "")
+        company = title
+        for prefix in ("Show HN: ", "Ask HN: ", "Tell HN: ", "Launch HN: "):
+            if company.startswith(prefix):
+                company = company[len(prefix):]
+        body_lower = (sig.get("body") or "").lower()
+        industry = "saas"
+        if any(k in body_lower for k in ("ai", "machine learning", "llm", "gpt")):
+            industry = "artificial intelligence"
+        elif any(k in body_lower for k in ("fintech", "payments", "banking")):
+            industry = "fintech"
+        elif any(k in body_lower for k in ("health", "medical", "clinical")):
+            industry = "healthtech"
+        elif any(k in body_lower for k in ("developer", "devtools", "api", "infrastructure")):
+            industry = "developer tools"
+        elif any(k in body_lower for k in ("design", "figma", "ui")):
+            industry = "design tools"
+        elif any(k in body_lower for k in ("education", "learning", "teaching")):
+            industry = "edtech"
+        industry_map = {
+            "ai": "artificial intelligence",
+            "machine learning": "artificial intelligence",
+            "llm": "artificial intelligence",
+        }
+        industry = industry_map.get(industry, industry)
+        city = ""
+        is_hiring = any(k in body_lower for k in ("hiring", "looking for", "need engineer", "need developer", "co-founder", "join us"))
+        leads.append({
+            "company": company,
+            "company_name": company,
+            "domain": domain,
+            "website": website,
+            "industry": industry,
+            "city": city,
+            "source": "hn_algolia_saas",
+            "hn_url": sig.get("url"),
+            "hn_author": sig.get("author"),
+            "hn_published": sig.get("published"),
+            "hn_is_hiring": is_hiring,
+            "company_type": "saas_product",
+        })
+    return leads
+
+
 async def _live_discover_new(
     product: str,
     icp: dict[str, Any],
@@ -686,6 +937,86 @@ async def _live_discover_new(
         if len(candidates) >= batch_limit:
             break
 
+    # For Inowix: supplement with YC OSS companies not already in verified list
+    if product == "inowix" and len(candidates) < batch_limit:
+        try:
+            yc_leads = _yc_to_leads(industries, cities)
+            existing_domains = {c.domain.lower() for c in candidates if hasattr(c, 'domain')}
+            existing_domains.update(tried)
+            for ycl in yc_leads:
+                if len(candidates) >= batch_limit:
+                    break
+                yd = ycl.get("domain", "").lower()
+                yname = ycl.get("company_name") or ycl.get("company") or ""
+                if not yd or yd in existing_domains:
+                    continue
+                if _is_mega(yname, yd):
+                    continue
+                yind = ycl.get("industry", "").lower()
+                ycity = ycl.get("city", "").lower()
+                if cities and not _city_match(ycity, cities):
+                    continue
+                if industries and not (
+                    _industry_match(yind, industries) or _industry_adjacent(yind, industries)
+                ):
+                    continue
+                # Wrap in a simple object for compatibility
+                class _YCLead:
+                    __slots__ = ("company_name", "domain", "industry", "city", "website", "raw")
+                    def __init__(self, d: dict[str, Any]):
+                        self.company_name = d.get("company_name") or d.get("company")
+                        self.domain = d.get("domain", "")
+                        self.industry = d.get("industry", "")
+                        self.city = d.get("city", "")
+                        self.website = d.get("website", "")
+                        self.raw = d
+                candidates.append(_YCLead(ycl))
+                existing_domains.add(yd)
+            logger.info("YC OSS: added %d candidates for inowix", len(candidates) - len(preferred_city) - len(adjacent_city))
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("YC OSS integration failed: %s", exc)
+
+    # For Inowix: supplement with HN Algolia SaaS signals
+    if product == "inowix" and len(candidates) < batch_limit:
+        try:
+            import httpx as _httpx
+            async with _httpx.AsyncClient(timeout=20.0, headers={"User-Agent": "BeaconLeadEngine/1.0"}) as hn_client:
+                hn_signals = await _fetch_hn_saas_signals(hn_client, limit=20)
+            hn_leads = _hn_to_leads(hn_signals, industries, cities)
+            existing_domains = {c.domain.lower() for c in candidates if hasattr(c, 'domain')}
+            existing_domains.update(tried)
+            for hnl in hn_leads:
+                if len(candidates) >= batch_limit:
+                    break
+                hd = hnl.get("domain", "").lower()
+                hname = hnl.get("company_name") or hnl.get("company") or ""
+                if not hd or hd in existing_domains:
+                    continue
+                if _is_mega(hname, hd):
+                    continue
+                hind = hnl.get("industry", "").lower()
+                hcity = hnl.get("city", "").lower()
+                if cities and hcity and not _city_match(hcity, cities):
+                    continue
+                if industries and not (
+                    _industry_match(hind, industries) or _industry_adjacent(hind, industries)
+                ):
+                    continue
+                class _HNLead:
+                    __slots__ = ("company_name", "domain", "industry", "city", "website", "raw")
+                    def __init__(self, d: dict[str, Any]):
+                        self.company_name = d.get("company_name") or d.get("company")
+                        self.domain = d.get("domain", "")
+                        self.industry = d.get("industry", "")
+                        self.city = d.get("city", "")
+                        self.website = d.get("website", "")
+                        self.raw = d
+                candidates.append(_HNLead(hnl))
+                existing_domains.add(hd)
+            logger.info("HN Algolia SaaS: added %d candidates for inowix", len(candidates) - len(preferred_city) - len(adjacent_city))
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("HN Algolia SaaS integration failed: %s", exc)
+
     if not candidates:
         if tried:
             logger.info("Live discovery: tried set exhausted (%s) — clearing for next wave", len(tried))
@@ -693,6 +1024,12 @@ async def _live_discover_new(
                 json.dumps({"updated_at": datetime.now(UTC).isoformat(), "count": 0, "domains": []}, indent=2),
                 encoding="utf-8",
             )
+            # Also clear YC and HN caches to get fresh data
+            global _yc_cache, _yc_cache_ts, _hn_saas_cache, _hn_saas_cache_ts  # noqa: PLW0603
+            _yc_cache = None
+            _yc_cache_ts = 0.0
+            _hn_saas_cache = None
+            _hn_saas_cache_ts = 0.0
             for vb in reversed(get_verified_leads()):
                 name = vb.company_name or ""
                 domain = (vb.domain or "").lower()
@@ -1159,7 +1496,7 @@ def _looks_like_agency(company: str, category: str = "", email: str = "") -> boo
 
 
 def _industry_adjacent(industry: str, wanted: list[str]) -> bool:
-    """Same commercial neighborhood (e.g. beauty↔fashion) but not an exact ICP hit."""
+    """Same commercial neighborhood (e.g. beauty↔fashion, saas↔devtools) but not an exact ICP hit."""
     if not wanted or not industry:
         return False
     if _industry_match(industry, wanted):
@@ -1176,6 +1513,20 @@ def _industry_adjacent(industry: str, wanted: list[str]) -> bool:
         "d2c": {"d2c", "ecommerce", "retail", "fashion", "beauty", "food", "home"},
         "ecommerce": {"ecommerce", "d2c", "retail", "fashion", "beauty", "food", "home"},
         "retail": {"retail", "ecommerce", "d2c", "fashion", "beauty"},
+        "saas": {"saas", "software", "b2b", "enterprise", "cloud", "platform"},
+        "developer tools": {"developer tools", "devtools", "dev tools", "infrastructure", "devops", "platform", "api", "open source"},
+        "design tools": {"design tools", "design", "ui", "ux", "figma", "creative tools"},
+        "software services": {"software services", "consulting", "agency", "digital agency", "tech services"},
+        "data tools": {"data tools", "analytics", "business intelligence", "bi", "data platform"},
+        "no-code": {"no-code", "nocode", "low-code", "lowcode", "automation", "workflow"},
+        "ai": {"ai", "artificial intelligence", "machine learning", "ml", "deep learning", "nlp", "computer vision"},
+        "fintech": {"fintech", "payments", "banking", "finance", "insurtech", "wealthtech"},
+        "healthtech": {"healthtech", "health tech", "medtech", "digital health", "telemedicine", "health"},
+        "edtech": {"edtech", "education", "e-learning", "online learning", "learning platform"},
+        "marketplace": {"marketplace", "platform", "network", "community"},
+        "productivity": {"productivity", "project management", "collaboration", "workspace", "notes"},
+        "cybersecurity": {"cybersecurity", "security", "infosec", "appsec", "devsecops"},
+        "climate tech": {"climate tech", "cleantech", "greentech", "sustainability", "carbon"},
     }
     ind = industry.lower()
     wanted_fam: set[str] = set()
@@ -2123,6 +2474,15 @@ def _score_leads(leads: list[dict[str, Any]], product: str) -> list[dict[str, An
             score += 10
         if "funding_intent" in strong:
             score += 11
+        # Combined growth signal: hiring + funding together is strongest intent
+        if "hiring_intent" in strong and "funding_intent" in strong:
+            score += 8
+        # Growth recency: multiple growth signals indicate active company
+        growth_count = sum(1 for s in strong if s in ("hiring_intent", "funding_intent", "growth_motion", "ads_active"))
+        if growth_count >= 3:
+            score += 6
+        elif growth_count >= 2:
+            score += 3
         if "growth_motion" in strong:
             score += 5
         if "ads_plus_automation_gap" in strong:
@@ -2150,10 +2510,30 @@ def _score_leads(leads: list[dict[str, Any]], product: str) -> list[dict[str, An
             score += 3
         if "inowix_signal" in strong:
             score += 8
+        # YC batch signal: recent batches get higher boost
+        if lead.get("yc_batch"):
+            batch = str(lead["yc_batch"])
+            # Extract year from batch (e.g., "W23" -> 2023, "S24" -> 2024)
+            try:
+                batch_year = 2000 + int(batch[-2:]) if len(batch) >= 2 else 0
+                if batch_year >= 2022:
+                    score += 15  # Recent YC batch
+                elif batch_year >= 2020:
+                    score += 10  # Somewhat recent
+                else:
+                    score += 5   # Older batch
+            except (ValueError, IndexError):
+                score += 5
+        # YC hiring signal: companies actively hiring get extra boost
+        if lead.get("yc_is_hiring"):
+            score += 10
 
         soft_penalty = 8
         if "brand_inbox" in strong or "brand_inbox_plus_cue" in strong:
             soft_penalty = 3
+        # For Inowix: relax generic email penalty — these are usable contacts
+        if product == "inowix" and lead.get("soft_generic_email"):
+            soft_penalty = 2
 
         if "faq" in why:
             score += 1

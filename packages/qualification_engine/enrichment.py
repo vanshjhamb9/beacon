@@ -124,9 +124,12 @@ TECH_STACK_SIGNATURES: dict[str, tuple[str, ...]] = {
 
 GROWTH_SIGNAL_PATTERNS: dict[str, re.Pattern[str]] = {
     "hiring": re.compile(
-        r"(we['’]?re hiring|join our team|open positions|/careers\b|/jobs\b|"
+        r"(we[''']?re hiring|join our team|open positions|/careers\b|/jobs\b|"
         r"hiring (?:for|a|an)|work with us|now hiring|career opportunities|"
-        r"we're growing our team)",
+        r"we're growing our team|looking for (?:a|an|engineers?|developers?|founders?)|"
+        r"seeking (?:a|an|engineers?|developers?)|we need (?:a|an|engineers?|developers?)|"
+        r"team (?:is )?growing|come work|we're (?:a )?team|"
+        r"founding engineer|cto hire|head of (?:engineering|product|technology))",
         re.IGNORECASE,
     ),
     "funding": re.compile(
@@ -413,6 +416,9 @@ async def _extract_contact_page_emails(
         f"{base}/pages/contact",
         f"{base}/pages/contact-us",
         f"{base}/contact",
+        f"{base}/contact-us",
+        f"{base}/get-in-touch",
+        f"{base}/support",
     ]
     for url in contact_urls:
         try:
@@ -420,6 +426,24 @@ async def _extract_contact_page_emails(
             if resp.status_code != 200:
                 continue
             _extract_contacts(enriched, resp.text, source="contact_page")
+            if enriched.email:
+                return
+        except Exception:  # noqa: BLE001
+            continue
+    # Also try team/about pages for founder emails
+    team_urls = [
+        f"{base}/team",
+        f"{base}/about",
+        f"{base}/about-us",
+        f"{base}/our-team",
+    ]
+    for url in team_urls:
+        try:
+            resp = await client.get(url, follow_redirects=True, timeout=10.0)
+            if resp.status_code != 200:
+                continue
+            _extract_contacts(enriched, resp.text, source="team_page")
+            _extract_founder_name(enriched, resp.text, source="team_page")
             if enriched.email:
                 return
         except Exception:  # noqa: BLE001
@@ -639,6 +663,11 @@ async def _probe_intent_pages(
         "/pages/careers",
         "/careers",
         "/pages/jobs",
+        "/jobs",
+        "/open-positions",
+        "/hiring",
+        "/team",
+        "/#team",
         "/blogs/news",
         "/blogs/press",
         "/pages/press",

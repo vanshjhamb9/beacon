@@ -21,6 +21,16 @@ target_industries:
   - developer tools
   - productivity
   - marketplace
+  - design tools
+  - software services
+  - data tools
+  - no-code
+  - analytics
+  - infrastructure
+  - devops
+  - cybersecurity
+  - edtech
+  - climate tech
 
 min_employees: 2
 max_employees: 100
@@ -45,6 +55,12 @@ target_cities:
   - Delhi
   - Hyderabad
   - Pune
+  - Noida
+  - Ahmedabad
+  - Chennai
+  - Kochi
+  - Jaipur
+  - Goa
   - San Francisco
   - New York
   - London
@@ -60,6 +76,22 @@ target_cities:
   - Toronto
   - Sydney
   - Melbourne
+  - Paris
+  - Helsinki
+  - Stockholm
+  - Copenhagen
+  - Tallinn
+  - Lisbon
+  - Zurich
+  - Munich
+  - Barcelona
+  - Tokyo
+  - Dubai
+  - São Paulo
+  - Seoul
+  - Taipei
+  - Bangkok
+  - Ho Chi Minh City
 
 target_platforms:
   - react
