@@ -1,0 +1,69 @@
+business_unit: comai_b2b
+name: "COMAI B2B — Agency Partner Acquisition"
+description: "Find India marketing, Shopify-dev, and creative agencies that can white-label or resell COMAI WhatsApp/commerce AI into their D2C client books"
+
+is_b2b_partner: true
+
+partner_types:
+  priority_a:
+    types:
+      - performance_marketing_agency
+      - d2c_growth_agency
+      - ecommerce_marketing_agency
+      - shopify_development_agency
+      - shopify_plus_agency
+      - website_development_agency
+  priority_b:
+    types:
+      - creative_studio
+      - content_production_agency
+      - brand_design_agency
+      - full_funnel_growth_agency
+      - video_production_agency
+  priority_c:
+    types:
+      - freelance_marketer
+      - freelance_web_dev
+      - business_consultant
+
+partner_icp:
+  priority:
+    min_clients: 10
+    geography: India
+    size: "5-150 employees preferred"
+    access: "Founder or agency principal reachable"
+
+target_countries:
+  tier_1:
+    - India
+
+high_value_signals:
+  shopify_partner: 25
+  d2c_client_book: 25
+  performance_ads: 20
+  whatsapp_commerce_gap: 20
+  founder_reachable: 15
+
+high_intent_signals:
+  - manages D2C / ecommerce brands
+  - Shopify Partner or builds Shopify stores
+  - performance marketing / Meta / Google ads
+  - looking for retention / WhatsApp / CRM tools for clients
+  - white-label or partner-friendly service model
+
+partner_tiers:
+  A: "Hot — strong D2C/Shopify client access + reachable founder"
+  B: "High potential — solid agency fit, contactable"
+  C: "Nurture — weaker evidence or incomplete contact"
+
+thresholds:
+  hot_partner: 90
+  high_potential: 75
+  nurture: 60
+
+exclusions:
+  - whatsapp_bsp_competitors
+  - holding_network_agencies
+  - pure_saas_chatbot_vendors
+  - already_sent_outreach
+  - d2c_brands_as_targets

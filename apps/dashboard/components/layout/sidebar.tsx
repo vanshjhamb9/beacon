@@ -27,13 +27,14 @@ const NAV = [
   { href: "/leads", label: "All Leads", icon: Target },
   { href: "/ecommerce-leads", label: "Ecommerce Leads", icon: Building2 },
   { href: "/b2b-partners", label: "B2B Partners", icon: Users },
+  { href: "/partner-outreach", label: "Partner Outreach", icon: Send },
   { href: "/pipeline", label: "Pipeline", icon: FolderKanban },
   { href: "/lead-engine", label: "Lead Engine", icon: Radar },
   { href: "/partner-leads", label: "COMAI B2B Partners", icon: Handshake },
   { href: "/cold-call", label: "Cold Call Today", icon: PhoneCall },
   { href: "/universe", label: "Company Universe", icon: Building2 },
   { href: "/analytics", label: "Analytics", icon: BarChart3 },
-  { href: "/outreach", label: "Outreach", icon: Send },
+  { href: "/outreach", label: "Outreach", icon: Sparkles },
   { href: "/settings", label: "Settings", icon: Settings },
 ] as const;
 

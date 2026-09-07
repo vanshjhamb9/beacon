@@ -29,6 +29,12 @@ from app.models.communication import (
     SandboxScenario,
     WebhookEvent,
 )
+from app.models.comai_partner_outreach import (
+    ComaiPartnerCampaign,
+    ComaiPartnerEvent,
+    ComaiPartnerLead,
+    ComaiPartnerMessage,
+)
 from app.models.copilot import (
     SalesDraft,
     SalesFeedback,
@@ -574,6 +580,10 @@ __all__ = [
     "QAHealthSnapshot",
     "SandboxScenario",
     "WebhookEvent",
+    "ComaiPartnerCampaign",
+    "ComaiPartnerEvent",
+    "ComaiPartnerLead",
+    "ComaiPartnerMessage",
     "CollectorRun",
     "ConnectorAlertRecord",
     "ConnectorBenchmarkSnapshot",

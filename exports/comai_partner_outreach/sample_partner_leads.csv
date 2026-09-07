@@ -1,0 +1,4 @@
+first_name,last_name,agency_name,email,agency_type,website,city,phone,services,notes,client_examples
+Asha,Mehta,Glow Performance,asha@glowperformance.example,performance_marketing_agency,https://glowperformance.example,Mumbai,,Meta ads / WhatsApp lead gen,Your ads already create WhatsApp intent that often goes cold,
+Rahul,Nair,Frame Studio,rahul@framestudio.example,video_production_agency,https://framestudio.example,Bengaluru,,Video ads for D2C,Clients who shoot ads still lose leads on WhatsApp,
+Neha,Shah,CartForge Dev,neha@cartforge.example,website_development_agency,https://cartforge.example,Pune,,Shopify + custom storefronts,Every store you ship can include a WhatsApp AI layer,

@@ -1,0 +1,91 @@
+program: comai_partner_outreach
+name: "COMAI Partner Outreach"
+description: "Excel upload → hyperpersonalized agency partner emails → auto-send → reply pipeline → follow-ups"
+
+video:
+  url: "${COMAI_PARTNER_VIDEO_URL}"
+  thumbnail_url: "${COMAI_PARTNER_VIDEO_THUMB}"
+  cta_label: "Watch 2-min partner walkthrough"
+  fallback_url: "https://comai.in"
+
+economics:
+  commission_pct: 15
+  trial_days: 10
+  referral_bonus_inr: 200
+  referral_bonus_threshold: 2
+
+links:
+  partner_page_url: "https://comai.in"
+  calendly_url: ""
+  from_name: "Vansh"
+  from_email: "vansh@inowix.in"
+  signoff_title: "COMAI"
+  utm:
+    utm_source: beacon
+    utm_medium: email
+    utm_campaign: comai_partner_outreach
+
+send_safety:
+  kill_switch_env: COMAI_PARTNER_OUTREACH_ENABLED
+  dry_run_env: COMAI_PARTNER_OUTREACH_DRY_RUN
+  max_per_hour: 20
+  max_per_day: 80
+  min_seconds_between_sends: 45
+  business_hours_ist:
+    start_hour: 9
+    end_hour: 19
+    weekdays_only: true
+  max_send_retries: 3
+
+sequence:
+  steps:
+    - step: intro
+      day_offset: 0
+    - step: fu1
+      day_offset: 3
+    - step: fu2
+      day_offset: 7
+    - step: final
+      day_offset: 14
+  stop_on:
+    - replied
+    - bounce
+    - unsubscribed
+    - meeting
+    - partner_onboarded
+    - lost
+    - killed
+  nurture_reentry_days: 60
+
+partner_type_angles:
+  performance_marketing_agency: "your ads already create WhatsApp and inbound intent that often goes cold without a fast reply layer"
+  d2c_growth_agency: "you help D2C brands grow — COMAI turns that traffic into managed WhatsApp conversations and follow-ups"
+  ecommerce_marketing_agency: "ecommerce clients need more than campaigns; they need WhatsApp lead capture and automated sales follow-ups"
+  shopify_development_agency: "when you ship Shopify stores, COMAI is a natural add-on for WhatsApp commerce and post-purchase support"
+  shopify_plus_agency: "Shopify Plus brands get high lead volume — COMAI helps your clients convert and support on WhatsApp"
+  creative_studio: "creative work wins attention; COMAI helps your clients convert that attention into WhatsApp conversations"
+  content_production_agency: "content drives enquiries — COMAI helps clients answer, qualify, and follow up automatically"
+  brand_design_agency: "brand systems look sharper when client support and sales replies stay on-brand and instant on WhatsApp"
+  full_funnel_growth_agency: "you already own acquisition; COMAI extends the funnel into WhatsApp lead management and sales automation"
+  video_production_agency: "clients who shoot ads still lose leads on WhatsApp — COMAI closes that gap without new tech headcount"
+  website_development_agency: "every site you ship can include an AI WhatsApp layer for leads, support, and product recommendations"
+  freelance_marketer: "as a freelancer you can resell COMAI as a recurring add-on without building or maintaining the stack"
+  freelance_web_dev: "pair your builds with COMAI so clients get WhatsApp automation as a managed service you introduce"
+  business_consultant: "COMAI gives your clients an AI WhatsApp ops layer while you keep the advisory relationship"
+  default: "agencies and consultants like yours can offer clients WhatsApp lead management and sales automation without building the tech"
+
+competitor_domains:
+  - wati.io
+  - wati.com
+  - aisensy.com
+  - interakt.shop
+  - whatsboost.in
+  - quickreply.ai
+  - watease.com
+  - gupshup.com
+  - twilio.com
+  - zoko.io
+  - delightchat.io
+  - respond.io
+  - heltar.com
+  - oncloudapi.com

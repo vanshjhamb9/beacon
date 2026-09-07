@@ -2420,3 +2420,105 @@ export async function updatePartnerLead(
 export async function exportPartnerLeads() {
   return apiGet<PartnerLeadRecord[]>("/partner-leads/export/all");
 }
+
+// --- COMAI Partner Outreach ---
+
+export type PartnerOutreachCampaign = {
+  id: string;
+  name: string;
+  status: string;
+  kill_flag: boolean;
+  video_url: string;
+  total_rows: number;
+  valid_rows: number;
+  skipped_rows: number;
+  drafted: number;
+  queued: number;
+  sent: number;
+  failed: number;
+  replied: number;
+  created_at?: string;
+  updated_at?: string;
+  config_snapshot?: Record<string, unknown>;
+  row_errors?: Array<Record<string, unknown>>;
+};
+
+export type PartnerOutreachLead = {
+  id: string;
+  campaign_id: string;
+  email: string;
+  first_name: string;
+  agency_name: string;
+  agency_type: string;
+  stage: string;
+  sequence_step: string;
+  subject: string;
+  body_text: string;
+  body_html: string;
+  reply_class?: string;
+  reply_snippet?: string;
+  stop_reason?: string | null;
+  next_followup_at?: string | null;
+  error?: string;
+};
+
+export const partnerOutreachApi = {
+  health: () => apiGet<Record<string, unknown>>("/partner-outreach/health"),
+  metrics: () => apiGet<Record<string, unknown>>("/partner-outreach/metrics"),
+  listCampaigns: () =>
+    apiGet<{ campaigns: PartnerOutreachCampaign[] }>("/partner-outreach/campaigns"),
+  getCampaign: (id: string) =>
+    apiGet<PartnerOutreachCampaign>(`/partner-outreach/campaigns/${id}`),
+  killCampaign: (id: string) =>
+    apiPost<PartnerOutreachCampaign>(`/partner-outreach/campaigns/${id}/kill`, {}),
+  resumeCampaign: (id: string) =>
+    apiPost<PartnerOutreachCampaign>(`/partner-outreach/campaigns/${id}/resume`, {}),
+  processCampaign: (id: string, max_sends = 25) =>
+    apiPost<Record<string, unknown>>(`/partner-outreach/campaigns/${id}/process`, {
+      max_sends,
+    }),
+  getLeads: (id: string, stage?: string) => {
+    const q = stage ? `?stage=${encodeURIComponent(stage)}` : "";
+    return apiGet<{ leads: PartnerOutreachLead[] }>(
+      `/partner-outreach/campaigns/${id}/leads${q}`,
+    );
+  },
+  pipeline: () => apiGet<Record<string, unknown>>("/partner-outreach/pipeline"),
+  inbox: (limit = 100) =>
+    apiGet<{ items: Array<Record<string, unknown>> }>(
+      `/partner-outreach/inbox?limit=${limit}`,
+    ),
+  setLeadStage: (leadId: string, stage: string, note = "") =>
+    apiPost<PartnerOutreachLead>(`/partner-outreach/leads/${leadId}/stage`, {
+      stage,
+      note,
+    }),
+  uploadCampaign: async (file: File, name?: string) => {
+    const form = new FormData();
+    form.append("file", file);
+    if (name) form.append("name", name);
+    const response = await fetch(`${API_BASE_URL}/partner-outreach/campaigns/upload`, {
+      method: "POST",
+      body: form,
+    });
+    if (!response.ok) {
+      let body: unknown;
+      try {
+        body = await response.json();
+      } catch {
+        body = undefined;
+      }
+      throw new Error(`Upload failed: ${response.status} ${JSON.stringify(body)}`);
+    }
+    return (await response.json()) as {
+      campaign: PartnerOutreachCampaign;
+      valid_rows: number;
+      skipped_rows: number;
+      errors: Array<Record<string, unknown>>;
+      dry_run: boolean;
+      enabled: boolean;
+      process?: Record<string, unknown>;
+    };
+  },
+};
+

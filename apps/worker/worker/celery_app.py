@@ -60,6 +60,7 @@ celery_app = Celery(
         "worker.buying_event_enrichment_tasks",
         "worker.mega_extraction_tasks",
         "worker.b2b_partner_tasks",
+        "worker.comai_partner_outreach_tasks",
     ],
 )
 
@@ -511,6 +512,20 @@ celery_app.conf.update(
         "discover-b2b-partners": {
             "task": "b2b_partners.discover_partners",
             "schedule": 21600,  # Every 6 hours
+        },
+        "comai-partner-outreach-process-queue": {
+            "task": "comai_partner_outreach.process_sending_queue",
+            "schedule": 60,
+            "kwargs": {"max_sends": 15},
+        },
+        "comai-partner-outreach-followups": {
+            "task": "comai_partner_outreach.tick_followups",
+            "schedule": 300,
+            "kwargs": {"max_sends": 10},
+        },
+        "comai-partner-outreach-gmail-replies": {
+            "task": "comai_partner_outreach.ingest_gmail_replies",
+            "schedule": 120,
         },
     },
 )
