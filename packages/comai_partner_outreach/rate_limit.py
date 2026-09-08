@@ -81,13 +81,17 @@ def check_send_gate(
     *,
     campaign_killed: bool = False,
     now: datetime | None = None,
+    bypass_business_hours: bool = False,
 ) -> SendGateResult:
     now = now or datetime.now(UTC)
     if campaign_killed:
         return SendGateResult(False, "Campaign kill switch active", "campaign_killed")
     if not config.enabled and not config.dry_run:
-        # enabled=false forces dry_run via config.dry_run property; this is belt-and-suspenders
         return SendGateResult(False, "Global kill switch COMAI_PARTNER_OUTREACH_ENABLED is off", "kill_switch")
+
+    # Dry-run: allow Process queue anytime (no hour/day/gap/business-hour gates)
+    if config.dry_run:
+        return SendGateResult(True, "ok", "ok")
 
     state = prune_timestamps(state, now=now)
     hour_ago = now - timedelta(hours=1)
@@ -100,6 +104,9 @@ def check_send_gate(
     if day_count >= config.max_per_day:
         return SendGateResult(False, "Daily send cap reached", "rate_day", retry_after_seconds=1800)
 
+    if bypass_business_hours:
+        return SendGateResult(True, "ok", "ok")
+
     last = _parse_ts(state.last_send_at)
     if last:
         elapsed = (now - last).total_seconds()
@@ -108,7 +115,12 @@ def check_send_gate(
             return SendGateResult(False, "Inter-send delay", "rate_gap", retry_after_seconds=wait)
 
     if not within_business_hours(config, now=now):
-        return SendGateResult(False, "Outside IST business hours", "business_hours", retry_after_seconds=600)
+        return SendGateResult(
+            False,
+            f"Outside IST business hours ({config.business_start_hour:02d}:00-{config.business_end_hour:02d}:00).",
+            "business_hours",
+            retry_after_seconds=600,
+        )
 
     return SendGateResult(True, "ok", "ok")
 

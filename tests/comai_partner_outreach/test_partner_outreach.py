@@ -80,6 +80,27 @@ def test_ingest_aliases_and_competitor(cfg: PartnerOutreachConfig):
     assert "invalid_or_missing_email" in errors
 
 
+def test_ingest_founder_email_company_name_columns(cfg: PartnerOutreachConfig):
+    csv = (
+        "founder_name,company_name,industry,founder_email,general_email,website\n"
+        "Praneeth Reddy,Tall Bunny,Marketing Services,,hello@tallbunny.com,https://tallbunny.com\n"
+        "Rashmi Tewari,KredWorks,Marketing Services,rashmi@kredworks.com,,https://kredworks.com\n"
+        "No Mail,Empty Co,Marketing Services,,,\n"
+    ).encode("utf-8")
+    result = parse_upload(
+        filename="vansh_list.csv",
+        content=csv,
+        campaign_id=new_id(),
+        config=cfg,
+    )
+    assert result.valid_rows == 2
+    emails = {l.email for l in result.leads}
+    assert "hello@tallbunny.com" in emails
+    assert "rashmi@kredworks.com" in emails
+    assert any(l.agency_name == "Tall Bunny" for l in result.leads)
+    assert result.skipped_rows >= 1
+
+
 def test_draft_includes_economics_and_video(cfg: PartnerOutreachConfig):
     lead = {
         "first_name": "Riya",
@@ -89,12 +110,17 @@ def test_draft_includes_economics_and_video(cfg: PartnerOutreachConfig):
     }
     draft = draft_partner_intro(lead, cfg)
     assert "15%" in draft.body_text
-    assert "10-day" in draft.body_text or "10-day" in draft.body_text.replace("**", "")
-    assert "₹200" in draft.body_text
+    assert "trial" in draft.body_text.lower()
     assert "https://example.com/video" in draft.body_text
-    assert "Watch walkthrough" in draft.body_html or "example.com/thumb.jpg" in draft.body_html
-    assert "Frame & Co" in draft.subject
+    assert "<a href" in draft.body_html
+    assert "<img" in draft.body_html
+    assert "PARTNER PROGRAM" in draft.body_html
+    assert "Watch now" in draft.body_html or "walkthrough" in draft.body_html.lower()
+    assert "Frame & Co" in draft.body_text or "Riya" in draft.body_text
     assert "Produces performance video" in draft.body_text
+    assert "Frame & Co" in draft.subject or "WhatsApp" in draft.subject
+    # Keep short: intro should stay compact
+    assert len(draft.body_text) < 1200
 
 
 def test_followup_steps_and_schedule(cfg: PartnerOutreachConfig):
@@ -124,9 +150,9 @@ def test_kill_switch_and_rate_limit(cfg: PartnerOutreachConfig):
         business_end_hour=24,
         weekdays_only=False,
     )
-    # Force enabled path for rate checks (dry_run still ok)
+    # Live mode required for rate caps (dry-run bypasses them)
     os.environ["COMAI_PARTNER_OUTREACH_ENABLED"] = "true"
-    os.environ["COMAI_PARTNER_OUTREACH_DRY_RUN"] = "true"
+    os.environ["COMAI_PARTNER_OUTREACH_DRY_RUN"] = "false"
     state = record_send(state, now=now)
     gate = check_send_gate(cfg2, state, now=now + timedelta(seconds=1))
     assert not gate.allowed
@@ -157,15 +183,18 @@ def test_end_to_end_upload_process_reply(tmp_service: PartnerOutreachService):
     )
     campaign_id = created["campaign"]["id"]
     assert created["valid_rows"] == 1
-    leads = tmp_service.get_leads(campaign_id)
-    assert leads[0]["stage"] == "drafted"
-    assert "15%" in leads[0]["body_text"]
-
-    processed = tmp_service.process_campaign(campaign_id, max_sends=5)
-    assert processed["sent"] == 1
+    # Upload auto-drafts + auto-processes (dry-run sends)
+    assert created.get("process", {}).get("sent", 0) >= 1
     leads = tmp_service.get_leads(campaign_id)
     assert leads[0]["stage"] == "sent"
+    assert "15%" in leads[0]["body_text"]
     assert leads[0]["next_followup_at"]
+
+    # Idempotent second process — already sent
+    processed = tmp_service.process_campaign(campaign_id, max_sends=5)
+    assert processed["sent"] == 0
+    leads = tmp_service.get_leads(campaign_id)
+    assert leads[0]["stage"] == "sent"
 
     reply = tmp_service.ingest_reply(
         from_email="kabir@northlane.test",

@@ -1,4 +1,4 @@
-"""Outbound send adapter — Communication Gateway with dry-run fallback."""
+"""Outbound send adapter — dry-run, Communication Gateway, or SMTP email_service."""
 
 from __future__ import annotations
 
@@ -45,6 +45,36 @@ def send_partner_email(
             state="sent",
             detail={"dry_run": True},
         )
+
+    # Prefer proven SMTP path used by lane outreach scripts
+    try:
+        from email_service import send_email
+
+        result = send_email(
+            to_email=to_email,
+            subject=subject,
+            body_html=body_html,
+            body_text=body_text,
+            from_email=config.from_email or "vansh@inowix.in",
+            from_name=f"{config.from_name} | COMAI",
+            reply_to=config.from_email or "vansh@inowix.in",
+        )
+        if result.get("success"):
+            return SendResult(
+                ok=True,
+                dry_run=False,
+                provider_message_id=f"smtp-{to_email}",
+                state="sent",
+                detail={"provider": "smtp", "campaign_id": campaign_id},
+            )
+        return SendResult(
+            ok=False,
+            error=str(result.get("error") or "smtp_failed"),
+            state="failed",
+            detail=result,
+        )
+    except Exception as exc:  # noqa: BLE001
+        logger.warning("email_service send failed, trying gateway: %s", exc)
 
     try:
         from communication_gateway import CommunicationGatewayService, GatewayConfig, OutboundMessage

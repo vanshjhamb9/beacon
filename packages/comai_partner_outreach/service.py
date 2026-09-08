@@ -46,6 +46,49 @@ class PartnerOutreachService:
             )
         )
 
+    def _draft_leads(self, campaign_id: str, leads: list[PartnerLead]) -> int:
+        """Draft intro copy for leads that still need it (uploaded / empty body)."""
+        drafted = 0
+        events: list[PartnerEvent] = []
+        skip_stages = {
+            "sent",
+            "replied",
+            "interested",
+            "meeting",
+            "partner_onboarded",
+            "lost",
+            "failed",
+            "nurture",
+            "killed",
+        }
+        for lead in leads:
+            if lead.stage in skip_stages:
+                continue
+            if lead.stage == "drafted" and (lead.body_text or "").strip():
+                continue
+            draft = draft_for_step(lead.sequence_step or "intro", lead.to_dict(), self.config)
+            lead.subject = draft.subject
+            lead.body_text = draft.body_text
+            lead.body_html = draft.body_html
+            lead.sequence_step = lead.sequence_step or "intro"
+            lead.stage = "drafted"
+            lead.error = ""
+            lead.updated_at = now_iso()
+            drafted += 1
+            events.append(
+                PartnerEvent(
+                    id=new_id(),
+                    campaign_id=campaign_id,
+                    lead_id=lead.id,
+                    event_type="drafted",
+                    detail={"subject": draft.subject, "hook": draft.hook_used},
+                )
+            )
+        if drafted:
+            self.store.save_leads(campaign_id, leads)
+            self.store.append_events(events)
+        return drafted
+
     def create_campaign_from_upload(
         self,
         *,
@@ -85,23 +128,20 @@ class PartnerOutreachService:
         self.store.save_campaign(campaign)
         self.store.save_leads(campaign_id, ingested.leads)
 
-        # Draft all valid leads immediately
-        drafted = 0
-        for lead in ingested.leads:
-            draft = draft_for_step("intro", lead.to_dict(), self.config)
-            lead.subject = draft.subject
-            lead.body_text = draft.body_text
-            lead.body_html = draft.body_html
-            lead.sequence_step = "intro"
-            lead.stage = "drafted"
-            lead.updated_at = now_iso()
-            drafted += 1
-            self._event(campaign_id, "drafted", lead.id, subject=draft.subject, hook=draft.hook_used)
-        self.store.save_leads(campaign_id, ingested.leads)
+        drafted = self._draft_leads(campaign_id, ingested.leads)
         campaign.drafted = drafted
         campaign.status = "sending"
         self.store.save_campaign(campaign)
 
+        # Auto-process immediately so upload → send (or dry-run) without extra clicks
+        process_result: dict[str, Any] | None = None
+        try:
+            process_result = self.process_campaign(campaign_id, max_sends=max(drafted, 1))
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("Auto-process after upload failed: %s", exc)
+            process_result = {"error": str(exc)}
+
+        campaign = self.store.get_campaign(campaign_id) or campaign
         return {
             "campaign": campaign.to_dict(),
             "valid_rows": ingested.valid_rows,
@@ -109,6 +149,7 @@ class PartnerOutreachService:
             "errors": ingested.errors[:50],
             "dry_run": self.config.dry_run,
             "enabled": self.config.enabled,
+            "process": process_result,
         }
 
     def get_campaign(self, campaign_id: str) -> dict[str, Any] | None:
@@ -146,6 +187,10 @@ class PartnerOutreachService:
         self.store.save_campaign(campaign)
         self._event(campaign_id, "resumed")
         return campaign.to_dict()
+
+    def clear_all_campaigns(self) -> dict[str, Any]:
+        result = self.store.clear_all_campaigns()
+        return {**result, "metrics": self.metrics()}
 
     def get_leads(self, campaign_id: str, stage: str | None = None) -> list[dict[str, Any]]:
         leads = self.store.get_leads(campaign_id)
@@ -194,18 +239,28 @@ class PartnerOutreachService:
     def _save_rate(self, state: RateLimitState) -> None:
         self.store.save_rate_state(state.to_dict())
 
-    def process_campaign(self, campaign_id: str, *, max_sends: int = 25) -> dict[str, Any]:
+    def process_campaign(self, campaign_id: str, *, max_sends: int = 100) -> dict[str, Any]:
         campaign = self.store.get_campaign(campaign_id)
         if not campaign:
             raise KeyError("campaign_not_found")
         if campaign.kill_flag or campaign.status == "killed":
-            return {"campaign_id": campaign_id, "status": "killed", "sent": 0}
+            return {"campaign_id": campaign_id, "status": "killed", "sent": 0, "held_reason": "killed"}
 
         leads = self.store.get_leads(campaign_id)
+        # Recover stuck uploads (Windows write failures mid-draft, etc.)
+        drafted_now = self._draft_leads(campaign_id, leads)
+        if drafted_now:
+            leads = self.store.get_leads(campaign_id)
+            if campaign.status in ("completed", "validating", "drafting"):
+                campaign.status = "sending"
+                self.store.save_campaign(campaign)
+
         rate = self._rate_state()
         sent = 0
         failed = 0
         held = 0
+        held_reason = ""
+        held_code = ""
 
         for lead in leads:
             if sent >= max_sends:
@@ -213,17 +268,25 @@ class PartnerOutreachService:
             if lead.stage not in ("drafted", "queued"):
                 continue
             if lead.sequence_step and lead.sequence_step != "intro" and lead.stage == "drafted":
-                # follow-ups go through tick_followups
                 if lead.last_sent_at:
                     continue
 
             gate = check_send_gate(self.config, rate, campaign_killed=campaign.kill_flag)
             if not gate.allowed:
-                held += 1
-                lead.stage = "queued"
-                self.store.upsert_lead(lead)
-                self._event(campaign_id, "held", lead.id, reason=gate.reason, code=gate.code)
-                break
+                if gate.code == "rate_gap" and gate.retry_after_seconds > 0:
+                    import time
+
+                    time.sleep(min(gate.retry_after_seconds, 120))
+                    gate = check_send_gate(self.config, rate, campaign_killed=campaign.kill_flag)
+                if not gate.allowed:
+                    held += 1
+                    held_reason = gate.reason
+                    held_code = gate.code
+                    lead.stage = "queued"
+                    lead.error = gate.reason
+                    self.store.upsert_lead(lead)
+                    self._event(campaign_id, "held", lead.id, reason=gate.reason, code=gate.code)
+                    break
 
             if not lead.body_text:
                 draft = draft_for_step(lead.sequence_step or "intro", lead.to_dict(), self.config)
@@ -259,14 +322,13 @@ class PartnerOutreachService:
             if result.ok:
                 lead.stage = "sent"
                 lead.last_sent_at = now_iso()
-                lead.error = ""
+                lead.error = "dry_run" if result.dry_run else ""
                 nxt = schedule_after_step(lead.sequence_step or "intro", self.config)
                 lead.next_followup_at = nxt.isoformat() if nxt else None
                 rate = record_send(rate)
                 self._save_rate(rate)
                 self.store.mark_sent_email(lead.email)
                 sent += 1
-                campaign.sent += 1
                 self._event(
                     campaign_id,
                     "sent",
@@ -280,17 +342,19 @@ class PartnerOutreachService:
                     lead.stage = "failed"
                     lead.stop_reason = "send_failed"
                     failed += 1
-                    campaign.failed += 1
                 self._event(campaign_id, "failed", lead.id, error=lead.error)
             self.store.upsert_lead(lead)
 
-        # Refresh counts
         leads = self.store.get_leads(campaign_id)
         campaign.drafted = sum(1 for l in leads if l.stage == "drafted")
         campaign.queued = sum(1 for l in leads if l.stage == "queued")
-        campaign.sent = sum(1 for l in leads if l.stage in ("sent", "replied", "interested", "meeting", "partner_onboarded", "nurture"))
+        campaign.sent = sum(
+            1
+            for l in leads
+            if l.stage in ("sent", "replied", "interested", "meeting", "partner_onboarded", "nurture")
+        )
         campaign.failed = sum(1 for l in leads if l.stage == "failed")
-        remaining = sum(1 for l in leads if l.stage in ("drafted", "queued"))
+        remaining = sum(1 for l in leads if l.stage in ("uploaded", "drafted", "queued"))
         if remaining == 0 and not campaign.kill_flag:
             campaign.status = "completed"
         else:
@@ -302,7 +366,24 @@ class PartnerOutreachService:
             "sent": sent,
             "failed": failed,
             "held": held,
+            "held_reason": held_reason,
+            "held_code": held_code,
+            "drafted_now": drafted_now,
             "dry_run": self.config.dry_run,
+            "enabled": self.config.enabled,
+            "remaining": remaining,
+            "total_leads": len(leads),
+            "message": (
+                f"{'Dry-run: simulated' if self.config.dry_run else 'Sent'} {sent} email(s)."
+                + (f" Drafted {drafted_now}." if drafted_now else "")
+                + (f" Held: {held_reason}" if held_reason else "")
+                + (
+                    " Enable live send with COMAI_PARTNER_OUTREACH_ENABLED=true and "
+                    "COMAI_PARTNER_OUTREACH_DRY_RUN=false."
+                    if self.config.dry_run
+                    else ""
+                )
+            ),
         }
 
     def process_all_sending(self, *, max_sends: int = 25) -> list[dict[str, Any]]:

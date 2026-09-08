@@ -42,7 +42,7 @@ class ReplyIngestRequest(BaseModel):
 
 
 class ProcessRequest(BaseModel):
-    max_sends: int = Field(default=25, ge=1, le=200)
+    max_sends: int = Field(default=100, ge=1, le=500)
 
 
 @router.get("/health")
@@ -67,6 +67,12 @@ def list_campaigns() -> dict[str, Any]:
     return {"campaigns": _svc().list_campaigns()}
 
 
+@router.post("/campaigns/clear")
+def clear_campaigns() -> dict[str, Any]:
+    """Wipe all partner outreach campaign history (uploads, drafts, dry-run sends)."""
+    return _svc().clear_all_campaigns()
+
+
 @router.post("/campaigns/upload")
 async def upload_campaign(
     file: UploadFile = File(...),
@@ -86,17 +92,11 @@ async def upload_campaign(
     except ValueError as exc:
         raise HTTPException(400, str(exc)) from exc
 
-    # Process a first batch inline; Celery beat continues the queue.
-    campaign_id = result["campaign"]["id"]
-    try:
-        result["process"] = _svc().process_campaign(campaign_id, max_sends=10)
-    except Exception as exc:  # noqa: BLE001
-        logger.warning("Inline process failed: %s", exc)
-        result["process_error"] = str(exc)
+    # Auto-process runs inside create_campaign_from_upload; Celery continues later.
     try:
         from worker.comai_partner_outreach_tasks import process_partner_campaign
 
-        process_partner_campaign.delay(campaign_id)
+        process_partner_campaign.delay(result["campaign"]["id"])
         result["queued_celery"] = True
     except Exception:  # noqa: BLE001
         result["queued_celery"] = False
@@ -131,7 +131,7 @@ def resume_campaign(campaign_id: str) -> dict[str, Any]:
 
 @router.post("/campaigns/{campaign_id}/process")
 def process_campaign(campaign_id: str, body: ProcessRequest | None = None) -> dict[str, Any]:
-    max_sends = body.max_sends if body else 25
+    max_sends = body.max_sends if body else 100
     try:
         return _svc().process_campaign(campaign_id, max_sends=max_sends)
     except KeyError as exc:

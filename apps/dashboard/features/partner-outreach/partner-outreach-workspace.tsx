@@ -8,6 +8,7 @@ import {
   Play,
   RefreshCw,
   Send,
+  Trash2,
   Upload,
 } from "lucide-react";
 
@@ -52,6 +53,8 @@ export function PartnerOutreachWorkspace() {
   const [health, setHealth] = useState<Record<string, unknown> | null>(null);
   const [loading, setLoading] = useState(true);
   const [uploading, setUploading] = useState(false);
+  const [processing, setProcessing] = useState(false);
+  const [statusMsg, setStatusMsg] = useState<string | null>(null);
   const [previewLead, setPreviewLead] = useState<PartnerOutreachLead | null>(null);
   const [tab, setTab] = useState<"leads" | "pipeline" | "inbox">("leads");
   const [error, setError] = useState<string | null>(null);
@@ -101,12 +104,23 @@ export function PartnerOutreachWorkspace() {
     if (!file) return;
     setUploading(true);
     setError(null);
+    setStatusMsg(`Validating leads in ${file.name}…`);
     try {
       const res = await partnerOutreachApi.uploadCampaign(file);
       setSelectedId(res.campaign.id);
+      const processed = (res as { process?: { sent?: number; message?: string } }).process;
+      setStatusMsg(
+        `Validated ${res.valid_rows} lead(s), skipped ${res.skipped_rows}. ` +
+          (processed?.message
+            ? processed.message
+            : res.dry_run
+              ? "Dry-run ON — queue will simulate sends."
+              : "Auto-processing started."),
+      );
       await refresh();
     } catch (e) {
       setError(e instanceof Error ? e.message : "Upload failed");
+      setStatusMsg(null);
     }
     setUploading(false);
   }
@@ -125,8 +139,40 @@ export function PartnerOutreachWorkspace() {
 
   async function onProcess() {
     if (!selectedId) return;
-    await partnerOutreachApi.processCampaign(selectedId, 20);
-    await refresh();
+    setProcessing(true);
+    setError(null);
+    setStatusMsg("Processing queue…");
+    try {
+      const result = await partnerOutreachApi.processCampaign(selectedId, 100);
+      setStatusMsg(result.message || `Processed: sent ${result.sent}, held ${result.held ?? 0}`);
+      await refresh();
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Process failed");
+      setStatusMsg(null);
+    }
+    setProcessing(false);
+  }
+
+  async function onClearHistory() {
+    if (
+      !window.confirm(
+        "Clear all partner outreach campaigns? This removes previous uploads and dry-run history.",
+      )
+    ) {
+      return;
+    }
+    setUploading(true);
+    setError(null);
+    try {
+      const res = await partnerOutreachApi.clearCampaigns();
+      setSelectedId(null);
+      setLeads([]);
+      setStatusMsg(`Cleared ${res.campaigns_removed} campaign(s). Upload a fresh list when ready.`);
+      await refresh();
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Clear failed");
+    }
+    setUploading(false);
   }
 
   async function selectCampaign(id: string) {
@@ -150,6 +196,15 @@ export function PartnerOutreachWorkspace() {
             <RefreshCw className="mr-2 h-4 w-4" />
             Refresh
           </Button>
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => void onClearHistory()}
+            disabled={uploading || processing}
+          >
+            <Trash2 className="mr-2 h-4 w-4" />
+            Clear history
+          </Button>
           <label className="inline-flex cursor-pointer items-center">
             <input
               type="file"
@@ -162,11 +217,16 @@ export function PartnerOutreachWorkspace() {
             />
             <span className="inline-flex h-9 items-center justify-center gap-2 rounded-md bg-primary px-3 text-sm font-medium text-primary-foreground hover:bg-primary/90">
               {uploading ? (
-                <Loader2 className="h-4 w-4 animate-spin" />
+                <>
+                  <Loader2 className="h-4 w-4 animate-spin" />
+                  Validating leads…
+                </>
               ) : (
-                <Upload className="h-4 w-4" />
+                <>
+                  <Upload className="h-4 w-4" />
+                  Upload Excel/CSV
+                </>
               )}
-              Upload Excel/CSV
             </span>
           </label>
         </div>
@@ -175,6 +235,19 @@ export function PartnerOutreachWorkspace() {
       {error ? (
         <div className="rounded-md border border-red-500/40 bg-red-500/10 px-3 py-2 text-sm text-red-300">
           {error}
+        </div>
+      ) : null}
+
+      {statusMsg || uploading || processing ? (
+        <div className="flex items-center gap-2 rounded-md border border-emerald-500/30 bg-emerald-500/10 px-3 py-2 text-sm text-emerald-100">
+          {(uploading || processing) && <Loader2 className="h-4 w-4 shrink-0 animate-spin" />}
+          <span>
+            {uploading
+              ? "Validating leads — parsing file, checking emails, drafting intros…"
+              : processing
+                ? "Processing queue…"
+                : statusMsg}
+          </span>
         </div>
       ) : null}
 
@@ -274,11 +347,37 @@ export function PartnerOutreachWorkspace() {
                     Valid {selected.valid_rows} · Skipped {selected.skipped_rows} · Sent{" "}
                     {selected.sent} · Failed {selected.failed}
                   </p>
+                  {selected.valid_rows === 0 && (selected.row_errors?.length || 0) > 0 ? (
+                    <div className="mt-2 rounded-md border border-amber-500/40 bg-amber-500/10 px-3 py-2 text-xs text-amber-200">
+                      <div className="font-medium">Nothing to process — all rows skipped</div>
+                      <ul className="mt-1 list-disc pl-4">
+                        {(selected.row_errors || []).slice(0, 5).map((err, i) => (
+                          <li key={i}>
+                            {String(err.error || "error")}
+                            {err.hint ? ` — ${String(err.hint)}` : ""}
+                            {err.email ? ` (${String(err.email)})` : ""}
+                          </li>
+                        ))}
+                      </ul>
+                      <p className="mt-1 opacity-80">
+                        Tip: CSV needs email / founder_email / general_email / emails + company_name
+                      </p>
+                    </div>
+                  ) : null}
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  <Button size="sm" variant="outline" onClick={() => void onProcess()}>
-                    <Send className="mr-2 h-4 w-4" />
-                    Process queue
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    disabled={processing || uploading}
+                    onClick={() => void onProcess()}
+                  >
+                    {processing ? (
+                      <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                    ) : (
+                      <Send className="mr-2 h-4 w-4" />
+                    )}
+                    {processing ? "Processing…" : "Process queue"}
                   </Button>
                   {selected.kill_flag || selected.status === "killed" ? (
                     <Button size="sm" onClick={() => void onResume()}>

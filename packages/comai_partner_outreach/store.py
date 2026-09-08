@@ -3,7 +3,10 @@
 from __future__ import annotations
 
 import json
+import logging
+import os
 import threading
+import time
 from pathlib import Path
 from typing import Any
 
@@ -19,6 +22,7 @@ ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_STORE_DIR = ROOT / "exports" / "comai_partner_outreach"
 
 _lock = threading.RLock()
+logger = logging.getLogger(__name__)
 
 
 class PartnerOutreachStore:
@@ -38,10 +42,39 @@ class PartnerOutreachStore:
             return default
 
     def _write_json(self, path: Path, data: Any) -> None:
+        """Atomic-ish write with Windows-friendly retries (AV / indexer file locks)."""
         path.parent.mkdir(parents=True, exist_ok=True)
-        tmp = path.with_suffix(path.suffix + ".tmp")
-        tmp.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
-        tmp.replace(path)
+        payload = json.dumps(data, indent=2, ensure_ascii=False)
+        tmp = path.with_suffix(path.suffix + f".{os.getpid()}.{threading.get_ident()}.tmp")
+        last_err: Exception | None = None
+        for attempt in range(8):
+            try:
+                tmp.write_text(payload, encoding="utf-8")
+                try:
+                    os.replace(tmp, path)
+                except PermissionError:
+                    # Destination locked — remove then rename, or fall back to direct write
+                    try:
+                        if path.exists():
+                            path.unlink()
+                        os.replace(tmp, path)
+                    except OSError:
+                        path.write_text(payload, encoding="utf-8")
+                        try:
+                            tmp.unlink(missing_ok=True)
+                        except OSError:
+                            pass
+                return
+            except OSError as exc:
+                last_err = exc
+                time.sleep(0.05 * (attempt + 1))
+                try:
+                    tmp.unlink(missing_ok=True)
+                except OSError:
+                    pass
+        logger.error("Failed writing %s after retries: %s", path, last_err)
+        if last_err:
+            raise last_err
 
     def _campaign_dir(self, campaign_id: str) -> Path:
         d = self.root / "campaigns" / campaign_id
@@ -112,11 +145,21 @@ class PartnerOutreachStore:
             return [PartnerMessage.from_dict(x) for x in data]
 
     def append_event(self, event: PartnerEvent) -> None:
+        self.append_events([event])
+
+    def append_events(self, events: list[PartnerEvent]) -> None:
+        if not events:
+            return
         with _lock:
-            path = self._campaign_dir(event.campaign_id) / "events.json"
-            data = self._read_json(path, [])
-            data.append(event.to_dict())
-            self._write_json(path, data)
+            # Group by campaign for fewer writes
+            by_campaign: dict[str, list[PartnerEvent]] = {}
+            for event in events:
+                by_campaign.setdefault(event.campaign_id, []).append(event)
+            for campaign_id, batch in by_campaign.items():
+                path = self._campaign_dir(campaign_id) / "events.json"
+                data = self._read_json(path, [])
+                data.extend(e.to_dict() for e in batch)
+                self._write_json(path, data)
 
     def get_events(self, campaign_id: str) -> list[PartnerEvent]:
         with _lock:
@@ -159,3 +202,22 @@ class PartnerOutreachStore:
                 items.append(msg.to_dict())
         items.sort(key=lambda x: x.get("created_at") or "", reverse=True)
         return items[:limit]
+
+    def clear_all_campaigns(self) -> dict[str, Any]:
+        """Remove all campaign folders and reset index / rate / sent tracking."""
+        import shutil
+
+        with _lock:
+            campaigns_root = self.root / "campaigns"
+            removed = 0
+            if campaigns_root.exists():
+                for child in list(campaigns_root.iterdir()):
+                    if child.is_dir():
+                        shutil.rmtree(child, ignore_errors=True)
+                        removed += 1
+                    elif child.is_file():
+                        child.unlink(missing_ok=True)
+            self._write_json(self._index_path, {"campaigns": []})
+            self._write_json(self._rate_path, {})
+            self._write_json(self._sent_path, {"emails": []})
+            return {"cleared": True, "campaigns_removed": removed}

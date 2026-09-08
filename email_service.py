@@ -5,8 +5,11 @@ import logging
 import smtplib
 import ssl
 import time
+import uuid
+from email.header import Header
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from email.utils import formataddr, formatdate, make_msgid
 from typing import Any
 
 logger = logging.getLogger(__name__)
@@ -16,6 +19,7 @@ SMTP_PORT = 465
 SMTP_EMAIL = "vansh@inowix.in"
 SMTP_PASSWORD = "ANEzHAywQ7hyMvmzYC2u"
 SMTP_USE_SSL = True
+SMTP_DOMAIN = "inowix.in"
 
 
 def send_email(
@@ -25,14 +29,31 @@ def send_email(
     body_text: str | None = None,
     from_email: str = SMTP_EMAIL,
     from_name: str = "Vansh from Inowix",
+    reply_to: str | None = None,
     cc: str | list[str] | None = None,
     retries: int = 3,
     retry_backoff_sec: float = 8.0,
 ) -> dict[str, Any]:
+    """Send a deliverability-tuned multipart email.
+
+    Improvements vs bare MIME:
+    - Message-ID on sending domain
+    - Date / Reply-To / List-Unsubscribe
+    - plain text first (multipart/alternative)
+    - proper UTF-8 subject encoding
+    """
     msg = MIMEMultipart("alternative")
-    msg["From"] = f"{from_name} <{from_email}>"
+    msg["From"] = formataddr((str(Header(from_name, "utf-8")), from_email))
     msg["To"] = to_email
-    msg["Subject"] = subject
+    msg["Subject"] = Header(subject, "utf-8")
+    msg["Date"] = formatdate(localtime=True)
+    msg["Message-ID"] = make_msgid(domain=SMTP_DOMAIN)
+    msg["MIME-Version"] = "1.0"
+    msg["Reply-To"] = reply_to or from_email
+    # Helps Gmail treat as legitimate 1:1 / list mail rather than unlabeled promo
+    msg["List-Unsubscribe"] = f"<mailto:{from_email}?subject=unsubscribe>"
+    msg["List-Unsubscribe-Post"] = "List-Unsubscribe=One-Click"
+    msg["X-Entity-Ref-ID"] = str(uuid.uuid4())
 
     cc_list: list[str] = []
     if isinstance(cc, str) and cc.strip():
@@ -42,9 +63,24 @@ def send_email(
     if cc_list:
         msg["Cc"] = ", ".join(cc_list)
 
-    if body_text:
-        msg.attach(MIMEText(body_text, "plain"))
-    msg.attach(MIMEText(body_html, "html"))
+    plain = (body_text or "").strip()
+    if not plain and body_html:
+        # crude fallback
+        plain = (
+            body_html.replace("<br/>", "\n")
+            .replace("<br>", "\n")
+            .replace("</p>", "\n\n")
+        )
+        import re
+
+        plain = re.sub(r"<[^>]+>", "", plain)
+        plain = "\n".join(line.strip() for line in plain.splitlines() if line.strip())
+
+    # Plain MUST come first for clients that prefer text (and spam filters)
+    if plain:
+        msg.attach(MIMEText(plain, "plain", "utf-8"))
+    if body_html:
+        msg.attach(MIMEText(body_html, "html", "utf-8"))
 
     recipients = [to_email, *cc_list]
     last_err: Exception | None = None
@@ -62,11 +98,11 @@ def send_email(
                     server.login(SMTP_EMAIL, SMTP_PASSWORD)
                     server.sendmail(from_email, recipients, msg.as_string())
 
-            logger.info(f"Email sent successfully to {to_email}")
+            logger.info("Email sent successfully to %s", to_email)
             return {"success": True, "to": to_email, "cc": cc_list, "subject": subject}
         except Exception as e:
             last_err = e
-            logger.error(f"Failed to send email to {to_email} (attempt {attempt}): {e}")
+            logger.error("Failed to send email to %s (attempt %s): %s", to_email, attempt, e)
             if attempt < retries:
                 time.sleep(retry_backoff_sec * attempt)
 

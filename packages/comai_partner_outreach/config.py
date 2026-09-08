@@ -117,7 +117,8 @@ def _scalar(value: str) -> Any:
 class PartnerOutreachConfig:
     video_url: str = "https://comai.in"
     thumbnail_url: str = ""
-    cta_label: str = "Watch 2-min partner walkthrough"
+    logo_url: str = ""
+    cta_label: str = "Watch COM sell on WhatsApp (2 min)"
     commission_pct: int = 15
     trial_days: int = 10
     referral_bonus_inr: int = 200
@@ -217,6 +218,7 @@ def load_config(path: Path | None = None) -> PartnerOutreachConfig:
         raw = _resolve_env(_load_yaml(cfg_path))
 
     video = raw.get("video") or {}
+    brand = raw.get("brand") or {}
     economics = raw.get("economics") or {}
     links = raw.get("links") or {}
     safety = raw.get("send_safety") or {}
@@ -225,13 +227,27 @@ def load_config(path: Path | None = None) -> PartnerOutreachConfig:
     angles = raw.get("partner_type_angles") or {}
     competitors = raw.get("competitor_domains") or []
 
-    video_url = (video.get("url") or "").strip() or os.getenv("COMAI_PARTNER_VIDEO_URL", "") or "https://comai.in"
-    thumb = (video.get("thumbnail_url") or "").strip() or os.getenv("COMAI_PARTNER_VIDEO_THUMB", "")
+    video_url = (
+        (video.get("url") or "").strip()
+        or os.getenv("COMAI_PARTNER_VIDEO_URL", "")
+        or "https://comai.in"
+    )
+    thumb = (
+        (video.get("thumbnail_url") or "").strip()
+        or os.getenv("COMAI_PARTNER_VIDEO_THUMB", "")
+        or str(brand.get("default_thumbnail_url") or "")
+    )
+    logo = (
+        (brand.get("logo_url") or "").strip()
+        or os.getenv("COMAI_PARTNER_LOGO_URL", "")
+        or str(brand.get("default_logo_url") or "")
+    )
 
     return PartnerOutreachConfig(
         video_url=video_url,
         thumbnail_url=thumb,
-        cta_label=str(video.get("cta_label") or "Watch 2-min partner walkthrough"),
+        logo_url=logo,
+        cta_label=str(video.get("cta_label") or "Watch COM sell on WhatsApp (2 min)"),
         commission_pct=int(economics.get("commission_pct") or 15),
         trial_days=int(economics.get("trial_days") or 10),
         referral_bonus_inr=int(economics.get("referral_bonus_inr") or 200),
@@ -242,12 +258,16 @@ def load_config(path: Path | None = None) -> PartnerOutreachConfig:
         from_email=str(links.get("from_email") or "vansh@inowix.in"),
         signoff_title=str(links.get("signoff_title") or "COMAI"),
         utm={str(k): str(v) for k, v in (links.get("utm") or {}).items()},
-        max_per_hour=int(safety.get("max_per_hour") or 20),
-        max_per_day=int(safety.get("max_per_day") or 80),
-        min_seconds_between_sends=int(safety.get("min_seconds_between_sends") or 45),
-        business_start_hour=int(hours.get("start_hour") or 9),
-        business_end_hour=int(hours.get("end_hour") or 19),
-        weekdays_only=bool(hours.get("weekdays_only", True)),
+        max_per_hour=int(safety.get("max_per_hour") if safety.get("max_per_hour") is not None else 20),
+        max_per_day=int(safety.get("max_per_day") if safety.get("max_per_day") is not None else 80),
+        min_seconds_between_sends=int(
+            safety.get("min_seconds_between_sends")
+            if safety.get("min_seconds_between_sends") is not None
+            else 45
+        ),
+        business_start_hour=int(hours["start_hour"]) if "start_hour" in hours else 9,
+        business_end_hour=int(hours["end_hour"]) if "end_hour" in hours else 19,
+        weekdays_only=bool(hours["weekdays_only"]) if "weekdays_only" in hours else True,
         max_send_retries=int(safety.get("max_send_retries") or 3),
         sequence_steps=list(sequence.get("steps") or [
             {"step": "intro", "day_offset": 0},

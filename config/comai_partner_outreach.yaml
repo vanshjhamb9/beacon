@@ -5,8 +5,13 @@ description: "Excel upload → hyperpersonalized agency partner emails → auto-
 video:
   url: "${COMAI_PARTNER_VIDEO_URL}"
   thumbnail_url: "${COMAI_PARTNER_VIDEO_THUMB}"
-  cta_label: "Watch 2-min partner walkthrough"
+  cta_label: "Watch COM sell on WhatsApp (2 min)"
   fallback_url: "https://comai.in"
+
+brand:
+  logo_url: "${COMAI_PARTNER_LOGO_URL}"
+  default_logo_url: "https://res.cloudinary.com/drxu02bbp/image/upload/v1785956926/2-removebg-preview_2_v8czqo.png"
+  default_thumbnail_url: "https://comai.in/opengraph-image?a8d5ca28a145d97f"
 
 economics:
   commission_pct: 15
@@ -28,13 +33,13 @@ links:
 send_safety:
   kill_switch_env: COMAI_PARTNER_OUTREACH_ENABLED
   dry_run_env: COMAI_PARTNER_OUTREACH_DRY_RUN
-  max_per_hour: 20
-  max_per_day: 80
-  min_seconds_between_sends: 45
+  max_per_hour: 40
+  max_per_day: 120
+  min_seconds_between_sends: 20
   business_hours_ist:
-    start_hour: 9
-    end_hour: 19
-    weekdays_only: true
+    start_hour: 0
+    end_hour: 24
+    weekdays_only: false
   max_send_retries: 3
 
 sequence:

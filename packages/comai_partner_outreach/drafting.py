@@ -1,4 +1,4 @@
-"""Hyperpersonalized COMAI partner outreach drafts with hosted video CTA."""
+"""Hyperpersonalized COMAI partner outreach drafts with branded HTML + video CTA."""
 
 from __future__ import annotations
 
@@ -6,8 +6,25 @@ import html
 import re
 from dataclasses import dataclass
 from typing import Any
+from urllib.parse import parse_qs, urlparse
 
 from comai_partner_outreach.config import PartnerOutreachConfig
+
+# Public brand assets (hosted — works in Gmail/Outlook img tags)
+DEFAULT_LOGO_URL = (
+    "https://res.cloudinary.com/drxu02bbp/image/upload/v1785956926/"
+    "2-removebg-preview_2_v8czqo.png"
+)
+DEFAULT_OG_IMAGE = "https://comai.in/opengraph-image?a8d5ca28a145d97f"
+
+# Brand palette — charcoal + emerald (email-safe inline CSS)
+_INK = "#0f172a"
+_MUTED = "#64748b"
+_LINE = "#e2e8f0"
+_SURFACE = "#f8fafc"
+_ACCENT = "#059669"
+_ACCENT_DARK = "#047857"
+_WHITE = "#ffffff"
 
 
 @dataclass
@@ -47,7 +64,6 @@ def _observation(lead: dict[str, Any], config: PartnerOutreachConfig) -> str:
     city = str(lead.get("city") or "").strip()
     agency = _agency(lead)
 
-    # Never invent client names — only use provided evidence.
     if notes:
         return notes[:220]
     if clients:
@@ -82,80 +98,250 @@ def _packaging_line(agency_type: str) -> str:
             "Recommend COMAI as an implementation partner for clients who need WhatsApp "
             "sales/support automation — you stay advisory; recurring commission follows."
         )
+    if "marketing" in key or "performance" in key or "growth" in key:
+        return (
+            "When your ads create WhatsApp / DM intent, package COMAI as the conversion layer: "
+            "you keep media + strategy; COMAI answers, qualifies, and follows up 24/7 — "
+            "you earn recurring commission on every subscribed client."
+        )
     return (
         "Resell or white-label COMAI into your existing client book: introduce → we demo & onboard → "
         "client subscribes → you earn recurring commission."
     )
 
 
-def _video_html_block(config: PartnerOutreachConfig) -> str:
-    url = html.escape(config.video_url or config.partner_page_with_utm())
-    label = html.escape(config.cta_label or "Watch partner walkthrough")
+def _youtube_id(url: str) -> str | None:
+    if not url:
+        return None
+    parsed = urlparse(url)
+    host = (parsed.netloc or "").lower()
+    if "youtu.be" in host:
+        vid = parsed.path.strip("/").split("/")[0]
+        return vid or None
+    if "youtube.com" in host:
+        qs = parse_qs(parsed.query)
+        if qs.get("v"):
+            return qs["v"][0]
+        parts = [p for p in parsed.path.split("/") if p]
+        if len(parts) >= 2 and parts[0] in ("embed", "shorts", "live"):
+            return parts[1]
+    return None
+
+
+def _logo_url(config: PartnerOutreachConfig) -> str:
+    raw = getattr(config, "logo_url", "") or ""
+    raw = str(raw).strip()
+    return raw or DEFAULT_LOGO_URL
+
+
+def _thumb_url(config: PartnerOutreachConfig) -> str:
     thumb = (config.thumbnail_url or "").strip()
     if thumb:
-        thumb_tag = (
-            f'<a href="{url}" style="display:inline-block;text-decoration:none">'
-            f'<img src="{html.escape(thumb)}" alt="{label}" width="480" '
-            f'style="max-width:100%;border-radius:8px;display:block;border:0"/>'
-            f"</a>"
-        )
-    else:
-        thumb_tag = (
-            f'<a href="{url}" style="display:inline-block;background:#111;color:#fff;'
-            f'padding:14px 22px;border-radius:8px;text-decoration:none;font-weight:600">'
-            f"▶ {label}</a>"
-        )
-    return (
-        '<table role="presentation" cellpadding="0" cellspacing="0" '
-        'style="margin:18px 0;width:100%"><tr><td style="padding:0">'
-        f"{thumb_tag}"
-        f'<p style="margin:10px 0 0;font-size:13px;color:#555">'
-        f'<a href="{url}" style="color:#0b57d0;text-decoration:underline">{label}</a>'
-        f"</p></td></tr></table>"
-    )
+        return thumb
+    yt = _youtube_id(config.video_url or "")
+    if yt:
+        return f"https://img.youtube.com/vi/{yt}/hqdefault.jpg"
+    return DEFAULT_OG_IMAGE
 
 
 def _video_text_line(config: PartnerOutreachConfig) -> str:
     return f"{config.cta_label}: {config.video_url or config.partner_page_with_utm()}"
 
 
-def _economics_bullets(config: PartnerOutreachConfig) -> list[str]:
-    return [
-        f"**{config.commission_pct}% recurring commission** every month after the client subscribes",
-        f"**{config.trial_days}-day free trial** for your clients",
-        f"**₹{config.referral_bonus_inr} bonus** after successfully bringing {config.referral_bonus_threshold} businesses",
-        "Product, demo & onboarding support from our team",
-        "A new recurring-revenue service to offer your existing clients",
+def _video_card(config: PartnerOutreachConfig) -> str:
+    url = html.escape(config.video_url or config.partner_page_with_utm())
+    label = html.escape(config.cta_label or "Watch the 2-min partner walkthrough")
+    thumb = html.escape(_thumb_url(config))
+    return f"""
+<table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:20px 0;border-collapse:collapse">
+  <tr>
+    <td style="border:1px solid {_LINE};border-radius:12px;overflow:hidden;background:{_INK}">
+      <a href="{url}" style="display:block;text-decoration:none" target="_blank">
+        <img src="{thumb}" alt="{label}" width="552"
+             style="display:block;width:100%;max-width:552px;height:auto;border:0"/>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+          <tr>
+            <td style="padding:14px 18px">
+              <table role="presentation" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="background:{_ACCENT};color:{_WHITE};font-family:Arial,Helvetica,sans-serif;
+                             font-weight:700;font-size:13px;padding:10px 16px;border-radius:8px">
+                    ▶ Watch now
+                  </td>
+                  <td style="padding-left:14px;font-family:Arial,Helvetica,sans-serif;
+                             font-size:14px;color:#e2e8f0;line-height:1.45">
+                    {label}<br/>
+                    <span style="font-size:12px;color:#94a3b8">Opens in browser · ~2 minutes</span>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </a>
+    </td>
+  </tr>
+</table>
+""".strip()
+
+
+def _cta_button(url: str, label: str) -> str:
+    safe_url = html.escape(url)
+    safe_label = html.escape(label)
+    return f"""
+<table role="presentation" cellpadding="0" cellspacing="0" style="margin:8px 0 4px">
+  <tr>
+    <td style="background:{_ACCENT};border-radius:8px">
+      <a href="{safe_url}" target="_blank"
+         style="display:inline-block;padding:12px 22px;font-family:Arial,Helvetica,sans-serif;
+                font-size:14px;font-weight:700;color:{_WHITE};text-decoration:none">
+        {safe_label}
+      </a>
+    </td>
+  </tr>
+</table>
+""".strip()
+
+
+def _economics_row(config: PartnerOutreachConfig) -> str:
+    cells = [
+        (f"{config.commission_pct}%", "recurring commission"),
+        (f"{config.trial_days}-day", "client free trial"),
+        (f"₹{config.referral_bonus_inr}", f"after {config.referral_bonus_threshold} wins"),
     ]
-
-
-def _text_to_html(text: str, config: PartnerOutreachConfig) -> str:
-    """Convert plain draft text to simple HTML and inject video block before sign-off."""
-    parts = [p.strip() for p in text.strip().split("\n\n") if p.strip()]
-    blocks: list[str] = []
-    video_injected = False
-    for p in parts:
-        # Detect sign-off start
-        if not video_injected and p.lower().startswith("best,"):
-            blocks.append(_video_html_block(config))
-            video_injected = True
-        escaped = html.escape(p).replace("\n", "<br/>")
-        escaped = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", escaped)
-        blocks.append(
-            f"<p style='margin:0 0 14px;line-height:1.55;font-size:15px;color:#111'>{escaped}</p>"
+    parts: list[str] = []
+    for i, (v, l) in enumerate(cells):
+        border = f"border-right:1px solid {_LINE};" if i < len(cells) - 1 else ""
+        parts.append(
+            f"""<td width="33%" valign="top" style="padding:12px 10px;text-align:center;{border}">
+          <div style="font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:700;
+                      color:{_ACCENT_DARK};line-height:1.2">{html.escape(v)}</div>
+          <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:{_MUTED};
+                      margin-top:4px;line-height:1.35">{html.escape(l)}</div>
+        </td>"""
         )
-    if not video_injected:
-        # Insert before last paragraph if possible
-        if len(blocks) >= 2:
-            blocks.insert(-1, _video_html_block(config))
-        else:
-            blocks.append(_video_html_block(config))
-    unsub = (
-        "<p style='margin:24px 0 0;font-size:12px;color:#888'>"
-        "If this isn’t relevant, reply “unsubscribe” and we won’t follow up."
-        "</p>"
-    )
-    return "".join(blocks) + unsub
+    return f"""
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+       style="margin:18px 0;background:{_SURFACE};border:1px solid {_LINE};border-radius:10px">
+  <tr>{''.join(parts)}</tr>
+</table>
+""".strip()
+
+
+def _render_partner_html(
+    *,
+    greeting: str,
+    headline: str,
+    paragraphs: list[str],
+    config: PartnerOutreachConfig,
+    agency: str,
+    include_video: bool = True,
+    include_economics: bool = True,
+    cta_label: str = "See how the partner offer works",
+) -> str:
+    logo = html.escape(_logo_url(config))
+    partner_url = html.escape(config.partner_page_with_utm())
+    video_url = config.video_url or config.partner_page_with_utm()
+
+    body_bits: list[str] = []
+    for p in paragraphs:
+        if not p.strip():
+            continue
+        # Skip raw video URL lines — replaced by visual card / button
+        if _video_text_line(config) in p or (
+            config.video_url and config.video_url in p and p.lower().startswith("watch")
+        ):
+            continue
+        if p.startswith(config.cta_label):
+            continue
+        escaped = html.escape(p).replace("\n", "<br/>")
+        escaped = re.sub(r"\*\*(.+?)\*\*", r"<strong style='color:" + _INK + r"'>\1</strong>", escaped)
+        body_bits.append(
+            f"<p style='margin:0 0 14px;line-height:1.65;font-size:15px;"
+            f"font-family:Arial,Helvetica,sans-serif;color:{_INK}'>{escaped}</p>"
+        )
+
+    video_block = _video_card(config) if include_video else ""
+    econ_block = _economics_row(config) if include_economics else ""
+    cta_block = _cta_button(video_url, cta_label)
+
+    return f"""<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>COMAI Partner</title>
+</head>
+<body style="margin:0;padding:0;background:#eef2f7">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#eef2f7;padding:28px 12px">
+    <tr><td align="center">
+      <table role="presentation" width="600" cellpadding="0" cellspacing="0"
+             style="width:100%;max-width:600px;background:{_WHITE};border-radius:14px;
+                    overflow:hidden;border:1px solid {_LINE};box-shadow:0 8px 24px rgba(15,23,42,0.06)">
+        <!-- Header -->
+        <tr>
+          <td style="background:{_INK};padding:20px 28px">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td>
+                  <a href="{partner_url}" style="text-decoration:none">
+                    <img src="{logo}" alt="COMAI" height="34"
+                         style="display:block;height:34px;width:auto;border:0;max-width:150px"/>
+                  </a>
+                </td>
+                <td align="right" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;
+                                        color:#94a3b8;letter-spacing:0.08em;font-weight:600">
+                  PARTNER PROGRAM
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- Accent bar -->
+        <tr><td style="height:3px;background:{_ACCENT};font-size:0;line-height:0">&nbsp;</td></tr>
+        <!-- Body -->
+        <tr>
+          <td style="padding:28px 28px 8px">
+            <p style="margin:0 0 6px;font-family:Arial,Helvetica,sans-serif;font-size:12px;
+                      color:{_MUTED};letter-spacing:0.04em;text-transform:uppercase">
+              For {html.escape(agency)}
+            </p>
+            <p style="margin:0 0 18px;font-family:Arial,Helvetica,sans-serif;font-size:15px;
+                      color:{_INK};line-height:1.5">{html.escape(greeting)}</p>
+            <h1 style="margin:0 0 16px;font-family:Arial,Helvetica,sans-serif;font-size:22px;
+                       font-weight:700;color:{_INK};line-height:1.35">
+              {html.escape(headline)}
+            </h1>
+            {''.join(body_bits)}
+            {video_block}
+            {econ_block}
+            <p style="margin:4px 0 8px;font-family:Arial,Helvetica,sans-serif;font-size:14px;
+                      color:{_MUTED}">Ready when you are:</p>
+            {cta_block}
+            <p style="margin:22px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;
+                      color:{_INK};line-height:1.55">
+              Best,<br/>
+              <strong>{html.escape(config.from_name)}</strong><br/>
+              <span style="color:{_MUTED};font-size:13px">{html.escape(config.signoff_title or "COMAI")}</span>
+            </p>
+          </td>
+        </tr>
+        <!-- Footer -->
+        <tr>
+          <td style="padding:18px 28px 24px;border-top:1px solid {_LINE}">
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;
+                      color:#94a3b8;line-height:1.5">
+              If this isn’t relevant, reply “unsubscribe” and we won’t follow up.<br/>
+              <a href="{partner_url}" style="color:{_ACCENT_DARK};text-decoration:none">comai.in</a>
+              · Partner economics · Demo &amp; onboarding handled by us
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>"""
 
 
 def draft_partner_intro(lead: dict[str, Any], config: PartnerOutreachConfig) -> PartnerDraft:
@@ -163,43 +349,67 @@ def draft_partner_intro(lead: dict[str, Any], config: PartnerOutreachConfig) -> 
     greet = f"Hi {first}," if first else "Hi there,"
     agency = _agency(lead)
     hook = _observation(lead, config)
-    bullets = "\n".join(f"• {b}" for b in _economics_bullets(config))
-    packaging = _packaging_line(str(lead.get("agency_type") or ""))
     partner_url = config.partner_page_with_utm()
-    video_line = _video_text_line(config)
+    agency_type = str(lead.get("agency_type") or "")
 
-    subject = f"{agency} × COMAI Partner Program — recurring WhatsApp AI revenue"
-    body = f"""{greet}
+    hook_short = hook.rstrip(".")
+    if len(hook_short) > 150:
+        hook_short = hook_short[:147].rstrip() + "…"
 
-{hook}.
+    # Attention-grabbing but professional subjects
+    if "video" in agency_type.lower() or "creative" in agency_type.lower():
+        subject = f"{agency}: turn creative demand into WhatsApp revenue"
+    elif "marketing" in agency_type.lower() or "performance" in agency_type.lower():
+        subject = f"{agency} — close more of the leads your ads already create"
+    elif "shopify" in agency_type.lower() or "web" in agency_type.lower():
+        subject = f"A recurring WhatsApp layer for {agency}'s clients"
+    else:
+        subject = f"Partner idea for {agency}: {config.commission_pct}% recurring"
 
-We're inviting agencies, consultants and business partners like {agency} to join the **COMAI Partner Program**.
+    headline = f"Give {agency}'s clients a WhatsApp closer — earn {config.commission_pct}% recurring"
+    packaging = _packaging_line(agency_type)
 
-With COMAI, you can offer your clients an AI-powered solution for **WhatsApp lead management, customer support, automated follow-ups, product recommendations and sales automation**—without building or maintaining the technology yourself.
+    body_text = f"""{greet}
 
-**How it works:**
-You introduce COMAI → We demo & onboard the client → Client subscribes → **You earn {config.commission_pct}% recurring commission every month.**
+{hook_short}.
+
+COMAI is the WhatsApp AI layer agencies package for clients: instant replies, qualification, and follow-ups — without building or maintaining the tech.
 
 {packaging}
 
-You also get:
-{bullets}
+Partner economics: {config.commission_pct}% recurring · {config.trial_days}-day client trial · ₹{config.referral_bonus_inr} after {config.referral_bonus_threshold} businesses · we handle demo & onboarding.
 
-{video_line}
-
-If you already work with businesses that receive leads or customer enquiries on WhatsApp, COMAI can be a simple add-on to your existing services.
-
-Would be happy to discuss the partnership and identify a few potential clients together.
+Worth a 2-minute look?
+{_video_text_line(config)}
 
 Best,
 {config.from_name}
-{config.signoff_title}
+{config.signoff_title or "COMAI"}
 {partner_url}"""
+
+    body_html = _render_partner_html(
+        greeting=greet,
+        headline=headline,
+        paragraphs=[
+            f"{hook_short}.",
+            (
+                f"COMAI is the WhatsApp AI layer agencies like **{agency}** package for clients: "
+                "instant replies, qualification, and follow-ups — without building the tech."
+            ),
+            packaging,
+            "You introduce → we demo & onboard → client subscribes → you earn every month.",
+        ],
+        config=config,
+        agency=agency,
+        include_video=True,
+        include_economics=True,
+        cta_label="Watch the 2-min partner walkthrough",
+    )
 
     return PartnerDraft(
         subject=subject,
-        body_text=body.strip(),
-        body_html=_text_to_html(body, config),
+        body_text=body_text.strip(),
+        body_html=body_html,
         step="intro",
         hook_used=hook[:160],
     )
@@ -210,12 +420,12 @@ def draft_partner_fu1(lead: dict[str, Any], config: PartnerOutreachConfig) -> Pa
     greet = f"Hi {first}," if first else "Hi there,"
     agency = _agency(lead)
     video_line = _video_text_line(config)
-    subject = f"Re: {agency} × COMAI Partner Program"
+    subject = f"Re: {agency} × COMAI — still worth a look?"
     body = f"""{greet}
 
-Quick follow-up on the COMAI Partner Program note.
+Quick follow-up on the COMAI Partner note for {agency}.
 
-If helpful, this short walkthrough shows how agencies resell WhatsApp AI to their clients and earn {config.commission_pct}% recurring commission:
+If useful, this short walkthrough shows how agencies resell WhatsApp AI and earn {config.commission_pct}% recurring:
 {video_line}
 
 Happy to map 2–3 of {agency}'s clients who could trial it ({config.trial_days}-day free trial).
@@ -223,10 +433,26 @@ Happy to map 2–3 of {agency}'s clients who could trial it ({config.trial_days}
 Best,
 {config.from_name}
 {config.signoff_title}"""
+    body_html = _render_partner_html(
+        greeting=greet,
+        headline=f"Still thinking about a WhatsApp offer for {agency}'s clients?",
+        paragraphs=[
+            (
+                f"This short walkthrough shows how agencies resell WhatsApp AI and earn "
+                f"**{config.commission_pct}% recurring** — we handle demo and onboarding."
+            ),
+            f"Happy to map 2–3 of {agency}'s clients who could start a {config.trial_days}-day trial.",
+        ],
+        config=config,
+        agency=agency,
+        include_video=True,
+        include_economics=True,
+        cta_label="Watch the walkthrough",
+    )
     return PartnerDraft(
         subject=subject,
         body_text=body.strip(),
-        body_html=_text_to_html(body, config),
+        body_html=body_html,
         step="fu1",
         hook_used="followup_bump",
     )
@@ -237,7 +463,7 @@ def draft_partner_fu2(lead: dict[str, Any], config: PartnerOutreachConfig) -> Pa
     greet = f"Hi {first}," if first else "Hi there,"
     agency = _agency(lead)
     packaging = _packaging_line(str(lead.get("agency_type") or ""))
-    subject = f"{agency} — packaging COMAI as a recurring service line"
+    subject = f"{agency}: one clean way to package COMAI"
     body = f"""{greet}
 
 One practical way partners use COMAI:
@@ -254,10 +480,28 @@ Best,
 {config.from_name}
 {config.signoff_title}
 {config.partner_page_with_utm()}"""
+    body_html = _render_partner_html(
+        greeting=greet,
+        headline=f"Package COMAI as a recurring line for {agency}",
+        paragraphs=[
+            packaging,
+            (
+                f"Economics stay simple: **{config.commission_pct}% recurring**, "
+                f"{config.trial_days}-day client trial, and ₹{config.referral_bonus_inr} after "
+                f"{config.referral_bonus_threshold} successful referrals. We handle demo and onboarding."
+            ),
+            "Open to a 15-minute partner intro this week?",
+        ],
+        config=config,
+        agency=agency,
+        include_video=True,
+        include_economics=True,
+        cta_label="Book a quick partner intro",
+    )
     return PartnerDraft(
         subject=subject,
         body_text=body.strip(),
-        body_html=_text_to_html(body, config),
+        body_html=body_html,
         step="fu2",
         hook_used="value_packaging",
     )
@@ -278,10 +522,25 @@ Best,
 {config.from_name}
 {config.signoff_title}
 {config.partner_page_with_utm()}"""
+    body_html = _render_partner_html(
+        greeting=greet,
+        headline="Closing the loop for now",
+        paragraphs=[
+            (
+                f"If later you want a WhatsApp AI offer for {agency}'s clients with "
+                f"**{config.commission_pct}% recurring commission**, just reply — no pressure."
+            ),
+        ],
+        config=config,
+        agency=agency,
+        include_video=False,
+        include_economics=False,
+        cta_label="Visit comai.in",
+    )
     return PartnerDraft(
         subject=subject,
         body_text=body.strip(),
-        body_html=_text_to_html(body, config),
+        body_html=body_html,
         step="final",
         hook_used="breakup",
     )

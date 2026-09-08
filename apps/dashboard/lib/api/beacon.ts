@@ -2473,8 +2473,25 @@ export const partnerOutreachApi = {
     apiPost<PartnerOutreachCampaign>(`/partner-outreach/campaigns/${id}/kill`, {}),
   resumeCampaign: (id: string) =>
     apiPost<PartnerOutreachCampaign>(`/partner-outreach/campaigns/${id}/resume`, {}),
-  processCampaign: (id: string, max_sends = 25) =>
-    apiPost<Record<string, unknown>>(`/partner-outreach/campaigns/${id}/process`, {
+  clearCampaigns: () =>
+    apiPost<{ cleared: boolean; campaigns_removed: number }>(
+      "/partner-outreach/campaigns/clear",
+      {},
+    ),
+  processCampaign: (id: string, max_sends = 100) =>
+    apiPost<{
+      campaign_id: string;
+      status: string;
+      sent: number;
+      failed: number;
+      held?: number;
+      held_reason?: string;
+      dry_run?: boolean;
+      enabled?: boolean;
+      remaining?: number;
+      total_leads?: number;
+      message?: string;
+    }>(`/partner-outreach/campaigns/${id}/process`, {
       max_sends,
     }),
   getLeads: (id: string, stage?: string) => {

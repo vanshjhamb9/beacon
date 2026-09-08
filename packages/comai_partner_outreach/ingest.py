@@ -16,7 +16,23 @@ from comai_partner_outreach.config import PartnerOutreachConfig
 from comai_partner_outreach.types import PartnerLead, new_id, now_iso
 
 COLUMN_ALIASES: dict[str, tuple[str, ...]] = {
-    "email": ("email", "work email", "work_email", "e-mail", "mail"),
+    "email": (
+        "email",
+        "work email",
+        "work_email",
+        "e-mail",
+        "mail",
+        "founder email",
+        "founder_email",
+        "primary email",
+        "primary_email",
+        "contact email",
+        "contact_email",
+        "general email",
+        "general_email",
+        "business email",
+        "emails",
+    ),
     "first_name": ("first name", "first_name", "firstname", "founder first", "fname"),
     "last_name": ("last name", "last_name", "lastname", "surname", "lname"),
     "agency_name": (
@@ -24,21 +40,58 @@ COLUMN_ALIASES: dict[str, tuple[str, ...]] = {
         "agency_name",
         "company",
         "company name",
+        "company_name",
         "business name",
         "agency",
         "organization",
         "organisation",
     ),
-    "agency_type": ("agency type", "agency_type", "type", "category", "partner type", "vertical"),
+    "agency_type": (
+        "agency type",
+        "agency_type",
+        "type",
+        "category",
+        "partner type",
+        "vertical",
+        "industry",
+        "job title",
+        "job_title",
+    ),
     "website": ("website", "url", "agency url", "agency_url", "site", "web"),
     "domain": ("domain", "website domain"),
     "city": ("city", "location", "hq"),
-    "phone": ("phone", "mobile", "whatsapp", "contact number", "phone number"),
+    "phone": (
+        "phone",
+        "mobile",
+        "whatsapp",
+        "contact number",
+        "phone number",
+        "business phone",
+        "business_phone",
+        "phones",
+    ),
     "services": ("services", "service", "offerings"),
     "notes": ("notes", "note", "why", "angle", "observation", "comments"),
-    "linkedin_url": ("linkedin", "linkedin url", "linkedin_url"),
+    "linkedin_url": (
+        "linkedin",
+        "linkedin url",
+        "linkedin_url",
+        "linkedin person url",
+        "linkedin_person_url",
+    ),
     "client_examples": ("client examples", "clients", "client_examples", "portfolio"),
-    "founder_name": ("founder name", "founder_name", "contact name", "name", "full name"),
+    "founder_name": (
+        "founder name",
+        "founder_name",
+        "contact name",
+        "name",
+        "full name",
+    ),
+    # Extra email columns used as waterfall fallbacks
+    "founder_email": ("founder email", "founder_email"),
+    "general_email": ("general email", "general_email", "hello email", "info email"),
+    "support_email": ("support email", "support_email"),
+    "emails_blob": ("emails", "all emails", "email list"),
 }
 
 EMAIL_RE = re.compile(r"^[A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,}$", re.I)
@@ -62,7 +115,7 @@ def _map_headers(headers: list[str]) -> dict[str, int]:
     normalized = [_norm_header(h) for h in headers]
     for canonical, aliases in COLUMN_ALIASES.items():
         for idx, header in enumerate(normalized):
-            if header in aliases:
+            if header in aliases and canonical not in mapped:
                 mapped[canonical] = idx
                 break
     return mapped
@@ -73,6 +126,37 @@ def _cell(row: list[str], mapping: dict[str, int], key: str) -> str:
     if idx is None or idx >= len(row):
         return ""
     return str(row[idx] or "").strip()
+
+
+def _pick_email(row: list[str], mapping: dict[str, int]) -> str:
+    """Waterfall: email → founder_email → general_email → support → first in emails blob."""
+    for key in ("email", "founder_email", "general_email", "support_email"):
+        raw = _cell(row, mapping, key)
+        if not raw:
+            continue
+        for part in re.split(r"[;,\s]+", raw):
+            cand = part.strip().lower()
+            if cand and _valid_email(cand):
+                return cand
+    blob = _cell(row, mapping, "emails_blob")
+    for part in re.split(r"[;,\s]+", blob):
+        cand = part.strip().lower()
+        if cand and _valid_email(cand):
+            return cand
+    return ""
+
+
+def _normalize_agency_type(raw: str) -> str:
+    low = (raw or "").lower()
+    if any(k in low for k in ("video", "film", "production", "creative")):
+        return "video_production_agency"
+    if any(k in low for k in ("marketing", "growth", "performance", "ads", "media")):
+        return "performance_marketing_agency"
+    if any(k in low for k in ("web", "shopify", "development", "dev")):
+        return "website_development_agency"
+    if "consult" in low:
+        return "business_consultant"
+    return (raw or "marketing").strip() or "marketing"
 
 
 def _split_founder_name(full: str) -> tuple[str, str]:
@@ -195,21 +279,29 @@ def parse_tabular(
     seen_in_batch: set[str] = set()
     sent = {e.lower() for e in (already_sent or set())}
 
-    if "email" not in mapping:
-        result.errors.append({"row": 0, "error": "Missing required column: email"})
+    email_keys = ("email", "founder_email", "general_email", "support_email", "emails_blob")
+    if not any(k in mapping for k in email_keys):
+        result.errors.append(
+            {
+                "row": 0,
+                "error": "Missing required email column",
+                "hint": "Use email / founder_email / general_email / emails",
+                "headers_seen": headers[:20],
+            }
+        )
         result.skipped_rows = len(body)
         return result
 
     for i, row in enumerate(body, start=2):
         if not any(str(c).strip() for c in row):
             continue
-        email = _cell(row, mapping, "email").lower().strip()
+        email = _pick_email(row, mapping)
         first = _cell(row, mapping, "first_name")
         last = _cell(row, mapping, "last_name")
         if not first and "founder_name" in mapping:
             first, last = _split_founder_name(_cell(row, mapping, "founder_name"))
         agency = _cell(row, mapping, "agency_name")
-        agency_type = _cell(row, mapping, "agency_type")
+        agency_type = _normalize_agency_type(_cell(row, mapping, "agency_type"))
         website = _cell(row, mapping, "website")
         domain = _domain_from_email_or_website(email, website, _cell(row, mapping, "domain"))
 
@@ -242,7 +334,7 @@ def parse_tabular(
             website=website,
             domain=domain,
             city=_cell(row, mapping, "city"),
-            phone=_cell(row, mapping, "phone"),
+            phone=_cell(row, mapping, "phone").split(";")[0].strip(),
             services=_cell(row, mapping, "services"),
             notes=_cell(row, mapping, "notes"),
             linkedin_url=_cell(row, mapping, "linkedin_url"),
